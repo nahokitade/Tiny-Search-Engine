@@ -53,37 +53,50 @@ int main(int argc, char* argv[])
 	CURL *curl;
 	int docID = 1;
 	int depth = 0;
+	char *dirName;
 	int assertInt(const char* const str, long *val);
 
 	// check command line arguments
-	if(argc != 3){
-		fprintf(stderr, "USAGE err1.")
+	if(argc != 4){ // need exactly 4 args
+		fprintf(stderr, "USAGE err1.");
 		return 0;
 	}
 
+
+	// need to assert that first argument is a string!!!!!!!!!
+
+
+	// need prefix of the url given to be the URL_PREFIX
 	if((strncmp(argv[1], URL_PREFIX, strlen(URL_PREFIX))) == 0){
-		fprintf(stderr, "USAGE err6.")
+		fprintf(stderr, "USAGE err6.");
                 return 0;
         }
 	
 	struct stat givDir;
+	// checks if the given "directory" exisits at all
 	if(stat(argv[2], &givDir) == -1){
-		fprintf(stderr, "USAGE err2.")
+		fprintf(stderr, "USAGE err2.");
                 return 0;
 	} 
 
+	// checks if the given "directoru" is a directory.
 	if(!(S_ISDIR(givDir.st_mode))){
-		fprintf(stderr, "USAGE err3.")
-                return 0;
-	}
-	
-	if(!(assertInt(argv[3], &searchDepth))){
-		fprintf(stderr, "USAGE err4.")
+		fprintf(stderr, "USAGE err3.");
                 return 0;
 	}
 
+	dirName = argv[2];
+	
+	// make sure that the third argument is an int.
+	if(!(assertInt(argv[3], &searchDepth))){
+		fprintf(stderr, "USAGE err4.");
+                return 0;
+	}
+
+	// make sure that search depth is not greater than MAX_DEPTH
+	// and larger than 0.
 	if(*searchDepth > MAX_DEPTH || *searchDepth < 0){
-		fprintf(stderr, "USAGE err5.")
+		fprintf(stderr, "USAGE err5.");
                 return 0;
 	}
 
@@ -92,29 +105,36 @@ int main(int argc, char* argv[])
 	curl_global_init(CURL_GLOBAL_ALL);
 
 	// setup seed page
-	if((WebPage* source = malloc(sizeof(WebPage))) == NULL) return 0;
-	if((char *urlGiven = malloc(sizeof(argv[1]))) == NULL) return 0;
+	WebPage* source; // make webpage for source
+	source = calloc(1, sizeof(WebPage));
+	if(!source) return 0;
+
+	char *urlGiven; // allocate memory for the url to be stored in hash
+	urlGiven  = calloc(strlen(argv[1]), sizeof(char));
+	if(!urlGiven) return 0;
+
+	// Set the depth and url of the WebPage
 	source->url = urlGiven;
 	source->depth = depth;
 	depth++;
 	
 	// get seed webpage
-	if(GetWebpage(page)){ //PROBLEM HERE!!!!!
+	if(GetWebpage(source)){ 
 		// write seed file
-		FILE *file;
-		file = fopen("%argv[1]/%docID", "a+");
-		fprintf(file,"%s/n%d/n%s", page->url, page->depth, page->html);
-		fclose(file);
+		if(!(writePage(source, dirName, &docID)){
+			fprintf(stderr, "No space to allocate filename.");
+			return 0;
+		}
 	}
 	else{
-		fprintf(stderr, "USAGE err5.")
+		fprintf(stderr, "USAGE err5.");
 		return 0;
 	}
 
 
 	// add seed page to hashtable
-	if((HashTable *hashTable = CreateNew()) = NULL) return 0;
-	HashAdd(source.url, hashTable);
+	if((HashTable *hashTable = CreateNew()) == NULL) return 0;
+	HashAdd(source->url, hashTable);
 
 	// extract urls from seed page
 	int pos = 0;
@@ -122,27 +142,51 @@ int main(int argc, char* argv[])
  	char *base_url = URL_PREFIX;
  	List *URLList = CreateDLL();
 	
- 	while((pos = GetNextURL(source.url, pos, base_url, &result) > 0) {
+ 	while((pos = GetNextURL(source->url, pos, base_url, &result) > 0) {
       		// DO SOMETHING WITH THE RESULT
 		if((MAXDEPTH >= (depth + 1)) && !(HashContains(result, hashTable))){
-			if((char *resultSave = malloc(sizeof(result))) == NULL) return NULL;
-			if((WebPage *pageAdd = malloc(sizeof(WebPage))) == NULL) return NULL;
+			if((char *resultSave = calloc(strlen(result), sizeof(char))) == NULL) return NULL;
+			if((WebPage *pageAdd = calloc(1, sizeof(WebPage))) == NULL) return NULL;
 			pageAdd->url = resultSave;
 			pageAdd->depth = depth + 1;
-			append(pageAdd, URLList);
+			appendDLL(pageAdd, URLList);
 		}
  	}
-	depth++;
+	pos = 0;
+	deleteWebPage(source);
+	depth++; // Dont think we need this??????
 
-	// while there are urls to crawl
+	while(!IsEmptyList(URLList)){
         	// get next url from list
+		WebPage *nextURL = removeTop(URLList);
 
         	// get webpage for url
-
-        	// write page file
+		if(GetWebpage(nextURL)){
+                	// write page file
+                	if(!(writePage(nextURL, dirName, &docID)){
+                        	fprintf(stderr, "No space to allocate filename.");
+                        	return 0;
+               	 	}
+        	}
+        	else{
+                	fprintf(stderr, "USAGE err5.");
+                	return 0;
+        	}
 
         	// extract urls from webpage
-
+		while((pos = GetNextURL(nextURL->url, pos, base_url, &result) > 0) {
+                	// DO SOMETHING WITH THE RESULT
+                	if((MAXDEPTH >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
+                        	if((char *resultSave = calloc(strlen(result), sizeof(char))) == NULL) return NULL;
+                        	if((WebPage *pageAdd = calloc(1, sizeof(WebPage))) == NULL) return NULL;
+                        	pageAdd->url = resultSave;
+               		        pageAdd->depth = depth + 1;
+                        	appendDLL(pageAdd, URLList);
+                	}
+        	}
+		pos = 0;
+		deleteWebPage(toFreeNode->page);
+	}
     	// cleanup curl
     	curl_global_cleanup();
 
@@ -157,4 +201,30 @@ int assertInt(const char* const str, long *val){
                 return 0;
         }
         else return 1;
+}
+
+
+int testDirSlash(const char *str){
+	if(!*str || !str) return 0;
+	return (str[strlen(str) - 1] == '/') ? 1 : 0;
+}
+
+int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr){
+	FILE *file;
+        //CALLOC HERE
+        char *fileName;
+        fileName = calloc((strlen(dirName) + 9), sizeof(char));
+        if(!fileName) return 0;
+
+        if(testDirSlash(argv[1])){
+                sprintf(fileName, "%s%d", *dirName, *docID);
+        }
+        else sprintf(fileName, "%s/%d", *dirName, *docID);
+
+        file = fopen(fileName, "a+");
+        (*docID)++;
+        fprintf(file,"%s/n%d/n%s", pageToWrite->url, pageToWrite->depth, pageToWrite->html);
+        free(fileName);
+        fclose(file);
+	return 1;
 }

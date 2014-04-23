@@ -29,49 +29,48 @@
 // ---------------- Private prototypes
 
 List *CreateDLL(){
-	if((List *newDLL = calloc(sizeof(List))) == NULL) return 0;		
-	newDLL->head = newDLL->head = NULL;
-	return newDLL
+	if((List *newDLL = calloc(1, sizeof(List))) == NULL) return 0;		
+	return newDLL;
 }
-
-
 
 
 /* add to linked list
  */
-int append(WebPage *webPage, List *linkedList){
+int appendDLL(WebPage *webPage, List *linkedList){
 	// allocate memory for the node to append.
-	if((ListNode *addNode = calloc(sizeof(ListNode))) == NULL) return 0;
+	if((ListNode *addNode = calloc(1, sizeof(ListNode))) == NULL) return 0;
 	addNode->page = *webPage; 
 	
 	// if both head and tail is NULL then this is an empty list, so set head and tail to the
 	// added node, and set the previous and next of the added node to NULL as it points to nothing
 	// yet.
-	if(linkedList->head == NULL || linkedList.tail == NULL){
-		addNode->prev = addNode->next = NULL;
-		linkedList->head = linkedList->tail = &addNode;
+	if(IsEmptyList(linkedList)){
+		linkedList->head = &addNode;
+		linkedList->tail = &addNode;
 		return 1; // return 1 on success
 	}
-	
 	else{ // if not the above case, the list is not empty
-		addNode->previous = linkedList.tail; // the previous of the adding node is the tail node
-		addNode->next = NULL; 		    // the next of the adding element is NULL 
+		addNode->previous = linkedList->tail; // the previous of the adding node is the tail node
 		addNode->previous->next = &addNode;   // link the tail element with the adding node 
 		linkedList->tail = &addNode;		    // the adding node is the new tail
 		return 1;
 	}
 }
 
-char *removeTop(List *linkedList){
-	if(linkedList->head == NULL || linkedlist.tail == NULL) return NULL;
-	char *temp = linkedList->head->page->url; //DOES THIS WORK????
-	ListNode *toFreeNode = linkedList->head;
+WebPage *removeTop(List *linkedList){
+	if(linkedList->head == NULL || linkedlist->tail == NULL) return NULL;
+	char *webTemp = linkedList->head->page; // DOES THIS WORK????
+	ListNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
+	linkedList->head = linkedList->head->next; // make the new head the one after current head
+	linkedList->head->prev = NULL; // make the new heads previous to NULL
 
-	linkedList->head = linkedList->head->next;
-	// HOW DO WE FREE THE MEMORYYY????
-	linkedList->head->prev = NULL;
-	return temp;
+	// MOVE SOMEWHERE ELSE deleteWebPage(toFreeNode->page); // function in common.c frees memory of WebPage struct
+	free(toFreeNode); // free memory of ListNode struct.
+
+	return webTemp;
 }
 
-
+int IsEmptyList(List *linkedList){
+	return (linkedList->head == NULL || linkedList->tail == NULL)? 1 : 0;
+}
 

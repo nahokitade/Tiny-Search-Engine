@@ -12,6 +12,7 @@
 #define COMMON_H
 
 // ---------------- Prerequisites e.g., Requires "math.h"
+//NEEDS stdlib.h
 
 // ---------------- Constants
 #define INTERVAL_PER_FETCH 1                 // seconds between fetches

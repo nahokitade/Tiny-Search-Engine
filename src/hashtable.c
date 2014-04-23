@@ -51,27 +51,27 @@ unsigned long JenkinsHash(const char *str, unsigned long mod)
 int i;
 
 HashTable *CreateNew(){
-	if((HashTable *hashP = calloc(sizeof(HashTable))) == NULL) return NULL;
+	if((HashTable *hashP = calloc(1, sizeof(HashTable))) == NULL) return NULL;
 	return hashP;
 }
 
 //WHERE TO ALLOCATE MEMORY? WHERE TO MALLOC??
 int HashAdd(const char *str, HashTable *hashTab){
-	if((HashTableNode *addNode = calloc(sizeof(HashTableNode))) == NULL) return 0;
+	if((HashTableNode *addNode = calloc(1, sizeof(HashTableNode))) == NULL) return 0;
 	addNode->url = str;
 	addNode->next = NULL; //CAN YOU ASSIGN ANYTHING TO NULL??
 	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
 	
-	HashTableNode *presentNode = hashTab[hashValue]; //TEST HERE.
+	HashTableNode *presentNode = hashTab->table[hashValue]; 
 
 	if(presentNode == NULL){
-		hashTab[hashValue] = addNode; // didn't find anything in slot, so add the current node at slot.
+		hashTab->table[hashValue] = addNode; // didn't find anything in slot, so add the current node at slot.
 	}
 	else{
 		// found something in the slot, so go down the list until the last element and 
 		// append 
 		while(presentNode->next != NULL){
-			presentNode = presentNode->next; // DO I NEED -> HERE????????
+			presentNode = presentNode->next; 
 		}
 		presentNode->next = addNode;
 	}
@@ -83,11 +83,12 @@ int HashAdd(const char *str, HashTable *hashTab){
  *   */
 int HashContains(const char *str, HashTable *hashTab){
 	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
+	HashTableNode *presentNode = hashTab->table[hashValue];
 	if(presentNode == NULL){
 		return 0;
         }
         else{
-                while(presentNode.next != NULL || strcmp(presentNode.url, *str) != 0){
+                while(presentNode->next != NULL || strcmp(presentNode->url, *str) != 0){
                         presentNode = presentNode->next;
                 }
                 return (presentNode != NULL)? 1 : 0;
@@ -98,14 +99,14 @@ int HashContains(const char *str, HashTable *hashTab){
 HashTableNode *DeleteNode(HashTableNode *toDelete){
 	HashTableNode nextTemp = toDelete->next;
 	free(toDelete->url);
-	free(toDelete->next);
+	free(toDelete); // AND THIS?
 	return nextTemp;
 }
 
 /* deletes a chain in one index */
 int DeleteIndexChain(HashTableNode *toDeleteHead){
 	while(toDeleteHead){
-		toDeleteHead = DeleteNode(toDeleteHead)
+		toDeleteHead = DeleteNode(toDeleteHead);
 	}
 	return 1;
 }
@@ -117,8 +118,8 @@ int DeleteHashTable(HashTable *hashTab){
 
 	int i;
 	for(i = 0; i <= MAX_HASH_SLOT; i++){
-		HashTableNode *toDeleteHead = hashTab[i];
-		if(!HashTableNode) continue;
+		HashTableNode *toDeleteHead = hashTab->table[i];
+		if(!toDeleteHead) continue;
 		DeleteIndexChain(toDeleteHead);
 	}
 	free(hashTab);

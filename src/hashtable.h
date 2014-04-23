@@ -56,6 +56,14 @@ int HashAdd(const char *str, HashTable hashTab);
  */
 int HashContains(const char *str, HashTable hashTab);
 
+/* deletes a single node in hash table */
+HashTableNode *DeleteNode(HashTableNode *toDelete);
+
+/* Delete a chain of nodes at a certain index of hash table */
+int DeleteIndexChain(HashTableNode *toDeleteHead);
+
+/* Delete the whole hash table */
+int DeleteHashTable(HashTable *hashTab);
 
 
 

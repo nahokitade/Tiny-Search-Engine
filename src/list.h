@@ -40,7 +40,7 @@ List *CreateDLL();
  * add to linked list
  *
  */
-int append(WebPage *webPage, List *linkedList);
+int appendDLL(WebPage *webPage, List *linkedList);
 
 /* remove from top of DLL
  */

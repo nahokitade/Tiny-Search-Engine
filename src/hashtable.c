@@ -26,7 +26,7 @@
 // ---------------- Structures/Types
 
 // ---------------- Private variables
-unsigned long tableSize = MAX_HASH_SLOT;
+
 // ---------------- Private prototypes
 
 unsigned long JenkinsHash(const char *str, unsigned long mod)
@@ -56,11 +56,11 @@ HashTable *CreateNew(){
 }
 
 //WHERE TO ALLOCATE MEMORY? WHERE TO MALLOC??
-int HashAdd(const char *str, HashTable hashTab){
+int HashAdd(const char *str, HashTable *hashTab){
 	if((HashTableNode *addNode = calloc(sizeof(HashTableNode))) == NULL) return 0;
 	addNode->url = str;
 	addNode->next = NULL; //CAN YOU ASSIGN ANYTHING TO NULL??
-	unsigned long hashValue = JenkinsHash(*str, tableSize);
+	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
 	
 	HashTableNode *presentNode = hashTab[hashValue]; //TEST HERE.
 
@@ -81,8 +81,8 @@ int HashAdd(const char *str, HashTable hashTab){
 /* see if a URL is already in hashtable
  *  * Returns 0 if the url is not containted,
  *   */
-int HashContains(const char *str, HashTable hashTab){
-	unsigned long hashValue = JenkinsHash(*str, tableSize);
+int HashContains(const char *str, HashTable *hashTab){
+	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
 	if(presentNode == NULL){
 		return 0;
         }
@@ -94,5 +94,35 @@ int HashContains(const char *str, HashTable hashTab){
         }
 }
 
+/* delete a node */
+HashTableNode *DeleteNode(HashTableNode *toDelete){
+	HashTableNode nextTemp = toDelete->next;
+	free(toDelete->url);
+	free(toDelete->next);
+	return nextTemp;
+}
+
+/* deletes a chain in one index */
+int DeleteIndexChain(HashTableNode *toDeleteHead){
+	while(toDeleteHead){
+		toDeleteHead = DeleteNode(toDeleteHead)
+	}
+	return 1;
+}
+
+
+/* delete whole hash table */
+int DeleteHashTable(HashTable *hashTab){
+	if(!hashTab) return 0;
+
+	int i;
+	for(i = 0; i <= MAX_HASH_SLOT; i++){
+		HashTableNode *toDeleteHead = hashTab[i];
+		if(!HashTableNode) continue;
+		DeleteIndexChain(toDeleteHead);
+	}
+	free(hashTab);
+	return 1;
+}
 
 }

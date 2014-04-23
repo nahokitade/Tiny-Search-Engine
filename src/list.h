@@ -33,4 +33,17 @@ typedef struct List {
 
 // ---------------- Prototypes/Macros
 
+/*create new DLL */
+List *CreateDLL();
+
+/*
+ * add to linked list
+ *
+ */
+int append(WebPage *webPage, List *linkedList);
+
+/* remove from top of DLL
+ */
+char *removeTop(List *linkedList);
+
 #endif // LIST_H

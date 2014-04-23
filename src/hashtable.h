@@ -32,6 +32,10 @@ typedef struct HashTable {
 
 // ---------------- Prototypes/Macros
 
+/* create a new hash table structure 
+ */
+HashTable *CreateNew();
+
 /*
  * jenkins_hash - Bob Jenkins' one_at_a_time hash function
  * @str: char buffer to hash
@@ -42,5 +46,17 @@ typedef struct HashTable {
  *     http://www.burtleburtle.net/bob/hash/doobs.html
  */
 unsigned long JenkinsHash(const char *str, unsigned long mod);
+
+/* adding to hashtable
+ */
+int HashAdd(const char *str, HashTable hashTab);
+
+/* see if a URL is already in hashtable 
+ * Returns 0 if the url is not containted, 
+ */
+int HashContains(const char *str, HashTable hashTab);
+
+
+
 
 #endif // HASHTABLE_H

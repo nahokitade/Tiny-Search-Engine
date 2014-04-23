@@ -12,8 +12,10 @@
 
 // ---------------- System includes e.g., <stdio.h>
 #include <string.h>                          // strlen
+#include <stdlib.h>
 
 // ---------------- Local includes  e.g., "file.h"
+#include "common.h"
 
 // ---------------- Constant definitions
 

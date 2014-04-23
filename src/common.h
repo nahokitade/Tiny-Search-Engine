@@ -17,7 +17,7 @@
 // ---------------- Constants
 #define INTERVAL_PER_FETCH 1                 // seconds between fetches
 
-#define MAX_DEPTH 10                         // don't want to go too far do
+#define MAX_DEPTH 4                        // don't want to go too far do
 
 // limit crawling to only this domain
 #define URL_PREFIX "http://old-www.cs.dartmouth.edu/~cs50/tse"
@@ -34,5 +34,8 @@ typedef struct WebPage {
 // ---------------- Public Variables
 
 // ---------------- Prototypes/Macros
+
+// Deletes web page but keeps url intact for Hash table.
+int deleteWebPage(WebPage *toDeleteWeb);
 
 #endif // COMMON_H

@@ -27,6 +27,9 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
+#include <string.h>
+#include <stdlib.h>
+
 // ---------------- Local includes  e.g., "file.h"
 #include "common.h"                          // common functionality
 #include "web.h"                             // curl and html functionality
@@ -35,7 +38,6 @@
 #include "utils.h"                           // utility stuffs
 
 // ---------------- Constant definitions
-#define MAX_DEPTH 4
 
 // ---------------- Macro definitions
 
@@ -49,12 +51,13 @@
 
 int main(int argc, char* argv[])
 {
-	long *searchDepth;
-	CURL *curl;
 	int docID = 1;
 	int depth = 0;
 	char *dirName;
+	char *sourceURL;
 	int assertInt(const char* const str, long *val);
+	int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr);
+	int testDirSlash(const char *str);
 
 	// check command line arguments
 	if(argc != 4){ // need exactly 4 args
@@ -71,6 +74,7 @@ int main(int argc, char* argv[])
 		fprintf(stderr, "USAGE err6.");
                 return 0;
         }
+	sourceURL = argv[1];
 	
 	struct stat givDir;
 	// checks if the given "directory" exisits at all
@@ -87,8 +91,9 @@ int main(int argc, char* argv[])
 
 	dirName = argv[2];
 	
+	long *searchDepth = 0;
 	// make sure that the third argument is an int.
-	if(!(assertInt(argv[3], &searchDepth))){
+	if(!(assertInt(argv[3], searchDepth))){
 		fprintf(stderr, "USAGE err4.");
                 return 0;
 	}
@@ -110,8 +115,9 @@ int main(int argc, char* argv[])
 	if(!source) return 0;
 
 	char *urlGiven; // allocate memory for the url to be stored in hash
-	urlGiven  = calloc(strlen(argv[1]), sizeof(char));
+	urlGiven  = calloc(strlen(sourceURL), sizeof(char));
 	if(!urlGiven) return 0;
+	urlGiven = sourceURL;
 
 	// Set the depth and url of the WebPage
 	source->url = urlGiven;
@@ -119,9 +125,9 @@ int main(int argc, char* argv[])
 	depth++;
 	
 	// get seed webpage
-	if(GetWebpage(source)){ 
+	if(GetWebPage(source)){ 
 		// write seed file
-		if(!(writePage(source, dirName, &docID)){
+		if(!(writePage(source, dirName, &docID))){
 			fprintf(stderr, "No space to allocate filename.");
 			return 0;
 		}
@@ -133,7 +139,9 @@ int main(int argc, char* argv[])
 
 
 	// add seed page to hashtable
-	if((HashTable *hashTable = CreateNew()) == NULL) return 0;
+	HashTable *hashTable;
+	hashTable = CreateNew();
+	if(!hashTable) return 0;
 	HashAdd(source->url, hashTable);
 
 	// extract urls from seed page
@@ -142,11 +150,15 @@ int main(int argc, char* argv[])
  	char *base_url = URL_PREFIX;
  	List *URLList = CreateDLL();
 	
- 	while((pos = GetNextURL(source->url, pos, base_url, &result) > 0) {
+ 	while((pos = GetNextURL(source->url, pos, base_url, &result)) > 0) {
       		// DO SOMETHING WITH THE RESULT
-		if((MAXDEPTH >= (depth + 1)) && !(HashContains(result, hashTable))){
-			if((char *resultSave = calloc(strlen(result), sizeof(char))) == NULL) return NULL;
-			if((WebPage *pageAdd = calloc(1, sizeof(WebPage))) == NULL) return NULL;
+		if((MAX_DEPTH >= (depth + 1)) && !(HashContains(result, hashTable))){
+			char *resultSave;
+			resultSave = calloc(strlen(result), sizeof(char));
+			if(!resultSave) return 0;
+			WebPage *pageAdd;
+			pageAdd = calloc(1, sizeof(WebPage));
+			if(!pageAdd) return 0;
 			pageAdd->url = resultSave;
 			pageAdd->depth = depth + 1;
 			appendDLL(pageAdd, URLList);
@@ -161,9 +173,9 @@ int main(int argc, char* argv[])
 		WebPage *nextURL = removeTop(URLList);
 
         	// get webpage for url
-		if(GetWebpage(nextURL)){
+		if(GetWebPage(nextURL)){
                 	// write page file
-                	if(!(writePage(nextURL, dirName, &docID)){
+                	if(!(writePage(nextURL, dirName, &docID))){
                         	fprintf(stderr, "No space to allocate filename.");
                         	return 0;
                	 	}
@@ -174,20 +186,27 @@ int main(int argc, char* argv[])
         	}
 
         	// extract urls from webpage
-		while((pos = GetNextURL(nextURL->url, pos, base_url, &result) > 0) {
+		while((pos = GetNextURL(nextURL->url, pos, base_url, &result)) > 0) {
                 	// DO SOMETHING WITH THE RESULT
-                	if((MAXDEPTH >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
-                        	if((char *resultSave = calloc(strlen(result), sizeof(char))) == NULL) return NULL;
-                        	if((WebPage *pageAdd = calloc(1, sizeof(WebPage))) == NULL) return NULL;
+                	if((MAX_DEPTH >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
+                        	char *resultSave;
+				resultSave = calloc(strlen(result), sizeof(char));
+				if(!resultSave) return 0;
+
+                        	WebPage *pageAdd;
+				pageAdd = calloc(1, sizeof(WebPage));
+				if(!pageAdd) return 0;
+
                         	pageAdd->url = resultSave;
                		        pageAdd->depth = depth + 1;
                         	appendDLL(pageAdd, URLList);
                 	}
         	}
 		pos = 0;
-		deleteWebPage(toFreeNode->page);
+		deleteWebPage(nextURL);
 	}
     	// cleanup curl
+    	// clean up hash table
     	curl_global_cleanup();
 
     	return 1;
@@ -216,13 +235,13 @@ int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr){
         fileName = calloc((strlen(dirName) + 9), sizeof(char));
         if(!fileName) return 0;
 
-        if(testDirSlash(argv[1])){
-                sprintf(fileName, "%s%d", *dirName, *docID);
+        if(testDirSlash(dirName)){
+                sprintf(fileName, "%s%d", dirName, *docIDAddr);
         }
-        else sprintf(fileName, "%s/%d", *dirName, *docID);
+        else sprintf(fileName, "%s/%d", dirName, *docIDAddr);
 
         file = fopen(fileName, "a+");
-        (*docID)++;
+        (*docIDAddr)++;
         fprintf(file,"%s/n%d/n%s", pageToWrite->url, pageToWrite->depth, pageToWrite->html);
         free(fileName);
         fclose(file);

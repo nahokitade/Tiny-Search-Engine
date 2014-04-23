@@ -14,9 +14,11 @@
 
 // ---------------- System includes e.g., <stdio.h>
 #include <string.h>                          // strlen
+#include <stdlib.h>
 
 // ---------------- Local includes  e.g., "file.h"
 #include "common.h"                          // common functionality
+#include "list.h"
 
 // ---------------- Constant definitions
 
@@ -29,7 +31,9 @@
 // ---------------- Private prototypes
 
 List *CreateDLL(){
-	if((List *newDLL = calloc(1, sizeof(List))) == NULL) return 0;		
+	List *newDLL;
+	newDLL = calloc(1, sizeof(List));
+	if(!newDLL) return 0;		
 	return newDLL;
 }
 
@@ -38,28 +42,30 @@ List *CreateDLL(){
  */
 int appendDLL(WebPage *webPage, List *linkedList){
 	// allocate memory for the node to append.
-	if((ListNode *addNode = calloc(1, sizeof(ListNode))) == NULL) return 0;
-	addNode->page = *webPage; 
+	ListNode *addNode;
+	addNode = calloc(1, sizeof(ListNode));
+	if(!addNode) return 0;
+	addNode->page = webPage; 
 	
 	// if both head and tail is NULL then this is an empty list, so set head and tail to the
 	// added node, and set the previous and next of the added node to NULL as it points to nothing
 	// yet.
 	if(IsEmptyList(linkedList)){
-		linkedList->head = &addNode;
-		linkedList->tail = &addNode;
+		linkedList->head = addNode;
+		linkedList->tail = addNode;
 		return 1; // return 1 on success
 	}
 	else{ // if not the above case, the list is not empty
-		addNode->previous = linkedList->tail; // the previous of the adding node is the tail node
-		addNode->previous->next = &addNode;   // link the tail element with the adding node 
-		linkedList->tail = &addNode;		    // the adding node is the new tail
+		addNode->prev = linkedList->tail; // the previous of the adding node is the tail node
+		addNode->prev->next = addNode;   // link the tail element with the adding node 
+		linkedList->tail = addNode;		    // the adding node is the new tail
 		return 1;
 	}
 }
 
 WebPage *removeTop(List *linkedList){
-	if(linkedList->head == NULL || linkedlist->tail == NULL) return NULL;
-	char *webTemp = linkedList->head->page; // DOES THIS WORK????
+	if(linkedList->head == NULL || linkedList->tail == NULL) return NULL;
+	WebPage *webTemp = linkedList->head->page; // DOES THIS WORK????
 	ListNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
 	linkedList->head = linkedList->head->next; // make the new head the one after current head
 	linkedList->head->prev = NULL; // make the new heads previous to NULL

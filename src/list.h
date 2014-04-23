@@ -44,6 +44,10 @@ int appendDLL(WebPage *webPage, List *linkedList);
 
 /* remove from top of DLL
  */
-char *removeTop(List *linkedList);
+WebPage *removeTop(List *linkedList);
+
+/* checks if list is empty */
+int IsEmptyList(List *linkedList);
+
 
 #endif // LIST_H

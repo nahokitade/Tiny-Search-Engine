@@ -16,9 +16,12 @@
 
 // ---------------- System includes e.g., <stdio.h>
 #include <string.h>                          // strlen
+#include <stdlib.h>
 
 // ---------------- Local includes  e.g., "file.h"
 #include "common.h"                          // common functionality
+#include "hashtable.h"
+
 // ---------------- Constant definitions
 
 // ---------------- Macro definitions
@@ -51,16 +54,21 @@ unsigned long JenkinsHash(const char *str, unsigned long mod)
 int i;
 
 HashTable *CreateNew(){
-	if((HashTable *hashP = calloc(1, sizeof(HashTable))) == NULL) return NULL;
+	HashTable *hashP;
+	hashP = calloc(1, sizeof(HashTable));
+	if(!hashP) return NULL;
 	return hashP;
 }
 
 //WHERE TO ALLOCATE MEMORY? WHERE TO MALLOC??
-int HashAdd(const char *str, HashTable *hashTab){
-	if((HashTableNode *addNode = calloc(1, sizeof(HashTableNode))) == NULL) return 0;
+int HashAdd(char *str, HashTable *hashTab){
+	HashTableNode *addNode; 
+	addNode = calloc(1, sizeof(HashTableNode));
+	if(!addNode) return 0;
+
 	addNode->url = str;
-	addNode->next = NULL; //CAN YOU ASSIGN ANYTHING TO NULL??
-	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
+	addNode->next = NULL; 
+	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
 	
 	HashTableNode *presentNode = hashTab->table[hashValue]; 
 
@@ -81,14 +89,14 @@ int HashAdd(const char *str, HashTable *hashTab){
 /* see if a URL is already in hashtable
  *  * Returns 0 if the url is not containted,
  *   */
-int HashContains(const char *str, HashTable *hashTab){
-	unsigned long hashValue = JenkinsHash(*str, MAX_HASH_SLOT);
+int HashContains(char *str, HashTable *hashTab){
+	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
 	HashTableNode *presentNode = hashTab->table[hashValue];
 	if(presentNode == NULL){
 		return 0;
         }
         else{
-                while(presentNode->next != NULL || strcmp(presentNode->url, *str) != 0){
+                while(presentNode->next != NULL || strcmp((presentNode->url), str) != 0){
                         presentNode = presentNode->next;
                 }
                 return (presentNode != NULL)? 1 : 0;
@@ -97,9 +105,9 @@ int HashContains(const char *str, HashTable *hashTab){
 
 /* delete a node */
 HashTableNode *DeleteNode(HashTableNode *toDelete){
-	HashTableNode nextTemp = toDelete->next;
+	HashTableNode *nextTemp = toDelete->next;
 	free(toDelete->url);
-	free(toDelete); // AND THIS?
+	free(toDelete);
 	return nextTemp;
 }
 
@@ -126,4 +134,3 @@ int DeleteHashTable(HashTable *hashTab){
 	return 1;
 }
 
-}

@@ -24,9 +24,11 @@
 // ---------------- Private variables
 
 // ---------------- Private prototypes
+//
+// Deletes web page but keeps url intact for Hash table.
 int deleteWebPage(WebPage *toDeleteWeb){
-	free(toDeleteWeb->url);
 	free(toDeleteWeb->html);
+	free(toDeleteWeb);
 	return 1;
 }
 

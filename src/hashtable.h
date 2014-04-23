@@ -49,12 +49,12 @@ unsigned long JenkinsHash(const char *str, unsigned long mod);
 
 /* adding to hashtable
  */
-int HashAdd(const char *str, HashTable hashTab);
+int HashAdd(char *str, HashTable *hashTab);
 
 /* see if a URL is already in hashtable 
  * Returns 0 if the url is not containted, 
  */
-int HashContains(const char *str, HashTable hashTab);
+int HashContains(char *str, HashTable *hashTab);
 
 /* deletes a single node in hash table */
 HashTableNode *DeleteNode(HashTableNode *toDelete);

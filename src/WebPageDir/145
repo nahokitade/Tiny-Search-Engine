@@ -1,0 +1,444 @@
+http://www.computinginthecore.org/
+2
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta property="og:site_name" content="Computing in the Core"/>
+	<meta property="og:title" content="Computing in the Core"/>
+    <meta property="og:type" content="cause"/>
+    <meta property="og:url" content="http://www.computinginthecore.org/"/>
+    <meta property="fb:app_id" content="118413674883827"/>
+	
+	<title>Computing In The Core</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
+	
+	<link href="/ext/css/custom.css" rel="stylesheet" type="text/css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="/css/all.css" media="screen" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/supp.js"></script>
+	<script type="text/javascript" src="/js/cufon.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+	<script type="text/javascript" src="/js/jquery.main.js"></script>
+	<!--[if lt IE 7]><script type="text/javascript" src="/js/ie-png.js"></script><![endif]-->
+	<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/css/ie.css" media="screen"/><![endif]-->
+	<link rel="stylesheet" type="text/css" href="/css/supp.css" media="screen" />	
+	
+	<script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-18936714-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+</head>
+
+<body class="home">
+	<div class="container">
+		<!-- wrapper -->
+		<div id="wrapper">
+			<a class="skipnav" href="#main">Skip to Main Content</a>
+			
+			<!-- main -->
+			<div id="main">
+
+<!-- carusel -->
+<div class="carusel">
+	<!-- holder -->
+	<div class="gal-hold">
+		<ul class="gal">
+		
+			<li>
+				<div class="holder">
+					<div class="t"></div>
+					<div class="c">
+						<img src="http://64d063aa3b5b286d7b19-60d350a60edffc53af65a3287ffb0918.r40.cf1.rackcdn.com/President_Obama_Google.jpg" width="683" height="307" alt="Computing = Jobs" />
+						<!-- description -->
+						<div class="description">
+							<div class="top"></div>
+							<div class="centr">
+								<p><a href="http://www.youtube.com/watch?v=XlOySsg7oxY" title="President Obama clip">Watch President Obama</a> as he discusses the importance of computer science in preparing the nation&rsquo;s future workforce during his Google+ Hangout session.</p>
+							</div>
+							<div class="bottom"></div>
+						</div>
+						<a class="more" href="http://www.computinginthecore.org/impacts/jobs-in-computing" >Read More</a>
+					</div>
+					<div class="b"></div>
+				</div>	
+			</li>
+		
+			<li>
+				<div class="holder">
+					<div class="t"></div>
+					<div class="c">
+						<img src="http://c2474702.cdn.cloudfiles.rackspacecloud.com/capital_photo.jpg" width="683" height="307" alt="Get Involved!" />
+						<!-- description -->
+						<div class="description">
+							<div class="top"></div>
+							<div class="centr">
+								<p>Support computer science education legislation, click here to learn how.</p>
+							</div>
+							<div class="bottom"></div>
+						</div>
+						<a class="more" href="http://www.computinginthecore.org/csea" >Read More</a>
+					</div>
+					<div class="b"></div>
+				</div>	
+			</li>
+		
+			<li>
+				<div class="holder">
+					<div class="t"></div>
+					<div class="c">
+						<img src="http://c2474702.cdn.cloudfiles.rackspacecloud.com/map.jpg" width="683" height="307" alt="The State of K-12" />
+						<!-- description -->
+						<div class="description">
+							<div class="top"></div>
+							<div class="centr">
+								<p>K-12 education has fallen woefully behind in preparing students with the  fundamental computer science knowledge and skills they need. Learn more  about how your state is doing.</p>
+							</div>
+							<div class="bottom"></div>
+						</div>
+						<a class="more" href="http://www.acm.org/runningonempty/" target="_blank">Read More</a>
+					</div>
+					<div class="b"></div>
+				</div>	
+			</li>
+		
+		</ul>
+	</div>
+	<!-- tabs -->
+	<div class="tabs">
+		<div class="t"></div>
+		<div class="c">
+			<ul>
+			
+				<li>
+					<a href="#">
+						<strong>Computing = Jobs</strong>
+						<span>Let's prepare students.</span>
+					</a>
+				</li>
+			
+				<li>
+					<a href="#">
+						<strong>Get Involved!</strong>
+						<span>We need your help</span>
+					</a>
+				</li>
+			
+				<li>
+					<a href="#">
+						<strong>The State of K-12</strong>
+						<span>Computer Science Education</span>
+					</a>
+				</li>
+			
+			</ul>
+		</div>
+		<div class="b"></div>
+	</div>
+</div>
+<!-- text box -->
+<div class="text-box">
+	<div class="learn-more">
+		<a href="/about">
+			<strong><span>Learn More About Us</span></strong>
+			<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img22.png" alt="Learn More About Us" />
+		</a>
+	</div>
+	
+		<h1>Who is Computing in the Core?</h1>
+<p>Computing in the Core is a non-partisan advocacy coalition of associations, corporations, scientific societies, and other non-profits seeking to elevate the national profile of computer science education in K-12 within the US and work toward ensuring that computer science is one of the core academic subjects in K-12 education.</p>
+	
+</div>
+<!-- blocks -->
+<div class="blocks">
+	<div class="wrapper">
+		<!-- block -->
+		<div class="block">
+			<div class="heading">
+				<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img06.png" width="51" height="51" alt="power button" />
+				<h2>CS Impacts...</h2>
+			</div>
+			<div class="content">
+				<p>Select a topic to learn more about how computer science education changes everyday life.</p>
+				<a class="box" href="/impacts/jobs-in-computing">
+					<span class="img-holder">
+						<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img07.png" width="30" height="49" alt="tie" />
+					</span>
+					<span class="text">
+						<strong>Jobs</strong>
+						<em>Learn how computer science affects jobs.</em>
+					</span>
+				</a>
+				<a class="box" href="/impacts/#energy">
+					<span class="img-holder">
+						<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img08.png" width="36" height="49" alt="bolt" />
+					</span>
+					<span class="text">
+						<strong>Energy</strong>
+						<em>Learn how computer science affects energy.</em>
+					</span>
+				</a>
+				<a class="box" href="/impacts/#defense">
+					<span class="img-holder">
+						<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img09.png" width="44" height="50" alt="shield" />
+					</span>
+					<span class="text">
+						<strong>National Defense</strong>
+						<em>Learn how computer science affects national defense.</em>
+					</span>
+				</a>
+				<a class="box" href="/impacts/#healthcare">
+					<span class="img-holder">
+						<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img10.png" alt="monitor" />
+					</span>
+					<span class="text">
+						<strong>Health Care</strong>
+						<em>Learn how computer science affects health care.</em>
+					</span>
+				</a>
+			</div>
+		</div>
+		<!-- block -->
+		<div class="block news">
+			<div class="heading">
+				<img class="png" src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img05.png" width="56" height="50" alt="speech bubbles" />
+				<h2><span>Newsroom</span></h2>
+			</div>
+			<div class="content">
+				<ul>
+				
+					<li>
+						<a href="http://www.computinginthecore.org/?/newsroom/senators-casey-and-rubio-introduce-legislation-to-bolster-k-12-compute/">Senators Casey and Rubio Introduce Legislation to Bolster K-12 Computer Science Education</a>
+						<em>August 1, 2013</em>
+					</li>
+				
+					<li>
+						<a href="http://www.computinginthecore.org/?/newsroom/house-passes-student-success-act-including-cs-amendment/">House Passes Student Success Act Including Support for CS</a>
+						<em>July 19, 2013</em>
+					</li>
+				
+					<li>
+						<a href="http://www.computinginthecore.org/?/newsroom/house-passes-cs-amendment-with-bipartisan-support/">House Passes CS Amendment with Bipartisan Support</a>
+						<em>July 18, 2013</em>
+					</li>
+				
+					<li>
+						<a href="http://www.computinginthecore.org/?/newsroom/representatives-brooks-and-polis-introduce-legislation-to-bolster-k-12/">REPRESENTATIVES BROOKS AND POLIS INTRODUCE LEGISLATION TO BOLSTER K-12 COMPUTER SCIENCE EDUCATION</a>
+						<em>June 27, 2013</em>
+					</li>
+				
+					<li>
+						<a href="http://www.computinginthecore.org/?/newsroom/computing-in-the-core-holds-annual-meeting/">Computing in the Core Holds Annual Meeting</a>
+						<em>May 3, 2013</em>
+					</li>
+				
+				</ul>
+			</div>
+		</div>
+		<div class="block facebook-block">
+			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FCSEdWeek&amp;width=301&amp;connections=0&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:301px; height:427px;" allowTransparency="true"></iframe>
+		</div>
+	</div>
+</div>
+
+
+<div align="center">
+<table class="logos" width="50%" border="0" cellspacing="0" cellpadding="10" align="center">
+  <tr>
+<td><a href="http://www.acm.org/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img11.png" width="207" height="73" alt="Association for Computing Machinery" /></a></td>
+    <td><a href="http://www.microsoft.com" target="_blank"><img src="http://c4725734b565f5e29302-dda90eea4d79ba8fafe3219a71f704cc.r52.cf1.rackcdn.com/microsoft-sponsor-logo-small.gif" alt="Microsoft" /></a></td>
+    <td class="logo02"><a href="http://google.com" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img13.png" alt="Google" /></a></td>
+    <td><a href="http://csta.acm.org/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img14.png" alt="Computer Science Teachers Association" /></a></td>
+    <td><a href="http://www.ncwit.org/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img15.png" alt="National Center for Women and Information Technology" /></a></td>
+  </tr>
+</table>
+
+<table  class="logos" width="50%" border="0" cellspacing="0" cellpadding="10" align="center">
+  <tr align="center">
+  	<td style="width:68px;">&nbsp;</td>
+  	<td><a href="http://www.facebook.com" target="_blank"><img src="http://c4725734b565f5e29302-dda90eea4d79ba8fafe3219a71f704cc.r52.cf1.rackcdn.com/facebook-logo-small.png" alt="Facebook" /></a></td>
+    <td><a href="http://www.computer.org/portal/web/guest/home" target="_blank"><img src="http://c2474702.r2.cf0.rackcdn.com/ieee-logo.gif" alt="IEEE Computer Society" /></a></td>
+    <td><a href="http://www.cra.org/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img16.png" alt="Computing Research Association" /></a></td>
+    <td><a href="http://www.collegeboard.org/" target="_blank"><img src="http://c2474702.r2.cf0.rackcdn.com/cb-logo.gif" alt="CollegeBoard" /></a></td>
+    <td><a href="http://anitaborg.org/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img18.png" alt="Anita Borg Institute for Women and Technology" /></a></td>
+  </tr>
+</table>
+
+<table  class="logos" width="50%" border="0" cellspacing="0" cellpadding="10" align="center">
+  <tr>
+<td><a href="http://www.sas.com/" target="_blank"><img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/img17.png" alt="SAS" /></a></td>
+		<td><a href="http://nctm.org" target="_blank"><img src="http://c2474702.r2.cf0.rackcdn.com/nctm-logo2.png" alt="National Council of Teachers of Mathematics" /></a></td>
+		<td><a href="http://nsta.org" target="_blank"><img src="http://c2474702.r2.cf0.rackcdn.com/nsta-logo3.png" alt="National Science Teachers Association" /></a></td>
+        <td><a href="http://www.nms.org/" target="_blank"><img src="http://a42e1f8ae16f952da5af-90f17aeae0ce8a4dacef6896e77b3f0a.r78.cf1.rackcdn.com/0DE30C52-2440-4D25-9DC2-65A5355481403.png" alt="National Math + Science Initiative" /></a></td>
+  </tr>
+  
+  
+  
+</table>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+			
+			<!-- header -->
+			<div id="header">
+				<!-- logo -->
+				<strong class="logo"><a href="/">Computing In The Core</a></strong>
+				<div class="holder">
+					<!-- top bar -->
+					<div class="top-bar">
+						<fieldset>
+							<!-- email updates -->
+							<form method="post" action="/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="33" />
+<input type="hidden" name="XID" value="864d9b6e7444b87339084ad230f29c5c" />
+<input type="hidden" name="redirect" value="/forms/sign/signup" />
+<input type="hidden" name="form_id" value="2" />
+<input type="hidden" name="send_thanks" value="1" />
+<input type="hidden" name="referer" value="" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+								<div class="email-updates">
+									<label for="email">Email Updates</label>
+									<div>
+										<input type="text" class="txt hidetxt" name="email" value="you@email.com" id="email" />
+										<input type="submit" class="submit" />
+									</div>
+								</div>
+							</form>
+							<form action="#">
+								<div class="social-hold">
+									<div class="social-frame">
+										<div class="input-text">
+											<input type="text" value="Find us on social networks" disabled="disabled" />
+										</div>
+										<a href="#" class="open">open</a>
+									</div>
+									<div class="drop">
+										<ul>
+											<li><a href="http://www.facebook.com/CSEdWeek" target="_blank"><span>Facebook</span> <img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/ico-facebook2.png" alt="image" /></a></li>
+											<li><a href="http://twitter.com/CSEdWeek" target="_blank"><span>Twitter</span> <img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/ico-twitter.png" alt="image" /></a></li>
+											<li><a href="http://www.youtube.com/csedweek" target="_blank"><span>YouTube</span> <img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/ico-youtube.png" alt="image" /></a></li>
+											<li><a href="http://www.linkedin.com/groups?about=&gid=2471117&trk=anet_ug_grppro" target="_blank"><span>LinkedIn</span> <img src="http://c2474712.cdn.cloudfiles.rackspacecloud.com/ico-linkedin.png" alt="image" /></a></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+							<!-- search -->
+							<form method="post" action="http://www.computinginthecore.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="19" />
+<input type="hidden" name="XID" value="ef9a89334643511e49bf32bdd1b5b96bb355225e" />
+<input type="hidden" name="RP" value="site&amp;#47;search-results" />
+<input type="hidden" name="NRP" value="" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="status" value="" />
+<input type="hidden" name="weblog" value="default_site|newsroom" />
+<input type="hidden" name="search_in" value="everywhere" />
+<input type="hidden" name="where" value="all" />
+<input type="hidden" name="site_id" value="1" />
+</div>
+
+
+								<div class="search">
+									<input type="text" class="txt hidetxt" name="keywords" value="Search the site..." />
+									<input type="submit" class="submit" />
+								</div>
+							</form>
+						</fieldset>
+					</div>
+					<span class="advocating">Advocating for K-12 Computer Science Education</span>
+				</div>
+				<!-- navigation -->
+				<div id="nav">
+					<ul>
+						<li><a class="about" href="/about"><em><strong><span>About</span></strong></em><span class="corner"></span></a></li>
+						<li><a class="issues" href="/issues-solutions"><em><strong><span>Issues &amp; Solutions</span></strong></em></a></li>
+						<li><a class="facts" href="/facts-resources"><em><strong><span>Facts &amp; Resources</span></strong></em></a></li>
+						<li><a class="newsroom" href="/newsroom"><em><strong><span>Newsroom</span></strong></em></a></li>
+						<li><a class="events" href="/events"><em><strong><span>Events</span></strong></em></a></li>
+					</ul>
+					<span class="get-involved"><strong><a href="/get-involved">Get Involved</a></strong></span>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="footer-w">
+				<div class="inner">
+					<a class="back-top" href="#header">Back to Top</a>
+					<ul class="list">
+						<li><a href="/index.php">Home</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/issues-solutions">Issues &amp; Solutions</a></li>
+						<li><a href="/facts-resources">Facts &amp; Resources</a></li>
+					</ul>
+					<ul class="list">
+						<li><a href="/get-involved">Get Involved</a></li>
+						<li><a href="/events">Upcoming Events</a></li>
+						<li><a href="/newsroom">Newsroom</a></li>
+						<li><a href="/forms/sign/contact">Get in Contact</a></li>
+					</ul>
+					<div class="holder">
+						<ul class="social">
+							<li><span>Connect to Us</span></li>
+							<li><a class="facebook" target="_blank" href="http://www.facebook.com/CSEdWeek">Facebook</a></li>
+							<li><a class="twitter" target="_blank" href="http://twitter.com/CSEdWeek">Twitter</a></li>
+							<li><a class="linkedin" target="_blank" href="http://www.linkedin.com/groups?about=&gid=2471117&trk=anet_ug_grppro">LinkedIn</a></li>
+							<li><a class="youtube" target="_blank" href="http://www.youtube.com/csedweek">YouTube</a></li>
+							<li><a class="rss" target="_blank" href="/newsroom/rss">RSS</a></li>
+						</ul>
+						<a id="privacy" href="/privacy">View the Privacy Policy</a>
+						<span class="copy"> &copy; 2010 Computing in the core</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div id="fb-root"></div> 
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({
+    	appId: '118413674883827', status: true, cookie: true, xfbml: true
+    });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+	
+</body>
+</html>

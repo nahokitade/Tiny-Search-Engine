@@ -1,0 +1,177 @@
+http://www.cl.cam.ac.uk/conference/EDSAC99/statistics.html
+2
+<HTML>
+
+<HEAD>
+<TITLE>Some EDSAC statistics</TITLE>
+</HEAD>
+
+<BODY>
+
+<H1><i>EDSAC 99</i></H1>
+
+<A HREF="http://www.cl.cam.ac.uk/">
+<IMG SRC="http://www.cl.cam.ac.uk/UoCCL/img/UoCCL.gif" 
+     ALT="University of Cambridge Computer Laboratory"
+     WIDTH=289 HEIGHT=94 BORDER=0 HSPACE=5 ALIGN="RIGHT">
+</A>
+
+<BR CLEAR=all>
+<HR SIZE=2>
+
+<H2>Some EDSAC statistics</H2>
+
+<h3>Executive summary</h3>
+
+<ul>
+<li>650 instructions per second.
+<li>1024 17-bit words of memory in mercury ultrasonic delay lines.
+<li>Paper tape input and teleprinter output at 6 2/3 characters per second.
+
+<li>3000 valves, 12 kW power consumption, occupied a room 5m by 4m.
+
+<li>"Operating system" occupied 31 words of read-only memory.
+
+<li>Early use to solve problems in meteorology, genetics and X-ray 
+crystallography.
+
+<li>First book on programming by Wilkes, Wheeler and Gill published in 1951.
+
+<li>Magnetic tape backing store added in 1952 (but never worked really well).
+
+<li>First course in Computer Science started in 1953, using the EDSAC.
+</ul>
+
+<h3>Some more details</h3>
+
+<p>
+"The EDSAC (electronic delay storage automatic calculator) is a serial 
+electronic calculating machine working in the scale of two and using 
+ultrasonic tanks for storage.  The main store consists of 32 tanks, each 
+of which is about 5 ft long and holds 32 numbers of 17 binary digits, one 
+being a sign digit.  This gives 1024 storage locations in all.  It is 
+possible to run two adjacent storage locations together so as to 
+accommodate a number with 35 binary digits (including a sign digit);  thus 
+at any time the store may contain a mixture of long and short numbers.  
+Short tanks which can hold one number only are used for accumulator and 
+multiplier registers in the arithmetical unit, and for control purposes in 
+various parts of the machine."
+[Paper by Wilkes &amp; Renwick in 1, reprinted in 2]
+
+<p>
+The EDSAC contained some 3000 valves arranged in 12 racks and consumed 
+about 12Kw of power.  The delay lines (or "tanks") were arranged in two 
+batteries providing 512 words each.  The second battery came into 
+operation in 1952.  [3]
+
+<p>
+Input was on 5-track teleprinter paper tape via an electromechanical tape 
+reader running at 6 2/3 characters per second.  It was replaced by an 
+improved version running at 16 char/sec in October 1949 and by a 
+photoelectric reader running at 50 char/sec in early 1950.  Output was 
+delivered via a teleprinter at 6 2/3 char/sec.  An output paper tape punch 
+running at 16 char/sec was added in 1951.  [3]
+
+<p>
+Magnetic tape storage was added in 1952 (but never worked sufficiently well to be of real use).  [4]
+
+<p>
+The machine ran at 500kHz.  Wilkes notes that he would have been happy to 
+accept the challenge of working at 1MHz (as most other early designers 
+were doing) but preferred a straightforward development to permit early 
+experiments with the writing of programs to solve real problems.  [5]
+
+<p>
+Instructions occupied a single 17-bit word but the whole delay line had to 
+circulate before the next instruction could be executed, so the fastest 
+that consecutive instructions could be executed was 500,000/((32+1).(17+1)) = 841 instructions per second.  Average order times were 
+1.5ms (say 650 instructions per second), with a multiplication in 4.5ms. 
+Division in software took about 200 ms.  [3]
+
+<p>
+The operating system or "initial orders" consisted of 31 instructions 
+which were hard-wired on uniselectors, a mechanical read-only memory.  
+These instructions assembled programs in symbolic form from paper tape 
+into the main memory and set them running.  The second release of the 
+initial orders was installed in August 1949.  This occupied the full 41 
+words of read-only memory and included facilities for relocation or 
+"coordination" to facilitate the use of subroutines (an important 
+invention by D.J. Wheeler).  [3]
+
+<p>
+Interest in programming methodology (as it would now be called) did not 
+prevent the active use of EDSAC for solving genuine problems.  One of the 
+earliest of these was proposed by R.A. Fisher - the solution of a second 
+order non-linear differential equation with two point boundary conditions. 
+It was solved by D.J. Wheeler by April 1950 and was published with due 
+acknowledgements later in the year in Biometrics, making some progress 
+towards establishing the credibility of electronic computing.  The first 
+publication of results from EDSAC was in R.S. Scorer's note on a 
+meteorological problem published in the Quarterly Journal of Mechanics 
+early in 1950.  This used a modification of M.V. Wilkes' program to 
+compute values of Airy's integral.  [5]
+
+<p>
+<i>The preparation of programs for an electronic digital computer</i> by M.V. Wilkes, D.J. Wheeler and S. Gill (the first book on programming) was 
+published by Addison-Wesley in 1951.  A film was made at the same time 
+showing the EDSAC in use.  [4]
+
+<p>
+The Diploma in Numerical Analysis and Automatic Computing (now the Diploma 
+in Computer Science) began.  This was a one-year postgraduate course, the 
+first formal course leading to a university qualification in computing 
+anywhere in the world.  [4]
+
+<p>
+From 1953 the EDSAC was heavily used for (among other subjects) 
+theoretical chemistry under S.F. Boys;  X-ray molecular biology by J.C. 
+Kendrew;  numerical analysis by D.R. Hartree and J.C.P. Miller;  
+atmospheric oscillations by Wilkes;  early work on radioastronomy (much 
+extended on EDSAC 2) by group under M.F. Ryle.  [4]
+
+<p>
+M.V. Wilkes' paper, <i>On the best way to design an automatic calculating 
+machine</i>, introduced the ideas of microprogramming and bit-slicing for the 
+design of the EDSAC 2 in 1951.  [4]
+
+<h3>References</h3>
+
+<ol>
+
+<li><i>Report of a Conference on High Speed Automatic Calculating-machines</i>, 
+University Mathematical Laboratory, Cambridge, June 1949;  edited version 
+by M.R. Williams and M. Campbell-Kelly reprinted in MIT/Tomash historical 
+series in 1989.
+[The report includes reports on the machines at Manchester and in the USA 
+as well as the EDSAC allowing a comparison to be drawn.]
+
+<li>Peter Robinson and Karen Sparck Jones: <i>EDSAC 99 commemorative booklet</i>, University of Cambridge Computer Laboratory, April 1999.
+On-line at <a href="http://www.cl.cam.ac.uk/UoCCL/misc/EDSAC99/booklet.pdf">http://www.cl.cam.ac.uk/UoCCL/misc/EDSAC99/booklet.pdf</a>.
+
+<li>Martin Campbell-Kelly: <i>Programming the EDSAC</i>, IEEE Annals of the 
+History of Computing, Vol 2(1), 1980.
+
+<li>Karen Sparck Jones: <i>Brief informal history of the Computer Laboratory</i>, in [2] also on-line at <a href="http://www.cl.cam.ac.uk/UoCCL/misc/EDSAC99/history.html">http://www.cl.cam.ac.uk/UoCCL/misc/EDSAC99/history.html</a>.
+
+<li>M.V. Wilkes, <i>Memoirs of a Computer Pioneer</i>, MIT Press, 1985.
+
+<li>IEEE Annals of the History of Computing, Special issue on the 
+University of Cambridge, Vol 14(4), 1992.
+
+</ol>
+
+<p>
+<BR CLEAR=all>
+<HR SIZE=2>
+<a href="index.html"><img src="log.gif" alt="EDSAC 99" border=0></a>
+<HR SIZE=2>
+
+<center>
+Copyright © University of Cambridge Computer Laboratory, 1999.
+All rights reserved.
+<br>Please send any comments to <a HREF="mailto:edsac99@cl.cam.ac.uk">edsac99</a>.
+</center>
+
+</body>
+
+</html>

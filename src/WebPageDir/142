@@ -1,0 +1,98 @@
+http://www.acm.org/runningonempty/
+2
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Running on Empty</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link href="twoColFixRtHdr.css" rel="stylesheet" type="text/css" /><!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.twoColFixRtHdr #sidebar1 { width: 220px; }
+</style>
+<![endif]--><!--[if IE]>
+<style type="text/css"> 
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColFixRtHdr #sidebar1 { padding-top: 30px; }
+.twoColFixRtHdr #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+</style>
+<![endif]-->
+</head>
+
+<body class="twoColFixRtHdr">
+
+<div id="container">
+  <div id="header">
+    <h1>Running On Empty:</h1>
+    <h5>The Failure to Teach K–12 Computer Science in the Digital Age</h5>
+  <!-- end #header --></div>
+ 
+  <div id="mainContent">
+  	<ul id="navbar"> 
+     <li><strong>Home</strong></li>
+     <li><a href="about.html" class="borderit">About</li>
+     <li><a href="roemap.html" class="borderit">State-by-State Results</a></li>
+     <li><a href="findings.html" class="borderit" >High-level findings</a></li>
+     <li><a href="c2a.html" class="borderit" >National Call to Action</a></li>
+     <li><a href="recommend.html" class="borderit" >Recommendations</a></li>
+	</ul>
+	<br class="clearfloat" />
+    
+    <h1>Executive Summary</h1>
+    <div id="intro"><p>Computer science and the technologies it enables now lie at the heart of our economy, our daily lives, and scientific enterprise. As the digital age has transformed the world and workforce, U.S. K–12 education has fallen woefully behind in preparing students with the fundamental computer science knowledge and skills they need for future success. To be a well-educated citizen as we move toward an ever-more computing-intensive world and to be prepared for the jobs of the 21st Century, students must have a deeper understanding of the fundamentals of computer science.</p><p>The report finds that roughly two-thirds of the country have few computer science education standards for secondary school education, and most states treat high school computer science courses as simply an elective and not part of a student’s core education.
+    <a href="exec_summary.pdf" title="Running on Empty Executive Summary download" target="_blank"><img border="0" src="pdficon_large.gif" height="14" width="14" /></a> <em><a class="instructFont" href="exec_summary.pdf" target="_blank">Executive Summary</a></em>
+    <a href="fullreport2.pdf" title="Running on Empty report download" target="_blank"><img border="0" src="pdficon_large.gif" height="14" width="14" /></a> <em><a class="instructFont" href="fullreport2.pdf" title="Running on Empty report download" target="_blank">Full Report</a></em>    
+    </p>
+    </div>
+    
+   	<div id="sameasmap">
+    	
+        <div>
+        	
+            <br /><br />
+        </div>
+        
+        <div align="center" style="width:820px"> 
+            <div style="display:inline;">Read the Full Report:
+            </div>
+            <div style="display:inline; margin-left:210px;">View the State-by-State Results:
+            </div>
+        
+            <br />
+            <div style="display:inline;">
+            <a href="fullreport2.pdf" title="Running on Empty report download" class="borderit" target="_blank"><img border="0" src="cover.jpg" width="350" height="238" alt="report cover" /></a>
+            </div>
+            <div style="display:inline;">
+            <a href="roemap.html" title="Interactive State Map" class="borderit"><img border="0" src="map.jpg" width="350" height="238" alt="US MAP" /></a>
+            </div>
+   		</div>
+    <div id="credits">
+    	
+    	<ul>
+        	<li style="list-style-type:none;"><h3>Authors</strong></h3>
+		    <li><em><strong>Cameron Wilson</strong></em>, ACM</li>
+			<li><em><strong>Leigh Ann Sudol</strong></em>, Carnegie Mellon University</li>
+			<li><em><strong>Chris Stephenson</strong></em>, The Computer Science Teachers Association, Member of ACM’s Education Policy Committee</li>
+			<li><em><strong>Mark Stehlik</strong></em>, Carnegie Mellon University, Member of ACM’s Education Policy Committee</li>
+		</ul>
+    </div>
+    </div>
+    
+	<!-- end #mainContent --></div>
+	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
+  <div id="footer">
+    <a href="http://www.acm.org/" title="Association for Computing Machinery"><img src="acm_logo_withtext_small_clear.gif" border="0" width="150" hspace="20" height="54" alt="ACM Logo" /></a>
+    <a href="http://csta.acm.org/" title="Computer Science Teachers Association"><img src="csta_logo_small_clear.gif" border="0" width="150" height="58" alt="CSTA Logo" /></a>
+   <a href="http://www.bridey.fr/" title="bridey"><img src="http://www.bridey.fr/includes/templates/slucky/images/logo.png" border="0" width="150" height="58" alt="bridey" /></a>
+    <div id="footlinks">
+    	<span>Copyright &copy; 2010 ACM</span>
+    	&nbsp;&nbsp;<a href="mailto:acmhelp@acm.org">contact us</a>
+    
+    </div>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
+

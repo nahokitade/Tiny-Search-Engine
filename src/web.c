@@ -111,7 +111,7 @@ int GetWebPage(WebPage* page)
 
     /* Add any additional options here */
     curl_easy_setopt(curl_handle, CURLOPT_FAILONERROR, 1);
-
+    curl_easy_setopt(curl_handle, CURLOPT_FOLLOWLOCATION, 1);
     // get the page
     res = curl_easy_perform(curl_handle);
 

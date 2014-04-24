@@ -1,0 +1,809 @@
+http://en.wikipedia.org/wiki/Scientific_computing
+2
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Computational science - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="generator" content="MediaWiki 1.23wmf22" />
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Computational_science" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Computational_science&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Computational_science&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Computational_science" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Computational_science","wgTitle":"Computational science","wgCurRevisionId":580913905,"wgRevisionId":580913905,"wgArticleId":1181008,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All articles with unsourced statements","Articles with unsourced statements from December 2008","Computational science","Applied mathematics"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Computational_science","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Scientific_computing","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":false,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgFlowTermsOfUseEdit":"By saving changes, you agree to our \u003Ca class=\"external text\" href=\"//wikimediafoundation.org/wiki/Terms_of_use\"\u003ETerms of Use\u003C/a\u003E and agree to irrevocably release your text under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"//creativecommons.org/licenses/by-sa/3.0\"\u003ECC BY-SA 3.0 License\u003C/a\u003E and \u003Ca class=\"external text\" href=\"//en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License\"\u003EGFDL\u003C/a\u003E","wgULSAcceptLanguageList":["en-gb","en-us","en"],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q117801"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"multimediaviewer-enable":true,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":
+false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,
+"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:f91b7921db835befbf3c85fee027f8c0 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","skins.vector.compactPersonalBar.defaultTracking","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.23wmf22/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Computational_science skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Computational science</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub">  (Redirected from <a href="/w/index.php?title=Scientific_computing&amp;redirect=no" title="Scientific computing">Scientific computing</a>)</div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">Not to be confused with <a href="/wiki/Computer_science" title="Computer science">computer science</a>.</div>
+<table class="vertical-navbox nowraplinks plainlist" cellspacing="5" cellpadding="0" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f9f9f9;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%;width:21.0em;;">
+<tr>
+<td class="navbox-abovebelow" style="padding-top:0.4em;line-height:1.2em;padding-bottom:0.1em;;"><b>Part of <a href="/wiki/Category:Science" title="Category:Science">a series</a> on</b></td>
+</tr>
+<tr>
+<th class="navbox-abovebelow" style="padding:0.2em 0.4em 0.2em;padding-top:0;font-size:145%;line-height:1.2em;font-size:175%;padding-top:0;;"><a href="/wiki/Science" title="Science">Science</a></th>
+</tr>
+<tr>
+<td style="padding:0.3em 0.4em 0.3em;font-weight:bold;border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;border:none;font-size:50%;line-height:0.5em;;">&#160;</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Formal_science" title="Formal science">Formal</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Logic" title="Logic">Logic</a></li>
+<li><a href="/wiki/Mathematics" title="Mathematics">Mathematics</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Mathematical_logic" title="Mathematical logic">Mathematical logic</a></li>
+<li><a href="/wiki/Mathematical_statistics" title="Mathematical statistics">Mathematical statistics</a></li>
+<li><a href="/wiki/Theoretical_computer_science" title="Theoretical computer science">Theoretical computer science</a></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Outline_of_physical_science" title="Outline of physical science">Physical</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em; padding-top:0.25em">
+<ul>
+<li><b><a href="/wiki/Astronomy" title="Astronomy">Astronomy</a></b><br />
+<a href="/wiki/Astrophysics" title="Astrophysics">Astrophysics</a></li>
+<li><a href="/wiki/Cosmology" title="Cosmology">Cosmology</a></li>
+<li><a href="/wiki/Galactic_astronomy" title="Galactic astronomy">Galactic astronomy</a></li>
+<li><a href="/wiki/Planetary_geology" title="Planetary geology">Planetary geology</a></li>
+<li><a href="/wiki/Planetary_science" title="Planetary science">Planetary science</a></li>
+<li><a href="/wiki/Star" title="Star">Stellar astronomy</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em; padding-top:0.35em">
+<ul>
+<li><b><a href="/wiki/Chemistry" title="Chemistry">Chemistry</a></b><br />
+<a href="/wiki/Acid%E2%80%93base_reaction" title="Acid–base reaction">Acid-base</a></li>
+<li><a href="/wiki/Alchemy" title="Alchemy">Alchemy</a></li>
+<li><a href="/wiki/Analytical_chemistry" title="Analytical chemistry">Analytical</a></li>
+<li><a href="/wiki/Astrochemistry" title="Astrochemistry">Astrochemistry</a></li>
+<li><a href="/wiki/Biochemistry" title="Biochemistry">Biochemistry</a></li>
+<li><a href="/wiki/Crystallography" title="Crystallography">Crystallography</a></li>
+<li><a href="/wiki/Environmental_chemistry" title="Environmental chemistry">Environmental</a></li>
+<li><a href="/wiki/Food_chemistry" title="Food chemistry">Food chemistry</a></li>
+<li><a href="/wiki/Geochemistry" title="Geochemistry">Geochemistry</a></li>
+<li><a href="/wiki/Green_chemistry" title="Green chemistry">Green (sustainable)</a></li>
+<li><a href="/wiki/Inorganic_chemistry" title="Inorganic chemistry">Inorganic</a></li>
+<li><a href="/wiki/Materials_science" title="Materials science">Materials science</a></li>
+<li><a href="/wiki/Molecular_physics" title="Molecular physics">Molecular physics</a></li>
+<li><a href="/wiki/Nuclear_chemistry" title="Nuclear chemistry">Nuclear</a></li>
+<li><a href="/wiki/Organic_chemistry" title="Organic chemistry">Organic</a></li>
+<li><a href="/wiki/Photochemistry" title="Photochemistry">Photochemistry</a></li>
+<li><a href="/wiki/Physical_chemistry" title="Physical chemistry">Physical</a></li>
+<li><a href="/wiki/Radiochemistry" title="Radiochemistry">Radiochemistry</a></li>
+<li><a href="/wiki/Solid-state_chemistry" title="Solid-state chemistry">Solid-state</a></li>
+<li><a href="/wiki/Stereochemistry" title="Stereochemistry">Stereochemistry</a></li>
+<li><a href="/wiki/Supramolecular_chemistry" title="Supramolecular chemistry">Supramolecular</a></li>
+<li><a href="/wiki/Surface_science" title="Surface science">Surface science</a></li>
+<li><a href="/wiki/Theoretical_chemistry" title="Theoretical chemistry">Theoretical</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em; padding-top:0.35em;font-style:italic">
+<ul>
+<li><span style="font-style:normal;"><b><a href="/wiki/Physics" title="Physics">Physics</a></b></span><br />
+<a href="/wiki/Classical_physics" title="Classical physics">Classical</a></li>
+<li><a href="/wiki/Modern_physics" title="Modern physics">Modern</a></li>
+<li><a href="/wiki/Applied_physics" title="Applied physics">Applied</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em; font-style:italic;white-space:nowrap">
+<ul>
+<li><a href="/wiki/Experimental_physics" title="Experimental physics">Experimental</a></li>
+<li><a href="/wiki/Theoretical_physics" title="Theoretical physics">Theoretical</a></li>
+<li><a href="/wiki/Computational_physics" title="Computational physics">Computational</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Atomic_physics" title="Atomic physics">Atomic</a></li>
+<li><a href="/wiki/Condensed_matter_physics" title="Condensed matter physics">Condensed matter</a></li>
+<li><a href="/wiki/Mechanics" title="Mechanics">Mechanics</a>&#160;(<a href="/wiki/Classical_mechanics" title="Classical mechanics">Classical</a></li>
+<li><a href="/wiki/Continuum_mechanics" title="Continuum mechanics">Continuum</a></li>
+<li><a href="/wiki/Fluid_mechanics" title="Fluid mechanics">Fluid</a></li>
+<li><a href="/wiki/Solid_mechanics" title="Solid mechanics">Solid</a>)</li>
+<li><a href="/wiki/Molecular_physics" title="Molecular physics">Molecular</a></li>
+<li><a href="/wiki/Nuclear_physics" title="Nuclear physics">Nuclear</a></li>
+<li><a href="/wiki/Particle_physics" title="Particle physics">Particle</a></li>
+<li><a href="/wiki/Plasma_(physics)" title="Plasma (physics)">Plasma</a></li>
+<li><a href="/wiki/Quantum_field_theory" title="Quantum field theory">Quantum field theory</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Quantum_mechanics" title="Quantum mechanics">Quantum mechanics</a>&#160;(<a href="/wiki/Introduction_to_quantum_mechanics" title="Introduction to quantum mechanics">introduction</a>)</li>
+</ul>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Special_relativity" title="Special relativity">Special relativity</a></li>
+<li><a href="/wiki/General_relativity" title="General relativity">General relativity</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Rheology" title="Rheology">Rheology</a></li>
+<li><a href="/wiki/String_theory" title="String theory">String theory</a></li>
+<li><a href="/wiki/Thermodynamics" title="Thermodynamics">Thermodynamics</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em; padding-top:0.35em">
+<ul>
+<li><b><a href="/wiki/Earth_science" title="Earth science">Earth sciences</a></b><br />
+<a href="/wiki/Climatology" title="Climatology">Climatology</a></li>
+<li><a href="/wiki/Ecology" title="Ecology">Ecology</a></li>
+<li><a href="/wiki/Edaphology" title="Edaphology">Edaphology</a></li>
+<li><a href="/wiki/Environmental_science" title="Environmental science">Environmental science</a></li>
+<li><a href="/wiki/Geodesy" title="Geodesy">Geodesy</a></li>
+<li><a href="/wiki/Geography" title="Geography">Geography</a>&#160;(<a href="/wiki/Physical_geography" title="Physical geography">Physical</a>)</li>
+<li><a href="/wiki/Geology" title="Geology">Geology</a></li>
+<li><a href="/wiki/Geomorphology" title="Geomorphology">Geomorphology</a></li>
+<li><a href="/wiki/Geophysics" title="Geophysics">Geophysics</a></li>
+<li><a href="/wiki/Glaciology" title="Glaciology">Glaciology</a></li>
+<li><a href="/wiki/Hydrology" title="Hydrology">Hydrology</a></li>
+<li><a href="/wiki/Limnology" title="Limnology">Limnology</a></li>
+<li><a href="/wiki/Meteorology" title="Meteorology">Meteorology</a></li>
+<li><a href="/wiki/Oceanography" title="Oceanography">Oceanography</a></li>
+<li><a href="/wiki/Paleoclimatology" title="Paleoclimatology">Paleoclimatology</a></li>
+<li><a href="/wiki/Paleoecology" title="Paleoecology">Paleoecology</a></li>
+<li><a href="/wiki/Palynology" title="Palynology">Palynology</a></li>
+<li><a href="/wiki/Pedology_(soil_study)" title="Pedology (soil study)">Pedology</a></li>
+<li><a href="/wiki/Space_science" title="Space science" class="mw-redirect">Space science</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Life_sciences" title="Life sciences">Life</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><b><a href="/wiki/Biology" title="Biology">Biology</a></b><br />
+<a href="/wiki/Anatomy" title="Anatomy">Anatomy</a></li>
+<li><a href="/wiki/Astrobiology" title="Astrobiology">Astrobiology</a></li>
+<li><a href="/wiki/Biochemistry" title="Biochemistry">Biochemistry</a></li>
+<li><a href="/wiki/Biogeography" title="Biogeography">Biogeography</a></li>
+<li><a href="/wiki/Biological_engineering" title="Biological engineering">Biological engineering</a></li>
+<li><a href="/wiki/Biophysics" title="Biophysics">Biophysics</a></li>
+<li><a href="/wiki/Behavioral_neuroscience" title="Behavioral neuroscience">Behavioral neuroscience</a></li>
+<li><a href="/wiki/Biotechnology" title="Biotechnology">Biotechnology</a></li>
+<li><a href="/wiki/Botany" title="Botany">Botany</a></li>
+<li><a href="/wiki/Cell_biology" title="Cell biology">Cell biology</a></li>
+<li><a href="/wiki/Conservation_biology" title="Conservation biology">Conservation biology</a></li>
+<li><a href="/wiki/Cryobiology" title="Cryobiology">Cryobiology</a></li>
+<li><a href="/wiki/Developmental_biology" title="Developmental biology">Developmental biology</a></li>
+<li><a href="/wiki/Ecology" title="Ecology">Ecology</a></li>
+<li><a href="/wiki/Ethnobiology" title="Ethnobiology">Ethnobiology</a></li>
+<li><a href="/wiki/Ethology" title="Ethology">Ethology</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Evolutionary_biology" title="Evolutionary biology">Evolutionary biology</a>&#160;(<a href="/wiki/Introduction_to_evolution" title="Introduction to evolution">introduction</a>)</li>
+</ul>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Genetics" title="Genetics">Genetics</a>&#160;(<a href="/wiki/Introduction_to_genetics" title="Introduction to genetics">introduction</a>)</li>
+<li><a href="/wiki/Gerontology" title="Gerontology">Gerontology</a></li>
+<li><a href="/wiki/Immunology" title="Immunology">Immunology</a></li>
+<li><a href="/wiki/Limnology" title="Limnology">Limnology</a></li>
+<li><a href="/wiki/Marine_biology" title="Marine biology">Marine biology</a></li>
+<li><a href="/wiki/Microbiology" title="Microbiology">Microbiology</a></li>
+<li><a href="/wiki/Molecular_biology" title="Molecular biology">Molecular biology</a></li>
+<li><a href="/wiki/Neuroscience" title="Neuroscience">Neuroscience</a></li>
+<li><a href="/wiki/Paleontology" title="Paleontology">Paleontology</a></li>
+<li><a href="/wiki/Parasitology" title="Parasitology">Parasitology</a></li>
+<li><a href="/wiki/Physiology" title="Physiology">Physiology</a></li>
+<li><a href="/wiki/Radiobiology" title="Radiobiology">Radiobiology</a></li>
+<li><a href="/wiki/Soil_biology" title="Soil biology">Soil biology</a></li>
+<li><a href="/wiki/Sociobiology" title="Sociobiology">Sociobiology</a></li>
+<li><a href="/wiki/Systematics" title="Systematics">Systematics</a></li>
+<li><a href="/wiki/Toxicology" title="Toxicology">Toxicology</a></li>
+<li><a href="/wiki/Zoology" title="Zoology">Zoology</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Social_science" title="Social science">Social</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Anthropology" title="Anthropology">Anthropology</a></li>
+<li><a href="/wiki/Archaeology" title="Archaeology">Archaeology</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Criminology" title="Criminology">Criminology</a></li>
+<li><a href="/wiki/Demography" title="Demography">Demography</a></li>
+<li><a href="/wiki/Economics" title="Economics">Economics</a></li>
+<li><a href="/wiki/Human_geography" title="Human geography">Human geography</a></li>
+<li><a href="/wiki/International_relations" title="International relations">International relations</a></li>
+<li><a href="/wiki/Law" title="Law">Law</a></li>
+<li><a href="/wiki/Linguistics" title="Linguistics">Linguistics</a></li>
+<li><a href="/wiki/Pedagogy" title="Pedagogy">Pedagogy</a></li>
+<li><a href="/wiki/Political_science" title="Political science">Political science</a></li>
+<li><a href="/wiki/Psychology" title="Psychology">Psychology</a></li>
+<li><a href="/wiki/Science_education" title="Science education">Science education</a></li>
+<li><a href="/wiki/Sociology" title="Sociology">Sociology</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Applied_science" title="Applied science">Applied</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><b><a href="/wiki/Engineering" title="Engineering">Engineering</a></b><br />
+<a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace</a></li>
+<li><a href="/wiki/Agricultural_engineering" title="Agricultural engineering">Agricultural</a></li>
+<li><a href="/wiki/Biological_engineering" title="Biological engineering">Biological</a></li>
+<li><a href="/wiki/Biomedical_engineering" title="Biomedical engineering">Biomedical</a></li>
+<li><a href="/wiki/Chemical_engineering" title="Chemical engineering">Chemical</a></li>
+<li><a href="/wiki/Civil_engineering" title="Civil engineering">Civil</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Computer_science" title="Computer science">Computer science</a>&#160;/ <a href="/wiki/Computer_engineering" title="Computer engineering">engineering</a></li>
+</ul>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical</a></li>
+<li><a href="/wiki/Fire_protection_engineering" title="Fire protection engineering">Fire protection</a></li>
+<li><a href="/wiki/Genetic_engineering" title="Genetic engineering">Genetic</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial</a></li>
+<li><a href="/wiki/Mechanical_engineering" title="Mechanical engineering">Mechanical</a></li>
+<li><a href="/wiki/Military_engineering" title="Military engineering">Military</a></li>
+<li><a href="/wiki/Mining_engineering" title="Mining engineering">Mining</a></li>
+<li><a href="/wiki/Nuclear_engineering" title="Nuclear engineering">Nuclear</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Robotics" title="Robotics">Robotics</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Software_engineering" title="Software engineering">Software</a></li>
+<li><a href="/wiki/Web_engineering" title="Web engineering">Web</a></li>
+</ul>
+</div>
+<div class="hlist" style="margin-left: 0em; padding-top:0.35em">
+<ul>
+<li><b><a href="/wiki/Healthcare_science" title="Healthcare science" class="mw-redirect">Healthcare</a></b><br />
+<a href="/wiki/Dentistry" title="Dentistry">Dentistry</a></li>
+<li><a href="/wiki/Epidemiology" title="Epidemiology">Epidemiology</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="/wiki/Medicine" title="Medicine">Medicine</a>&#160;(<a href="/wiki/Veterinary_medicine" title="Veterinary medicine">veterinary</a>)</li>
+</ul>
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Nursing" title="Nursing">Nursing</a></li>
+<li><a href="/wiki/Pharmacy" title="Pharmacy">Pharmacy</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;"><span style="font-size:110%;"><a href="/wiki/Interdisciplinarity" title="Interdisciplinarity">Interdisciplinary</a></span></div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Applied_physics" title="Applied physics">Applied physics</a></li>
+<li><a href="/wiki/Artificial_intelligence" title="Artificial intelligence">Artificial intelligence</a></li>
+<li><a href="/wiki/Bioethics" title="Bioethics">Bioethics</a></li>
+<li><a href="/wiki/Bioinformatics" title="Bioinformatics">Bioinformatics</a></li>
+<li><a href="/wiki/Biomedical_engineering" title="Biomedical engineering">Biomedical engineering</a></li>
+<li><a href="/wiki/Biostatistics" title="Biostatistics">Biostatistics</a></li>
+<li><a href="/wiki/Cognitive_science" title="Cognitive science">Cognitive science</a></li>
+<li><a href="/wiki/Complex_systems" title="Complex systems">Complex systems</a></li>
+<li><a href="/wiki/Computational_linguistics" title="Computational linguistics">Computational linguistics</a></li>
+<li><a href="/wiki/Cultural_studies" title="Cultural studies">Cultural studies</a></li>
+<li><a href="/wiki/Cybernetics" title="Cybernetics">Cybernetics</a></li>
+<li><a href="/wiki/Environmental_science" title="Environmental science">Environmental science</a></li>
+<li><a href="/wiki/Environmental_social_science" title="Environmental social science">Environmental social science</a></li>
+<li><a href="/wiki/Environmental_studies" title="Environmental studies">Environmental studies</a></li>
+<li><a href="/wiki/Ethnic_studies" title="Ethnic studies">Ethnic studies</a></li>
+<li><a href="/wiki/Evolutionary_psychology" title="Evolutionary psychology">Evolutionary psychology</a></li>
+<li><a href="/wiki/Forestry" title="Forestry">Forestry</a></li>
+<li><a href="/wiki/Library_science" title="Library science">Library science</a></li>
+<li><span class="wraplinks"><a href="/wiki/Mathematical_and_theoretical_biology" title="Mathematical and theoretical biology">Mathematical and theoretical biology</a></span></li>
+<li><a href="/wiki/Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="/wiki/Military_science" title="Military science">Military science</a></li>
+<li><a href="/wiki/Network_science" title="Network science">Network science</a></li>
+<li><a href="/wiki/Neural_engineering" title="Neural engineering">Neural engineering</a></li>
+<li><a href="/wiki/Neuroscience" title="Neuroscience">Neuroscience</a></li>
+<li><a href="/wiki/Science_studies" title="Science studies">Science studies</a></li>
+<li><a href="/wiki/Scientific_modelling" title="Scientific modelling">Scientific modelling</a></li>
+<li><a href="/wiki/Semiotics" title="Semiotics">Semiotics</a></li>
+<li><a href="/wiki/Sociobiology" title="Sociobiology">Sociobiology</a></li>
+<li><a href="/wiki/Statistics" title="Statistics">Statistics</a></li>
+<li><a href="/wiki/Systems_science" title="Systems science">Systems science</a></li>
+<li><a href="/wiki/Urban_planning" title="Urban planning">Urban planning</a></li>
+<li><a href="/wiki/Web_science" title="Web science">Web science</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.1em 0.4em;">
+<div class="NavFrame collapsed" style="border:none;padding:0;">
+<div class="NavHead" style="font-size:105%;background:transparent;text-align:left;text-align:center;padding-bottom:0;border-bottom:1px solid #aaa;;">
+<div class="hlist plainlist" style="margin-left: 0em;">
+<ul>
+<li><span style="font-size:110%;"><a href="/wiki/Philosophy_of_science" title="Philosophy of science">Philosophy</a></span></li>
+<li><span style="font-size:110%;"><a href="/wiki/History_of_science" title="History of science">History</a></span></li>
+</ul>
+</div>
+</div>
+<div class="NavContent" style="font-size:105%;padding:0.2em 0 0.4em;text-align:center;">
+<div class="hlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Citizen_science" title="Citizen science">Citizen science</a></li>
+<li><a href="/wiki/Fringe_science" title="Fringe science">Fringe science</a></li>
+<li><a href="/wiki/Protoscience" title="Protoscience">Protoscience</a></li>
+<li><a href="/wiki/Pseudoscience" title="Pseudoscience">Pseudoscience</a></li>
+<li><a href="/wiki/Scientific_freedom" title="Scientific freedom">Scientific freedom</a></li>
+<li><a href="/wiki/Science_policy" title="Science policy">Science policy</a></li>
+<li><a href="/wiki/Scientific_method" title="Scientific method">Scientific method</a></li>
+<li><a href="/wiki/Technoscience" title="Technoscience">Technoscience</a></li>
+</ul>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="hlist" style="padding:0.3em 0.4em 0.3em;font-weight:bold;border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;padding-top:0.2em;;">
+<ul>
+<li><a href="/wiki/Outline_of_science" title="Outline of science">Outline</a></li>
+<li><a href="/wiki/Portal:Science" title="Portal:Science">Portal</a></li>
+<li><a href="/wiki/Category:Science" title="Category:Science">Category</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="text-align:right;font-size:115%;padding-top: 0.6em;;">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Science" title="Template:Science"><span title="View this template" style=";">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Science" title="Template talk:Science"><span title="Discuss this template" style=";">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Science&amp;action=edit"><span title="Edit this template" style=";">e</span></a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+<p><b>Computational science</b> (also <b>scientific computing</b> or <b>scientific computation</b>) is concerned with constructing <a href="/wiki/Scientific_modeling" title="Scientific modeling" class="mw-redirect">mathematical models</a> and <a href="/wiki/Numerical_analysis" title="Numerical analysis">quantitative analysis</a> techniques and using computers to analyze and solve <a href="/wiki/Scientific" title="Scientific" class="mw-redirect">scientific</a> problems.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> In practical use, it is typically the application of <a href="/wiki/Computer_simulation" title="Computer simulation">computer simulation</a> and other forms of <a href="/wiki/Computation" title="Computation">computation</a> from <a href="/wiki/Numerical_analysis" title="Numerical analysis">numerical analysis</a> and <a href="/wiki/Theoretical_computer_science" title="Theoretical computer science">theoretical computer science</a> to problems in various scientific disciplines.</p>
+<p>The field is different from theory and laboratory experiment which are the traditional forms of science and <a href="/wiki/Engineering" title="Engineering">engineering</a>. The scientific computing approach is to gain understanding, mainly through the analysis of mathematical models implemented on <a href="/wiki/Computer" title="Computer">computers</a>.</p>
+<p>Scientists and engineers develop <a href="/wiki/Computer_programs" title="Computer programs" class="mw-redirect">computer programs</a>, <a href="/wiki/Application_software" title="Application software">application software</a>, that model systems being studied and run these programs with various sets of input parameters. In some cases, these models require massive amounts of calculations (usually <a href="/wiki/Floating-point" title="Floating-point" class="mw-redirect">floating-point</a>) and are often executed on <a href="/wiki/Supercomputer" title="Supercomputer">supercomputers</a> or <a href="/wiki/Distributed_computing" title="Distributed computing">distributed computing</a> platforms.</p>
+<p>Numerical analysis is an important underpinning for techniques used in computational science.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Applications_of_computational_science"><span class="tocnumber">1</span> <span class="toctext">Applications of computational science</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Numerical_simulations"><span class="tocnumber">1.1</span> <span class="toctext">Numerical simulations</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Model_fitting_and_data_analysis"><span class="tocnumber">1.2</span> <span class="toctext">Model fitting and data analysis</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Computational_optimization"><span class="tocnumber">1.3</span> <span class="toctext">Computational optimization</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Methods_and_algorithms"><span class="tocnumber">2</span> <span class="toctext">Methods and algorithms</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Reproducibility_and_open_research_computing"><span class="tocnumber">3</span> <span class="toctext">Reproducibility and open research computing</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Journals"><span class="tocnumber">4</span> <span class="toctext">Journals</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Education"><span class="tocnumber">5</span> <span class="toctext">Education</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Related_fields"><span class="tocnumber">6</span> <span class="toctext">Related fields</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Additional_sources"><span class="tocnumber">9</span> <span class="toctext">Additional sources</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Applications_of_computational_science">Applications of computational science</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=1" title="Edit section: Applications of computational science">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Problem domains for computational science/scientific computing include:</p>
+<h3><span class="mw-headline" id="Numerical_simulations">Numerical simulations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=2" title="Edit section: Numerical simulations">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Numerical simulations have different objectives depending on the nature of the task being simulated:</p>
+<ul>
+<li>Reconstruct and understand known events (e.g., earthquake, tsunamis and other natural disasters).</li>
+<li>Predict future or unobserved situations (e.g., weather, sub-atomic particle behaviour).</li>
+</ul>
+<h3><span class="mw-headline" id="Model_fitting_and_data_analysis">Model fitting and data analysis</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=3" title="Edit section: Model fitting and data analysis">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul>
+<li>Appropriately tune models or solve equations to reflect observations, subject to model constraints (e.g. oil exploration geophysics, computational linguistics).</li>
+<li>Use <a href="/wiki/Graph_theory" title="Graph theory">graph theory</a> to model networks, such as those connecting individuals, organizations, websites, and biological systems.</li>
+</ul>
+<h3><span class="mw-headline" id="Computational_optimization">Computational optimization</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=4" title="Edit section: Computational optimization">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="rellink relarticle mainarticle">Main article: <a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Mathematical optimization</a></div>
+<ul>
+<li>Optimize known scenarios (e.g., technical and manufacturing processes, front-end engineering).</li>
+</ul>
+<h2><span class="mw-headline" id="Methods_and_algorithms">Methods and algorithms</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=5" title="Edit section: Methods and algorithms">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Algorithms and mathematical methods used in computational science are varied. Commonly applied methods include:</p>
+<div class="div-col columns column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
+<ul>
+<li><a href="/wiki/Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li>Application of <a href="/wiki/Taylor_series" title="Taylor series">Taylor series</a> as convergent and asymptotic series</li>
+<li><a href="/wiki/Computing" title="Computing">Computing</a> derivatives by <a href="/wiki/Automatic_differentiation" title="Automatic differentiation">Automatic differentiation</a> (AD)</li>
+<li><a href="/wiki/Computing" title="Computing">Computing</a> derivatives by <a href="/wiki/Finite_differences" title="Finite differences" class="mw-redirect">finite differences</a></li>
+<li>Graph theoretic suites</li>
+<li>High order difference approximations via <a href="/wiki/Taylor_series" title="Taylor series">Taylor series</a> and <a href="/wiki/Richardson_extrapolation" title="Richardson extrapolation">Richardson extrapolation</a></li>
+<li><a href="/wiki/Methods_of_integration" title="Methods of integration" class="mw-redirect">Methods of integration</a> on a uniform <a href="/wiki/Mesh_(mathematics)" title="Mesh (mathematics)" class="mw-redirect">mesh</a>: <a href="/wiki/Rectangle_rule" title="Rectangle rule" class="mw-redirect">rectangle rule</a> (also called <i>midpoint rule</i>), <a href="/wiki/Trapezoid_rule" title="Trapezoid rule" class="mw-redirect">trapezoid rule</a>, <a href="/wiki/Simpson%27s_rule" title="Simpson's rule">Simpson's rule</a></li>
+<li><a href="/wiki/Runge-Kutta_methods" title="Runge-Kutta methods" class="mw-redirect">Runge Kutta method</a> for solving ordinary differential equations</li>
+<li><a href="/wiki/Monte_Carlo_method" title="Monte Carlo method">Monte Carlo methods</a></li>
+<li><a href="/wiki/Molecular_dynamics" title="Molecular dynamics">Molecular dynamics</a></li>
+<li><a href="/wiki/Linear_programming" title="Linear programming">Linear programming</a></li>
+<li><a href="/wiki/Branch_and_cut" title="Branch and cut">Branch and cut</a></li>
+<li><a href="/wiki/Branch_and_Bound" title="Branch and Bound" class="mw-redirect">Branch and Bound</a></li>
+<li><a href="/wiki/Numerical_linear_algebra" title="Numerical linear algebra">Numerical linear algebra</a></li>
+<li><a href="/wiki/Computing" title="Computing">Computing</a> the <a href="/wiki/LU_decomposition" title="LU decomposition">LU</a> factors by <a href="/wiki/Gaussian_elimination" title="Gaussian elimination">Gaussian elimination</a></li>
+<li><a href="/wiki/Cholesky_decomposition" title="Cholesky decomposition">Cholesky factorizations</a></li>
+<li><a href="/wiki/Discrete_Fourier_transform" title="Discrete Fourier transform">Discrete Fourier transform</a> and applications.</li>
+<li><a href="/wiki/Newton%27s_method" title="Newton's method">Newton's method</a></li>
+<li><a href="/wiki/Time_stepping" title="Time stepping" class="mw-redirect">Time stepping</a> methods for dynamical systems</li>
+</ul>
+</div>
+<p>Programming languages and <a href="/wiki/Computer_algebra_systems" title="Computer algebra systems" class="mw-redirect">computer algebra systems</a> commonly used for the more mathematical aspects of scientific computing applications include <a href="/wiki/R_(programming_language)" title="R (programming language)">R (programming language)</a>, <a href="/wiki/MATLAB" title="MATLAB">MATLAB</a>, <a href="/wiki/Mathematica" title="Mathematica">Mathematica</a>,<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> <a href="/wiki/SciLab" title="SciLab" class="mw-redirect">SciLab</a>, <a href="/wiki/GNU_Octave" title="GNU Octave">GNU Octave</a>, <a href="/wiki/Python_(programming_language)" title="Python (programming language)">Python (programming language)</a> with <a href="/wiki/SciPy" title="SciPy">SciPy</a>, and <a href="/wiki/Perl_Data_Language" title="Perl Data Language">PDL</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (December 2008)">citation needed</span></a></i>]</sup> The more computationally intensive aspects of scientific computing will often use some variation of <a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> or <a href="/wiki/Fortran" title="Fortran">Fortran</a> and optimized algebra libraries such as <a href="/wiki/BLAS" title="BLAS" class="mw-redirect">BLAS</a> or <a href="/wiki/LAPACK" title="LAPACK">LAPACK</a>.</p>
+<p>Computational science application programs often model real-world changing conditions, such as weather, air flow around a plane, automobile body distortions in a crash, the motion of stars in a galaxy, an explosive device, etc. Such programs might create a 'logical mesh' in computer memory where each item corresponds to an area in space and contains information about that space relevant to the model. For example in weather models, each item might be a square kilometer; with land elevation, current wind direction, humidity, temperature, pressure, etc. The program would calculate the likely next state based on the current state, in simulated time steps, solving equations that describe how the system operates; and then repeat the process to calculate the next state.</p>
+<p>The term <a href="/wiki/Computational_scientist" title="Computational scientist">computational scientist</a> is used to describe someone skilled in scientific computing. This person is usually a scientist, an engineer or an applied mathematician who applies <a href="/wiki/High-performance_computing" title="High-performance computing" class="mw-redirect">high-performance computing</a> in different ways to advance the state-of-the-art in their respective applied disciplines in physics, chemistry or engineering. Scientific computing has increasingly also impacted on other areas including economics, biology and medicine.</p>
+<p>Computational science is now commonly considered a third mode of <a href="/wiki/Science" title="Science">science</a>, complementing and adding to <a href="/wiki/Experimentation" title="Experimentation" class="mw-redirect">experimentation</a>/<a href="/wiki/Observation" title="Observation">observation</a> and <a href="/wiki/Theory" title="Theory">theory</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup> The essence of computational science is numerical algorithm<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup> and/or <a href="/wiki/Computational_mathematics" title="Computational mathematics">computational mathematics</a>. In fact, substantial effort in computational sciences has been devoted to the development of algorithms, the efficient implementation in programming languages, and validation of computational results. A collection of problems and solutions in computational science can be found in Steeb, Hardy, Hardy and Stoop, 2004.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Reproducibility_and_open_research_computing">Reproducibility and open research computing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=6" title="Edit section: Reproducibility and open research computing">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The complexity of computational methods is a threat to the <a href="/wiki/Reproducibility" title="Reproducibility">reproducibility</a> of research. <a href="/wiki/Jon_Claerbout" title="Jon Claerbout">Jon Claerbout</a> has become prominent for pointing out that <i>reproducible research</i> requires archiving and documenting all raw data and all code used to obtain a result.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup><sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup><sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup> Nick Barnes, in the <i>Science Code Manifesto</i>, proposed five principles that should be followed when software is used in open science publication.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> Tomi Kauppinen et al. established and defined <i>Linked Open Science</i>, an approach to interconnect scientific assets to enable transparent, reproducible and transdisciplinary research.<sup id="cite_ref-kauppinen_10-0" class="reference"><a href="#cite_note-kauppinen-10"><span>[</span>10<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Journals">Journals</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=7" title="Edit section: Journals">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Most scientific journals do not accept software papers because a description of a reasonably mature software usually does not meet the criterion of <i>novelty</i>. Outside computer science itself, there are only few journals dedicated to scientific software. Established journals like <a href="/wiki/Elsevier" title="Elsevier">Elsevier</a>'s <a href="/wiki/Computer_Physics_Communications" title="Computer Physics Communications">Computer Physics Communications</a> publish papers that are not open-access (though the described software usually is). To fill this gap, a new journal entitled <i>Open research computation</i> was announced in 2010;<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> it closed in 2012 without having published a single paper, for a lack of submissions probably due to excessive quality requirements.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> A new initiative was launched in 2012, the <i>Journal of Open Research Software.</i><sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Education">Education</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=8" title="Edit section: Education">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Scientific computation is most often studied through an <a href="/wiki/Applied_mathematics" title="Applied mathematics">applied mathematics</a> or <a href="/wiki/Computer_science" title="Computer science">computer science</a> program, or within a standard mathematics, sciences, or engineering program. At some institutions a specialization in scientific computation can be earned as a "minor" within another program (which may be at varying levels). However, there are increasingly many <a href="/wiki/Bachelor%27s_degree" title="Bachelor's degree">bachelor's</a> and master's programs in computational science. Some schools also offer the Ph.D. in computational science, <a href="/wiki/Computational_engineering" title="Computational engineering" class="mw-redirect">computational engineering</a>, computational science and engineering, or scientific computation.</p>
+<p>There are also programs in areas such as <a href="/wiki/Computational_physics" title="Computational physics">computational physics</a>, <a href="/wiki/Computational_chemistry" title="Computational chemistry">computational chemistry</a>, etc.</p>
+<h2><span class="mw-headline" id="Related_fields">Related fields</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=9" title="Edit section: Related fields">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="div-col columns column-width" style="-moz-column-width: 15em; -webkit-column-width: 15em; column-width: 15em;">
+<ul>
+<li><a href="/wiki/Bioinformatics" title="Bioinformatics">Bioinformatics</a></li>
+<li><a href="/wiki/Cheminformatics" title="Cheminformatics">Cheminformatics</a></li>
+<li><a href="/wiki/Chemometrics" title="Chemometrics">Chemometrics</a></li>
+<li><a href="/wiki/Computational_biology" title="Computational biology">Computational biology</a></li>
+<li><a href="/wiki/Computational_chemistry" title="Computational chemistry">Computational chemistry</a></li>
+<li><a href="/wiki/Computational_economics" title="Computational economics">Computational economics</a></li>
+<li><a href="/wiki/Computational_electromagnetics" title="Computational electromagnetics">Computational electromagnetics</a></li>
+<li><a href="/wiki/Computational_engineering" title="Computational engineering" class="mw-redirect">Computational engineering</a></li>
+<li><a href="/wiki/Computational_finance" title="Computational finance">Computational finance</a></li>
+<li><a href="/wiki/Computational_fluid_dynamics" title="Computational fluid dynamics">Computational fluid dynamics</a></li>
+<li><a href="/wiki/Computational_forensics" title="Computational forensics" class="mw-redirect">Computational forensics</a></li>
+<li><a href="/wiki/Computational_geophysics" title="Computational geophysics">Computational geophysics</a></li>
+<li><a href="/wiki/Computational_informatics" title="Computational informatics">Computational informatics</a></li>
+<li><a href="/wiki/Computational_intelligence" title="Computational intelligence">Computational intelligence</a></li>
+<li><a href="/wiki/Computational_linguistics" title="Computational linguistics">Computational linguistics</a></li>
+<li><a href="/wiki/Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+<li><a href="/wiki/Computational_mechanics" title="Computational mechanics">Computational mechanics</a></li>
+<li><a href="/wiki/Computational_neuroscience" title="Computational neuroscience">Computational neuroscience</a></li>
+<li><a href="/wiki/Computational_particle_physics" title="Computational particle physics">Computational particle physics</a></li>
+<li><a href="/wiki/Computational_physics" title="Computational physics">Computational physics</a></li>
+<li><a href="/wiki/Computational_statistics" title="Computational statistics">Computational statistics</a></li>
+<li><a href="/wiki/Computer_algebra" title="Computer algebra" class="mw-redirect">Computer algebra</a></li>
+<li><a href="/w/index.php?title=Environmental_simulation&amp;action=edit&amp;redlink=1" class="new" title="Environmental simulation (page does not exist)">Environmental simulation</a></li>
+<li><a href="/wiki/Financial_modeling" title="Financial modeling">Financial modeling</a></li>
+<li><a href="/wiki/Geographic_information_system" title="Geographic information system">Geographic information system</a> (GIS)</li>
+<li><a href="/wiki/High_performance_computing" title="High performance computing" class="mw-redirect">High performance computing</a></li>
+<li><a href="/wiki/Machine_learning" title="Machine learning">Machine learning</a></li>
+<li><a href="/wiki/Network_theory" title="Network theory">Network analysis</a></li>
+<li><a href="/wiki/Neuroinformatics" title="Neuroinformatics">Neuroinformatics</a></li>
+<li><a href="/wiki/Numerical_linear_algebra" title="Numerical linear algebra">Numerical linear algebra</a></li>
+<li><a href="/wiki/Numerical_weather_prediction" title="Numerical weather prediction">Numerical weather prediction</a></li>
+<li><a href="/wiki/Pattern_recognition" title="Pattern recognition">Pattern recognition</a></li>
+<li><a href="/wiki/Scientific_visualization" title="Scientific visualization">Scientific visualization</a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=10" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="noprint tright portal" style="border:solid #aaa 1px;margin:0.5em 0 0.5em 1em;">
+<table style="background:#f9f9f9;font-size:85%;line-height:110%;max-width:175px;">
+<tr valign="middle">
+<td style="text-align:center;"><a href="/wiki/File:Nuvola_apps_kalzium.svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/28px-Nuvola_apps_kalzium.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/42px-Nuvola_apps_kalzium.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nuvola_apps_kalzium.svg/56px-Nuvola_apps_kalzium.svg.png 2x" data-file-width="128" data-file-height="128" /></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold;"><a href="/wiki/Portal:Science" title="Portal:Science">Science portal</a></td>
+</tr>
+<tr valign="middle">
+<td style="text-align:center;"><a href="/wiki/File:Computer-aj_aj_ashton_01.svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/42px-Computer-aj_aj_ashton_01.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/56px-Computer-aj_aj_ashton_01.svg.png 2x" data-file-width="320" data-file-height="320" /></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold;"><a href="/wiki/Portal:Computing" title="Portal:Computing" class="mw-redirect">Computing portal</a></td>
+</tr>
+<tr valign="middle">
+<td style="text-align:center;"><a href="/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg" class="image"><img alt="Portal icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" width="28" height="28" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" data-file-width="128" data-file-height="128" /></a></td>
+<td style="padding:0 0.2em;vertical-align:middle;font-style:italic;font-weight:bold;"><a href="/wiki/Portal:Mathematics" title="Portal:Mathematics">Mathematics portal</a></td>
+</tr>
+</table>
+</div>
+<ul>
+<li><a href="/wiki/Computational_science_and_engineering" title="Computational science and engineering" class="mw-redirect">Computational science and engineering</a></li>
+<li><a href="/wiki/Comparison_of_computer_algebra_systems" title="Comparison of computer algebra systems" class="mw-redirect">Comparison of computer algebra systems</a></li>
+<li><a href="/wiki/List_of_software_for_molecular_mechanics_modeling" title="List of software for molecular mechanics modeling">List of molecular modeling software</a></li>
+<li><a href="/wiki/List_of_numerical_analysis_software" title="List of numerical analysis software">List of numerical analysis software</a></li>
+<li><a href="/wiki/List_of_statistical_packages" title="List of statistical packages">List of statistical packages</a></li>
+<li><a href="/wiki/Timeline_of_scientific_computing" title="Timeline of scientific computing">Timeline of scientific computing</a></li>
+<li><a href="/wiki/Simulated_reality" title="Simulated reality">Simulated reality</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=11" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 33em; -webkit-column-width: 33em; column-width: 33em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.nccs.gov/about/">National Center for Computational Science</a>. Oak Ridge National Laboratory. Retrieved 11 Nov 2012.</span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.scientific-computing.com/products/review_details.php?review_id=17">Mathematica 6</a> Scientific Computing World, May 2007</span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.siam.org/students/resources/report.php">Graduate Education for Computational Science and Engineering</a>.Siam.org, <a href="/wiki/Society_for_Industrial_and_Applied_Mathematics" title="Society for Industrial and Applied Mathematics">Society for Industrial and Applied Mathematics</a> (SIAM) website; accessed Feb 2013.</span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Nonweiler T. R., 1986. Computational Mathematics: An Introduction to Numerical Approximation, John Wiley and Sons</span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">Steeb W.-H., Hardy Y., Hardy A. and Stoop R., 2004. Problems and Solutions in Scientific Computing with C++ and Java Simulations, World Scientific Publishing. <a href="/wiki/Special:BookSources/9812561129" class="internal mw-magiclink-isbn">ISBN 981-256-112-9</a></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Sergey Fomel and <a href="/wiki/Jon_Claerbout" title="Jon Claerbout">Jon Claerbout</a>, "<a rel="nofollow" class="external text" href="http://www.rrplanet.com/reproducible-research-librum/viewtopic.php?f=30&amp;t=372">Guest Editors' Introduction: Reproducible Research</a>," Computing in Science and Engineering, vol. 11, no. 1, pp. 5–7, Jan./Feb. 2009, <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1109%2FMCSE.2009.14">10.1109/MCSE.2009.14</a></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">J. B. Buckheit and <a href="/wiki/David_Donoho" title="David Donoho">D. L. Donoho</a>, "<a rel="nofollow" class="external text" href="http://www.rrplanet.com/reproducible-research-librum/viewtopic.php?f=30&amp;t=53">WaveLab and Reproducible Research</a>," Dept. of Statistics, Stanford University, Tech. Rep. 474, 1995.</span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">The Yale Law School Round Table on Data and Core Sharing: "<a rel="nofollow" class="external text" href="http://www.computer.org/portal/web/csdl/doi/10.1109/MCSE.2010.113">Reproducible Research</a>", Computing in Science and Engineering, vol. 12, no. 5, pp. 8–12, Sept/Oct 2010, <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1109%2FMCSE.2010.113">10.1109/MCSE.2010.113</a></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://sciencecodemanifesto.org/">Science Code Manifesto homepage</a>. Accessed Feb 2013.</span></li>
+<li id="cite_note-kauppinen-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-kauppinen_10-0">^</a></b></span> <span class="reference-text"><span class="citation journal">Kauppinen, T.; Espindola, G. M. D. (2011). "Linked Open Science-Communicating, Sharing and Evaluating Data, Methods and Results for Executable Papers". <i>Procedia Computer Science</i> <b>4</b>: 726. <a href="/wiki/Digital_object_identifier" title="Digital object identifier">doi</a>:<a rel="nofollow" class="external text" href="http://dx.doi.org/10.1016%2Fj.procs.2011.04.076">10.1016/j.procs.2011.04.076</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AComputational+science&amp;rft.atitle=Linked+Open+Science-Communicating%2C+Sharing+and+Evaluating+Data%2C+Methods+and+Results+for+Executable+Papers&amp;rft.au=Espindola%2C+G.+M.+D.&amp;rft.aufirst=T.&amp;rft.au=Kauppinen%2C+T.&amp;rft.aulast=Kauppinen&amp;rft.date=2011&amp;rft.genre=article&amp;rft_id=info%3Adoi%2F10.1016%2Fj.procs.2011.04.076&amp;rft.jtitle=Procedia+Computer+Science&amp;rft.pages=726&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=4" class="Z3988"><span style="display:none;">&#160;</span></span> <span class="plainlinks noprint" style="font-size:smaller"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Cite_doi/10.1016.2Fj.procs.2011.04.076&amp;action=edit&amp;editintro=Template:Cite_doi/editintro2">edit</a></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">CameronNeylon.net, 13 December 2010. <a rel="nofollow" class="external text" href="http://cameronneylon.net/blog/open-research-computation-an-ordinary-journal-with-extraordinary-aims/">Open Research Computation: An ordinary journal with extraordinary aims.</a> Retrieved 04 Nov 2012.</span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">Gaël Varoquaux's Front Page, 04 Jun 2012. <a rel="nofollow" class="external text" href="http://gael-varoquaux.info/blog/?p=166">A journal promoting high-quality research code: dream and reality</a>. Retrieved 04 Nov 2012.</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://openresearchsoftware.metajnl.com/">The Journal of Open Research Software</a> ; announced at software.ac.uk/blog/2012-03-23-announcing-journal-open-research-software-software-metajournal</span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Additional_sources">Additional sources</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=12" title="Edit section: Additional sources">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>G. Hager and G. Wellein, Introduction to High Performance Computing for Scientists and Engineers, <a href="/wiki/Chapman_and_Hall" title="Chapman and Hall" class="mw-redirect">Chapman and Hall</a> (2010)</li>
+<li>A.K. Hartmann, <a rel="nofollow" class="external text" href="http://www.worldscibooks.com/physics/6988.html">Practical Guide to Computer Simulations</a>, <a href="/wiki/World_Scientific" title="World Scientific">World Scientific</a> (2009)</li>
+<li>Journal <a rel="nofollow" class="external text" href="http://www.man.poznan.pl/cmst/">Computational Methods in Science and Technology</a> (open access), <a href="/wiki/Polish_Academy_of_Sciences" title="Polish Academy of Sciences">Polish Academy of Sciences</a></li>
+<li>Journal <a rel="nofollow" class="external text" href="http://iopscience.iop.org/1749-4699/">Computational Science and Discovery</a>, <a href="/wiki/Institute_of_Physics" title="Institute of Physics">Institute of Physics</a></li>
+<li>R.H. Landau, C.C. Bordeianu, and M. Jose Paez, A Survey of Computational Physics: Introductory Computational Science, <a href="/wiki/Princeton_University_Press" title="Princeton University Press">Princeton University Press</a> (2008)</li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Computational_science&amp;action=edit&amp;section=13" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www2.fz-juelich.de/nic/">John von Neumann-Institut for Computing (NIC) at Juelich (Germany)</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.nccs.gov">The National Center for Computational Science at Oak Ridge National Laboratory</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.capital.edu/21424/Computational-Studies/7111/">Educational Materials for Undergraduate Computational Studies</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.deixismagazine.org/">Computational Science at the National Laboratories</a></li>
+</ul>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1067
+CPU time usage: 1.132 seconds
+Real time usage: 1.232 seconds
+Preprocessor visited node count: 1243/1000000
+Preprocessor generated node count: 5281/1500000
+Post‐expand include size: 51084/2048000 bytes
+Template argument size: 2861/2048000 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 4/500
+Lua time usage: 0.093/10.000 seconds
+Lua memory usage: 1.68 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1181008-0!*!0!!en!4!* and timestamp 20140421101232 and revision id 580913905
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Computational_science&amp;oldid=580913905">http://en.wikipedia.org/w/index.php?title=Computational_science&amp;oldid=580913905</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Computational_science" title="Category:Computational science">Computational science</a></li><li><a href="/wiki/Category:Applied_mathematics" title="Category:Applied mathematics">Applied mathematics</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_December_2008" title="Category:Articles with unsourced statements from December 2008">Articles with unsourced statements from December 2008</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Computational+science&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Computational+science" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Computational_science"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Computational_science"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Computational_science" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Computational_science&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Computational_science&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Computational_science" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Computational_science" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Computational_science&amp;oldid=580913905" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Computational_science&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q117801" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Computational_science&amp;id=580913905" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Computational+science">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Computational+science&amp;oldid=580913905&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=Computational_science&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-ar"><a href="//ar.wikipedia.org/wiki/%D8%AD%D9%88%D8%B3%D8%A8%D8%A9_%D8%B9%D9%84%D9%85%D9%8A%D8%A9" title="حوسبة علمية – Arabic" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Wissenschaftliches_Rechnen" title="Wissenschaftliches Rechnen – German" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Computaci%C3%B3n_cient%C3%ADfica" title="Computación científica – Spanish" lang="es" hreflang="es">Español</a></li>
+			<li class="interlanguage-link interwiki-fa"><a href="//fa.wikipedia.org/wiki/%D8%B9%D9%84%D9%85_%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%87" title="علم محاسبه – Persian" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/Sciences_num%C3%A9riques" title="Sciences numériques – French" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EA%B3%84%EC%82%B0%EA%B3%BC%ED%95%99" title="계산과학 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interlanguage-link interwiki-id"><a href="//id.wikipedia.org/wiki/Komputasi" title="Komputasi – Indonesian" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/Scienza_computazionale" title="Scienza computazionale – Italian" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interlanguage-link interwiki-mwl"><a href="//mwl.wikipedia.org/wiki/Cumputa%C3%A7on_cient%C3%ADfica" title="Cumputaçon científica – Mirandese" lang="mwl" hreflang="mwl">Mirandés</a></li>
+			<li class="interlanguage-link interwiki-mn"><a href="//mn.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BE%D1%86%D0%BE%D0%BD_%D0%B1%D0%BE%D0%B4%D0%BE%D1%85_%D1%88%D0%B8%D0%BD%D0%B6%D0%BB%D1%8D%D1%85_%D1%83%D1%85%D0%B0%D0%B0%D0%BD" title="Тооцон бодох шинжлэх ухаан – Mongolian" lang="mn" hreflang="mn">Монгол</a></li>
+			<li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/Computationele_wetenschap" title="Computationele wetenschap – Dutch" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/%E8%A8%88%E7%AE%97%E7%A7%91%E5%AD%A6" title="計算科学 – Japanese" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_cient%C3%ADfica" title="Computação científica – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interlanguage-link interwiki-fi"><a href="//fi.wikipedia.org/wiki/Laskennallinen_tiede" title="Laskennallinen tiede – Finnish" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interlanguage-link interwiki-ta"><a href="//ta.wikipedia.org/wiki/%E0%AE%85%E0%AE%B1%E0%AE%BF%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D_%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%AE%E0%AF%88" title="அறிவியல் கணிமை – Tamil" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E7%A7%91%E5%AD%A6" title="计算科学 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+			<li class="uls-p-lang-dummy"><a href="#"></a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q117801#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 9 November 2013 at 16:16.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/Computational_science" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":264,"wgHostname":"mw1107"});
+}</script>
+	</body>
+</html>

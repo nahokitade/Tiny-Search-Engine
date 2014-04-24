@@ -68,7 +68,7 @@ WebPage *removeTop(List *linkedList){
 	WebPage *webTemp = linkedList->head->page; // DOES THIS WORK????
 	ListNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
 	linkedList->head = linkedList->head->next; // make the new head the one after current head
-	linkedList->head->prev = NULL; // make the new heads previous to NULL
+	if(linkedList->head) linkedList->head->prev = NULL; // make the new heads previous to NULL
 
 	// MOVE SOMEWHERE ELSE deleteWebPage(toFreeNode->page); // function in common.c frees memory of WebPage struct
 	free(toFreeNode); // free memory of ListNode struct.

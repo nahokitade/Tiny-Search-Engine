@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -pedantic -std=c11 
+CFLAGS = -Wall -pedantic -std=c11 -g
 
 # luckily, make has comments too!  
 

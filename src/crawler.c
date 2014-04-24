@@ -52,26 +52,21 @@
 int main(int argc, char* argv[])
 {
 	int docID = 1;
-	int depth = 0;
 	char *dirName;
 	char *sourceURL;
-	int assertInt(const char* const str, long *val);
+	//int assertInt(const char* const str, long *val);
 	int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr);
 	int testDirSlash(const char *str);
 
 	// check command line arguments
 	if(argc != 4){ // need exactly 4 args
-		fprintf(stderr, "USAGE err1.");
+		fprintf(stderr, "Usage: ./crawler [seedURL] [webPageDirectory] [maxWebPageDepth]");
 		return 0;
 	}
 
-
-	// need to assert that first argument is a string!!!!!!!!!
-
-
 	// need prefix of the url given to be the URL_PREFIX
-	if((strncmp(argv[1], URL_PREFIX, strlen(URL_PREFIX))) == 0){
-		fprintf(stderr, "USAGE err6.");
+	if(!(strncmp(argv[1], URL_PREFIX, strlen(URL_PREFIX))) == 0){
+		fprintf(stderr, "The URL must have prefix: %s", URL_PREFIX);
                 return 0;
         }
 	sourceURL = argv[1];
@@ -79,29 +74,30 @@ int main(int argc, char* argv[])
 	struct stat givDir;
 	// checks if the given "directory" exisits at all
 	if(stat(argv[2], &givDir) == -1){
-		fprintf(stderr, "USAGE err2.");
+		fprintf(stderr, "Directory cannot be found. The directory must exist and be already created.");
                 return 0;
 	} 
 
-	// checks if the given "directoru" is a directory.
+	// checks if the given "directory" is a directory.
 	if(!(S_ISDIR(givDir.st_mode))){
-		fprintf(stderr, "USAGE err3.");
+		fprintf(stderr, "Given \"directory\" is not a directory.");
                 return 0;
 	}
 
 	dirName = argv[2];
 	
-	long *searchDepth = 0;
+	//long *searchDepth = 0;
 	// make sure that the third argument is an int.
-	if(!(assertInt(argv[3], searchDepth))){
-		fprintf(stderr, "USAGE err4.");
+	int searchDepth = atoi(argv[3]);
+	if(!searchDepth){
+		fprintf(stderr, "The search depth must be a integer value.");
                 return 0;
 	}
 
 	// make sure that search depth is not greater than MAX_DEPTH
 	// and larger than 0.
-	if(*searchDepth > MAX_DEPTH || *searchDepth < 0){
-		fprintf(stderr, "USAGE err5.");
+	if(searchDepth > MAX_DEPTH || searchDepth < 0){
+		fprintf(stderr, "Search depth cannot exceed 4, and cannot be negative.");
                 return 0;
 	}
 
@@ -121,8 +117,7 @@ int main(int argc, char* argv[])
 
 	// Set the depth and url of the WebPage
 	source->url = urlGiven;
-	source->depth = depth;
-	depth++;
+	source->depth = 0;
 	
 	// get seed webpage
 	if(GetWebPage(source)){ 
@@ -133,7 +128,7 @@ int main(int argc, char* argv[])
 		}
 	}
 	else{
-		fprintf(stderr, "USAGE err5.");
+		fprintf(stderr, "The given URL is not valid.");
 		return 0;
 	}
 
@@ -150,27 +145,29 @@ int main(int argc, char* argv[])
  	char *base_url = URL_PREFIX;
  	List *URLList = CreateDLL();
 	
- 	while((pos = GetNextURL(source->url, pos, base_url, &result)) > 0) {
+ 	while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
       		// DO SOMETHING WITH THE RESULT
-		if((MAX_DEPTH >= (depth + 1)) && !(HashContains(result, hashTable))){
+		if((searchDepth >= 1) && !(HashContains(result, hashTable))){
 			char *resultSave;
 			resultSave = calloc(strlen(result), sizeof(char));
 			if(!resultSave) return 0;
+			resultSave = result;
 			WebPage *pageAdd;
 			pageAdd = calloc(1, sizeof(WebPage));
 			if(!pageAdd) return 0;
 			pageAdd->url = resultSave;
-			pageAdd->depth = depth + 1;
+			pageAdd->depth = (source->depth + 1);
+			printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
 			appendDLL(pageAdd, URLList);
 		}
  	}
 	pos = 0;
 	deleteWebPage(source);
-	depth++; // Dont think we need this??????
 
 	while(!IsEmptyList(URLList)){
         	// get next url from list
 		WebPage *nextURL = removeTop(URLList);
+		printf("This is nextURL: %s\n Depth is: %d\n\n", nextURL->url, nextURL->depth);
 
         	// get webpage for url
 		if(GetWebPage(nextURL)){
@@ -180,25 +177,23 @@ int main(int argc, char* argv[])
                         	return 0;
                	 	}
         	}
-        	else{
-                	fprintf(stderr, "USAGE err5.");
-                	return 0;
-        	}
 
         	// extract urls from webpage
-		while((pos = GetNextURL(nextURL->url, pos, base_url, &result)) > 0) {
+		while((pos = GetNextURL(nextURL->html, pos, base_url, &result)) > 0) {
                 	// DO SOMETHING WITH THE RESULT
-                	if((MAX_DEPTH >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
-                        	char *resultSave;
-				resultSave = calloc(strlen(result), sizeof(char));
-				if(!resultSave) return 0;
+                	if(( searchDepth >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
+				char *resultSave;
+                        	resultSave = calloc(strlen(result), sizeof(char));
+                        	if(!resultSave) return 0;
 
+                        	resultSave = result;
                         	WebPage *pageAdd;
-				pageAdd = calloc(1, sizeof(WebPage));
-				if(!pageAdd) return 0;
+                        	pageAdd = calloc(1, sizeof(WebPage));
 
+                        	if(!pageAdd) return 0;
                         	pageAdd->url = resultSave;
-               		        pageAdd->depth = depth + 1;
+                        	pageAdd->depth = (nextURL->depth + 1);
+                        	printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
                         	appendDLL(pageAdd, URLList);
                 	}
         	}
@@ -213,14 +208,14 @@ int main(int argc, char* argv[])
 }
 
 
-int assertInt(const char* const str, long *val){
+/*int assertInt(const char* const str, long *val){
         char *point;
         *val = strtol(str, &point, 10);
-        if(str == point){ // checking if conversion was successful
-                return 0;
+        if(str != '\0' && point == '\0'){ // checking if conversion was successful
+                return 1;
         }
-        else return 1;
-}
+        else return 0;
+}*/
 
 
 int testDirSlash(const char *str){
@@ -242,7 +237,7 @@ int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr){
 
         file = fopen(fileName, "a+");
         (*docIDAddr)++;
-        fprintf(file,"%s/n%d/n%s", pageToWrite->url, pageToWrite->depth, pageToWrite->html);
+        fprintf(file,"%s\n%d\n%s", pageToWrite->url, pageToWrite->depth, pageToWrite->html);
         free(fileName);
         fclose(file);
 	return 1;

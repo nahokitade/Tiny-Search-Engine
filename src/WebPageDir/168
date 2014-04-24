@@ -1,0 +1,241 @@
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Pascal.html
+2
+<html>
+<head>
+<title>Pascal biography</title>
+<meta name="description" content="Biography of Blaise Pascal (1623-1662)"> 
+<style type="text/css"><!-- A{text-decoration:none} A:hover{text-decoration:underline} --> </style>
+
+
+<script language="JavaScript">
+var puw = 0;
+
+function win1(file,h,v) {if (v > screen.height) {v = screen.height-50;}
+puw = window.open(file + ".html","win",
+"toolbar=0,status=1,scrollbars=1,location=0,resizable=1,menubar=1,screenx=0,screeny=0,width=" + h +",height=" + v);
+if (window.focus) {puw.focus()}}
+
+function hidepic()
+{if (puw.location) {puw.close();}}
+
+function ref(what,n) {puw = window.open("","win2",
+"toolbar=0,status=0,scrollbars=0,location=0,resizable=1,menubar=0,screenx=0,screeny=0,width=400,height=100");
+ if (window.focus) {puw.focus()}
+ puw.document.writeln("<html><head><title>Reference " + n + "</title></head>"
+   +"<body bgcolor=white>" + what + "<br></body></html>");}
+
+function linkback(url) {window.opener.document.location.href=url;self.close();}
+
+function win0(which,title,h,v,sb,rs,mess) {if (v > screen.height-80) {v = screen.height-80;} puw = window.open("","win2",
+"toolbar=0,status=0,scrollbars="+sb+",location=0,resizable="+rs+",menubar=1,screenx=0,screeny=0,width="+h+",height="+v);
+ if (window.focus) {puw.focus()}
+ puw.document.writeln("<html><head><title>" + title + "</title></head>"
+   +"<body bgcolor=white marginheight=0 marginwidth=0 leftmargin=0 topmargin=0><center>"
+   +"<a href='javascript:window.close();'><img src=../" + which +" border=0></a>" + mess + "</center></body></html>");}
+
+</script>
+
+<style type="text/css">
+<!--A{text-decoration:none} A:hover{text-decoration:underline}-->
+</style>
+</head>
+<body bgcolor="ffffff" onFocus="hidepic();">
+
+<center><font color="red"><h1>Blaise Pascal</h1><hr></font>
+<h3>Born:<font color="green"> 19 June 1623 in Clermont (now Clermont-Ferrand), Auvergne, France<br></font>
+Died:<font color="purple"> 19 August 1662 in Paris, France</font></h3>
+<a href=../PictDisplay/Pascal.html onclick="javascript:win1('../PictDisplay/Pascal',700,1000);return false;"><img src =../Thumbnails/Pascal.jpg border=1 height=109></a><p><font color=red size=-1>Click the picture above<br>to see eight larger pictures</font>
+<p>
+<a href = "../BirthplaceMaps/Clermont-Ferrand.html"><b>Show birthplace location</b></a><p>
+
+<table border=0 cellspacing="0" cellpadding="6" bgcolor="ccccff"  >
+<tr>
+<td><a href="../Mathematicians/Sluze.html" onclick="javascript:win1('../Mathematicians/Sluze',550,800);return false;">&nbsp;Previous</a>
+<td align=center>(Chronologically)
+<td  align=center><a href="../Mathematicians/Angeli.html" onclick="javascript:win1('../Mathematicians/Angeli',550,800);return false;">Next&nbsp;</a>
+<td align=right><a href="../index.html">Main&nbsp;Index</a>
+<tr>
+<td><a href="../Mathematicians/Parseval.html" onclick="javascript:win1('../Mathematicians/Parseval',550,800);return false;">&nbsp;Previous</a>
+<td>&nbsp;(Alphabetically)
+<td  align=center><a href="../Mathematicians/Pascal_Ernesto.html" onclick="javascript:win1('../Mathematicians/Pascal_Ernesto',550,800);return false;">Next&nbsp;</a>
+<td  align=right><a href="../BiogIndex.html">Biographies&nbsp;index</a> <br>
+</table></center>
+<p>
+<table border=0 cellspacing="0" width=100%>
+<tr valign=top><td><a href="../Printonly/Pascal.html" onclick="javascript:win1('../Printonly/Pascal',600,1000);return false;"><b>Version for printing</b></a>
+<td align=right><form action="http://www-history.mcs.st-andrews.ac.uk/Search/historysearch.cgi" target="_blank"><input name="SUGGESTION" size=25 placeholder="Enter word or phrase"><input type="submit" value="Search MacTutor">
+</form></table>
+<hr><p align=justify><b>Blaise Pascal</b> was the third of <a href="../Mathematicians/Pascal_Etienne.html" onclick="javascript:win1('../Mathematicians/Pascal_Etienne',550,800); return false;">&Eacute;tienne Pascal</a>'s children and his only son. Blaise's mother died when he was only three years old. In 1632 the Pascal family, &Eacute;tienne and his four children, left Clermont and settled in Paris. Blaise Pascal's father had unorthodox educational views and decided to teach his son himself. <a href="../Mathematicians/Pascal_Etienne.html" onclick="javascript:win1('../Mathematicians/Pascal_Etienne',550,800); return false;">&Eacute;tienne Pascal</a> decided that Blaise was not to study mathematics before the age of 15 and all mathematics texts were removed from their house. Blaise however, his curiosity raised by this, started to work on geometry himself at the age of 12. He discovered that the sum of the angles of a triangle are two right angles and, when his father found out, he relented and allowed Blaise a copy of <a href="../Mathematicians/Euclid.html" onclick="javascript:win1('../Mathematicians/Euclid',550,800); return false;">Euclid</a>.
+<p align=justify>
+At the age of 14 Blaise Pascal started to accompany his father to <a href="../Mathematicians/Mersenne.html" onclick="javascript:win1('../Mathematicians/Mersenne',550,800); return false;">Mersenne</a>'s meetings. <a href="../Mathematicians/Mersenne.html" onclick="javascript:win1('../Mathematicians/Mersenne',550,800); return false;">Mersenne</a> belonged to the religious order of the Minims, and his cell in Paris was a frequent meeting place for <a href="../Mathematicians/Gassendi.html" onclick="javascript:win1('../Mathematicians/Gassendi',550,800); return false;">Gassendi</a>, <a href="../Mathematicians/Roberval.html" onclick="javascript:win1('../Mathematicians/Roberval',550,800); return false;">Roberval</a>, <a href="../Mathematicians/Carcavi.html" onclick="javascript:win1('../Mathematicians/Carcavi',550,800); return false;">Carcavi</a>, Auzout, <a href="../Mathematicians/Mydorge.html" onclick="javascript:win1('../Mathematicians/Mydorge',550,800); return false;">Mydorge</a>, Mylon, <a href="../Mathematicians/Desargues.html" onclick="javascript:win1('../Mathematicians/Desargues',550,800); return false;">Desargues</a> and others. Soon, certainly by the time he was 15, Blaise came to admire the work of <a href="../Mathematicians/Desargues.html" onclick="javascript:win1('../Mathematicians/Desargues',550,800); return false;">Desargues</a>. At the age of sixteen, Pascal presented a single piece of paper to one of <a href="../Mathematicians/Mersenne.html" onclick="javascript:win1('../Mathematicians/Mersenne',550,800); return false;">Mersenne</a>'s meetings in June 1639. It contained a number of <a href="javascript:win1('../Glossary/projective_geometry',350,200)"><font color="green">projective geometry</font></a> theorems, including Pascal's mystic hexagon.
+<p align=justify>
+In December 1639 the Pascal family left Paris to live in Rouen where &Eacute;tienne had been appointed as a tax collector for Upper Normandy. Shortly after settling in Rouen, Blaise had his first work, <i>Essay on <a href="javascript:win1('../Glossary/conic',350,200)"><font color="green">Conic Sections</font></a></i> published in February 1640.
+<p align=justify>
+Pascal invented the first digital calculator to help his father with his work collecting taxes. He worked on it for three years between 1642 and 1645. The device, called the Pascaline, resembled a mechanical calculator of the 1940s. This, almost certainly, makes Pascal the second person to invent a mechanical calculator for <a href="../Mathematicians/Schickard.html" onclick="javascript:win1('../Mathematicians/Schickard',550,800); return false;">Schickard</a> had manufactured one in 1624.
+<p align=justify>
+There were problems faced by Pascal in the design of the calculator which were due to the design of the French currency at that time. There were 20 sols in a livre and 12 deniers in a sol. The system remained in France until 1799 but in Britain a system with similar multiples lasted until 1971. Pascal had to solve much harder technical problems to work with this division of the livre into 240 than he would have had if the division had been 100. However production of the machines started in 1642 but, as Adamson writes in [<a href="javascript:ref(' D Adamson, <i>Blaise Pascal : mathematician, physicist and thinker about God</i> (Basingstoke, 1995).',3)">3</a>],
+<blockquote><p align=justify>
+<i>By </i>1652<i> fifty prototypes had been produced, but few machines were sold, and manufacture of Pascal's arithmetical calculator ceased in that year.</i>
+</blockquote><p align=justify>
+Events of 1646 were very significant for the young Pascal. In that year his father injured his leg and had to recuperate in his house. He was looked after by two young brothers from a religious movement just outside Rouen. They had a profound effect on the young Pascal and he became deeply religious. 
+<p align=justify>
+From about this time Pascal began a series of experiments on atmospheric pressure. By 1647 he had proved to his satisfaction that a vacuum existed. <a href="../Mathematicians/Descartes.html" onclick="javascript:win1('../Mathematicians/Descartes',550,800); return false;">Descartes</a> visited Pascal on 23 September. His visit only lasted two days and the two argued about the vacuum which <a href="../Mathematicians/Descartes.html" onclick="javascript:win1('../Mathematicians/Descartes',550,800); return false;">Descartes</a> did not believe in. <a href="../Mathematicians/Descartes.html" onclick="javascript:win1('../Mathematicians/Descartes',550,800); return false;">Descartes</a> wrote, rather cruelly, in a letter to <a href="../Mathematicians/Huygens.html" onclick="javascript:win1('../Mathematicians/Huygens',550,800); return false;">Huygens</a> after this visit that Pascal
+<blockquote><p align=justify>
+<i>...has too much vacuum in his head.</i>
+</blockquote><p align=justify>
+In August of 1648 Pascal observed that the pressure of the atmosphere decreases with height and deduced that a vacuum existed above the atmosphere. <a href="../Mathematicians/Descartes.html" onclick="javascript:win1('../Mathematicians/Descartes',550,800); return false;">Descartes</a> wrote to <a href="../Mathematicians/Carcavi.html" onclick="javascript:win1('../Mathematicians/Carcavi',550,800); return false;">Carcavi</a> in June 1647 about Pascal's experiments saying:-
+<blockquote><p align=justify>
+<i>It was I who two years ago advised him to do it, for although I have not performed it myself, I did not doubt of its success ...</i>
+</blockquote><p align=justify>
+In October 1647 Pascal wrote <i>New Experiments Concerning Vacuums</i> which led to disputes with a number of scientists who, like <a href="../Mathematicians/Descartes.html" onclick="javascript:win1('../Mathematicians/Descartes',550,800); return false;">Descartes</a>, did not believe in a vacuum.
+<p align=justify>
+<a href="../Mathematicians/Pascal_Etienne.html" onclick="javascript:win1('../Mathematicians/Pascal_Etienne',550,800); return false;">&Eacute;tienne Pascal</a> died in September 1651 and following this Blaise wrote to one of his sisters giving a deeply Christian meaning to death in general and his father's death in particular. His ideas here were to form the basis for his later philosophical work <i>Pens&eacute;es</i>.
+<p align=justify>
+From May 1653 Pascal worked on mathematics and physics writing <i>Treatise on the Equilibrium of Liquids</i> (1653) in which he explains Pascal's law of pressure. Adamson writes in [<a href="javascript:ref(' D Adamson, <i>Blaise Pascal : mathematician, physicist and thinker about God</i> (Basingstoke, 1995).',3)">3</a>]:-
+<blockquote><p align=justify>
+<i>This treatise is a complete outline of a system of hydrostatics, the first in the history of science, it embodies his most distinctive and important contribution to physical theory.</i>
+</blockquote><p align=justify>
+He worked on conic sections and produced important theorems in projective geometry. In <i>The Generation of Conic Sections</i> (mostly completed by March 1648 but worked on again in 1653 and 1654) Pascal considered conics generated by central projection of a circle. This was meant to be the first part of a treatise on conics which Pascal never completed. The work is now lost but <a href="../Mathematicians/Leibniz.html" onclick="javascript:win1('../Mathematicians/Leibniz',550,800); return false;">Leibniz</a> and <a href="../Mathematicians/Tschirnhaus.html" onclick="javascript:win1('../Mathematicians/Tschirnhaus',550,800); return false;">Tschirnhaus</a> made notes from it and it is through these notes that a fairly complete picture of the work is now possible. 
+<p align=justify>
+Although Pascal was not the first to study the <a href="javascript:win1('../Glossary/pascal_triangle',350,200)"><font color="green">Pascal triangle</font></a>, his work on the topic in <i>Treatise on the Arithmetical Triangle</i> was the most important on this topic and, through the work of <a href="../Mathematicians/Wallis.html" onclick="javascript:win1('../Mathematicians/Wallis',550,800); return false;">Wallis</a>, Pascal's work on the <a href="javascript:win1('../Glossary/binomial_coefficient',350,200)"><font color="green">binomial coefficients</font></a> was to lead <a href="../Mathematicians/Newton.html" onclick="javascript:win1('../Mathematicians/Newton',550,800); return false;">Newton</a> to his discovery of the general <a href="javascript:win1('../Glossary/binomial_theorem',350,200)"><font color="green">binomial theorem</font></a> for fractional and negative powers.
+<p align=justify>
+In correspondence with <a href="../Mathematicians/Fermat.html" onclick="javascript:win1('../Mathematicians/Fermat',550,800); return false;">Fermat</a> he laid the foundation for the <a href="javascript:win1('../Glossary/probability_theory',350,200)"><font color="green">theory of probability</font></a>. This correspondence consisted of five letters and occurred in the summer of 1654. They considered the dice problem, already studied by <a href="../Mathematicians/Cardan.html" onclick="javascript:win1('../Mathematicians/Cardan',550,800); return false;">Cardan</a>, and the problem of points also considered by <a href="../Mathematicians/Cardan.html" onclick="javascript:win1('../Mathematicians/Cardan',550,800); return false;">Cardan</a> and, around the same time, <a href="../Mathematicians/Pacioli.html" onclick="javascript:win1('../Mathematicians/Pacioli',550,800); return false;">Pacioli</a> and <a href="../Mathematicians/Tartaglia.html" onclick="javascript:win1('../Mathematicians/Tartaglia',550,800); return false;">Tartaglia</a>. The dice problem asks how many times one must throw a pair of dice before one expects a double six while the problem of points asks how to divide the stakes if a game of dice is incomplete. They solved the problem of points for a two player game but did not develop powerful enough mathematical methods to solve it for three or more players.
+<p align=justify>
+Through the period of this correspondence Pascal was unwell. In one of the letters to <a href="../Mathematicians/Fermat.html" onclick="javascript:win1('../Mathematicians/Fermat',550,800); return false;">Fermat</a> written in July 1654 he writes
+<blockquote><p align=justify>
+<i>... though I am still bedridden, I must tell you that yesterday evening I was given your letter.</i>
+</blockquote><p align=justify>
+However, despite his health problems, he worked intensely on scientific and mathematical questions until October 1654. Sometime around then he nearly lost his life in an accident. The horses pulling his carriage bolted and the carriage was left hanging over a bridge above the river Seine. Although he was rescued without any physical injury, it does appear that he was much affected psychologically. Not long after he underwent another religious experience, on 23 November 1654, and he pledged his life to Christianity. 
+<p align=justify>
+After this time Pascal made visits to the Jansenist monastery Port-Royal des Champs about 30 km south west of Paris. He began to publish anonymous works on religious topics, eighteen <i>Provincial Letters</i> being published during 1656 and early 1657. These were written in defence of his friend <a href="../Mathematicians/Arnauld.html" onclick="javascript:win1('../Mathematicians/Arnauld',550,800); return false;">Antoine Arnauld</a>, an opponent of the Jesuits and a defender of Jansenism, who was on trial before the faculty of theology in Paris for his controversial religious works. Pascal's most famous work in philosophy is <i>Pens&eacute;es</i>, a collection of personal thoughts on human suffering and faith in God which he began in late 1656 and continued to work on during 1657 and 1658. This work contains 'Pascal's wager' which claims to prove that belief in God is rational with the following argument. 
+<blockquote><p align=justify>
+<i>If God does not exist, one will lose nothing by believing in him, while if he does exist, one will lose everything by not believing.</i>
+</blockquote><p align=justify>
+With 'Pascal's wager' he uses probabilistic and mathematical arguments but his main conclusion is that
+<blockquote><p align=justify>
+<i>...we are compelled to gamble...</i>
+</blockquote><p align=justify>
+His last work was on the cycloid, the curve traced by a point on the circumference of a rolling circle. In 1658 Pascal started to think about mathematical problems again as he lay awake at night unable to sleep for pain. He applied <a href="../Mathematicians/Cavalieri.html" onclick="javascript:win1('../Mathematicians/Cavalieri',550,800); return false;">Cavalieri</a>'s calculus of indivisibles to the problem of the area of any segment of the cycloid and the centre of gravity of any segment. He also solved the problems of the volume and surface area of the solid of revolution formed by rotating the cycloid about the x-axis. 
+<p align=justify>
+Pascal published a challenge offering two prizes for solutions to these problems to <a href="../Mathematicians/Wren.html" onclick="javascript:win1('../Mathematicians/Wren',550,800); return false;">Wren</a>, Laloub&egrave;re, <a href="../Mathematicians/Leibniz.html" onclick="javascript:win1('../Mathematicians/Leibniz',550,800); return false;">Leibniz</a>, <a href="../Mathematicians/Huygens.html" onclick="javascript:win1('../Mathematicians/Huygens',550,800); return false;">Huygens</a>, <a href="../Mathematicians/Wallis.html" onclick="javascript:win1('../Mathematicians/Wallis',550,800); return false;">Wallis</a>, <a href="../Mathematicians/Fermat.html" onclick="javascript:win1('../Mathematicians/Fermat',550,800); return false;">Fermat</a> and several other mathematicians. <a href="../Mathematicians/Wallis.html" onclick="javascript:win1('../Mathematicians/Wallis',550,800); return false;">Wallis</a> and Laloub&egrave;re entered the competition but Laloub&egrave;re's solution was wrong and <a href="../Mathematicians/Wallis.html" onclick="javascript:win1('../Mathematicians/Wallis',550,800); return false;">Wallis</a> was also not successful. <a href="../Mathematicians/Sluze.html" onclick="javascript:win1('../Mathematicians/Sluze',550,800); return false;">Sluze</a>, <a href="../Mathematicians/Ricci.html" onclick="javascript:win1('../Mathematicians/Ricci',550,800); return false;">Ricci</a>, <a href="../Mathematicians/Huygens.html" onclick="javascript:win1('../Mathematicians/Huygens',550,800); return false;">Huygens</a>, <a href="../Mathematicians/Wren.html" onclick="javascript:win1('../Mathematicians/Wren',550,800); return false;">Wren</a> and <a href="../Mathematicians/Fermat.html" onclick="javascript:win1('../Mathematicians/Fermat',550,800); return false;">Fermat</a> all communicated their discoveries to Pascal without entering the competition. <a href="../Mathematicians/Wren.html" onclick="javascript:win1('../Mathematicians/Wren',550,800); return false;">Wren</a> had been working on Pascal's challenge and he in turn challenged Pascal, <a href="../Mathematicians/Fermat.html" onclick="javascript:win1('../Mathematicians/Fermat',550,800); return false;">Fermat</a> and <a href="../Mathematicians/Roberval.html" onclick="javascript:win1('../Mathematicians/Roberval',550,800); return false;">Roberval</a> to find the arc length, the length of the arch, of the cycloid. 
+<p align=justify>
+Pascal published his own solutions to his challenge problems in the <i>Letters to <a href="../Mathematicians/Carcavi.html" onclick="javascript:win1('../Mathematicians/Carcavi',550,800); return false;">Carcavi</a>.</i> After that time on he took little interest in science and spent his last years giving to the poor and going from church to church in Paris attending one religious service after another.
+<p align=justify>
+Pascal died at the age of 39 in intense pain after a malignant growth in his stomach spread to the brain. He is described in [<a href="javascript:ref(' D Adamson, <i>Blaise Pascal : mathematician, physicist and thinker about God</i> (Basingstoke, 1995).',3)">3</a>] as:-
+<blockquote><p align=justify>
+<i>... a man of slight build with a loud voice and somewhat overbearing manner. ... he lived most of his adult life in great pain. He had always been in delicate health, suffering even in his youth from migraine ...</i>
+</blockquote><p align=justify>
+His character is described as:-
+<blockquote><p align=justify>
+<i>... precocious, stubbornly persevering, a perfectionist, pugnacious to the point of bullying ruthlessness yet seeking to be meek and humble ...</i>
+</blockquote><p align=justify>
+In [<a href="javascript:ref(' R Taton, Biography in <i>Dictionary of Scientific Biography</i> (New York 1970-1990). ',1)">1</a>] the following assessment is given:-
+<blockquote><p align=justify>
+<i>At once a physicist, a mathematician, an eloquent publicist in the Provinciales ... Pascal was embarrassed by the very abundance of his talents. It has been suggested that it was his too concrete turn of mind that prevented his discovering the <a href="javascript:win1('../Glossary/infinitesimal',350,200)"><font color="green">infinitesimal</font></a> calculus, and in some of the Provinciales the mysterious relations of human beings with God are treated as if they were a geometrical problem. But these considerations are far outweighed by the profit that he drew from the multiplicity of his gifts, his religious writings are rigorous because of his scientific training...</i>
+</blockquote><p align=justify>
+<br>
+<p><font color=purple><b>Article by:</b> <i>J J O'Connor</i> and <i>E F Robertson</i></font><p><b>Click on <a href="javascript:win1('../Glossary/Pascal',350,200)" onmouseover="window.status='Click for a list of glossary entries';return true"><font color="green" style="text-decoration:none">this link</font></a> to see a list of the Glossary entries for this page</b>
+<hr>
+<table border=0 cellspacing=8><tr valign=top>
+<td width=250>
+<b><a href = "../References/Pascal.html"onclick="javascript:win1('../References/Pascal',700,1000);return false;">List of References</a></b> (53 books/articles)<p>
+<td><b><a href = "../Quotations/Pascal.html" target="_blank">Some Quotations</a></b> (47)<p>
+
+<tr valign=top><td><b><a href = ../Posters2/Pascal.html target= _blank>A Poster of Blaise Pascal</a></b><p>
+<td><b><a href = ../Countries/France.html>Mathematicians born in the same country</a></b><p>
+
+</table>
+<p><font color=magenta><b>Additional Material in MacTutor</b></font>
+<ol><li><a href = "javascript:win0('Diagrams/Pascals_machine.jpeg','',663,379,0,0,'')">Pascal's calculator: the Pascaline</a>
+<li><a href = "javascript:win0('Diagrams/Pascals_machine_2.jpeg','',614,218,0,0,'')">Another picture of it</a>
+<li><a href="../Extras/Pascal_life.html" onclick="javascript:win1('../Extras/Pascal_life',600,1000);return false;">Gilberte Pascal: <i>The life of Pascal</i></a>
+<li><a href = "javascript:win0('./Diagrams/PascalTheorem.gif','',614,336,0,0,'')">Pascal's Mystic Hexagram</a></ol>
+
+<p><table><tr><td width=50%><td><tr valign=top><td colspan=2><font color=magenta><b>Honours awarded to Blaise Pascal</b></font><br>
+(Click below for those honoured in this way)
+<tr><td><a href=../Societies/LunarFeatures0.html>Lunar features</a><td><b>Crater Pascal</b>
+<tr><td><a href=../Societies/ParisNames.html>Paris street names</a><td><b>Rue Pascal</b> (3rd and 5th Arrondissements)
+<tr><td><a href=../Miscellaneous/Popular.html>Popular biographies list</a><td>Number 6
+</table>
+
+<p><font color=magenta><b>Cross-references in MacTutor</b></font>
+<ol><li><a href = "../HistTopics/History_overview.html#21">History Topics: An overview of the history of mathematics</a>
+<li><a href = "../HistTopics/Jaina_mathematics.html#s5">History Topics: Jaina mathematics</a>
+<li><a href = "../HistTopics/Infinity.html#s55">History Topics: Infinity</a>
+<li><a href = "../HistTopics/Brachistochrone.html#s3">History Topics: The brachistochrone problem</a>
+<li><a href = "../HistTopics/Cubic_surfaces.html#s15">History Topics: Cubic surfaces</a>
+<li><a href = "../HistTopics/Forgery_1.html#s7">History Topics: The mathematician and the forger</a>
+<li><a href = "../HistTopics/Chinese_overview.html#s33">History Topics: Overview of Chinese mathematics</a>
+<li><a href = "../HistTopics/Weil_family.html#s41">History Topics: The Weil family</a>
+<li><a href = "../Curves/Parabola.html">Famous Curves: parabola</a>
+<li><a href = "../Curves/Pearls.html">Famous Curves: Pearls of Sluze</a>
+<li><a href=../Chronology/1625_1650.html#1640>Chronology: 1625 to 1650</a>
+<li><a href=../Chronology/1650_1675.html#1653>Chronology: 1650 to 1675</a>
+<li><a href = ../Curves/Cycloid.html>Famous Curves: Cycloid</a>
+<li><a href = ../Curves/Limacon.html>Famous Curves: Limacon of Pascal</a>
+</ol>
+
+<table width=100%><tr><td colspan=2>
+<font color=magenta><hr><b>Other Web sites</b></font><tr valign=top><td><ol><li><a href="http://www.britannica.com/eb/article-9108317/Blaise-Pascal" target=_blank>Encyclopaedia Britannica</a> 
+<li><a href="http://www.astroseti.org/articulo/3947/" target=_blank>Astroseti</a> (A Spanish translation of this biography)
+<li><a href="http://www.nndb.com/people/976/000024904/" target=_blank>NNDB</a> 
+<li><a href="http://galileo.rice.edu/Catalog/NewFiles/pascal_bla.html" target=_blank> The Galileo Project</a> 
+<li><a href="http://www.mathpages.com/home/kmath558/kmath558.htm" target=_blank>Kevin Brown</a> 
+<li><a href="http://www.maths.tcd.ie/pub/HistMath/People/Pascal/RouseBall/RB_Pascal.html" target=_blank>Rouse Ball</a> 
+</ol><td><ol start=7><li><a href="http://www.newadvent.org/cathen/11511a.htm" target=_blank>The Catholic Encyclopedia</a> 
+<li><a href="http://www.swlearning.com/quant/kohler/stat/biographical_sketches/bio9.2.html" target=_blank>H Kohler</a> 
+<li><a href="http://www.math.sfu.ca/histmath/Europe/17thCenturyAD/Blaise.htm" target=_blank>Simon Fraser University</a> 
+<li><a href="http://plato.stanford.edu/entries/pascal-wager/" target=_blank>Stanford Encyclopedia of Philosophy</a>  (Pascal's wager)
+<li><a href="http://www.fourmilab.ch/babbage/pascal.html" target=_blank>Fourmilab</a>  (Pascal's Calculator)
+<li><a href="http://www.genealogy.math.ndsu.nodak.edu/id.php?id=126406" target=_blank>Mathematical Genealogy Project</a> 
+</ol></table>
+<hr>
+<center>
+<table border=0 cellspacing="0" cellpadding="4" bgcolor="ccccff"  >
+<tr>
+<td><a href="javascript:win1('../Mathematicians/Sluze',550,800)">&nbsp;Previous</a>
+<td align=center>(Chronologically)
+<td  align=center><a href="javascript:win1('../Mathematicians/Angeli',550,800)">Next&nbsp;</a>
+<td align=right><a href="../index.html">Main&nbsp;Index</a>
+<tr>
+<td><a href="javascript:win1('../Mathematicians/Parseval',550,800)">&nbsp;Previous</a>
+<td>&nbsp;(Alphabetically)
+<td  align=center><a href="javascript:win1('../Mathematicians/Pascal_Ernesto',550,800)">Next&nbsp;</a>
+<td  align=right><a href="../BiogIndex.html">Biographies&nbsp;index</a> <br>
+<tr>
+<td><a href="../Indexes/HistoryTopics.html">History&nbsp;Topics</a> <br>
+<td colspan=2  align=center><a href="../Societies/index.html">&nbsp;Societies,&nbsp;honours, etc.</a><br>
+<td align=right><a href="../Curves/Curves.html">Famous&nbsp;curves</a> <br>
+<tr>
+<td><a href="../Timelines/index.html">Time lines</a>
+<td align=center><a href="../BirthplaceMaps/MapIndex.html">Birthplace&nbsp;maps</a>
+<td align=center><a href="../Chronology/index.html">Chronology&nbsp;</a>
+<td align=right><a href="../Search/historysearch.html">Search&nbsp;Form</a> <br>
+<tr>
+<td><a href="../Glossary/index.html">Glossary&nbsp;index</a>
+<td colspan=2 align=center><a href="../Quotations/index.html">Quotations&nbsp;index</a>
+<td align=right><a href="../Miscellaneous/Posters.html">Poster&nbsp;index</a> <br>
+<tr>
+<td colspan=2><a href="../Day_files/Now.html">Mathematicians&nbsp;of&nbsp;the&nbsp;day</a>
+<td colspan=2 align=right><a href="../Day_files/Year.html">Anniversaries&nbsp;for&nbsp;the&nbsp;year</a>
+</table>
+<hr></center>
+<table width=100% border=0>
+<tr valign=top><td>
+JOC/EFR © December 1996 <br>
+<a href= "javascript:win1('../Miscellaneous/Copyright0',300,150)"><font size="-1" color="purple">Copyright information</font></a>
+<td align=right>
+<a href="http://www-maths.mcs.st-andrews.ac.uk/">School&nbsp;of Mathematics&nbsp;and&nbsp;Statistics</a><br>
+<a href="http://www.st-andrews.ac.uk/">University&nbsp;of St&nbsp;Andrews,&nbsp;Scotland </a>
+<td width=10% rowspan=2>
+<a href="http://www-maths.mcs.st-andrews.ac.uk/" onmouseover="window.status='Click here to go to the Maths and Statistics Web site in a new window';return true" target="_blank"><img src="../Diagrams/crest.gif" align=right border=0>
+<tr>
+<td colspan=2>
+<font color="red" size="-1">
+The URL of this page is:</font><br>
+<font color="blue" size="-1"> 
+http://www-history.mcs.st-andrews.ac.uk/Biographies/Pascal.html
+</font>
+</table>
+</body>
+</html>

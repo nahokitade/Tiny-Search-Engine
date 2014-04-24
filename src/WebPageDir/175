@@ -1,0 +1,154 @@
+http://www.computerhistory.org/revolution/computer-graphics-music-and-art/15/222/633
+2
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <script type="text/javascript">
+    document.documentElement.className = 'js';
+  </script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-Ua-Compatible" content="IE=8,chrome=1" />
+  <meta name="title" content="Computer History Museum" />
+  <title>
+  IBM 704 Electronic Data Processing System - CHM Revolution  </title>
+  <link rel="shortcut icon" href="http://www.computerhistory.org/favicon.ico" />
+  <link rel="apple-touch-icon" href="/revolution/images/favicon_129x129.png" />
+  <link rel="alternate" type="application/rss+xml" title="Computer History Museum New Stories" href="/revolution/feed/new-stories-rss.xml" />
+
+  <meta name="description" content="&lt;p&gt;Max Mathews began his career with a ScD in electrical engineering from MIT, composing music on the IBM 704 mainframe computer in his spare time at Bell Laboratories. Mathews made seminal contributions to the fields of computer music, synthesis, acoustics and performance throughout his life.&lt;/p&gt;"/><meta name="keywords" content="Core memory,LISP,FORTRAN,Electronic data processing,IBM 704 (Computer)"/><link rel="stylesheet" type="text/css" media="screen" href="/revolution/css/main.css" />
+<link rel="stylesheet" type="text/css" media="print" href="/revolution/css/print.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/revolution/css/artifact.css" />
+  <script type="text/javascript" src="/revolution/js/artifact/resources/mediaplayer-5.3-licensed/jwplayer.js"></script>
+</head>
+<!--[if IE]><![endif]-->
+<!--[if lt IE 7 ]><body id="artifact" class="ie ie6 artifact_index"><![endif]-->
+<!--[if IE 7 ]><body id="artifact" class="ie ie7 artifact_index"><![endif]-->
+<!--[if IE 8 ]><body id="artifact" class="ie ie8 artifact_index"><![endif]-->
+<!--[if IE 9 ]><body id="artifact" class="ie ie9 artifact_index"><![endif]-->
+<!--[if (gt IE 9)]><body id="artifact" class="ie ie-edge artifact_index"><![endif]-->
+<!--[if !(IE)]><!--><body id="artifact" class="artifact_index"><!--<![endif]-->
+
+    <div id="root">
+    <div id="header"><div class="header_wrapper">
+      <h1><a href="http://www.computerhistory.org/">CHM Revolution</a></h1>
+
+      <ul class="top_nav_items no-print">
+        <li id="header-search" class="last">
+          <form action="/revolution/search" method="GET">
+            <div class="search-field">
+              <input type="text" class="text" placeholder="Search Exhibit" name="q" id="mainSearch" />
+              <input type="image" value="Search" src="/revolution/images/search-go.png" class="search-go" />
+            </div>
+          </form>
+        </li>
+        <li id="header-timeline"><a href="/revolution/timeline"><span class="png_bg">Timeline</span></a></li>
+        <li id="header-topics"><a href="/revolution/topics"><span class="png_bg">Topics</span></a></li>
+        <li id="header-home" class="first"><a href="/revolution/"><span class="png_bg">Home</span></a></li>
+      </ul>
+    </div></div><!-- #header -->
+
+    <div id="frame">
+      
+
+    <div id="paging" class="no-print"><div class="content_wrapper">
+    <h6>
+      <a class="first" href="/revolution/topics#exhibition">Exhibition</a><a href="/revolution/computer-graphics-music-and-art/15/intro">Computer Graphics, Music, and Art</a><a class="active" href="/revolution/computer-graphics-music-and-art/15/222">Max Mathews Makes MUSIC</a>    </h6>
+  </div></div><!-- #paging -->
+<div id="artifact-container">
+  <div id="artifact-wrapper">
+    <h2>
+      <span class="title">IBM 704 Electronic Data Processing System</span>
+
+      <div class="sharing no-print">
+                            <div class="appears">
+            Appears In: <a href="/revolution/computer-graphics-music-and-art/15/222">Max Mathews Makes MUSIC</a>          </div>
+              </div>
+    </h2>
+
+    <div id="artifact-detail">
+              <div class="controls">
+           
+<div class="thumbnails">
+  <div class="thumbPrev no-print">Prev</div>
+  <div class="scrollable">
+    <div class="items">
+      <div class="otherThumbsWidth1"><a class="active" href="http://s7.computerhistory.org/is/image/CHM/102641445-03-01?$re-medium$"><img width="48" height="48" src="http://s7.computerhistory.org/is/image/CHM/102641445-03-01?$re-slide-thumb$" /><span></span></a>      </div>
+    </div>
+  </div>
+  <div class="thumbNext no-print">Next</div>
+</div><!-- .thumbnails -->
+
+          <div class="zoom-depth no-print">
+            <h6>Image Zoom</h6>
+            <span class="minus"></span>
+            <div class="line">
+              <span class="small"></span>
+              <span class="medium"></span>
+              <span class="large"></span>
+            </div>
+            <span class="plus"></span>
+          </div>
+        </div>
+        <div class="image single">
+          <div class="big-scrollable">
+            <div class="items">
+                                                            <div class="scrollable-item">
+                  <img width="600" height="450" src="http://s7.computerhistory.org/is/image/CHM/102641445-03-01?$re-zoomed$" />                </div>
+                          </div>
+          </div>
+        </div>
+      
+      <div class="info">
+        <ul class="tabs no-print">
+	        <li class="first active">Details</li>
+	        <li class="last">Description</li>
+        </ul>
+        <div class="panes">
+	        <div>
+            <dl>
+                                                                <dt>Date</dt>
+                                    <dd>1954 ca.</dd>
+                                                                                                                                                                                                                                                                                                                                        <dt>Copyright Owner</dt>
+                                    <dd>© International Business Machines Corporation (IBM)</dd>
+                                                                                                                                                                                              <dt>Keywords</dt>
+                                    <dd>Core memory; LISP; FORTRAN; Electronic data processing; IBM 704 (Computer)</dd>
+                                                                                                  <dt>Object ID</dt>
+                                    <dd>102641445</dd>
+                                                                                                                                                                                                                                                                                                  </dl>
+	        </div>
+	        <div>
+	          <p><p>Max Mathews began his career with a ScD in electrical engineering from MIT, composing music on the IBM 704 mainframe computer in his spare time at Bell Laboratories. Mathews made seminal contributions to the fields of computer music, synthesis, acoustics and performance throughout his life.</p></p>
+	        </div>
+        </div>
+      </div>
+    </div><!-- #artifact-detail -->
+  </div>
+</div><!-- #artifact-container -->
+    </div>
+
+    <div id="root_footer"></div>
+  </div><!-- #root -->
+
+  <div id="footer"><div class="content_wrapper">
+    <p><a href="http://www.computerhistory.org/terms/" target="_blank">Copyright &copy;1996-2014 Computer History Museum</a></p>
+    <ul id="footer_links" class="no-print">
+      <li><a href="http://www.computerhistory.org/contact/">Connect</a></li>
+      <li><a href="/revolution/credits">Credits</a></li>
+      <li class="feed"><a href="/revolution/feed/new-stories-rss.xml"><img width="14" height="14" alt="Subscribe" src="/revolution/images/feed-icon-14x14.png" /></a></li>
+    </ul>
+  </div></div><!-- #footer -->
+
+  <script type="text/javascript" src="/revolution/js/steal/steal.production.js?artifact"></script>
+          <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-604998-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

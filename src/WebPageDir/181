@@ -1,0 +1,1430 @@
+http://en.wikipedia.org/wiki/Help:CS1_errors#deprecated_params
+2
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Help:CS1 errors - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="generator" content="MediaWiki 1.23wmf22" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Help:CS1_errors" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.geshi.local%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"Help","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":12,"wgPageName":"Help:CS1_errors","wgTitle":"CS1 errors","wgCurRevisionId":605638273,"wgRevisionId":605638273,"wgArticleId":39053980,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Semi-protected project pages","Wikipedia how-to"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Help:CS1_errors","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":false,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgFlowTermsOfUseEdit":"By saving changes, you agree to our \u003Ca class=\"external text\" href=\"//wikimediafoundation.org/wiki/Terms_of_use\"\u003ETerms of Use\u003C/a\u003E and agree to irrevocably release your text under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"//creativecommons.org/licenses/by-sa/3.0\"\u003ECC BY-SA 3.0 License\u003C/a\u003E and \u003Ca class=\"external text\" href=\"//en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License\"\u003EGFDL\u003C/a\u003E","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q12015580"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"multimediaviewer-enable":true,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":
+false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,
+"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:f91b7921db835befbf3c85fee027f8c0 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","skins.vector.compactPersonalBar.defaultTracking","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<style type="text/css">/*<![CDATA[*/
+.source-css {line-height: normal;}
+.source-css li, .source-css pre {
+	line-height: normal; border: 0px none white;
+}
+/**
+ * GeSHi Dynamically Generated Stylesheet
+ * --------------------------------------
+ * Dynamically generated stylesheet for css
+ * CSS class: source-css, CSS id: 
+ * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2008 Benny Baumann
+ * (http://qbnz.com/highlighter/ and http://geshi.org/)
+ * --------------------------------------
+ */
+.css.source-css .de1, .css.source-css .de2 {font: normal normal 1em/1.2em monospace; margin:0; padding:0; background:none; vertical-align:top;font-family: monospace, monospace;}
+.css.source-css  {font-family:monospace;}
+.css.source-css .imp {font-weight: bold; color: red;}
+.css.source-css li, .css.source-css .li1 {font-weight: normal; vertical-align:top;}
+.css.source-css .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+.css.source-css .li2 {font-weight: bold; vertical-align:top;}
+.css.source-css .kw1 {color: #000000; font-weight: bold;}
+.css.source-css .kw2 {color: #993333;}
+.css.source-css .co1 {color: #a1a100;}
+.css.source-css .co2 {color: #ff0000; font-style: italic;}
+.css.source-css .coMULTI {color: #808080; font-style: italic;}
+.css.source-css .es0 {color: #000099; font-weight: bold;}
+.css.source-css .es2 {color: #000099; font-weight: bold;}
+.css.source-css .br0 {color: #00AA00;}
+.css.source-css .sy0 {color: #00AA00;}
+.css.source-css .st0 {color: #ff0000;}
+.css.source-css .nu0 {color: #cc66cc;}
+.css.source-css .re0 {color: #cc00cc;}
+.css.source-css .re1 {color: #6666ff;}
+.css.source-css .re2 {color: #3333ff;}
+.css.source-css .re3 {color: #933;}
+.css.source-css .ln-xtra, .css.source-css li.ln-xtra, .css.source-css div.ln-xtra {background-color: #ffc;}
+.css.source-css span.xtra { display:block; }
+
+/*]]>*/
+</style><link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.23wmf22/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-12 ns-subject page-Help_CS1_errors skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Help:CS1 errors</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="metadata topicon nopopups" id="protected-icon" style="display:none; right:55px;"><a href="/wiki/Wikipedia:Protection_policy#semi" title="This page is semi-protected indefinitely in response to an ongoing high risk of vandalism."><img alt="Page semi-protected" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/20px-Padlock-silver.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/30px-Padlock-silver.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Padlock-silver.svg/40px-Padlock-silver.svg.png 2x" data-file-width="128" data-file-height="128" /></a></div>
+<table class="plainlinks ombox ombox-notice" role="presentation">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Crystal_package_settings.svg" class="image"><img alt="Crystal package settings.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Crystal_package_settings.svg/40px-Crystal_package_settings.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Crystal_package_settings.svg/60px-Crystal_package_settings.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/80/Crystal_package_settings.svg/80px-Crystal_package_settings.svg.png 2x" data-file-width="64" data-file-height="64" /></a></td>
+<td class="mbox-text">
+<div class="center" style="width:auto; margin-left:auto; margin-right:auto;">This page is a <b>how-to guide</b> detailing a practice or process on the English Wikipedia.</div>
+</td>
+</tr>
+</table>
+<table class="wikitable" style="float:right;" width="200px;">
+<caption>CS1 citations that report these errors</caption>
+<tr>
+<td>{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_AV_media" title="Template:Cite AV media">cite AV media</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_AV_media_notes" title="Template:Cite AV media notes">cite AV media notes</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_book" title="Template:Cite book">cite book</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_conference" title="Template:Cite conference">cite conference</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_DVD_notes" title="Template:Cite DVD notes">cite DVD notes</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_encyclopedia" title="Template:Cite encyclopedia">cite encyclopedia</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_episode" title="Template:Cite episode">cite episode</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_interview" title="Template:Cite interview">cite interview</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_mailing_list" title="Template:Cite mailing list">cite mailing list</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_map" title="Template:Cite map">cite map</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_music_release_notes" title="Template:Cite music release notes">cite music release notes</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_news" title="Template:Cite news">cite news</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_newsgroup" title="Template:Cite newsgroup">cite newsgroup</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_podcast" title="Template:Cite podcast">cite podcast</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_press_release" title="Template:Cite press release">cite press release</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_serial" title="Template:Cite serial">cite serial</a>}}</td>
+<td></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_sign" title="Template:Cite sign">cite sign</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_speech" title="Template:Cite speech">cite speech</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_techreport" title="Template:Cite techreport">cite techreport</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_thesis" title="Template:Cite thesis">cite thesis</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+<tr>
+<td>{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</td>
+<td style="background: #90ff90; color: black; vertical-align: middle; text-align: center;" class="table-yes"><img alt="Yes" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/13px-Green_check.svg.png" width="13" height="13" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/20px-Green_check.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/03/Green_check.svg/26px-Green_check.svg.png 2x" data-file-width="600" data-file-height="600" /></td>
+</tr>
+</table>
+<p>This page describes the error messages reported by the <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a> citations highlighted in the table on the right side of this page, what they mean, and how editors might resolve the errors.</p>
+<p>Prior to 2013, the CS1 templates used the meta-template <code>{{<a href="/wiki/Template:Citation/core" title="Template:Citation/core">Citation/core</a>}}</code>. In 2013, as part of the <a href="/wiki/Wikipedia:LUA" title="Wikipedia:LUA" class="mw-redirect">WP:LUA</a> project, Wikipedia editors upgraded the CS1 series of templates using a single <a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a> module. <a href="/wiki/Module:Citation/CS1" title="Module:Citation/CS1">Module:Citation/CS1</a> is the engine that controls how CS1 citations are displayed and how citation data are passed to external referencing tools through <a href="/wiki/COinS" title="COinS">COinS</a> metadata. The benefits of the upgrade are enhanced performance, reduced complexity and redundancy, and for the purposes of this page, improved error detection, categorization, and reporting.</p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Controlling_error_message_display"><span class="tocnumber">1</span> <span class="toctext">Controlling error message display</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#.7Caccessdate.3D_requires_.7Curl.3D"><span class="tocnumber">2</span> <span class="toctext"><span>|accessdate= requires |url=</span></span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#.7Carchiveurl.3D_requires_.7Carchivedate.3D"><span class="tocnumber">3</span> <span class="toctext"><span>|archiveurl= requires |archivedate=</span></span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#.7Carchiveurl.3D_requires_.7Curl.3D"><span class="tocnumber">4</span> <span class="toctext"><span>|archiveurl= requires |url=</span></span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Check_.7Cauthorlink.3D_value"><span class="tocnumber">5</span> <span class="toctext"><span>Check |authorlink= value</span></span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Check_date_values_in:_.7Cparam1.3D.2C_.7Cparam2.3D.2C_..."><span class="tocnumber">6</span> <span class="toctext"><span>Check date values in: |param1=, |param2=, ...</span></span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Check_.7Cdoi.3D_value"><span class="tocnumber">7</span> <span class="toctext"><span>Check |doi= value</span></span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Check_.7Cisbn.3D_value"><span class="tocnumber">8</span> <span class="toctext"><span>Check |isbn= value</span></span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Check_.7Cissn.3D_value"><span class="tocnumber">9</span> <span class="toctext"><span>Check |issn= value</span></span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Check_.7Clccn.3D_value"><span class="tocnumber">10</span> <span class="toctext"><span>Check |lccn= value</span></span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Check_.7Col.3D_value"><span class="tocnumber">11</span> <span class="toctext"><span>Check |ol= value</span></span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Check_.7Cpmc.3D_value"><span class="tocnumber">12</span> <span class="toctext"><span>Check |pmc= value</span></span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Check_.7Cpmid.3D_value"><span class="tocnumber">13</span> <span class="toctext"><span>Check |pmid= value</span></span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Check_.7Curl.3D_scheme"><span class="tocnumber">14</span> <span class="toctext"><span>Check |url= scheme</span></span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#Cite_uses_deprecated_parameters"><span class="tocnumber">15</span> <span class="toctext"><span>Cite uses deprecated parameters</span></span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#.7Ccoauthors.3D_requires_.7Cauthor.3D"><span class="tocnumber">16</span> <span class="toctext"><span>|coauthors= requires |author=</span></span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#.7Cdisplayauthors.3D_suggested"><span class="tocnumber">17</span> <span class="toctext"><span>|displayauthors= suggested</span></span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#.7Cdisplayeditors.3D_suggested"><span class="tocnumber">18</span> <span class="toctext"><span>|displayeditors= suggested</span></span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#Empty_citation"><span class="tocnumber">19</span> <span class="toctext"><span>Empty citation</span></span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#Extra_.7Cpages.3D_or_.7Cat.3D"><span class="tocnumber">20</span> <span class="toctext"><span>Extra |pages= or |at=</span></span></a></li>
+<li class="toclevel-1 tocsection-21"><a href="#.7Cformat.3D_requires_.7Curl.3D"><span class="tocnumber">21</span> <span class="toctext"><span>|format= requires |url=</span></span></a></li>
+<li class="toclevel-1 tocsection-22"><a href="#Missing_or_empty_.7Ctitle.3D"><span class="tocnumber">22</span> <span class="toctext"><span>Missing or empty |title=</span></span></a>
+<ul>
+<li class="toclevel-2 tocsection-23"><a href="#Bare_URL_without_a_title"><span class="tocnumber">22.1</span> <span class="toctext"><span>Bare URL without a title</span></span></a></li>
+<li class="toclevel-2 tocsection-24"><a href="#Citation_without_a_title_of_any_form"><span class="tocnumber">22.2</span> <span class="toctext"><span>Citation without a title of any form</span></span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-25"><a href="#Missing_or_empty_.7Curl.3D"><span class="tocnumber">23</span> <span class="toctext"><span>Missing or empty |url=</span></span></a></li>
+<li class="toclevel-1 tocsection-26"><a href="#More_than_one_of_.7Cparam1.3D.2C_.7Cparam2.3D.2C_and_.7Cparam3.3D_specified"><span class="tocnumber">24</span> <span class="toctext"><span>More than one of |param1=, |param2=, and |param3= specified</span></span></a></li>
+<li class="toclevel-1 tocsection-27"><a href="#Text_.22.3F.3F.3F.3F.22_ignored"><span class="tocnumber">25</span> <span class="toctext"><span>Text "????" ignored</span></span></a></li>
+<li class="toclevel-1 tocsection-28"><a href="#.7Ctrans_chapter.3D_requires_.7Cchapter.3D"><span class="tocnumber">26</span> <span class="toctext"><span>|trans_chapter= requires |chapter=</span></span></a></li>
+<li class="toclevel-1 tocsection-29"><a href="#.7Ctrans_title.3D_requires_.7Ctitle.3D"><span class="tocnumber">27</span> <span class="toctext"><span>|trans_title= requires |title=</span></span></a></li>
+<li class="toclevel-1 tocsection-30"><a href="#Unknown_parameter_.7C.3F.3F.3F.3F.3D_ignored"><span class="tocnumber">28</span> <span class="toctext"><span>Unknown parameter |????= ignored</span></span></a></li>
+<li class="toclevel-1 tocsection-31"><a href="#Unknown_parameter_.7Cxxxx.3D_ignored_.28.7Cyyyy.3D_suggested.29"><span class="tocnumber">29</span> <span class="toctext"><span>Unknown parameter |xxxx= ignored (|yyyy= suggested)</span></span></a></li>
+<li class="toclevel-1 tocsection-32"><a href="#Wikilink_embedded_in_URL_title"><span class="tocnumber">30</span> <span class="toctext"><span>Wikilink embedded in URL title</span></span></a></li>
+<li class="toclevel-1 tocsection-33"><a href="#Notes"><span class="tocnumber">31</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-34"><a href="#References"><span class="tocnumber">32</span> <span class="toctext">References</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Controlling_error_message_display">Controlling error message display</span></h2>
+<p>While most of the <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a> error messages are visible to all readers, some remain hidden. Editors who wish to see all of the CS1 error messages can do so by updating their <a href="/wiki/Special:MyPage/common.css" title="Special:MyPage/common.css">common</a> or <a href="/wiki/Special:MyPage/skin.css" title="Special:MyPage/skin.css">skin</a> CSS stylesheet to include:</p>
+<dl>
+<dd><code><span class="mw-geshi css source-css"><span class="re1">.citation-comment</span> <span class="br0">{</span><span class="kw1">display</span><span class="sy0">:</span> <span class="kw2">inline</span> !important<span class="sy0">;</span><span class="br0">}</span> <span class="coMULTI">/* show all Citation Style 1 error messages */</span></span></code></dd>
+</dl>
+<p>Even with this css installed, older pages in <i>Wikipedia</i><span style="padding-left:0.1em;">'</span>s cache may not have been updated to show these error messages even though the page is listed in one of the tracking categories. A <a href="/wiki/Wikipedia:NULLEDIT" title="Wikipedia:NULLEDIT" class="mw-redirect">WP:NULLEDIT</a> will resolve that issue.</p>
+<p>Editors who do not wish to see any of the CS1 error messages can hide them all by updating their <a href="/wiki/Special:MyPage/common.css" title="Special:MyPage/common.css">common</a> or <a href="/wiki/Special:MyPage/skin.css" title="Special:MyPage/skin.css">skin</a> CSS stylesheet to include:</p>
+<dl>
+<dd><code><span class="mw-geshi css source-css"><span class="re1">.citation-comment</span> <span class="br0">{</span><span class="kw1">display</span><span class="sy0">:</span> <span class="kw2">none</span><span class="sy0">;</span><span class="br0">}</span> <span class="coMULTI">/* hide all Citation Style 1 error messages */</span></span></code></dd>
+</dl>
+<h2><span class="mw-headline" id=".7Caccessdate.3D_requires_.7Curl.3D"><span id="accessdate_missing_url">|accessdate= requires |url=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|accessdate=</code> requires <code>|url=</code></span> (error message hidden by default)</p>
+<p>The <code class="nowrap">|accessdate=</code> is the date that the web resource addressed by <code class="nowrap">|url=</code> was added to the article. If <code class="nowrap">|accessdate=</code> has been included in the citation without <code class="nowrap">|url=</code> then this message appears. If the citation does not use a web link, then <code class="nowrap">|accessdate=</code> is redundant and should be removed.</p>
+<p>When the web resource has a publication or other fixed date associated with it, <code class="nowrap">|accessdate=</code> is of limited value though may be useful in identifying an appropriate archived version of the resource. Without <code class="nowrap">|url=</code>, <code class="nowrap">|accessdate=</code> is not considered useful.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|url=</code> or remove <code class="nowrap">|accessdate=</code>. Editors should try to determine why the citation has <code class="nowrap">|accessdate=</code> without <code class="nowrap">|url=</code>. For example, the citation may never have had a <code class="nowrap">|url=</code>, or <code class="nowrap">|url=</code> may have been removed because it links to a site that violates the creator's copyright (see <a href="/wiki/Wikipedia:COPYLINK" title="Wikipedia:COPYLINK" class="mw-redirect">WP:COPYLINK</a>), or because <code class="nowrap">|url=</code> was deemed to be dead and (mistakenly) removed. If the citation never had <code class="nowrap">|url=</code> or it was removed for copyright violations, remove <code class="nowrap">|accessdate=</code>. When a dead <code class="nowrap">|url=</code> has been removed, restore the <code class="nowrap">|url=</code> and if possible repair it (see <a href="/wiki/Wikipedia:LINKROT" title="Wikipedia:LINKROT" class="mw-redirect">WP:LINKROT</a>).</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_using_citations_with_accessdate_and_no_URL" title="Category:Pages using citations with accessdate and no URL">Category:Pages using citations with accessdate and no URL</a>.<sup id="cite_ref-categories_1-0" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Carchiveurl.3D_requires_.7Carchivedate.3D"><span id="archive_missing_date">|archiveurl= requires |archivedate=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|archiveurl=</code> requires <code>|archivedate=</code></span></p>
+<p><code class="nowrap">|archivedate=</code> identifies the date that the web resource was archived.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|archivedate=</code>. For web resources archived at archive.org,<sup id="cite_ref-archive.org_2-0" class="reference"><a href="#cite_note-archive.org-2"><span>[</span>1<span>]</span></a></sup> the archival date can be found in the <code class="nowrap">|archiveurl=</code>; for resources archived at webcitation.org,<sup id="cite_ref-webcitation.org_3-0" class="reference"><a href="#cite_note-webcitation.org-3"><span>[</span>2<span>]</span></a></sup> the cache date is included in the archive header.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_archiveurl_citation_errors" title="Category:Pages with archiveurl citation errors">Category:Pages with archiveurl citation errors</a>.<sup id="cite_ref-categories_1-1" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Carchiveurl.3D_requires_.7Curl.3D"><span id="archive_missing_url">|archiveurl= requires |url=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|archiveurl=</code> requires <code>|url=</code></span></p>
+<p>A properly formatted citation that includes <code class="nowrap">|archiveurl=</code> and <code class="nowrap">|archivedate=</code> requires <code class="nowrap">|url=</code>. When the citation includes <code class="nowrap">|deadurl=no</code>, the ordering of elements in the rendered citation is changed to put the original url first.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|url=</code>. For web resources archived at archive.org,<sup id="cite_ref-archive.org_2-1" class="reference"><a href="#cite_note-archive.org-2"><span>[</span>1<span>]</span></a></sup> the original url can be found in the <code class="nowrap">|archiveurl=</code> value; for resources archived at webcitation.org,<sup id="cite_ref-webcitation.org_3-1" class="reference"><a href="#cite_note-webcitation.org-3"><span>[</span>2<span>]</span></a></sup> the original url is included in the archive header.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_archiveurl_citation_errors" title="Category:Pages with archiveurl citation errors">Category:Pages with archiveurl citation errors</a>.<sup id="cite_ref-categories_1-2" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cauthorlink.3D_value"><span id="bad_authorlink">Check |authorlink= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|authorlink=</code> value</span></p>
+<p>The <code class="nowrap">|authorlink=</code> links an associated <code class="nowrap">|author=</code> parameter value to the author's existing Wikipedia article. It should contain only the Wikipedia article name. <a href="/wiki/Module:Citation/CS1" title="Module:Citation/CS1">Module:Citation/CS1</a> checks <code class="nowrap">|authorlink=</code> for a <a href="/wiki/URI_scheme" title="URI scheme">URI scheme</a> (<code>http://</code>, <code>https://</code>, the protocol relative scheme <code>//</code>, etc.).</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|authorlink=</code> value is the full name of a Wikipedia article (without brackets), and not a link to an external site.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_authorlink" title="Category:CS1 errors: authorlink">Category:CS1 errors: authorlink</a>.<sup id="cite_ref-categories_1-3" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_date_values_in:_.7Cparam1.3D.2C_.7Cparam2.3D.2C_..."><span id="bad_date">Check date values in: |param1=, |param2=, ...</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check date values in: <code>|param1=, |param2=, ...</code></span> (error message hidden by default)</p>
+<p>When <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> contain date-holding parameters, a test is done to see if the dates comply with a <a href="/wiki/Help:Citation_Style_1#Dates" title="Help:Citation Style 1">subset</a> of <a href="/wiki/Wikipedia:DATESNO" title="Wikipedia:DATESNO" class="mw-redirect">WP:DATESNO</a> and to see if the date is a real date. The test includes all of the date-holding parameter's value; if the date format is correct but the value contains other text (for example: <code class="nowrap">|date=24 April 2014 (online only)</code>) then the test will fail.</p>
+<p>When <code class="nowrap">|date=</code> is not set, <code class="nowrap">|year=</code>, <code class="nowrap">|month=</code>, and <code class="nowrap">|day=</code>, if present, are concatenated to make <code class="nowrap">|date=day month year</code>. Errors in any of the three individual date component parameters are reported as errors in <code class="nowrap">|date=</code>.</p>
+<p>Dates prior to 1582 are treated as <a href="/wiki/Julian_calendar" title="Julian calendar">Julian calendar</a> dates. Dates from 1582 onward are treated as <a href="/wiki/Gregorian_calendar" title="Gregorian calendar">Gregorian calendar</a> dates. The Julian calendar was used in some places until approximately 1923. Three Julian calendar dates in the overlap period, 29 February in the years 1700, 1800, and 1900, will cause this error message because those years are not leap years in the Gregorian calendar.</p>
+<p>Future dates in CS1 citations are limited to current year + 1; that is, for 2014, citation dates in 2015 are acceptable but citation dates in 2016 and beyond are not.</p>
+<p>When specifying month or season ranges, WP:DATESNO defines the proper separator as an unspaced en dash (do not use <code>&amp;ndash;</code>).</p>
+<p>Year ranges in the form YYYY–YY where the two-digit year is less than 13 are reported as errors because these dates may be ambiguous; use YYYY–YYYY. (See <a href="/wiki/Wikipedia:MONTH" title="Wikipedia:MONTH" class="mw-redirect">WP:MONTH</a> for details.)</p>
+<p>To resolve this error, ensure that the date and the date format are correct. Look for misplaced or incorrect punctuation, extraneous text, incomplete year-initial dates, etc.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_dates" title="Category:CS1 errors: dates">Category:CS1 errors: dates</a>.<sup id="cite_ref-categories_1-4" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cdoi.3D_value"><span id="bad_doi">Check |doi= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|doi=</code> value</span></p>
+<p>When <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> contain <code class="nowrap">|doi=</code>, a test is done to see if the prefix portion of the <a href="/wiki/Digital_object_identifier" title="Digital object identifier">DOI</a> value contains the proper "<code>10.</code>" registry identifier. Additionally, the <code class="nowrap">|doi=</code> value is checked to make sure that it does not contain spaces or en dashes and does not end with punctuation. Further validation of the DOI is not performed.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|doi=</code> value is correct.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_DOI_errors" title="Category:Pages with DOI errors">Category:Pages with DOI errors</a>.<sup id="cite_ref-categories_1-5" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cisbn.3D_value"><span id="bad_isbn">Check |isbn= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|isbn=</code> value</span></p>
+<p><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a> templates that contain <code class="nowrap">|isbn=</code> are checked to ensure that the <a href="/wiki/ISBN" title="ISBN" class="mw-redirect">ISBN</a> is the proper length (ten or thirteen digits), that the ISBN uses the correct optional separators (simple space or hyphen), and that the final <a href="/wiki/Check_digit" title="Check digit">check digit</a> is correct according to the ISBN specification. Only one ISBN is allowed in this field because the whole <code class="nowrap">|isbn=</code> value is included in the citation's <a href="/wiki/COinS" title="COinS">COinS</a> <a href="/wiki/Metadata" title="Metadata">metadata</a>. See also <a href="/wiki/Wikipedia:COinS" title="Wikipedia:COinS">Wikipedia:COinS</a>. More than one ISBN, or characters that are not part of the ISBN, corrupt the COinS metadata and may also corrupt the link to <a href="/wiki/Special:BookSources" title="Special:BookSources">Special:BookSources</a>.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|isbn=</code> value is correct, that only one ISBN is used, that the proper optional separators are used, and that no other text is included. Use the 13-digit ISBN when it is available. When a 10-digit ISBN is used, if the check-digit is a lowercase 'x', change it to an uppercase 'X'.</p>
+<p>In very rare cases, publishers have released books with malformed ISBNs. If you are certain that a non-conforming ISBN truly corresponds to the published work, then you can add <code class="nowrap">|ignore-isbn-error=true</code> to the citation in order to suppress the error message. In many cases books may have been reissued with a corrected ISBN. Use a corrected ISBN when possible.</p>
+<p>See also <a href="/wiki/Wikipedia:ISBN" title="Wikipedia:ISBN">Wikipedia:ISBN</a>.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_ISBN_errors" title="Category:Pages with ISBN errors">Category:Pages with ISBN errors</a>.<sup id="cite_ref-categories_1-6" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cissn.3D_value"><span id="bad_issn">Check |issn= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|issn=</code> value</span></p>
+<p><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a> templates that contain <code class="nowrap">|issn=</code> are checked to ensure that the <a href="/wiki/ISSN" title="ISSN" class="mw-redirect">ISSN</a> is the proper length (eight digits) and that the final <a href="/wiki/Check_digit" title="Check digit">check digit</a> validates according to the ISSN specification. Only one ISSN is allowed in this field because the whole <code class="nowrap">|issn=</code> value is included in the citation's <a href="/wiki/COinS" title="COinS">COinS</a> <a href="/wiki/Metadata" title="Metadata">metadata</a>. See also <a href="/wiki/Wikipedia:COinS" title="Wikipedia:COinS">Wikipedia:COinS</a>. The ISSN is always rendered as two four-digit numbers separated with a hyphen.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|issn=</code> value is correct, that only one ISSN is used, and that no other text is included (allowable characters are 0-9, X, and -). If the check-digit is a lowercase 'x', change it to an uppercase 'X'.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_ISSN" title="Category:CS1 errors: ISSN">Category:CS1 errors: ISSN</a>.<sup id="cite_ref-categories_1-7" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Clccn.3D_value"><span id="bad_lccn">Check |lccn= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|lccn=</code> value</span></p>
+<div class="center" style="width:auto; margin-left:auto; margin-right:auto;">There are known flaws in the LCCN validation section of <a href="/wiki/Module:Citation/CS1" title="Module:Citation/CS1">Module:Citation/CS1</a>. These flaws have been remedied in <a href="/wiki/Module:Citation/CS1/sandbox" title="Module:Citation/CS1/sandbox">Module:Citation/CS1/sandbox</a></div>
+<p>The <code class="nowrap">|lccn=</code> parameter is the <a href="/wiki/Library_of_Congress_Control_Number" title="Library of Congress Control Number">Library of Congress Control Number</a> identifier. It is checked to ensure that the identifier is the proper length and has the correct initial digits.</p>
+<p>LCCN is a character string 8–12 characters long. The length of the LCCN dictates the character type of the initial 1–3 characters; the rightmost eight are always digits.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>3<span>]</span></a></sup></p>
+<table class="wikitable">
+<caption>LCCN format description</caption>
+<tr>
+<th>Length</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>8</td>
+<td>all characters are digits</td>
+</tr>
+<tr>
+<td>9</td>
+<td>first character is a letter</td>
+</tr>
+<tr>
+<td>10</td>
+<td>first two characters are either both letters or both digits</td>
+</tr>
+<tr>
+<td>11</td>
+<td>first character is a letter, second and third characters are either both letters or both digits</td>
+</tr>
+<tr>
+<td>12</td>
+<td>first two characters are both letters</td>
+</tr>
+</table>
+<p>Further validation is not performed.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|lccn=</code> value is correct and that there are no other letters, punctuation, or other characters.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_LCCN" title="Category:CS1 errors: LCCN">Category:CS1 errors: LCCN</a>.<sup id="cite_ref-categories_1-8" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Col.3D_value"><span id="bad_ol">Check |ol= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|ol=</code> value</span></p>
+<p>The <code class="nowrap">|ol=</code> parameter is the <a href="/wiki/Open_Library" title="Open Library">Open Library</a> identifier. It is checked to ensure that the last character is either <code>A</code> (authors), <code>M</code> (books), or <code>W</code> (works). Further validation is not performed.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|ol=</code> value is correct.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_OL_errors" title="Category:Pages with OL errors">Category:Pages with OL errors</a>.<sup id="cite_ref-categories_1-9" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cpmc.3D_value"><span id="bad_pmc">Check |pmc= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|pmc=</code> value</span></p>
+<p>The <code class="nowrap">|pmc=</code> parameter is the <a href="/wiki/PubMed_Central" title="PubMed Central">PubMed Central</a> identifier. PMCs are sequential numbers beginning at 1 and counting up. <a href="/wiki/Module:Citation/CS1" title="Module:Citation/CS1">Module:Citation/CS1</a> checks the PMC identifier to make sure that the value is a number greater than zero and less than 5000000 and that the identifier contains only digits. Further validation is not performed.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|pmc=</code> value is correct, and that there are no letters, punctuation, or other characters. Do not include "PMC" in the value.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_PMC" title="Category:CS1 errors: PMC">Category:CS1 errors: PMC</a>.<sup id="cite_ref-categories_1-10" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Cpmid.3D_value"><span id="bad_pmid">Check |pmid= value</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|pmid=</code> value</span></p>
+<p>The <code class="nowrap">|pmid=</code> parameter is the <a href="/wiki/PubMed#PubMed_identifier" title="PubMed">PubMed identifier</a>. PMIDs are checked to ensure that the identifier is a simple number without punctuation or spaces with a value greater than or equal to 1 and less than or equal to 30000000. Further validation is not performed.</p>
+<p>To resolve this error, ensure that the <code class="nowrap">|pmid=</code> value is correct. If you find something that looks like a PMID and begins with "PMC", use <code class="nowrap">|pmc=</code> instead of <code class="nowrap">|pmid=</code>.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_PMID" title="Category:CS1 errors: PMID">Category:CS1 errors: PMID</a>.<sup id="cite_ref-categories_1-11" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Check_.7Curl.3D_scheme"><span id="bad_url">Check |url= scheme</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Check <code>|url=</code> scheme</span></p>
+<p>External links in <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> are made from two parts: the <i>title</i> (<code class="nowrap">|title=</code>, <code class="nowrap">|chapter=</code>, etc.) and the <i>URL</i> (<code class="nowrap">|url=</code>, <code class="nowrap">|archiveurl=</code>, <code class="nowrap">|chapter-url=</code>, <code class="nowrap">|laysummary=</code>, etc.). The <code class="nowrap">|url=</code> parameter and other URL parameters must begin with a supported <a href="/wiki/URI_scheme" title="URI scheme">URI scheme</a>. The URI schemes <code>http://</code>, <code>https://</code> and the protocol relative scheme <code>//</code> are most commonly used; <code>irc://</code>, <code>ircs://</code>, <code>ftp://</code>, <code>news:</code>, <code>mailto:</code> and <code>gopher://</code> are also supported.</p>
+<p>The URL field is checked to ensure it includes either a colon (<code>:</code>) or the double forward slash (<code>//</code>). Further validation is not performed.</p>
+<p>To resolve this error, ensure that <code class="nowrap">|url=</code> and other URL parameters contain valid URLs.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_URL_errors" title="Category:Pages with URL errors">Category:Pages with URL errors</a>.<sup id="cite_ref-categories_1-12" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Cite_uses_deprecated_parameters"><span id="deprecated_params">Cite uses deprecated parameters</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Cite uses deprecated parameters</span> (error message hidden by default)</p>
+<p>Over time, some parameters have become obsolete or unnecessary. When this happens, the parameters are identified as deprecated. Editors are encouraged to use other parameters that accomplish the same purpose as those that have been deprecated. The CS1 deprecated parameters are listed in the following table, along with recommended replacement parameters.</p>
+<table class="wikitable">
+<caption>Deprecated CS1 parameters</caption>
+<tr>
+<th>Parameter</th>
+<th>Replace with</th>
+</tr>
+<tr>
+<td><code class="nowrap">|albumlink=</code></td>
+<td><code class="nowrap">|titlelink=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|artist=</code></td>
+<td><code class="nowrap">|others=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|coauthor=</code><br />
+<code class="nowrap">|coauthors=</code></td>
+<td><code class="nowrap">|last1=</code>, <code class="nowrap">|first1=</code>, <code class="nowrap">|last2=</code>, <code class="nowrap">|first2=</code>, etc.; or <code class="nowrap">|author1=</code>, <code class="nowrap">|author2=</code>, ...</td>
+</tr>
+<tr>
+<td><code class="nowrap">|cointerviewers=</code></td>
+<td><code class="nowrap">|others=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|day=</code></td>
+<td>Incorporate into <code class="nowrap">|date=</code> along with the month and year.</td>
+</tr>
+<tr>
+<td><code class="nowrap">|director=</code></td>
+<td><code class="nowrap">|others=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|month=</code></td>
+<td>Incorporate into <code class="nowrap">|date=</code> along with the year.</td>
+</tr>
+<tr>
+<td><code class="nowrap">|notestitle=</code></td>
+<td><code class="nowrap">|chapter=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|publisherid=</code></td>
+<td><code class="nowrap">|id=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|titleyear=</code></td>
+<td><code class="nowrap">|origyear=</code></td>
+</tr>
+</table>
+<p>To resolve this error, use an alternate parameter.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_containing_cite_templates_with_deprecated_parameters" title="Category:Pages containing cite templates with deprecated parameters">Category:Pages containing cite templates with deprecated parameters‎</a>.<sup id="cite_ref-categories_1-13" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Ccoauthors.3D_requires_.7Cauthor.3D"><span id="coauthors_missing_author">|coauthors= requires |author=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|coauthors=</code> requires <code>|author=</code></span></p>
+<p><code class="nowrap">|coauthor=</code> and <code class="nowrap">|coauthors=</code> are deprecated parameters. Where they exist without accompanying <code class="nowrap">|author=</code>, <code class="nowrap">|authors=</code>, or <code class="nowrap">|last=</code>, the content of <code class="nowrap">|coauthor=</code> or <code class="nowrap">|coauthors=</code> is not displayed.</p>
+<p>To resolve this error, use <code class="nowrap">|author1=</code>, <code class="nowrap">|author2=</code>, etc., or use <code class="nowrap">|last1=</code>, <code class="nowrap">|first1=</code>, <code class="nowrap">|last2=</code>, <code class="nowrap">|first2=</code>, etc. to individually list all authors.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:CS1_errors:_coauthors_without_author" title="Category:CS1 errors: coauthors without author">Category:CS1 errors: coauthors without author</a>.<sup id="cite_ref-categories_1-14" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Cdisplayauthors.3D_suggested"><span id="displayauthors">|displayauthors= suggested</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|displayauthors=</code> suggested</span> (error message hidden by default)</p>
+<p>Prior to the introduction of <a href="/wiki/Wikipedia:LUA" title="Wikipedia:LUA" class="mw-redirect">Lua</a>-based citations, the citation formatting templates were designed to support no more than nine authors. If nine (or more) author parameters were specified, then the template would display eight author names followed by "et al." to indicate that the list had been truncated. Some editors relied on this behavior to include the "et al." label. For example:</p>
+<table class="wikitable" width="100%">
+<caption>Cite book compare</caption>
+<tr>
+<td style="background:#FFFFFF; padding-left:1em;" colspan="2">{{ cite book | last12=Twelfth | last6=Sixth | last10=Tenth | last3=Third | last2=Second | last11=Eleventh | last7=Seventh | title=Twelve Little Authors | last4=Fourth | last9=Ninth | last8=Eighth | last5=Fifth | last=First }}</td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Old</td>
+<td style="padding-left:0.5em;"><span class="citation book">First; Second; Third; Fourth; Fifth; Sixth; Seventh; Eighth et al. <i>Twelve Little Authors</i>.</span></td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Live</td>
+<td style="padding-left:0.5em;"><span class="citation book">First; Second; Third; Fourth; Fifth; Sixth; Seventh; Eighth; Ninth; Tenth; Eleventh; Twelfth. <i>Twelve Little Authors</i>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.au=Eighth&amp;rft.au=Eleventh&amp;rft.au=Fifth&amp;rft.au=First&amp;rft.au=Fourth&amp;rft.aulast=First&amp;rft.au=Ninth&amp;rft.au=Second&amp;rft.au=Seventh&amp;rft.au=Sixth&amp;rft.au=Tenth&amp;rft.au=Third&amp;rft.au=Twelfth&amp;rft.btitle=Twelve+Little+Authors&amp;rft.genre=book&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></td>
+</tr>
+</table>
+<p><br />
+The Lua-based citation templates can accommodate an arbitrarily large number of authors. As with the old templates, the Lua-based templates can explicitly include an "et al." label with the <code class="nowrap">|displayauthors=</code> parameter.</p>
+<table class="wikitable" width="100%">
+<caption>Cite book compare</caption>
+<tr>
+<td style="background:#FFFFFF; padding-left:1em;" colspan="2">{{ cite book | last12=Twelfth | last6=Sixth | last10=Tenth | displayauthors=3 | last3=Third | last2=Second | last11=Eleventh | last7=Seventh | title=Twelve Little Authors | last4=Fourth | last9=Ninth | last8=Eighth | last5=Fifth | last=First }}</td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Old</td>
+<td style="padding-left:0.5em;"><span class="citation book">First; Second; Third; Fourth; Fifth; Sixth; Seventh; Eighth et al. <i>Twelve Little Authors</i>.</span></td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Live</td>
+<td style="padding-left:0.5em;"><span class="citation book">First; Second; Third et al. <i>Twelve Little Authors</i>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.au=Eighth&amp;rft.au=Eleventh&amp;rft.au=Fifth&amp;rft.au=First&amp;rft.au=Fourth&amp;rft.aulast=First&amp;rft.au=Ninth&amp;rft.au=Second&amp;rft.au=Seventh&amp;rft.au=Sixth&amp;rft.au=Tenth&amp;rft.au=Third&amp;rft.au=Twelfth&amp;rft.btitle=Twelve+Little+Authors&amp;rft.genre=book&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></td>
+</tr>
+</table>
+<p><br />
+The old-style templates supported at most nine authors. The new Lua-based templates cannot know if editors created citations with exactly nine authors because there were only nine authors or, because old-style citations were limited to nine authors. This error message is reported by citations with exactly nine authors but without <code class="nowrap">|displayauthors=</code>. To preserve the behavior of old-style citations, Lua-based citations display "et al." in place of the ninth author.</p>
+<p>To resolve this error, add the remaining authors to the citation or set <code class="nowrap">|displayauthors=</code> to <code>8</code> or some lesser value to truncate the author list. If there are exactly nine authors, then set <code class="nowrap">|displayauthors=</code> to <code>9</code> or higher to display all nine authors without "et al."</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_using_citations_with_old-style_implicit_et_al." title="Category:Pages using citations with old-style implicit et al.">Category:Pages using citations with old-style implicit et al.</a><sup id="cite_ref-categories_1-15" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Cdisplayeditors.3D_suggested"><span id="displayeditors">|displayeditors= suggested</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|displayeditors=</code> suggested</span> (error message hidden by default)</p>
+<p>Prior to the introduction of <a href="/wiki/Wikipedia:LUA" title="Wikipedia:LUA" class="mw-redirect">Lua</a>-based citations, the citation formatting templates were designed to support no more than four editors. Specifically, if four (or more) editor parameters were specified, then the template would display three editor names followed by "et al." to indicate that the list had been truncated. Some editors relied on this behavior to include the "et al." label. For example:</p>
+<table class="wikitable" width="100%">
+<caption>Cite book compare</caption>
+<tr>
+<td style="background:#FFFFFF; padding-left:1em;" colspan="2">{{ cite book | last=Milquetoast | editor-last=First | first=Caspar | title=If You Won't Think it Presumptuous of Me | editor5-last=Fifth | authorlink=Caspar Milquetoast | editor2-last=Second | editor4-last=Fourth | editor3-last=Third }}</td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Old</td>
+<td style="padding-left:0.5em;"><span class="citation book"><a href="/wiki/Caspar_Milquetoast" title="Caspar Milquetoast">Milquetoast, Caspar</a>. First; Second; Third et al. eds. <i>If You Won't Think it Presumptuous of Me</i>.</span></td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Live</td>
+<td style="padding-left:0.5em;"><span class="citation book"><a href="/wiki/Caspar_Milquetoast" title="Caspar Milquetoast">Milquetoast, Caspar</a>. First; Second; Third; Fourth; Fifth, eds. <i>If You Won't Think it Presumptuous of Me</i>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.aufirst=Caspar&amp;rft.aulast=Milquetoast&amp;rft.au=Milquetoast%2C+Caspar&amp;rft.btitle=If+You+Won%27t+Think+it+Presumptuous+of+Me&amp;rft.genre=book&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></td>
+</tr>
+</table>
+<p><br />
+The Lua-based citation templates can accommodate an arbitrarily large number of editors. The Lua-based templates can also explicitly include an "et al." label with the new <code class="nowrap">|displayeditors=</code> parameter, a parameter that was not available to the old-style templates.</p>
+<table class="wikitable" width="100%">
+<caption>Cite book compare</caption>
+<tr>
+<td style="background:#FFFFFF; padding-left:1em;" colspan="2">{{ cite book | last=Milquetoast | editor-last=First | first=Caspar | displayeditors=2 | title=If You Won't Think it Presumptuous of Me | editor5-last=Fifth | authorlink=Caspar Milquetoast | editor2-last=Second | editor4-last=Fourth | editor3-last=Third }}</td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Old</td>
+<td style="padding-left:0.5em;"><span class="citation book"><a href="/wiki/Caspar_Milquetoast" title="Caspar Milquetoast">Milquetoast, Caspar</a>. First; Second; Third et al. eds. <i>If You Won't Think it Presumptuous of Me</i>.</span></td>
+</tr>
+<tr>
+<td width="4em" style="background:#DDDDDD;">Live</td>
+<td style="padding-left:0.5em;"><span class="citation book"><a href="/wiki/Caspar_Milquetoast" title="Caspar Milquetoast">Milquetoast, Caspar</a>. First; Second et al., eds. <i>If You Won't Think it Presumptuous of Me</i>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.aufirst=Caspar&amp;rft.aulast=Milquetoast&amp;rft.au=Milquetoast%2C+Caspar&amp;rft.btitle=If+You+Won%27t+Think+it+Presumptuous+of+Me&amp;rft.genre=book&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></td>
+</tr>
+</table>
+<p><br />
+The old-style templates supported at most four editors. The new Lua-based templates cannot know if <i>Wikipedia</i> editors created citations with exactly four editors because there were only four editors or, because old-style citations were limited to four editors. This error message is reported by citations with exactly four editors but without <code class="nowrap">|displayeditors=</code>. To preserve the behavior of old-style citations, Lua-based citations display "et al." in place of the fourth editor.</p>
+<p>To resolve this error, add the remaining editors to the citation or set <code class="nowrap">|displayeditors=</code> to <code>3</code> or some lesser value to truncate the editor list. If there are exactly four editors, then set <code class="nowrap">|displayeditors=</code> to <code>4</code> or higher to display all four editors without including "et al."</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_using_citations_with_old-style_implicit_et_al." title="Category:Pages using citations with old-style implicit et al.">Category:Pages using citations with old-style implicit et al.</a><sup id="cite_ref-categories_1-16" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Empty_citation"><span id="empty_citation">Empty citation</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Empty citation</span></p>
+<p>"Empty" may mean that the <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citation</a> contains no recognizable parameter identifiers. For example this citation isn't "empty" because it contains usable information:</p>
+<dl>
+<dd><code>{{cite web | http://www.foobar.com | The Foobar Bar}}</code></dd>
+</dl>
+<p>The citation is "empty" because it doesn't contain the necessary parameter identifiers (in this case <code class="nowrap">|url=</code> and <code class="nowrap">|title=</code>) that tell <code>{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</code> how to use the information that the citation does contain.</p>
+<p>"Empty" may also mean that an editor meant to use another template entirely. Perhaps the editor used <code>{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>}}</code> when the intent was to use <code>{{<a href="/wiki/Template:Citation_needed" title="Template:Citation needed">citation needed</a>}}</code> or <code>{{<a href="/wiki/Template:Quote" title="Template:Quote">quote</a>}}</code>.</p>
+<p>To resolve this error, add appropriate parameter identifiers or replace the CS1 citation with a more appropriate template.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_empty_citations" title="Category:Pages with empty citations">Category:Pages with empty citations</a>.<sup id="cite_ref-categories_1-17" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Extra_.7Cpages.3D_or_.7Cat.3D"><span id="extra_pages">Extra |pages= or |at=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Extra <code>|pages=</code> or <code>|at=</code></span></p>
+<p>This error occurs when <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> attempt to simultaneously use more than one of the parameters: <code class="nowrap">|page=</code>, <code class="nowrap">|pages=</code>, or <code class="nowrap">|at=</code>. Each of these parameters is meant to provide a different way of specifying the location within a larger work, of the cited content, that is, of the specific page(s) or place in a cited source that contains the information that supports the article text. Only one of these parameters is displayed in any rendered citation. According to their intended purpose, <code class="nowrap">|page=</code> should be used to specify a single page that is relevant to the cited content, <code class="nowrap">|pages=</code> should be used to specify a range or list of pages (e.g. 37–42) that are relevant, and <code class="nowrap">|at=</code> should be used to indicate a location in the larger work that is not a numbered page (e.g. "back cover"). Sometimes, editors misunderstand the meaning of <code class="nowrap">|pages=</code>, and attempt to use it to indicate the total number of pages in the resource.</p>
+<p>When <code class="nowrap">|page=</code> is used with either or both of <code class="nowrap">|pages=</code> or <code class="nowrap">|at=</code>, only the <code class="nowrap">|page=</code> value is displayed. Similarly, when <code class="nowrap">|pages=</code> is used with <code class="nowrap">|at=</code>, only the <code class="nowrap">|pages=</code> value is displayed.</p>
+<p>To resolve this error, remove the inappropriate parameter.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_conflicting_page_specifications" title="Category:Pages with citations using conflicting page specifications">Category:Pages with citations using conflicting page specifications</a>.<sup id="cite_ref-categories_1-18" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Cformat.3D_requires_.7Curl.3D"><span id="format_missing_url">|format= requires |url=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|format=</code> requires <code>|url=</code></span> (error message hidden by default)</p>
+<p>This error occurs when <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> use <code class="nowrap">|format=</code> without also providing a URL for <code class="nowrap">|url=</code>. The <code class="nowrap">|format=</code> parameter is used to specify the file format of a web resource (e.g. <a href="/wiki/PDF" title="PDF" class="mw-redirect">PDF</a>, <a href="/wiki/Doc_(computing)" title="Doc (computing)">DOC</a>, <a href="/wiki/Microsoft_Excel_file_format" title="Microsoft Excel file format" class="mw-redirect">XLS</a>, etc.). In some cases an editor may have intended to use <code class="nowrap">|type=</code> to specify a kind of document (e.g. hard cover, paperback, pamphlet, etc.) The <code class="nowrap">|format=</code> value is always displayed.</p>
+<p>To resolve this error, remove <code class="nowrap">|format=</code> or define <code class="nowrap">|url=</code> or change <code class="nowrap">|format=</code> to <code class="nowrap">|type=</code>.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_using_citations_with_format_and_no_URL" title="Category:Pages using citations with format and no URL">Category:Pages using citations with format and no URL</a>.<sup id="cite_ref-categories_1-19" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Missing_or_empty_.7Ctitle.3D"><span id="missing_title">Missing or empty |title=</span></span></h2>
+<p>There are two slightly different error conditions that can arise when <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> lack appropriate titles. In each case, CS1 reports this error message. The necessary resolution may vary depending on the cause of the error. The error message links to the appropriate description below.</p>
+<h3><span class="mw-headline" id="Bare_URL_without_a_title"><span id="bare_url_missing_title">Bare URL without a title</span></span></h3>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|&lt;param&gt;=</code> missing title</span></p>
+<p>All <a href="/wiki/Lua_(programming_language)" title="Lua (programming language)">Lua</a>-based <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> report this error when one of the <a href="/wiki/URL" title="URL" class="mw-redirect">URL</a>-containing parameters cannot be paired with an associated title. This error may also occur when <code class="nowrap">|title=</code> cannot be linked with <code class="nowrap">|url=</code> because the citation also contains a conflicting <code class="nowrap">|titlelink=</code> parameter.</p>
+<table class="wikitable">
+<caption>URL-containing parameters and associated title parameters</caption>
+<tr>
+<th>URL parameters</th>
+<th>Title parameters</th>
+</tr>
+<tr>
+<td><code class="nowrap">|archiveurl=</code></td>
+<td><code class="nowrap">|title=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|chapterurl=</code></td>
+<td><code class="nowrap">|chapter=</code>, <code class="nowrap">|contribution=</code>, <code class="nowrap">|entry=</code>, <code class="nowrap">|article=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|conferenceurl=</code></td>
+<td><code class="nowrap">|conference=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|contributionurl=</code></td>
+<td><code class="nowrap">|chapter=</code>, <code class="nowrap">|contribution=</code>, <code class="nowrap">|entry=</code>, <code class="nowrap">|article=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|transcripturl=</code></td>
+<td><code class="nowrap">|transcript=</code></td>
+</tr>
+<tr>
+<td><code class="nowrap">|url=</code></td>
+<td><code class="nowrap">|title=</code></td>
+</tr>
+</table>
+<p>A unique case exists: if <code class="nowrap">|pmc=</code> has a value and <code class="nowrap">|url=</code> is omitted or empty, then <code class="nowrap">|title=</code> is linked with the same URL as the PMC.</p>
+<p>Because URLs are ugly and generally uninformative, it is expected that editors should provide a meaningful title for each URL. In most cases this can be accomplished by using the <code class="nowrap">|title=</code> parameter.</p>
+<p>To resolve this error, provide an appropriate title for the URL-containing parameter. In the case where <code class="nowrap">|url=</code> and <code class="nowrap">|titlelink=</code> are contending for <code class="nowrap">|title=</code> you must choose which one to keep. Consider moving <code class="nowrap">|url=</code> or <code class="nowrap">|titlelink=</code> to a more suitable parameter.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_having_bare_URLs" title="Category:Pages with citations having bare URLs">Category:Pages with citations having bare URLs</a>.<sup id="cite_ref-categories_1-20" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Citation_without_a_title_of_any_form"><span id="citation_missing_title">Citation without a title of any form</span></span></h3>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Missing or empty <code>|title=</code></span></p>
+<p>This error occurs for <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> when all of the associated title parameters are omitted or left blank. Depending on the type of citation (<code>{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</code>, <code>{{<a href="/wiki/Template:Cite_book" title="Template:Cite book">cite book</a>}}</code>, <code>{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>, etc.), the possible title parameters may include <code class="nowrap">|title=</code>, <code class="nowrap">|chapter=</code>, <code class="nowrap">|article=</code>, <code class="nowrap">|journal=</code>, <code class="nowrap">|booktitle=</code>, and so forth. At least one such title parameter must be provided for each citation.</p>
+<p>Sometimes this error occurs because an editor has used a CS1 citation as a <a href="/wiki/Help:Shortened_footnotes" title="Help:Shortened footnotes">shortened footnote</a> when <code>{{<a href="/wiki/Template:Sfn" title="Template:Sfn">sfn</a>}}</code> or one of the <code>{{<a href="/wiki/Template:Harv" title="Template:Harv" class="mw-redirect">harv</a>}}</code> family of templates would have been more appropriate. This error also occurs when an editor used <code>{{<a href="/wiki/Template:Citation" title="Template:Citation">citation</a>|date=&lt;some date&gt;}}</code> but intended to use <code>{{<a href="/wiki/Template:Citation_needed" title="Template:Citation needed">citation needed</a>|date=&lt;some date&gt;}}</code>.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|title=</code> or replace the CS1 citation with a more appropriate template.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_lacking_titles" title="Category:Pages with citations lacking titles">Category:Pages with citations lacking titles</a>.<sup id="cite_ref-categories_1-21" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Missing_or_empty_.7Curl.3D"><span id="cite_web_url">Missing or empty |url=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Missing or empty <code>|url=</code></span> (error message hidden by default)</p>
+<p>This error message is reported only by <code>{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</code> where <code class="nowrap">|url=</code> is missing, blank or not properly entered.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|url=</code> or use a more appropriate template such as {{<a href="/wiki/Template:Cite_book" title="Template:Cite book">cite book</a>}}, {{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}} or other <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a> template.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_using_web_citations_with_no_URL" title="Category:Pages using web citations with no URL">Category:Pages using web citations with no URL</a>.<sup id="cite_ref-categories_1-22" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="More_than_one_of_.7Cparam1.3D.2C_.7Cparam2.3D.2C_and_.7Cparam3.3D_specified"><span id="redundant_parameters">More than one of |param1=, |param2=, and |param3= specified</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">More than one of <code>|param1=</code>, <code>|param2=</code>, and <code>|param3=</code> specified</span></p>
+<p>This error occurs when a <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citation</a> includes more than one parameter that maps to the same meaning. For example, <code class="nowrap">|author=</code>, <code class="nowrap">|last=</code>, and <code class="nowrap">|last1=</code> are all synonyms of each other, so no more than one of these parameters should ever be used in a single citation.</p>
+<p>To resolve this error, remove or modify the redundant parameter(s).</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_having_redundant_parameters" title="Category:Pages with citations having redundant parameters">Category:Pages with citations having redundant parameters</a>.<sup id="cite_ref-categories_1-23" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Text_.22.3F.3F.3F.3F.22_ignored"><span id="text_ignored">Text "????" ignored</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Text "????" ignored</span></p>
+<p>Unlike many Wikipedia templates, the <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> do not use unnamed or positional parameters. When a citation contains text between <a href="/wiki/Vertical_bar" title="Vertical bar">vertical bars</a> and that text does not contain an equal sign (=), CS1 ignores the text and reports the error. This is true even when the text is the name of a valid parameter.</p>
+<p>This error can also be caused by vertical bars that are part of URLs or titles. When vertical bars occur in URLs, replace each vertical bar with <code>%7c</code>. When vertical bars occur in parameter values that are not URLs, replace each vertical bar with <code>&amp;#124;</code>.</p>
+<p>To resolve this error, remove the extraneous text, add '=', add an appropriate parameter name from the <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">citation template</a> you're using to complete the parameter, or properly encode vertical bars in URLs and titles.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_unnamed_parameters" title="Category:Pages with citations using unnamed parameters">Category:Pages with citations using unnamed parameters</a>.<sup id="cite_ref-categories_1-24" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Ctrans_chapter.3D_requires_.7Cchapter.3D"><span id="trans_missing_chapter">|trans_chapter= requires |chapter=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|trans_chapter=</code> requires <code>|chapter=</code></span></p>
+<p>This error occurs when a <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citation</a> has an English translation of a chapter title in <code class="nowrap">|trans_chapter=</code> but does not have the original-language chapter title in <code class="nowrap">|chapter=</code>.</p>
+<p>To resolve this error, provide a value for <code class="nowrap">|chapter=</code>. Consider adding <code class="nowrap">|language=</code> if not already part of the citation.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_translated_terms_without_the_original" title="Category:Pages with citations using translated terms without the original">Category:Pages with citations using translated terms without the original</a>.<sup id="cite_ref-categories_1-25" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id=".7Ctrans_title.3D_requires_.7Ctitle.3D"><span id="trans_missing_title">|trans_title= requires |title=</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error"><code>|trans_title=</code> requires <code>|title=</code></span></p>
+<p><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> report this error when the citation has an English translation of the title in <code class="nowrap">|trans_title=</code> but does not have the original-language title in <code class="nowrap">|title=</code>.</p>
+<p>To resolve this error, provide the original language title for <code class="nowrap">|title=</code>. Consider adding <code class="nowrap">|language=</code> if not already part of the citation.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_translated_terms_without_the_original" title="Category:Pages with citations using translated terms without the original">Category:Pages with citations using translated terms without the original</a>.<sup id="cite_ref-categories_1-26" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Unknown_parameter_.7C.3F.3F.3F.3F.3D_ignored"><span id="parameter_ignored">Unknown parameter |????= ignored</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Unknown parameter <code>????=</code> ignored</span></p>
+<p><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> report this error when the name portion of a parameter's <code class="nowrap">|name=value</code> pair is not recognized as a valid name. Typically, this is caused by spelling errors.</p>
+<p>With the old-style citation templates, it was possible to include information within the template that was simply ignored as unrecognized parameters. The Lua-based CS1 engine does not ignore unrecognized parameters. The purpose of the citation is to properly identify the source; not act as a repository of notes and ancillary information.</p>
+<p>To resolve this error, ensure that the parameter's name is correctly spelled and that there are no characters except spaces between the parameter's name and the leading vertical bar (|) or trailing equal sign (=). A list of valid parameters can be found by consulting <a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Help:Citation Style 1</a> or visiting the description page of the specific template being used, such as <code>{{<a href="/wiki/Template:Cite_web" title="Template:Cite web">cite web</a>}}</code>, <code>{{<a href="/wiki/Template:Cite_book" title="Template:Cite book">cite book</a>}}</code>, <code>{{<a href="/wiki/Template:Cite_journal" title="Template:Cite journal">cite journal</a>}}</code>, etc. Consider moving information associated with the unknown parameter into an appropriate parameter or to a section of the article's talk page for preservation.</p>
+<p>For frequently encountered spelling errors, consider adding the misspelled parameter name to the <a href="/wiki/Module:Citation/CS1/Suggestions" title="Module:Citation/CS1/Suggestions">list</a> of common parameter misspellings.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_unsupported_parameters" title="Category:Pages with citations using unsupported parameters">Category:Pages with citations using unsupported parameters</a>.<sup id="cite_ref-categories_1-27" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Unknown_parameter_.7Cxxxx.3D_ignored_.28.7Cyyyy.3D_suggested.29"><span id="parameter_ignored_suggest">Unknown parameter |xxxx= ignored (|yyyy= suggested)</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Unknown parameter <code>|xxxx=</code> ignored (<code>|yyyy=</code> suggested)</span></p>
+<p><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">CS1 citations</a> report this error when the name portion of a parameter's <code class="nowrap">|name=value</code>-pair is not recognized as a valid name. With very few exceptions CS1 citation parameters are lower case. CS1 will report this error when the parameter's name contains uppercase letters (<span class="example bad-example" style="font-family: Georgia, 'DejaVu Serif', serif; color: #8B0000;">Xxxx, xxXx, XXXX</span>) but the parameter's name is defined as lowercase (<span class="example good-example" style="font-family: Georgia, 'DejaVu Serif', serif; color: #006400;">xxxx</span>). Some parameters, like <code class="nowrap">|isbn=</code> can be either lowercase or uppercase, but not of mixed case (<span class="example good-example" style="font-family: Georgia, 'DejaVu Serif', serif; color: #006400;"><code class="nowrap">|isbn=</code></span> or <span class="example good-example" style="font-family: Georgia, 'DejaVu Serif', serif; color: #006400;"><code class="nowrap">|ISBN=</code></span> but not <span class="example bad-example" style="font-family: Georgia, 'DejaVu Serif', serif; color: #8B0000;"><code class="nowrap">|Isbn=</code></span>). CS1 will also report this error when the parameter's name matches a name in the <a href="/wiki/Module:Citation/CS1/Suggestions" title="Module:Citation/CS1/Suggestions">list</a> of common parameter misspellings (found <code class="nowrap">|acessdate=</code> but expected <code class="nowrap">|accessdate=</code>).</p>
+<p>CS1 will offer a suggested parameter name from the list of valid parameters or from the list of common parameter misspellings.</p>
+<p>To resolve this error, replace the erroneous parameter name with a correct one, possibly using the suggested name.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_using_unsupported_parameters" title="Category:Pages with citations using unsupported parameters">Category:Pages with citations using unsupported parameters</a>.<sup id="cite_ref-categories_1-28" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Wikilink_embedded_in_URL_title"><span id="wikilink_in_url">Wikilink embedded in URL title</span></span></h2>
+<div style="margin:.1em; float:right; border: 1px solid #aaa; padding: 2px; background-color:#f9f9f9"><img alt="Information icon.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/20px-Information_icon.svg.png" width="20" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/30px-Information_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/3/35/Information_icon.svg/40px-Information_icon.svg.png 2x" data-file-width="62" data-file-height="62" /> <a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a></div>
+<p><span class="error">Wikilink embedded in URL title</span></p>
+<p>External links in a rendered citation are a combination of url-holding parameters, <code class="nowrap">|url=</code>, <code class="nowrap">|chapterurl=</code>, etc., with title-holding parameters, <code class="nowrap">|title=</code>, <code class="nowrap">|chapter=</code>, etc. Title-holding parameters may be <a href="/wiki/Wikilink" title="Wikilink" class="mw-redirect">wikilinked</a> to another Wikipedia article but not when there is a matching url-holding parameter in the citation. When this condition occurs, the wikilink is suppressed, the wiki markup ignored, and the rendered citation links to the external site.</p>
+<p>Some <a href="/wiki/Help:Template" title="Help:Template">templates</a> will also cause this error if they are part of a title-holding parameter. The error occurs when the template produces wikilinked content. For example, <code>{{<a href="/wiki/Template:Lang" title="Template:Lang">lang</a>}}</code> templates output a wikilinked category. Templates in url-holding parameters may also corrupt the citation's <a href="/wiki/Wikipedia:COinS" title="Wikipedia:COinS">COinS</a> metadata. As a general rule, avoid using templates in title-holding parameters unless you know that the template's affects are entirely visual (<code>{{<a href="/wiki/Template:!" title="Template:!">!</a>}}</code> and the like).</p>
+<p>This type of error may also occur in identifier-based templates (<code>{{<a href="/wiki/Template:Cite_doi" title="Template:Cite doi">cite doi</a>}}</code>, etc.). When this happens, the error message is shown in the article but the error is actually located in the identifier-based citation template.</p>
+<p>To resolve this error, remove wikilinks from title-holding parameters that are intended to be externally linked or remove the external URL, which will allow the internal wikilinks to work as expected. If wikilink-producing templates are important to the citation, move them out of the CS1 template but leave them inside the citation's <code class="nowrap">&lt;ref&gt;...&lt;/ref&gt;</code> tags. Some of the functionality provided by templates may also be available through CS1 parameters.</p>
+<p>To resolve errors in identifier-based citation templates, the template must be edited to correct the error. Exercise caution when editing these templates because identifier-based citation templates are often used in multiple articles.</p>
+<p>Pages with this error are automatically placed in <a href="/wiki/Category:Pages_with_citations_having_wikilinks_embedded_in_URL_titles" title="Category:Pages with citations having wikilinks embedded in URL titles">Category:Pages with citations having wikilinks embedded in URL titles</a>.<sup id="cite_ref-categories_1-29" class="reference"><a href="#cite_note-categories-1"><span>[</span>a<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Notes">Notes</span></h2>
+<div class="reflist" style="list-style-type: lower-alpha;">
+<ol class="references">
+<li id="cite_note-categories-1"><span class="mw-cite-backlink">^ <a href="#cite_ref-categories_1-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-categories_1-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-categories_1-2"><sup><i><b>c</b></i></sup></a> <a href="#cite_ref-categories_1-3"><sup><i><b>d</b></i></sup></a> <a href="#cite_ref-categories_1-4"><sup><i><b>e</b></i></sup></a> <a href="#cite_ref-categories_1-5"><sup><i><b>f</b></i></sup></a> <a href="#cite_ref-categories_1-6"><sup><i><b>g</b></i></sup></a> <a href="#cite_ref-categories_1-7"><sup><i><b>h</b></i></sup></a> <a href="#cite_ref-categories_1-8"><sup><i><b>i</b></i></sup></a> <a href="#cite_ref-categories_1-9"><sup><i><b>j</b></i></sup></a> <a href="#cite_ref-categories_1-10"><sup><i><b>k</b></i></sup></a> <a href="#cite_ref-categories_1-11"><sup><i><b>l</b></i></sup></a> <a href="#cite_ref-categories_1-12"><sup><i><b>m</b></i></sup></a> <a href="#cite_ref-categories_1-13"><sup><i><b>n</b></i></sup></a> <a href="#cite_ref-categories_1-14"><sup><i><b>o</b></i></sup></a> <a href="#cite_ref-categories_1-15"><sup><i><b>p</b></i></sup></a> <a href="#cite_ref-categories_1-16"><sup><i><b>q</b></i></sup></a> <a href="#cite_ref-categories_1-17"><sup><i><b>r</b></i></sup></a> <a href="#cite_ref-categories_1-18"><sup><i><b>s</b></i></sup></a> <a href="#cite_ref-categories_1-19"><sup><i><b>t</b></i></sup></a> <a href="#cite_ref-categories_1-20"><sup><i><b>u</b></i></sup></a> <a href="#cite_ref-categories_1-21"><sup><i><b>v</b></i></sup></a> <a href="#cite_ref-categories_1-22"><sup><i><b>w</b></i></sup></a> <a href="#cite_ref-categories_1-23"><sup><i><b>x</b></i></sup></a> <a href="#cite_ref-categories_1-24"><sup><i><b>y</b></i></sup></a> <a href="#cite_ref-categories_1-25"><sup><i><b>z</b></i></sup></a> <a href="#cite_ref-categories_1-26"><sup><i><b>aa</b></i></sup></a> <a href="#cite_ref-categories_1-27"><sup><i><b>ab</b></i></sup></a> <a href="#cite_ref-categories_1-28"><sup><i><b>ac</b></i></sup></a> <a href="#cite_ref-categories_1-29"><sup><i><b>ad</b></i></sup></a></span> <span class="reference-text">Pages in the Book talk, Category talk, Draft, Draft talk, Education Program talk, File talk, Help talk, MediaWiki talk, Module talk, Portal talk, Talk, Template talk, TimedText talk, User, User talk, and Wikipedia talk namespaces are not included in the error tracking categories.</span></li>
+</ol>
+</div>
+<p><br /></p>
+<h2><span class="mw-headline" id="References">References</span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-archive.org-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-archive.org_2-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-archive.org_2-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.archive.org">"archive.org website"</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.btitle=archive.org+website&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.archive.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-webcitation.org-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-webcitation.org_3-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-webcitation.org_3-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.webcitation.org">"webcitation.org website"</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.btitle=webcitation.org+website&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.webcitation.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.loc.gov/marc/lccn-namespace.html#syntax">"The LCCN Namespace"</a>. <i>Network Development and MARC Standards Office</i>. Library of Congress. November 2003.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AHelp%3ACS1+errors&amp;rft.atitle=The+LCCN+Namespace&amp;rft.date=November+2003&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.loc.gov%2Fmarc%2Flccn-namespace.html%23syntax&amp;rft.jtitle=Network+Development+and+MARC+Standards+Office&amp;rft.pub=Library+of+Congress&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Wikipedia_referencing" title="Template:Wikipedia referencing"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Wikipedia_referencing" title="Template talk:Wikipedia referencing"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Wikipedia_referencing&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;">Wikipedia referencing</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">General</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Biographies_of_living_persons" title="Wikipedia:Biographies of living persons">Biographies of living persons</a></li>
+<li><a href="/wiki/Wikipedia:Identifying_reliable_sources" title="Wikipedia:Identifying reliable sources">Identifying reliable sources</a></li>
+<li><a href="/wiki/Wikipedia:Offline_sources" title="Wikipedia:Offline sources">Offline sources</a></li>
+<li><a href="/wiki/Help:Overview_of_referencing_styles" title="Help:Overview of referencing styles">Overview of referencing styles</a></li>
+<li><a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">Verifiability</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Citing_sources" title="Wikipedia:Citing sources">Citing sources</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style 1</a></li>
+<li><a href="/wiki/Help:Citation_Style_2" title="Help:Citation Style 2">Citation Style 2</a></li>
+<li><a href="/wiki/Help:Citation_Style_Vancouver" title="Help:Citation Style Vancouver">Citation Style Vancouver</a></li>
+<li><a href="/wiki/Category:LSA_style_citation_templates" title="Category:LSA style citation templates">LSA</a></li>
+<li><a href="/wiki/Category:Comics_citation_templates" title="Category:Comics citation templates">Comics</a></li>
+<li><a href="/wiki/Wikipedia:Citation_templates" title="Wikipedia:Citation templates">Citation templates</a></li>
+<li><a href="/wiki/Template:Reflist" title="Template:Reflist">Reflist template</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Inline_citation" title="Wikipedia:Inline citation">Inline citations</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Embedded_citations" title="Wikipedia:Embedded citations">Embedded citations</a></li>
+<li><a href="/wiki/Help:Footnotes" title="Help:Footnotes">Footnotes</a></li>
+<li><a href="/wiki/Wikipedia:Parenthetical_referencing" title="Wikipedia:Parenthetical referencing">Parenthetical referencing</a></li>
+<li><a href="/wiki/MOS:PUNCTFOOT" title="MOS:PUNCTFOOT" class="mw-redirect">Punctuation and footnotes</a></li>
+<li><a href="/wiki/Help:Shortened_footnotes" title="Help:Shortened footnotes">Shortened footnotes</a></li>
+<li><a href="/wiki/Wikipedia:Footnote3" title="Wikipedia:Footnote3">Footnote3</a>
+<ul>
+<li>deprecated</li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Footnote1" title="Wikipedia:Footnote1">Footnote1</a>
+<ul>
+<li>obsolete</li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Footnote2" title="Wikipedia:Footnote2">Footnote2</a>
+<ul>
+<li>obsolete</li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Footnote4" title="Wikipedia:Footnote4">Footnote4</a>
+<ul>
+<li>obsolete</li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Help for beginners</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">Referencing for beginners</a></li>
+<li><a href="/wiki/Help:Referencing_for_beginners_with_citation_templates" title="Help:Referencing for beginners with citation templates">Referencing for beginners with citation templates</a></li>
+<li><a href="/wiki/Help:Referencing_for_beginners_without_using_templates" title="Help:Referencing for beginners without using templates">Referencing for beginners without using templates</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Advanced help</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Help:Cite_link_labels" title="Help:Cite link labels">Cite link labels</a></li>
+<li><a href="/wiki/Help:Citation_tools" title="Help:Citation tools">Citation tools</a></li>
+<li><a href="/wiki/Help:Cite_errors" title="Help:Cite errors">Cite errors</a></li>
+<li><a href="/wiki/Help:Cite_messages" title="Help:Cite messages">Cite messages</a></li>
+<li><a href="/wiki/Help:Converting_between_references_formats" title="Help:Converting between references formats">Converting between references formats</a></li>
+<li><a href="/wiki/Help:Reference_display_customization" title="Help:Reference display customization">Reference display customization</a></li>
+<li><a href="/wiki/Help:References_and_page_numbers" title="Help:References and page numbers">References and page numbers</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Help templates</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li>{{<a href="/wiki/Template:Edit_refs" title="Template:Edit refs">Edit refs</a>}}</li>
+<li>{{<a href="/wiki/Template:Reflist_newuser" title="Template:Reflist newuser">Reflist newuser</a>}}</li>
+<li>{{<a href="/wiki/Template:Refref" title="Template:Refref">Refref</a>}}</li>
+<li>{{<a href="/wiki/Template:Refref2" title="Template:Refref2">Refref2</a>}}</li>
+<li>{{<a href="/wiki/Template:Refstart" title="Template:Refstart">Refstart</a>}}</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Help_navigation" title="Template:Help navigation"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Help_navigation" title="Template talk:Help navigation"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Help_navigation&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;"><a href="/wiki/Help:Contents/Directory" title="Help:Contents/Directory">Wikipedia help pages</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><b><a href="/wiki/Wikipedia:Teahouse" title="Wikipedia:Teahouse">Teahouse</a> (new editor interactive help)</b></li>
+<li><b><a href="/wiki/Wikipedia:Help_desk" title="Wikipedia:Help desk">Help desk</a> (interactive <abbr title="questions and answers">Q &amp; A</abbr>)</b></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About<br />
+Wikipedia</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Five_pillars" title="Wikipedia:Five pillars">Principles</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Wikipedia_in_brief" title="Wikipedia:Wikipedia in brief">Wikipedia brief</a></li>
+<li><a href="/wiki/Wikipedia:Policies_and_guidelines" title="Wikipedia:Policies and guidelines">Policies &amp; guidelines</a></li>
+<li><a href="/wiki/Wikipedia:What_Wikipedia_is_not" title="Wikipedia:What Wikipedia is not">What Wikipedia is not</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimer</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Advice_for_parents" title="Wikipedia:Advice for parents">Parental advice</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Requests" title="Wikipedia:Requests">Making requests</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Questions" title="Wikipedia:Questions">Where to ask questions</a></li>
+<li><a href="/wiki/Wikipedia:Contact_us" title="Wikipedia:Contact us">Contact Wikipedia directly</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Who_writes_Wikipedia" title="Wikipedia:Who writes Wikipedia">Who writes Wikipedia</a></li>
+<li><a href="/wiki/Wikipedia:Why_create_an_account%3F" title="Wikipedia:Why create an account?">Why create an account</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Welcoming_committee/Welcome_to_Wikipedia" title="Wikipedia:Welcoming committee/Welcome to Wikipedia">About<br />
+contributing</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Plain_and_simple" title="Wikipedia:Plain and simple">A plain &amp; simple overview</a></li>
+<li><a href="/wiki/Wikipedia:A_Primer_for_newcomers" title="Wikipedia:A Primer for newcomers">A primer for newcomers</a>
+<ul>
+<li><a href="/wiki/Wikipedia:New_contributors%27_help_page" title="Wikipedia:New contributors' help page">Newcomers help</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Guidance_for_younger_editors" title="Wikipedia:Guidance for younger editors">Advice for young editors</a></li>
+<li><a href="/wiki/Wikipedia:Avoiding_common_mistakes" title="Wikipedia:Avoiding common mistakes">Avoiding common mistakes</a></li>
+<li><a href="/wiki/Wikipedia:Contributing_to_Wikipedia" title="Wikipedia:Contributing to Wikipedia">Contributing to Wikipedia</a>
+<ul>
+<li><a href="/wiki/Wikipedia:How_to_help" title="Wikipedia:How to help">How to help</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Etiquette" title="Wikipedia:Etiquette">Etiquette</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Expectations_and_norms_of_the_Wikipedia_community" title="Wikipedia:Expectations and norms of the Wikipedia community">Community expectations</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Learning_the_ropes" title="Wikipedia:Learning the ropes">Learning the ropes</a></li>
+<li><a href="/wiki/Wikipedia:Simplified_Manual_of_Style" title="Wikipedia:Simplified Manual of Style">Simplified Manual of Style</a></li>
+<li><a href="/wiki/Wikipedia:Simplified_ruleset" title="Wikipedia:Simplified ruleset">Simplified rule-set</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Ignore_all_rules" title="Wikipedia:Ignore all rules">Ignore all rules</a></li>
+<li><a href="/wiki/Wikipedia:The_rules_are_principles" title="Wikipedia:The rules are principles">The rules are principles</a></li>
+<li><a href="/wiki/Wikipedia:Reasonability_Rule" title="Wikipedia:Reasonability Rule">Reason-ability rule</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Tip_of_the_day" title="Wikipedia:Tip of the day">Tip of the day</a></li>
+<li><a href="/wiki/Wikipedia:Your_first_article" title="Wikipedia:Your first article">Your first article</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Article_wizard" title="Wikipedia:Article wizard">Article wizard</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Vandalism" title="Wikipedia:Vandalism">Vandalism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Introduction" title="Wikipedia:Introduction">Introductions</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Introduction_2" title="Wikipedia:Introduction 2">Editing</a></li>
+<li><a href="/wiki/Wikipedia:Introduction_3" title="Wikipedia:Introduction 3">Exploring</a></li>
+<li><a href="/wiki/Help:Introduction_to_uploading_images/1" title="Help:Introduction to uploading images/1">Images</a></li>
+<li><a href="/wiki/Help:Introduction_to_the_Manual_of_Style" title="Help:Introduction to the Manual of Style">Manual of Style</a></li>
+<li><a href="/wiki/Wikipedia:Media_help" title="Wikipedia:Media help">Media</a></li>
+<li><a href="/wiki/Help:Introduction_to_navigating_Wikipedia/1" title="Help:Introduction to navigating Wikipedia/1">Navigating</a></li>
+<li><a href="/wiki/Help:Introduction_to_policies_and_guidelines" title="Help:Introduction to policies and guidelines">Policies</a></li>
+<li><a href="/wiki/Help:Introduction_to_referencing/1" title="Help:Introduction to referencing/1">Sourcing</a></li>
+<li><a href="/wiki/Help:Table/Introduction_to_tables" title="Help:Table/Introduction to tables">Tables</a></li>
+<li><a href="/wiki/Help:Introduction_to_talk_pages" title="Help:Introduction to talk pages">Talk pages</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Tutorial" title="Wikipedia:Tutorial">Tutorials</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li>(<a href="/wiki/Wikipedia:Training/Newcomers/Welcome" title="Wikipedia:Training/Newcomers/Welcome">Newcomers</a>)</li>
+<li><a href="/wiki/Wikipedia:Tutorial/Editing" title="Wikipedia:Tutorial/Editing">Editing</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Formatting" title="Wikipedia:Tutorial/Formatting">Formatting</a></li>
+<li><a href="/wiki/Wikipedia:Graphics_tutorials" title="Wikipedia:Graphics tutorials">Graphics</a></li>
+<li><a href="/wiki/Wikipedia:Picture_tutorial" title="Wikipedia:Picture tutorial">Images</a></li>
+<li><a href="/wiki/Wikipedia:IRC/Tutorial" title="Wikipedia:IRC/Tutorial">IRC (live chat)</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Wikipedia_links" title="Wikipedia:Tutorial/Wikipedia links">Links</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Keep_in_mind" title="Wikipedia:Tutorial/Keep in mind">Policies</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Registration" title="Wikipedia:Tutorial/Registration">Registration</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Citing_sources" title="Wikipedia:Tutorial/Citing sources">Sources</a></li>
+<li><a href="/wiki/Wikipedia:Tutorial/Talk_pages" title="Wikipedia:Tutorial/Talk pages">Talk pages</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:FAQ" title="Wikipedia:FAQ">Frequently asked<br />
+questions</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li>(<a href="/wiki/Wikipedia:FAQ/Overview" title="Wikipedia:FAQ/Overview">Overview</a>)</li>
+<li><a href="/wiki/Wikipedia:FAQ/Administration" title="Wikipedia:FAQ/Administration">Administration</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Article_subjects" title="Wikipedia:FAQ/Article subjects">Article subjects</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Categories" title="Wikipedia:FAQ/Categories">Categories</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Contributing" title="Wikipedia:FAQ/Contributing">Contributing</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Copyright" title="Wikipedia:FAQ/Copyright">Copyright</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Editing" title="Wikipedia:FAQ/Editing">Editing</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Forking" title="Wikipedia:FAQ/Forking">Forking</a></li>
+<li><a href="/wiki/Wikipedia:IRC" title="Wikipedia:IRC">IRC (live chat)</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Miscellaneous" title="Wikipedia:FAQ/Miscellaneous">Miscellaneous</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Organizations" title="Wikipedia:FAQ/Organizations">Organizations</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Problems" title="Wikipedia:FAQ/Problems">Problems</a></li>
+<li><a href="/wiki/Wikipedia:Researching_with_Wikipedia" title="Wikipedia:Researching with Wikipedia">Researching</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Readers" title="Wikipedia:FAQ/Readers">Readers</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Schools" title="Wikipedia:FAQ/Schools">Schools</a></li>
+<li><a href="/wiki/Wikipedia:FAQ/Technical" title="Wikipedia:FAQ/Technical">Technical</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Help:Contents" title="Help:Contents">Help contents</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li>(<a href="/wiki/Help:Contents/Browse" title="Help:Contents/Browse">Help menu</a>)</li>
+<li><a href="/wiki/Help:Contents/Browse/Navigating_Wikipedia" title="Help:Contents/Browse/Navigating Wikipedia">Navigating</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Joining_Wikipedia" title="Help:Contents/Browse/Joining Wikipedia">Joining</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Editing_Wikipedia" title="Help:Contents/Browse/Editing Wikipedia">Editing</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Links" title="Help:Contents/Browse/Links">Links &amp; references</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Images_and_media" title="Help:Contents/Browse/Images and media">Images &amp; media</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Tracking_changes" title="Help:Contents/Browse/Tracking changes">Tracking changes</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Policies_and_guidelines" title="Help:Contents/Browse/Policies and guidelines">Policies &amp; guidelines</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Asking_questions" title="Help:Contents/Browse/Asking questions">Asking questions</a></li>
+<li><a href="/wiki/Help:Contents/Browse/The_Wikipedia_community" title="Help:Contents/Browse/The Wikipedia community">The community</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Resources_and_lists" title="Help:Contents/Browse/Resources and lists">Resources &amp; lists</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Account_settings_and_maintenance" title="Help:Contents/Browse/Account settings and maintenance">Account settings</a></li>
+<li><a href="/wiki/Help:Contents/Browse/Technical_information" title="Help:Contents/Browse/Technical information">Technical info</a></li>
+<li>(<a href="/wiki/Help:Contents/Browse/Site_map" title="Help:Contents/Browse/Site map">Site map</a>)</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Help:Wikipedia:_The_Missing_Manual" title="Help:Wikipedia: The Missing Manual">Missing manual</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Introduction" title="Help:Wikipedia: The Missing Manual/Introduction">Introduction</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Editing_for_the_First_Time" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Editing for the First Time">First edit</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Documenting_Your_Sources" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Documenting Your Sources">Sourcing</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Setting_Up_Your_Account_and_Personal_Workspace" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Setting Up Your Account and Personal Workspace">Account setup &amp; personal space</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Creating_a_New_Article" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Creating a New Article">Creating articles</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Who_Did_What:_Page_Histories_and_Reverting" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Who Did What: Page Histories and Reverting">Page history &amp; reverting</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Monitoring_Changes" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Monitoring Changes">Monitoring changes</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Editing,_Creating,_and_Maintaining_Articles/Dealing_with_Vandalism_and_Spam" title="Help:Wikipedia: The Missing Manual/Editing, Creating, and Maintaining Articles/Dealing with Vandalism and Spam">Vandalism &amp; spam</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Collaborating_with_Other_Editors/Communicating_with_Your_Fellow_Editors" title="Help:Wikipedia: The Missing Manual/Collaborating with Other Editors/Communicating with Your Fellow Editors">Communicating with others</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Collaborating_with_Other_Editors/WikiProjects_and_Other_Group_Efforts" title="Help:Wikipedia: The Missing Manual/Collaborating with Other Editors/WikiProjects and Other Group Efforts">WikiProjects</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Collaborating_with_Other_Editors/Resolving_Content_Disputes" title="Help:Wikipedia: The Missing Manual/Collaborating with Other Editors/Resolving Content Disputes">Content disputes</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Collaborating_with_Other_Editors/Handling_Incivility_and_Personal_Attacks" title="Help:Wikipedia: The Missing Manual/Collaborating with Other Editors/Handling Incivility and Personal Attacks">Incivility</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Collaborating_with_Other_Editors/Lending_Other_Editors_a_Hand" title="Help:Wikipedia: The Missing Manual/Collaborating with Other Editors/Lending Other Editors a Hand">Helping others</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Formatting_and_Illustrating_Articles/Article_Sections_and_Tables_of_Contents" title="Help:Wikipedia: The Missing Manual/Formatting and Illustrating Articles/Article Sections and Tables of Contents">Sections</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Formatting_and_Illustrating_Articles/Creating_Lists_and_Tables" title="Help:Wikipedia: The Missing Manual/Formatting and Illustrating Articles/Creating Lists and Tables">Lists &amp; tables</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Formatting_and_Illustrating_Articles/Adding_Images" title="Help:Wikipedia: The Missing Manual/Formatting and Illustrating Articles/Adding Images">Images</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Building_a_Stronger_Encyclopedia/Getting_Readers_to_the_Right_Article:_Naming,_Redirects,_and_Disambiguation" title="Help:Wikipedia: The Missing Manual/Building a Stronger Encyclopedia/Getting Readers to the Right Article: Naming, Redirects, and Disambiguation">Naming, redirects &amp; disambiguation</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Building_a_Stronger_Encyclopedia/Categorizing_Articles" title="Help:Wikipedia: The Missing Manual/Building a Stronger Encyclopedia/Categorizing Articles">Categorizing</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Building_a_Stronger_Encyclopedia/Better_Articles:_A_Systematic_Approach" title="Help:Wikipedia: The Missing Manual/Building a Stronger Encyclopedia/Better Articles: A Systematic Approach">Better articles</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Building_a_Stronger_Encyclopedia/Deleting_Existing_Articles" title="Help:Wikipedia: The Missing Manual/Building a Stronger Encyclopedia/Deleting Existing Articles">Deletions</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Customizing_Wikipedia/Customizing_with_Preferences" title="Help:Wikipedia: The Missing Manual/Customizing Wikipedia/Customizing with Preferences">Personal preferences</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Customizing_Wikipedia/Easier_Editing_with_JavaScript" title="Help:Wikipedia: The Missing Manual/Customizing Wikipedia/Easier Editing with JavaScript">JavaScript</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Appendixes/A_Tour_of_the_Wikipedia_Page" title="Help:Wikipedia: The Missing Manual/Appendixes/A Tour of the Wikipedia Page">Wikipedia Pages</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Appendixes/Reader%E2%80%99s_Guide_to_Wikipedia" title="Help:Wikipedia: The Missing Manual/Appendixes/Reader’s Guide to Wikipedia">Reader’s guide</a></li>
+<li><a href="/wiki/Help:Wikipedia:_The_Missing_Manual/Appendixes/Learning_More" title="Help:Wikipedia: The Missing Manual/Appendixes/Learning More">Learning more</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Category:Wikipedia_how-to" title="Category:Wikipedia how-to">How-to pages</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Guide_to_appealing_blocks" title="Wikipedia:Guide to appealing blocks">Appealing blocks</a></li>
+<li><a href="/wiki/Wikipedia:Guide_to_deletion" title="Wikipedia:Guide to deletion">Article deletion</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Guide_to_image_deletion" title="Wikipedia:Guide to image deletion">Image deletion</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Books" title="Help:Books">Books</a></li>
+<li><a href="/wiki/Help:Category" title="Help:Category">Categories</a></li>
+<li><a href="/wiki/Help:Citations_quick_reference" title="Help:Citations quick reference">Citations (references)</a>
+<ul>
+<li><a href="/wiki/Help:Referencing_for_beginners" title="Help:Referencing for beginners">Referencing for beginners</a></li>
+<li><a href="/wiki/Help:Citation_Style_1" title="Help:Citation Style 1">Citation Style</a></li>
+<li><a href="/wiki/Help:Cite_errors" title="Help:Cite errors">Cite errors</a></li>
+<li><a href="/wiki/Help:References_and_page_numbers" title="Help:References and page numbers">References</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Copyright" title="Help:Copyright">Copyright</a></li>
+<li><a href="/wiki/Help:Diff" title="Help:Diff">Diff</a></li>
+<li><a href="/wiki/Help:Editing" title="Help:Editing">Editing</a>
+<ul>
+<li><a href="/wiki/Help:Edit_toolbar" title="Help:Edit toolbar">Edit toolbar</a></li>
+<li><a href="/wiki/Help:Edit_conflict" title="Help:Edit conflict">Edit conflict</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Email_confirmation" title="Help:Email confirmation">Email confirmation</a></li>
+<li><a href="/wiki/Help:Find_sources" title="Help:Find sources">Find sources</a></li>
+<li><a href="/wiki/Help:Files" title="Help:Files">Files</a></li>
+<li><a href="/wiki/Help:Footnotes" title="Help:Footnotes">Footnotes</a></li>
+<li><a href="/wiki/Help:Glossary" title="Help:Glossary">Glossary</a></li>
+<li><a href="/wiki/Help:Infobox" title="Help:Infobox">Infobox</a></li>
+<li><a href="/wiki/Help:List" title="Help:List">List</a></li>
+<li><a href="/wiki/Help:Link" title="Help:Link">Linking</a>
+<ul>
+<li><a href="/wiki/Help:Link_color" title="Help:Link color">Link color</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Logging_in" title="Help:Logging in">Logging in</a></li>
+<li><a href="/wiki/Help:Magic_words_for_beginners" title="Help:Magic words for beginners">Magic words</a></li>
+<li><a href="/wiki/Help:Viewing_media" title="Help:Viewing media">Media</a></li>
+<li><a href="/wiki/Help:Merging" title="Help:Merging">Merging</a></li>
+<li><a href="/wiki/Help:Mobile_access" title="Help:Mobile access">Mobile access</a></li>
+<li><a href="/wiki/Help:Navigation" title="Help:Navigation">Navigation</a></li>
+<li><a href="/wiki/Help:Other_languages" title="Help:Other languages">Other languages</a></li>
+<li><a href="/wiki/Help:Page_name" title="Help:Page name">Page name</a></li>
+<li><a href="/wiki/Help:Redirect" title="Help:Redirect">Redirect</a></li>
+<li><a href="/wiki/Help:Rename" title="Help:Rename">Rename</a></li>
+<li><a href="/wiki/Help:Reset_password" title="Help:Reset password">Password</a></li>
+<li><a href="/wiki/Help:Reverting" title="Help:Reverting">Reverting</a></li>
+<li><a href="/wiki/Help:Searching" title="Help:Searching">Searching</a></li>
+<li><a href="/wiki/Help:Section" title="Help:Section">Section</a></li>
+<li><a href="/wiki/Help:Using_talk_pages" title="Help:Using talk pages">Talk pages</a></li>
+<li><a href="/wiki/Help:Student_help" title="Help:Student help">Students</a></li>
+<li><a href="/wiki/Help:URL" title="Help:URL">URL</a></li>
+<li><a href="/wiki/Help:User_contributions" title="Help:User contributions">User contributions</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wiki_markup" title="Wiki markup">Coding wiki<br />
+markup</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Help:Wiki_markup" title="Help:Wiki markup">Wiki markup</a>
+<ul>
+<li><a href="/wiki/Help:Cheatsheet" title="Help:Cheatsheet">Cheat-sheet</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Barchart" title="Help:Barchart">Barchart</a></li>
+<li><a href="/wiki/Help:Calculation" title="Help:Calculation">Calculations</a></li>
+<li><a href="/wiki/Help:Special_characters" title="Help:Special characters">Characters</a></li>
+<li><a href="/wiki/Wikipedia:Citation_templates" title="Wikipedia:Citation templates">Citation templates</a></li>
+<li><a href="/wiki/Help:Columns" title="Help:Columns">Columns</a></li>
+<li><a href="/wiki/Help:HTML_in_wikitext" title="Help:HTML in wikitext">HTML</a></li>
+<li><a href="/wiki/Help:Musical_symbols" title="Help:Musical symbols">Music symbols</a></li>
+<li><a href="/wiki/Help:Sound_file_markup" title="Help:Sound file markup">Sounds</a></li>
+<li><a href="/wiki/Help:Table" title="Help:Table">Tables</a>
+<ul>
+<li><a href="/wiki/Help:Table/Introduction_to_tables" title="Help:Table/Introduction to tables">Introduction to tables</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Template" title="Help:Template">Templates</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Template_documentation" title="Wikipedia:Template documentation">Documentation</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Help:Visual_file_markup" title="Help:Visual file markup">Visual files</a></li>
+<li><a href="/wiki/Wikipedia:Tools" title="Wikipedia:Tools">Wiki tools</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Reference_desk" title="Wikipedia:Reference desk">Reference desks</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Reference_desk/Computing" title="Wikipedia:Reference desk/Computing">Computing</a></li>
+<li><a href="/wiki/Wikipedia:Reference_desk/Entertainment" title="Wikipedia:Reference desk/Entertainment">Entertainment</a></li>
+<li><a href="/wiki/Wikipedia:Reference_desk/Humanities" title="Wikipedia:Reference desk/Humanities">Humanities</a></li>
+<li><a href="/wiki/Wikipedia:Reference_desk/Language" title="Wikipedia:Reference desk/Language">Language</a></li>
+<li><a href="/wiki/Wikipedia:Reference_desk/Mathematics" title="Wikipedia:Reference desk/Mathematics">Mathematics</a></li>
+<li><a href="/wiki/Wikipedia:Reference_desk/Science" title="Wikipedia:Reference desk/Science">Science</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Reference_desk/Miscellaneous" title="Wikipedia:Reference desk/Miscellaneous">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Noticeboards" title="Wikipedia:Noticeboards">Noticeboards</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Administrators%27_noticeboard" title="Wikipedia:Administrators' noticeboard">Administrators</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Administrators%27_noticeboard/Edit_warring" title="Wikipedia:Administrators' noticeboard/Edit warring">Edit warring</a></li>
+<li><a href="/wiki/Wikipedia:Administrators%27_noticeboard/Incidents" title="Wikipedia:Administrators' noticeboard/Incidents">Incidents</a></li>
+<li><a href="/wiki/Wikipedia:Administrator_intervention_against_vandalism" title="Wikipedia:Administrator intervention against vandalism">Vandalism</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Wikipedia:Conflict_of_interest/Noticeboard" title="Wikipedia:Conflict of interest/Noticeboard">Conflict of interest</a></li>
+<li><a href="/wiki/Wikipedia:Dispute_resolution_requests" title="Wikipedia:Dispute resolution requests">Disputes</a></li>
+<li><a href="/wiki/Wikipedia:Editor_assistance/Requests" title="Wikipedia:Editor assistance/Requests">Editor help</a></li>
+<li><a href="/wiki/Wikipedia:External_links/Noticeboard" title="Wikipedia:External links/Noticeboard">External links</a></li>
+<li><a href="/wiki/Wikipedia:Neutral_point_of_view/Noticeboard" title="Wikipedia:Neutral point of view/Noticeboard">Neutrality</a></li>
+<li><a href="/wiki/Wikipedia:No_original_research/Noticeboard" title="Wikipedia:No original research/Noticeboard">Original research</a></li>
+<li><a href="/wiki/Wikipedia:Reliable_sources/Noticeboard" title="Wikipedia:Reliable sources/Noticeboard">Sources</a></li>
+<li><a href="/wiki/Wikipedia:Requested_moves" title="Wikipedia:Requested moves">Page moves</a></li>
+<li><a href="/wiki/Wikipedia:Village_pump" title="Wikipedia:Village pump">Village pump</a>
+<ul>
+<li><a href="/wiki/Wikipedia:Village_pump_(policy)" title="Wikipedia:Village pump (policy)">Policy</a></li>
+<li><a href="/wiki/Wikipedia:Village_pump_(proposals)" title="Wikipedia:Village pump (proposals)">Proposals</a></li>
+<li><a href="/wiki/Wikipedia:Village_pump_(technical)" title="Wikipedia:Village pump (technical)">Technical</a></li>
+<li><a href="/wiki/Wikipedia:Village_pump_(idea_lab)" title="Wikipedia:Village pump (idea lab)">Idea lab</a></li>
+<li><a href="/wiki/Wikipedia:Village_pump_(miscellaneous)" title="Wikipedia:Village pump (miscellaneous)">Miscellaneous</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Books" title="Wikipedia:Books">Wikipedia books</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Book:Wikipedia" title="Book:Wikipedia">Wikipedia</a></li>
+<li><a href="/wiki/Book:Be_Wikipedia_Wise" title="Book:Be Wikipedia Wise">Be wise</a></li>
+<li><a href="/wiki/Book:Wikipedia_FAQ" title="Book:Wikipedia FAQ">FAQ</a></li>
+<li><a href="/wiki/Book:Wikipedia_Help_pages" title="Book:Wikipedia Help pages">Help pages</a></li>
+<li><a href="/wiki/Book:Wikipedia_Manual_of_Style" title="Book:Wikipedia Manual of Style">Manual of Style</a></li>
+<li><a href="/wiki/Book:Wikipedia:_The_Missing_Manual" title="Book:Wikipedia: The Missing Manual">Missing manual</a></li>
+<li><a href="/wiki/Book:Key_Wikipedia_Policies_%26_Guidelines" title="Book:Key Wikipedia Policies &amp; Guidelines">Policies &amp; Guidelines</a></li>
+<li><a href="/wiki/Book:Wiki_How_To" title="Book:Wiki How To">Wiki how to</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Wikipedia:Quick_directory" title="Wikipedia:Quick directory">Directories</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Wikipedia:Wikipedia_abbreviations" title="Wikipedia:Wikipedia abbreviations">Abbreviations</a></li>
+<li><a href="/wiki/Wikipedia:Department_directory" title="Wikipedia:Department directory">Departments</a></li>
+<li><a href="/wiki/Wikipedia:Editor%27s_index_to_Wikipedia" title="Wikipedia:Editor's index to Wikipedia">Editor's index</a></li>
+<li><a href="/wiki/Wikipedia:About_essay_searching" title="Wikipedia:About essay searching">Essays</a></li>
+<li><a href="/wiki/Wikipedia:FAQ_index" title="Wikipedia:FAQ index">FAQ</a></li>
+<li><a href="/wiki/Wikipedia:Glossary" title="Wikipedia:Glossary">Glossary</a></li>
+<li><a href="/wiki/Wikipedia:List_of_guidelines" title="Wikipedia:List of guidelines">Guidelines</a></li>
+<li><a href="/wiki/Help:Contents/Directory" title="Help:Contents/Directory">Help</a></li>
+<li><a href="/wiki/Wikipedia:Manual_of_Style/Contents" title="Wikipedia:Manual of Style/Contents">Manual of Style</a></li>
+<li><a href="/wiki/Wikipedia:List_of_policies" title="Wikipedia:List of policies">Policies</a></li>
+<li><a href="/wiki/Wikipedia:List_of_shortcuts" title="Wikipedia:List of shortcuts">Shortcuts</a></li>
+<li><a href="/wiki/Wikipedia:Tips" title="Wikipedia:Tips">Tips</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div><b>If you place <code>{{<a href="/wiki/Template:Help_me" title="Template:Help me">Help me</a>}}</code> <i><em>then your question</em></i> on a talk page, <a href="/wiki/Special:MyTalk" title="Special:MyTalk">preferably your talk page</a>, a volunteer will assist you there!</b></div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1091
+CPU time usage: 2.520 seconds
+Real time usage: 2.648 seconds
+Preprocessor visited node count: 9629/1000000
+Preprocessor generated node count: 28399/1500000
+Post‐expand include size: 144100/2048000 bytes
+Template argument size: 7055/2048000 bytes
+Highest expansion depth: 25/40
+Expensive parser function count: 4/500
+Lua time usage: 0.457/10.000 seconds
+Lua memory usage: 2.81 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:39053980-0!*!0!!en!4!* and timestamp 20140424180829 and revision id 605638273
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Help:CS1_errors&amp;oldid=605638273">http://en.wikipedia.org/w/index.php?title=Help:CS1_errors&amp;oldid=605638273</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Wikipedia_how-to" title="Category:Wikipedia how-to">Wikipedia how-to</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Semi-protected_project_pages" title="Category:Semi-protected project pages">Semi-protected project pages</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Help%3ACS1+errors&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Help%3ACS1+errors" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-help" class="selected"><span><a href="/wiki/Help:CS1_errors"  title="View the help page [c]" accesskey="c">Help page</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Help_talk:CS1_errors"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Help:CS1_errors" >Read</a></span></li>
+					<li id="ca-viewsource"><span><a href="/w/index.php?title=Help:CS1_errors&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Help:CS1_errors&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Help:CS1_errors" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Help:CS1_errors" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Help:CS1_errors&amp;oldid=605638273" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Help:CS1_errors&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q12015580" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Help%3ACS1+errors">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Help%3ACS1+errors&amp;oldid=605638273&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=Help:CS1_errors&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-ilo"><a href="//ilo.wikipedia.org/wiki/Tulong:Dagiti_biddut_ti_CS1" title="Tulong:Dagiti biddut ti CS1 – Iloko" lang="ilo" hreflang="ilo">Ilokano</a></li>
+			<li class="interlanguage-link interwiki-sl"><a href="//sl.wikipedia.org/wiki/Pomo%C4%8D:CS1_napake" title="Pomoč:CS1 napake – Slovenian" lang="sl" hreflang="sl">Slovenščina</a></li>
+			<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF" title="Help:引文格式1错误 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+			<li class="uls-p-lang-dummy"><a href="#"></a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q12015580#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 24 April 2014 at 18:08.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/Help:CS1_errors" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mediawiki.action.view.postEdit","mobile.desktop","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":153,"wgHostname":"mw1042"});
+}</script>
+	</body>
+</html>

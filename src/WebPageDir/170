@@ -1,0 +1,440 @@
+https://web.archive.org/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp
+2
+<html>
+	<head>
+
+<script type="text/javascript" src="/static/js/analytics.js" ></script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+
+
+
+		<title>Science Museum | Babbage | Introduction</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+		<link rel="stylesheet" href="/web/20060908054017cs_/http://www.sciencemuseum.org.uk/styles/generic.css" type="text/css"/>
+		<script language="javascript" src="/web/20060908054017js_/http://www.sciencemuseum.org.uk/commonjs/generic.js" type="text/javascript"></script>
+		<style>
+		div.credit		{
+									font-family: "arial", "verdana", "helvetica";
+									color: #000000;
+									font-size: 10px;
+									}
+		div.caption		{
+									font-family: "arial", "verdana", "helvetica";
+									color: #000000;
+									font-size: 13px;
+									font-style: italic;
+									}
+		div.blockref	{
+									padding-left: 5px;
+									padding-top: 5px;
+									padding-right: 5px;
+									padding-bottom: 5px;
+									}
+	</style>
+	</head>
+	<body>
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script> if (window.archive_analytics) { window.archive_analytics.values['server_name']="wwwb-app17.us.archive.org";}; </script>
+
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">
+//<![CDATA[
+var firstDate = 820454400000;
+var lastDate = 1420070399999;
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http:\/\/www.sciencemuseum.org.uk\/on-line\/babbage\/index.asp";
+
+var curYear = -1;
+var curMonth = -1;
+var yearCount = 18;
+var firstYear = 1996;
+var imgWidth = 475;
+var yearImgWidth = 25;
+var monthImgWidth = 2;
+var trackerVal = "none";
+var displayDay = "8";
+var displayMonth = "Sep";
+var displayYear = "2006";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+
+function showTrackers(val) {
+	if(val == trackerVal) {
+		return;
+	}
+	if(val == "inline") {
+		document.getElementById("displayYearEl").style.color = "#ec008c";
+		document.getElementById("displayMonthEl").style.color = "#ec008c";
+		document.getElementById("displayDayEl").style.color = "#ec008c";		
+	} else {
+		document.getElementById("displayYearEl").innerHTML = displayYear;
+		document.getElementById("displayYearEl").style.color = "#ff0";
+		document.getElementById("displayMonthEl").innerHTML = displayMonth;
+		document.getElementById("displayMonthEl").style.color = "#ff0";
+		document.getElementById("displayDayEl").innerHTML = displayDay;
+		document.getElementById("displayDayEl").style.color = "#ff0";
+	}
+   document.getElementById("wbMouseTrackYearImg").style.display = val;
+   document.getElementById("wbMouseTrackMonthImg").style.display = val;
+   trackerVal = val;
+}
+function getElementX2(obj) {
+	var thing = jQuery(obj);
+	if((thing == undefined) 
+			|| (typeof thing == "undefined") 
+			|| (typeof thing.offset == "undefined")) {
+		return getElementX(obj);
+	}
+	return Math.round(thing.offset().left);
+}
+function trackMouseMove(event,element) {
+
+   var eventX = getEventX(event);
+   var elementX = getElementX2(element);
+   var xOff = eventX - elementX;
+	if(xOff < 0) {
+		xOff = 0;
+	} else if(xOff > imgWidth) {
+		xOff = imgWidth;
+	}
+   var monthOff = xOff % yearImgWidth;
+
+   var year = Math.floor(xOff / yearImgWidth);
+	var yearStart = year * yearImgWidth;
+   var monthOfYear = Math.floor(monthOff / monthImgWidth);
+   if(monthOfYear > 11) {
+       monthOfYear = 11;
+   }
+   // 1 extra border pixel at the left edge of the year:
+   var month = (year * 12) + monthOfYear;
+   var day = 1;
+	if(monthOff % 2 == 1) {
+		day = 15;
+	}
+	var dateString = 
+		zeroPad(year + firstYear) + 
+		zeroPad(monthOfYear+1,2) +
+		zeroPad(day,2) + "000000";
+
+	var monthString = prettyMonths[monthOfYear];
+	document.getElementById("displayYearEl").innerHTML = year + 1996;
+	document.getElementById("displayMonthEl").innerHTML = monthString;
+	// looks too jarring when it changes..
+	//document.getElementById("displayDayEl").innerHTML = zeroPad(day,2);
+
+	var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+	document.getElementById('wm-graph-anchor').href = url;
+
+   //document.getElementById("wmtbURL").value="evX("+eventX+") elX("+elementX+") xO("+xOff+") y("+year+") m("+month+") monthOff("+monthOff+") DS("+dateString+") Moy("+monthOfYear+") ms("+monthString+")";
+   if(curYear != year) {
+       var yrOff = year * yearImgWidth;
+       document.getElementById("wbMouseTrackYearImg").style.left = yrOff + "px";
+       curYear = year;
+   }
+   if(curMonth != month) {
+       var mtOff = year + (month * monthImgWidth) + 1;
+       document.getElementById("wbMouseTrackMonthImg").style.left = mtOff + "px";
+       curMonth = month;
+   }
+}
+//]]>
+</script>
+
+<style type="text/css">body{margin-top:0!important;padding-top:0!important;min-width:800px!important;}#wm-ipp a:hover{text-decoration:underline!important;}</style>
+<div id="wm-ipp" lang="en" class="__wb_banner_div" style="display:none; position:relative;padding:0 5px;min-height:70px;min-width:800px">
+
+
+<div id="wm-ipp-inside" class="__wb_banner_div" style="position:fixed;padding:0!important;margin:0!important;width:97%;min-width:780px;border:5px solid #000;border-top:none;background-image:url(/static/images/toolbar/wm_tb_bk_trns.png);text-align:center;-moz-box-shadow:1px 1px 3px #333;-webkit-box-shadow:1px 1px 3px #333;box-shadow:1px 1px 3px #333;font-size:11px!important;font-family:'Lucida Grande','Arial',sans-serif!important;">
+   <table style="border-collapse:collapse;margin:0;padding:0;width:100%;"><tbody><tr>
+   <td style="padding:10px;vertical-align:top;min-width:110px;">
+   <a href="/web/" title="Wayback Machine home page" style="background-color:transparent;border:none;"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0"/></a>
+   </td>
+   <td style="padding:0!important;text-align:center;vertical-align:top;width:100%;">
+
+       <table style="border-collapse:collapse;margin:0 auto;padding:0;width:570px;"><tbody><tr>
+       <td style="padding:3px 0;" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb" style="margin:0!important;padding:0!important;"><input type="text" name="url" id="wmtbURL" value="http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="width:400px;font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;" onfocus="javascript:this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20060908054017" /><input type="submit" value="Go" style="font-size:11px;font-family:'Lucida Grande','Arial',sans-serif;margin-left:5px;width: inherit !important" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td style="vertical-align:bottom;padding:5px 0 0 0!important;" rowspan="2">
+           <table style="border-collapse:collapse;width:110px;color:#99a;font-family:'Helvetica','Lucida Grande','Arial',sans-serif;"><tbody>
+			
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr style="width:110px;height:16px;font-size:10px!important;">
+           	<td style="padding-right:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20060715080127/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="15 Jul 2006"><strong>JUL</strong></a>
+		                
+               </td>
+               <td id="displayMonthEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight:bold;text-transform:uppercase;width:34px;height:15px;padding-top:1px;text-align:center;" title="You are here: 5:40:17 Sep 8, 2006">SEP</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight:bold;text-transform:uppercase;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20061025061556/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="25 Oct 2006"><strong>OCT</strong></a>
+		                
+               </td>
+           </tr>
+
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr>
+               <td style="padding-right:9px;white-space:nowrap;overflow:visible;text-align:right!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="/web/20060831155028/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" title="15:50:28 Aug 31, 2006" style="background-color:transparent;border:none;"><img src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" width="14" height="16" border="0" /></a>
+		                
+               </td>
+               <td id="displayDayEl" style="background:#000;color:#ff0;width:34px;height:24px;padding:2px 0 0 0;text-align:center;font-size:24px;font-weight: bold;" title="You are here: 5:40:17 Sep 8, 2006">8</td>
+				<td style="padding-left:9px;white-space:nowrap;overflow:visible;text-align:left!important;vertical-align:middle!important;" nowrap="nowrap">
+               
+		                <a href="/web/20060924212546/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" title="21:25:46 Sep 24, 2006" style="background-color:transparent;border:none;"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0"/></a>
+		                
+			    </td>
+           </tr>
+
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr style="width:110px;height:13px;font-size:9px!important;">
+				<td style="padding-right:9px;font-size:11px!important;font-weight: bold;text-align:right;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20050830073907/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="30 Aug 2005"><strong>2005</strong></a>
+		                
+               </td>
+               <td id="displayYearEl" style="background:#000;color:#ff0;font-size:11px!important;font-weight: bold;padding-top:1px;width:34px;height:13px;text-align:center;" title="You are here: 5:40:17 Sep 8, 2006">2006</td>
+				<td style="padding-left:9px;font-size:11px!important;font-weight: bold;white-space:nowrap;overflow:visible;" nowrap="nowrap">
+               
+		                <a href="/web/20070929083203/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="text-decoration:none;color:#33f;font-weight:bold;background-color:transparent;border:none;" title="29 Sep 2007"><strong>2007</strong></a>
+		                
+				</td>
+           </tr>
+           </tbody></table>
+       </td>
+
+       </tr>
+       <tr>
+       <td style="vertical-align:middle;padding:0!important;">
+           <a href="/web/20060908054017*/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp" style="color:#33f;font-size:11px;font-weight:bold;background-color:transparent;border:none;" title="See a list of every capture for this URL"><strong>122 captures</strong></a>
+           <div class="__wb_banner_div" style="margin:0!important;padding:0!important;color:#666;font-size:9px;padding-top:2px!important;white-space:nowrap;" title="Timespan for captures of this URL">21 Apr 03 - 6 Dec 13</div>
+       </td>
+       <td style="padding:0!important;">
+       <a style="position:relative; white-space:nowrap; width:475px;height:27px;" href="" id="wm-graph-anchor">
+       <div class="__wb_banner_div" id="wm-ipp-sparkline" style="position:relative; white-space:nowrap; width:475px;height:27px;background-color:#fff;cursor:pointer;border-right:1px solid #ccc;" title="Explore captures for this URL">
+			<img id="sparklineImgId" style="position:absolute; z-index:9012; top:0px; left:0px;"
+				onmouseover="showTrackers('inline');" 
+				onmouseout="showTrackers('none');"
+				onmousemove="trackMouseMove(event,this)"
+				alt="sparklines"
+				width="475"
+				height="27"
+				border="0"
+				src="/web/jsp/graph.jsp?graphdata=475_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000101010101_2004:-1:000101020102_2005:-1:200121350022_2006:8:140101342133_2007:-1:510011001001_2008:-1:110000000001_2009:-1:010101101100_2010:-1:002311000000_2011:-1:101223022221_2012:-1:d00010101100_2013:-1:201020001101_2014:-1:000000000000"></img>
+			<img id="wbMouseTrackYearImg" 
+				style="display:none; position:absolute; z-index:9010;"
+				width="25" 
+				height="27"
+				border="0"
+				src="/static/images/toolbar/transp-yellow-pixel.png"></img>
+			<img id="wbMouseTrackMonthImg"
+				style="display:none; position:absolute; z-index:9011; " 
+				width="2"
+				height="27" 
+				border="0"
+				src="/static/images/toolbar/transp-red-pixel.png"></img>
+       </div>
+		</a>
+
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td style="text-align:right;padding:5px;width:65px;font-size:11px!important;">
+       <a href="javascript:;" onclick="document.getElementById('wm-ipp').style.display='none';" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_close.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;margin-bottom:23px;background-color:transparent;border:none;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="display:block;padding-right:18px;background:url(/static/images/toolbar/wm_tb_help.png) no-repeat 100% 0;color:#33f;font-family:'Lucida Grande','Arial',sans-serif;background-color:transparent;border:none;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+
+</div>
+</div>
+<script type="text/javascript">
+ var wmDisclaimBanner = document.getElementById("wm-ipp");
+ if(wmDisclaimBanner != null) {
+   disclaimElement(wmDisclaimBanner);
+ }
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+		<a name="top"></a>
+		
+
+<div align="center">
+
+	<!-- skip navigation link for alternative browsers -->
+
+	<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp#startcontent"><img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/images/shared/spacer.gif" height="1" width="1" border="0" alt="Skip navigation"></a><br>
+
+	<!-- header graphics -->
+
+	<table border="0" cellpadding="0" cellspacing="0" width="640" id="container">
+	<tr>
+		<td align="left"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/index.asp" ><img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/navigation/top_nav/science_museum.gif" width="77" height="45" border="0" alt="Science Museum homepage"></a><img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/images/home/welcome_ttl.gif" width="181" height="45" alt="welcome to our site"></td>
+		<td align="right" class="topsearchbox" valign="bottom">
+
+		
+
+			<img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/images/shared/spacer.gif" width="53" height="45" border="0" alt="Spacer">
+
+		
+
+
+		</td>
+
+
+
+	</tr>
+	</table>
+
+	<!-- start top navigation -->
+
+	<table border="0" cellspacing="1" cellpadding="2" width="640">
+	<tr>
+		  <td align="center" class="topNav" width="51"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/search/maincontent.asp" >search</a></td>
+		  <td align="center" class="topNav" width="51"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/visitors/index.asp" >visiting</a></td>
+		  <td align="center" class="topNav" width="106"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/index.asp" >exhibitions online</a></td>
+		  <td align="center" class="topNav" width="132"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/collections/index.asp" >collections &amp; research</a></td>
+		  <td align="center" class="topNav" width="83"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/education/index.asp" >learn &amp; teach</a></td>
+		  <td align="center" class="topNav" width="118"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/corporate_commercial/index.asp" >commercial &amp; press</a></td>
+		  <td align="center" class="topNav" width="55"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/lets_talk/index.asp" >let's talk</a></td>
+		  <td align="center" class="topNav" width="43"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/shop/index.asp">shop</a></td>
+	</tr>
+	</table>
+
+	<!-- end top navigation -->
+
+	<!--start options link-->
+
+	<table border="0" cellspacing="0" cellpadding="0" width="640">
+	<tr>
+	<td align="right" class="options" height="15">
+
+		<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp?showinfo=yes">options &gt;</a>
+
+	</td>
+
+	</tr>
+
+	</table>
+
+<!--end options link-->
+
+<!--start information display-->
+
+
+
+		<Script Language="Javascript" type="text/javascript">CheckTypeSize();</Script>
+
+
+		<table border="0" cellspacing="0" cellpadding="0" width="640">
+			<tr>
+				<td align="left" valign="top" width="157">
+					<table border="0" cellspacing="0" cellpadding="0" width="157">
+						<tr>
+							<td class="sideNav" width="16"><img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/images/shared/side_arrow.gif" width="16" height="19" alt="&gt;"/></td>
+							<td class="sideNavHead" height="19" width="141"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/collections/exhiblets"><strong>exhiblets</strong></a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp">introduction</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page1.asp">the tables crisis</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page2.asp">charles babbage</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page3.asp">the difference engine</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page4.asp">difference engine no. 2</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page5.asp">analytical engine</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page6.asp">object list</a></td>
+						</tr>
+						<tr>
+							<td class="sideNav"> </td>
+							<td class="sideNav"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page7.asp">references</a></td>
+						</tr>
+					</table>
+				</td>
+				<td width="13"><img src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/images/shared/spacer.gif" height="1" width="13" alt=""/></td>
+				<td align="left" valign="top" width="470">
+					<a name="startcontent"></a>
+					<table width="470" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td class="headBg" height="19"><h1>babbage</h1></td>
+						</tr>
+					</table>
+					<br/>
+					<div class="bodyText">
+						<h3>Introduction</h3>
+						<p>Charles Babbage (1791-1871) is widely regarded as the first computer pioneer and the great ancestral figure in the history of computing. Babbage excelled in a variety of scientific and philosophical subjects though his present-day reputation rests largely on the invention and design of his vast mechanical calculating engines. His Analytical Engine conceived in 1834 is one of the startling intellectual feats of the nineteenth century. The design of this machine possesses all the essential logical features of the modern general purpose computer. However, there is no direct line of descent from Babbage’s work to the modern electronic computer invented by the pioneers of the electronic age in the late 1930s and early 1940s largely in ignorance of the detail of Babbage's work.</p>
+						<p>Babbage failed to build a complete machine. The most widely accepted reason for this failure is that Victorian mechanical engineering were not sufficiently developed to produce parts with sufficient precision.</p>
+						<p>In 1985 the Science Museum launched a project to build a complete Babbage Engine to original designs to explore the practical viability of Babbage’s schemes. The Engine chosen was Babbage’s Difference Engine No. 2 designed between 1847 and 1849. The calculating section of the Engine, which weighs 2.6 tonnes and consists of 4,000 separate parts, was completed and working in November 1991, one month before the 200th anniversary of Babbage's birth.</p>
+						<div align="center"><table border="0" cellspacing="5" width="75%"><tr valign="top"><td align="right">
+										<a href="javascript:OpenWindow(675,550,'PopUp0.asp')"><img border="0" src="/web/20060908054017im_/http://www.sciencemuseum.org.uk/on-line/babbage/images/smallttrialde2.jpe" alt="Portion of the calculating mechanism of Difference Engine 2. Made by the Science Museum to verify the design of the basic adding element. "/></a><div class="credit">[<a href="javascript:OpenWindow(675,550,'PopUp0.asp')">enlarge</a>]</div>
+									</td><td align="left"><div class="caption">Portion of the calculating mechanism of Difference Engine 2. Made by the Science Museum to verify the design of the basic adding element. </div><div class="credit">© Science &amp; Society Picture Library</div></td></tr></table></div>
+						<p>The Science Museum has a special relationship with Babbage which predates the construction of the Difference Engine No. 2 . Its collections contain the seminal objects that are the material legacy of Babbage’s endeavours, and its archives hold the most comprehensive set of original manuscripts and design drawings. </p>
+						<table border="0" width="100%"><tr valign="top">
+								<td align="left" width="50%"> 
+
+									</td>
+								<td align="right" width="50%"> 
+
+									<div class="bodyText"><b><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/page1.asp"><i>next &gt;&gt;</i><br/>The Tables Crisis</a></b></div>
+								</td>
+							</tr></table>
+					</div>
+				</td>
+			</tr>
+		</table>
+			<br>
+	<table border="0" cellpadding="0" cellspacing="0" width="640">
+	<tr>
+		<td align="right" class="footer"><a href="/web/20060908054017/http://www.sciencemuseum.org.uk/on-line/babbage/index.asp#top">Back to top &gt;</a></td>
+	</tr>
+	<tr>
+		<td align="center" class="footer"><br>
+			<a href="/web/20060908054017/http://www.nmsi.ac.uk/" target="_blank">NMSI</a>  |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/lets_talk/comments.asp">Contact Us</a>  |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/home/donate.asp">Support Us</a>  |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/press">Press Office</a> |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/about_the_site/index.asp">About the Museum</a> |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/copyright/copyright.asp">Copyright</a> |
+			<a href="/web/20060908054017/http://www.nmsi.ac.uk/nmsipages/enquiries.asp">Enquiries / Freedom of Information</a> |
+			<a href="/web/20060908054017/http://www.sciencemuseum.org.uk/search/sitemap.asp">Site Map</a>
+			<br>
+</td>
+	</tr>
+	</table>
+
+</div>
+
+	</body>
+</html>
+
+
+
+
+<!--
+     FILE ARCHIVED ON 5:40:17 Sep 8, 2006 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:32:11 Apr 24, 2014.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->

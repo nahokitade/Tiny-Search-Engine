@@ -1,0 +1,1535 @@
+http://csta.acm.org/
+2
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="Fog Creek CityDesk 2.0.27" />
+<meta name="citydesk" content="C6727E80/6" />
+<title>CSTA</title>
+	<link rel="stylesheet" type="text/css" href="StyleSheets/basic.css" title="default" media="screen" />
+
+<style type="text/css">
+#index {color: #613071 !important;}
+</style>
+
+<!--BEGIN INSERTED FOR MAP -->
+<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+<!--END INSERTED FOR MAP -->
+
+</head>
+
+<div id="container">
+<!-- BEGIN Header graphics  -->
+<div id="header">
+<table align="center" cellspacing="0" cellpadding="0" width="762" border="0">
+	<tbody>
+	<tr><td width="481"><a href="index.html"><img height="126" src="Images/CSTA_logo.jpg" width="481" border="0" /></a></td>
+		<td><table align="center" cellspacing="0" cellpadding="0" width="281" border="0">
+			<tbody>
+				<tr><td colspan="2" background="Images/header_top_rt.jpg">
+					<table align="center" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td colspan="2"><img height="7" src="Images/clear.gif" width="281" border="0" /></td>
+						</td>
+						<tr>
+							<td><img height="38" src="Images/clear.gif" width="70" border="0" /></td><td align="left">			
+		<form action="http://gsa2.acm.org/search" name="searchbox" method="get">
+		
+		  		<input type="hidden" name="hl" value="en" />
+		  		<input type="hidden" name="ie" value="ISO-8859-1" />
+		  		<input type="hidden" name="site" value="csta_collection" />
+		  		<input type="hidden" name="client" value="csta_frontend" />
+		  		<input type="hidden" name="output" value="xml_no_dtd" />
+			    <input type="hidden" name="proxystylesheet" value="csta_frontend" />
+				<input class="BODY_FORM_INPUT" type="Text" name="q" size="15" maxlength="256" value="">
+				<input class="BODY_FORM_INPUT" type="Submit" name="Search" value="Search">
+		</form>
+
+			  <!--value="find it" -->
+
+		
+		
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2"><a href="About/sub/ContactUs.html"><img height="16" src="Images/clear.gif" width="281" border="0" /></a></td>
+						</tr>
+					</table>		
+					</td></tr>
+					<!--below is code for "Join Now it's Free" image link -->
+				<tr><td><img height="26" src="Images/newsletter_placeholder.jpg" width="108" border="0" /></td><td><a href="Membership/MembershipInformation.html"><img height="26" src="Images/button_joinnow.jpg" width="173" border="0" /></a></td></tr>
+  				<tr><td colspan="2"><img src="Images/header_bottom_rt.jpg" height="39" width="281" border="0"></td></tr>	
+  			</tbody>
+			</table></td></tr>
+  	<tr><td colspan="2"><img height="8" src="Images/header_bottom.jpg" width="762" border="0" /></td></tr>
+</tbody>
+</table>
+<link rel="alternate" type="application/rss+xml" title="CSTAAlerts.xml" href="/home/wroblewski//acminfo/1/csta/csta/rss/" /> 
+</div>
+<!-- END Header graphics  -->
+
+<div id="articleBody">	
+<table align="center" cellspacing="0" cellpadding="0" width="762" border="0">
+	<tbody>
+<tr>
+		<td valign="top" width="180" bgcolor="#F1F2ED" rowspan="2">
+<!-- BEGIN Left Navigation  -->
+						<div id="LeftNav">
+			
+
+
+
+<table cellspacing="0" cellpadding="0" border="0">
+				<tbody>
+				<tr>
+					<td bgcolor="#FAFAF8">
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td align="left" bgcolor="#F1F2ED"><a href="index.html"><strong><font color="#613071">Home</font></strong></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		
+
+
+				   		<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="AboutCSTA"><strong><font color="#613071">About CSTA</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Administrator Impact Award" href="About/sub/AdministratorImpactAward.html"><font color="#005D93">Administrator Impact Award</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSTA Chapters" href="About/sub/CSTAChapters.html"><font color="#005D93">CSTA Chapters</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Affiliates" href="About/sub/Affiliates.html"><font color="#005D93">CSTA International Affiliates</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSTA Governance" href="About/sub/CSTAGovernance.html"><font color="#005D93">CSTA Governance</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Grant Support Requests" href="About/sub/GrantSupportRequests.html"><font color="#005D93">Grant Support Requests</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="MakingADifference" href="About/sub/MakingADifference.html"><font color="#005D93">Members Making a Difference</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Volunteers" href="About/sub/Volunteers.html"><font color="#005D93">Volunteers</a></font></td>
+				   				</tr>
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="ContactUs" href="About/sub/ContactUs.html"><font color="#005D93">Contact Us</a></font></td>
+				   				</tr>
+
+
+
+
+						</tbody>
+						</table>
+
+
+
+
+
+
+
+
+
+
+
+
+				
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="Advocacy_Outreach"><strong><font color="#613071">Advocacy/Outreach</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSEdWeek" href="Advocacy_Outreach/sub/CSEdWeek.html"><font color="#005D93">CSEdWeek</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Leadership Cohort" href="Advocacy_Outreach/sub/LeadershipCohort.html"><font color="#005D93">Leadership Cohort</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="AdvocacyTools" href="Advocacy_Outreach/sub/AdvocacyTools.html"><font color="#005D93">Advocacy Tools</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSTAPresentations" href="Advocacy_Outreach/sub/CSTAPresentations.html"><font color="#005D93">CSTA Presentations</a></font></td>
+				   				</tr>						
+
+
+
+
+						</tbody>
+						</table>
+
+
+
+
+
+
+
+
+				
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="MembershipInformation"><strong><font color="#613071">Membership Information</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="AboutOurMembers" href="Membership/sub/AboutOurMembers.html"><font color="#005D93">About Our Members</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="MyMemberInfo" href="Membership/sub/MyMemberInfo.html"><font color="#005D93"><font color="#800080">My Member Info</font></a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="IndividualMembership" href="Membership/sub/IndividualMembership.html"><font color="#005D93">Individual Membership</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="InstitutionalMembership" href="Membership/sub/InstitutionalMembership.html"><font color="#005D93">Institutional Membership</a></font></td>
+				   				</tr>						
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="ManageYourCSTAAccount" href="Membership/sub/ManageYourCSTAAccount.html"><font color="#005D93">Manage Your CSTA Account</a></font></td>
+				   				</tr>						
+
+
+
+
+						</tbody>
+						</table>
+
+
+
+
+
+
+
+
+<!--
+
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />
+						
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="CSTABlog" href="http://blog.acm.org/csta" target="_blank"><strong><font color="#613071">CSTA Advocate Blog</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+-->
+			   			<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />						
+						
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="WebRepository" href="WebRepository/WebRepository.html"><strong><font color="#613071">CSTA Source Web Repository</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>						
+
+
+
+
+
+
+
+
+						</tbody>
+						</table>
+
+			
+
+
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />	
+
+
+
+
+
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+								<td><a id="Communications"><strong><font color="#613071">Get Connected!</strong></font></a><br>
+<img height="1" src="Images/clear.gif" width="18" /><br>
+<img height="1" src="Images/clear.gif" width="18" />
+<a id="CSTAAdvocateBlog" href="http://blog.acm.org/csta/" target="BLANK"><font color="#005D93">Read our Advocate <strong>Blog</strong></font></a><br>
+<img height="1" src="Images/clear.gif" width="18" /></td>
+				
+							</tr>
+
+							
+				   		</tbody>
+				   		</table>
+				   		<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>
+
+
+	
+						<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSTAVoice" href="Communications/sub/CSTAVoice.html"><font color="#005D93">Download the <strong>CSTA Voice</strong></a></font></td>
+						</tr>
+
+
+	
+						<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Reports" href="Communications/sub/Reports.html"><font color="#005D93">Download our key <strong>Reports</strong></a></font></td>
+						</tr>
+
+
+	
+						<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Podcasts" href="Communications/sub/Podcasts.html"><font color="#005D93">Listen to our <strong>Podcasts</strong></a></font></td>
+						</tr>
+
+
+	
+						<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Videos" href="Communications/sub/Videos.html"><font color="#005D93">Watch our PD <strong>Videos</strong></a></font></td>
+						</tr>
+
+
+
+						
+	
+
+
+
+				   			<tr>
+	<td width="30"><img height="1" src="Images/clear.gif" width="30" /></td>
+<td><a id="CSTAFacebook" href="http://www.facebook.com/pages/Computer-Science-Teachers-Association/54105645655" target="BLANK"><font color="#005D93">Join us on <strong>Facebook</strong></font></a><br>
+<img height="1" src="Images/clear.gif" width="18" /><br>
+<img height="1" src="Images/clear.gif" width="18" /></td>
+							</tr>
+<tr>
+<td width="30"><img height="1" src="Images/clear.gif" width="30" /></td>
+<td><a id="CSTATwitter" href="http://twitter.com/csteachersa" target="BLANK"><font color="#005D93">Follow us on <strong>Twitter</strong></font></a><br>
+<img height="1" src="Images/clear.gif" width="18" /><br>
+<img height="1" src="Images/clear.gif" width="18" /></td>
+							</tr>
+							
+							
+							</tbody>
+						</table>
+				   		
+	
+			
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />	
+
+
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="Curriculum"><strong><font color="#613071">Curriculum</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>						
+
+
+
+
+
+
+				   			<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="K12Standards" href="Curriculum/sub/K12Standards.html"><font color="#005D93">CSTA K-12 Standards</a></font></td>
+					   		</tr>
+
+
+
+
+
+				   			<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSK8" href="Curriculum/sub/CSK8.html"><font color="#005D93">Computer Science in K-8</a></font></td>
+					   		</tr>
+
+
+
+
+
+				   			<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CompThinking" href="Curriculum/sub/CompThinking.html"><font color="#005D93">Computational Thinking</a></font></td>
+					   		</tr>
+
+
+
+
+
+				   			<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CurrResources" href="Curriculum/sub/CurrResources.html"><font color="#005D93">Curriculum Resources</a></font></td>
+					   		</tr>
+
+
+
+
+
+						</tbody>
+						</table>
+
+
+
+
+
+			
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />	
+						
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="CSIT10Presentations"><strong><font color="#613071">Professional Development</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+						  	<tbody>					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<tr>
+		<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+		<td width="150" bgcolor="#F1F2ED"><a id="CSTAConference" href="ProfessionalDevelopment/sub/CSTAConference.html"><font color="#005D93">CSTA Annual Conference</a></font></td>
+	</tr>
+
+
+
+
+
+
+
+	<tr>
+		<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+		<td width="150" bgcolor="#F1F2ED"><a id="CSPrinciplesSummit" href="ProfessionalDevelopment/sub/CSPrinciplesSummit.html"><font color="#005D93">CSPrinciples Summit</a></font></td>
+	</tr>
+
+
+
+
+
+
+
+	<tr>
+		<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+		<td width="150" bgcolor="#F1F2ED"><a id="JobBoard" href="ProfessionalDevelopment/sub/JobBoard.html"><font color="#005D93">Job Board</a></font></td>
+	</tr>
+
+
+
+
+
+
+
+	<tr>
+		<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+		<td width="150" bgcolor="#F1F2ED"><a id="Teacher Workshops" href="ProfessionalDevelopment/sub/TeacherWorkshops.html"><font color="#005D93">Teacher Workshops</a></font></td>
+	</tr>
+
+
+
+
+
+
+	
+							</tbody>
+						</table>						
+
+
+
+
+
+						
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />				
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="Research"><strong><font color="#613071">Research</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+						  	<tbody>					
+
+
+
+
+
+
+
+
+
+							   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="HighSchoolSurveys" href="Research/sub/HighSchoolSurveys.html"><font color="#005D93">High School Surveys</a></font></td>
+							   	</tr>
+							   	
+
+
+
+
+
+
+
+
+
+
+							   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="KeyResearch" href="Research/sub/KeyResearch.html"><font color="#005D93">Key Research</a></font></td>
+							   	</tr>
+							   	
+
+
+
+
+
+
+
+
+
+
+							   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="MajorResearch" href="Research/sub/MajorResearch.html"><font color="#005D93">Major Research Reports</a></font></td>
+							   	</tr>
+							   	
+
+
+
+
+
+
+
+
+
+
+							</tbody>
+						</table>
+
+			
+									<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />				
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="Resources"><strong><font color="#613071">Resources</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				  		<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>	
+
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="Brochures, Posters, Videos" href="Resources/sub/BrochuresPostersVideos.html"><font color="#005D93"><div>Brochures, Posters, Videos</div></a></font></td>
+						   	</tr>
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CSEventsforKids" href="Resources/sub/CSEventsforKids.html"><font color="#005D93">CS Events for Kids</a></font></td>
+						   	</tr>
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="VirtualBinders" href="Resources/sub/VirtualBinders.html"><font color="#005D93">K-12 Virtual Binders</a></font></td>
+						   	</tr>
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="HighlightedResources" href="Resources/sub/HighlightedResources.html"><font color="#005D93">Highlighted Resources</a></font></td>
+						   	</tr>
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="OtherRepositories" href="Resources/sub/OtherRepositories.html"><font color="#005D93">Other Repositories</a></font></td>
+						   	</tr>
+
+
+
+
+						</tbody>
+						</table>
+
+						
+
+
+
+
+
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />					
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="Sponsoring Companies"><strong><font color="#613071">Sponsorship</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				  		<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>	
+
+
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CorporateSponsorship" href="Sponsorship/sub/CorporateSponsorship.html"><font color="#005D93">Corporate Sponsorship</a></font></td>
+						   	</tr>
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="MeetOurSponsors" href="Sponsorship/sub/MeetOurSponsors.html"><font color="#005D93">Meet Our Sponsors</a></font></td>
+						   	</tr>
+
+
+
+						   	<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="FeaturedAnnouncements" href="Sponsorship/sub/FeaturedAnnouncements.html"><font color="#005D93">Featured Announcements</a></font></td>
+						   	</tr>
+
+
+
+						</tbody>
+						</table>
+
+
+
+
+
+
+
+
+						<img height="7" src="Images/left_nav_divider.gif" width="180" /><br />		
+						
+
+						<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   		<tbody>
+				   			<tr>
+				   				<td width="15"><img height="1" src="Images/clear.gif" width="15" /></td>
+				   				<td><a id="ComputerScienceTeacherCertification"><strong><font color="#613071">Teacher Certification</strong></font></a></td></tr>
+				   		</tbody>
+				   		</table>
+				   		
+						<table cellspacing="0" cellpadding="2" width="180" border="0">
+				   		<tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="CertificationResources" href="ComputerScienceTeacherCertification/sub/CertificationResources.html"><font color="#005D93">Certification Resources</a></font></td>
+				   				</tr>
+
+
+
+
+
+								<tr>
+				   					<td width="30" bgcolor="#F1F2ED"><img height="1" src="Images/clear.gif" width="30" /></td>
+				   					<td width="150" bgcolor="#F1F2ED"><a id="StateRequirements" href="ComputerScienceTeacherCertification/sub/StateRequirements.html"><font color="#005D93">U.S. State Requirements</a></font></td>
+				   				</tr>
+
+
+
+
+
+						</tbody>
+						</table>
+
+	
+	
+					
+
+
+
+						</td></tr>
+					</tbody>
+					</table>
+					
+<table cellspacing="0" cellpadding="0" width="180" border="0">
+				   	<tbody>
+				   		<tr>
+				   			<td bgcolor="#F1F2ED"><br /><p><br /></p><p><br /></p><p></p></td></tr>
+				   		</tbody>
+				   		</table>
+</div>
+
+
+
+
+<!-- END left navigation  -->
+		</td>
+		<td><img height="1" src="Images/clear.gif" width="15" /></td>
+		<td valign="top">
+			<table align="center" cellspacing="0" cellpadding="0" width="559" border="0">
+				<tbody>
+				<tr>
+<!-- BEGIN Cookie Trail Navigation  -->
+					<td><div id="pagetitle"></div>
+<!-- END Cookie Trail Navigation  -->
+						<table align="center" cellspacing="0" cellpadding="0" border="0">
+							<tbody>
+								<tr><td><img height="7" src="Images/clear.gif" width="559" /></td></tr>
+								<!--<tr><td bgcolor="#9B928D"><img height="1" src="Images/clear.gif" width="559" /></td></tr>-->
+							</tbody>
+						</table>
+					</td></tr>
+
+				<tr>
+					<td>
+						<table align="center" cellspacing="0" cellpadding="0" width="100%" border="0">
+							<tbody>
+								<tr>
+								<td valign="top">
+										
+									<img height="10" src="Images/clear.gif" width="360" />
+										<table align="center" cellspacing="0" cellpadding="0" border="0" width="360">
+											<tbody>
+<!-- BEGIN main content area  -->
+												<tr><td><div id="Content"><table cellspacing="0" cellpadding="0" width="360" border="0">
+
+	<tbody>  
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="324"> <img src="Index_Images/Blue_Welcome3D.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftBlueCurve.jpg" /></td>
+		<td width="324">
+<table cellpadding="3" width="324" align="center">
+
+                    <tbody>
+<tr>
+			        	<td>
+			
+						
+						<div id="sectionheadsmallblue"><br>
+				               The Voice for K&ndash;12 computer science education and its educators.<br /><br /></div>
+				               The Computer Science Teachers Association is a membership organization 
+							   that supports and promotes the teaching of computer science and other computing 
+							   disciplines. CSTA provides opportunities for K&ndash;12 teachers and students to better 
+							   understand the computing disciplines and to more successfully prepare themselves to 
+							   teach and learn.
+						
+						</td>
+			       		 </tr>
+
+					</tbody>
+</table>
+
+
+	              </td>
+
+                        	<td valign="top" width="18">
+			<img src="Index_Images/RightBlueCurve.jpg" />
+		</td>
+	 </tr>
+
+               <tr>
+		
+
+		<td align="center" width="360" colspan="3"><img src="Index_Images/YellowFooter3D.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+
+<div></div><br /><br />
+
+
+<table cellspacing="0" cellpadding="0" width="360" border="0">
+
+	<tbody>
+<tr>
+		
+		<td align="center" width="360" colspan="3"><img src="Index_Images/Blog_News-header.png" /></td>
+		
+		
+	</tr>
+
+              <tr>
+		
+		<td width="360">
+		
+			<table cellpadding="0" width="324" align="center">
+
+                    <tbody>
+<tr>
+			        	<td cellspacing="0">
+					<table cellpadding="10">
+						<tbody>
+<tr>
+							<td>
+							<a href="http://blog.acm.org/csta/" target="blank"><font size="2" color="#800080"><strong>Hackathons as Possible Student Motivators</strong></font></a><br>
+							A new phenomenon cropping up among college age students that is trickling down to the K12 arena is the concept of a hackathon.      
+<br /><br />				<a href="http://blog.acm.org/csta/" target="blank"><font size="2" color="#800080"><strong>Texas SBOE Requires Districts to Offer Two Computer Science Courses</strong></font></a><br>
+							The Texas State Board of Education has made some changes to the education code.     
+</tr>	
+							</tbody>
+</table>	
+							</td>
+			       		 </tr>
+
+					</tbody>
+</table>
+
+
+	              </td>
+
+	 </tr>
+
+              <tr>
+		
+
+		<td align="center" width="360" colspan="3"><img src="Index_Images/GreenLine-360pxl.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+
+<div></div><br /><br />
+
+
+
+
+
+
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" width="360" border="0">
+
+	<tbody>
+<tr>
+		
+		<td align="center" width="360" colspan="3"><img src="Index_Images/BIGnewspurple-360pxl.jpg" /></td>
+		
+		
+	</tr>
+
+              <tr>
+		
+		<td width="360">
+		<a href="http://csta.acm.org/rss/CSTAAlerts.xml" target="_blank"><img src="Index_Images/rss_small.gif" border="0"/></a>
+			<table cellpadding="0" width="324" align="center">
+
+                    <tbody>
+<tr>
+			        	<td cellspacing="0">
+					<table cellpadding="10">
+						<tbody>
+<tr>
+							<td> 
+							<a href="About/sub/AboutFiles/2014Election.html"><font size="2" color="#800080"><strong>Candidates for the 2014 CSTA Board of Directors</strong></font></a><br>
+							All candidates for the upcoming election have been selected. 
+<br><br>					<a href="ProfessionalDevelopment/sub/CSTAConference.html"><font size="2" color="#800080"><strong>Register Now for the 2014 CSTA Conference</strong></font></a><br>
+							The 2014 CSTA annual conference will be held July 14-15 in St. Charles, IL.
+<br><br>					<a href="About/sub/AdministratorImpactAward.html"><font size="2" color="#800080"><strong>Nominations open for CSTA Administrator Impact Award 2014</strong></font></a><br>
+							The purpose of this award is to identify and promote administrators who have made a significant impact to improve access to and the quality of CS education. 
+<br><br>					<a href="ProfessionalDevelopment/sub/TeacherWorkshops.html"><font size="2" color="#800080"><strong>CSTA to host National Computer Science Principles Education Summit</strong></font></a><br>
+							<a href="ProfessionalDevelopment/sub/TeacherWorkshops.html">Click here for more information.</a>
+<br><br>					<a href="ComputerScienceTeacherCertification/sub/CertificationResources.html"><font size="2" color="#800080"><strong>Important New Report on CS Teacher Certification!</strong></font></a><br>
+							CSTA has released a new report called <em>Bugs in the System: Computer Science Teacher Certification in the U.S.</em>, a comprehensive study of all 50 states and the District of Columbia.
+<br><br>					<a href="Membership/sub/MyMemberInfo.html"><font size="2" color="#800080"><strong>Download Your CSTA Member Badge!</strong></font></a><br>
+							Members: place it in your email signature or on your website. <a href="Membership/sub/MyMemberInfo.html">Click here!</a>
+							</td>
+</tr>	
+					</tbody>
+</table>	
+							</td>
+			       		 </tr>
+
+					</tbody>
+</table>
+
+
+	              </td>
+
+	 </tr>
+
+               <tr>
+		
+
+		<td align="center" width="360" colspan="3"><img src="Index_Images/GreenLine-360pxl.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+
+<div></div><br /><br />
+
+
+
+
+
+<table cellspacing="0" cellpadding="0" width="360" border="0">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="324"> <img src="Index_Images/Blue_Benefits3D.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftBlueCurve.jpg" /></td>
+		<td width="324">
+			<div id="sectionheadsmall">
+
+                    </div>
+<table cellpadding="0" width="324" align="center"><tbody>
+<tr>
+			        	<td cellspacing="0">
+					<table cellpadding="10">
+						<tbody>
+<tr>
+							<td>
+
+<a href="Curriculum/sub/CurrFiles/CSTA_K-12_CSS.pdf" target="blank"><font color="#800080"><strong>Download the CSTA K-12 Computer Science Standards.</strong></font></a><br>
+Make sure your courses are aligned.
+<div><br />
+
+Access the May issue of our newsletter, the <a href="Communications/sub/CSTAVoice.html"><font color="#800080"><strong>CSTA <em>Voice</em></strong></font></a>.
+<div><br />
+
+<a href="http://blog.acm.org/csta/"><font color="#800080"><strong>Subscribe to the CSTA Advocate Blog's RSS Feed!</strong></font></a> Don't 
+miss the latest entries--look for the orange icon to subscribe.
+<div><br />
+
+<a href="Resources/sub/BrochuresPostersVideos.html" onClick="javascript: pageTracker._trackPageview('/downloads/CSTA_K-12_CSS.pdf'); "><font color="#800080"><strong>Get access to new posters and resources.</strong></font></a>
+
+
+
+							</div>
+
+</td>
+						</tr>	
+					</tbody>
+</table>	
+							</td>
+			       		 </tr>
+
+					</tbody>
+</table>
+
+
+	              </td>
+
+                        	<td valign="top" width="18">
+			<img src="Index_Images/RightBlueCurve.jpg" />
+		</td>
+	 </tr>
+
+               <tr>
+		
+
+		<td align="center" width="360" colspan="3"><img src="Index_Images/YellowFooter3D.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+<div></div>
+
+
+<br>
+
+<table cellspacing="0" cellpadding="0" width="360" border="0">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="324"> <img src="Index_Images/Purple_Contact3D.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftPurpleCurve.jpg" /></td>
+		<td width="324">
+			<table cellpadding="2" width="324" align="center">
+
+                    <tbody>
+
+<tr>
+							<td><br><div id="sectionheadsmall">
+				               Need Help? <a href="mailto:cstahelp@csta.acm.org">cstahelp@csta.acm.org</a></div>
+							<p><div id="sectionheadsmall">
+								Membership Information:</div><font size="2">CSTA Member Services<br />
+								P.O. Box 30778<br />
+								New York, NY 10117-3509<br />
+								USA<br />
+								1-800-342-6626 (US/Canada)<br />
+								1-212-626-0530 (Global)</font>
+							<p><div id="sectionheadsmall">
+								Programs Information:</div>
+								<font size="2">CSTA Program Services<br />
+								1-800-401-1799 (US/Canada)<br />
+								1-541-687-1840 (Global)</font>    
+								</p>
+</font></strong>
+
+
+							</td>
+			       		 </tr>
+
+					</tbody>
+</table>
+
+
+	              </td>
+
+                        	<td valign="top" width="18">
+			<img src="Index_Images/RightPurpleCurve.jpg" />
+		</td>
+	 </tr>
+
+               <tr>
+		
+
+		<td align="center" width="360" colspan="3"><img src="Index_Images/YellowFooter3D.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table><br />
+<img alt="" src="Index_Images/nsflogo1sm.gif" border="0" /> National Science Foundation
+					
+			
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write("\<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>" );
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3249746-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+<meta name="bitly-verification" content="2a8af6329761"/>
+</div><br>
+												</td><td><img height="1" src="Images/clear.gif" width="10" /></td></tr>
+<!-- END main content area  -->
+											</tbody>
+										</table>
+									<img height="1" src="Images/clear.gif" width="360" />
+									</td>
+									<td valign="top">
+									<img height="10" src="Images/clear.gif" width="1" />
+
+<!-- BEGIN what's new box  -->
+									
+<div align="center"> 
+<!--
+<script type="text/javascript"> function validateAmount(amount){ if(amount.value.match( /^[0-9]+(\.([0-9]+))?$/)){ return true; }else{ alert('You must enter a valid donation.'); amount.focus(); return false; } } </script> <form action="https://checkout.google.com/cws/v2/Donations/151918053531961/checkoutForm" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" onSubmit="return validateAmount(this.item_price_1)"> <input name="item_name_1" type="hidden" value="Supporting K-12 Computer Science Education"/> <input name="item_description_1" type="hidden" value="Donations support CSTA in its efforts to promote the teaching and learning of computer science at the K-12 level."/> <input name="item_quantity_1" type="hidden" value="1"/> <input name="item_currency_1" type="hidden" value="USD"/> <input name="item_is_modifiable_1" type="hidden" value="true"/> <input name="item_min_price_1" type="hidden" value="0.01"/> <input name="item_max_price_1" type="hidden" value="25000.0"/> <input name="_charset_" type="hidden" value="utf-8"/> <table cellpadding="0" cellspacing="0" width="1%"> <tr> <td align="right" nowrap="nowrap" width="1%">
+&#x24; <input id="item_price_1" name="item_price_1" onfocus="this.style.color='black'; this.value='';" size="11" style="color:grey;" type="text" value="Enter Amount"/> </td><tr> <td align="left" width="1%"> <input alt="Donate" src="https://checkout.google.com/buttons/donateNow.gif?merchant_id=151918053531961&amp;w=115&amp;h=50&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/> </td> </tr></tr> </table> </form> 
+
+</div>
+<br>
+-->
+
+<a href="http://cstajobs.acm.org/home/index.cfm?site_id=17483" target="BLANK"><img alt="" src="Index_Images/JobBoard-sm.jpg" border="0" /></a>
+<br />
+<br />
+
+<table border="0" cellspacing="0" cellpadding="0" width="164">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="128"> <img src="Index_Images/Focus_Purple3D128.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftPurpleCurve.jpg" /></td>
+		<td width="128">
+			
+<table cellpadding="2" width="128">
+
+                    <tbody>
+<tr>
+			        	<td><br /><strong>CSTA works at many levels to support computing education.</strong><br /><br />
+
+
+<strong>Elementary and Middle school</strong><br />
+(problem solving &amp;<br />
+computational thinking)
+<br /><br />
+
+<strong>High school</strong><br />
+(computing &amp;<br />
+computer science)
+<br /><br />
+
+<strong>College/university</strong><br />
+(enrollment &amp;<br />
+transition)
+<br /><br />
+
+<strong>Industry</strong><br />
+(engagement &amp;<br />
+preparation)</td></tr>
+
+			</tbody>
+</table>
+
+
+	              </td>
+
+                        	<td valign="top" width="18">
+			<img src="Index_Images/RightPurpleCurve.jpg" />
+		</td>
+	 </tr>
+
+               <tr>
+		
+
+		<td width="164" colspan="3" align="center"><img src="Index_Images/SmallYellowFooter3D.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+<br>
+<!-- END what's new box  -->
+
+<BR>
+
+<!-- BEGIN right promo box  -->
+									<div id="sidebar">
+<table cellspacing="0" cellpadding="0" width="164" border="0">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="128"><img src="Index_Images/Member_Purple3D128.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftPurpleCurve.jpg" /></td>
+		<td width="128">
+			
+
+<table cellpadding="4" width="128">
+
+                    <tbody>
+<tr>
+			        	<td><br><strong>Become part of a vibrant CS community!</strong><br /><br />Learn more about 
+			        	our member benefits. Teachers can join CSTA for FREE as <a href="Membership/sub/IndividualMembership.html">individual members</a>.<br /><br />
+			        	Post secondary institutions and non-profit programs can join as <a href="Membership/sub/InstitutionalMembership.html">institutional members</a>.<br /><br />
+						It's easy!</td>
+						
+</tr>
+			</tbody>
+</table>
+
+
+	              </td>
+
+                        	<td valign="top" width="18">
+			<img src="Index_Images/RightPurpleCurve.jpg" />
+		</td>
+	 </tr>
+
+               <tr>
+		
+
+		<td align="center" width="164" colspan="3"><img src="Index_Images/SmallYellowFooter3D.jpg" /></td>
+
+
+
+               </tr>
+
+ 
+</tbody>
+</table>
+
+<br><br>
+
+<table border="0" cellspacing="0" cellpadding="0" width="164">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="128"> <img src="Index_Images/Conversation_Purple3D128.jpg" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftPurpleCurve.jpg" /></td>
+		<td width="128">
+			
+<table cellpadding="1" width="128">
+
+                    <tbody>
+<tr><td> 
+</td></tr>
+<tr>
+			        	<td>To join the CSTA conversation,<br><a href="http://listserv.acm.org/scripts/wa-ACMLPX.exe?SUBED1=csta-members&A=1" target="BLANK"><strong><font class="fontsizeplus1" color="#800080">sign up for the member listserv here</a>!</font></strong></td></tr>
+
+<tr><td> 
+</td></tr>
+<tr><td>
+Follow us on<br>
+Twitter:<br>
+<a id="CSTATwitter" href="http://twitter.com/csteachersa" target="BLANK"><strong><font class="fontsizeplus1" color="#800080">@csteachersa</font></strong></a>
+<br><br>
+Facebook:<br>
+<a id="CSTAFacebook" href="http://www.facebook.com/pages/Computer-Science-Teachers-Association/54105645655" target="BLANK"><strong><font class="fontsizeplus1" color="#800080">csteachersa</font></strong></a>
+</td></tr>
+
+			</tbody>
+</table>
+	              </td>
+                        	<td valign="top" width="18"><img src="Index_Images/RightPurpleCurve.jpg" />
+		</td>
+	 </tr>
+
+     <tr>		
+	<td width="164" colspan="3" align="center"><img src="Index_Images/SmallYellowFooter3D.jpg" /></td>
+</tr>
+ 
+</tbody>
+</table>
+
+<br><br>
+
+
+
+
+<table border="0" cellspacing="0" cellpadding="0" width="164">
+
+	<tbody>
+<tr>
+		<td width="18">&nbsp;</td>
+		<td width="128"> <img src="Index_Images/CSEdWk_Purple3D128_copy.png" /></td>
+		<td width="18">&nbsp;</td>
+		
+	</tr>
+
+              <tr>
+		<td valign="top" width="18"><img src="Index_Images/LeftPurpleCurve.jpg" /></td>
+		<td width="128">
+			
+<table cellpadding="1" width="128">
+
+                    <tbody>
+<tr>
+			        	<td><strong>CSEdWeek is<br>Dec 8-14, 2014.</strong><br /><br />
+
+<a href="Advocacy_Outreach/sub/CSEdWeek.html">Check out the details and get the link to the CSEdWeek home page!</a></td></tr>
+
+			</tbody>
+</table>
+	              </td>
+                        	<td valign="top" width="18"><img src="Index_Images/RightPurpleCurve.jpg" />
+		</td>
+	 </tr>
+
+     <tr>		
+	<td width="164" colspan="3" align="center"><img src="Index_Images/SmallYellowFooter3D.jpg" /></td>
+</tr>
+ 
+</tbody>
+</table>
+
+<p>
+<a href="includes/Gadget.html"><font class="fontsizeplus1" color="#800080">Today in Computing History!</a></font></div>
+<!-- END right promo box  -->
+
+</td></tr>
+						</tbody>
+						</table></td></tr>
+			</tbody>
+			</table></td></tr>
+</tbody>
+</table>
+</div>
+
+<div id="footer" align="center">
+<table align="center" cellspacing="0" cellpadding="0" width="768" border="0">
+<tbody>
+	<tr><td width="0" bgcolor="#9B928D"><img height="1" src="Images/clear.gif" width="768" /></td></tr>
+	<tr><td width="0"><img height="5" src="Images/clear.gif" width="1" /></td></tr>
+</tbody>
+</table>
+<!-- BEGIN Footer area  -->
+
+<table cellspacing="0" cellpadding="0" width="646" border="0">
+	<tbody>
+		<tr>
+			<td rowspan="2">
+			<a href="index.html"><img height="120" alt="" src="Images/footer_left.gif" width="204" border="0" /></a><br />
+			</td>
+			
+			<td>
+			<a href="index.html"><img height="38" alt="" src="Images/footer_link1_home.gif" width="48" border="0" /></a><br />
+			</td> 
+			
+			<td>
+			<a href="Membership/MembershipInformation.html"><img height="38" alt="" src="Images/footer_link2_membership.gif" width="71" border="0" /></a><br />
+			</td>
+			
+			<td>
+			<a href="About/sub/ContactUs.html"><img height="38" alt="" src="Images/footer_link3_contact.gif" width="68" border="0" /></a><br />
+			</td>
+			
+			<td><a href="includes/PrivacyPolicy.html"><img height="38" alt="" src="Images/footer_link4_privacy_policy.gif" width="84" border="0" /></a></td>
+			
+			<td width="100%"></td>
+			
+			<!--
+                        <td rowspan="2">
+			<img height="120" alt="" src="Images/footer_right1.gif" width="111" 
+                        border="0" /><BR>
+			</td>
+			-->
+			
+			<!--
+                        <td rowspan="2">
+			<a href="mailto:cstephenson@csta.acm.org"><img height="120" 
+                        alt="" src="Images/footer_right2.gif" width="171" border="0" /></a><BR>
+			</td>
+			-->
+		</tr>
+		
+		<tr><td colspan="4"><img height="82" alt="" src="Images/footer_bottom.gif" width="271" border="0" /></td>
+		</tr>
+</tbody>
+</table>
+
+<!-- END Footer area  -->
+</div>
+</div></body>
+</html>

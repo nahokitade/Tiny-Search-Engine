@@ -1,0 +1,1053 @@
+http://en.wikipedia.org/wiki/Logic_in_computer_science
+2
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Logic in computer science - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="generator" content="MediaWiki 1.24wmf1" />
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Logic_in_computer_science" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Logic_in_computer_science&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Logic_in_computer_science&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Logic_in_computer_science" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Logic_in_computer_science","wgTitle":"Logic in computer science","wgCurRevisionId":602596990,"wgRevisionId":602596990,"wgArticleId":1151991,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages containing cite templates with deprecated parameters","Logic in computer science","Formal methods"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Logic_in_computer_science","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":false,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.24wmf1/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgFlowTermsOfUseEdit":"By saving changes, you agree to our \u003Ca class=\"external text\" href=\"//wikimediafoundation.org/wiki/Terms_of_use\"\u003ETerms of Use\u003C/a\u003E and agree to irrevocably release your text under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"//creativecommons.org/licenses/by-sa/3.0\"\u003ECC BY-SA 3.0 License\u003C/a\u003E and \u003Ca class=\"external text\" href=\"//en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License\"\u003EGFDL\u003C/a\u003E","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q2651693"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":
+0,"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"multimediaviewer-enable":true,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,
+"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,
+"searchNs101":false,"searchNs108":false,"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:e3c1c9bfe6ebf6ede3db175ae8d08551 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","skins.vector.compactPersonalBar.defaultTracking","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.24wmf1/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Logic_in_computer_science skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Logic in computer science</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="dablink">For the <a href="/wiki/Academic_conference" title="Academic conference">academic conference</a> LICS, see <a href="/wiki/IEEE_Symposium_on_Logic_in_Computer_Science" title="IEEE Symposium on Logic in Computer Science">IEEE Symposium on Logic in Computer Science</a>.</div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Logic_Gates.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logic_Gates.svg/220px-Logic_Gates.svg.png" width="220" height="230" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logic_Gates.svg/330px-Logic_Gates.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Logic_Gates.svg/440px-Logic_Gates.svg.png 2x" data-file-width="755" data-file-height="791" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Logic_Gates.svg" class="internal" title="Enlarge"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Diagrammatic Representation of Computer Logic Gates</div>
+</div>
+</div>
+<p><b>Logic in computer science</b> covers the overlap between the field of <a href="/wiki/Logic" title="Logic">Logic</a> and that of <a href="/wiki/Computer_Science" title="Computer Science" class="mw-redirect">Computer Science</a>. The topic can essentially be divided into three main areas:</p>
+<ul>
+<li>Theoretical foundations and analysis</li>
+<li>Use of computer technology to aid logicians</li>
+<li>Use of concepts from logic for computer applications</li>
+</ul>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Theoretical_foundations_and_analysis"><span class="tocnumber">1</span> <span class="toctext">Theoretical foundations and analysis</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Computers_to_Assist_Logicians"><span class="tocnumber">2</span> <span class="toctext">Computers to Assist Logicians</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Logic_applications_for_computers"><span class="tocnumber">3</span> <span class="toctext">Logic applications for computers</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#References"><span class="tocnumber">4</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Books"><span class="tocnumber">5</span> <span class="toctext">Books</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#External_links"><span class="tocnumber">6</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Theoretical_foundations_and_analysis">Theoretical foundations and analysis</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=1" title="Edit section: Theoretical foundations and analysis">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The most essential foundations for computer science are grounded in logic and set theory. The logician <a href="/wiki/Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a> who defined the first propositional calculus essentially created the first programming language. The language he defined has all the formal requirements for a powerful computer programming and specification language. The <a href="/wiki/Theory_of_computation" title="Theory of computation">theory of computation</a> is based on concepts defined by logicians and mathematicians such as Alonzo Church and Alan Turing.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup><sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> In addition some other major areas of theoretical overlap between logic and computer science are:</p>
+<ul>
+<li><a href="/wiki/Godel%27s_incompleteness_theorem" title="Godel's incompleteness theorem" class="mw-redirect">Godel's incompleteness theorem</a> proves that any logical system will contain statements that are neither true nor false. This has direct application to theoretical issues relating to the feasibility of proving the completeness and correctness of software.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></li>
+<li>The <a href="/wiki/Frame_problem" title="Frame problem">Frame problem</a> is a basic problem which must be overcome when using logic to represent the goals and state of an artificial intelligence agent.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4"><span>[</span>4<span>]</span></a></sup></li>
+<li><a href="/wiki/Category_theory" title="Category theory">Category theory</a> is the formal analysis and transformation of <a href="/wiki/Graph_theory" title="Graph theory">directed graphs</a>, an area with myriad applications in computer science. For example, object-oriented models can be represented as categories and theorem proving technology can transform the object model specifications into code.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup></li>
+<li>The <a href="/wiki/Curry-Howard_correspondence" title="Curry-Howard correspondence" class="mw-redirect">Curry-Howard correspondence</a> is a proof about the relation between logical systems and software. This theory established the theoretical foundation for viewing a computer program as a formal logical statement that could be proven to be correct and consistent.</li>
+</ul>
+<h2><span class="mw-headline" id="Computers_to_Assist_Logicians">Computers to Assist Logicians</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=2" title="Edit section: Computers to Assist Logicians">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>One of the first applications to use the term <a href="/wiki/Artificial_Intelligence" title="Artificial Intelligence" class="mw-redirect">Artificial Intelligence</a> was the Logic Theorist system developed by Allan Newll, J.C. Shaw, and Herb Simon in 1956. One of the things that a Logician does is to take a set of statements in Logic and deduce the conclusions (additional statements) that must be true by the laws of logic. For example If given a logical system that states "All humans are mortal" and "Socrates is human" a valid conclusion is "Socrates is mortal". Of course this is a trivial example. In actual logical systems the statements can be numerous and complex. It was realized early on that this kind of analysis could be significantly aided by the use of computers. The Logic Theorist validated the theoretical work of <a href="/wiki/Bertrand_Russell" title="Bertrand Russell">Bertrand Russell</a> and <a href="/wiki/Alfred_North_Whitehead" title="Alfred North Whitehead">Alfred North Whitehead</a> in their influential work on mathematical logic called <a href="/wiki/Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a>. In addition subsequent systems have been utilized by logicians to validate and discover new logical theorems and proofs.<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Logic_applications_for_computers">Logic applications for computers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=3" title="Edit section: Logic applications for computers">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>There has always been a strong influence from mathematical logic on the field of Artificial Intelligence (AI). From the beginning of the field it was realized that technology to automate logical inferences could have great potential to solve problems and draw conclusions from facts. Ron Brachman has described <a href="/wiki/First_Order_Logic" title="First Order Logic" class="mw-redirect">First Order Logic</a> (FOL) as metric by which all AI knowledge representation formalism should be evaluated. There is no more general or powerful known method for describing and analyzing information than FOL. The reason FOL itself is simply not used as a computer language is that it is actually too expressive, in the sense that FOL can easily express statements that no computer, no matter how powerful, could ever solve. For this reason every form of knowledge representation is in some sense a trade off between expressivity and computability. The more expressive the language is, the closer it is to FOL, the more likely it is to be slower and prone to an infinite loop.<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></p>
+<p>For example, IF THEN rules used in <a href="/wiki/Expert_system" title="Expert system">Expert Systems</a> are a very limited subset of FOL. Rather than arbitrary formulas with the full range of logical operators the starting point is simply what logicians refer to as <a href="/wiki/Modus_Ponens" title="Modus Ponens" class="mw-redirect">Modus Ponens</a>. As a result the computability of <a href="/wiki/Rule-based_system" title="Rule-based system">rule based systems</a> can be quite good, especially if they take advantage of optimization algorithms and compilation.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8"><span>[</span>8<span>]</span></a></sup></p>
+<p>Another major area of research for logical theory was software engineering. Research projects such as the <a href="/wiki/Knowledge_Based_Software_Assistant" title="Knowledge Based Software Assistant">Knowledge-Based Software Assistant</a> and Programmer's Apprentice programs applied logical theory to validate the correctness of software specifications. They also used them to transform the specifications into efficient code on diverse platforms and to prove the equivalence between the implementation and the specification.<sup id="cite_ref-9" class="reference"><a href="#cite_note-9"><span>[</span>9<span>]</span></a></sup> This formal transformation driven approach is often far more effort than traditional software development. However, in specific domains with appropriate formalisms and reusable templates the approach has proven viable for commercial products. The appropriate domains are usually those such as weapons systems, security systems, and real time financial systems where failure of the system has excessively high human or financial cost. An example of such a domain is <a href="/wiki/Very-large-scale_integration" title="Very-large-scale integration">Very Large Scale Integrated (VLSI) Design</a>—the process for designing the chips used for the CPU's and other critical components of digital devices. An error in a chip is catastrophic. Unlike software chips can't be patched or updated. As a result there is commercial justification for using formal methods to prove that the implementation corresponds to the specification.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>Another important application of logic to computer technology has been in the area of <a href="/wiki/Frame_language" title="Frame language">Frame languages</a> and automatic classifiers. <a href="/wiki/Frame_language" title="Frame language">Frame languages</a> such as <a href="/wiki/KL-ONE" title="KL-ONE">KL-ONE</a> have a rigid semantics. Definitions in KL-ONE can be directly mapped to set theory and the predicate calculus. This allows specialized theorem provers called classifiers to analyze the various declarations between sets, subsets, and relations in a given model. In this way the model can be validated and any inconsistent definitions flagged. The classifier can also infer new information, for example define new sets based on existing information and change the definition of existing sets based on new data. The level of flexibility is ideal for handling the ever changing world of the Internet. Classifier technology is built on top of languages such as the <a href="/wiki/Web_Ontology_Language" title="Web Ontology Language">Web Ontology Language</a> to allow a logical semantic level on to the existing Internet. This layer of is called the <a href="/wiki/Semantic_web" title="Semantic web" class="mw-redirect">Semantic web</a>.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup><sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=4" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation book">Lewis, Harry R.; Christos H. Papadimitriou (1981). <i>Elements of the Theory of Computation</i>. Englewood Cliffs, New Jersey: Prentice-Hall. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-13-273417-6" title="Special:BookSources/0-13-273417-6">0-13-273417-6</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.aufirst=Harry+R.&amp;rft.aulast=Lewis&amp;rft.au=Lewis%2C+Harry+R.&amp;rft.btitle=Elements+of+the+Theory+of+Computation&amp;rft.date=1981&amp;rft.genre=book&amp;rft.isbn=0-13-273417-6&amp;rft.place=Englewood+Cliffs%2C+New+Jersey&amp;rft.pub=Prentice-Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation book">Davis, Martin. <a rel="nofollow" class="external text" href="http://books.google.com/books?id=YafIDVd1Z68C&amp;pg=PA290#v=onepage&amp;q&amp;f=false">"Influences of Mathematical Logic on Computer Science"</a>. In Rolf Herken. <i>The Universal Turing Machine</i>. Springer Verlag<span class="reference-accessdate">. Retrieved 26 December 2013</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=The+Universal+Turing+Machine&amp;rft.au=Davis%2C+Martin&amp;rft.aufirst=Martin&amp;rft.aulast=Davis&amp;rft.btitle=Influences+of+Mathematical+Logic+on+Computer+Science&amp;rft.genre=bookitem&amp;rft_id=http%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DYafIDVd1Z68C%26pg%3DPA290%23v%3Donepage%26q%26f%3Dfalse&amp;rft.pub=Springer+Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span class="citation book">Hofstadter, Douglas R. <i>Gödel, Escher, Bach: An Eternal Golden Braid</i>. Basic Books. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0465026562" title="Special:BookSources/978-0465026562">978-0465026562</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.aufirst=Douglas+R.&amp;rft.au=Hofstadter%2C+Douglas+R.&amp;rft.aulast=Hofstadter&amp;rft.btitle=G%C3%B6del%2C+Escher%2C+Bach%3A+An+Eternal+Golden+Braid&amp;rft.genre=book&amp;rft.isbn=978-0465026562&amp;rft.pub=Basic+Books&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><span class="citation journal">McCarthy, J; P.J. Hayes (1969). "Some philosophical problems from the standpoint of artificial intelligence". <i>Machine Intelligence</i> <b>4</b>: 463–502.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=Some+philosophical+problems+from+the+standpoint+of+artificial+intelligence&amp;rft.aufirst=J&amp;rft.aulast=McCarthy&amp;rft.au=McCarthy%2C+J&amp;rft.date=1969&amp;rft.genre=article&amp;rft.jtitle=Machine+Intelligence&amp;rft.pages=463-502&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=4" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation journal">DeLoach, Scott; Thomas Hartrum (June 2000). "A Theory Based Representation for Object-Oriented Domain Models". <i>IEEE Transactions on Software Engineering</i> <b>25</b> (6).</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=A+Theory+Based+Representation+for+Object-Oriented+Domain+Models&amp;rft.au=DeLoach%2C+Scott&amp;rft.aufirst=Scott&amp;rft.aulast=DeLoach&amp;rft.date=June+2000&amp;rft.genre=article&amp;rft.issue=6&amp;rft.jtitle=IEEE+Transactions+on+Software+Engineering&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=25" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation book">Newell, Allen; J.C. Shaw and H.C. Simon (1963). "Empirical explorations with the logic theory machine". In Ed Feigenbaum. <i>Computers and Thought</i>. McGraw Hill. pp.&#160;109–133. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-0262560924" title="Special:BookSources/978-0262560924">978-0262560924</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=Computers+and+Thought&amp;rft.aufirst=Allen&amp;rft.aulast=Newell&amp;rft.au=Newell%2C+Allen&amp;rft.btitle=Empirical+explorations+with+the+logic+theory+machine&amp;rft.date=1963&amp;rft.genre=bookitem&amp;rft.isbn=978-0262560924&amp;rft.pages=109-133&amp;rft.pub=McGraw+Hill&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation book">Levesque, Hector; Ronald Brachman (1985). "A Fundamental Tradeoff in Knowledge Representation and Reasoning". In Ronald Brachman and Hector J. Levesque. <i>Reading in Knowledge Representation</i>. Morgan Kaufmann. p.&#160;49. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-934613-01-X" title="Special:BookSources/0-934613-01-X">0-934613-01-X</a>. "The good news in reducing KR service to theorem proving is that we now have a very clear, very specific notion of what the KR system should do; the bad new is that it is also clear that the services can not be provided... deciding whether or not a sentence in FOL is a theorem... is unsolvable."</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=Reading+in+Knowledge+Representation&amp;rft.aufirst=Hector&amp;rft.aulast=Levesque&amp;rft.au=Levesque%2C+Hector&amp;rft.btitle=A+Fundamental+Tradeoff+in+Knowledge+Representation+and+Reasoning&amp;rft.date=1985&amp;rft.genre=bookitem&amp;rft.isbn=0-934613-01-X&amp;rft.pages=49&amp;rft.pub=Morgan+Kaufmann&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><span class="citation journal">Forgy, Charles (1982). <a rel="nofollow" class="external text" href="http://web.yonsei.ac.kr/yusong/lecture/data/BI/Materials/1.1.Rete%20-%20A%20Fast%20Algorithm%20for%20the%20Many%20Pattern,%20Many%20Object%20Pattern%20Match%20Problem.pdf">"Rete: A Fast Algorithm for the Many Pattern/Many Object Pattern Match Problem*"</a>. <i>Artificial Intelligence</i> <b>19</b>: 17–37<span class="reference-accessdate">. Retrieved 25 December 2013</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=Rete%3A+A+Fast+Algorithm+for+the++Many+Pattern%2FMany+Object++Pattern+Match+Problem%2A&amp;rft.aufirst=Charles&amp;rft.au=Forgy%2C+Charles&amp;rft.aulast=Forgy&amp;rft.date=1982&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fweb.yonsei.ac.kr%2Fyusong%2Flecture%2Fdata%2FBI%2FMaterials%2F1.1.Rete%2520-%2520A%2520Fast%2520Algorithm%2520for%2520the%2520Many%2520Pattern%2C%2520Many%2520Object%2520Pattern%2520Match%2520Problem.pdf&amp;rft.jtitle=Artificial+Intelligence&amp;rft.pages=17-37&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=19" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><span class="citation journal">Rich, Charles; Richard C. Waters (November 1987). <a rel="nofollow" class="external text" href="ftp://publications.ai.mit.edu/ai-publications/pdf/AIM-1004.pdf">"The Programmer's Apprentice Project: A Research Overview"</a>. <i>IEE Expert Special Issue on the Interactions between Expert Systems and Software Engineering</i><span class="reference-accessdate">. Retrieved 26 December 2013</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=The+Programmer%27s+Apprentice+Project%3A+A+Research+Overview&amp;rft.aufirst=Charles&amp;rft.aulast=Rich&amp;rft.au=Rich%2C+Charles&amp;rft.date=November+1987&amp;rft.genre=article&amp;rft_id=ftp%3A%2F%2Fpublications.ai.mit.edu%2Fai-publications%2Fpdf%2FAIM-1004.pdf&amp;rft.jtitle=IEE+Expert+Special+Issue+on+the+Interactions+between+Expert+Systems+and+Software+Engineering&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><span class="citation book">Stavridou, Victoria (1993). <a rel="nofollow" class="external text" href="http://books.google.com/books?id=Hf_AZfW2YWsC&amp;pg=PA14&amp;lpg=PA14&amp;dq=VLSI+chip+design+formal+methods&amp;source=bl&amp;ots=KzTJ7IrWmm&amp;sig=jUvF19wOzfMqUGh4YQl5XzZrEfY&amp;hl=en&amp;sa=X&amp;ei=W1K8Uu7YItXloASPsoCwCw&amp;ved=0CDkQ6AEwAQ#v=onepage&amp;q=VLSI%20chip%20design%20formal%20methods&amp;f=false"><i>Formal Methods in Circuit Design</i></a>. Press Syndicate of the University of Cambridge. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-443369" title="Special:BookSources/0-521-443369">0-521-443369</a><span class="reference-accessdate">. Retrieved 26 December 2013</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.aufirst=Victoria&amp;rft.aulast=Stavridou&amp;rft.au=Stavridou%2C+Victoria&amp;rft.btitle=Formal+Methods+in+Circuit+Design&amp;rft.date=1993&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DHf_AZfW2YWsC%26pg%3DPA14%26lpg%3DPA14%26dq%3DVLSI%2Bchip%2Bdesign%2Bformal%2Bmethods%26source%3Dbl%26ots%3DKzTJ7IrWmm%26sig%3DjUvF19wOzfMqUGh4YQl5XzZrEfY%26hl%3Den%26sa%3DX%26ei%3DW1K8Uu7YItXloASPsoCwCw%26ved%3D0CDkQ6AEwAQ%23v%3Donepage%26q%3DVLSI%2520chip%2520design%2520formal%2520methods%26f%3Dfalse&amp;rft.isbn=0-521-443369&amp;rft.pub=Press+Syndicate+of+the+University+of+Cambridge&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><span class="citation journal">MacGregor, Robert (June 1991). <a rel="nofollow" class="external text" href="http://ieeexplore.ieee.org/xpl/login.jsp?tp=&amp;arnumber=87683&amp;url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D87683">"Using a description classifier to enhance knowledge representation"</a>. <i>IEEE Expert</i> <b>6</b> (3)<span class="reference-accessdate">. Retrieved 10 November 2013</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=Using+a+description+classifier+to+enhance+knowledge+representation&amp;rft.aufirst=Robert&amp;rft.aulast=MacGregor&amp;rft.au=MacGregor%2C+Robert&amp;rft.date=June+1991&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fieeexplore.ieee.org%2Fxpl%2Flogin.jsp%3Ftp%3D%26arnumber%3D87683%26url%3Dhttp%253A%252F%252Fieeexplore.ieee.org%252Fxpls%252Fabs_all.jsp%253Farnumber%253D87683&amp;rft.issue=3&amp;rft.jtitle=IEEE+Expert&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.volume=6" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><span class="citation journal">Berners-Lee, Tim; James Hendler and Ora Lassila (May 17, 2001). <a rel="nofollow" class="external text" href="http://www.cs.umd.edu/~golbeck/LBSC690/SemanticWeb.html">"The Semantic Web A new form of Web content that is meaningful to computers will unleash a revolution of new possibilities"</a>. <i>Scientific American</i>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.atitle=The+Semantic+Web+A+new+form+of+Web+content+that+is+meaningful+to+computers+will+unleash+a+revolution+of+new+possibilities&amp;rft.au=Berners-Lee%2C+Tim&amp;rft.aufirst=Tim&amp;rft.aulast=Berners-Lee&amp;rft.date=May+17%2C+2001&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.cs.umd.edu%2F~golbeck%2FLBSC690%2FSemanticWeb.html&amp;rft.jtitle=Scientific+American&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> <span style="display:none;font-size:100%" class="error citation-comment">Cite uses deprecated parameters (<a href="/wiki/Help:CS1_errors#deprecated_params" title="Help:CS1 errors">help</a>)</span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Books">Books</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=5" title="Edit section: Books">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><span class="citation book">Ben-Ari, Mordechai (2003). <i>Mathematical Logic for Computer Science</i> (2nd ed.). <a href="/wiki/Springer_Science%2BBusiness_Media" title="Springer Science+Business Media">Springer-Verlag</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-85233-319-7" title="Special:BookSources/1-85233-319-7">1-85233-319-7</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.au=Ben-Ari%2C+Mordechai&amp;rft.aufirst=Mordechai&amp;rft.aulast=Ben-Ari&amp;rft.btitle=Mathematical+Logic+for+Computer+Science&amp;rft.date=2003&amp;rft.edition=2nd&amp;rft.genre=book&amp;rft.isbn=1-85233-319-7&amp;rft.pub=Springer-Verlag&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span class="citation book">Huth, Michael; Ryan, Mark (2004). <a rel="nofollow" class="external text" href="http://www.cs.bham.ac.uk/research/lics/"><i>Logic in Computer Science: Modelling and Reasoning about Systems</i></a> (2nd ed.). <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-521-54310-X" title="Special:BookSources/0-521-54310-X">0-521-54310-X</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.aufirst=Michael&amp;rft.au=Huth%2C+Michael&amp;rft.aulast=Huth&amp;rft.au=Ryan%2C+Mark&amp;rft.btitle=Logic+in+Computer+Science%3A+Modelling+and+Reasoning+about+Systems&amp;rft.date=2004&amp;rft.edition=2nd&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.cs.bham.ac.uk%2Fresearch%2Flics%2F&amp;rft.isbn=0-521-54310-X&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li><span class="citation book">Burris, Stanley N. (1997). <i>Logic for Mathematics and Computer Science</i>. <a href="/wiki/Prentice_Hall" title="Prentice Hall">Prentice Hall</a>. <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/0-13-285974-2" title="Special:BookSources/0-13-285974-2">0-13-285974-2</a>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3ALogic+in+computer+science&amp;rft.au=Burris%2C+Stanley+N.&amp;rft.aufirst=Stanley+N.&amp;rft.aulast=Burris&amp;rft.btitle=Logic+for+Mathematics+and+Computer+Science&amp;rft.date=1997&amp;rft.genre=book&amp;rft.isbn=0-13-285974-2&amp;rft.pub=Prentice+Hall&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit&amp;section=6" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://plato.stanford.edu/entries/logic-ai/">Article on <i>Logic and Artificial Intelligence</i></a> at the <a href="/wiki/Stanford_Encyclopedia_of_Philosophy" title="Stanford Encyclopedia of Philosophy">Stanford Encyclopedia of Philosophy</a>.</li>
+<li><a rel="nofollow" class="external text" href="http://www.informatik.hu-berlin.de/lics/">IEEE Symposium on Logic in Computer Science</a> (LICS)</li>
+<li>Alwen Tiu, <a rel="nofollow" class="external text" href="http://videolectures.net/ssll09_tiu_intlo/">Introduction to logic</a> video recording of a lecture at ANU Logic Summer School '09 (aimed mostly at computer scientists)</li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Logic" title="Template:Logic"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Logic" title="Template talk:Logic"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Logic&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;"><a href="/wiki/Logic" title="Logic">Logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;">Overview</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group">Academic areas</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Argumentation_theory" title="Argumentation theory">Argumentation theory</a></li>
+<li><a href="/wiki/Axiology" title="Axiology">Axiology</a></li>
+<li><a href="/wiki/Critical_thinking" title="Critical thinking">Critical thinking</a></li>
+<li><a href="/wiki/Computability_theory" title="Computability theory">Computability theory</a></li>
+<li><a href="/wiki/Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="/wiki/History_of_logic" title="History of logic">History of logic</a></li>
+<li><a href="/wiki/Informal_logic" title="Informal logic">Informal logic</a></li>
+<li><strong class="selflink">Logic in computer science</strong></li>
+<li><a href="/wiki/Mathematical_logic" title="Mathematical logic">Mathematical logic</a></li>
+<li><a href="/wiki/Mathematics" title="Mathematics">Mathematics</a></li>
+<li><a href="/wiki/Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="/wiki/Metamathematics" title="Metamathematics">Metamathematics</a></li>
+<li><a href="/wiki/Model_theory" title="Model theory">Model theory</a></li>
+<li><a href="/wiki/Philosophical_logic" title="Philosophical logic">Philosophical logic</a></li>
+<li><a href="/wiki/Philosophy" title="Philosophy">Philosophy</a></li>
+<li><a href="/wiki/Philosophy_of_logic" title="Philosophy of logic">Philosophy of logic</a></li>
+<li><a href="/wiki/Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="/wiki/Proof_theory" title="Proof theory">Proof theory</a></li>
+<li><a href="/wiki/Set_theory" title="Set theory">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Foundations</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Abductive_reasoning" title="Abductive reasoning">Abduction</a></li>
+<li><a href="/wiki/Analytic%E2%80%93synthetic_distinction" title="Analytic–synthetic distinction">Analytic truth</a></li>
+<li><a href="/wiki/Antinomy" title="Antinomy">Antinomy</a></li>
+<li><a href="/wiki/A_priori_and_a_posteriori" title="A priori and a posteriori">A priori</a></li>
+<li><a href="/wiki/Deductive_reasoning" title="Deductive reasoning">Deduction</a></li>
+<li><a href="/wiki/Definition" title="Definition">Definition</a></li>
+<li><a href="/wiki/Description" title="Description">Description</a></li>
+<li><a href="/wiki/Inductive_reasoning" title="Inductive reasoning">Induction</a></li>
+<li><a href="/wiki/Inference" title="Inference">Inference</a></li>
+<li><a href="/wiki/Logical_form" title="Logical form">Logical form</a></li>
+<li><a href="/wiki/Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="/wiki/Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="/wiki/Name" title="Name">Name</a></li>
+<li><a href="/wiki/Necessary_and_sufficient_condition" title="Necessary and sufficient condition" class="mw-redirect">Necessity</a></li>
+<li><a href="/wiki/Meaning_(linguistics)" title="Meaning (linguistics)">Meaning</a></li>
+<li><a href="/wiki/Paradox" title="Paradox">Paradox</a></li>
+<li><a href="/wiki/Possible_world" title="Possible world">Possible world</a></li>
+<li><a href="/wiki/Presupposition" title="Presupposition">Presupposition</a></li>
+<li><a href="/wiki/Probability" title="Probability">Probability</a></li>
+<li><a href="/wiki/Reason" title="Reason">Reason</a></li>
+<li><a href="/wiki/Reason" title="Reason">Reasoning</a></li>
+<li><a href="/wiki/Reference" title="Reference">Reference</a></li>
+<li><a href="/wiki/Semantics" title="Semantics">Semantics</a></li>
+<li><a href="/wiki/Statement_(logic)" title="Statement (logic)">Statement</a></li>
+<li><a href="/wiki/Strict_implication" title="Strict implication" class="mw-redirect">Strict implication</a></li>
+<li><a href="/wiki/Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="/wiki/Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="/wiki/Truth" title="Truth">Truth</a></li>
+<li><a href="/wiki/Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="/wiki/Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;"><a href="/wiki/Philosophical_logic" title="Philosophical logic">Philosophical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Critical_thinking" title="Critical thinking">Critical thinking</a><br />
+<a href="/wiki/Informal_logic" title="Informal logic">Informal logic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Philosophical_analysis" title="Philosophical analysis">Analysis</a></li>
+<li><a href="/wiki/Ambiguity" title="Ambiguity">Ambiguity</a></li>
+<li><a href="/wiki/Argument" title="Argument">Argument</a></li>
+<li><a href="/wiki/Belief" title="Belief">Belief</a></li>
+<li><a href="/wiki/Bias" title="Bias">Bias</a></li>
+<li><a href="/wiki/Credibility" title="Credibility">Credibility</a></li>
+<li><a href="/wiki/Evidence" title="Evidence">Evidence</a></li>
+<li><a href="/wiki/Explanation" title="Explanation">Explanation</a></li>
+<li><a href="/wiki/Explanatory_power" title="Explanatory power">Explanatory power</a></li>
+<li><a href="/wiki/Fact" title="Fact">Fact</a></li>
+<li><a href="/wiki/Fallacy" title="Fallacy">Fallacy</a></li>
+<li><a href="/wiki/Inquiry" title="Inquiry">Inquiry</a></li>
+<li><a href="/wiki/Opinion" title="Opinion">Opinion</a></li>
+<li><a href="/wiki/Occam%27s_razor" title="Occam's razor">Parsimony</a></li>
+<li><a href="/wiki/Premise" title="Premise">Premise</a></li>
+<li><a href="/wiki/Propaganda" title="Propaganda">Propaganda</a></li>
+<li><a href="/wiki/Prudence" title="Prudence">Prudence</a></li>
+<li><a href="/wiki/Reason" title="Reason">Reasoning</a></li>
+<li><a href="/wiki/Relevance" title="Relevance">Relevance</a></li>
+<li><a href="/wiki/Rhetoric" title="Rhetoric">Rhetoric</a></li>
+<li><a href="/wiki/Rigour" title="Rigour">Rigor</a></li>
+<li><a href="/wiki/Vagueness" title="Vagueness">Vagueness</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Philosophy_of_logic" title="Philosophy of logic">Theories of<br />
+deduction</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Constructivism_(mathematics)" title="Constructivism (mathematics)">Constructivism</a></li>
+<li><a href="/wiki/Dialetheism" title="Dialetheism">Dialetheism</a></li>
+<li><a href="/wiki/Fictionalism" title="Fictionalism">Fictionalism</a></li>
+<li><a href="/wiki/Finitism" title="Finitism">Finitism</a></li>
+<li><a href="/wiki/Formalism_(mathematics)" title="Formalism (mathematics)">Formalism</a></li>
+<li><a href="/wiki/Intuitionism" title="Intuitionism">Intuitionism</a></li>
+<li><a href="/wiki/Logical_atomism" title="Logical atomism">Logical atomism</a></li>
+<li><a href="/wiki/Logicism" title="Logicism">Logicism</a></li>
+<li><a href="/wiki/Nominalism" title="Nominalism">Nominalism</a></li>
+<li><a href="/wiki/Platonic_realism" title="Platonic realism">Platonic realism</a></li>
+<li><a href="/wiki/Pragmatism" title="Pragmatism">Pragmatism</a></li>
+<li><a href="/wiki/Philosophical_realism" title="Philosophical realism">Realism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;">
+<div class="hlist plainlist" style="margin-left: 0em;">
+<ul>
+<li><a href="/wiki/Metalogic" title="Metalogic">Metalogic</a></li>
+<li><a href="/wiki/Metamathematics" title="Metamathematics">Metamathematics</a></li>
+</ul>
+</div>
+</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Cantor%27s_theorem" title="Cantor's theorem">Cantor's theorem</a></li>
+<li><a href="/wiki/Entscheidungsproblem" title="Entscheidungsproblem">Church's theorem</a></li>
+<li><a href="/wiki/Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church's thesis</a></li>
+<li><a href="/wiki/Consistency" title="Consistency">Consistency</a></li>
+<li><a href="/wiki/Effective_method" title="Effective method">Effective method</a></li>
+<li><a href="/wiki/Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="/wiki/G%C3%B6del%27s_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness theorem</a></li>
+<li><a href="/wiki/G%C3%B6del%27s_incompleteness_theorems" title="Gödel's incompleteness theorems">Gödel's incompleteness theorems</a></li>
+<li><a href="/wiki/Soundness" title="Soundness">Soundness</a></li>
+<li><a href="/wiki/Completeness_(logic)" title="Completeness (logic)">Completeness</a></li>
+<li><a href="/wiki/Decidability_(logic)" title="Decidability (logic)">Decidability</a></li>
+<li><a href="/wiki/Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem theorem</a></li>
+<li><a href="/wiki/Metatheorem" title="Metatheorem">Metatheorem</a></li>
+<li><a href="/wiki/Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="/wiki/Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a></li>
+<li><a href="/wiki/Type%E2%80%93token_distinction" title="Type–token distinction">Type–token distinction</a></li>
+<li><a href="/wiki/Use%E2%80%93mention_distinction" title="Use–mention distinction">Use–mention distinction</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;"><a href="/wiki/Mathematical_logic" title="Mathematical logic">Mathematical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group">General</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Formal_language" title="Formal language">Formal language</a></li>
+<li><a href="/wiki/Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="/wiki/Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="/wiki/Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="/wiki/Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="/wiki/Well-formed_formula" title="Well-formed formula">Well-formed formula</a></li>
+<li><a href="/wiki/Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="/wiki/Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="/wiki/Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li><a href="/wiki/Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="/wiki/Axiom" title="Axiom">Axiom</a></li>
+<li><a href="/wiki/Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="/wiki/Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="/wiki/Finitary_relation" title="Finitary relation">Relation</a></li>
+<li><a href="/wiki/Theorem" title="Theorem">Theorem</a></li>
+<li><a href="/wiki/Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="/wiki/Axiomatic_system" title="Axiomatic system">Axiomatic system</a></li>
+<li><a href="/wiki/Type_theory" title="Type theory">Type theory</a></li>
+<li><a href="/wiki/Symbol_(formal)" title="Symbol (formal)">Symbol</a></li>
+<li><a href="/wiki/Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+<li><a href="/wiki/Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Term_logic" title="Term logic">Traditional logic</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Proposition" title="Proposition">Proposition</a></li>
+<li><a href="/wiki/Inference" title="Inference">Inference</a></li>
+<li><a href="/wiki/Argument" title="Argument">Argument</a></li>
+<li><a href="/wiki/Validity" title="Validity">Validity</a></li>
+<li><a href="/wiki/Cogency" title="Cogency">Cogency</a></li>
+<li><a href="/wiki/Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="/wiki/Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="/wiki/Venn_diagram" title="Venn diagram">Venn diagram</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Propositional_calculus" title="Propositional calculus">Propositional calculus</a><br />
+<a href="/wiki/Boolean_algebra" title="Boolean algebra">Boolean logic</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="/wiki/Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="/wiki/Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="/wiki/Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="/wiki/Truth_table" title="Truth table">Truth tables</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Predicate_logic" title="Predicate logic">Predicate logic</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="/wiki/Quantification" title="Quantification">Quantifiers</a></li>
+<li><a href="/wiki/Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="/wiki/Second-order_logic" title="Second-order logic">Second-order</a></li>
+<li><a href="/wiki/Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Set_theory" title="Set theory">Set theory</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="/wiki/Empty_set" title="Empty set">Empty set</a></li>
+<li><a href="/wiki/Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="/wiki/Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="/wiki/Finite_set" title="Finite set">Finite set</a></li>
+<li><a href="/wiki/Function_(mathematics)" title="Function (mathematics)">Function</a></li>
+<li><a href="/wiki/Subset" title="Subset">Subset</a></li>
+<li><a href="/wiki/Power_set" title="Power set">Power set</a></li>
+<li><a href="/wiki/Countable_set" title="Countable set">Countable set</a></li>
+<li><a href="/wiki/Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="/wiki/Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="/wiki/Range_(mathematics)" title="Range (mathematics)">Range</a></li>
+<li><a href="/wiki/Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="/wiki/Uncountable_set" title="Uncountable set">Uncountable set</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Model_theory" title="Model theory">Model theory</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="/wiki/Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="/wiki/Non-standard_model" title="Non-standard model">Non-standard model</a></li>
+<li><a href="/wiki/Finite_model_theory" title="Finite model theory">Finite model theory</a></li>
+<li><a href="/wiki/Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="/wiki/Validity" title="Validity">Validity</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Proof_theory" title="Proof theory">Proof theory</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="/wiki/Deductive_system" title="Deductive system">Deductive system</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">Formal system</a></li>
+<li><a href="/wiki/Theorem" title="Theorem">Theorem</a></li>
+<li><a href="/wiki/Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="/wiki/Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="/wiki/Syntax_(logic)" title="Syntax (logic)">Syntax</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Computability_theory" title="Computability theory">Computability theory</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Recursion" title="Recursion">Recursion</a></li>
+<li><a href="/wiki/Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="/wiki/Recursively_enumerable_set" title="Recursively enumerable set">Recursively enumerable set</a></li>
+<li><a href="/wiki/Decision_problem" title="Decision problem">Decision problem</a></li>
+<li><a href="/wiki/Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="/wiki/Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="/wiki/Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;"><a href="/wiki/Non-classical_logic" title="Non-classical logic">Non-classical logic</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Modal_logic" title="Modal logic">Modal logic</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Modal_logic#Alethic_modalities" title="Modal logic">Alethic</a></li>
+<li><a href="/wiki/Modal_operator#Axiological" title="Modal operator">Axiologic</a></li>
+<li><a href="/wiki/Deontic_logic" title="Deontic logic">Deontic</a></li>
+<li><a href="/wiki/Doxastic_logic" title="Doxastic logic">Doxastic</a></li>
+<li><a href="/wiki/Epistemic_modal_logic" title="Epistemic modal logic">Epistemic</a></li>
+<li><a href="/wiki/Temporal_logic" title="Temporal logic">Temporal</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Intuitionism" title="Intuitionism">Intuitionism</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li>
+<li><a href="/wiki/Constructive_analysis" title="Constructive analysis">Constructive analysis</a></li>
+<li><a href="/wiki/Heyting_arithmetic" title="Heyting arithmetic">Heyting arithmetic</a></li>
+<li><a href="/wiki/Intuitionistic_type_theory" title="Intuitionistic type theory">Intuitionistic type theory</a></li>
+<li><a href="/wiki/Constructive_set_theory" title="Constructive set theory">Constructive set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Degree_of_truth" title="Degree of truth">Degree of truth</a></li>
+<li><a href="/wiki/Fuzzy_rule" title="Fuzzy rule">Fuzzy rule</a></li>
+<li><a href="/wiki/Fuzzy_set" title="Fuzzy set">Fuzzy set</a></li>
+<li><a href="/wiki/Fuzzy_finite_element" title="Fuzzy finite element">Fuzzy finite element</a></li>
+<li><a href="/wiki/Fuzzy_set_operations" title="Fuzzy set operations">Fuzzy set operations</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Substructural_logic" title="Substructural logic">Substructural logic</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Structural_rule" title="Structural rule">Structural rule</a></li>
+<li><a href="/wiki/Relevance_logic" title="Relevance logic">Relevance logic</a></li>
+<li><a href="/wiki/Linear_logic" title="Linear logic">Linear logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Paraconsistent_logic" title="Paraconsistent logic">Paraconsistent logic</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Dialetheism" title="Dialetheism">Dialetheism</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Description_logic" title="Description logic">Description logic</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Ontology" title="Ontology">Ontology</a></li>
+<li><a href="/wiki/Ontology_language" title="Ontology language">Ontology language</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Many-valued_logic" title="Many-valued logic">Many-valued logic</a></th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Three-valued_logic" title="Three-valued logic">Three-valued logic</a></li>
+<li><a href="/wiki/Four-valued_logic" title="Four-valued logic">Four-valued logic</a></li>
+<li><a href="/wiki/%C5%81ukasiewicz_logic" title="Łukasiewicz logic">Łukasiewicz logic</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;"><a href="/wiki/List_of_logicians" title="List of logicians">Logicians</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Alan_Ross_Anderson" title="Alan Ross Anderson">Anderson</a></li>
+<li><a href="/wiki/Aristotle" title="Aristotle">Aristotle</a></li>
+<li><a href="/wiki/Averroes" title="Averroes">Averroes</a></li>
+<li><a href="/wiki/Avicenna" title="Avicenna">Avicenna</a></li>
+<li><a href="/wiki/Alexander_Bain" title="Alexander Bain">Bain</a></li>
+<li><a href="/wiki/Jon_Barwise" title="Jon Barwise">Barwise</a></li>
+<li><a href="/wiki/Paul_Bernays" title="Paul Bernays">Bernays</a></li>
+<li><a href="/wiki/George_Boole" title="George Boole">Boole</a></li>
+<li><a href="/wiki/George_Boolos" title="George Boolos">Boolos</a></li>
+<li><a href="/wiki/Georg_Cantor" title="Georg Cantor">Cantor</a></li>
+<li><a href="/wiki/Rudolf_Carnap" title="Rudolf Carnap">Carnap</a></li>
+<li><a href="/wiki/Alonzo_Church" title="Alonzo Church">Church</a></li>
+<li><a href="/wiki/Chrysippus" title="Chrysippus">Chrysippus</a></li>
+<li><a href="/wiki/Paul_Cohen_(mathematician)" title="Paul Cohen (mathematician)">Cohen</a></li>
+<li><a href="/wiki/Haskell_Curry" title="Haskell Curry">Curry</a></li>
+<li><a href="/wiki/Augustus_De_Morgan" title="Augustus De Morgan">De Morgan</a></li>
+<li><a href="/wiki/Michael_Dummett" title="Michael Dummett">Dummett</a></li>
+<li><a href="/wiki/Gottlob_Frege" title="Gottlob Frege">Frege</a></li>
+<li><a href="/wiki/Peter_Geach" title="Peter Geach">Geach</a></li>
+<li><a href="/wiki/Gerhard_Gentzen" title="Gerhard Gentzen">Gentzen</a></li>
+<li><a href="/wiki/Kurt_G%C3%B6del" title="Kurt Gödel">Gödel</a></li>
+<li><a href="/wiki/Jaakko_Hintikka" title="Jaakko Hintikka">Hintikka</a></li>
+<li><a href="/wiki/David_Hilbert" title="David Hilbert">Hilbert</a></li>
+<li><a href="/wiki/Stephen_Cole_Kleene" title="Stephen Cole Kleene">Kleene</a></li>
+<li><a href="/wiki/Saul_Kripke" title="Saul Kripke">Kripke</a></li>
+<li><a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a></li>
+<li><a href="/wiki/Leopold_L%C3%B6wenheim" title="Leopold Löwenheim">Löwenheim</a></li>
+<li><a href="/wiki/Jan_%C5%81ukasiewicz" title="Jan Łukasiewicz">Łukasiewicz</a></li>
+<li><a href="/wiki/Giuseppe_Peano" title="Giuseppe Peano">Peano</a></li>
+<li><a href="/wiki/Charles_Sanders_Peirce" title="Charles Sanders Peirce">Peirce</a></li>
+<li><a href="/wiki/A._N._Prior" title="A. N. Prior" class="mw-redirect">Prior</a></li>
+<li><a href="/wiki/Hilary_Putnam" title="Hilary Putnam">Putnam</a></li>
+<li><a href="/wiki/Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine</a></li>
+<li><a href="/wiki/Bertrand_Russell" title="Bertrand Russell">Russell</a></li>
+<li><a href="/wiki/Ernst_Schr%C3%B6der" title="Ernst Schröder">Schröder</a></li>
+<li><a href="/wiki/Dana_Scott" title="Dana Scott">Scott</a></li>
+<li><a href="/wiki/Duns_Scotus" title="Duns Scotus">Scotus</a></li>
+<li><a href="/wiki/Thoralf_Skolem" title="Thoralf Skolem">Skolem</a></li>
+<li><a href="/wiki/Raymond_Smullyan" title="Raymond Smullyan">Smullyan</a></li>
+<li><a href="/wiki/Alfred_Tarski" title="Alfred Tarski">Tarski</a></li>
+<li><a href="/wiki/Alan_Turing" title="Alan Turing">Turing</a></li>
+<li><a href="/wiki/Alfred_North_Whitehead" title="Alfred North Whitehead">Whitehead</a></li>
+<li><a href="/wiki/William_of_Ockham" title="William of Ockham">William of Ockham</a></li>
+<li><a href="/wiki/Ludwig_Wittgenstein" title="Ludwig Wittgenstein">Wittgenstein</a></li>
+<li><a href="/wiki/Ernst_Zermelo" title="Ernst Zermelo">Zermelo</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;">Lists</div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="row" class="navbox-group">Topics</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Index_of_logic_articles" title="Index of logic articles">Index of logic articles</a></li>
+<li><a href="/wiki/List_of_mathematical_logic_topics" title="List of mathematical logic topics">Mathematical logic</a></li>
+<li><a href="/wiki/List_of_Boolean_algebra_topics" title="List of Boolean algebra topics">Boolean algebra</a></li>
+<li><a href="/wiki/List_of_set_theory_topics" title="List of set theory topics">Set theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Other</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/List_of_logicians" title="List of logicians">Logicians</a></li>
+<li><a href="/wiki/List_of_rules_of_inference" title="List of rules of inference">Rules of inference</a></li>
+<li><a href="/wiki/List_of_paradoxes" title="List of paradoxes">Paradoxes</a></li>
+<li><a href="/wiki/List_of_fallacies" title="List of fallacies">Fallacies</a></li>
+<li><a href="/wiki/List_of_logic_symbols" title="List of logic symbols">Logic symbols</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-even" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;"></div>
+<table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2" style=";;"><span style="float:left;width:6em;">&#160;</span>
+<div style="font-size:110%;"><a href="/wiki/List_of_logic_symbols" title="List of logic symbols">Common logical symbols</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<div style="font-size:130%;">
+<p><a href="/wiki/Ampersand" title="Ampersand">&amp;</a>&#160; &#160; <a href="/wiki/Vel_(symbol)" title="Vel (symbol)">∨</a>&#160; &#160; <a href="/wiki/Negation" title="Negation">¬</a>&#160; &#160; <a href="/wiki/Tilde" title="Tilde">~</a>&#160; &#160; <a href="/wiki/Arrow_(symbol)" title="Arrow (symbol)">→</a>&#160; &#160; <a href="/wiki/Horseshoe_(symbol)" title="Horseshoe (symbol)">⊃</a>&#160; &#160; <a href="/wiki/Triple_bar" title="Triple bar">≡</a>&#160; <a href="/wiki/Sheffer_stroke" title="Sheffer stroke">&#160;|&#160;</a> &#160; <a href="/wiki/Turned_A" title="Turned A">∀</a>&#160; &#160; <a href="/wiki/Turned_E" title="Turned E">∃</a>&#160; &#160; <a href="/wiki/Tee_(symbol)" title="Tee (symbol)">⊤</a>&#160; &#160; <a href="/wiki/Up_tack" title="Up tack">⊥</a>&#160; &#160; <a href="/wiki/Turnstile_(symbol)" title="Turnstile (symbol)">⊢</a>&#160; &#160; <a href="/wiki/Double_turnstile" title="Double turnstile">⊨</a>&#160; &#160; <a href="/wiki/Therefore_sign" title="Therefore sign">∴</a>&#160; &#160; <a href="/wiki/Therefore_sign#Related_signs" title="Therefore sign">∵</a></p>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><a href="/wiki/Portal:Logic" title="Portal:Logic">Portal</a></li>
+<li><a href="/wiki/Category:Logic" title="Category:Logic">Category</a></li>
+<li><a href="/wiki/Outline_of_logic" title="Outline of logic">Outline</a></li>
+<li><a href="/wiki/Wikipedia:WikiProject_Logic" title="Wikipedia:WikiProject Logic">WikiProject</a></li>
+<li><a href="/wiki/Wikipedia_talk:WikiProject_Logic" title="Wikipedia talk:WikiProject Logic">Talk</a></li>
+<li><a class="external text" href="//en.wikipedia.org/w/index.php?title=Special:Recentchangeslinked&amp;target=Template:Logic&amp;hidebots=0">changes</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1009
+CPU time usage: 0.992 seconds
+Real time usage: 1.038 seconds
+Preprocessor visited node count: 1797/1000000
+Preprocessor generated node count: 11956/1500000
+Post‐expand include size: 189480/2048000 bytes
+Template argument size: 15166/2048000 bytes
+Highest expansion depth: 13/40
+Expensive parser function count: 2/500
+Lua time usage: 0.126/10.000 seconds
+Lua memory usage: 2.27 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1151991-0!*!0!!en!4!* and timestamp 20140417222537 and revision id 602596990
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Logic_in_computer_science&amp;oldid=602596990">http://en.wikipedia.org/w/index.php?title=Logic_in_computer_science&amp;oldid=602596990</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Logic_in_computer_science" title="Category:Logic in computer science">Logic in computer science</a></li><li><a href="/wiki/Category:Formal_methods" title="Category:Formal methods">Formal methods</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Pages_containing_cite_templates_with_deprecated_parameters" title="Category:Pages containing cite templates with deprecated parameters">Pages containing cite templates with deprecated parameters</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Logic+in+computer+science&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Logic+in+computer+science" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Logic_in_computer_science"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Logic_in_computer_science"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Logic_in_computer_science" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Logic_in_computer_science&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Logic_in_computer_science" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Logic_in_computer_science" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Logic_in_computer_science&amp;oldid=602596990" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Logic_in_computer_science&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q2651693" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Logic_in_computer_science&amp;id=602596990" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Logic+in+computer+science">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Logic+in+computer+science&amp;oldid=602596990&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=Logic_in_computer_science&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-ca"><a href="//ca.wikipedia.org/wiki/L%C3%B2gica_computacional" title="Lògica computacional – Catalan" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/L%C3%B3gica_computacional" title="Lógica computacional – Spanish" lang="es" hreflang="es">Español</a></li>
+			<li class="interlanguage-link interwiki-eu"><a href="//eu.wikipedia.org/wiki/Logika_konputazional" title="Logika konputazional – Basque" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B8%D0%BA%D0%B0_%D0%B2_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B5" title="Логика в информатике – Russian" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interlanguage-link interwiki-uk"><a href="//uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D1%96%D0%BA%D0%B0_%D0%B2_%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D1%86%D1%96" title="Логіка в інформатиці – Ukrainian" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%BB%E8%BE%91" title="计算机逻辑 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+			<li class="uls-p-lang-dummy"><a href="#"></a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q2651693#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 3 April 2014 at 16:12.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/Logic_in_computer_science" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.24wmf1/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":196,"wgHostname":"mw1020"});
+}</script>
+	</body>
+</html>

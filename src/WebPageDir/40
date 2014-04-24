@@ -1,0 +1,946 @@
+http://en.wikipedia.org/wiki/Management_science
+2
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Operations research - Wikipedia, the free encyclopedia</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="generator" content="MediaWiki 1.23wmf22" />
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Operations_research" />
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Operations_research&amp;action=edit" />
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Operations_research&amp;action=edit" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/wikipedia.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/wikipedia.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://en.wikipedia.org/wiki/Operations_research" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.rtlcite%2Cwikihiero%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.ui.button%7Cskins.common.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: enwiki:resourceloader:filter:minify-css:7:3904d24a08aa08f6a68dc338f9be277e */</style>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Operations_research","wgTitle":"Operations research","wgCurRevisionId":604460027,"wgRevisionId":604460027,"wgArticleId":43476,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia articles needing rewrite from March 2013","Use dmy dates from November 2011","All articles with unsourced statements","Articles with unsourced statements from February 2007","Articles to be expanded from March 2010","All articles to be expanded","Articles with unsourced statements from December 2010","Articles using fixed number of columns in reflist","Commons category with local link same as on Wikidata","Industrial engineering","Operations research","Mathematical sciences","Mathematical optimization","Management","Fields of application of statistics","Engineering disciplines"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Operations_research","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Management_science","wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":false,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgFlowTermsOfUseEdit":"By saving changes, you agree to our \u003Ca class=\"external text\" href=\"//wikimediafoundation.org/wiki/Terms_of_use\"\u003ETerms of Use\u003C/a\u003E and agree to irrevocably release your text under the \u003Ca rel=\"nofollow\" class=\"external text\" href=\"//creativecommons.org/licenses/by-sa/3.0\"\u003ECC BY-SA 3.0 License\u003C/a\u003E and \u003Ca class=\"external text\" href=\"//en.wikipedia.org/wiki/Wikipedia:Text_of_the_GNU_Free_Documentation_License\"\u003EGFDL\u003C/a\u003E","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgFlaggedRevsParams":{"tags":{"status":{"levels":1,"quality":2,"pristine":3}}},"wgStableRevisionId":null,"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikipedia","wgWikibaseItemId":"Q194292"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"flaggedrevssimpleui":1,"flaggedrevsstable":0,"flaggedrevseditdiffs":true,"flaggedrevsviewdiffs":false,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"multimediaviewer-enable":true,"visualeditor-enable":0,"visualeditor-enable-experimental":0,"visualeditor-betatempdisable":0,"wikilove-enabled":1,"echo-subscriptions-web-page-review":true,"echo-subscriptions-email-page-review":false,"ep_showtoplink":false,"ep_bulkdelorgs":false,"ep_bulkdelcourses":true,"ep_showdyk":true,"echo-subscriptions-web-education-program":true,"echo-subscriptions-email-education-program":false,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":
+false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"gettingstarted-task-toolbar-show-intro":true,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs108":false,
+"searchNs109":false,"searchNs118":false,"searchNs119":false,"searchNs446":false,"searchNs447":false,"searchNs710":false,"searchNs711":false,"searchNs828":false,"searchNs829":false,"gadget-teahouse":1,"gadget-ReferenceTooltips":1,"gadget-DRN-wizard":1,"gadget-charinsert":1,"gadget-mySandbox":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: enwiki:resourceloader:filter:minify-js:7:f91b7921db835befbf3c85fee027f8c0 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.centralauth.centralautologin","mmv.head","skins.vector.compactPersonalBar.defaultTracking","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","wikibase.client.init","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" /><!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.23wmf22/skins/vector/csshover.min.htc")}</style><![endif]--></head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Operations_research skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div id="mw-js-message" style="display:none;"></div>
+						<div id="siteNotice"><!-- CentralNotice --></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Operations research</span></h1>
+						<div id="bodyContent">
+								<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub">  (Redirected from <a href="/w/index.php?title=Management_science&amp;redirect=no" title="Management science">Management science</a>)</div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table class="metadata plainlinks ambox ambox-content" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px;"><a href="/wiki/File:Crystal_Clear_app_kedit.svg" class="image"><img alt="Crystal Clear app kedit.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/40px-Crystal_Clear_app_kedit.svg.png" width="40" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/60px-Crystal_Clear_app_kedit.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Crystal_Clear_app_kedit.svg/80px-Crystal_Clear_app_kedit.svg.png 2x" data-file-width="128" data-file-height="128" /></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>may need to be rewritten entirely to comply with Wikipedia's <a href="/wiki/Wikipedia:Manual_of_Style" title="Wikipedia:Manual of Style">quality standards</a></b>. <span class="hide-when-compact"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Operations_research&amp;action=edit">You can help</a>. The <a href="/wiki/Talk:Operations_research" title="Talk:Operations research">discussion page</a> may contain suggestions.</span> <small><i>(March 2013)</i></small></span></td>
+</tr>
+</table>
+<div class="dablink">For the academic journal, see <a href="/wiki/Operations_Research_(journal)" title="Operations Research (journal)">Operations Research (journal)</a>.</div>
+<p><b>Operations research</b>, or <b>operational research</b> in British usage, is a discipline that deals with the application of advanced analytical methods to help make better decisions.<sup id="cite_ref-1" class="reference"><a href="#cite_note-1"><span>[</span>1<span>]</span></a></sup> It is often considered to be a sub-field of <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>.<sup id="cite_ref-2" class="reference"><a href="#cite_note-2"><span>[</span>2<span>]</span></a></sup> The terms <b>management science</b> and <b>decision science</b> are sometimes used as synonyms.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3"><span>[</span>3<span>]</span></a></sup></p>
+<p>Employing techniques from other mathematical sciences, such as <a href="/wiki/Mathematical_model" title="Mathematical model">mathematical modeling</a>, <a href="/wiki/Statistics" title="Statistics">statistical analysis</a>, and <a href="/wiki/Mathematical_optimization" title="Mathematical optimization">mathematical optimization</a>, operations research arrives at optimal or near-optimal solutions to complex decision-making problems. Because of its emphasis on human-technology interaction and because of its focus on practical applications, operations research has overlap with other disciplines, notably <a href="/wiki/Industrial_engineering" title="Industrial engineering">industrial engineering</a> and <a href="/wiki/Operations_management" title="Operations management">operations management</a>, and draws on <a href="/wiki/Psychology" title="Psychology">psychology</a> and <a href="/wiki/Organizational_studies" title="Organizational studies">organization science</a>. Operations research is often concerned with determining the <a href="/wiki/Maxima_and_minima" title="Maxima and minima">maximum</a> (of profit, performance, or yield) or minimum (of loss, risk, or cost) of some real-world objective. Originating in military efforts before World War II, its techniques have grown to concern problems in a variety of industries.<sup id="cite_ref-hsor.org_4-0" class="reference"><a href="#cite_note-hsor.org-4"><span>[</span>4<span>]</span></a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Overview"><span class="tocnumber">1</span> <span class="toctext">Overview</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Historical_origins"><span class="tocnumber">2.1</span> <span class="toctext">Historical origins</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Second_World_War"><span class="tocnumber">2.2</span> <span class="toctext">Second World War</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#After_World_War_II"><span class="tocnumber">2.3</span> <span class="toctext">After World War II</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#Problems_addressed"><span class="tocnumber">3</span> <span class="toctext">Problems addressed</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Management_science"><span class="tocnumber">4</span> <span class="toctext">Management science</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#Related_fields"><span class="tocnumber">4.1</span> <span class="toctext">Related fields</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Applications_of_management_science"><span class="tocnumber">4.2</span> <span class="toctext">Applications of management science</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Societies_and_journals"><span class="tocnumber">5</span> <span class="toctext">Societies and journals</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Notes"><span class="tocnumber">8</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#Further_reading"><span class="tocnumber">9</span> <span class="toctext">Further reading</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#External_links"><span class="tocnumber">10</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Overview">Overview</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=1" title="Edit section: Overview">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Operational research (OR) encompasses a wide range of problem-solving techniques and methods applied in the pursuit of improved decision-making and efficiency, such as <a href="/wiki/Simulation" title="Simulation">simulation</a>, <a href="/wiki/Mathematical_optimization" title="Mathematical optimization">mathematical optimization</a>, <a href="/wiki/Queueing_theory" title="Queueing theory">queueing theory</a> and other <a href="/wiki/Stochastic_process" title="Stochastic process">stochastic-process</a> models, <a href="/wiki/Markov_Decision_Process" title="Markov Decision Process" class="mw-redirect">Markov decision processes</a>, <a href="/wiki/Econometrics" title="Econometrics">econometric methods</a>, <a href="/wiki/Data_envelopment_analysis" title="Data envelopment analysis">data envelopment analysis</a>, <a href="/wiki/Neural_networks" title="Neural networks" class="mw-redirect">neural networks</a>, <a href="/wiki/Expert_System" title="Expert System" class="mw-redirect">expert systems</a>, <a href="/wiki/Decision_analysis" title="Decision analysis">decision analysis</a>, and the <a href="/wiki/Analytic_hierarchy_process" title="Analytic hierarchy process">analytic hierarchy process</a>.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5"><span>[</span>5<span>]</span></a></sup> Nearly all of these techniques involve the construction of mathematical models that attempt to describe the system. Because of the computational and statistical nature of most of these fields, OR also has strong ties to <a href="/wiki/Computer_science" title="Computer science">computer science</a> and <a href="/wiki/Analytics" title="Analytics">analytics</a>. Operational researchers faced with a new problem must determine which of these techniques are most appropriate given the nature of the system, the goals for improvement, and constraints on time and computing power.</p>
+<p>The major subdisciplines in modern operational research, as identified by the journal <i>Operations Research</i>,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6"><span>[</span>6<span>]</span></a></sup> are:</p>
+<ul>
+<li>Computing and information technologies</li>
+<li>Environment, energy, and natural resources</li>
+<li><a href="/wiki/Financial_engineering" title="Financial engineering">Financial engineering</a></li>
+<li><a href="/wiki/Manufacturing" title="Manufacturing">Manufacturing</a>, <a href="/wiki/Service_science" title="Service science" class="mw-redirect">service sciences</a>, and <a href="/wiki/Supply_chain_management" title="Supply chain management">supply chain management</a></li>
+<li>Marketing Engineering<sup id="cite_ref-7" class="reference"><a href="#cite_note-7"><span>[</span>7<span>]</span></a></sup></li>
+<li>Policy modeling and public sector work</li>
+<li>Revenue management</li>
+<li><a href="/wiki/Simulation" title="Simulation">Simulation</a></li>
+<li><a href="/wiki/Stochastics" title="Stochastics" class="mw-redirect">Stochastic models</a></li>
+<li>Transportation</li>
+</ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>As a formal discipline, operational research originated in the efforts of military planners during World War II. In the decades after the war, the techniques began to be applied more widely to problems in business, industry and society. Since that time, operational research has expanded into a field widely used in industries ranging from petrochemicals to airlines, finance, logistics, and government, moving to a focus on the development of mathematical models that can be used to analyse and optimize complex systems, and has become an area of active academic and industrial research.<sup id="cite_ref-hsor.org_4-1" class="reference"><a href="#cite_note-hsor.org-4"><span>[</span>4<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Historical_origins">Historical origins</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=3" title="Edit section: Historical origins">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>In the World War II era, operational research was defined as "a scientific method of providing executive departments with a quantitative basis for decisions regarding the operations under their control."<sup id="cite_ref-C67-3-4-48-para-1_8-0" class="reference"><a href="#cite_note-C67-3-4-48-para-1-8"><span>[</span>8<span>]</span></a></sup> Other names for it included operational analysis (UK Ministry of Defence from 1962)<sup id="cite_ref-PROCATWO291_9-0" class="reference"><a href="#cite_note-PROCATWO291-9"><span>[</span>9<span>]</span></a></sup> and quantitative management.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10"><span>[</span>10<span>]</span></a></sup></p>
+<p>Prior to the formal start of the field, early work in operational research was carried out by individuals such as <a href="/wiki/Charles_Babbage" title="Charles Babbage">Charles Babbage</a>. His research into the cost of transportation and sorting of mail led to England's <a href="/wiki/Uniform_Penny_Post" title="Uniform Penny Post">universal "Penny Post"</a> in 1840, and studies into the dynamical behaviour of railway vehicles in defence of the <a href="/wiki/Great_Western_Railway" title="Great Western Railway">GWR</a>'s broad gauge.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11"><span>[</span>11<span>]</span></a></sup> <a href="/wiki/Percy_Bridgman" title="Percy Bridgman" class="mw-redirect">Percy Bridgman</a> brought operational research to bear on problems in physics in the 1920s and would later attempt to extend these to the social sciences.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12"><span>[</span>12<span>]</span></a></sup> The modern field of operational research arose during World War II.</p>
+<p>Modern operational research originated at the <a href="/wiki/Telecommunications_Research_Establishment" title="Telecommunications Research Establishment">Bawdsey Research Station</a> in the UK in 1937 and was the result of an initiative of the station's superintendent, <a href="/wiki/Albert_Percival_Rowe" title="Albert Percival Rowe">A. P. Rowe</a>. Rowe conceived the idea as a means to analyse and improve the working of the UK's <a href="/wiki/Early_warning_radar" title="Early warning radar">early warning radar</a> system, <a href="/wiki/Chain_Home" title="Chain Home">Chain Home</a> (CH). Initially, he analysed the operating of the radar equipment and its communication networks, expanding later to include the operating personnel's behaviour. This revealed unappreciated limitations of the CH network and allowed remedial action to be taken.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13"><span>[</span>13<span>]</span></a></sup></p>
+<p>Scientists in the United Kingdom including <a href="/wiki/Patrick_Maynard_Stuart_Blackett" title="Patrick Maynard Stuart Blackett" class="mw-redirect">Patrick Blackett</a> (later Lord Blackett OM PRS), <a href="/w/index.php?title=Cecil_Gordon_(scientist)&amp;action=edit&amp;redlink=1" class="new" title="Cecil Gordon (scientist) (page does not exist)">Cecil Gordon</a>, <a href="/wiki/Conrad_Hal_Waddington" title="Conrad Hal Waddington">C. H. Waddington</a>, <a href="/wiki/Owen_Wansbrough-Jones" title="Owen Wansbrough-Jones">Owen Wansbrough-Jones</a>, <a href="/wiki/Frank_Yates" title="Frank Yates">Frank Yates</a>, <a href="/wiki/Jacob_Bronowski" title="Jacob Bronowski">Jacob Bronowski</a> and <a href="/wiki/Freeman_Dyson" title="Freeman Dyson">Freeman Dyson</a>, and in the United States with <a href="/wiki/George_Dantzig" title="George Dantzig">George Dantzig</a> looked for ways to make better decisions in such areas as <a href="/wiki/Logistics" title="Logistics">logistics</a> and training schedules. After the war it began to be applied to similar problems in industry.</p>
+<h3><span class="mw-headline" id="Second_World_War">Second World War</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=4" title="Edit section: Second World War">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>During the <a href="/wiki/World_War_II" title="World War II">Second World War</a> close to 1,000 men and women in Britain were engaged in operational research. About 200 operational research scientists worked for the <a href="/wiki/British_Army" title="British Army">British Army</a>.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14"><span>[</span>14<span>]</span></a></sup></p>
+<p><a href="/wiki/Patrick_Blackett" title="Patrick Blackett" class="mw-redirect">Patrick Blackett</a> worked for several different organizations during the war. Early in the war while working for the <a href="/wiki/Royal_Aircraft_Establishment" title="Royal Aircraft Establishment">Royal Aircraft Establishment</a> (RAE) he set up a team known as the "Circus" which helped to reduce the number of <a href="/wiki/Anti-aircraft_artillery" title="Anti-aircraft artillery" class="mw-redirect">anti-aircraft artillery</a> rounds needed to shoot down an enemy aircraft from an average of over 20,000 at the start of the <a href="/wiki/Battle_of_Britain" title="Battle of Britain">Battle of Britain</a> to 4,000 in 1941.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15"><span>[</span>15<span>]</span></a></sup></p>
+<p>In 1941 Blackett moved from the RAE to the Navy, after first working with <a href="/wiki/RAF_Coastal_Command" title="RAF Coastal Command">RAF Coastal Command</a>, in 1941 and then early in 1942 to the <a href="/wiki/Admiralty" title="Admiralty">Admiralty</a>.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16"><span>[</span>16<span>]</span></a></sup> Blackett's team at Coastal Command's Operational Research Section (CC-ORS) included two future <a href="/wiki/Nobel_prize" title="Nobel prize" class="mw-redirect">Nobel prize</a> winners and many other people who went on to be pre-eminent in their fields.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17"><span>[</span>17<span>]</span></a></sup> They undertook a number of crucial analyses that aided the war effort. Britain introduced the <a href="/wiki/Convoy" title="Convoy">convoy</a> system to reduce shipping losses, but while the principle of using warships to accompany merchant ships was generally accepted, it was unclear whether it was better for convoys to be small or large. Convoys travel at the speed of the slowest member, so small convoys can travel faster. It was also argued that small convoys would be harder for German <a href="/wiki/U-boat" title="U-boat">U-boats</a> to detect. On the other hand, large convoys could deploy more warships against an attacker. Blackett's staff showed that the losses suffered by convoys depended largely on the number of escort vessels present, rather than the size of the convoy. Their conclusion was that a few large convoys are more defensible than many small ones.<sup id="cite_ref-18" class="reference"><a href="#cite_note-18"><span>[</span>18<span>]</span></a></sup></p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:B_24_in_raf_service_23_03_05.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/B_24_in_raf_service_23_03_05.jpg/220px-B_24_in_raf_service_23_03_05.jpg" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/B_24_in_raf_service_23_03_05.jpg/330px-B_24_in_raf_service_23_03_05.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a1/B_24_in_raf_service_23_03_05.jpg/440px-B_24_in_raf_service_23_03_05.jpg 2x" data-file-width="525" data-file-height="350" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:B_24_in_raf_service_23_03_05.jpg" class="internal" title="Enlarge"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="/wiki/Consolidated_B-24_Liberator" title="Consolidated B-24 Liberator">Liberator</a> in standard RAF green/dark earth/black night bomber finish as originally used by Coastal Command</div>
+</div>
+</div>
+<p><span id="RAF_Coastal_Command.27s_Operational_Research_Section"></span>While performing an analysis of the methods used by <a href="/wiki/RAF_Coastal_Command" title="RAF Coastal Command">RAF Coastal Command</a> to hunt and destroy submarines, one of the analysts asked what colour the aircraft were. As most of them were from Bomber Command they were painted black for night-time operations. At the suggestion of CC-ORS a test was run to see if that was the best colour to camouflage the aircraft for daytime operations in the grey North Atlantic skies. Tests showed that aircraft painted white were on average not spotted until they were 20% closer than those painted black. This change indicated that 30% more submarines would be attacked and sunk for the same number of sightings.<sup id="cite_ref-19" class="reference"><a href="#cite_note-19"><span>[</span>19<span>]</span></a></sup> As a result of these findings Coastal Command changed their aircraft to using white undersurfaces.</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg/220px-Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg" width="220" height="139" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f2/Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg/330px-Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f2/Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg/440px-Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg 2x" data-file-width="600" data-file-height="380" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Vickers_Warwick_B_ASR_Mk1_-_BV285.jpg" class="internal" title="Enlarge"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+A <a href="/wiki/Vickers_Warwick" title="Vickers Warwick">Warwick</a> in the revised RAF Coastal Command green/dark grey/white finish</div>
+</div>
+</div>
+<p>Other work by the CC-ORS indicated that on average if the trigger depth of aerial-delivered <a href="/wiki/Depth_charge" title="Depth charge">depth charges</a> (DCs) were changed from 100 feet to 25 feet, the kill ratios would go up. The reason was that if a U-boat saw an aircraft only shortly before it arrived over the target then at 100 feet the charges would do no damage (because the U-boat wouldn't have had time to descend as far as 100 feet), and if it saw the aircraft a long way from the target it had time to alter course under water so the chances of it being within the 20-foot kill zone of the charges was small. It was more efficient to attack those submarines close to the surface when the targets' locations were better known than to attempt their destruction at greater depths when their positions could only be guessed. Before the change of settings from 100 feet to 25 feet, 1% of submerged U-boats were sunk and 14% damaged. After the change, 7% were sunk and 11% damaged. (If submarines were caught on the surface, even if attacked shortly after submerging, the numbers rose to 11% sunk and 15% damaged). Blackett observed "there can be few cases where such a great operational gain had been obtained by such a small and simple change of tactics".<sup id="cite_ref-20" class="reference"><a href="#cite_note-20"><span>[</span>20<span>]</span></a></sup></p>
+<p><span id="RAF_Bomber_Command.27s_Operational_Research_Section"></span>Bomber Command's Operational Research Section (BC-ORS), analysed a report of a survey carried out by <a href="/wiki/RAF_Bomber_Command" title="RAF Bomber Command">RAF Bomber Command</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (February 2007)">citation needed</span></a></i>]</sup> For the survey, Bomber Command inspected all bombers returning from bombing raids over Germany over a particular period. All damage inflicted by German <a href="/wiki/Anti-aircraft_warfare" title="Anti-aircraft warfare">air defences</a> was noted and the recommendation was given that armour be added in the most heavily damaged areas. This recommendation was not adopted because the fact that the aircraft returned with these areas damaged indicated these areas were NOT vital, and adding armour to non-vital areas where damage is acceptable negatively affects aircraft performance. Their suggestion to remove some of the crew so that an aircraft loss would result in fewer personnel losses, was also rejected by RAF command. Blackett's team made the logical recommendation that the armour be placed in the areas which were completely untouched by damage in the bombers which returned. They reasoned that the survey was biased, since it only included aircraft that returned to Britain. The untouched areas of returning aircraft were probably vital areas, which, if hit, would result in the loss of the aircraft.<sup id="cite_ref-21" class="reference"><a href="#cite_note-21"><span>[</span>21<span>]</span></a></sup></p>
+<div class="thumb tleft">
+<div class="thumbinner" style="width:152px;"><a href="/wiki/File:Kammhuber_Line_Map_-_Agent_Tegal.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kammhuber_Line_Map_-_Agent_Tegal.png/150px-Kammhuber_Line_Map_-_Agent_Tegal.png" width="150" height="210" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kammhuber_Line_Map_-_Agent_Tegal.png/225px-Kammhuber_Line_Map_-_Agent_Tegal.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/Kammhuber_Line_Map_-_Agent_Tegal.png/300px-Kammhuber_Line_Map_-_Agent_Tegal.png 2x" data-file-width="800" data-file-height="1121" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Kammhuber_Line_Map_-_Agent_Tegal.png" class="internal" title="Enlarge"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>
+Map of <i><a href="/wiki/Kammhuber_Line" title="Kammhuber Line">Kammhuber Line</a></i></div>
+</div>
+</div>
+<p>When Germany organised its air defences into the <a href="/wiki/Kammhuber_Line" title="Kammhuber Line">Kammhuber Line</a>, it was realised by the British that if the RAF bombers were to fly in a <a href="/wiki/Bomber_stream" title="Bomber stream">bomber stream</a> they could overwhelm the night fighters who flew in individual cells directed to their targets by ground controllers. It was then a matter of calculating the statistical loss from collisions against the statistical loss from night fighters to calculate how close the bombers should fly to minimise RAF losses.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22"><span>[</span>22<span>]</span></a></sup></p>
+<p>The "exchange rate" ratio of output to input was a characteristic feature of operational research. By comparing the number of flying hours put in by Allied aircraft to the number of U-boat sightings in a given area, it was possible to redistribute aircraft to more productive patrol areas. Comparison of exchange rates established "effectiveness ratios" useful in planning. The ratio of 60 <a href="/wiki/Mine_(naval)" title="Mine (naval)" class="mw-redirect">mines</a> laid per ship sunk was common to several campaigns: German mines in British ports, British mines on German routes, and United States mines in Japanese routes.<sup id="cite_ref-Proceedings_23-0" class="reference"><a href="#cite_note-Proceedings-23"><span>[</span>23<span>]</span></a></sup></p>
+<p>Operational research doubled the on-target bomb rate of <a href="/wiki/B-29" title="B-29" class="mw-redirect">B-29s</a> bombing Japan from the <a href="/wiki/Marianas_Islands" title="Marianas Islands" class="mw-redirect">Marianas Islands</a> by increasing the training ratio from 4 to 10 percent of flying hours; revealed that wolf-packs of three United States submarines were the most effective number to enable all members of the pack to engage targets discovered on their individual patrol stations; revealed that glossy enamel paint was more effective camouflage for night fighters than traditional dull camouflage paint finish, and the smooth paint finish increased airspeed by reducing skin friction.<sup id="cite_ref-Proceedings_23-1" class="reference"><a href="#cite_note-Proceedings-23"><span>[</span>23<span>]</span></a></sup></p>
+<p>On land, the operational research sections of the Army Operational Research Group (AORG) of the <a href="/wiki/Ministry_of_Supply" title="Ministry of Supply">Ministry of Supply</a> (MoS) were landed in <a href="/wiki/Operation_Overlord" title="Operation Overlord">Normandy in 1944</a>, and they followed British forces in the advance across Europe. They analysed, among other topics, the effectiveness of artillery, aerial bombing and anti-tank shooting.</p>
+<h3><span class="mw-headline" id="After_World_War_II">After World War II</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=5" title="Edit section: After World War II">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="metadata plainlinks ambox mbox-small-left ambox-content" role="presentation">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Wiki_letter_w_cropped.svg" class="image"><img alt="[icon]" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/20px-Wiki_letter_w_cropped.svg.png" width="20" height="14" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/30px-Wiki_letter_w_cropped.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Wiki_letter_w_cropped.svg/40px-Wiki_letter_w_cropped.svg.png 2x" data-file-width="44" data-file-height="31" /></a></td>
+<td class="mbox-text"><span class="mbox-text-span">This section requires <a class="external text" href="//en.wikipedia.org/w/index.php?title=Operations_research&amp;action=edit">expansion</a>. <small><i>(March 2010)</i></small></span></td>
+</tr>
+</table>
+<p>With expanded techniques and growing awareness of the field at the close of the war, operational research was no longer limited to only operational, but was extended to encompass equipment procurement, training, logistics and infrastructure. Operations Research also grew in many areas other than the military once scientists learned to apply its principles to the civilian sector. With the development of the <a href="/wiki/Simplex_algorithm" title="Simplex algorithm">simplex algorithm</a> for <a href="/wiki/Linear_Programming" title="Linear Programming" class="mw-redirect">Linear Programming</a> in 1947 <sup id="cite_ref-24" class="reference"><a href="#cite_note-24"><span>[</span>24<span>]</span></a></sup>and the development of computers over the next three decades, Operations Research can now “solve problems with hundreds of thousands of variables and constraints. Moreover, the large volumes of data required for such problems can be stored and manipulated very efficiently.” <sup id="cite_ref-25" class="reference"><a href="#cite_note-25"><span>[</span>25<span>]</span></a></sup></p>
+<h2><span class="mw-headline" id="Problems_addressed">Problems addressed</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=6" title="Edit section: Problems addressed">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Critical_path_analysis" title="Critical path analysis" class="mw-redirect">Critical path analysis</a> or <a href="/wiki/Project_planning" title="Project planning">project planning</a>: identifying those processes in a complex project which affect the overall duration of the project</li>
+<li><a href="/wiki/Floorplanning" title="Floorplanning" class="mw-redirect">Floorplanning</a>: designing the layout of equipment in a factory or components on a <a href="/wiki/Computer_chip" title="Computer chip" class="mw-redirect">computer chip</a> to reduce <a href="/wiki/Manufacturing" title="Manufacturing">manufacturing</a> time (therefore reducing cost)</li>
+<li><a href="/wiki/Telecommunications_network" title="Telecommunications network">Network optimization</a>: for instance, setup of telecommunications networks to maintain quality of service during outages</li>
+<li>Allocation problems</li>
+<li><a href="/wiki/Facility_location" title="Facility location" class="mw-redirect">Facility location</a></li>
+<li>Assignment Problems:
+<ul>
+<li><a href="/wiki/Assignment_problem" title="Assignment problem">Assignment problem</a></li>
+<li><a href="/wiki/Generalized_assignment_problem" title="Generalized assignment problem">Generalized assignment problem</a></li>
+<li><a href="/wiki/Quadratic_assignment_problem" title="Quadratic assignment problem">Quadratic assignment problem</a></li>
+<li><a href="/wiki/Weapon_target_assignment_problem" title="Weapon target assignment problem">Weapon target assignment problem</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Bayesian_search_theory" title="Bayesian search theory">Bayesian search theory</a>&#160;: looking for a target</li>
+<li><a href="/wiki/Search_theory" title="Search theory">Optimal search</a></li>
+<li><a href="/wiki/Routing" title="Routing">Routing</a>, such as determining the routes of buses so that as few buses are needed as possible</li>
+<li><a href="/wiki/Supply_chain_management" title="Supply chain management">Supply chain management</a>: managing the flow of raw materials and products based on uncertain demand for the finished products</li>
+<li>Efficient messaging and customer response tactics</li>
+<li><a href="/wiki/Automation" title="Automation">Automation</a>: automating or integrating robotic systems in human-driven operations processes</li>
+<li><a href="/wiki/Globalization" title="Globalization">Globalization</a>: globalizing operations processes in order to take advantage of cheaper materials, labor, land or other productivity inputs</li>
+<li>Transportation: managing <a href="/wiki/Freight" title="Freight" class="mw-redirect">freight</a> transportation and delivery systems (Examples: <a href="/wiki/Less-Than-Truckload_(LTL)_Shipping" title="Less-Than-Truckload (LTL) Shipping" class="mw-redirect">LTL Shipping</a>, <a href="/wiki/Intermodal_freight_transport" title="Intermodal freight transport">intermodal freight transport</a>)</li>
+<li><a href="/wiki/Scheduling_algorithm" title="Scheduling algorithm" class="mw-redirect">Scheduling</a>:
+<ul>
+<li>Personnel staffing</li>
+<li>Manufacturing steps</li>
+<li><a href="/wiki/Project_management" title="Project management">Project tasks</a></li>
+<li>Network data traffic: these are known as <a href="/wiki/Queueing_model" title="Queueing model" class="mw-redirect">queueing models</a> or queueing systems.</li>
+<li>Sports events and their television coverage</li>
+</ul>
+</li>
+<li>Blending of raw materials in oil refineries</li>
+<li>Determining optimal prices, in many retail and B2B settings, within the disciplines of <a href="/wiki/Pricing_science" title="Pricing science">pricing science</a></li>
+</ul>
+<p>Operational research is also used extensively in government where <a href="/wiki/Evidence-based_policy" title="Evidence-based policy">evidence-based policy</a> is used.</p>
+<h2><span class="mw-headline" id="Management_science">Management science</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=7" title="Edit section: Management science">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In 1967 <a href="/wiki/Stafford_Beer" title="Stafford Beer" class="mw-redirect">Stafford Beer</a> characterized the field of management science as "the business use of operations research".<sup id="cite_ref-26" class="reference"><a href="#cite_note-26"><span>[</span>26<span>]</span></a></sup> However, in modern times the term management science may also be used to refer to the separate fields of <a href="/wiki/Organizational_studies" title="Organizational studies">organizational studies</a> or <a href="/wiki/Corporate_strategy" title="Corporate strategy" class="mw-redirect">corporate strategy</a>.<sup class="Template-Fact" style="white-space:nowrap;">[<i><a href="/wiki/Wikipedia:Citation_needed" title="Wikipedia:Citation needed"><span title="This claim needs references to reliable sources. (December 2010)">citation needed</span></a></i>]</sup> Like operational research itself, management science (MS) is an interdisciplinary branch of applied mathematics devoted to optimal decision planning, with strong links with economics, business, engineering, and other <a href="/wiki/Sciences" title="Sciences" class="mw-redirect">sciences</a>. It uses various <a href="/wiki/Scientific_research" title="Scientific research" class="mw-redirect">scientific research</a>-based principles, <a href="/wiki/Strategies" title="Strategies" class="mw-redirect">strategies</a>, and <a href="/wiki/Analytical_method" title="Analytical method" class="mw-redirect">analytical methods</a> including <a href="/wiki/Mathematical_model" title="Mathematical model">mathematical modeling</a>, statistics and <a href="/wiki/Numerical_algorithm" title="Numerical algorithm" class="mw-redirect">numerical algorithms</a> to improve an organization's ability to enact rational and meaningful management decisions by arriving at optimal or near optimal solutions to complex decision problems. In short, management sciences help businesses to achieve their goals using the scientific methods of operational research.</p>
+<p>The management scientist's mandate is to use rational, systematic, science-based techniques to inform and improve decisions of all kinds. Of course, the techniques of management science are not restricted to business applications but may be applied to military, medical, public administration, charitable groups, political groups or community groups.</p>
+<p>Management science is concerned with developing and applying <a href="/wiki/Scientific_modeling" title="Scientific modeling" class="mw-redirect">models</a> and <a href="/wiki/Concept" title="Concept">concepts</a> that may prove useful in helping to illuminate management issues and solve managerial problems, as well as designing and developing new and better models of organizational excellence.<sup id="cite_ref-LS_27-0" class="reference"><a href="#cite_note-LS-27"><span>[</span>27<span>]</span></a></sup></p>
+<p>The application of these models within the corporate sector became known as management science.<sup id="cite_ref-UTK_28-0" class="reference"><a href="#cite_note-UTK-28"><span>[</span>28<span>]</span></a></sup></p>
+<h3><span class="mw-headline" id="Related_fields">Related fields</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=8" title="Edit section: Related fields">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Some of the fields that have considerable overlap with Operations Research and Management Science include:</p>
+<div>
+<table style="width: 100%; background-color:transparent;table-layout:fixed; border:none; border-spacing:0;" role="presentation">
+<tr style="vertical-align: top;">
+<td>
+<div style="margin-right:20px;">
+<ul>
+<li><a href="/wiki/Business_Analytics" title="Business Analytics" class="mw-redirect">Business Analytics</a></li>
+<li><a href="/wiki/Data_mining" title="Data mining">Data mining</a></li>
+<li><a href="/wiki/Decision_analysis" title="Decision analysis">Decision analysis</a></li>
+<li><a href="/wiki/Engineering" title="Engineering">Engineering</a></li>
+<li><a href="/wiki/Financial_engineering" title="Financial engineering">Financial engineering</a></li>
+<li><a href="/wiki/Forecasting" title="Forecasting">Forecasting</a></li>
+<li><a href="/wiki/Game_theory" title="Game theory">Game theory</a></li>
+<li><a href="/wiki/Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial engineering</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div style="margin-right: 20px;">
+<ul>
+<li><a href="/wiki/Logistics" title="Logistics">Logistics</a></li>
+<li><a href="/wiki/Mathematical_modeling" title="Mathematical modeling" class="mw-redirect">Mathematical modeling</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Mathematical optimization</a></li>
+<li><a href="/wiki/Probability_and_statistics" title="Probability and statistics">Probability and statistics</a></li>
+<li><a href="/wiki/Project_management" title="Project management">Project management</a></li>
+<li><a href="/wiki/Policy_analysis" title="Policy analysis">Policy analysis</a></li>
+<li><a href="/wiki/Simulation" title="Simulation">Simulation</a></li>
+<li><a href="/wiki/Social_network" title="Social network">Social network</a>/<a href="/wiki/Transportation_forecasting" title="Transportation forecasting">Transportation forecasting</a> models</li>
+<li><a href="/wiki/Stochastic_processes" title="Stochastic processes" class="mw-redirect">Stochastic processes</a></li>
+<li><a href="/wiki/Supply_chain_management" title="Supply chain management">Supply chain management</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h3><span class="mw-headline" id="Applications_of_management_science">Applications of management science</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=9" title="Edit section: Applications of management science">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Applications of management science are abundant in industry as airlines, manufacturing companies, <a href="/wiki/Service_organization" title="Service organization" class="mw-redirect">service organizations</a>, military branches, and in government. The range of problems and issues to which management science has contributed insights and solutions is vast. It includes:<sup id="cite_ref-LS_27-1" class="reference"><a href="#cite_note-LS-27"><span>[</span>27<span>]</span></a></sup></p>
+<ul>
+<li>scheduling airlines, including both planes and crew,</li>
+<li>deciding the appropriate place to site new facilities such as a warehouse, factory or fire station,</li>
+<li>managing the flow of water from reservoirs,</li>
+<li>identifying possible future development paths for parts of the telecommunications industry,</li>
+<li>establishing the information needs and appropriate systems to supply them within the health service, and</li>
+<li>identifying and understanding the strategies adopted by companies for their information systems</li>
+</ul>
+<p>Management science is also concerned with so-called ”soft-operational analysis”, which concerns methods for strategic planning, strategic decision support, and Problem Structuring Methods (PSM). In dealing with these sorts of challenges mathematical modeling and simulation are not appropriate or will not suffice. Therefore, during the past 30 years, a number of non-quantified modeling methods have been developed. These include:</p>
+<ul>
+<li>stakeholder based approaches including <a href="/wiki/Metagame_analysis" title="Metagame analysis">metagame analysis</a> and drama theory</li>
+<li><a href="/wiki/Morphological_analysis_(problem-solving)" title="Morphological analysis (problem-solving)">morphological analysis</a> and various forms of <a href="/wiki/Influence_diagram" title="Influence diagram">influence diagrams</a>.</li>
+<li>approaches using cognitive mapping</li>
+<li>the Strategic Choice Approach</li>
+<li>robustness analysis</li>
+</ul>
+<h2><span class="mw-headline" id="Societies_and_journals">Societies and journals</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=10" title="Edit section: Societies and journals">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl>
+<dt>Societies</dt>
+</dl>
+<p>The <a href="/wiki/International_Federation_of_Operational_Research_Societies" title="International Federation of Operational Research Societies">International Federation of Operational Research Societies</a> (IFORS)<sup id="cite_ref-29" class="reference"><a href="#cite_note-29"><span>[</span>29<span>]</span></a></sup> is an <a href="/wiki/Umbrella_organization" title="Umbrella organization">umbrella organization</a> for operational research societies worldwide, representing approximately 50 national societies including those in the US,<sup id="cite_ref-30" class="reference"><a href="#cite_note-30"><span>[</span>30<span>]</span></a></sup> UK,<sup id="cite_ref-31" class="reference"><a href="#cite_note-31"><span>[</span>31<span>]</span></a></sup> France,<sup id="cite_ref-32" class="reference"><a href="#cite_note-32"><span>[</span>32<span>]</span></a></sup> Germany, Canada,<sup id="cite_ref-33" class="reference"><a href="#cite_note-33"><span>[</span>33<span>]</span></a></sup> Australia,<sup id="cite_ref-34" class="reference"><a href="#cite_note-34"><span>[</span>34<span>]</span></a></sup> New Zealand,<sup id="cite_ref-35" class="reference"><a href="#cite_note-35"><span>[</span>35<span>]</span></a></sup> Philippines,<sup id="cite_ref-36" class="reference"><a href="#cite_note-36"><span>[</span>36<span>]</span></a></sup> India,<sup id="cite_ref-37" class="reference"><a href="#cite_note-37"><span>[</span>37<span>]</span></a></sup> Japan and South Africa (<a href="/wiki/Operations_Research_Society_of_South_Africa" title="Operations Research Society of South Africa">ORSSA</a>).<sup id="cite_ref-38" class="reference"><a href="#cite_note-38"><span>[</span>38<span>]</span></a></sup> The constituent members of IFORS form regional groups, such as that in Europe.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39"><span>[</span>39<span>]</span></a></sup> Other important operational research organizations are <a href="/wiki/Simulation_Interoperability_Standards_Organization" title="Simulation Interoperability Standards Organization">Simulation Interoperability Standards Organization</a> (SISO)<sup id="cite_ref-40" class="reference"><a href="#cite_note-40"><span>[</span>40<span>]</span></a></sup> and <a href="/wiki/Interservice/Industry_Training,_Simulation_and_Education_Conference" title="Interservice/Industry Training, Simulation and Education Conference">Interservice/Industry Training, Simulation and Education Conference</a> (I/ITSEC)<sup id="cite_ref-41" class="reference"><a href="#cite_note-41"><span>[</span>41<span>]</span></a></sup></p>
+<p>In 2004 the US-based organization INFORMS began an initiative to market the OR profession better, including a website entitled <i>The Science of Better</i><sup id="cite_ref-42" class="reference"><a href="#cite_note-42"><span>[</span>42<span>]</span></a></sup> which provides an introduction to OR and examples of successful applications of OR to industrial problems. This initiative has been adopted by the Operational Research Society in the UK, including a website entitled <i>Learn about OR</i>.<sup id="cite_ref-43" class="reference"><a href="#cite_note-43"><span>[</span>43<span>]</span></a></sup></p>
+<dl>
+<dt>Journals</dt>
+</dl>
+<p>The <a href="/wiki/Institute_for_Operations_Research_and_the_Management_Sciences" title="Institute for Operations Research and the Management Sciences">Institute for Operations Research and the Management Sciences</a> (INFORMS) publishes thirteen scholarly journals about operations research, including the top two journals in their class, according to 2005 <a href="/wiki/Journal_Citation_Reports" title="Journal Citation Reports">Journal Citation Reports</a>.<sup id="cite_ref-44" class="reference"><a href="#cite_note-44"><span>[</span>44<span>]</span></a></sup> They are:</p>
+<ul>
+<li><i>Decision Analysis</i><sup id="cite_ref-45" class="reference"><a href="#cite_note-45"><span>[</span>45<span>]</span></a></sup></li>
+<li><i><a href="/wiki/Information_Systems_Research" title="Information Systems Research">Information Systems Research</a></i></li>
+<li><i>INFORMS Journal on Computing</i></li>
+<li><i>INFORMS Transactions on Education</i><sup id="cite_ref-46" class="reference"><a href="#cite_note-46"><span>[</span>46<span>]</span></a></sup> (an open access journal)</li>
+<li><i><a href="/wiki/Interfaces:_An_International_Journal_of_the_Institute_for_Operations_Research_and_the_Management_Science" title="Interfaces: An International Journal of the Institute for Operations Research and the Management Science" class="mw-redirect">Interfaces: An International Journal of the Institute for Operations Research and the Management Science</a></i>s</li>
+<li><i><a href="/wiki/Management_Science:_A_Journal_of_the_Institute_for_Operations_Research_and_the_Management_Sciences" title="Management Science: A Journal of the Institute for Operations Research and the Management Sciences" class="mw-redirect">Management Science: A Journal of the Institute for Operations Research and the Management Sciences</a></i></li>
+<li><i><a href="/wiki/Manufacturing_%26_Service_Operations_Management" title="Manufacturing &amp; Service Operations Management">Manufacturing &amp; Service Operations Management</a></i></li>
+<li><i><a href="/wiki/Marketing_Science" title="Marketing Science" class="mw-redirect">Marketing Science</a></i></li>
+<li><i><a href="/wiki/Mathematics_of_Operations_Research" title="Mathematics of Operations Research">Mathematics of Operations Research</a></i></li>
+<li><i><a href="/wiki/Operations_Research:_A_Journal_of_the_Institute_for_Operations_Research_and_the_Management_Sciences" title="Operations Research: A Journal of the Institute for Operations Research and the Management Sciences" class="mw-redirect">Operations Research: A Journal of the Institute for Operations Research and the Management Sciences</a></i></li>
+<li><i>Organization Science</i></li>
+<li><a rel="nofollow" class="external text" href="http://servsci.journal.informs.org/"><i>Service Science</i></a></li>
+<li><i><a href="/wiki/Transportation_Science" title="Transportation Science">Transportation Science</a></i>.</li>
+</ul>
+<dl>
+<dt>Other journals</dt>
+</dl>
+<ul>
+<li><i>4OR-A Quarterly Journal of Operations Research</i>: jointly published the Belgian, French and Italian Operations Research Societies (Springer);</li>
+<li><i><a href="/wiki/Decision_Sciences" title="Decision Sciences">Decision Sciences</a></i> published by Wiley-Blackwell on behalf of the <a href="/wiki/Decision_Sciences_Institute" title="Decision Sciences Institute">Decision Sciences Institute</a></li>
+<li><i>European Journal of Operational Research (EJOR)</i>: Founded in 1975 and is presently by far the largest operational research journal in the world, with its around 9,000 pages of published papers per year. In 2004, its total number of citations was the second largest amongst Operational Research and Management Science journals;</li>
+<li><i>INFOR Journal</i>: published and sponsored by the Canadian Operational Research Society;</li>
+<li><i>International Journal of Operations Research and Information Systems (IJORIS)": an official publication of the Information Resources Management Association, published quarterly by IGI Global;<sup id="cite_ref-47" class="reference"><a href="#cite_note-47"><span>[</span>47<span>]</span></a></sup></i></li>
+<li><i>Journal of Defense Modeling and Simulation (JDMS): Applications, Methodology, Technology</i>: a quarterly journal devoted to advancing the science of modeling and simulation as it relates to the military and defense.<sup id="cite_ref-48" class="reference"><a href="#cite_note-48"><span>[</span>48<span>]</span></a></sup></li>
+<li><i>Journal of the Operational Research Society (JORS)</i>: an official journal of The OR Society; this is the oldest continuously published journal of OR in the world, published by Palgrave;<sup id="cite_ref-The_OR_Society_49-0" class="reference"><a href="#cite_note-The_OR_Society-49"><span>[</span>49<span>]</span></a></sup></li>
+<li><i>Journal of Simulation (JOS)</i>: an official journal of The OR Society, published by Palgrave;<sup id="cite_ref-The_OR_Society_49-1" class="reference"><a href="#cite_note-The_OR_Society-49"><span>[</span>49<span>]</span></a></sup></li>
+<li><i>Mathematical Methods of Operations Research (MMOR)</i>: the journal of the German and Dutch OR Societies, published by Springer;<sup id="cite_ref-50" class="reference"><a href="#cite_note-50"><span>[</span>50<span>]</span></a></sup></li>
+<li><i>Military Operations Research (MOR)</i>: published by the <a href="/wiki/Military_Operations_Research_Society" title="Military Operations Research Society">Military Operations Research Society</a>;</li>
+<li><i>Opsearch</i>: official journal of the Operational Research Society of India;</li>
+<li><i>OR Insight</i>: a quarterly journal of The OR Society, published by Palgrave;<sup id="cite_ref-The_OR_Society_49-2" class="reference"><a href="#cite_note-The_OR_Society-49"><span>[</span>49<span>]</span></a></sup></li>
+<li><i><a href="/wiki/Production_and_Operations_Management" title="Production and Operations Management">Production and Operations Management</a></i>, the official journal of the Production and Operations Management Society</li>
+<li><i>TOP</i>: the official journal of the Spanish Society of Statistics and Operations Research.<sup id="cite_ref-51" class="reference"><a href="#cite_note-51"><span>[</span>51<span>]</span></a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div>
+<table style="width: 100%; background-color:transparent;table-layout:fixed; border:none; border-spacing:0;" role="presentation">
+<tr style="vertical-align: top;">
+<td>
+<div style="margin-right:20px;">
+<dl>
+<dt>Operation research topics</dt>
+</dl>
+<ul>
+<li><a href="/wiki/Assignment_problem" title="Assignment problem">Assignment problem</a></li>
+<li><a href="/wiki/Decision_analysis" title="Decision analysis">Decision analysis</a></li>
+<li><a href="/wiki/Dynamic_programming" title="Dynamic programming">Dynamic programming</a></li>
+<li><a href="/wiki/Inventory_theory" title="Inventory theory">Inventory theory</a></li>
+<li><a href="/wiki/Linear_programming" title="Linear programming">Linear programming</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Mathematical optimization</a></li>
+<li><a href="/wiki/Optimal_maintenance" title="Optimal maintenance">Optimal maintenance</a></li>
+<li><a href="/wiki/Queueing_theory" title="Queueing theory">Queueing theory</a></li>
+<li><a href="/wiki/Real_options_analysis" title="Real options analysis" class="mw-redirect">Real options analysis</a></li>
+<li><a href="/wiki/Stochastic_processes" title="Stochastic processes" class="mw-redirect">Stochastic processes</a></li>
+<li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
+<li><a href="/wiki/Systems_thinking" title="Systems thinking">Systems thinking</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div style="margin-right: 20px;">
+<dl>
+<dt>Operation researchers</dt>
+</dl>
+<ul>
+<li><a href="/wiki/Category:Operations_researchers" title="Category:Operations researchers">Operations researcher category</a></li>
+<li><a href="/wiki/Russell_L._Ackoff" title="Russell L. Ackoff">Russell L. Ackoff</a></li>
+<li><a href="/wiki/Anthony_Stafford_Beer" title="Anthony Stafford Beer">Anthony Stafford Beer</a></li>
+<li><a href="/wiki/Alfred_Blumstein" title="Alfred Blumstein">Alfred Blumstein</a></li>
+<li><a href="/wiki/C._West_Churchman" title="C. West Churchman">C. West Churchman</a></li>
+<li><a href="/wiki/William_W._Cooper" title="William W. Cooper">William W. Cooper</a></li>
+<li><a href="/wiki/George_Dantzig" title="George Dantzig">George Dantzig</a></li>
+<li><a href="/wiki/Richard_Karp" title="Richard Karp" class="mw-redirect">Richard Karp</a></li>
+<li><a href="/wiki/Ramayya_Krishnan" title="Ramayya Krishnan">Ramayya Krishnan</a></li>
+<li><a href="/wiki/Frederick_W._Lanchester" title="Frederick W. Lanchester">Frederick W. Lanchester</a></li>
+<li><a href="/wiki/Thomas_L._Magnanti" title="Thomas L. Magnanti">Thomas L. Magnanti</a></li>
+<li><a href="/wiki/Alvin_E._Roth" title="Alvin E. Roth">Alvin E. Roth</a></li>
+<li><a href="/wiki/Peter_Whittle" title="Peter Whittle">Peter Whittle</a></li>
+</ul>
+</div>
+</td>
+<td>
+<div style="margin-right: 20px;">
+<dl>
+<dt>Related fields</dt>
+</dl>
+<ul>
+<li><a href="/wiki/Behavioral_operations_research" title="Behavioral operations research">Behavioral operations research</a></li>
+<li><a href="/wiki/Big_data" title="Big data">Big data</a></li>
+<li><a href="/wiki/Business_engineering" title="Business engineering">Business engineering</a></li>
+<li><a href="/wiki/Database_normalization" title="Database normalization">Database normalization</a></li>
+<li><a href="/wiki/Econometrics" title="Econometrics">Econometrics</a></li>
+<li><a href="/wiki/Industrial_engineering" title="Industrial engineering">Industrial engineering</a></li>
+<li><a href="/wiki/Industrial_organization" title="Industrial organization">Industrial organization</a></li>
+<li><a href="/wiki/Management_engineering" title="Management engineering" class="mw-redirect">Management engineering</a></li>
+<li><a href="/wiki/Managerial_economics" title="Managerial economics">Managerial economics</a></li>
+<li><a href="/wiki/Military_simulation" title="Military simulation">Military simulation</a></li>
+<li><a href="/wiki/Modeling_and_simulation" title="Modeling and simulation">Modeling and simulation</a></li>
+<li><a href="/wiki/Reliability_engineering" title="Reliability engineering">Reliability engineering</a></li>
+<li><a href="/wiki/Scientific_management" title="Scientific management">Scientific management</a></li>
+<li><a href="/wiki/Search-based_software_engineering" title="Search-based software engineering">Search-based software engineering</a></li>
+<li><a href="/wiki/Simulation" title="Simulation">Simulation</a></li>
+<li><a href="/wiki/System_dynamics" title="System dynamics">System dynamics</a></li>
+<li><a href="/wiki/System_safety" title="System safety">System safety</a></li>
+<li><a href="/wiki/Systems_theory" title="Systems theory">Systems theory</a></li>
+<li><a href="/wiki/Wargaming" title="Wargaming">Wargaming</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=12" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.informs.org/About-INFORMS/About-Operations-Research">"About Operations Research"</a>. INFORMS.org<span class="reference-accessdate">. Retrieved 7 January 2012</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=About+Operations+Research&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.informs.org%2FAbout-INFORMS%2FAbout-Operations-Research&amp;rft.pub=INFORMS.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.mathontheweb.org/mathweb/mi-mathbyclass.html">"Mathematics Subject Classification"</a>. American Mathematical Society. 23 May 2011<span class="reference-accessdate">. Retrieved 7 January 2012</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=Mathematics+Subject+Classification&amp;rft.date=23+May+2011&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.mathontheweb.org%2Fmathweb%2Fmi-mathbyclass.html&amp;rft.pub=American+Mathematical+Society&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><span id="CITEREFWetherbe1979" class="citation">Wetherbe, James C. (1979), <i>Systems analysis for computer-based information systems</i>, West series in data processing and information systems, West Pub. Co., <a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a>&#160;<a href="/wiki/Special:BookSources/9780829902280" title="Special:BookSources/9780829902280">9780829902280</a>, "A systems analyst who contributes in the area of DSS must be skilled in such areas as management science (synonymous with decision science and operations research), modeling, simulation, and advanced statistics."</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aufirst=James+C.&amp;rft.aulast=Wetherbe&amp;rft.au=Wetherbe%2C+James+C.&amp;rft.btitle=Systems+analysis+for+computer-based+information+systems&amp;rft.date=1979&amp;rft.genre=book&amp;rft.isbn=9780829902280&amp;rft.pub=West+Pub.+Co.&amp;rft.series=West+series+in+data+processing+and+information+systems&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-hsor.org-4"><span class="mw-cite-backlink">^ <a href="#cite_ref-hsor.org_4-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-hsor.org_4-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.hsor.org/what_is_or.cfm">"What is OR"</a>. HSOR.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=What+is+OR&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.hsor.org%2Fwhat_is_or.cfm&amp;rft.pub=HSOR.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.bls.gov/oco/ocos044.htm">"Operations Research Analysts"</a>. Bls.gov<span class="reference-accessdate">. Retrieved 27 January 2012</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=Operations+Research+Analysts&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.bls.gov%2Foco%2Focos044.htm&amp;rft.pub=Bls.gov&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www3.informs.org/site/OperationsResearch/index.php?c=10&amp;kat=Forthcoming+Papers">"OR / Pubs / IOL Home"</a>. INFORMS.org. 2 January 2009<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=OR+%2F+Pubs+%2F+IOL+Home&amp;rft.date=2+January+2009&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww3.informs.org%2Fsite%2FOperationsResearch%2Findex.php%3Fc%3D10%26kat%3DForthcoming%2BPapers&amp;rft.pub=INFORMS.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.decisionpro.biz">"DecisionPro, Inc. – Makers of Marketing Engineering Software – Home Page"</a>. Decisionpro.biz<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=DecisionPro%2C+Inc.+%E2%80%93+Makers+of+Marketing+Engineering+Software+%E2%80%93+Home+Page&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.decisionpro.biz&amp;rft.pub=Decisionpro.biz&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-C67-3-4-48-para-1-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-C67-3-4-48-para-1_8-0">^</a></b></span> <span class="reference-text">"Operational Research in the British Army 1939–1945, October 1947, Report C67/3/4/48, UK National Archives file WO291/1301<br />
+Quoted on the dust-jacket of: Morse, Philip M, and Kimball, George E, <i>Methods of Operations Research</i>, 1st Edition Revised, pub MIT Press &amp; J Wiley, 5th printing, 1954.</span></li>
+<li id="cite_note-PROCATWO291-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-PROCATWO291_9-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.nationalarchives.gov.uk/catalogue/displaycataloguedetails.asp?CATID=109&amp;CATLN=2&amp;Highlight=&amp;FullDetails=True">UK National Archives Catalogue for WO291</a> lists a War Office organisation called <a href="/wiki/Army_Operational_Research_Group" title="Army Operational Research Group" class="mw-redirect">Army Operational Research Group</a> (AORG) that existed from 1946 to 1962. "In January 1962 the name was changed to Army Operational Research Establishment (AORE). Following the creation of a unified Ministry of Defence, a tri-service operational research organisation was established: the <a href="/w/index.php?title=Defence_Operational_Research_Establishment&amp;action=edit&amp;redlink=1" class="new" title="Defence Operational Research Establishment (page does not exist)">Defence Operational Research Establishment</a> (DOAE) which was formed in 1965, and it absorbed the Army Operational Research Establishment based at West Byfleet."</span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://brochure.unisa.ac.za/myunisa/data/subjects/Quantitative%20Management.pdf">http://brochure.unisa.ac.za/myunisa/data/subjects/Quantitative%20Management.pdf</a></span></li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">M.S. Sodhi, "What about the 'O' in O.R.?" OR/MS Today, December, 2007, p. 12, <a rel="nofollow" class="external free" href="http://www.lionhrtpub.com/orms/orms-12-07/frqed.html">http://www.lionhrtpub.com/orms/orms-12-07/frqed.html</a></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text">P. W. Bridgman, The Logic of Modern Physics, The MacMillan Company, New York, 1927</span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.britannica.com/EBchecked/topic/682073/operations-research/68171/History#ref22348">"operations research (industrial engineering)&#160;:: History – Britannica Online Encyclopedia"</a>. Britannica.com<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=operations+research+%28industrial+engineering%29+%3A%3A+History+%E2%80%93+Britannica+Online+Encyclopedia&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F682073%2Foperations-research%2F68171%2FHistory%23ref22348&amp;rft.pub=Britannica.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text">Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA117">p. 117</a></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text">Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA94">pp. 91–94</a></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text">Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA109">p. 96,109</a></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text">Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA96">p. 96</a></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.familyheritage.ca/Articles/victory1943.html">"<span style="padding-left:0.2em;">"</span>Numbers are Essential": Victory in the North Atlantic Reconsidered, March–May 1943"</a>. Familyheritage.ca. 24 May 1943<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=%22Numbers+are+Essential%22%3A+Victory+in+the+North+Atlantic+Reconsidered%2C+March%E2%80%93May+1943&amp;rft.date=24+May+1943&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.familyheritage.ca%2FArticles%2Fvictory1943.html&amp;rft.pub=Familyheritage.ca&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-19">^</a></b></span> <span class="reference-text">Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA101">p. 101</a></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">(Kirby, <a rel="nofollow" class="external text" href="http://books.google.co.uk/books?id=DWITTpkFPEAC&amp;lpg=PA141&amp;pg=PA103">pp. 102,103</a>)</span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><span class="citation book">James F. Dunnigan (1999). <i>Dirty Little Secrets of the Twentieth Century</i>. <a href="/wiki/Harper_Paperbacks" title="Harper Paperbacks" class="mw-redirect">Harper Paperbacks</a>. pp.&#160;215–217.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.au=James+F.+Dunnigan&amp;rft.aulast=James+F.+Dunnigan&amp;rft.btitle=Dirty+Little+Secrets+of+the+Twentieth+Century&amp;rft.date=1999&amp;rft.genre=book&amp;rft.pages=215-217&amp;rft.pub=Harper+Paperbacks&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.raf.mod.uk/bombercommand/thousands.html">"RAF History – Bomber Command 60th Anniversary"</a>. Raf.mod.uk<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=RAF+History+%E2%80%93+Bomber+Command+60th+Anniversary&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.raf.mod.uk%2Fbombercommand%2Fthousands.html&amp;rft.pub=Raf.mod.uk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-Proceedings-23"><span class="mw-cite-backlink">^ <a href="#cite_ref-Proceedings_23-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Proceedings_23-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><span class="citation journal">Milkman, Raymond H. (May 1968). <i>Operations Research in World War II</i>. <a href="/wiki/United_States_Naval_Institute" title="United States Naval Institute">United States Naval Institute</a> Proceedings.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aulast=Milkman%2C+Raymond+H.&amp;rft.au=Milkman%2C+Raymond+H.&amp;rft.btitle=Operations+Research+in+World+War+II&amp;rft.date=May+1968&amp;rft.genre=book&amp;rft.pub=United+States+Naval+Institute+Proceedings&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-24">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.pitt.edu/~jrclass/or/or-intro.html#history">http://www.pitt.edu/~jrclass/or/or-intro.html#history</a></span></li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external free" href="http://www.pitt.edu/~jrclass/or/or-intro.html#history">http://www.pitt.edu/~jrclass/or/or-intro.html#history</a></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><a href="/wiki/Stafford_Beer" title="Stafford Beer" class="mw-redirect">Stafford Beer</a> (1967) <i>Management Science: The Business Use of Operations Research</i></span></li>
+<li id="cite_note-LS-27"><span class="mw-cite-backlink">^ <a href="#cite_ref-LS_27-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-LS_27-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.lums.lancs.ac.uk/departments/ManSci/DeptProfile/WhatisManSci/">What is Management Science?</a> Lancaster University, 2008. Retrieved 5 June 2008.</span></li>
+<li id="cite_note-UTK-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-UTK_28-0">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://bus.utk.edu/soms/information/whatis_msci.html">What is Management Science?</a> The University of Tennessee, 2006. Retrieved 5 June 2008.</span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.ifors.org/">"IFORS"</a>. IFORS<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=IFORS&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.ifors.org%2F&amp;rft.pub=IFORS&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><span class="citation web">Leszczynski, Mary (8 November 2011). <a rel="nofollow" class="external text" href="http://www.informs.org/">"Informs"</a>. Informs<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aufirst=Mary&amp;rft.aulast=Leszczynski&amp;rft.au=Leszczynski%2C+Mary&amp;rft.btitle=Informs&amp;rft.date=8+November+2011&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.informs.org%2F&amp;rft.pub=Informs&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.orsoc.org.uk">"The OR Society"</a>. Orsoc.org.uk<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=The+OR+Society&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.orsoc.org.uk&amp;rft.pub=Orsoc.org.uk&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.roadef.org/content/index.htm">"Société française de Recherche Opérationnelle et d'Aide à la Décision"</a>. ROADEF<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=Soci%C3%A9t%C3%A9+fran%C3%A7aise+de+Recherche+Op%C3%A9rationnelle+et+d%27Aide+%C3%A0+la+D%C3%A9cision&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.roadef.org%2Fcontent%2Findex.htm&amp;rft.pub=ROADEF&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><span class="citation web">www.cors.ca. <a rel="nofollow" class="external text" href="http://www.cors.ca">"CORS"</a>. Cors.ca<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aulast=www.cors.ca&amp;rft.au=www.cors.ca&amp;rft.btitle=CORS&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.cors.ca&amp;rft.pub=Cors.ca&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.asor.org.au">"ASOR"</a>. ASOR. 1 January 1972<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=ASOR&amp;rft.date=1+January+1972&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.asor.org.au&amp;rft.pub=ASOR&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.orsnz.org.nz/">"ORSNZ"</a>. ORSNZ<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=ORSNZ&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.orsnz.org.nz%2F&amp;rft.pub=ORSNZ&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.orsp.org.ph/">"ORSP"</a>. ORSP<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=ORSP&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.orsp.org.ph%2F&amp;rft.pub=ORSP&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.orsi.in/">"ORSI"</a>. Orsi.in<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=ORSI&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.orsi.in%2F&amp;rft.pub=Orsi.in&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.orssa.org.za/">"ORSSA"</a>. ORSSA. 23 September 2011<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=ORSSA&amp;rft.date=23+September+2011&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.orssa.org.za%2F&amp;rft.pub=ORSSA&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.euro-online.org/">"EURO"</a>. Euro-online.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=EURO&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.euro-online.org%2F&amp;rft.pub=Euro-online.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-40"><span class="mw-cite-backlink"><b><a href="#cite_ref-40">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.sisostds.org/">"SISO"</a>. Sisostds.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=SISO&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.sisostds.org%2F&amp;rft.pub=Sisostds.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-41"><span class="mw-cite-backlink"><b><a href="#cite_ref-41">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.iitsec.org/">"I/Itsec"</a>. I/Itsec<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=I%2FItsec&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.iitsec.org%2F&amp;rft.pub=I%2FItsec&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-42"><span class="mw-cite-backlink"><b><a href="#cite_ref-42">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.scienceofbetter.org/">"The Science of Better"</a>. The Science of Better<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=The+Science+of+Better&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.scienceofbetter.org%2F&amp;rft.pub=The+Science+of+Better&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-43"><span class="mw-cite-backlink"><b><a href="#cite_ref-43">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.learnaboutor.co.uk/">"Learn about OR"</a>. Learn about OR<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=Learn+about+OR&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.learnaboutor.co.uk%2F&amp;rft.pub=Learn+about+OR&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-44"><span class="mw-cite-backlink"><b><a href="#cite_ref-44">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.informs.org/index.php?c=31&amp;kat=-+INFORMS+Journals">"INFORMS Journals"</a>. Informs.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=INFORMS+Journals&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.informs.org%2Findex.php%3Fc%3D31%26kat%3D-%2BINFORMS%2BJournals&amp;rft.pub=Informs.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-45"><span class="mw-cite-backlink"><b><a href="#cite_ref-45">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.informs.org/site/DA/">"<span style="padding-left:0.2em;">'</span>'Decision Analysis''"</a>. Informs.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=%27%26%2339%3BDecision+Analysis%27%26%2339%3B&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.informs.org%2Fsite%2FDA%2F&amp;rft.pub=Informs.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-46"><span class="mw-cite-backlink"><b><a href="#cite_ref-46">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.informs.org/site/ITE/">"INFORMS Transactions on Education"</a>. Informs.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=INFORMS+Transactions+on+Education&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.informs.org%2Fsite%2FITE%2F&amp;rft.pub=Informs.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-47"><span class="mw-cite-backlink"><b><a href="#cite_ref-47">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.igi-global.com/Bookstore/TitleDetails.aspx?TitleId=1141">"International Journal of Operations Research and Information Systems (IJORIS) (1947–9328)(1947–9336): John Wang: Journals"</a>. IGI Global<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=International+Journal+of+Operations+Research+and+Information+Systems+%28IJORIS%29+%281947%E2%80%939328%29%281947%E2%80%939336%29%3A+John+Wang%3A+Journals&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.igi-global.com%2FBookstore%2FTitleDetails.aspx%3FTitleId%3D1141&amp;rft.pub=IGI+Global&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-48"><span class="mw-cite-backlink"><b><a href="#cite_ref-48">^</a></b></span> <span class="reference-text"><span class="citation web">The Society for Modeling &amp; Simulation International. <a rel="nofollow" class="external text" href="http://www.scs.org/pubs/jdms/jdms.html">"JDMS"</a>. Scs.org<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aulast=The+Society+for+Modeling+%26+Simulation+International&amp;rft.au=The+Society+for+Modeling+%26+Simulation+International&amp;rft.btitle=JDMS&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.scs.org%2Fpubs%2Fjdms%2Fjdms.html&amp;rft.pub=Scs.org&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-The_OR_Society-49"><span class="mw-cite-backlink">^ <a href="#cite_ref-The_OR_Society_49-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-The_OR_Society_49-1"><sup><i><b>b</b></i></sup></a> <a href="#cite_ref-The_OR_Society_49-2"><sup><i><b>c</b></i></sup></a></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://www.orsoc.org.uk">The OR Society</a>;</span></li>
+<li id="cite_note-50"><span class="mw-cite-backlink"><b><a href="#cite_ref-50">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.springer.com/mathematics/journal/186">"Mathematical Methods of Operations Research website"</a>. Springer.com<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=Mathematical+Methods+of+Operations+Research+website&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.springer.com%2Fmathematics%2Fjournal%2F186&amp;rft.pub=Springer.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-51"><span class="mw-cite-backlink"><b><a href="#cite_ref-51">^</a></b></span> <span class="reference-text"><span class="citation web"><a rel="nofollow" class="external text" href="http://www.springer.com/east/home/business/operations+research?SGWID=5-40521-70-173677307-detailsPage=journal%7Cdescription">"TOP"</a>. Springer.com<span class="reference-accessdate">. Retrieved 13 November 2011</span>.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.btitle=TOP&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.springer.com%2Feast%2Fhome%2Fbusiness%2Foperations%2Bresearch%3FSGWID%3D5-40521-70-173677307-detailsPage%3Djournal%257Cdescription&amp;rft.pub=Springer.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=13" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>Kirby, M. W. (Operational Research Society (Great Britain)). Operational Research in War and Peace: The British Experience from the 1930s to 1970, Imperial College Press, 2003. <a href="/wiki/Special:BookSources/1860943667" class="internal mw-magiclink-isbn">ISBN 1-86094-366-7</a>, <a href="/wiki/Special:BookSources/9781860943669" class="internal mw-magiclink-isbn">ISBN 978-1-86094-366-9</a></li>
+</ul>
+<h2><span class="mw-headline" id="Further_reading">Further reading</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=14" title="Edit section: Further reading">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li>C. West Churchman, Russell L. Ackoff &amp; E. L. Arnoff, <i>Introduction to Operations Research</i>, New York: J. Wiley and Sons, 1957</li>
+<li>Joseph G. Ecker &amp; Michael Kupferschmid, <i>Introduction to Operations Research</i>, Krieger Publishing Co.</li>
+<li>Frederick S. Hillier &amp; Gerald J. Lieberman, <i>Introduction to Operations Research</i>, McGraw-Hill: Boston MA; 8th. (International) Edition, 2005</li>
+<li>Michael Pidd, <i>Tools for Thinking: Modelling in Management Science</i>, J. Wiley &amp; Sons Ltd., Chichester; 2nd. Edition, 2003</li>
+<li>Hamdy A. Taha, <i>Operations Research: An Introduction</i>, Prentice Hall; 9th. Edition, 2011</li>
+<li>Wayne Winston, <i>Operations Research: Applications and Algorithms</i>, Duxbury Press; 4th. Edition, 2003</li>
+<li>Kenneth R. Baker, Dean H. Kropp (1985). <i>Management Science: An Introduction to the Use of Decision Models</i></li>
+<li>David Charles Heinze (1982). <i>Management Science: Introductory Concepts and Applications</i></li>
+<li>Lee J. Krajewski, Howard E. Thompson (1981). "Management Science: Quantitative Methods in Context"</li>
+<li>Thomas W. Knowles (1989). <i>Management science: Building and Using Models</i></li>
+<li>Kamlesh Mathur, Daniel Solow (1994). <i>Management Science: The Art of Decision Making</i></li>
+<li>Laurence J. Moore, Sang M. Lee, Bernard W. Taylor (1993). <i>Management Science</i></li>
+<li>William Thomas Morris (1968). <i>Management Science: A Bayesian Introduction</i>.</li>
+<li>William E. Pinney, Donald B. McWilliams (1987). <i>Management Science: An Introduction to Quantitative Analysis for Management</i></li>
+<li><span class="citation book">Shrader, Charles R. (2006). <a rel="nofollow" class="external text" href="http://www.history.army.mil/html/books/hist_op_research/index.html"><i>History of Operations Research in the United States Army, Volume 1:1942–1962</i></a>. Washington, D.C.: <a href="/wiki/United_States_Army_Center_of_Military_History" title="United States Army Center of Military History">United States Army Center of Military History</a>. CMH Pub 70-102-1.</span><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AOperations+research&amp;rft.aufirst=Charles+R.&amp;rft.aulast=Shrader&amp;rft.au=Shrader%2C+Charles+R.&amp;rft.btitle=History+of+Operations+Research+in+the+United+States+Army%2C+Volume+1%3A1942%E2%80%931962&amp;rft.date=2006&amp;rft.genre=book&amp;rft_id=http%3A%2F%2Fwww.history.army.mil%2Fhtml%2Fbooks%2Fhist_op_research%2Findex.html&amp;rft.place=Washington%2C+D.C.&amp;rft.pub=United+States+Army+Center+of+Military+History&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></li>
+<li>Gerald E. Thompson (1982). <i>Management Science: An Introduction to Modern Quantitative Analysis and Decision Making. New York&#160;: McGraw-Hill Publishing Co.</i></li>
+<li>Saul I. Gass &amp; Arjang A. Assad (2005). <i>An Annotated Timeline of Operations Research: An Informal History. New York&#160;: Kluwer Academic Publishers.</i></li>
+</ul>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Operations_research&amp;action=edit&amp;section=15" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></td>
+<td class="mbox-text plainlist" style="">Wikimedia Commons has media related to <i><b><a href="//commons.wikimedia.org/wiki/Category:Operations_research" class="extiw" title="commons:Category:Operations research">Operations research</a></b></i>.</td>
+</tr>
+</table>
+<table class="metadata mbox-small plainlinks" style="border:1px solid #aaa; background-color:#f9f9f9;">
+<tr>
+<td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png" width="34" height="40" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/51px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/68px-Wikiquote-logo.svg.png 2x" data-file-width="300" data-file-height="355" /></td>
+<td class="mbox-text plainlist" style="">Wikiquote has a collection of quotations related to: <i><b><a href="//en.wikiquote.org/wiki/Special:Search/Operations_research" class="extiw" title="q:Special:Search/Operations research">Operations research</a></b></i></td>
+</tr>
+</table>
+<ul>
+<li><a rel="nofollow" class="external text" href="http://www.informs.org/Resources/">INFORMS OR/MS Resource Collection</a>: a comprehensive set of OR links.</li>
+<li><a rel="nofollow" class="external text" href="http://www.ifors.org/">International Federation of Operational Research Societies</a></li>
+<li><a rel="nofollow" class="external text" href="http://stats.bls.gov/oco/ocos044.htm/">Occupational Outlook Handbook, U.S. Department of Labor Bureau of Labor Statistics</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.boston.com/news/globe/reprints/062704_postrel/">"Operation Everything: It Stocks Your Grocery Store, Schedules Your Favorite Team's Games, and Helps Plan Your Vacation. The Most Influential Academic Discipline You've Never Heard Of." Boston Globe, 27 June 2004</a></li>
+<li><a rel="nofollow" class="external text" href="http://www.computerworld.com/s/article/54157/Optimal_Results?taxonomyId=063/">"Optimal Results: IT-powered advances in operations research can enhance business processes and boost the corporate bottom line." Computerworld, 20 November 2000</a></li>
+</ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Systems_science" title="Template:Systems science"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Systems_science" title="Template talk:Systems science"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Systems_science&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;"><a href="/wiki/System" title="System">Systems</a> and <a href="/wiki/Systems_science" title="Systems science">systems science</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Category:Systems" title="Category:Systems">Systems categories</a></th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Category:Systems_science" title="Category:Systems science">Systems science</a></li>
+<li><a href="/wiki/Category:Systems_scientists" title="Category:Systems scientists">Systems scientists</a>
+<ul>
+<li><a href="/wiki/Category:Conceptual_systems" title="Category:Conceptual systems">conceptual</a></li>
+<li><a href="/wiki/Category:Physical_systems" title="Category:Physical systems">physical</a></li>
+<li><a href="/wiki/Category:Social_systems" title="Category:Social systems">social</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Category:Systems_theory" title="Category:Systems theory">Systems theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/System" title="System">Systems</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Systems_art" title="Systems art">Art</a></li>
+<li><a href="/wiki/Biological_system" title="Biological system">Biological</a></li>
+<li><a href="/wiki/Complex_system" title="Complex system">Complex</a></li>
+<li><a href="/wiki/Complex_adaptive_system" title="Complex adaptive system">Complex adaptive</a></li>
+<li><a href="/wiki/Conceptual_system" title="Conceptual system">Conceptual</a></li>
+<li><a href="/wiki/Coupled_human%E2%80%93environment_system" title="Coupled human–environment system">Coupled human–environment</a></li>
+<li><a href="/wiki/Database" title="Database">Database</a></li>
+<li><a href="/wiki/Dynamical_system" title="Dynamical system">Dynamical</a></li>
+<li><a href="/wiki/Economic_system" title="Economic system">Economic</a></li>
+<li><a href="/wiki/Ecosystem" title="Ecosystem">Ecosystem</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">Formal</a></li>
+<li><a href="/wiki/Global_Positioning_System" title="Global Positioning System">GPS</a></li>
+<li><a href="/wiki/Holon_(philosophy)" title="Holon (philosophy)">Holarchic</a></li>
+<li><a href="/wiki/Human_anatomy" title="Human anatomy" class="mw-redirect">Human anatomy</a></li>
+<li><a href="/wiki/Information_systems" title="Information systems">Information</a></li>
+<li><a href="/wiki/List_of_national_legal_systems" title="List of national legal systems">Legal</a></li>
+<li><a href="/wiki/Systems_of_measurement" title="Systems of measurement" class="mw-redirect">Measurement</a></li>
+<li><a href="/wiki/Metric_system" title="Metric system">Metric</a></li>
+<li><a href="/wiki/Multi-agent_system" title="Multi-agent system">Multi-agent</a></li>
+<li><a href="/wiki/Nervous_system" title="Nervous system">Nervous</a></li>
+<li><a href="/wiki/Nonlinear_system" title="Nonlinear system">Nonlinear</a></li>
+<li><a href="/wiki/Operating_system" title="Operating system">Operating</a></li>
+<li><a href="/wiki/Physical_system" title="Physical system">Physical</a></li>
+<li><a href="/wiki/Political_system" title="Political system">Political</a></li>
+<li><a href="/wiki/Sensory_system" title="Sensory system">Sensory</a></li>
+<li><a href="/wiki/Social_system" title="Social system">Social</a></li>
+<li><a href="/wiki/Solar_System" title="Solar System">Solar</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Theoretical fields</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Chaos_theory" title="Chaos theory">Chaos theory</a></li>
+<li><a href="/wiki/Complex_systems" title="Complex systems">Complex systems</a></li>
+<li><a href="/wiki/Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="/wiki/Cybernetics" title="Cybernetics">Cybernetics</a></li>
+<li><a href="/wiki/Earth_system_science" title="Earth system science">Earth system science</a></li>
+<li><a href="/wiki/Living_systems" title="Living systems">Living systems</a></li>
+<li><a href="/wiki/Sociotechnical_system" title="Sociotechnical system">Sociotechnical system</a></li>
+<li><a href="/wiki/System_dynamics" title="System dynamics">System dynamics</a></li>
+<li><a href="/wiki/Systems_biology" title="Systems biology">Systems biology</a></li>
+<li><a href="/wiki/Systems_ecology" title="Systems ecology">Systems ecology</a></li>
+<li><a href="/wiki/Systems_engineering" title="Systems engineering">Systems engineering</a></li>
+<li><a href="/wiki/Systems_neuroscience" title="Systems neuroscience">Systems neuroscience</a></li>
+<li><a href="/wiki/Systems_psychology" title="Systems psychology">Systems psychology</a></li>
+<li><a href="/wiki/Systems_science" title="Systems science">Systems science</a></li>
+<li><a href="/wiki/Systems_theory" title="Systems theory">Systems theory</a></li>
+<li><a href="/wiki/Systems_thinking" title="Systems thinking">Systems thinking</a></li>
+<li><a href="/wiki/World-systems_theory" title="World-systems theory">World-systems theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/Category:Systems_scientists" title="Category:Systems scientists">Systems scientists</a></th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Russell_L._Ackoff" title="Russell L. Ackoff">Russell L. Ackoff</a></li>
+<li><a href="/wiki/William_Ross_Ashby" title="William Ross Ashby">William Ross Ashby</a></li>
+<li><a href="/wiki/B%C3%A9la_H._B%C3%A1n%C3%A1thy" title="Béla H. Bánáthy">Béla H. Bánáthy</a></li>
+<li><a href="/wiki/Gregory_Bateson" title="Gregory Bateson">Gregory Bateson</a></li>
+<li><a href="/wiki/Anthony_Stafford_Beer" title="Anthony Stafford Beer">Anthony Stafford Beer</a></li>
+<li><a href="/wiki/Richard_E._Bellman" title="Richard E. Bellman">Richard E. Bellman</a></li>
+<li><a href="/wiki/Ludwig_von_Bertalanffy" title="Ludwig von Bertalanffy">Ludwig von Bertalanffy</a></li>
+<li><a href="/wiki/Kenneth_E._Boulding" title="Kenneth E. Boulding">Kenneth E. Boulding</a></li>
+<li><a href="/wiki/Murray_Bowen" title="Murray Bowen">Murray Bowen</a></li>
+<li><a href="/wiki/C._West_Churchman" title="C. West Churchman">C. West Churchman</a></li>
+<li><a href="/wiki/George_Dantzig" title="George Dantzig">George Dantzig</a></li>
+<li><a href="/wiki/Heinz_von_Foerster" title="Heinz von Foerster">Heinz von Foerster</a></li>
+<li><a href="/wiki/Jay_Wright_Forrester" title="Jay Wright Forrester">Jay Wright Forrester</a></li>
+<li><a href="/wiki/Charles_A_S_Hall" title="Charles A S Hall">Charles A S Hall</a></li>
+<li><a href="/wiki/James_J._Kay" title="James J. Kay">James J. Kay</a></li>
+<li><a href="/wiki/George_Klir" title="George Klir">George Klir</a></li>
+<li><a href="/wiki/Edward_Norton_Lorenz" title="Edward Norton Lorenz">Edward Norton Lorenz</a></li>
+<li><a href="/wiki/Niklas_Luhmann" title="Niklas Luhmann">Niklas Luhmann</a></li>
+<li><a href="/wiki/Humberto_Maturana" title="Humberto Maturana">Humberto Maturana</a></li>
+<li><a href="/wiki/Margaret_Mead" title="Margaret Mead">Margaret Mead</a></li>
+<li><a href="/wiki/Donella_Meadows" title="Donella Meadows">Donella Meadows</a></li>
+<li><a href="/wiki/Mihajlo_D._Mesarovic" title="Mihajlo D. Mesarovic">Mihajlo D. Mesarovic</a></li>
+<li><a href="/wiki/James_Grier_Miller" title="James Grier Miller">James Grier Miller</a></li>
+<li><a href="/wiki/Howard_T._Odum" title="Howard T. Odum">Howard T. Odum</a></li>
+<li><a href="/wiki/Talcott_Parsons" title="Talcott Parsons">Talcott Parsons</a></li>
+<li><a href="/wiki/Ilya_Prigogine" title="Ilya Prigogine">Ilya Prigogine</a></li>
+<li><a href="/wiki/Qian_Xuesen" title="Qian Xuesen">Qian Xuesen</a></li>
+<li><a href="/wiki/Anatol_Rapoport" title="Anatol Rapoport">Anatol Rapoport</a></li>
+<li><a href="/wiki/Peter_Senge" title="Peter Senge">Peter Senge</a></li>
+<li><a href="/wiki/Claude_Shannon" title="Claude Shannon">Claude Shannon</a></li>
+<li><a href="/wiki/Francisco_Varela" title="Francisco Varela">Francisco Varela</a></li>
+<li><a href="/wiki/Kevin_Warwick" title="Kevin Warwick">Kevin Warwick</a></li>
+<li><a href="/wiki/Norbert_Wiener" title="Norbert Wiener">Norbert Wiener</a></li>
+<li><a href="/wiki/Anthony_Wilden" title="Anthony Wilden">Anthony Wilden</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;">
+<tr>
+<td style="padding:2px;">
+<table cellspacing="0" class="nowraplinks collapsible expanded navbox-inner" style="border-spacing:0;background:transparent;color:inherit;">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Mathematics-footer" title="Template:Mathematics-footer"><span title="View this template" style=";;background:none transparent;border:none;;">v</span></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Mathematics-footer" title="Template talk:Mathematics-footer"><span title="Discuss this template" style=";;background:none transparent;border:none;;">t</span></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Mathematics-footer&amp;action=edit"><span title="Edit this template" style=";;background:none transparent;border:none;;">e</span></a></li>
+</ul>
+</div>
+<div style="font-size:110%;"><a href="/wiki/Areas_of_mathematics" title="Areas of mathematics">Areas of mathematics</a></div>
+</th>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Areas</th>
+<td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Arithmetic" title="Arithmetic">Arithmetic</a></li>
+<li><a href="/wiki/Algebra" title="Algebra">Algebra</a>
+<ul>
+<li><a href="/wiki/Elementary_algebra" title="Elementary algebra">elementary</a></li>
+<li><a href="/wiki/Linear_algebra" title="Linear algebra">linear</a></li>
+<li><a href="/wiki/Multilinear_algebra" title="Multilinear algebra">multilinear</a></li>
+<li><a href="/wiki/Abstract_algebra" title="Abstract algebra">abstract</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Geometry" title="Geometry">Geometry</a>
+<ul>
+<li><a href="/wiki/Discrete_geometry" title="Discrete geometry">discrete</a></li>
+<li><a href="/wiki/Algebraic_geometry" title="Algebraic geometry">algebraic</a></li>
+<li><a href="/wiki/Differential_geometry" title="Differential geometry">differential</a></li>
+<li><a href="/wiki/Finite_geometry" title="Finite geometry">finite</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Trigonometry" title="Trigonometry">Trigonometry</a></li>
+<li><a href="/wiki/Calculus" title="Calculus">Calculus</a>/<a href="/wiki/Mathematical_analysis" title="Mathematical analysis">Analysis</a></li>
+<li><a href="/wiki/Functional_analysis" title="Functional analysis">Functional analysis</a></li>
+<li><a href="/wiki/Set_theory" title="Set theory">Set theory</a></li>
+<li><a href="/wiki/Mathematical_logic" title="Mathematical logic">Logic</a></li>
+<li><a href="/wiki/Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="/wiki/Number_theory" title="Number theory">Number theory</a></li>
+<li><a href="/wiki/Combinatorics" title="Combinatorics">Combinatorics</a></li>
+<li><a href="/wiki/Graph_theory" title="Graph theory">Graph theory</a></li>
+<li><a href="/wiki/Topology" title="Topology">Topology</a></li>
+<li><a href="/wiki/Lie_theory" title="Lie theory">Lie theory</a></li>
+<li><a href="/wiki/Differential_equation" title="Differential equation">Differential equations</a>/<a href="/wiki/Dynamical_systems_theory" title="Dynamical systems theory">Dynamical systems</a></li>
+<li><a href="/wiki/Mathematical_physics" title="Mathematical physics">Mathematical physics</a></li>
+<li><a href="/wiki/Numerical_analysis" title="Numerical analysis">Numerical analysis</a></li>
+<li><a href="/wiki/Theory_of_computation" title="Theory of computation">Computation</a></li>
+<li><a href="/wiki/Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="/wiki/Probability_theory" title="Probability theory">Probability</a></li>
+<li><a href="/wiki/Mathematical_statistics" title="Mathematical statistics">Mathematical statistics</a></li>
+<li><a href="/wiki/Mathematical_optimization" title="Mathematical optimization">Mathematical optimization</a></li>
+<li><a href="/wiki/Control_theory" title="Control theory">Control theory</a></li>
+<li><a href="/wiki/Game_theory" title="Game theory">Game theory</a></li>
+<li><a href="/wiki/Representation_theory" title="Representation theory">Representation theory</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Divisions</th>
+<td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px;">
+<div style="padding:0em 0.25em;">
+<ul>
+<li><a href="/wiki/Pure_mathematics" title="Pure mathematics">Pure mathematics</a></li>
+<li><a href="/wiki/Applied_mathematics" title="Applied mathematics">Applied mathematics</a></li>
+<li><a href="/wiki/Discrete_mathematics" title="Discrete mathematics">Discrete mathematics</a></li>
+<li><a href="/wiki/Computational_mathematics" title="Computational mathematics">Computational mathematics</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px;">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow hlist" colspan="2">
+<div>
+<ul>
+<li><b><a href="/wiki/Category:Fields_of_mathematics" title="Category:Fields of mathematics">Category</a></b></li>
+<li><a href="/wiki/Portal:Mathematics" title="Portal:Mathematics">Mathematics portal</a></li>
+<li><a href="/wiki/Outline_of_mathematics" title="Outline of mathematics">Outline</a></li>
+<li><a href="/wiki/Lists_of_mathematics_topics" title="Lists of mathematics topics">Lists</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1174
+CPU time usage: 1.260 seconds
+Real time usage: 1.377 seconds
+Preprocessor visited node count: 2767/1000000
+Preprocessor generated node count: 11970/1500000
+Post‐expand include size: 77718/2048000 bytes
+Template argument size: 2208/2048000 bytes
+Highest expansion depth: 14/40
+Expensive parser function count: 11/500
+Lua time usage: 0.166/10.000 seconds
+Lua memory usage: 3.32 MB/50 MB
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:43476-0!*!0!!en!4!* and timestamp 20140423154129 and revision id 604460027
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>								<div class="printfooter">
+				Retrieved from "<a href="http://en.wikipedia.org/w/index.php?title=Operations_research&amp;oldid=604460027">http://en.wikipedia.org/w/index.php?title=Operations_research&amp;oldid=604460027</a>"				</div>
+												<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Industrial_engineering" title="Category:Industrial engineering">Industrial engineering</a></li><li><a href="/wiki/Category:Operations_research" title="Category:Operations research">Operations research</a></li><li><a href="/wiki/Category:Mathematical_sciences" title="Category:Mathematical sciences">Mathematical sciences</a></li><li><a href="/wiki/Category:Mathematical_optimization" title="Category:Mathematical optimization">Mathematical optimization</a></li><li><a href="/wiki/Category:Management" title="Category:Management">Management</a></li><li><a href="/wiki/Category:Fields_of_application_of_statistics" title="Category:Fields of application of statistics">Fields of application of statistics</a></li><li><a href="/wiki/Category:Engineering_disciplines" title="Category:Engineering disciplines">Engineering disciplines</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Wikipedia_articles_needing_rewrite_from_March_2013" title="Category:Wikipedia articles needing rewrite from March 2013">Wikipedia articles needing rewrite from March 2013</a></li><li><a href="/wiki/Category:Use_dmy_dates_from_November_2011" title="Category:Use dmy dates from November 2011">Use dmy dates from November 2011</a></li><li><a href="/wiki/Category:All_articles_with_unsourced_statements" title="Category:All articles with unsourced statements">All articles with unsourced statements</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_February_2007" title="Category:Articles with unsourced statements from February 2007">Articles with unsourced statements from February 2007</a></li><li><a href="/wiki/Category:Articles_to_be_expanded_from_March_2010" title="Category:Articles to be expanded from March 2010">Articles to be expanded from March 2010</a></li><li><a href="/wiki/Category:All_articles_to_be_expanded" title="Category:All articles to be expanded">All articles to be expanded</a></li><li><a href="/wiki/Category:Articles_with_unsourced_statements_from_December_2010" title="Category:Articles with unsourced statements from December 2010">Articles with unsourced statements from December 2010</a></li><li><a href="/wiki/Category:Articles_using_fixed_number_of_columns_in_reflist" title="Category:Articles using fixed number of columns in reflist">Articles using fixed number of columns in reflist</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+				<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+	<h3 id="p-personal-label">Personal tools</h3>
+	<ul>
+<li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Operations+research&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Operations+research" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>	</ul>
+</div>
+				<div id="left-navigation">
+					<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+	<h3 id="p-namespaces-label">Namespaces</h3>
+	<ul>
+					<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Operations_research"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+					<li  id="ca-talk"><span><a href="/wiki/Talk:Operations_research"  title="Discussion about the content page [t]" accesskey="t">Talk</a></span></li>
+			</ul>
+</div>
+<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+	<h3 id="mw-vector-current-variant">
+		</h3>
+	<h3 id="p-variants-label"><span>Variants</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+				</div>
+				<div id="right-navigation">
+					<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+	<h3 id="p-views-label">Views</h3>
+	<ul>
+					<li id="ca-view" class="selected"><span><a href="/wiki/Operations_research" >Read</a></span></li>
+					<li id="ca-edit"><span><a href="/w/index.php?title=Operations_research&amp;action=edit"  title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></span></li>
+					<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Operations_research&amp;action=history"  title="Past versions of this page [h]" accesskey="h">View history</a></span></li>
+			</ul>
+</div>
+<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+	<h3 id="p-cactions-label"><span>Actions</span><a href="#"></a></h3>
+	<div class="menu">
+		<ul>
+					</ul>
+	</div>
+</div>
+<div id="p-search" role="search">
+	<h3><label for="searchInput">Search</label></h3>
+	<form action="/w/index.php" id="searchform">
+					<div id="simpleSearch">
+					<input type="search" name="search" placeholder="Search" title="Search Wikipedia [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if one exists" id="searchButton" class="searchButton" />		</div>
+	</form>
+</div>
+				</div>
+			</div>
+			<div id="mw-panel">
+					<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png);" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+				<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+	<h3 id='p-navigation-label'>Navigation</h3>
+	<div class="body">
+		<ul>
+			<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+			<li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li>
+			<li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li>
+			<li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li>
+			<li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li>
+			<li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li>
+			<li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikimedia Shop">Wikimedia Shop</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+	<h3 id='p-interaction-label'>Interaction</h3>
+	<div class="body">
+		<ul>
+			<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li>
+			<li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li>
+			<li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+			<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+			<li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact page</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+	<h3 id='p-tb-label'>Tools</h3>
+	<div class="body">
+		<ul>
+			<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Operations_research" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li>
+			<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Operations_research" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+			<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li>
+			<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+			<li id="t-permalink"><a href="/w/index.php?title=Operations_research&amp;oldid=604460027" title="Permanent link to this revision of the page">Permanent link</a></li>
+			<li id="t-info"><a href="/w/index.php?title=Operations_research&amp;action=info">Page information</a></li>
+			<li id="t-wikibase"><a href="//www.wikidata.org/wiki/Q194292" title="Link to connected data repository item [g]" accesskey="g">Data item</a></li>
+<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=Operations_research&amp;id=604460027" title="Information on how to cite this page">Cite this page</a></li>		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+	<h3 id='p-coll-print_export-label'>Print/export</h3>
+	<div class="body">
+		<ul>
+			<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Operations+research">Create a book</a></li>
+			<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Operations+research&amp;oldid=604460027&amp;writer=rl">Download as PDF</a></li>
+			<li id="t-print"><a href="/w/index.php?title=Operations_research&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+		</ul>
+	</div>
+</div>
+<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+	<h3 id='p-lang-label'>Languages</h3>
+	<div class="body">
+		<ul>
+			<li class="interlanguage-link interwiki-af"><a href="//af.wikipedia.org/wiki/Operasionele_navorsing" title="Operasionele navorsing – Afrikaans" lang="af" hreflang="af">Afrikaans</a></li>
+			<li class="interlanguage-link interwiki-ar"><a href="//ar.wikipedia.org/wiki/%D8%A8%D8%AD%D9%88%D8%AB_%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA" title="بحوث عمليات – Arabic" lang="ar" hreflang="ar">العربية</a></li>
+			<li class="interlanguage-link interwiki-bg"><a href="//bg.wikipedia.org/wiki/%D0%98%D0%B7%D1%81%D0%BB%D0%B5%D0%B4%D0%B2%D0%B0%D0%BD%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8" title="Изследване на операции – Bulgarian" lang="bg" hreflang="bg">Български</a></li>
+			<li class="interlanguage-link interwiki-ca"><a href="//ca.wikipedia.org/wiki/Investigaci%C3%B3_operativa" title="Investigació operativa – Catalan" lang="ca" hreflang="ca">Català</a></li>
+			<li class="interlanguage-link interwiki-cs"><a href="//cs.wikipedia.org/wiki/Opera%C4%8Dn%C3%AD_anal%C3%BDza" title="Operační analýza – Czech" lang="cs" hreflang="cs">Čeština</a></li>
+			<li class="interlanguage-link interwiki-da"><a href="//da.wikipedia.org/wiki/Operationsanalyse" title="Operationsanalyse – Danish" lang="da" hreflang="da">Dansk</a></li>
+			<li class="interlanguage-link interwiki-de"><a href="//de.wikipedia.org/wiki/Operations_Research" title="Operations Research – German" lang="de" hreflang="de">Deutsch</a></li>
+			<li class="interlanguage-link interwiki-el"><a href="//el.wikipedia.org/wiki/%CE%95%CF%80%CE%B9%CF%87%CE%B5%CE%B9%CF%81%CE%B7%CF%83%CE%B9%CE%B1%CE%BA%CE%AE_%CE%AD%CF%81%CE%B5%CF%85%CE%BD%CE%B1" title="Επιχειρησιακή έρευνα – Greek" lang="el" hreflang="el">Ελληνικά</a></li>
+			<li class="interlanguage-link interwiki-es"><a href="//es.wikipedia.org/wiki/Investigaci%C3%B3n_de_operaciones" title="Investigación de operaciones – Spanish" lang="es" hreflang="es">Español</a></li>
+			<li class="interlanguage-link interwiki-eu"><a href="//eu.wikipedia.org/wiki/Ikerkuntza_eragilea" title="Ikerkuntza eragilea – Basque" lang="eu" hreflang="eu">Euskara</a></li>
+			<li class="interlanguage-link interwiki-fa"><a href="//fa.wikipedia.org/wiki/%D8%AA%D8%AD%D9%82%DB%8C%D9%82_%D8%AF%D8%B1_%D8%B9%D9%85%D9%84%DB%8C%D8%A7%D8%AA" title="تحقیق در عملیات – Persian" lang="fa" hreflang="fa">فارسی</a></li>
+			<li class="interlanguage-link interwiki-fr"><a href="//fr.wikipedia.org/wiki/Recherche_op%C3%A9rationnelle" title="Recherche opérationnelle – French" lang="fr" hreflang="fr">Français</a></li>
+			<li class="interlanguage-link interwiki-ko"><a href="//ko.wikipedia.org/wiki/%EC%9A%B4%EC%9A%A9_%EA%B3%BC%ED%95%99" title="운용 과학 – Korean" lang="ko" hreflang="ko">한국어</a></li>
+			<li class="interlanguage-link interwiki-hi"><a href="//hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE_%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%A8" title="संक्रिया विज्ञान – Hindi" lang="hi" hreflang="hi">हिन्दी</a></li>
+			<li class="interlanguage-link interwiki-id"><a href="//id.wikipedia.org/wiki/Riset_operasi" title="Riset operasi – Indonesian" lang="id" hreflang="id">Bahasa Indonesia</a></li>
+			<li class="interlanguage-link interwiki-is"><a href="//is.wikipedia.org/wiki/A%C3%B0ger%C3%B0agreining" title="Aðgerðagreining – Icelandic" lang="is" hreflang="is">Íslenska</a></li>
+			<li class="interlanguage-link interwiki-it"><a href="//it.wikipedia.org/wiki/Ricerca_operativa" title="Ricerca operativa – Italian" lang="it" hreflang="it">Italiano</a></li>
+			<li class="interlanguage-link interwiki-he"><a href="//he.wikipedia.org/wiki/%D7%97%D7%A7%D7%A8_%D7%91%D7%99%D7%A6%D7%95%D7%A2%D7%99%D7%9D" title="חקר ביצועים – Hebrew" lang="he" hreflang="he">עברית</a></li>
+			<li class="interlanguage-link interwiki-hu"><a href="//hu.wikipedia.org/wiki/Oper%C3%A1ci%C3%B3kutat%C3%A1s" title="Operációkutatás – Hungarian" lang="hu" hreflang="hu">Magyar</a></li>
+			<li class="interlanguage-link interwiki-ml"><a href="//ml.wikipedia.org/wiki/%E0%B4%93%E0%B4%AA%E0%B5%8D%E0%B4%AA%E0%B4%B1%E0%B5%87%E0%B4%B7%E0%B5%BB%E0%B4%B8%E0%B5%8D_%E0%B4%97%E0%B4%B5%E0%B5%87%E0%B4%B7%E0%B4%A3%E0%B4%82" title="ഓപ്പറേഷൻസ് ഗവേഷണം – Malayalam" lang="ml" hreflang="ml">മലയാളം</a></li>
+			<li class="interlanguage-link interwiki-nl"><a href="//nl.wikipedia.org/wiki/Operationeel_onderzoek" title="Operationeel onderzoek – Dutch" lang="nl" hreflang="nl">Nederlands</a></li>
+			<li class="interlanguage-link interwiki-ja"><a href="//ja.wikipedia.org/wiki/%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%BA%E3%83%BB%E3%83%AA%E3%82%B5%E3%83%BC%E3%83%81" title="オペレーションズ・リサーチ – Japanese" lang="ja" hreflang="ja">日本語</a></li>
+			<li class="interlanguage-link interwiki-no"><a href="//no.wikipedia.org/wiki/Operasjonsanalyse" title="Operasjonsanalyse – Norwegian (bokmål)" lang="no" hreflang="no">Norsk bokmål</a></li>
+			<li class="interlanguage-link interwiki-nn"><a href="//nn.wikipedia.org/wiki/Operasjonsanalyse" title="Operasjonsanalyse – Norwegian Nynorsk" lang="nn" hreflang="nn">Norsk nynorsk</a></li>
+			<li class="interlanguage-link interwiki-pl"><a href="//pl.wikipedia.org/wiki/Badania_operacyjne" title="Badania operacyjne – Polish" lang="pl" hreflang="pl">Polski</a></li>
+			<li class="interlanguage-link interwiki-pt"><a href="//pt.wikipedia.org/wiki/Investiga%C3%A7%C3%A3o_operacional" title="Investigação operacional – Portuguese" lang="pt" hreflang="pt">Português</a></li>
+			<li class="interlanguage-link interwiki-ru"><a href="//ru.wikipedia.org/wiki/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B9" title="Исследование операций – Russian" lang="ru" hreflang="ru">Русский</a></li>
+			<li class="interlanguage-link interwiki-sk"><a href="//sk.wikipedia.org/wiki/Opera%C4%8Dn%C3%A1_anal%C3%BDza" title="Operačná analýza – Slovak" lang="sk" hreflang="sk">Slovenčina</a></li>
+			<li class="interlanguage-link interwiki-sr"><a href="//sr.wikipedia.org/wiki/%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0_%D0%B8%D1%81%D1%82%D1%80%D0%B0%D0%B6%D0%B8%D0%B2%D0%B0%D1%9A%D0%B0" title="Операциона истраживања – Serbian" lang="sr" hreflang="sr">Српски / srpski</a></li>
+			<li class="interlanguage-link interwiki-sh"><a href="//sh.wikipedia.org/wiki/Operaciona_istra%C5%BEivanja" title="Operaciona istraživanja – Serbo-Croatian" lang="sh" hreflang="sh">Srpskohrvatski / српскохрватски</a></li>
+			<li class="interlanguage-link interwiki-fi"><a href="//fi.wikipedia.org/wiki/Operaatioanalyysi" title="Operaatioanalyysi – Finnish" lang="fi" hreflang="fi">Suomi</a></li>
+			<li class="interlanguage-link interwiki-sv"><a href="//sv.wikipedia.org/wiki/Operationsanalys" title="Operationsanalys – Swedish" lang="sv" hreflang="sv">Svenska</a></li>
+			<li class="interlanguage-link interwiki-ta"><a href="//ta.wikipedia.org/wiki/%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%AA%E0%AE%A3%E0%AE%BF_%E0%AE%86%E0%AE%AF%E0%AF%8D%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" title="செய்பணி ஆய்வியல் – Tamil" lang="ta" hreflang="ta">தமிழ்</a></li>
+			<li class="interlanguage-link interwiki-th"><a href="//th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B4%E0%B8%88%E0%B8%B1%E0%B8%A2%E0%B8%94%E0%B8%B3%E0%B9%80%E0%B8%99%E0%B8%B4%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3" title="การวิจัยดำเนินการ – Thai" lang="th" hreflang="th">ไทย</a></li>
+			<li class="interlanguage-link interwiki-tr"><a href="//tr.wikipedia.org/wiki/Y%C3%B6neylem_ara%C5%9Ft%C4%B1rmas%C4%B1" title="Yöneylem araştırması – Turkish" lang="tr" hreflang="tr">Türkçe</a></li>
+			<li class="interlanguage-link interwiki-uk"><a href="//uk.wikipedia.org/wiki/%D0%94%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D1%96%D0%B9" title="Дослідження операцій – Ukrainian" lang="uk" hreflang="uk">Українська</a></li>
+			<li class="interlanguage-link interwiki-vi"><a href="//vi.wikipedia.org/wiki/V%E1%BA%ADn_tr%C3%B9_h%E1%BB%8Dc" title="Vận trù học – Vietnamese" lang="vi" hreflang="vi">Tiếng Việt</a></li>
+			<li class="interlanguage-link interwiki-war"><a href="//war.wikipedia.org/wiki/Pamiling_kasayoran_ha_operasyon" title="Pamiling kasayoran ha operasyon – Waray" lang="war" hreflang="war">Winaray</a></li>
+			<li class="interlanguage-link interwiki-zh"><a href="//zh.wikipedia.org/wiki/%E9%81%8B%E7%B1%8C%E5%AD%B8" title="運籌學 – Chinese" lang="zh" hreflang="zh">中文</a></li>
+			<li class="uls-p-lang-dummy"><a href="#"></a></li>
+			<li class="wbc-editpage"><a href="//www.wikidata.org/wiki/Q194292#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></li>
+		</ul>
+	</div>
+</div>
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 16 April 2014 at 15:20.<br /></li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a class="external" href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/wiki/Operations_research" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+					<li id="footer-copyrightico">
+						<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+					</li>
+					<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.23wmf22/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+					</li>
+				</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.cite","mobile.desktop","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.DRN-wizard","ext.gadget.charinsert","mw.MwEmbedSupport.style","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.interlanguage","skins.vector.collapsibleNav"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/en.wikipedia.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":239,"wgHostname":"mw1219"});
+}</script>
+	</body>
+</html>

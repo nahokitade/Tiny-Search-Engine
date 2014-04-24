@@ -140,7 +140,7 @@ int main(int argc, char* argv[])
 
 	// add seed page to hashtable
 	HashTable *hashTable;
-	hashTable = CreateNew();
+	hashTable = CreateNewHashTab();
 	if(!hashTable) return 0;
 	HashAdd(source->url, hashTable);
 

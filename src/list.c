@@ -64,7 +64,7 @@ int appendDLL(WebPage *webPage, List *linkedList){
 }
 
 WebPage *removeTop(List *linkedList){
-	if(linkedList->head == NULL || linkedList->tail == NULL) return NULL;
+	if(IsEmptyList(linkedList)) return NULL;
 	WebPage *webTemp = linkedList->head->page; // DOES THIS WORK????
 	ListNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
 	linkedList->head = linkedList->head->next; // make the new head the one after current head

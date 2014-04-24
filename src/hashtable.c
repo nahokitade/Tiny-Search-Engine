@@ -53,7 +53,7 @@ unsigned long JenkinsHash(const char *str, unsigned long mod)
 
 int i;
 
-HashTable *CreateNew(){
+HashTable *CreateNewHashTab(){
 	HashTable *hashP;
 	hashP = calloc(1, sizeof(HashTable));
 	if(!hashP) return NULL;

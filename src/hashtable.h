@@ -34,7 +34,7 @@ typedef struct HashTable {
 
 /* create a new hash table structure 
  */
-HashTable *CreateNew();
+HashTable *CreateNewHashTab();
 
 /*
  * jenkins_hash - Bob Jenkins' one_at_a_time hash function

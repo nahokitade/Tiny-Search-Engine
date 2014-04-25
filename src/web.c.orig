@@ -5,7 +5,7 @@
  * Component name: Crawler
  *
  * Author: Ira Ray Jenkins - jenkins@cs.dartmouth.edu
- * Date: Fri Apr 25, 2014
+ * Date: Sun Apr 20, 2014
  *
  * These functions are provided for the students to simplify the html parsing
  * and web retrieval.
@@ -19,6 +19,7 @@
 // ---------------- Open Issues
 
 // ---------------- System includes e.g., <stdio.h>
+#include <stdio.h>                           // fprintf, stderr
 #include <stdlib.h>                          // free, calloc, realloc
 #include <ctype.h>                           // tolower, isspace
 #include <string.h>                          // strcasestr, strchr, strrchr,
@@ -61,7 +62,6 @@ const char* EXTS[] = {                       // valid extensions
 static char *RemoveDotSegments(char *input);
 static void RemoveWhitespace(char* str);
 static int ParseURL(char* str, struct URL* url);
-static char *FixupRelativeURL(char *base, char *rel, size_t len);
 static size_t WriteMemoryCallback(void* contents, size_t size, size_t nmemb, void* userp);
 
 // ---------------- Public functions
@@ -90,7 +90,7 @@ int GetWebPage(WebPage* page)
     // check page
     if(!page) { return 0; }
 
-    // allocate space for the html, curl will realloc as needed
+    // allocate space for the html
     page->html = calloc(1, sizeof(char));
     page->html_len = 0;
 
@@ -112,7 +112,6 @@ int GetWebPage(WebPage* page)
     /* Add any additional options here */
     curl_easy_setopt(curl_handle, CURLOPT_FAILONERROR, 1);
     curl_easy_setopt(curl_handle, CURLOPT_FOLLOWLOCATION, 1);
-
     // get the page
     res = curl_easy_perform(curl_handle);
 
@@ -228,8 +227,21 @@ int GetNextURL(char *html, int pos, char *base_url, char **result)
 
     // have a good link now
     if(relative) {                           // need to fixup relative links
-        *result = FixupRelativeURL(base_url, href, end - href);
-        if(!*result) { return -2; }
+        // create new buffer
+        *result = calloc(end-href+2+strlen(base_url), sizeof(char));
+
+        if(!*result) { return -2; }          // check memory
+
+        // add the base url
+        strcat(*result, base_url);
+
+        // we may need to add '/'
+        if(base_url[strlen(base_url)-1] != '/' && *href != '/') {
+            (*result)[strlen(base_url)] = '/';
+        }
+
+        // add the relative url
+        strncat(*result, href, end - href);
     } else {
         // create new buffer
         *result = calloc(end-href+1, sizeof(char));
@@ -670,103 +682,6 @@ static char *RemoveDotSegments(char *input)
     free(copyptr);
 
     return out;
-}
-
-/*
- * FixupRelativeURL - resolves a relative url to an absolute url
- * @base: base url to resolve from
- * @rel: relative url to resolve
- * @len: length of the relative url
- *
- * Returns a newly allocated character buffer that represents the
- * absolute url from the base and relative urls. Returns NULL if
- * an absolute url cannot be established.
- *
- * This is a quick attempt at RFC 3986 section 5.2.
- *
- * Should have no use outside of this file, thus declared static.
- */
-
-static char *FixupRelativeURL(char *base, char *rel, size_t len)
-{
-    char *abs_url;                           // absolute url to build
-    char *slash;                             // right-most '/' in a path
-    struct URL tmp;                          // parsed url
-
-    // we need a base url to work with
-    if(!base)
-        return NULL;
-
-    // allocate new absolute url
-    abs_url = calloc(strlen(base) + len + 2, sizeof(char));
-    if(!abs_url)
-        return NULL;
-
-    // initialize struct
-    tmp.scheme = NULL;
-    tmp.user = NULL;
-    tmp.host = NULL;
-    tmp.path = NULL;
-    tmp.query = NULL;
-    tmp.fragment = NULL;
-
-    // attempt to parse the base url
-    if(!ParseURL(base, &tmp)) {
-        free(abs_url);                       // cleanup the absolute url
-
-        abs_url = NULL;                      // going to return NULL
-        goto cleanup;                        // sorry Dijkstra
-    }
-
-    // put absolute url back together
-    if(tmp.scheme) {                         // scheme
-        strcat(abs_url, tmp.scheme);
-    }
-
-    if(tmp.user) {                           // user
-        strcat(abs_url, tmp.user);
-    }
-
-    if(tmp.host) {                           // host
-        strcat(abs_url, tmp.host);
-    }
-
-    // add the base path up to the right-most '/'
-    if(tmp.path && (slash = strrchr(tmp.path, '/')) && (slash != tmp.path)) {
-        strncat(abs_url, tmp.path, slash - tmp.path);
-    }
-
-    // do we have a relative url?
-    if(rel) {
-        if(rel[0] != '/') {
-            strcat(abs_url, "/");            // separate host and relative path
-        }
-
-        strncat(abs_url, rel, len);          // add relative url
-    }
-
-    // we can ignore the base query and fragment, they shouldn't apply
-
-cleanup:                                     // cleanup memory
-    if(tmp.scheme)
-        free(tmp.scheme);
-
-    if(tmp.user)
-        free(tmp.user);
-
-    if(tmp.host)
-        free(tmp.host);
-
-    if(tmp.path)
-        free(tmp.path);
-
-    if(tmp.query)
-        free(tmp.query);
-
-    if(tmp.fragment)
-        free(tmp.fragment);
-
-    return abs_url;
 }
 
 /*

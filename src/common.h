@@ -35,7 +35,9 @@ typedef struct WebPage {
 
 // ---------------- Prototypes/Macros
 
-// Deletes web page but keeps url intact for Hash table.
+/* Deletes web page but keeps url intact for Hash table.
+ * Returns 1 if delete is successful, 0 if not.
+ */
 int deleteWebPage(WebPage *toDeleteWeb);
 
 #endif // COMMON_H

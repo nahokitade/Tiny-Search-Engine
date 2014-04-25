@@ -33,20 +33,29 @@ typedef struct List {
 
 // ---------------- Prototypes/Macros
 
-/*create new DLL */
+/* creates new DLL 
+ * Returns a pointer to a new List structure
+ * Must free() the memory of the DLL after use
+ */
 List *CreateDLL();
 
-/*
- * add to linked list
- *
+/* append to a WebPage to the linked list
+ * @webPage: WebPage to add to the linked list
+ * @linkedList: linkedList to append the WebPage
+ * Returns 1 on successful append, 0 if fail.
  */
 int appendDLL(WebPage *webPage, List *linkedList);
 
 /* remove from top of DLL
+ * @linkedList: linkedList to remove from
+ * Returns pointer of the WebPage that was removed, NULL if fail
  */
 WebPage *removeTop(List *linkedList);
 
-/* checks if list is empty */
+/* checks if list is empty 
+ * @linkedList: linkedList to check if empty
+ * Returns 1 if list is empty, 0 if not empty
+ */
 int IsEmptyList(List *linkedList);
 
 

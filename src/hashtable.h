@@ -32,9 +32,12 @@ typedef struct HashTable {
 
 // ---------------- Prototypes/Macros
 
-/* create a new hash table structure 
+/* Creates a new hash table structure 
+ * Returns a pointer to the newly allocated hash table
+ * Must free memory after use by calling DeleteHashTable.
  */
 HashTable *CreateNewHashTab();
+
 
 /*
  * jenkins_hash - Bob Jenkins' one_at_a_time hash function
@@ -47,22 +50,42 @@ HashTable *CreateNewHashTab();
  */
 unsigned long JenkinsHash(const char *str, unsigned long mod);
 
-/* adding to hashtable
+
+/* Adding a specific string to hashtable
+ * @str: char buffer to add to hash
+ * @hashTab: hash table to add the string
  */
 int HashAdd(char *str, HashTable *hashTab);
 
-/* see if a URL is already in hashtable 
- * Returns 0 if the url is not containted, 
+
+/* Checks if a URL is already in hashtable 
+ * @str: char buffer to look up in hash table
+ * @hashTab: hash table to look up the string.
+ * Returns 0 if the str is not containted, and 1 if it is.
  */
 int HashContains(char *str, HashTable *hashTab);
 
-/* deletes a single node in hash table */
+
+/* Deletes a single node in hash table. Mainly used by 
+ * DeleteHashTable function. 
+ * @toDelete: HashTableNode to delete (and free memory)
+ * Returns the HashTableNode pointer to the node that was
+ * linked to the deleted node. (NULL if nothing is connected) 
+ */
 HashTableNode *DeleteNode(HashTableNode *toDelete);
 
-/* Delete a chain of nodes at a certain index of hash table */
+
+/* Delete a chain of nodes at a certain index of hash table 
+ * @toDeleteHead: the head of the chain of nodes at a index
+ * Returns 1 if the delete is successful, and 0 if not.
+ */
 int DeleteIndexChain(HashTableNode *toDeleteHead);
 
-/* Delete the whole hash table */
+
+/* Delete the whole hash table 
+ * @hashTab: A pointer to the hash table to delete
+ * Return 1 if the delete is successful, and 0 if not.
+ */
 int DeleteHashTable(HashTable *hashTab);
 
 

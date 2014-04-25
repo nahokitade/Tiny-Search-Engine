@@ -54,9 +54,11 @@ int main(int argc, char* argv[])
 	int docID = 1;
 	char *dirName;
 	char *sourceURL;
+	HashTable *hashTable;
 	//int assertInt(const char* const str, long *val);
 	int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr);
 	int testDirSlash(const char *str);
+	struct stat givDir;
 
 	// check command line arguments
 	if(argc != 4){ // need exactly 4 args
@@ -70,6 +72,7 @@ int main(int argc, char* argv[])
                 return 0;
         }
 
+	// checks if the seed URL can be normalized
 	if(!NormalizeURL(argv[1])){
 		fprintf(stderr, "Was unable to normalize the seed URL given.");
                 return 0;
@@ -77,7 +80,6 @@ int main(int argc, char* argv[])
 
 	sourceURL = argv[1];
 	
-	struct stat givDir;
 	// checks if the given "directory" exisits at all
 	if(stat(argv[2], &givDir) == -1){
 		fprintf(stderr, "Directory cannot be found. The directory must exist and be already created.");
@@ -139,38 +141,47 @@ int main(int argc, char* argv[])
 	}
 
 
-	// add seed page to hashtable
-	HashTable *hashTable;
+	// create hashtable, and add seed page to hashtable.
 	hashTable = CreateNewHashTab();
 	if(!hashTable) return 0;
 	HashAdd(source->url, hashTable);
 
-	// extract urls from seed page
+	// create the URLList, and extract urls from seed page
+	List *URLList = CreateDLL();
 	int pos = 0;
  	char *result;
- 	char *base_url = URL_PREFIX;
- 	List *URLList = CreateDLL();
+ 	char *base_url = source->url;
 	int counter2 = 1;
 	
  	while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
-      		// DO SOMETHING WITH THE RESULT
+		// checks for not exceeding search depth,
+		// NormalizeURL success
+		// Restriction on URL's prefix to crawl
+		// If the URL is already visited.
 		if(!(searchDepth >= 1)) continue;
 		if(!NormalizeURL(result)) continue;
                 if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
 		if(HashContains(result, hashTable)) continue;
+
+		// allocate memory and save the current url that we just got
 		char *resultSave;
 		resultSave = calloc(strlen(result) + 1, sizeof(char));
 		if(!resultSave) return 0;
 		strcpy(resultSave, result);
+
+		// add that to a WebPage structure with the depth of the crawl
 		WebPage *pageAdd;
 		pageAdd = calloc(1, sizeof(WebPage));
 		if(!pageAdd) return 0;
 		pageAdd->url = resultSave;
 		pageAdd->depth = (source->depth + 1);
 		printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+
+		// append the created WebPage to the URLList.
 		appendDLL(pageAdd, URLList);
 		counter2++;
  	}
+	// return position to 0 and delete the already crawled WebPage.
 	pos = 0;
 	deleteWebPage(source);
 
@@ -190,34 +201,43 @@ int main(int argc, char* argv[])
                	 	}
 			counter1++;
         	}
-
+		
+		base_url = nextURL->url;
         	// extract urls from webpage
 		while((pos = GetNextURL(nextURL->html, pos, base_url, &result)) > 0) {
-                	// DO SOMETHING WITH THE RESULT
+			// checks for not exceeding search depth,
+                	// NormalizeURL success
+               		// Restriction on URL's prefix to crawl
+                	// If the URL is already visited.
 			if(!(searchDepth >= nextURL->depth + 1)) continue;
         	        if(!NormalizeURL(result)) continue;
         	        if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
         	        if(HashContains(result, hashTable)) continue;
+
+			// allocate memory and save the current url that we just got
 			char *resultSave;
                        	resultSave = calloc(strlen(result) + 1, sizeof(char));
                         if(!resultSave) return 0;
-
                         strcpy(resultSave, result);
+
+			// add that to a WebPage structure with the depth of the crawl
                         WebPage *pageAdd;
                         pageAdd = calloc(1, sizeof(WebPage));
-	
         	        if(!pageAdd) return 0;
                 	pageAdd->url = resultSave;
                         pageAdd->depth = (nextURL->depth + 1);
                         printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+
+			// append the created WebPage to the URLList.
                         appendDLL(pageAdd, URLList);
 			counter2++;
         	}
+		// return position to 0 and delete the already crawled WebPage.
 		pos = 0;
 		deleteWebPage(nextURL);
 	}
     	// cleanup curl
-    	// clean up hash table
+    	// clean up hash table and URLList.
     	curl_global_cleanup();
 	DeleteHashTable(hashTable);
 	free(URLList);

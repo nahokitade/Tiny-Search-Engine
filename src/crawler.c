@@ -69,6 +69,12 @@ int main(int argc, char* argv[])
 		fprintf(stderr, "The URL must have prefix: %s", URL_PREFIX);
                 return 0;
         }
+
+	if(!NormalizeURL(argv[1])){
+		fprintf(stderr, "Was unable to normalize the seed URL given.");
+                return 0;
+	}
+
 	sourceURL = argv[1];
 	
 	struct stat givDir;
@@ -89,10 +95,10 @@ int main(int argc, char* argv[])
 	//long *searchDepth = 0;
 	// make sure that the third argument is an int.
 	int searchDepth = atoi(argv[3]);
-	if(!searchDepth){
+	/*if(!searchDepth){
 		fprintf(stderr, "The search depth must be a integer value.");
                 return 0;
-	}
+	}*/
 
 	// make sure that search depth is not greater than MAX_DEPTH
 	// and larger than 0.
@@ -113,7 +119,7 @@ int main(int argc, char* argv[])
 	char *urlGiven; // allocate memory for the url to be stored in hash
 	urlGiven  = calloc(strlen(sourceURL), sizeof(char));
 	if(!urlGiven) return 0;
-	urlGiven = sourceURL;
+	strcpy(urlGiven, sourceURL);
 
 	// Set the depth and url of the WebPage
 	source->url = urlGiven;
@@ -144,28 +150,31 @@ int main(int argc, char* argv[])
  	char *result;
  	char *base_url = URL_PREFIX;
  	List *URLList = CreateDLL();
+	int counter2 = 1;
 	
  	while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
       		// DO SOMETHING WITH THE RESULT
-		if((searchDepth >= 1) && !(HashContains(result, hashTable))){
-			char *resultSave;
-			resultSave = calloc(strlen(result), sizeof(char));
-			if(!resultSave) return 0;
-			resultSave = result;
-			WebPage *pageAdd;
-			pageAdd = calloc(1, sizeof(WebPage));
-			if(!pageAdd) return 0;
-			pageAdd->url = resultSave;
-			pageAdd->depth = (source->depth + 1);
-			printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
-			appendDLL(pageAdd, URLList);
-		}
+		if(!(searchDepth >= 1)) continue;
+		if(!NormalizeURL(result)) continue;
+                if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
+		if(HashContains(result, hashTable)) continue;
+		char *resultSave;
+		resultSave = calloc(strlen(result) + 1, sizeof(char));
+		if(!resultSave) return 0;
+		strcpy(resultSave, result);
+		WebPage *pageAdd;
+		pageAdd = calloc(1, sizeof(WebPage));
+		if(!pageAdd) return 0;
+		pageAdd->url = resultSave;
+		pageAdd->depth = (source->depth + 1);
+		printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+		appendDLL(pageAdd, URLList);
+		counter2++;
  	}
 	pos = 0;
 	deleteWebPage(source);
 
-	int counter1 = 1;
-	int counter2 = 1;	
+	int counter1 = 1;	
 
 	while(!IsEmptyList(URLList)){
         	// get next url from list
@@ -185,24 +194,24 @@ int main(int argc, char* argv[])
         	// extract urls from webpage
 		while((pos = GetNextURL(nextURL->html, pos, base_url, &result)) > 0) {
                 	// DO SOMETHING WITH THE RESULT
-                	if(( searchDepth >= ((nextURL->depth) + 1)) && !(HashContains(result, hashTable))){
-				if((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0){;
-					char *resultSave;
-                        		resultSave = calloc(strlen(result), sizeof(char));
-                        		if(!resultSave) return 0;
+			if(!(searchDepth >= nextURL->depth + 1)) continue;
+        	        if(!NormalizeURL(result)) continue;
+        	        if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
+        	        if(HashContains(result, hashTable)) continue;
+			char *resultSave;
+                       	resultSave = calloc(strlen(result) + 1, sizeof(char));
+                        if(!resultSave) return 0;
 
-                        		resultSave = result;
-                        		WebPage *pageAdd;
-                        		pageAdd = calloc(1, sizeof(WebPage));
+                        strcpy(resultSave, result);
+                        WebPage *pageAdd;
+                        pageAdd = calloc(1, sizeof(WebPage));
 	
-        	                	if(!pageAdd) return 0;
-                	        	pageAdd->url = resultSave;
-                        		pageAdd->depth = (nextURL->depth + 1);
-                        		printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
-                        		appendDLL(pageAdd, URLList);
-					counter2++;
-				}
-                	}
+        	        if(!pageAdd) return 0;
+                	pageAdd->url = resultSave;
+                        pageAdd->depth = (nextURL->depth + 1);
+                        printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+                        appendDLL(pageAdd, URLList);
+			counter2++;
         	}
 		pos = 0;
 		deleteWebPage(nextURL);
@@ -210,6 +219,8 @@ int main(int argc, char* argv[])
     	// cleanup curl
     	// clean up hash table
     	curl_global_cleanup();
+	DeleteHashTable(hashTable);
+	free(URLList);
 
 	printf("Number of files written = %d\n Number of URLs gotten = %d\n", counter1, counter2);
 

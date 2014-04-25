@@ -85,6 +85,8 @@ emptySuccess = IsEmptyList(newDLL);
 
 printf("If IsEmptyList method is successful, should print 1: %d\n", emptySuccess);
 
+free(newDLL);
+
 }
 
 

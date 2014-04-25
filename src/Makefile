@@ -18,6 +18,14 @@ hashtable.o: hashtable.c hashtable.h common.h
 common.o: common.c common.h
 	$(CC) $(CFLAGS) -c common.c
 
+listTest: listTest.c list.o
+	$(CC) $(CFLAGS) -o listTest listTest.c list.o
+	listTest;
+
+hashTableTest: hashTableTest.c hashtable.o
+	$(CC) $(CFLAGS) -o hashTableTest hashTableTest.c hashtable.o
+	hashTableTest
+
 clean:
 	rm -f *~
 	rm -f *#

@@ -6,6 +6,9 @@ CFLAGS = -Wall -pedantic -std=c11 -g
 crawler: crawler.c list.o web.o hashtable.o common.o
 	$(CC) $(CFLAGS) -o crawler crawler.c list.o web.o hashtable.o common.o -lcurl
 
+crawlerDebug: crawler.c list.o web.o hashtable.o common.o
+	$(CC) $(CFLAGS) -o crawlerDebug crawler.c list.o web.o hashtable.o common.o -lcurl -DDEBUGGING
+
 list.o: list.c list.h common.h
 	$(CC) $(CFLAGS) -c list.c
 

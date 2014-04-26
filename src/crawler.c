@@ -119,7 +119,7 @@ int main(int argc, char* argv[])
 	if(!source) return 0;
 
 	char *urlGiven; // allocate memory for the url to be stored in hash
-	urlGiven  = calloc(strlen(sourceURL), sizeof(char));
+	urlGiven  = calloc(strlen(sourceURL) + 1, sizeof(char));
 	if(!urlGiven) return 0;
 	strcpy(urlGiven, sourceURL);
 
@@ -140,7 +140,12 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-
+#ifdef DEBUGGING
+	FILE *webWritten;
+	
+        webWritten = fopen("crawlerPages.log", "a+");
+#endif
+		
 	// create hashtable, and add seed page to hashtable.
 	hashTable = CreateNewHashTab();
 	if(!hashTable) return 0;
@@ -151,47 +156,67 @@ int main(int argc, char* argv[])
 	int pos = 0;
  	char *result;
  	char *base_url = source->url;
+
+	#ifdef DEBUGGING
 	int counter2 = 1;
-	
+	#endif
+
  	while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
 		// checks for not exceeding search depth,
 		// NormalizeURL success
 		// Restriction on URL's prefix to crawl
 		// If the URL is already visited.
-		if(!(searchDepth >= 1)) continue;
-		if(!NormalizeURL(result)) continue;
-                if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
-		if(HashContains(result, hashTable)) continue;
-
-		// allocate memory and save the current url that we just got
-		char *resultSave;
-		resultSave = calloc(strlen(result) + 1, sizeof(char));
-		if(!resultSave) return 0;
-		strcpy(resultSave, result);
+		if(!(searchDepth >= 1)){
+			free(result);
+			continue;
+		}
+		if(!NormalizeURL(result)){
+                        free(result);
+                        continue;
+                }
+                if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)){
+                        free(result);
+                        continue;
+                }
+		if(HashContains(result, hashTable)){
+                        free(result);
+                        continue;
+                }
 
 		// add that to a WebPage structure with the depth of the crawl
 		WebPage *pageAdd;
 		pageAdd = calloc(1, sizeof(WebPage));
 		if(!pageAdd) return 0;
-		pageAdd->url = resultSave;
+		pageAdd->url = result; 
 		pageAdd->depth = (source->depth + 1);
+
+#ifdef DEBUGGING
 		printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+		counter2++;
+#endif
 
 		// append the created WebPage to the URLList.
+		HashAdd(result, hashTable);
 		appendDLL(pageAdd, URLList);
-		counter2++;
+		//free(result);
  	}
 	// return position to 0 and delete the already crawled WebPage.
 	pos = 0;
 	deleteWebPage(source);
 
+#ifdef DEBUGGING
 	int counter1 = 1;	
+#endif
 
 	while(!IsEmptyList(URLList)){
         	// get next url from list
 		WebPage *nextURL = removeTop(URLList);
-		printf("This is nextURL: %s\n Depth is: %d\n", nextURL->url, nextURL->depth);
-		if(nextURL) printf("This should be a valid WebPage struct.\n\n");
+
+		#ifdef DEBUGGING
+                printf("This is nextURL: %s\n Depth is: %d\n", nextURL->url, nextURL->depth);
+                if(nextURL) printf("This should be a valid WebPage struct.\n\n");
+		#endif
+
         	// get webpage for url
 		if(GetWebPage(nextURL)){
                 	// write page file
@@ -199,8 +224,15 @@ int main(int argc, char* argv[])
                         	fprintf(stderr, "No space to allocate filename.");
                         	return 0;
                	 	}
+
+		#ifdef DEBUGGING
 			counter1++;
+			fprintf(webWritten,"%d %s\n", nextURL->depth, nextURL->url);
+		#endif
+
         	}
+	
+		if(searchDepth == nextURL->depth) continue;
 		
 		base_url = nextURL->url;
         	// extract urls from webpage
@@ -209,28 +241,39 @@ int main(int argc, char* argv[])
                 	// NormalizeURL success
                		// Restriction on URL's prefix to crawl
                 	// If the URL is already visited.
-			if(!(searchDepth >= nextURL->depth + 1)) continue;
-        	        if(!NormalizeURL(result)) continue;
-        	        if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)) continue;
-        	        if(HashContains(result, hashTable)) continue;
-
-			// allocate memory and save the current url that we just got
-			char *resultSave;
-                       	resultSave = calloc(strlen(result) + 1, sizeof(char));
-                        if(!resultSave) return 0;
-                        strcpy(resultSave, result);
+			//if(!(searchDepth >= nextURL->depth + 1)){
+			//	free(result); 
+			//	continue;
+			//}
+        	        if(!NormalizeURL(result)){
+				free(result);
+				continue;
+			}
+        	        if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)){
+				free(result);
+				continue;
+			}
+        	        if(HashContains(result, hashTable)){
+				free(result);
+				continue;
+			}
 
 			// add that to a WebPage structure with the depth of the crawl
                         WebPage *pageAdd;
                         pageAdd = calloc(1, sizeof(WebPage));
         	        if(!pageAdd) return 0;
-                	pageAdd->url = resultSave;
+			pageAdd->url = result;
                         pageAdd->depth = (nextURL->depth + 1);
-                        printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+                        
+			#ifdef DEBUGGING
+			printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+			counter2++;
+			#endif
 
 			// append the created WebPage to the URLList.
+			HashAdd(result, hashTable);
                         appendDLL(pageAdd, URLList);
-			counter2++;
+		//	free(result);
         	}
 		// return position to 0 and delete the already crawled WebPage.
 		pos = 0;
@@ -242,7 +285,10 @@ int main(int argc, char* argv[])
 	DeleteHashTable(hashTable);
 	free(URLList);
 
+	#ifdef DEBUGGING
+	fclose(webWritten);
 	printf("Number of files written = %d\n Number of URLs gotten = %d\n", counter1, counter2);
+	#endif
 
     	return 1;
 }

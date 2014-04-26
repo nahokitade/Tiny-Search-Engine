@@ -91,16 +91,13 @@ int HashAdd(char *str, HashTable *hashTab){
  *   */
 int HashContains(char *str, HashTable *hashTab){
 	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
-	HashTableNode *presentNode = hashTab->table[hashValue];
-	if(presentNode == NULL){
-		return 0;
-        }
-        else{
-                while(presentNode->next != NULL || strcmp((presentNode->url), str) != 0){
-                        presentNode = presentNode->next;
-                }
-                return (presentNode != NULL)? 1 : 0;
-        }
+	HashTableNode *presentNode;
+
+	for(presentNode = hashTab->table[hashValue]; presentNode != NULL; presentNode = presentNode->next) {
+        	if (strcmp(str, presentNode->url) == 0) return 1;
+    	}
+	
+	return 0;
 }
 
 /* delete a node */
@@ -130,6 +127,7 @@ int DeleteHashTable(HashTable *hashTab){
 		if(!toDeleteHead) continue;
 		DeleteIndexChain(toDeleteHead);
 	}
+	free(hashTab->table);
 	free(hashTab);
 	return 1;
 }

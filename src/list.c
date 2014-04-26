@@ -65,12 +65,11 @@ int appendDLL(WebPage *webPage, List *linkedList){
 
 WebPage *removeTop(List *linkedList){
 	if(IsEmptyList(linkedList)) return NULL;
-	WebPage *webTemp = linkedList->head->page; // DOES THIS WORK????
+	WebPage *webTemp = linkedList->head->page; 
 	ListNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
 	linkedList->head = linkedList->head->next; // make the new head the one after current head
 	if(linkedList->head) linkedList->head->prev = NULL; // make the new heads previous to NULL
 
-	// MOVE SOMEWHERE ELSE deleteWebPage(toFreeNode->page); // function in common.c frees memory of WebPage struct
 	free(toFreeNode); // free memory of ListNode struct.
 
 	return webTemp;

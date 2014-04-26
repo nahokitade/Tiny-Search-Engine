@@ -110,8 +110,8 @@ int GetWebPage(WebPage* page)
     curl_easy_setopt(curl_handle, CURLOPT_USERAGENT, "libcurl-agent/1.0");
 
     /* Add any additional options here */
-    curl_easy_setopt(curl_handle, CURLOPT_FAILONERROR, 1);
-    curl_easy_setopt(curl_handle, CURLOPT_FOLLOWLOCATION, 1);
+    curl_easy_setopt(curl_handle, CURLOPT_FAILONERROR, 1);     // handle 404 errors quietly
+    curl_easy_setopt(curl_handle, CURLOPT_FOLLOWLOCATION, 1);  // handle redirections
 
     // get the page
     res = curl_easy_perform(curl_handle);

@@ -284,6 +284,9 @@ int main(int argc, char* argv[])
 }
 
 
+/* checks if the given string is some integer. 
+ * Returns 1 if it is, and 0 if it is not. 
+ */
 int assertInt(const char* const str, long *val){
         char *end;
         *val = strtol(str, &end, 10);
@@ -293,27 +296,36 @@ int assertInt(const char* const str, long *val){
         else return 1;
 }
 
-
+/* Sees if a given directory name has at the end of it's name.
+ * returns 1 if it does, and 0 if it does not.
+ */
 int testDirSlash(const char *str){
 	if(!*str || !str) return 0;
 	return (str[strlen(str) - 1] == '/') ? 1 : 0;
 }
 
+/* Writes out the URL, depth, and html of a given webpage to a file in a 
+ * given directory, using the document ID as the filename.
+ * returns 1 on suucess and 0 on fail.
+ */
 int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr){
 	FILE *file;
         char *fileName;
-        fileName = calloc((strlen(dirName) + 9), sizeof(char));
+	// allocates enough space for the diretory name and document ID. 
+        fileName = calloc((strlen(dirName) + 9), sizeof(char)); 
         if(!fileName) return 0;
 
+	// creates a file name appriately depending on whether the given directory
+	// name has a slash at the end. 
         if(testDirSlash(dirName)){
                 sprintf(fileName, "%s%d", dirName, *docIDAddr);
         }
         else sprintf(fileName, "%s/%d", dirName, *docIDAddr);
 
         file = fopen(fileName, "a+");
-        (*docIDAddr)++;
+        (*docIDAddr)++; // increment document ID for the next use.
         fprintf(file,"%s\n%d\n%s", pageToWrite->url, pageToWrite->depth, pageToWrite->html);
-        free(fileName);
+        free(fileName); // Dont forget to free the memory allocated for filename.
         fclose(file);
-	return 1;
+	return 1; 
 }

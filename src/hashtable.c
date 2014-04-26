@@ -60,12 +60,14 @@ HashTable *CreateNewHashTab(){
 	return hashP;
 }
 
-//WHERE TO ALLOCATE MEMORY? WHERE TO MALLOC??
+
 int HashAdd(char *str, HashTable *hashTab){
+	// allocate memory for the new node
 	HashTableNode *addNode; 
 	addNode = calloc(1, sizeof(HashTableNode));
 	if(!addNode) return 0;
 
+	// store new string as URL 
 	addNode->url = str;
 	addNode->next = NULL; 
 	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
@@ -87,16 +89,17 @@ int HashAdd(char *str, HashTable *hashTab){
 }
 
 /* see if a URL is already in hashtable
- *  * Returns 0 if the url is not containted,
- *   */
+ * Returns 0 if the url is not containted,
+ */
 int HashContains(char *str, HashTable *hashTab){
 	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
 	HashTableNode *presentNode;
 
+	// go through the linked list in the place that the given string hashed to, to
+	// see if the string is contained in the hash table.
 	for(presentNode = hashTab->table[hashValue]; presentNode != NULL; presentNode = presentNode->next) {
         	if (strcmp(str, presentNode->url) == 0) return 1;
     	}
-	
 	return 0;
 }
 
@@ -122,11 +125,14 @@ int DeleteHashTable(HashTable *hashTab){
 	if(!hashTab) return 0;
 
 	int i;
+	// go though all slots in the hashtable and delete all the 
+	// nodes in the linked list.
 	for(i = 0; i <= MAX_HASH_SLOT; i++){
 		HashTableNode *toDeleteHead = hashTab->table[i];
 		if(!toDeleteHead) continue;
 		DeleteIndexChain(toDeleteHead);
 	}
+	// free the whole hashtable
 	free(hashTab);
 	return 1;
 }

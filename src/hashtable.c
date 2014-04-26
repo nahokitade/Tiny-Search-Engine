@@ -127,7 +127,6 @@ int DeleteHashTable(HashTable *hashTab){
 		if(!toDeleteHead) continue;
 		DeleteIndexChain(toDeleteHead);
 	}
-	free(hashTab->table);
 	free(hashTab);
 	return 1;
 }

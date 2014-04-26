@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 	char *dirName;
 	char *sourceURL;
 	HashTable *hashTable;
-	//int assertInt(const char* const str, long *val);
+	int assertInt(const char* const str, long *val);
 	int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr);
 	int testDirSlash(const char *str);
 	struct stat givDir;
@@ -94,13 +94,12 @@ int main(int argc, char* argv[])
 
 	dirName = argv[2];
 	
-	//long *searchDepth = 0;
-	// make sure that the third argument is an int.
-	int searchDepth = atoi(argv[3]);
-	/*if(!searchDepth){
+	long searchDepth;
+	//make sure that the third argument is an int.
+	if(!assertInt(argv[3], &searchDepth)){
 		fprintf(stderr, "The search depth must be a integer value.");
                 return 0;
-	}*/
+	}
 
 	// make sure that search depth is not greater than MAX_DEPTH
 	// and larger than 0.
@@ -161,60 +160,57 @@ int main(int argc, char* argv[])
 	int counter2 = 1;
 	#endif
 
- 	while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
-		// checks for not exceeding search depth,
-		// NormalizeURL success
-		// Restriction on URL's prefix to crawl
-		// If the URL is already visited.
-		if(!(searchDepth >= 1)){
-			free(result);
-			continue;
-		}
-		if(!NormalizeURL(result)){
-                        free(result);
-                        continue;
-                }
-                if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)){
-                        free(result);
-                        continue;
-                }
-		if(HashContains(result, hashTable)){
-                        free(result);
-                        continue;
-                }
+	if((searchDepth >= 1)){
 
-		// add that to a WebPage structure with the depth of the crawl
-		WebPage *pageAdd;
-		pageAdd = calloc(1, sizeof(WebPage));
-		if(!pageAdd) return 0;
-		pageAdd->url = result; 
-		pageAdd->depth = (source->depth + 1);
+ 		while((pos = GetNextURL(source->html, pos, base_url, &result)) > 0) {
+			// NormalizeURL success
+			// Restriction on URL's prefix to crawl
+			// If the URL is already visited.
+			if(!NormalizeURL(result)){
+        	                free(result);
+        	                continue;
+        	        }
+        	        if(!((strncmp(result, URL_PREFIX, strlen(URL_PREFIX))) == 0)){
+        	                free(result);
+        	                continue;
+        	        }
+			if(HashContains(result, hashTable)){
+        	                free(result);
+        	                continue;
+        	        }
+	
+			// add that to a WebPage structure with the depth of the crawl
+			WebPage *pageAdd;
+			pageAdd = calloc(1, sizeof(WebPage));
+			if(!pageAdd) return 0;
+			pageAdd->url = result; 
+			pageAdd->depth = (source->depth + 1);
 
-#ifdef DEBUGGING
-		printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
-		counter2++;
-#endif
+			#ifdef DEBUGGING
+				printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+				counter2++;
+			#endif
 
-		// append the created WebPage to the URLList.
-		HashAdd(result, hashTable);
-		appendDLL(pageAdd, URLList);
-		//free(result);
- 	}
+			// append the created WebPage to the URLList.
+			HashAdd(result, hashTable);
+			appendDLL(pageAdd, URLList);
+	 	}
+	}
 	// return position to 0 and delete the already crawled WebPage.
 	pos = 0;
 	deleteWebPage(source);
 
-#ifdef DEBUGGING
-	int counter1 = 1;	
-#endif
+	#ifdef DEBUGGING
+		int counter1 = 1;	
+	#endif
 
 	while(!IsEmptyList(URLList)){
         	// get next url from list
 		WebPage *nextURL = removeTop(URLList);
 
 		#ifdef DEBUGGING
-                printf("This is nextURL: %s\n Depth is: %d\n", nextURL->url, nextURL->depth);
-                if(nextURL) printf("This should be a valid WebPage struct.\n\n");
+        	        printf("This is nextURL: %s\n Depth is: %d\n", nextURL->url, nextURL->depth);
+        	        if(nextURL) printf("This should be a valid WebPage struct.\n\n");
 		#endif
 
         	// get webpage for url
@@ -225,10 +221,10 @@ int main(int argc, char* argv[])
                         	return 0;
                	 	}
 
-		#ifdef DEBUGGING
-			counter1++;
-			fprintf(webWritten,"%d %s\n", nextURL->depth, nextURL->url);
-		#endif
+			#ifdef DEBUGGING
+				counter1++;
+				fprintf(webWritten,"%d %s\n", nextURL->depth, nextURL->url);
+			#endif
 
         	}
 	
@@ -237,14 +233,9 @@ int main(int argc, char* argv[])
 		base_url = nextURL->url;
         	// extract urls from webpage
 		while((pos = GetNextURL(nextURL->html, pos, base_url, &result)) > 0) {
-			// checks for not exceeding search depth,
                 	// NormalizeURL success
                		// Restriction on URL's prefix to crawl
                 	// If the URL is already visited.
-			//if(!(searchDepth >= nextURL->depth + 1)){
-			//	free(result); 
-			//	continue;
-			//}
         	        if(!NormalizeURL(result)){
 				free(result);
 				continue;
@@ -266,14 +257,13 @@ int main(int argc, char* argv[])
                         pageAdd->depth = (nextURL->depth + 1);
                         
 			#ifdef DEBUGGING
-			printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
-			counter2++;
+				printf("This is next url: %s\nNext depth:%d\n\n", pageAdd->url, pageAdd->depth);
+				counter2++;
 			#endif
 
 			// append the created WebPage to the URLList.
 			HashAdd(result, hashTable);
                         appendDLL(pageAdd, URLList);
-		//	free(result);
         	}
 		// return position to 0 and delete the already crawled WebPage.
 		pos = 0;
@@ -286,22 +276,22 @@ int main(int argc, char* argv[])
 	free(URLList);
 
 	#ifdef DEBUGGING
-	fclose(webWritten);
-	printf("Number of files written = %d\n Number of URLs gotten = %d\n", counter1, counter2);
+		fclose(webWritten);
+		printf("Number of files written = %d\n Number of URLs gotten = %d\n", counter1, counter2);
 	#endif
 
     	return 1;
 }
 
 
-/*int assertInt(const char* const str, long *val){
-        char *point;
-        *val = strtol(str, &point, 10);
-        if(str != '\0' && point == '\0'){ // checking if conversion was successful
-                return 1;
+int assertInt(const char* const str, long *val){
+        char *end;
+        *val = strtol(str, &end, 10);
+        if(str == end){ // checking if conversion was successful
+                return 0;
         }
-        else return 0;
-}*/
+        else return 1;
+}
 
 
 int testDirSlash(const char *str){
@@ -311,7 +301,6 @@ int testDirSlash(const char *str){
 
 int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr){
 	FILE *file;
-        //CALLOC HERE
         char *fileName;
         fileName = calloc((strlen(dirName) + 9), sizeof(char));
         if(!fileName) return 0;

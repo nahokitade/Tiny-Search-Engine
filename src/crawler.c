@@ -126,17 +126,24 @@ int main(int argc, char* argv[])
 	source->url = urlGiven;
 	source->depth = 0;
 	
-	// get seed webpage
-	if(GetWebPage(source)){ 
-		// write seed file
-		if(!(writePage(source, dirName, &docID))){
-			fprintf(stderr, "No space to allocate filename.");
-			return 0;
+	// get seed webpage	
+	int i;
+	for(i = 0; i < MAX_TRY; i++){
+		if(GetWebPage(source)){ 
+			// write seed file
+			if(!(writePage(source, dirName, &docID))){
+				fprintf(stderr, "No space to allocate filename.");
+				return 0;
+			}
+			break;
 		}
-	}
-	else{
-		fprintf(stderr, "The given URL is not valid.");
-		return 0;
+		else{
+			if(i >= MAX_TRY - 1){
+				fprintf(stderr, "The given URL is not valid.");
+				return 0;
+			}
+			sleep(INTERVAL_PER_FETCH);
+		}
 	}
 
 #ifdef DEBUGGING

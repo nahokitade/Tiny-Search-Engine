@@ -12,8 +12,6 @@
  */
 /* ========================================================================== */
 
-// ---------------- Open Issues
-
 // ---------------- System includes e.g., <stdio.h>
 #include <string.h>                          // strlen
 #include <stdlib.h>
@@ -22,16 +20,7 @@
 #include "common.h"                          // common functionality
 #include "hashtable.h"
 
-// ---------------- Constant definitions
-
-// ---------------- Macro definitions
-
-// ---------------- Structures/Types
-
-// ---------------- Private variables
-
-// ---------------- Private prototypes
-
+// ---------------- Function Definitions
 unsigned long JenkinsHash(const char *str, unsigned long mod)
 {
     size_t len = strlen(str);
@@ -51,8 +40,12 @@ unsigned long JenkinsHash(const char *str, unsigned long mod)
     return hash % mod;
 }
 
-int i;
-
+/* Creates a new HashTable structure
+ * @result: a pointer to a HashTableStructure
+ * pointer. 
+ * The caller is responsible for freeing this
+ * memory.
+ */
 HashTable *CreateNewHashTab(){
 	HashTable *hashP;
 	hashP = calloc(1, sizeof(HashTable));
@@ -60,7 +53,10 @@ HashTable *CreateNewHashTab(){
 	return hashP;
 }
 
-
+/* Adding a specific string to hashtable
+ * @str: char buffer to add to hash
+ * @hashTab: hash table to add the string
+ */
 int HashAdd(char *str, HashTable *hashTab){
 	// allocate memory for the new node
 	HashTableNode *addNode; 
@@ -88,8 +84,10 @@ int HashAdd(char *str, HashTable *hashTab){
 	return 1;
 }
 
-/* see if a URL is already in hashtable
- * Returns 0 if the url is not containted,
+/* Checks if a URL is already in hashtable
+ * @str: char buffer to look up in hash table
+ * @hashTab: hash table to look up the string.
+ * @result: Returns 0 if the str is not containted, and 1 if it is.
  */
 int HashContains(char *str, HashTable *hashTab){
 	unsigned long hashValue = JenkinsHash(str, MAX_HASH_SLOT);
@@ -103,7 +101,12 @@ int HashContains(char *str, HashTable *hashTab){
 	return 0;
 }
 
-/* delete a node */
+/* Deletes a single node in hash table. Mainly used by
+ * DeleteHashTable function.
+ * @toDelete: HashTableNode to delete (and free memory)
+ * @result: Returns the HashTableNode pointer to the node that was
+ * linked to the deleted node. (NULL if nothing is connected)
+ */
 HashTableNode *DeleteNode(HashTableNode *toDelete){
 	HashTableNode *nextTemp = toDelete->next;
 	free(toDelete->url);
@@ -111,7 +114,10 @@ HashTableNode *DeleteNode(HashTableNode *toDelete){
 	return nextTemp;
 }
 
-/* deletes a chain in one index */
+/* Delete a chain of nodes at a certain index of hash table
+ * @toDeleteHead: the head of the chain of nodes at a index
+ * @result: Returns 1 if the delete is successful, and 0 if not.
+ */
 int DeleteIndexChain(HashTableNode *toDeleteHead){
 	while(toDeleteHead){
 		toDeleteHead = DeleteNode(toDeleteHead);
@@ -119,8 +125,10 @@ int DeleteIndexChain(HashTableNode *toDeleteHead){
 	return 1;
 }
 
-
-/* delete whole hash table */
+/* Delete the whole hash table
+ * @hashTab: A pointer to the hash table to delete
+ * @result: Returns 1 if the delete is successful, and 0 if not.
+ */
 int DeleteHashTable(HashTable *hashTab){
 	if(!hashTab) return 0;
 

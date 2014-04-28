@@ -7,13 +7,39 @@
  * Input:
  *
  * Command line options:
+ * 			  Usage: ./crawler [seedURL] [webPageDirectory] [maxWebPageDepth]
+ *
+ * 			  seedURL: URL of the start of the crawling. This URL must be 
+ * 			  	   valid, and must have the prefix, 
+ * 			  	   "http://www-old.cs.dartmouth.edu/~cs50/tse"
+ * 		 webPageDirectory: Directory already created by the user before the run
+ * 			           of the crawler. The crawled page outputs will be 
+ * 			           written in this directory. 
+ *  		  maxWebPageDepth: An integer that is between 0 ~ 4 that signifies the
+ *  		  		   depth at which the crawler will stop. Depth of 4 for
+ *  		  		   example, will output the pages for depth 4, but not 
+ *  		  		   further. 
  *
  * Output:
+ * 			  Outputs files numbered from 1 ~ n where n is the number of unique 
+ * 			  valid URLs found throughout the file in the directory, 
+ * 			  webPageDirectory from the argument of the crawler. 
+ * 			  
+ * 			  The files consists of:
+ * 			  	Line 1: URL of the page being written
+ * 			  	Line 2: depth of the URL page being written
+ * 			      Line 3 ~: HTML of the URL of the page being written
  *
  * Error Conditions:
+ *			  Any invalid arguments passed to the crawler will cause an usage
+ *			  error. If memory cannot be allocated in the heap for any call to
+ *			  calloc will cause an error. 
+ *
+ *			  At error, the program will terminate and return an exit stat of 0.
+ *			  If the run was successful, the program will return a 1.
  *
  * Special Considerations:
- *
+ *			  
  */
 /* ========================================================================== */
 // ---------------- Open Issues
@@ -135,6 +161,7 @@ int main(int argc, char* argv[])
 				fprintf(stderr, "No space to allocate filename.");
 				return 0;
 			}
+			sleep(INTERVAL_PER_FETCH);
 			break;
 		}
 		else{
@@ -221,18 +248,24 @@ int main(int argc, char* argv[])
 		#endif
 
         	// get webpage for url
-		if(GetWebPage(nextURL)){
-                	// write page file
-                	if(!(writePage(nextURL, dirName, &docID))){
-                        	fprintf(stderr, "No space to allocate filename.");
-                        	return 0;
-               	 	}
+        	for(i = 0; i < MAX_TRY; i++){
+			if(GetWebPage(nextURL)){
+                		// write page file
+                		if(!(writePage(nextURL, dirName, &docID))){
+                        		fprintf(stderr, "No space to allocate filename.");
+                        		return 0;
+               	 		}
 
-			#ifdef DEBUGGING
-				counter1++;
-				fprintf(webWritten,"%d %s\n", nextURL->depth, nextURL->url);
-			#endif
-
+				#ifdef DEBUGGING
+					counter1++;
+					fprintf(webWritten,"%d %s\n", nextURL->depth, nextURL->url);
+				#endif
+				sleep(INTERVAL_PER_FETCH);
+				break;
+			}
+			else{
+				sleep(INTERVAL_PER_FETCH);
+			}
         	}
 	
 		if(searchDepth == nextURL->depth) continue;

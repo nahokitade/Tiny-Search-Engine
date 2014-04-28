@@ -28,8 +28,6 @@ typedef struct HashTable {
     HashTableNode *table[MAX_HASH_SLOT];     // actual hashtable
 } HashTable;
 
-// ---------------- Public Variables
-
 // ---------------- Prototypes/Macros
 
 /* Creates a new hash table structure 
@@ -61,7 +59,7 @@ int HashAdd(char *str, HashTable *hashTab);
 /* Checks if a URL is already in hashtable 
  * @str: char buffer to look up in hash table
  * @hashTab: hash table to look up the string.
- * Returns 0 if the str is not containted, and 1 if it is.
+ * @result: Returns 0 if the str is not containted, and 1 if it is.
  */
 int HashContains(char *str, HashTable *hashTab);
 
@@ -69,7 +67,7 @@ int HashContains(char *str, HashTable *hashTab);
 /* Deletes a single node in hash table. Mainly used by 
  * DeleteHashTable function. 
  * @toDelete: HashTableNode to delete (and free memory)
- * Returns the HashTableNode pointer to the node that was
+ * @result: Returns the HashTableNode pointer to the node that was
  * linked to the deleted node. (NULL if nothing is connected) 
  */
 HashTableNode *DeleteNode(HashTableNode *toDelete);
@@ -77,17 +75,15 @@ HashTableNode *DeleteNode(HashTableNode *toDelete);
 
 /* Delete a chain of nodes at a certain index of hash table 
  * @toDeleteHead: the head of the chain of nodes at a index
- * Returns 1 if the delete is successful, and 0 if not.
+ * @result: Returns 1 if the delete is successful, and 0 if not.
  */
 int DeleteIndexChain(HashTableNode *toDeleteHead);
 
 
 /* Delete the whole hash table 
  * @hashTab: A pointer to the hash table to delete
- * Return 1 if the delete is successful, and 0 if not.
+ * @result: Returns 1 if the delete is successful, and 0 if not.
  */
 int DeleteHashTable(HashTable *hashTab);
-
-
 
 #endif // HASHTABLE_H

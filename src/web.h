@@ -17,12 +17,6 @@
 // ---------------- Constants
 #define MAX_TRY 3                            // maximum attempts to get a webpage
 
-// ---------------- Structures/Types
-
-// ---------------- Public Variables
-
-// ---------------- Prototypes/Macros
-
 /*
  * GetWebPage - curl page->url, store into page->html
  * @page: the webpage struct containing the url to curl

@@ -1,16 +1,16 @@
 
-/* Name: CS50 Tiny Search Engine
+/* 
+ * Name: CS50 Tiny Search Engine
  * Component name: Crawler
  *
  * Author: Naho Kitade
  * Date: April 2014
  *
- * You should include in this file your functionality for the hashtable as
- * described in the assignment and lecture.
+ * A C file containing all the definitions of the function headers in list.h
+ * This is a doubly linked list structure.
+ *
  */
 /* ========================================================================== */
-
-// ---------------- Open Issues
 
 // ---------------- System includes e.g., <stdio.h>
 #include <string.h>                          // strlen
@@ -20,16 +20,12 @@
 #include "common.h"                          // common functionality
 #include "list.h"
 
-// ---------------- Constant definitions
+// ---------------- Function Definitions
 
-// ---------------- Macro definitions
-
-// ---------------- Structures/Types
-
-// ---------------- Private variables
-
-// ---------------- Private prototypes
-
+/* creates new DLL
+ * Returns a pointer to a new List structure
+ * Must free() the memory of the DLL after use
+ */
 List *CreateDLL(){
 	List *newDLL;
 	newDLL = calloc(1, sizeof(List));
@@ -38,7 +34,10 @@ List *CreateDLL(){
 }
 
 
-/* add to linked list
+/* append to a WebPage to the linked list
+ * @webPage: WebPage to add to the linked list
+ * @linkedList: linkedList to append the WebPage
+ * Returns 1 on successful append, 0 if fail.
  */
 int appendDLL(WebPage *webPage, List *linkedList){
 	// allocate memory for the node to append.
@@ -63,6 +62,10 @@ int appendDLL(WebPage *webPage, List *linkedList){
 	}
 }
 
+/* remove from top of DLL
+ * @linkedList: linkedList to remove from
+ * Returns pointer of the WebPage that was removed, NULL if fail
+ */
 WebPage *removeTop(List *linkedList){
 	if(IsEmptyList(linkedList)) return NULL;
 	WebPage *webTemp = linkedList->head->page; 
@@ -75,6 +78,10 @@ WebPage *removeTop(List *linkedList){
 	return webTemp;
 }
 
+/* checks if list is empty
+ * @linkedList: linkedList to check if empty
+ * Returns 1 if list is empty, 0 if not empty
+ */
 int IsEmptyList(List *linkedList){
 	return (linkedList->head == NULL || linkedList->tail == NULL)? 1 : 0;
 }

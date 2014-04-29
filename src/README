@@ -1,0 +1,32 @@
+README for crawler
+
+Author: Naho Kitade
+
+Crawler is a part 1 of the Tiny Search Engine project. As the name suggests, the crawler will crawl webpages from a seed URL to all other web of links that are connected to that seed URL for a given depth. The crawler will output files for every URL crawled with in a WebPageDirectory that was passed as an argument at the time of the run. These files can later be used by the indexer.
+
+Building: 
+crawler can be built using the Makefile included in the submission. Command: make will automatically make the crawler executable.
+The make file also includes commands to make the testing executables as well as run the crawlerTest.sh to test crawler itself. 
+The 'make crawerDebug' command will also create an executable crawlerDebug which will print debugging information as well as a crawlerDebug.log that will include all the URLs crawled after crawlerDebug execution with the appropriate arguments.
+
+Usage: ./crawler [seedURL] [webPageDirectory] [maxWebPageDepth]
+
+                          seedURL: URL of the start of the crawling. This URL must be
+                                   valid, and must have the prefix,
+                                   "http://www-old.cs.dartmouth.edu/~cs50/tse"
+                 webPageDirectory: Directory already created by the user before the run
+                                   of the crawler. The crawled page outputs will be
+                                   written in this directory.
+                  maxWebPageDepth: An integer that is between 0 ~ 4 that signifies the
+                                   depth at which the crawler will stop. Depth of 4 for
+                                   example, will output the pages for depth 4, but not further.
+
+Assumptions:
+1) There is enough memory to run crawler (ie space for all the memory allocations of data structures and URLs stored during execution.)
+2) There is enough memory to store all the files that will be written (sometimes thousands) to the directory given as an argument.
+3) The maximum depth of crawling is limited to depth 4.
+4) Crawler will fail with a return of 0 anytime the program fails to allocate memory with a call of calloc. 
+5) Crawler will only crawl on pages with the specified prefix. 
+6) Crawler will try to fetch a webpage a maximum of 3 times if the fetches fail.
+7) 404 error webpages will not be a part of the files output.
+8) crawler will sleep 1 second per every webpage fetch. 

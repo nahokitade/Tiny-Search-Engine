@@ -4,8 +4,6 @@
  * Author: Naho Kitade
  * Date: April 2014
  *
- * Input:
- *
  * Command line options:
  * 			  Usage: ./crawler [seedURL] [webPageDirectory] [maxWebPageDepth]
  *
@@ -14,7 +12,8 @@
  * 			  	   "http://www-old.cs.dartmouth.edu/~cs50/tse"
  * 		 webPageDirectory: Directory already created by the user before the run
  * 			           of the crawler. The crawled page outputs will be 
- * 			           written in this directory. 
+ * 			           written in this directory. It is assumend that the
+ * 			           user has read and write permits to this directory
  *  		  maxWebPageDepth: An integer that is between 0 ~ 4 that signifies the
  *  		  		   depth at which the crawler will stop. Depth of 4 for
  *  		  		   example, will output the pages for depth 4, but not 
@@ -39,10 +38,15 @@
  *			  If the run was successful, the program will return a 1.
  *
  * Special Considerations:
- *			  
+ *			  Running crawler may cause over a few thousand text files to be 
+ *			  created in the webPageDirectory provided as an argument.
+ *			  The user must have enough memory space to hold those files as
+ *			  well as heap space to store all structures and URL links 
+ *			  that will need memory allocation from the heap. If these two
+ *			  conditions are not met, the crawler will not execute properly. 
+ *
  */
 /* ========================================================================== */
-// ---------------- Open Issues
 
 // ---------------- System includes e.g., <stdio.h>
 #include <stdio.h>                           // printf
@@ -53,8 +57,8 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#include <string.h>
-#include <stdlib.h>
+#include <string.h>			     // for strcmp and strcpy
+#include <stdlib.h>			     // for multiple functions such as calloc.
 
 // ---------------- Local includes  e.g., "file.h"
 #include "common.h"                          // common functionality
@@ -64,15 +68,7 @@
 #include "utils.h"                           // utility stuffs
 
 // ---------------- Constant definitions
-#define ARG_NUMBER 4
-
-// ---------------- Macro definitions
-
-// ---------------- Structures/Types
-
-// ---------------- Private variables
-
-// ---------------- Private prototypes
+#define ARG_NUMBER 4			     // number of agruments that must be provided
 
 /* ========================================================================== */
 
@@ -163,10 +159,7 @@ int main(int argc, char* argv[])
 	for(i = 0; i < MAX_TRY; i++){
 		if(GetWebPage(source)){ 
 			// write seed file
-			if(!(writePage(source, dirName, &docID))){
-				fprintf(stderr, "No space to allocate filename.");
-				return 0;
-			}
+			if(!(writePage(source, dirName, &docID))) return 0;
 			sleep(INTERVAL_PER_FETCH);
 			break;
 		}
@@ -257,10 +250,7 @@ int main(int argc, char* argv[])
         	for(i = 0; i < MAX_TRY; i++){
 			if(GetWebPage(nextURL)){
                 		// write page file
-                		if(!(writePage(nextURL, dirName, &docID))){
-                        		fprintf(stderr, "No space to allocate filename.");
-                        		return 0;
-               	 		}
+                		if(!(writePage(nextURL, dirName, &docID))) return 0;
 
 				#ifdef DEBUGGING
 					counter1++;

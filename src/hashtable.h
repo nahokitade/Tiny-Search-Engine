@@ -14,6 +14,9 @@
 // ---------------- Prerequisites e.g., Requires "math.h"
 #include "common.h"                          // common functionality
 
+//requires  <string.h>                          // strlen
+//requires  <stdlib.h>
+
 // ---------------- Constants
 #define MAX_HASH_SLOT 10000                  // number of "buckets"
 

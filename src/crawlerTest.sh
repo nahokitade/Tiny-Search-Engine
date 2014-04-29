@@ -1,4 +1,20 @@
 #!/bin/bash
+# Script name: crawlerTest.sh
+#
+# Description: 
+#		Script to test crawler with different arguments.
+#
+# Output: 
+# 		A log called crawlerTestlog.(time stamp) that includes all results of the crawlerTest
+#
+# Special considerations: 
+#		While the script is being run, a new directory, WebPageDirectory(time stamp) will be created to store 
+# 		the files from the crawler command being run within the script will store all of its outputs. This 
+#		directory will be deleted once the script terminates, but while the script is running, do not 
+#		touch this directory. If the directory contents are changed, the test will not output an accurate test
+#		result. 
+#		The script will run for around 10 ~ 15 min.
+#
 
 crawlerFile=crawlerTestlog.`date +"%a_%b_%d_%T_%Y"`
 directoryName=WebPageDirectory`date +"%a_%b_%d_%T_%Y"`

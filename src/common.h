@@ -15,7 +15,7 @@
 //NEEDS stdlib.h
 
 // ---------------- Constants
-#define INTERVAL_PER_FETCH 0                // seconds between fetches
+#define INTERVAL_PER_FETCH 1                // seconds between fetches
 
 #define MAX_DEPTH 4                        // don't want to go too far do
 

@@ -64,6 +64,7 @@
 #include "utils.h"                           // utility stuffs
 
 // ---------------- Constant definitions
+#define ARG_NUMBER 4
 
 // ---------------- Macro definitions
 
@@ -77,17 +78,23 @@
 
 int main(int argc, char* argv[])
 {
-	int docID = 1;
-	char *dirName;
-	char *sourceURL;
+	int docID = 1; 			// document ID used when creating files to store the crawled URLS 
+	char *dirName;			// Saves given directory name
+	char *sourceURL;		// Saves source URL
+	long searchDepth;		// Given search depth converted into long
+	struct stat givDir;		// structure to check if given directory exists
+
+	// Structure used in crawler
+	List *URLList;
 	HashTable *hashTable;
+
+	// Function Prototypes
 	int assertInt(const char* const str, long *val);
 	int writePage(WebPage *pageToWrite, char *dirName, int *docIDAddr);
 	int testDirSlash(const char *str);
-	struct stat givDir;
 
 	// check command line arguments
-	if(argc != 4){ // need exactly 4 args
+	if(argc != ARG_NUMBER){ // need exactly 4 args
 		fprintf(stderr, "Usage: ./crawler [seedURL] [webPageDirectory] [maxWebPageDepth]");
 		return 0;
 	}
@@ -120,7 +127,6 @@ int main(int argc, char* argv[])
 
 	dirName = argv[2];
 	
-	long searchDepth;
 	//make sure that the third argument is an int.
 	if(!assertInt(argv[3], &searchDepth)){
 		fprintf(stderr, "The search depth must be a integer value.");
@@ -185,7 +191,7 @@ int main(int argc, char* argv[])
 	HashAdd(source->url, hashTable);
 
 	// create the URLList, and extract urls from seed page
-	List *URLList = CreateDLL();
+	URLList = CreateDLL();
 	int pos = 0;
  	char *result;
  	char *base_url = source->url;

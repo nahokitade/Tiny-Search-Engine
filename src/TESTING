@@ -1,0 +1,49 @@
+Testing for crawler has been done using the following files:
+=================================================================================
+
+hashTableTest.c
+
+Compiled and run using command: make hashTableTest 
+Executable: hashTableTest
+
+1) Create new hash table
+2) Successful adding elements into hash table
+3) Successful lookup in hash table
+4) Failure lookup in hash table
+5) Successful delete of whole hash table
+
+=================================================================================
+
+listTest.c 
+
+Compiled and run using command: make listTest
+Executable: listTest
+
+1) Create a new list
+2) Success empty check
+3) Failure removal
+4) Success append
+5) Failure (non empty) empty check
+6) Success removal
+7) Same procedures but with multiple elements
+
+=================================================================================
+
+crawlerTest.sh
+
+Run using command: make crawlerTest
+
+1) no arguments
+2) invalid prefix seed link
+3) dead seed link
+4) WebPageDirectory does not exist
+5) WebPageDirectory actually a file
+6) negative crawl depth
+7) too large crawl depth
+8) non int crawl depth
+9) crawler run on depth 0
+10) crawler run on depth 1
+11) crawler run on depth 2
+12) crawler run on depth 3
+
+=================================================================================

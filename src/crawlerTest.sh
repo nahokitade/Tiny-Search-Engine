@@ -75,6 +75,7 @@ printf "The number of pages in depth 1 should be 7. Verify: " >> $crawlerFile
 cd $directoryName
 
 page_number=`ls | xargs -n1 head -n1 | sort | wc -l`
+rm -f *
 
 cd ..
 
@@ -89,6 +90,7 @@ printf "The number of pages in depth 2 should be 931. Verify: " >> $crawlerFile
 cd $directoryName
 
 page_number=`ls | xargs -n1 head -n1 | sort | wc -l` 
+rm -f *
 
 cd ..
 
@@ -103,11 +105,12 @@ printf "The number of pages in depth 3 should be 2031. Verify: " >> $crawlerFile
 cd $directoryName
 
 page_number=`ls | xargs -n1 head -n1 | sort | wc -l`
+rm -f *
 
 cd ..
 
 printf "$page_number " >> $crawlerFile
 
-#rm -rf $directoryName
+rmdir $directoryName
 
 

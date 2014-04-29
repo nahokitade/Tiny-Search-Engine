@@ -29,6 +29,9 @@ hashTableTest: hashTableTest.c hashtable.o
 	$(CC) $(CFLAGS) -o hashTableTest hashTableTest.c hashtable.o
 	hashTableTest
 
+crawlerTest: crawler
+	crawlerTest.sh &
+
 clean:
 	rm -f *~
 	rm -f *#

@@ -6,7 +6,7 @@
  * Author: Naho Kitade
  * Date: April 2014
  *
- * A C file containing all the definitions of the function headers in list.h
+ * Functionality: A C file containing all the definitions of the function headers in list.h
  * This is a doubly linked list structure.
  *
  */

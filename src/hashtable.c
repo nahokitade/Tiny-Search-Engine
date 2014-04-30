@@ -7,8 +7,9 @@
  * Author: Naho Kitade
  * Date: April 2014
  *
- * You should include in this file your functionality for the hashtable as
- * described in the assignment and lecture.
+ * Functionality: a implementation for a hashtable structure used in crawler.
+ * Used for quick search of a url to determine if the url was previously 
+ * visited by the crawler.
  */
 /* ========================================================================== */
 

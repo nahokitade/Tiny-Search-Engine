@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 int main(){
-char *doc = fileToString("fileTest");
+	char *doc = fileToString("1");
 
 
-printf("the contents of fileTest are:\n %s", doc);
+	printf("the contents of fileTest are:\n %s", doc);
 
-free(doc);
+	free(doc);
 
-return 1;
+	return 1;
 }

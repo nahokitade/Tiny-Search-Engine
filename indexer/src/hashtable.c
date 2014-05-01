@@ -104,6 +104,7 @@ int HashAdd(char *str, HashTable *hashTab, int curDocID){
 		return 1;
 	}
 	else{
+		free(str);
 		DocNode *curDoc = ((WordNode*)addNode->hashKey)->docs;
 		DocNode *prevDoc;
 		for( ; curDoc != NULL; curDoc = curDoc->nextDoc){
@@ -219,7 +220,7 @@ int saveFile(char *fileName, HashTable *hashTab){
 	FILE *output = fopen(fileName, "a+");
 	int i;
 
-        for(i = 0; i <= MAX_HASH_SLOT; i++){
+        for(i = 0; i < MAX_HASH_SLOT; i++){
                 GenHashTableNode *curHashNode = hashTab->table[i];
                 if(!curHashNode) continue;
 
@@ -239,15 +240,16 @@ int saveFile(char *fileName, HashTable *hashTab){
 				curDocNode = curDocNode->nextDoc;
 			}
 
-		curHashNode = curHashNode->next;
+			curHashNode = curHashNode->next;
+			fprintf(output,"\n");
 		}
-		fprintf(output,"\n");
+		//fprintf(output,"\n");
         }
 	fclose(output);
 	return 1;
 }
 
-
+/*
 int readFile(char *fileName, HashTable *hashTab){
 	char *input = fileToString(fileName);
 	
@@ -256,4 +258,4 @@ int readFile(char *fileName, HashTable *hashTab){
 
 	return 1;
 }
-
+*/

@@ -23,6 +23,7 @@
 // ---------------- System includes e.g., <stdio.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // ---------------- Local includes  e.g., "file.h"
 #include "hashtable.h"
@@ -39,6 +40,7 @@
 
 // ---------------- Private prototypes 
 int buildIndexFromDirectory(char *dirName, HashTable *invInd);
+char *addPathToFile(char *path, char *fileName);
 
 /*====================================================================*/
 int main(int argc, char *argv[]){
@@ -58,7 +60,7 @@ int main(int argc, char *argv[]){
 
 	DeleteHashTable(invertedIndex);
 
-	HashTable *testInvertedIndex;
+	/*HashTable *testInvertedIndex;
         testInvertedIndex = calloc(1, sizeof(HashTable));
         if(!testInvertedIndex) return 0;
 	
@@ -68,7 +70,7 @@ int main(int argc, char *argv[]){
 		saveFile(argv[4], testInvertedIndex);
 		printf("Test complete!");
 		DeleteHashTable(testInvertedIndex);
-	}
+	}*/
 
 	return 1;
 }
@@ -91,15 +93,19 @@ int buildIndexFromDirectory(char *dirName, HashTable *invInd){
 		for(i = 0; i < num_files; i++){
 			// convert filename into an int curDocID =
 			curDocID = atoi(filenames[i]);
+
+			char *fileWithPath = addPathToFile(dirName, filenames[i]);
 			// process file into string char *doc =
-			char *doc = fileToString(filenames[i]);
+			char *doc = fileToString(fileWithPath);
 
 			while((pos = GetNextWord(doc, pos, &word)) > 0){
+				NormalizeWord(word);
                  		// do something with word
 				HashAdd(word, invInd, curDocID);
         		}
 
 			pos = 0;
+			free(fileWithPath);
 			free(filenames[i]);
 			free(doc);
 		}
@@ -108,3 +114,11 @@ int buildIndexFromDirectory(char *dirName, HashTable *invInd){
     return 1;
 }
 
+char *addPathToFile(char *path, char *fileName){
+	char *fileWithPath;
+	fileWithPath = calloc(strlen(path) + strlen(fileName) + 1, sizeof(char));
+	
+	sprintf(fileWithPath, "%s%s", path, fileName);
+
+	return fileWithPath;
+}

@@ -23,6 +23,7 @@
 #include <stdlib.h>                          // free, calloc
 #include <string.h>                          // strlen, strcpy
 #include <dirent.h>                          // scandir, alphasort
+#include <stdio.h>
 
 #include <sys/stat.h>                        // stat functionality
 
@@ -116,3 +117,27 @@ static int SelectFile(const struct dirent *entry)
 {
     return(entry->d_type == DT_REG);  // BSD ONLY
 }
+
+char *fileToString(char* fileName){
+        char *doc;
+        long length;
+
+        FILE *file = fopen(fileName, "rb");
+        if(!file) return NULL;
+
+        fseek(file, 0, SEEK_END);
+        length = ftell(file);
+        fseek(file, 0, SEEK_SET);
+
+        doc = calloc(length + 1, sizeof(char));
+        if(!doc) return NULL;
+
+        fread(doc, sizeof(char), length, file);
+
+        doc[length] = '\0';
+
+        fclose(file);
+
+        return doc;
+}
+

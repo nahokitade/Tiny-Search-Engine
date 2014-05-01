@@ -26,6 +26,8 @@
 
 // ---------------- Local includes  e.g., "file.h"
 #include "hashtable.h"
+#include "file.h"
+#include "web.h"
 
 // ---------------- Constant definitions 
 
@@ -36,9 +38,13 @@
 // ---------------- Private variables 
 
 // ---------------- Private prototypes 
+int buildIndexFromDirectory(char *dirName, HashTable *invInd);
 
 /*====================================================================*/
 int main(int argc, char *argv[]){
+	if(!IsDir(argv[1])){
+		fprintf(stderr, "Given \"directory\" is not a directory.");
+	}
 
 	HashTable *invertedIndex;
 	invertedIndex = calloc(1, sizeof(HashTable));
@@ -58,7 +64,7 @@ int main(int argc, char *argv[]){
 	
 	if(5 == argc){
 		printf("Testing index...\n");
-		readFile(argv[3], testInvertedIndex);
+		//readFile(argv[3], testInvertedIndex);
 		saveFile(argv[4], testInvertedIndex);
 		printf("Test complete!");
 		DeleteHashTable(testInvertedIndex);
@@ -67,44 +73,38 @@ int main(int argc, char *argv[]){
 	return 1;
 }
 
-int buildIndexFromDirectory(HashTable invInd, char *dirName){
-	struct dirent **existingFiles;
-	int i, numOfFiles;
-	numOfFiles = scandir(".", &existingFiles, 0, alphasort);
-	if (numOfFiles < 0) return 0;
-    	else {
-        	for (i = 0; i < numOfFiles; i++) {
-			printf("%s\n", existingFiles[i]->d_name);
+int buildIndexFromDirectory(char *dirName, HashTable *invInd){
 
-	
+	char **filenames = NULL;
+	int num_files = 0;
+	int i;
+	int pos = 0;
+        char *word;
+	int curDocID;
 
+	num_files = GetFilenamesInDir(dirName, &filenames);
+	if(num_files < 0) {
+		// failed to get any filenames (various reasons)
+		return 0;
+	} 
+	else{
+		for(i = 0; i < num_files; i++){
+			// convert filename into an int curDocID =
+			curDocID = atoi(filenames[i]);
+			// process file into string char *doc =
+			char *doc = fileToString(filenames[i]);
 
+			while((pos = GetNextWord(doc, pos, &word)) > 0){
+                 		// do something with word
+				HashAdd(word, invInd, curDocID);
+        		}
 
-
-           		free(existingFiles[i]);
-            	}
-        }
-    	free(existingFiles);
+			pos = 0;
+			free(filenames[i]);
+			free(doc);
+		}
+	free(filenames);	
+ 	}
     return 1;
-
 }
-
-int buildIndexPerFile(HashTable invInd, char *fileName){
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 

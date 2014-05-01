@@ -19,6 +19,7 @@
 
 // ---------------- Local includes  e.g., "file.h"
 #include "hashtable.h"
+#include "file.h"
 
 // ---------------- Function Definitions
 unsigned long JenkinsHash(const char *str, unsigned long mod)
@@ -246,14 +247,13 @@ int saveFile(char *fileName, HashTable *hashTab){
 	return 1;
 }
 
-/*
-int saveFile(char *fileName, HashTable *hashTab){
-	FILE *output = fopen(fileName, "r");
-	
 
+int readFile(char *fileName, HashTable *hashTab){
+	char *input = fileToString(fileName);
+	
 
 
 
 	return 1;
 }
-*/
+

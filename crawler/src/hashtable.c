@@ -136,7 +136,7 @@ int DeleteHashTable(HashTable *hashTab){
 	int i;
 	// go though all slots in the hashtable and delete all the 
 	// nodes in the linked list.
-	for(i = 0; i <= MAX_HASH_SLOT; i++){
+	for(i = 0; i < MAX_HASH_SLOT; i++){
 		HashTableNode *toDeleteHead = hashTab->table[i];
 		if(!toDeleteHead) continue;
 		DeleteIndexChain(toDeleteHead);

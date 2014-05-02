@@ -107,5 +107,7 @@ int CountDocuments(DocNode *docCountHead);
 
 int saveFile(char *fileName, HashTable *hashTab);
 
+int readFile(char *fileName, HashTable *hashTab);
+
 #endif // HASHTABLE_H
 

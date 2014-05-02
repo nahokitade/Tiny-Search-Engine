@@ -16,7 +16,7 @@
 #include <string.h>                          // strlen
 #include <stdlib.h>
 #include <stdio.h>
-
+#include <ctype.h>
 // ---------------- Local includes  e.g., "file.h"
 #include "hashtable.h"
 #include "file.h"
@@ -249,13 +249,85 @@ int saveFile(char *fileName, HashTable *hashTab){
 	return 1;
 }
 
-/*
+
 int readFile(char *fileName, HashTable *hashTab){
-	char *input = fileToString(fileName);
+	FILE *input = fopen(fileName, "r");
+	int i;
+	int letCount = 0;
+	int docID;
+	int occurrences;
+	char *word;
+	int numFiles;
+	char tempc;
+	unsigned long hashValue;
+	WordNode *addWord;
+	DocNode *addDoc, *prevDoc;
+	GenHashTableNode *curHashNode;
+	GenHashTableNode *newHashNode;
+	int numberRead;
+	//int n;
+
+	//tempc = fgetc(input);
+	while((tempc = fgetc(input)) != EOF){	
+		while(isalpha(tempc)){
+			tempc = fgetc(input);
+			letCount++;
+		}
+		
+		fseek(input, -(letCount + 1), SEEK_CUR);
+		//fseek(input, SEEK_SET, 0);
+		word = calloc(letCount + 1, sizeof(char));
 	
+		//fgets(word, letCount, input);
+		numberRead = fread(word, sizeof(char), letCount, input);
+		
+		printf("word read is: %s%d\n", word, numberRead);		
 
+		fflush(stdout);
 
+		hashValue = JenkinsHash(word, MAX_HASH_SLOT);
 
+		curHashNode = hashTab->table[hashValue];
+
+		newHashNode = calloc(1, sizeof(GenHashTableNode));
+
+		addWord = calloc(1, sizeof(WordNode));
+		if(!addWord) return 0;
+		
+		addWord->word = word;
+
+		newHashNode->hashKey = addWord;
+
+		if(!curHashNode){
+			hashTab->table[hashValue] = newHashNode;
+		}
+		else{
+			while(curHashNode->next) curHashNode = curHashNode->next;
+			curHashNode->next = newHashNode;
+		}
+
+		fscanf(input ," %d ", &numFiles);
+
+		for(i = 0; i < numFiles; i++){
+
+			fscanf(input, "%d %d ", &docID, &occurrences);
+			// reconstruct hashtable	
+			addDoc = calloc(1, sizeof(DocNode));
+			addDoc->documentID = docID;
+			addDoc->occurrences = occurrences;
+			if(i == 0){
+				addWord->docs = addDoc;
+				prevDoc = addDoc;
+			}
+			else{
+				prevDoc->nextDoc = addDoc;
+				prevDoc = prevDoc->nextDoc;
+			}
+			//prevDoc = addDoc;
+		}	
+
+		letCount = 0;
+	}
 	return 1;
 }
-*/
+

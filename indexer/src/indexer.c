@@ -60,17 +60,17 @@ int main(int argc, char *argv[]){
 
 	DeleteHashTable(invertedIndex);
 
-	/*HashTable *testInvertedIndex;
+	HashTable *testInvertedIndex;
         testInvertedIndex = calloc(1, sizeof(HashTable));
         if(!testInvertedIndex) return 0;
 	
 	if(5 == argc){
 		printf("Testing index...\n");
-		//readFile(argv[3], testInvertedIndex);
+		readFile(argv[3], testInvertedIndex);
 		saveFile(argv[4], testInvertedIndex);
 		printf("Test complete!");
 		DeleteHashTable(testInvertedIndex);
-	}*/
+	}
 
 	return 1;
 }

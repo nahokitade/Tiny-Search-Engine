@@ -10,11 +10,19 @@ web.o: web.c web.h
 	$(CC) $(CFLAGS) -c web.c
 
 # makes the hash table structure
-hashtable.o: hashtable.c hashtable.h file.o
-	$(CC) $(CFLAGS) -c hashtable.c file.o
+hashtable.o: hashtable.c hashtable.h file.h
+	$(CC) $(CFLAGS) -c hashtable.c
 
 file.o: file.c file.h
 	$(CC) $(CFLAGS) -c file.c
+
+fileTest: fileTest.c file.o
+	$(CC) $(CFLAGS) -o fileTest fileTest.c file.o
+	fileTest
+
+readFileTest: readFileTest.c hashtable.o
+	$(CC) $(CFLAGS) -o readFileTest readFileTest.c hashtable.o
+	readFileTest	
 
 # makes a hashTableTest executable that will test the hash table structure
 hashTableTest: hashTableTest.c hashtable.o

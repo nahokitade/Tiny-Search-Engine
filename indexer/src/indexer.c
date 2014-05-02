@@ -31,6 +31,7 @@
 #include "web.h"
 
 // ---------------- Constant definitions 
+#define LINES_TO_SKIP 2
 
 // ---------------- Macro definitions
 
@@ -44,9 +45,19 @@ char *addPathToFile(char *path, char *fileName);
 
 /*====================================================================*/
 int main(int argc, char *argv[]){
-	if(!IsDir(argv[1])){
-		fprintf(stderr, "Given \"directory\" is not a directory.");
+
+
+	if(argc == 1){
+		fprintf(stderr, "Usage: ./indexer  [TARGET_DIRECTORY] [RESULTS FILE NAME] \nFor test run: ./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] [RESULTS FILENAME] [REWRITEN FILENAME]");
 	}
+
+	if(argc != 3 && argc != 5){
+		fprintf(stderr, "You must input 3 arguments for the normal run, or 5 arguments for the test run.");
+	}
+
+	if(!IsDir(argv[1])){
+                fprintf(stderr, "Given \"directory\" is not a directory.");
+        }
 
 	HashTable *invertedIndex;
 	invertedIndex = calloc(1, sizeof(HashTable));
@@ -68,7 +79,7 @@ int main(int argc, char *argv[]){
 		printf("Testing index...\n");
 		readFile(argv[3], testInvertedIndex);
 		saveFile(argv[4], testInvertedIndex);
-		printf("Test complete!");
+		printf("Test complete!\n");
 		DeleteHashTable(testInvertedIndex);
 	}
 
@@ -96,11 +107,15 @@ int buildIndexFromDirectory(char *dirName, HashTable *invInd){
 
 			char *fileWithPath = addPathToFile(dirName, filenames[i]);
 			// process file into string char *doc =
-			char *doc = fileToString(fileWithPath);
+			char *doc = fileToString(fileWithPath, LINES_TO_SKIP);
 
 			while((pos = GetNextWord(doc, pos, &word)) > 0){
 				NormalizeWord(word);
                  		// do something with word
+                 		if(strlen(word) < 3){
+					free(word);
+					continue;
+				}
 				HashAdd(word, invInd, curDocID);
         		}
 

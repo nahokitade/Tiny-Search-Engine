@@ -217,7 +217,7 @@ int CountDocuments(DocNode *docCountHead){
 }
 
 int saveFile(char *fileName, HashTable *hashTab){
-	FILE *output = fopen(fileName, "a+");
+	FILE *output = fopen(fileName, "w");
 	int i;
 
         for(i = 0; i < MAX_HASH_SLOT; i++){

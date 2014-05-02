@@ -64,6 +64,6 @@ int IsDir(const char *path);
  */
 int GetFilenamesInDir(const char *dir, char ***filenames);
 
-char *fileToString(char* fileName);
+char *fileToString(char* fileName, int startingLine);
 
 #endif // FILE_H

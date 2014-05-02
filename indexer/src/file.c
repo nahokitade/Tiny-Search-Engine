@@ -118,9 +118,12 @@ static int SelectFile(const struct dirent *entry)
     return(entry->d_type == DT_REG);  // BSD ONLY
 }
 
-char *fileToString(char* fileName){
+char *fileToString(char* fileName, int startingLine){
         char *doc;
         long length;
+	char tempc;
+	int currentLine = 0;
+	int skipCount = 0;
 
         FILE *file = fopen(fileName, "rb");
         if(!file) return NULL;
@@ -129,12 +132,18 @@ char *fileToString(char* fileName){
         length = ftell(file);
         fseek(file, 0, SEEK_SET);
 
-        doc = calloc(length + 1, sizeof(char));
+	while(currentLine < startingLine){
+		tempc = fgetc(file);
+		if(tempc == '\n'){
+			currentLine++;
+		}
+		skipCount++;
+	}
+
+        doc = calloc((length - skipCount) + 1, sizeof(char));
         if(!doc) return NULL;
 
-        fread(doc, sizeof(char), length, file);
-
-        doc[length] = '\0';
+        fread(doc, sizeof(char), length - skipCount, file);
 
         fclose(file);
 

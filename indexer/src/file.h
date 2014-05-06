@@ -64,6 +64,17 @@ int IsDir(const char *path);
  */
 int GetFilenamesInDir(const char *dir, char ***filenames);
 
+/*
+ * Converts a file to a string after skipping the amount
+ * of lines at the beginning of the file indicated by
+ * startingLine
+ * @startingLine: Which line of the file you want to
+ * convert to a string.
+ * @fileName: The name of the file to convert to a string
+
+ * @result: returns the string converted version of the
+ * file given.
+ */
 char *fileToString(char* fileName, int startingLine);
 
 #endif // FILE_H

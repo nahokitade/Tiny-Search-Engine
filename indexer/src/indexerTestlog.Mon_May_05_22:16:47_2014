@@ -1,0 +1,46 @@
+Starting Time: 22:16:47 on 05/05/2014
+Host name of run: bear.cs.dartmouth.edu
+Operating System of run: Linux
+
+With no arguments, error message should show to inform user of usage.
+Usage: ./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] 
+For test run: ./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] [RESULTS FILENAME] [REWRITEN FILENAME]
+
+With too few arguments, indexer will inform that the number of arguments must be 3 or 5.
+You must input 3 arguments for the normal run, or 5 arguments for the test run.
+
+With too many arguments, indexer will inform that the number of arguments must be 3 or 5.
+You must input 3 arguments for the normal run, or 5 arguments for the test run.
+
+With invalid directory argument, indexer will inform that the given directory is not a directory.
+Given "directory" is not a directory.
+
+With already existing file without write permission, indexer will inform that the indexer failed in the build or output of the file.
+Building the index...
+Failed index building or output processes.
+
+Building the index...
+Testing index...
+Test complete!
+Indexes have been built, read and rewritten correctly!
+Index storage passed test at lvl0!
+
+Building the index...
+Testing index...
+Test complete!
+Indexes have been built, read and rewritten correctly!
+Index storage passed test at lvl1!
+
+Building the index...
+Testing index...
+Test complete!
+Indexes have been built, read and rewritten correctly!
+Index storage passed test at lvl2!
+
+Building the index...
+Testing index...
+Test complete!
+Indexes have been built, read and rewritten correctly!
+Index storage passed test at lvl3!
+
+Ending Time: 22:19:42 on 05/05/2014

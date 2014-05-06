@@ -118,28 +118,43 @@ static int SelectFile(const struct dirent *entry)
     return(entry->d_type == DT_REG);  // BSD ONLY
 }
 
+/*
+ * Converts a file to a string after skipping the amount
+ * of lines at the beginning of the file indicated by
+ * startingLine
+ * @startingLine: Which line of the file you want to
+ * convert to a string.
+ * @fileName: The name of the file to convert to a string
+ * @result: returns the string converted version of the
+ * file given. 
+ */
 char *fileToString(char* fileName, int startingLine){
-        char *doc;
-        long length;
-	char tempc;
-	int currentLine = 0;
-	int skipCount = 0;
+        char *doc;		// file made into string
+        long length;		// length of the file
+	char tempc;		// temporary character to skip over first 2 lines
+	int currentLine = 0;	// loop counter until startingLine
+	int skipCount = 0;	// how many character we skipped
 
         FILE *file = fopen(fileName, "rb");
         if(!file) return NULL;
 
+	// set pointer to end, get the length of the file,
+	// set pointer back to start
         fseek(file, 0, SEEK_END);
         length = ftell(file);
         fseek(file, 0, SEEK_SET);
 
+	// skip until the specified startingLine position
 	while(currentLine < startingLine){
 		tempc = fgetc(file);
-		if(tempc == '\n'){
+		if(tempc == '\n'){ // \n signifies new line
 			currentLine++;
 		}
 		skipCount++;
 	}
 
+	// allocate sufficient memory and read the whole file
+	// from after the skipped lines
         doc = calloc((length - skipCount) + 1, sizeof(char));
         if(!doc) return NULL;
 
@@ -149,4 +164,3 @@ char *fileToString(char* fileName, int startingLine){
 
         return doc;
 }
-

@@ -1,0 +1,39 @@
+README for indexer
+
+Author: Naho Kitade
+
+indexer is a part 2 of the Tiny Search Engine project. The indexer will process all the files outputted from crawler and will create a file that summarizes the occurrences and the location of the occurrence, of every word that was found in all of the files. The output file of the indexer can later be used by the Query Engine component of the TSE. 
+
+Building:
+indexer can be built using the Makefile included in the submission. Cammand make will automatically update and make the indexer executable. 
+The Makefile also includes tests that can be done on the hashtable structure needed to run indexer, by the command make hashTableTest. 
+
+Normal Run command:
+	./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] 
+Example command input: 
+	./indexer ./data/ index.dat
+
+[TARGET_DIRECTORY] ./data/ 
+directory where the crawler output files are stored. 
+
+[RESULTS FILENAME] index.dat
+filename that the indexer output file will be written to. 
+
+Test Run command: 
+	./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] [RESULTS FILENAME] [REWRITEN FILENAME]  
+Example command input:  
+	./indexer ./data/ index.dat index.dat new_index.dat
+
+[TARGET_DIRECTORY] [RESULTS FILENAME] ./data/ index.dat 
+Same as above. 
+
+[REWRITEN FILENAME] new_index.dat
+filename that the indexer test will output to. (indexer test will rebuild the indexer from the outputted file of the Normal Run, and will output a file that should be identical to the file of the Normal Run.)
+
+Assumptions:
+1) There is enough memory to run indexer (ie space for all the memory allocations of data structures and words stored during execution. Space for the final outputted file)
+2) Indexer will fail with a return of 0 anytime the program fails to allocate memory with a call of calloc.
+3) Indexer will ignore any word that has fewer than 3 letters that was found. 
+4) The caller has the write and read permission for the files inputted to indexer. 
+5) The TARGET_DIRECTORY passed to the indexer will in fact contain the files outputted by crawler.
+6) The first two lines of the crawler output has the URL and the depth count (since these two lines will be skipped for the indexer processing)

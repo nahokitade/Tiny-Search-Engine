@@ -35,14 +35,6 @@ printf("If look up is successful, this should be 1. Verify: %d\n", testNum);
 
 printf("DocumentID = %d     Occurrences = %d\n", ((WordNode *)shouldNotBeNull->hashKey)->docs->documentID, ((WordNode *)shouldNotBeNull->hashKey)->docs->occurrences);
 
-HashAdd(str1, hashTable, 1);
-
-shouldNotBeNull = HashContains(str1, hashTable);
-
-testNum = (shouldNotBeNull)? 1 : 0;
-
-printf("If look up is successful, this should be 1. Verify: %d\n", testNum);
-
 DocNode *curDoc = ((WordNode *)shouldNotBeNull->hashKey)->docs;
 
 while(curDoc){
@@ -67,7 +59,13 @@ while(curDoc){
         curDoc = curDoc->nextDoc;
 }
 
-HashAdd(str1, hashTable, 28);
+char *str3;
+
+str3 = calloc(10, sizeof(char));
+
+str3 = strcpy(str3, "cats");
+
+HashAdd(str3, hashTable, 28);
 
 shouldNotBeNull = HashContains(str1, hashTable);
 

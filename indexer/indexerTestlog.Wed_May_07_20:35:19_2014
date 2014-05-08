@@ -1,6 +1,17 @@
-Starting Time: 13:00:44 on 05/07/2014
-Host name of run: bear.cs.dartmouth.edu
+Starting Time: 20:35:19 on 05/07/2014
+Host name of run: spruce.cs.dartmouth.edu
 Operating System of run: Linux
+
+Starting cleaning and making...
+rm -f *~
+rm -f ./indexer
+rm -f *.o
+gcc -Wall -pedantic -std=c11 -g -c ./src/hashtable.c ./src/web.c ./src/file.c 
+make: Warning: File `web.o' has modification time 8.4 s in the future
+gcc -Wall -pedantic -std=c11 -g -o indexer ./src/indexer.c hashtable.o web.o file.o
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+Make ran properly without errors.
 
 With no arguments, error message should show to inform user of usage.
 Usage: ./indexer  [TARGET_DIRECTORY] [RESULTS FILENAME] 
@@ -43,4 +54,9 @@ Test complete!
 Indexes have been built, read and rewritten correctly!
 Index storage passed test at lvl3!
 
-Ending Time: 13:03:32 on 05/07/2014
+cleaning the made files.
+rm -f *~
+rm -f ./indexer
+rm -f *.o
+
+Ending Time: 20:36:56 on 05/07/2014

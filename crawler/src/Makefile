@@ -1,17 +1,20 @@
 CC = gcc
 CFLAGS = -Wall -pedantic -std=c11 -g
+UTILDIR=../../util/
+UTILFLAG=-ltseutil
+UTILLIB=$(UTILDIR)libtseutil.a
 
 # makes crawler executables
 crawler: crawler.c list.o web.o hashtable.o common.o
-	$(CC) $(CFLAGS) -o crawler crawler.c list.o web.o hashtable.o common.o -lcurl
+	$(CC) $(CFLAGS) -o crawler crawler.c list.o web.o hashtable.o common.o -lcurl 
 
 # makes crawlerDebug executable that is crawler but with debugging information
 crawlerDebug: crawler.c list.o web.o hashtable.o common.o
 	$(CC) $(CFLAGS) -o crawlerDebug crawler.c list.o web.o hashtable.o common.o -lcurl -DDEBUGGING
 
 # makes the Doubly Linked List structure
-list.o: list.c list.h common.h
-	$(CC) $(CFLAGS) -c list.c
+list.o: $(UTILLIB) list.h common.h
+	$(CC) $(CFLAGS) -c list.c -L$(UTILDIR) $(UTILFLAG)
 
 # makes the curl handling .o file
 web.o: web.c web.h common.h
@@ -38,6 +41,9 @@ hashTableTest: hashTableTest.c hashtable.o
 # executest the crawlerTest.sh script to test the crawler.
 crawlerTest: crawler
 	crawlerTest.sh &
+
+$(UTILLIB): $(UTILC) $(UTILH)
+	cd $(UTILDIR); make;
 
 # cleans the directory to make a fresh crawler executable.
 clean:

@@ -67,27 +67,30 @@ int AddDocNodeChain(WordChainNode *toAddNode, DocNode *docNodeChain){
  * @linkedList: linkedList to remove from
  * Returns pointer of the WebPage that was removed, NULL if fail
  */
-DocNode *removeTopDoc(SinLL *linkedList){
-	if(IsEmptySinLL(linkedList)) return NULL;
-	DocNode *toRetDocs = linkedList->head->docs; 
+int removeTopDoc(SinLL *linkedList, DocNode **tempDocPtr){
+	if(IsEmptySinLL(linkedList)) return 0;
+	*tempDocPtr = linkedList->head->docs; 
 	WordChainNode *toFreeNode = linkedList->head; // need to keep this since this node needs to be freed
 	linkedList->head = linkedList->head->nextWords; // make the new head the one after current head
 
 	DeleteWordChainNode(toFreeNode); // free memory of ListNode struct.
 
-	return toRetDocs;
+	return 1;
 }
 
 int DeleteWordChainNode(WordChainNode *toFreeNode){
-	DeleteWordsLLChain(toFreeNode->words);	
+	//DeleteWordsLLChain(toFreeNode->words);	
 	free(toFreeNode);
 	return 1;
 }
 
 int DeleteWordsLLChain(WordsLL *toFreeWords){
+	WordsLL *tempFreeWords;
 	while(toFreeWords){
 		free(toFreeWords->word);
+		tempFreeWords = toFreeWords;
 		toFreeWords = toFreeWords->nextWord;
+		free(tempFreeWords);
 	}
 	return 1;
 }

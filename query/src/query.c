@@ -1,73 +1,143 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#include "hashtable.h"
+#include "SinLL.h"
+#include "queryProcess.h"
+#include "web.h"
+
 #define AND "AND"
 #define OR "OR" 
 
 int main(int argc, char* argv[]){
-	int orNext = 0;
-	int firstAdd = 1;
-	char query[1000];
 
-	HashTable *testInvertedIndex;
-	testInvertedIndex = calloc(1, sizeof(HashTable));
+	int success;
+	int orNext;
+	int firstAdd;
 
-	readFile(argv[1], testInvertedIndex);
+	HashTable *invertedIndex;
+	invertedIndex = calloc(1, sizeof(HashTable));
 
-	fputs("QUERY> ", stdout);
-	fflush(stdout); 
-   	fgets(query, sizeof(char)*1000, stdin);
+	readFile(argv[1], invertedIndex);
 
-	SinLL *wordList = CreateSinLL();
 
-	pos = 0;
-	char *word;  
-	while((pos = GetNextWord(query, pos, &word)) > 0){
-		if(strcmp(AND, word) == 0) continue;
-		if(strcmp(OR, word) == 0){
-			orNext = 1;
-			continue;			
+	while(1){
+		char *getsSucc;
+		int totSize = 10;
+		int size = 10;
+		int i = 0;
+		char *query;
+        	char *temp;
+		fputs("QUERY> ", stdout);
+		fflush(stdout); 
+		query = calloc(size, sizeof(char));
+		temp = query;
+	   	getsSucc = fgets(temp, sizeof(char)*size+i, stdin);
+		temp = &query[totSize-1];
+		if(!getsSucc) break;
+		while((strlen(getsSucc)+1+i) == size && query[totSize-2] != '\n'){
+			i = 1;
+			totSize += size;
+			query = realloc(query, totSize);
+			getsSucc = fgets(temp, sizeof(char)*size+i, stdin);
+			temp = &query[totSize-i];
 		}
-		NormalizeWord(word);
-		if(firstAdd){
-			appendNewWordChain(word, wordList);
-			firstAdd = 0;
-                }
-		if(orNext){
-			appendNewWordChain(word, wordList);
-			orNext = 0;
+		
+		printf("query is: %s", query);
+		
+		orNext = 0;
+		firstAdd = 1;
+
+		SinLL *wordList = CreateSinLL();
+
+		char *wordP;  
+		wordP = strtok(query," ");
+		while(wordP){
+			if(wordP[strlen(wordP)-1] == '\n'){
+				wordP[strlen(wordP)-1] = 0;
+			}
+			if(strcmp(AND, wordP) == 0){ 
+				wordP = strtok (NULL, " ");
+				continue;
+			}
+			if(strcmp(OR, wordP) == 0){
+				orNext = 1;
+				wordP = strtok (NULL, " ");
+				continue;			
+			}
+			NormalizeWord(wordP);
+			if(firstAdd){
+				appendNewWordChain(wordP, wordList);
+				firstAdd = 0;
+        	        }
+			else if(orNext){
+				appendNewWordChain(wordP, wordList);
+				orNext = 0;
+			}
+			else{
+				appendWord(wordP, wordList);
+			}
+			wordP = strtok (NULL, " ");
+		}
+	
+		WordChainNode *curWordChain = wordList->head;
+		while(curWordChain){
+			firstAdd = 1;
+			DocNode *tempProcessDocNode;
+                	DocNode *processDocNode;
+
+			WordsLL *wordsProc = curWordChain->words;
+			while(wordsProc){
+	
+				tempProcessDocNode = DocsFromWordNode(wordsProc->word, invertedIndex);
+					
+				processDocNode = CopyDocs(tempProcessDocNode);
+
+				DocMergedID(&processDocNode, &(curWordChain->docs));			
+
+				if(!firstAdd){
+					ProcessAND(&processDocNode);
+				}
+
+				AddDocNodeChain(curWordChain, processDocNode);
+			
+				wordsProc = wordsProc->nextWord;
+				firstAdd = 0;
+			}
+
+			curWordChain = curWordChain->nextWords;
+		}
+	
+		curWordChain = wordList->head;
+		DocNode *curDocs;
+		DocNode *nextDocs;
+		success = removeTopDoc(wordList, &curDocs);
+		if(success){
+			success = removeTopDoc(wordList, &nextDocs);
+			while(success){
+				DocMergedID(&curDocs, &nextDocs);
+		
+				ProcessOR(&curDocs);
+
+				success = removeTopDoc(wordList, &nextDocs);
+			}
 		}
 		else{
-			appendWord(word, wordList);
+			printf("No match was found...\n"); 
+			continue;
 		}
+	
+		SortByRank(&curDocs);
+	
+		PrintQueryResult(curDocs, argv[2]);
+		free(wordList);
+		//DeleteHashTable(invertedIndex);
+		free(query);
+		//return 1;
 	}
-	
-	WordChainNode *curWordChain = wordList->head;
-	while(curWordChain){
-		DocNode *tempProcessDocNode;
-                DocNode *processDocNode;
-
-		WordsLL *wordsProc = curWordChain->words;
-		while(wordsProc){
-
-			tempProcessDocNode = DocsFromWordNode(word, hashTable);
-				
-			processDocNode = CopyDocs(tempProcessDocNode);
-			
-			DocMergedID (processDocNode, curWordChain->docs);			
-
-			ProcessAND(&processDocNode);
-
-			AddDocNodeChain(curWordChain, processDocNode);
-			
-			wordsProc = wordsProc->nextWord;
-		}
-
-		curWordChain = curWordChain->nextWords;
-	}
-	
-	curWordChain = wordList->head;
-	
+	DeleteHashTable(invertedIndex);
+	return 1;
 }
 
 

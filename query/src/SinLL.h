@@ -31,12 +31,19 @@ typedef struct SinLL {
 
 
 SinLL *CreateSinLL();
+
 int appendWord(char *word, SinLL *linkedList);
+
 int appendNewWordChain(char *word, SinLL *linkedList);
-DocNode *removeTopDoc(SinLL *linkedList);
+
+int removeTopDoc(SinLL *linkedList, DocNode **tempDocPtr);
+
 int DeleteWordChainNode(WordChainNode *toFreeNode);
+
 int DeleteWordsLLChain(WordsLL *toFreeWords);
+
 int IsEmptySinLL(SinLL *linkedList);
+
 int AddDocNodeChain(WordChainNode *toAddNode, DocNode *docNodeChain);
 
 

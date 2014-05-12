@@ -38,6 +38,8 @@ DocNode *CopyDocs(DocNode *docHead){
 	DocNode *curCopyDoc;
 	DocNode *newCopyDoc;
 	
+	if(!docHead) return NULL;
+
 	newCopyDoc = calloc(1, sizeof(DocNode));
 	if(!newCopyDoc) return NULL;
 
@@ -67,16 +69,19 @@ Function 2 for AND and OR
 Merge two doc nodes in sorted order. (doc IDs.)
 merged list stored now at doc1. 
 */
-void DocMergedID(DocNode *doc1, DocNode *doc2){
-	DocNode *curDoc = doc1;
-	if(doc2){
+int DocMergedID(DocNode **doc1, DocNode **doc2){
+	DocNode *curDoc = *doc1;
+	DocNode *doc2Ptr = *doc2;
+	if(!curDoc) return 0;
+	if(doc2Ptr){
 		while(curDoc->nextDoc){
 			curDoc = curDoc->nextDoc;
 		}
-		curDoc->nextDoc = doc2;
+		curDoc->nextDoc = doc2Ptr;
 	}
 
-	MergeSort(&doc1, compareIDs);
+	MergeSort(doc1, compareIDs);
+	return 1;
 }
 
 int compareIDs(DocNode *doc1, DocNode *doc2){
@@ -208,6 +213,7 @@ void PrintQueryResult(DocNode *printHead, char *webPageDir){
 	char docIDChar[20];
 	char *URL;
 	char *fileName;
+	int count = 0;
 	while(printHead){
 		tempDoc = printHead;
 		docID = printHead->documentID;
@@ -220,11 +226,13 @@ void PrintQueryResult(DocNode *printHead, char *webPageDir){
 		
 		printf("Document ID:%d URL:%s\n", docID, URL);
 
-		free(fileName);
-		
 		printHead = printHead->nextDoc;
 		free(tempDoc);		
+		free(fileName);
+		free(URL);
+		count++;
 	}
+	printf("\nTotal Pages Found: %d\n", count);
 }
 
 /*

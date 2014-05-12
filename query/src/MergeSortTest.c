@@ -6,31 +6,54 @@
 #include "queryProcess.h"
 
 int main(){
-	int i;
+//	int i;
 	DocNode *curDocNode;
 	DocNode *docNodeHead;
 	DocNode *newDocNode;
 
 	curDocNode = calloc(1, sizeof(DocNode));
-	curDocNode->documentID = 1;
-	curDocNode->occurrences = 10;
+	curDocNode->documentID =38;
+	curDocNode->occurrences = 75893;
 	docNodeHead = curDocNode;
-
-	for(i = 2; i < 10; i++){
-		newDocNode = calloc(1, sizeof(DocNode));
-		newDocNode->documentID = i;
-		newDocNode->occurrences = (i+3);
+	
+	//for(i = 2; i < 4; i++){
+	/*	newDocNode = calloc(1, sizeof(DocNode));
+		newDocNode->documentID = 38;
+		newDocNode->occurrences = 75893;
 		curDocNode->nextDoc = newDocNode;
 		curDocNode = curDocNode->nextDoc;
-	}
+	//}*/
+	newDocNode = calloc(1, sizeof(DocNode));
+                newDocNode->documentID = 23;
+                newDocNode->occurrences = 4698375;
+                curDocNode->nextDoc = newDocNode;
+                curDocNode = curDocNode->nextDoc;
 	
-	for(i = 10; i > 0; i--){
+	newDocNode = calloc(1, sizeof(DocNode));
+                newDocNode->documentID = 18;
+                newDocNode->occurrences = 324;
+                curDocNode->nextDoc = newDocNode;
+                curDocNode = curDocNode->nextDoc;
+
+	newDocNode = calloc(1, sizeof(DocNode));
+                newDocNode->documentID = 14;
+                newDocNode->occurrences = 43536;
+                curDocNode->nextDoc = newDocNode;
+                curDocNode = curDocNode->nextDoc;
+
+	newDocNode = calloc(1, sizeof(DocNode));
+                newDocNode->documentID = 13;
+                newDocNode->occurrences = 24324;
+                curDocNode->nextDoc = newDocNode;
+                curDocNode = curDocNode->nextDoc;
+
+	/*for(i = 10; i > 0; i--){
 		newDocNode = calloc(1, sizeof(DocNode));
 	        newDocNode->documentID = i;
 	        newDocNode->occurrences = (i+7);
 	        curDocNode->nextDoc = newDocNode;
 	        curDocNode = curDocNode->nextDoc;
-	}
+	}*/
 	
 	curDocNode = docNodeHead;
 	

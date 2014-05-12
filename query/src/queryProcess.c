@@ -12,6 +12,9 @@ int compareOccurrences(DocNode *doc1, DocNode *doc2);
 char *GetURL(char *fileName);
 int testDirSlash(const char *str);
 char *addPathToFile(char *path, char *fileName);
+
+
+
 /*Function 1
 Look for the word, Get its docNode, get its Docs, return the Docs. 
 */
@@ -66,10 +69,12 @@ merged list stored now at doc1.
 */
 void DocMergedID(DocNode *doc1, DocNode *doc2){
 	DocNode *curDoc = doc1;
-	while(curDoc->nextDoc){
-		curDoc = curDoc->nextDoc;
+	if(doc2){
+		while(curDoc->nextDoc){
+			curDoc = curDoc->nextDoc;
+		}
+		curDoc->nextDoc = doc2;
 	}
-	curDoc->nextDoc = doc2;
 
 	MergeSort(&doc1, compareIDs);
 }
@@ -87,33 +92,63 @@ Takes output from function 2 and get all the duplicates (according to the number
 make duplicates into one by adding the second occurrence to the first docnode occurrence.
 Return only docNode chain with duplicated DocNode
 */
-int ProcessAND(DocNode *doc1){
-	if(!doc1) return 0;
-	DocNode *prevNode = doc1;
-	DocNode *curNode = doc1->nextDoc;
+int ProcessAND(DocNode **doc1){
+	if(!*doc1) return 0;
+	
+	DocNode *prevNode = NULL;
+	DocNode *curNode = *doc1;
+	DocNode *nextNode = curNode->nextDoc;
 	DocNode *tempNode;
 	int dupCount = 0;
-	while(curNode){
-		if(prevNode->documentID == curNode->documentID){
+	while(nextNode){
+		if(curNode->documentID == nextNode->documentID){
 			// HOPE THIS WORKS
-			prevNode->occurrences += curNode->occurrences;
-			prevNode->nextDoc = curNode->nextDoc;
-			free(curNode);
+			curNode->occurrences += nextNode->occurrences;
+			curNode->nextDoc = nextNode->nextDoc;
+			free(nextNode);
 			dupCount++;
-			curNode = prevNode->nextDoc;
+			nextNode = curNode->nextDoc;
 		}		
 		else{
 			if(!dupCount){
-				tempNode = prevNode;
-				prevNode = prevNode->nextDoc;
-				free(tempNode);	
-			}
-			else prevNode = prevNode->nextDoc;
+				if(!prevNode){
+					tempNode = curNode;
+                                	curNode = curNode->nextDoc;
+					*doc1 = curNode;
+                                	free(tempNode);
+				}
 
-			curNode = curNode->nextDoc;
+				else{
+					tempNode = curNode;
+					prevNode->nextDoc = curNode->nextDoc;
+					curNode = prevNode->nextDoc;
+					free(tempNode);	
+				}
+			}
+			else{
+				prevNode = curNode;
+				curNode = curNode->nextDoc;
+			}
+			nextNode = nextNode->nextDoc;
 			dupCount = 0;
 		}
 	}
+	if(!dupCount){
+                if(!prevNode){
+                         tempNode = curNode;
+                         curNode = curNode->nextDoc;
+                         *doc1 = curNode;
+                         free(tempNode);
+                 }
+
+                 else{
+                         tempNode = curNode;
+                         prevNode->nextDoc = curNode->nextDoc;
+                         curNode = prevNode->nextDoc;
+                         free(tempNode);
+                 }
+        }
+	//*doc1 = *doc1->nextDoc;
 	return 1;
 }
 
@@ -123,10 +158,10 @@ Function 4 for OR
 Takes output from function 2 and make duplicates into one by adding the second occurrence to the first docnode occurrence. 
 Return docNode chain with duplicated and non duplicated DocNode.
 */
-int ProcessOR(DocNode *doc1){
-        if(!doc1) return 0;
-        DocNode *prevNode = doc1;
-        DocNode *curNode = doc1->nextDoc;
+int ProcessOR(DocNode **doc1){
+        if(!*doc1) return 0;
+        DocNode *prevNode = *doc1;
+        DocNode *curNode = prevNode->nextDoc;
         while(curNode){
                 if(prevNode->documentID == curNode->documentID){
                         // HOPE THIS WORKS
@@ -149,8 +184,8 @@ Function 6 for AND and OR
 Tree sort, merge sort, or something according to the occurrences of the word. 
 return this sorted DocNode
 */
-void SortByRank(DocNode *docToSort){
-        MergeSort(&docToSort, compareOccurrences);
+void SortByRank(DocNode **docToSort){
+        MergeSort(docToSort, compareOccurrences);
 }
 
 
@@ -183,7 +218,7 @@ void PrintQueryResult(DocNode *printHead, char *webPageDir){
 
 		URL = GetURL(fileName);
 		
-		printf("Document ID:%d URL:%s", docID, URL);
+		printf("Document ID:%d URL:%s\n", docID, URL);
 
 		free(fileName);
 		

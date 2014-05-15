@@ -1,4 +1,4 @@
-Starting Time: 20:51:54 on 05/14/2014
+Starting Time: 14:17:20 on 05/15/2014
 Host name of run: ossipee.cs.dartmouth.edu
 Operating System of run: Linux
 
@@ -636,4 +636,4 @@ rm -f *~
 rm -f ./query
 rm -f *.o
 
-Ending Time: 20:52:02 on 05/14/2014
+Ending Time: 14:17:30 on 05/15/2014

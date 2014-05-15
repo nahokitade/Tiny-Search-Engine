@@ -77,4 +77,17 @@ int GetFilenamesInDir(const char *dir, char ***filenames);
  */
 char *fileToString(char* fileName, int startingLine);
 
+/*
+ * Combines the given path and a file name to make the file accessible
+ * @path: path to the given filename's file
+ * @fileName: fileName to add the path to
+ * @results: returns the string that has the path and filename attached.
+ */
+char *addPathToFile(char *path, char *fileName);
+
+/* Sees if a given directory name has a slash at the end of it's name.
+ * returns 1 if it does, and 0 if it does not.
+ */
+int testDirSlash(const char *str);
+
 #endif // FILE_H

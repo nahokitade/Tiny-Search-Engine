@@ -1,0 +1,639 @@
+Starting Time: 20:51:54 on 05/14/2014
+Host name of run: ossipee.cs.dartmouth.edu
+Operating System of run: Linux
+
+Starting cleaning and making...
+rm -f *~
+rm -f ./query
+rm -f *.o
+gcc -Wall -pedantic -std=c11 -g -o query ./src/query.c ./src/queryProcess.c ./src/LLMergeSort.c ./src/SinLL.c -I../util/ -L../util/ -ltseutil
+
+Make ran properly without errors.
+
+With no arguments, error message should show to inform user of usage.
+[31mUsage: query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY][0m
+
+
+With too many args, error message should show to inform user of usage.
+[31mUsage: query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY][0m
+
+
+With invalid directory argument, query will inform that the given directory is not a directory.
+[31mSecond argument is not a directory.[0m
+
+
+With invalid indexer file argument, the query will inform that the givem file is not valid.
+[31mFirst argument is not a valid file.[0m
+
+
+With query of more than 1000 characters, query will inform the user to give a query of less than 1000 characters.
+QUERY> [31mQuery length is over the maximum 1000 characters![0m
+QUERY> 
+
+
+Start of valid command inputs. The expected number of files is at the bottom of each execution of test for easier comparison.
+Query: cat AND dog (testing AND condition)
+QUERY> [33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: CAT AND DOG (testing for lowercasing)
+QUERY> [33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: or dog (testing space condition which should AND, and a non-existing first word)
+QUERY> 
+Total Pages Found: 0
+QUERY> 
+Should have found 0 files.
+
+Query: or OR dog (non-existing first word ORed with a valid word)
+QUERY> [35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:868 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/CNN.html[0m
+[35mDocument ID:73 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Legged_Squad_Support_System.html[0m
+[35mDocument ID:1462 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fox_News.html[0m
+[35mDocument ID:1543 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Abaris[0m
+[35mDocument ID:1547 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Manatee[0m
+[35mDocument ID:1548 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Phrygian[0m
+[35mDocument ID:1559 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html[0m
+[35mDocument ID:1566 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_Forensic_Union.html[0m
+[35mDocument ID:1644 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Undergraduate_societies[0m
+[35mDocument ID:216 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html[0m
+[35mDocument ID:977 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html#Parser_development_software[0m
+[35mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:1443 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html#Programming_languages[0m
+[35mDocument ID:1744 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Spin_City.html[0m
+[35mDocument ID:1817 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/The_College_of_William_%26_Mary.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1797 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Georgetown_Hoyas.html[0m
+[35mDocument ID:504 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Prime_number.html[0m
+[35mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[35mDocument ID:585 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/MATLAB.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1245 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Linux_distributions.html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:1780 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/National_Lampoon%27s_Animal_House.html[0m
+[35mDocument ID:25 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ada_Lovelace.html[0m
+[35mDocument ID:35 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html[0m
+[35mDocument ID:46 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Human_Genome_Project.html[0m
+[35mDocument ID:59 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Entertainment.html[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:518 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Red_Hat_Enterprise_Linux.html[0m
+[35mDocument ID:543 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Entry_wheel[0m
+[35mDocument ID:544 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Reflector[0m
+[35mDocument ID:545 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Stepping_motion[0m
+[35mDocument ID:548 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Indicator[0m
+[35mDocument ID:552 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Military_Enigma[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:601 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Academy_Award.html[0m
+[35mDocument ID:742 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html[0m
+[35mDocument ID:1037 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Working_group.html[0m
+[35mDocument ID:1073 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Hello%2c_world.html[0m
+[35mDocument ID:1161 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Native_Americans_in_the_United_States.html[0m
+[35mDocument ID:1317 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Kludge.html[0m
+[35mDocument ID:1551 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/2001_Dartmouth_College_murders.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+[35mDocument ID:1639 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Appalachian_Trail.html[0m
+[35mDocument ID:1727 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Shonda_Rhimes.html[0m
+[35mDocument ID:1728 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Grey%27s_Anatomy.html[0m
+[35mDocument ID:1730 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Scandal_(TV_series).html[0m
+[35mDocument ID:1747 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mindy_Kaling.html[0m
+[35mDocument ID:1981 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html#Tenure[0m
+[35mDocument ID:1982 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html#Decision[0m
+
+Total Pages Found: 55
+QUERY> 
+Should have found 55 files.
+
+Query: cat OR dog (testing OR condition)
+QUERY> [36mDocument ID:1335 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cat_(Unix).html[0m
+[33mDocument ID:1688 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dr-2.html[0m
+[33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:868 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/CNN.html[0m
+[35mDocument ID:913 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Horton_Hears_a_Who%21_(film).html[0m
+[35mDocument ID:73 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Legged_Squad_Support_System.html[0m
+[35mDocument ID:1462 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fox_News.html[0m
+[35mDocument ID:1543 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Abaris[0m
+[35mDocument ID:1547 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Manatee[0m
+[35mDocument ID:1548 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Phrygian[0m
+[35mDocument ID:1559 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html[0m
+[35mDocument ID:1566 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_Forensic_Union.html[0m
+[35mDocument ID:1644 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_student_groups.html#Undergraduate_societies[0m
+[35mDocument ID:216 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html[0m
+[35mDocument ID:977 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html#Parser_development_software[0m
+[35mDocument ID:1350 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Split_(Unix).html[0m
+[35mDocument ID:1443 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Parsing.html#Programming_languages[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:1744 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Spin_City.html[0m
+[35mDocument ID:1817 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/The_College_of_William_%26_Mary.html[0m
+[35mDocument ID:399 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Troff.html[0m
+[35mDocument ID:475 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Plan_9_from_Bell_Labs.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1402 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sort_(Unix).html[0m
+[35mDocument ID:967 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/LPC_(programming_language).html[0m
+[35mDocument ID:979 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Find.html[0m
+[35mDocument ID:1057 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Newline.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1295 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mkfs.html[0m
+[35mDocument ID:1307 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Coreutils.html[0m
+[35mDocument ID:1384 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wall_(Unix).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:1475 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Newline.html#Unicode[0m
+[35mDocument ID:1797 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Georgetown_Hoyas.html[0m
+[35mDocument ID:364 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C%2b%2b.html[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:504 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Prime_number.html[0m
+[35mDocument ID:585 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/MATLAB.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:850 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Switch_statement.html[0m
+[35mDocument ID:978 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Grep.html[0m
+[35mDocument ID:1245 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Linux_distributions.html[0m
+[35mDocument ID:1267 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Switch_statement.html#Eiffel[0m
+[35mDocument ID:1273 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uptime.html[0m
+[35mDocument ID:1343 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ln_(Unix).html[0m
+[35mDocument ID:1379 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uptime.html#Linux[0m
+[35mDocument ID:1400 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Less_(Unix).html[0m
+[35mDocument ID:1401 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Paste_(Unix).html[0m
+[35mDocument ID:1403 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Spell_(Unix).html[0m
+[35mDocument ID:1404 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Strings_(Unix).html[0m
+[35mDocument ID:1424 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Netcat.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+[35mDocument ID:1731 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chris_Meledandri.html[0m
+[35mDocument ID:1780 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/National_Lampoon%27s_Animal_House.html[0m
+[35mDocument ID:21 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Charles_Babbage.html[0m
+[35mDocument ID:25 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ada_Lovelace.html[0m
+[35mDocument ID:35 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html[0m
+[35mDocument ID:46 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Human_Genome_Project.html[0m
+[35mDocument ID:56 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Volatility_(finance).html[0m
+[35mDocument ID:59 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Entertainment.html[0m
+[35mDocument ID:60 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Television.html[0m
+[35mDocument ID:63 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Animation.html[0m
+[35mDocument ID:96 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Category_theory.html[0m
+[35mDocument ID:124 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Linguistics.html[0m
+[35mDocument ID:159 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Computer_networking.html[0m
+[35mDocument ID:166 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Computer_simulation.html[0m
+[35mDocument ID:168 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Computer_network.html[0m
+[35mDocument ID:191 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Women_in_computing.html[0m
+[35mDocument ID:244 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wearable_computer.html[0m
+[35mDocument ID:408 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_conversion.html#Explicit_type_conversion[0m
+[35mDocument ID:435 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Internationalization_and_localization.html[0m
+[35mDocument ID:463 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Unix.html[0m
+[35mDocument ID:509 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Nobel_Prize.html[0m
+[35mDocument ID:518 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Red_Hat_Enterprise_Linux.html[0m
+[35mDocument ID:519 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/General_Electric.html[0m
+[35mDocument ID:538 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Plain_text.html[0m
+[35mDocument ID:540 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Computer_network.html#History[0m
+[35mDocument ID:543 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Entry_wheel[0m
+[35mDocument ID:544 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Reflector[0m
+[35mDocument ID:545 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Stepping_motion[0m
+[35mDocument ID:548 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Indicator[0m
+[35mDocument ID:552 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Enigma_machine.html#Military_Enigma[0m
+[35mDocument ID:576 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Machine_translation.html[0m
+[35mDocument ID:591 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/NIST.html[0m
+[35mDocument ID:601 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Academy_Award.html[0m
+[35mDocument ID:602 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Animation.html#Techniques[0m
+[35mDocument ID:604 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/X_Window_System.html[0m
+[35mDocument ID:606 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html[0m
+[35mDocument ID:706 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_conversion.html[0m
+[35mDocument ID:726 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ping_(networking_utility).html[0m
+[35mDocument ID:742 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html[0m
+[35mDocument ID:774 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/OpenBSD.html[0m
+[35mDocument ID:876 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Printf.html[0m
+[35mDocument ID:941 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Man_page.html[0m
+[35mDocument ID:956 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Go_(programming_language).html[0m
+[35mDocument ID:962 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/AWK.html[0m
+[35mDocument ID:982 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Vi.html[0m
+[35mDocument ID:983 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Make_(software).html[0m
+[35mDocument ID:1023 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Curly_braces.html[0m
+[35mDocument ID:1037 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Working_group.html[0m
+[35mDocument ID:1073 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Hello%2c_world.html[0m
+[35mDocument ID:1079 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Declaration_reflects_use.html[0m
+[35mDocument ID:1092 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Header_file.html[0m
+[35mDocument ID:1103 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_Shell-2.html[0m
+[35mDocument ID:1129 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html[0m
+[35mDocument ID:1159 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Make_(software).html#Modern_versions[0m
+[35mDocument ID:1161 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Native_Americans_in_the_United_States.html[0m
+[35mDocument ID:1167 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Finger_protocol.html[0m
+[35mDocument ID:1170 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/More_(command).html[0m
+[35mDocument ID:1172 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ls.html[0m
+[35mDocument ID:1173 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mv.html[0m
+[35mDocument ID:1178 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/X11.html[0m
+[35mDocument ID:1180 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Joe_Ossanna.html[0m
+[35mDocument ID:1203 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#History[0m
+[35mDocument ID:1204 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Editing_operators[0m
+[35mDocument ID:1205 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Aliases[0m
+[35mDocument ID:1206 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Directory_stack[0m
+[35mDocument ID:1207 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Tilde_notation[0m
+[35mDocument ID:1208 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Cdpath[0m
+[35mDocument ID:1209 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Job_control[0m
+[35mDocument ID:1210 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_shell.html#Path_hashing[0m
+[35mDocument ID:1214 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ed_(text_editor).html[0m
+[35mDocument ID:1217 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Alias_(command).html[0m
+[35mDocument ID:1218 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rm_(Unix).html[0m
+[35mDocument ID:1220 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Help_(command).html[0m
+[35mDocument ID:1223 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Manual_page_(Unix).html[0m
+[35mDocument ID:1224 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cp_(Unix).html[0m
+[35mDocument ID:1225 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cd_(command).html[0m
+[35mDocument ID:1226 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dd_(Unix).html[0m
+[35mDocument ID:1227 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Df_(Unix).html[0m
+[35mDocument ID:1230 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chmod.html[0m
+[35mDocument ID:1246 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Awk-2.html[0m
+[35mDocument ID:1247 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Locate_(Unix).html[0m
+[35mDocument ID:1249 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Filesystem_Hierarchy_Standard.html[0m
+[35mDocument ID:1264 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Join_(Unix).html[0m
+[35mDocument ID:1269 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#Basic_types[0m
+[35mDocument ID:1296 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fsck.html[0m
+[35mDocument ID:1317 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Kludge.html[0m
+[35mDocument ID:1336 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chown.html[0m
+[35mDocument ID:1337 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chgrp.html[0m
+[35mDocument ID:1338 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cksum.html[0m
+[35mDocument ID:1339 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cmp_(Unix).html[0m
+[35mDocument ID:1340 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Du_(Unix).html[0m
+[35mDocument ID:1341 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/File_(command).html[0m
+[35mDocument ID:1342 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fuser_(Unix).html[0m
+[35mDocument ID:1344 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mkdir.html[0m
+[35mDocument ID:1345 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mount_(Unix).html[0m
+[35mDocument ID:1346 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pax_(Unix).html[0m
+[35mDocument ID:1347 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pwd.html[0m
+[35mDocument ID:1348 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rmdir.html[0m
+[35mDocument ID:1349 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Size_(Unix).html[0m
+[35mDocument ID:1351 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tee_(command).html[0m
+[35mDocument ID:1352 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Touch_(Unix).html[0m
+[35mDocument ID:1353 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_(Unix).html[0m
+[35mDocument ID:1354 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Umask.html[0m
+[35mDocument ID:1355 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/At_(Unix).html[0m
+[35mDocument ID:1356 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bg_(Unix).html[0m
+[35mDocument ID:1357 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chroot.html[0m
+[35mDocument ID:1358 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cron.html[0m
+[35mDocument ID:1359 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fg_(Unix).html[0m
+[35mDocument ID:1360 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Kill_(command).html[0m
+[35mDocument ID:1361 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Killall.html[0m
+[35mDocument ID:1362 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Nice_(Unix).html[0m
+[35mDocument ID:1363 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pgrep.html[0m
+[35mDocument ID:1364 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pidof.html[0m
+[35mDocument ID:1365 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pkill.html[0m
+[35mDocument ID:1366 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ps_(Unix).html[0m
+[35mDocument ID:1367 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pstree.html[0m
+[35mDocument ID:1368 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Time_(Unix).html[0m
+[35mDocument ID:1369 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Top_(software).html[0m
+[35mDocument ID:1370 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Clear_(Unix).html[0m
+[35mDocument ID:1371 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Env.html[0m
+[35mDocument ID:1372 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Exit_(command).html[0m
+[35mDocument ID:1373 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Id_(Unix).html[0m
+[35mDocument ID:1374 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Logname.html[0m
+[35mDocument ID:1375 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mesg.html[0m
+[35mDocument ID:1376 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Passwd.html[0m
+[35mDocument ID:1377 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Su_(Unix).html[0m
+[35mDocument ID:1378 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sudo.html[0m
+[35mDocument ID:1380 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Talk_(software).html[0m
+[35mDocument ID:1381 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tput.html[0m
+[35mDocument ID:1382 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uname.html[0m
+[35mDocument ID:1383 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/W_(Unix).html[0m
+[35mDocument ID:1385 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Who_(Unix).html[0m
+[35mDocument ID:1386 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whoami.html[0m
+[35mDocument ID:1387 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Write_(Unix).html[0m
+[35mDocument ID:1388 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Banner_(Unix).html[0m
+[35mDocument ID:1389 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Basename.html[0m
+[35mDocument ID:1390 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Comm.html[0m
+[35mDocument ID:1391 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Csplit.html[0m
+[35mDocument ID:1393 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Diff.html[0m
+[35mDocument ID:1394 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dirname.html[0m
+[35mDocument ID:1395 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ex_(text_editor).html[0m
+[35mDocument ID:1396 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fmt.html[0m
+[35mDocument ID:1397 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fold_(Unix).html[0m
+[35mDocument ID:1398 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Head_(Unix).html[0m
+[35mDocument ID:1399 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Iconv.html[0m
+[35mDocument ID:1405 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tail_(Unix).html[0m
+[35mDocument ID:1406 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tr_(Unix).html[0m
+[35mDocument ID:1407 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uniq.html[0m
+[35mDocument ID:1408 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wc_(Unix).html[0m
+[35mDocument ID:1409 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Xargs.html[0m
+[35mDocument ID:1410 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Echo_(command).html[0m
+[35mDocument ID:1411 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Expr.html[0m
+[35mDocument ID:1412 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Printf_format_string.html[0m
+[35mDocument ID:1413 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sleep_(Unix).html[0m
+[35mDocument ID:1414 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Test_(Unix).html[0m
+[35mDocument ID:1415 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/True_and_false_(commands).html[0m
+[35mDocument ID:1416 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Unset.html[0m
+[35mDocument ID:1417 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wait_(command).html[0m
+[35mDocument ID:1418 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Yes_(Unix).html[0m
+[35mDocument ID:1420 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dig_(command).html[0m
+[35mDocument ID:1421 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Host_(Unix).html[0m
+[35mDocument ID:1422 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ifconfig.html[0m
+[35mDocument ID:1423 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Inetd.html[0m
+[35mDocument ID:1425 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Netstat.html[0m
+[35mDocument ID:1426 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Nslookup.html[0m
+[35mDocument ID:1427 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rdate.html[0m
+[35mDocument ID:1428 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rlogin.html[0m
+[35mDocument ID:1431 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Traceroute.html[0m
+[35mDocument ID:1432 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whatis.html[0m
+[35mDocument ID:1433 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whereis.html[0m
+[35mDocument ID:1434 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Apropos_(Unix).html[0m
+[35mDocument ID:1435 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bc_(programming_language).html[0m
+[35mDocument ID:1436 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dc_(computer_program).html[0m
+[35mDocument ID:1437 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cal_(Unix).html[0m
+[35mDocument ID:1438 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Date_(Unix).html[0m
+[35mDocument ID:1439 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lp_(Unix).html[0m
+[35mDocument ID:1440 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lpr.html[0m
+[35mDocument ID:1449 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#float.h[0m
+[35mDocument ID:1450 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#inttypes.h[0m
+[35mDocument ID:1451 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#limits.h[0m
+[35mDocument ID:1452 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#stdbool.h[0m
+[35mDocument ID:1453 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#stddef.h[0m
+[35mDocument ID:1454 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/C_data_types.html#stdint.h[0m
+[35mDocument ID:1551 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/2001_Dartmouth_College_murders.html[0m
+[35mDocument ID:1573 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_Big_Green.html[0m
+[35mDocument ID:1587 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/George_III_of_the_United_Kingdom.html[0m
+[35mDocument ID:1590 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/King_George_III.html[0m
+[35mDocument ID:1639 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Appalachian_Trail.html[0m
+[35mDocument ID:1651 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bonfire.html[0m
+[35mDocument ID:1725 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rachel_Dratch.html[0m
+[35mDocument ID:1727 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Shonda_Rhimes.html[0m
+[35mDocument ID:1728 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Grey%27s_Anatomy.html[0m
+[35mDocument ID:1730 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Scandal_(TV_series).html[0m
+[35mDocument ID:1732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ice_Age_(franchise).html[0m
+[35mDocument ID:1742 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/24_(TV_series).html[0m
+[35mDocument ID:1746 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Friday_Night_Lights_(TV_series).html[0m
+[35mDocument ID:1747 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mindy_Kaling.html[0m
+[35mDocument ID:1981 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html#Tenure[0m
+[35mDocument ID:1982 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Supreme_Court_of_the_United_States.html#Decision[0m
+[35mDocument ID:1991 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/X_Window_System.html#History[0m
+[35mDocument ID:1999 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/OpenBSD.html#Distribution_and_marketing[0m
+
+Total Pages Found: 257
+QUERY> 
+Should have found 257 files.
+
+Query: cat and dog  (testing space condition which should AND, and lowercase operators)
+QUERY> [32mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[32mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[32mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[32mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[32mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[32mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[32mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+[36mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[33mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[33mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[33mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[33mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: cat dog (testing space condition which should AND)
+QUERY> [33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: cat AND dog OR head AND tail (testing longer cases with combination of OR and AND)
+QUERY> [33mDocument ID:1405 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tail_(Unix).html[0m
+[33mDocument ID:1955 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tail-sharing.html[0m
+[33mDocument ID:682 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Linked_list.html[0m
+[33mDocument ID:1398 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Head_(Unix).html[0m
+[33mDocument ID:181 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Turing_machine.html[0m
+[33mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[33mDocument ID:351 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lisp_programming_language.html[0m
+[33mDocument ID:404 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lisp_(programming_language).html[0m
+[33mDocument ID:882 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/LISP.html[0m
+[33mDocument ID:883 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lisp_(programming_language).html#Language_innovations[0m
+[33mDocument ID:884 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lisp_(programming_language).html#Object_systems[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[33mDocument ID:1979 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lisp_(programming_language).html#S-expressions_represent_lists[0m
+[33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[35mDocument ID:1889 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/FIFO_(computing).html[0m
+[35mDocument ID:660 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tree_(data_structure).html[0m
+[35mDocument ID:1409 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Xargs.html[0m
+[35mDocument ID:1962 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tree_(data_structure).html#Subtree[0m
+[35mDocument ID:1964 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tree_(data_structure).html#root_nodes[0m
+[35mDocument ID:1965 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tree_(data_structure).html#Terminology[0m
+[35mDocument ID:1968 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tree_(data_structure).html#Internal_nodes[0m
+[35mDocument ID:1688 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dr-2.html[0m
+[35mDocument ID:592 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cricket.html[0m
+[35mDocument ID:643 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html[0m
+[35mDocument ID:1358 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cron.html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:1890 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Always_Keep_One_Slot_Open[0m
+[35mDocument ID:1891 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Use_a_Fill_Count[0m
+[35mDocument ID:1892 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Mirroring[0m
+[35mDocument ID:1893 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Read_.2F_Write_Counts[0m
+[35mDocument ID:1894 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Absolute_indices[0m
+[35mDocument ID:1895 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Circular_buffer.html#Record_last_operation[0m
+[35mDocument ID:432 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mouse_(computing).html[0m
+[35mDocument ID:671 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Double-ended_queue.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:950 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Car_and_cdr-2.html[0m
+[35mDocument ID:962 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/AWK.html[0m
+[35mDocument ID:1246 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Awk-2.html[0m
+[35mDocument ID:1307 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Coreutils.html[0m
+[35mDocument ID:1418 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Yes_(Unix).html[0m
+[35mDocument ID:1950 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/CAR_and_CDR.html[0m
+[35mDocument ID:416 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Microcontroller.html[0m
+[35mDocument ID:674 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Queue_(abstract_data_type).html[0m
+[35mDocument ID:1138 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Queue_(data_structure).html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1321 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/License_plate.html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:1943 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Doubly_linked_list.html[0m
+[35mDocument ID:401 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/PL/I.html[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:463 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Unix.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:726 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ping_(networking_utility).html[0m
+[35mDocument ID:876 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Printf.html[0m
+[35mDocument ID:941 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Man_page.html[0m
+[35mDocument ID:978 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Grep.html[0m
+[35mDocument ID:979 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Find.html[0m
+[35mDocument ID:982 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Vi.html[0m
+[35mDocument ID:1167 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Finger_protocol.html[0m
+[35mDocument ID:1170 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/More_(command).html[0m
+[35mDocument ID:1172 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ls.html[0m
+[35mDocument ID:1173 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mv.html[0m
+[35mDocument ID:1214 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ed_(text_editor).html[0m
+[35mDocument ID:1217 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Alias_(command).html[0m
+[35mDocument ID:1218 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rm_(Unix).html[0m
+[35mDocument ID:1220 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Help_(command).html[0m
+[35mDocument ID:1223 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Manual_page_(Unix).html[0m
+[35mDocument ID:1224 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cp_(Unix).html[0m
+[35mDocument ID:1225 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cd_(command).html[0m
+[35mDocument ID:1226 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dd_(Unix).html[0m
+[35mDocument ID:1227 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Df_(Unix).html[0m
+[35mDocument ID:1230 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chmod.html[0m
+[35mDocument ID:1247 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Locate_(Unix).html[0m
+[35mDocument ID:1264 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Join_(Unix).html[0m
+[35mDocument ID:1273 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uptime.html[0m
+[35mDocument ID:1295 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mkfs.html[0m
+[35mDocument ID:1296 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fsck.html[0m
+[35mDocument ID:1335 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cat_(Unix).html[0m
+[35mDocument ID:1336 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chown.html[0m
+[35mDocument ID:1337 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chgrp.html[0m
+[35mDocument ID:1338 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cksum.html[0m
+[35mDocument ID:1339 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cmp_(Unix).html[0m
+[35mDocument ID:1340 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Du_(Unix).html[0m
+[35mDocument ID:1341 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/File_(command).html[0m
+[35mDocument ID:1342 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fuser_(Unix).html[0m
+[35mDocument ID:1343 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ln_(Unix).html[0m
+[35mDocument ID:1344 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mkdir.html[0m
+[35mDocument ID:1345 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mount_(Unix).html[0m
+[35mDocument ID:1346 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pax_(Unix).html[0m
+[35mDocument ID:1347 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pwd.html[0m
+[35mDocument ID:1348 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rmdir.html[0m
+[35mDocument ID:1349 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Size_(Unix).html[0m
+[35mDocument ID:1350 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Split_(Unix).html[0m
+[35mDocument ID:1351 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tee_(command).html[0m
+[35mDocument ID:1352 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Touch_(Unix).html[0m
+[35mDocument ID:1353 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_(Unix).html[0m
+[35mDocument ID:1354 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Umask.html[0m
+[35mDocument ID:1355 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/At_(Unix).html[0m
+[35mDocument ID:1356 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bg_(Unix).html[0m
+[35mDocument ID:1357 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Chroot.html[0m
+[35mDocument ID:1359 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fg_(Unix).html[0m
+[35mDocument ID:1360 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Kill_(command).html[0m
+[35mDocument ID:1361 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Killall.html[0m
+[35mDocument ID:1362 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Nice_(Unix).html[0m
+[35mDocument ID:1363 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pgrep.html[0m
+[35mDocument ID:1364 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pidof.html[0m
+[35mDocument ID:1365 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pkill.html[0m
+[35mDocument ID:1366 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ps_(Unix).html[0m
+[35mDocument ID:1367 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Pstree.html[0m
+[35mDocument ID:1368 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Time_(Unix).html[0m
+[35mDocument ID:1369 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Top_(software).html[0m
+[35mDocument ID:1370 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Clear_(Unix).html[0m
+[35mDocument ID:1371 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Env.html[0m
+[35mDocument ID:1372 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Exit_(command).html[0m
+[35mDocument ID:1373 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Id_(Unix).html[0m
+[35mDocument ID:1374 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Logname.html[0m
+[35mDocument ID:1375 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mesg.html[0m
+[35mDocument ID:1376 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Passwd.html[0m
+[35mDocument ID:1377 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Su_(Unix).html[0m
+[35mDocument ID:1378 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sudo.html[0m
+[35mDocument ID:1379 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uptime.html#Linux[0m
+[35mDocument ID:1380 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Talk_(software).html[0m
+[35mDocument ID:1381 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tput.html[0m
+[35mDocument ID:1382 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uname.html[0m
+[35mDocument ID:1383 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/W_(Unix).html[0m
+[35mDocument ID:1384 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wall_(Unix).html[0m
+[35mDocument ID:1385 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Who_(Unix).html[0m
+[35mDocument ID:1386 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whoami.html[0m
+[35mDocument ID:1387 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Write_(Unix).html[0m
+[35mDocument ID:1388 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Banner_(Unix).html[0m
+[35mDocument ID:1389 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Basename.html[0m
+[35mDocument ID:1390 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Comm.html[0m
+[35mDocument ID:1391 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Csplit.html[0m
+[35mDocument ID:1393 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Diff.html[0m
+[35mDocument ID:1394 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dirname.html[0m
+[35mDocument ID:1395 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ex_(text_editor).html[0m
+[35mDocument ID:1396 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fmt.html[0m
+[35mDocument ID:1397 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fold_(Unix).html[0m
+[35mDocument ID:1399 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Iconv.html[0m
+[35mDocument ID:1400 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Less_(Unix).html[0m
+[35mDocument ID:1401 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Paste_(Unix).html[0m
+[35mDocument ID:1402 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sort_(Unix).html[0m
+[35mDocument ID:1403 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Spell_(Unix).html[0m
+[35mDocument ID:1404 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Strings_(Unix).html[0m
+[35mDocument ID:1406 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Tr_(Unix).html[0m
+[35mDocument ID:1407 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Uniq.html[0m
+[35mDocument ID:1408 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wc_(Unix).html[0m
+[35mDocument ID:1410 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Echo_(command).html[0m
+[35mDocument ID:1411 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Expr.html[0m
+[35mDocument ID:1412 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Printf_format_string.html[0m
+[35mDocument ID:1413 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sleep_(Unix).html[0m
+[35mDocument ID:1414 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Test_(Unix).html[0m
+[35mDocument ID:1415 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/True_and_false_(commands).html[0m
+[35mDocument ID:1416 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Unset.html[0m
+[35mDocument ID:1417 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Wait_(command).html[0m
+[35mDocument ID:1420 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dig_(command).html[0m
+[35mDocument ID:1421 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Host_(Unix).html[0m
+[35mDocument ID:1422 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Ifconfig.html[0m
+[35mDocument ID:1423 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Inetd.html[0m
+[35mDocument ID:1424 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Netcat.html[0m
+[35mDocument ID:1425 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Netstat.html[0m
+[35mDocument ID:1426 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Nslookup.html[0m
+[35mDocument ID:1427 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rdate.html[0m
+[35mDocument ID:1428 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Rlogin.html[0m
+[35mDocument ID:1431 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Traceroute.html[0m
+[35mDocument ID:1432 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whatis.html[0m
+[35mDocument ID:1433 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Whereis.html[0m
+[35mDocument ID:1434 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Apropos_(Unix).html[0m
+[35mDocument ID:1435 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bc_(programming_language).html[0m
+[35mDocument ID:1436 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dc_(computer_program).html[0m
+[35mDocument ID:1437 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cal_(Unix).html[0m
+[35mDocument ID:1438 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Date_(Unix).html[0m
+[35mDocument ID:1439 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lp_(Unix).html[0m
+[35mDocument ID:1440 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Lpr.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+[35mDocument ID:1639 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Appalachian_Trail.html[0m
+
+Total Pages Found: 178
+QUERY> 
+Should have found 178 files.
+
+Query: 
+ (testing no input)
+QUERY> 
+Total Pages Found: 0
+QUERY> 
+Should have found 0 files.
+
+Query: ksvjsngvaen (testing non sense input)
+QUERY> 
+Total Pages Found: 0
+QUERY> 
+Should have found 0 files.
+
+cleaning the made files.
+rm -f *~
+rm -f ./query
+rm -f *.o
+
+Ending Time: 20:52:02 on 05/14/2014

@@ -199,29 +199,3 @@ int buildIndexFromDirectory(char *dirName, HashTable *invInd){
     return 1;
 }
 
-/*
- * Combines the given path and a file name to make the file accessible
- * @path: path to the given filename's file
- * @fileName: fileName to add the path to
- * @results: returns the string that has the path and filename attached.
- */
-char *addPathToFile(char *path, char *fileName){
-	char *fileWithPath;
-	if(testDirSlash(path)){	
-		fileWithPath = calloc(strlen(path) + strlen(fileName) + 1, sizeof(char));
-		sprintf(fileWithPath, "%s%s", path, fileName);
-	}
-	else{
-		fileWithPath = calloc(strlen(path) + strlen(fileName) + 2, sizeof(char));
-		sprintf(fileWithPath, "%s/%s", path, fileName);
-	}
-	return fileWithPath;
-}
-
-/* Sees if a given directory name has a slash at the end of it's name.
- * returns 1 if it does, and 0 if it does not.
- */
-int testDirSlash(const char *str){
-        if(!*str || !str) return 0;
-        return (str[strlen(str) - 1] == '/') ? 1 : 0;
-}

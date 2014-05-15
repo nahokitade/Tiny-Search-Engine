@@ -1,24 +1,19 @@
 CC = gcc
 CFLAGS = -Wall -pedantic -std=c11 -g
 
-OBJS = hashtable.o web.o file.o
 CODEDIR = ./src/
-SRCS = $(CODEDIR)hashtable.c $(CODEDIR)web.c $(CODEDIR)file.c 
-SRCSH = $(CODEDIR)hashtable.h $(CODEDIR)web.h $(CODEDIR)file.h
 MAINPROGC = $(CODEDIR)indexer.c
 MAINPROGEX = indexer
 
 UTILDIR=../util/
 UTILFLAG=-ltseutil
 UTILLIB=$(UTILDIR)libtseutil.a
+UTILC=$(UTILDIR)file.c $(UTILDIR)hashtable.c $(UTILDIR)web.c
+UTILH=$(UTILC:.c=.h)
 
 # makes indexer executables
-$(MAINPROGEX): $(MAINPROGC) $(OBJS)
-	$(CC) $(CFLAGS) -o $(MAINPROGEX) $(MAINPROGC) $(OBJS) 
-
-# makes the hash table structure
-$(OBJS): $(SRCS) $(SRCH) $(UTILLIB)
-	$(CC) $(CFLAGS) -c $(SRCS) -L$(UTILDIR) $(UTILFLAG)
+$(MAINPROGEX): $(MAINPROGC) $(UTILLIB)
+	$(CC) $(CFLAGS) -o $(MAINPROGEX) $(MAINPROGC) -I$(UTILDIR) -L$(UTILDIR) $(UTILFLAG) 
 
 $(UTILLIB): $(UTILC) $(UTILH)
 	cd $(UTILDIR); make;

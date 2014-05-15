@@ -1,0 +1,71 @@
+Starting Time: 20:53:26 on 05/14/2014
+Host name of run: ossipee.cs.dartmouth.edu
+Operating System of run: Linux
+
+Starting cleaning and making...
+rm -f *~
+rm -f ./query
+rm -f *.o
+gcc -Wall -pedantic -std=c11 -g -o query ./src/query.c ./src/queryProcess.c ./src/LLMergeSort.c ./src/SinLL.c -I../util/ -L../util/ -ltseutil
+
+Make ran properly without errors.
+
+With no arguments, error message should show to inform user of usage.
+[31mUsage: query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY][0m
+
+
+With too many args, error message should show to inform user of usage.
+[31mUsage: query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY][0m
+
+
+With invalid directory argument, query will inform that the given directory is not a directory.
+[31mSecond argument is not a directory.[0m
+
+
+With invalid indexer file argument, the query will inform that the givem file is not valid.
+[31mFirst argument is not a valid file.[0m
+
+
+With query of more than 1000 characters, query will inform the user to give a query of less than 1000 characters.
+QUERY> [31mQuery length is over the maximum 1000 characters![0m
+QUERY> 
+
+
+Start of valid command inputs. The expected number of files is at the bottom of each execution of test for easier comparison.
+Query: cat AND dog (testing AND condition)
+QUERY> [33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: CAT AND DOG (testing for lowercasing)
+QUERY> [33mDocument ID:541 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Regular_expressions.html[0m
+[33mDocument ID:1153 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Sed.html[0m
+[35mDocument ID:555 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Bill_Clinton.html[0m
+[35mDocument ID:1662 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Anthropomorphism.html[0m
+[35mDocument ID:1733 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Mister_Rogers%27_Neighborhood.html[0m
+[35mDocument ID:732 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Type_polymorphism.html[0m
+[35mDocument ID:1145 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html[0m
+[35mDocument ID:1392 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Cut_(Unix).html[0m
+[35mDocument ID:1467 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Fedora_(operating_system).html#Distribution[0m
+[35mDocument ID:446 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin.html[0m
+[35mDocument ID:594 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Latin_language.html[0m
+[35mDocument ID:1558 URL:http://old-www.cs.dartmouth.edu/~cs50/tse/wiki/Dartmouth_College_traditions.html[0m
+
+Total Pages Found: 12
+QUERY> 
+Should have found 12 files.
+
+Query: or dog (testing space condition which should AND, and a non-existing first word)

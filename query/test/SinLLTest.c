@@ -51,4 +51,5 @@ while(printChain){
 	printf("\n");
 	printChain = printChain->nextWords;
 }
+printf("Words should be kitty  doggy bat  cat turtle.");
 }

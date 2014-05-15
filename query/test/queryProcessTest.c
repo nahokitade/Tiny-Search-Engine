@@ -9,6 +9,7 @@ int main(){
 DocNode *tempProcessDocNode;
 DocNode *processDocNode;
 DocNode *processDocNode2;
+int missCounter = 0;
 
 HashTable *hashTable;
 hashTable = CreateNewHashTab();
@@ -19,44 +20,36 @@ char *word = "kitty";
 
 tempProcessDocNode = DocsFromWordNode(word, hashTable);
 
-PrintDocChain(tempProcessDocNode);
-
 processDocNode = CopyDocs(tempProcessDocNode);
 
-printf("Printing copied DocNode...\n");
-PrintDocChain(processDocNode);
+DocNode *procDNCur = processDocNode;
+DocNode *tempProcDNCur = tempProcessDocNode;
+while(procDNCur || tempProcDNCur){
+	if(procDNCur->documentID != tempProcDNCur->documentID){
+		missCounter++;
+	}
+	if(procDNCur->occurrences != tempProcDNCur->occurrences){
+                missCounter++;
+        }
+	procDNCur = procDNCur->nextDoc;
+	tempProcDNCur = tempProcDNCur->nextDoc;
+}
+
+if(missCounter) printf("FAIL: Copy is not identical to the original.\n");
+else printf("SUCCESS: Copy is identical to the original.\n");
 
 MergeSort(&processDocNode, compareIDs);
-
-printf("Printing original DocNode...\n");
-
-PrintDocChain(tempProcessDocNode);
-
-printf("Printing sorted copied DocNode...\n");
-PrintDocChain(processDocNode);
 
 processDocNode2 = CopyDocs(processDocNode);
 
 ProcessOR(&processDocNode);
 
-printf("Printing ORed DocNode...\n");
-PrintDocChain(processDocNode);
-
-ProcessAND(&processDocNode2);
-printf("Printing ANDed DocNode...\n");
-PrintDocChain(processDocNode2);
-
 SortByRank(&processDocNode);
-
-printf("Printing Ranked ORed DocNode...\n");
-PrintDocChain(processDocNode);
 
 printf("Printing ORed DocNode Query Result...\n");
 PrintQueryResult(processDocNode, "/net/class/cs50/tse/crawler/lvl3/");
 
 SortByRank(&processDocNode2);
-printf("Printing Ranked ANDed DocNode...\n");
-PrintDocChain(processDocNode2);
 
 printf("Printing ANDed DocNode Query Result...\n");
 PrintQueryResult(processDocNode2, "/net/class/cs50/tse/crawler/lvl3/");

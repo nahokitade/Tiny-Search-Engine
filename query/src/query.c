@@ -53,21 +53,24 @@
 
 int main(int argc, char* argv[]){
 	int success;			// contains 1 if removing from SinLL was successful
+	int funcSuccess;
 	int orNext;			// contains > 0 if the next word in query should be ORed
 	int firstAdd;			// contains > 0 if the addition to SinLL is the first addition
 	int tempChar;			// used to flush the stdin for too long inputs
 	char query[MAX_QUERY_LEN];	// contains string of query
-	char *getsSucc;			// determines if EOF is met.
+	char *getsSuccess;			// determines if EOF is met.
+	int status = 1;
+	SinLL *wordList;
 
 	if(argc != 3){		// invalid number of arguments
 		fprintf(stderr, ANSI_COLOR_RED "Usage: query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY]"  ANSI_COLOR_RESET "\n");
 		return 0;
 	}
 
-	if(!(access(argv[1], F_OK) != -1)){
+	if(!(access(argv[1], F_OK) != -1)){	// invalid file
 		fprintf(stderr, ANSI_COLOR_RED "First argument is not a valid file."  ANSI_COLOR_RESET "\n");
                 return 0;
-	}
+	}	
 
 	if(!IsDir(argv[2])){	// invalid "directory"
 		fprintf(stderr, ANSI_COLOR_RED "Second argument is not a directory."  ANSI_COLOR_RESET "\n");
@@ -77,19 +80,27 @@ int main(int argc, char* argv[]){
 	HashTable *invertedIndex;
 	invertedIndex = calloc(1, sizeof(HashTable));
 
-	readFile(argv[1], invertedIndex);	// recreate inverted index
+	if(!invertedIndex){
+		status = 0;
+		goto cleanup;
+	}
 
+	funcSuccess = readFile(argv[1], invertedIndex);	// recreate inverted index
+	if(!funcSuccess){
+		status = 0;
+                goto cleanup;
+	}
 
 	while(1){
 		// get the query from user
 		fputs("QUERY> ", stdout);
   		fflush(stdout); 
 		
-		getsSucc = fgets(query, sizeof(char)*MAX_QUERY_LEN, stdin);
-		if(!getsSucc) break;	// EOF means exiting program
+		getsSuccess = fgets(query, sizeof(char)*MAX_QUERY_LEN, stdin);
+		if(!getsSuccess) break;	// EOF means exiting program
 
 		// this means the user input more than MAX_QUERY_LEN characters to query
-		if(getsSucc[strlen(getsSucc)-1] != '\n'){
+		if(getsSuccess[strlen(getsSuccess)-1] != '\n'){
 			fprintf(stderr, ANSI_COLOR_RED "Query length is over the maximum 1000 characters!"     ANSI_COLOR_RESET "\n");
 			while((tempChar = getchar()) != '\n' && tempChar != EOF){
 				/*do nothing*/
@@ -102,7 +113,8 @@ int main(int argc, char* argv[]){
 		orNext = 0;
 		firstAdd = 1;
 
-		SinLL *wordList = CreateSinLL();
+		wordList = CreateSinLL();
+		if(!wordList) break;
 
 		char *wordP;  
 		wordP = strtok(query," ");
@@ -133,11 +145,13 @@ int main(int argc, char* argv[]){
 			// of WordChainList
 			NormalizeWord(wordP);
 			if(firstAdd){
-				appendNewWordChain(wordP, wordList);
+				funcSuccess = appendNewWordChain(wordP, wordList);
+				if(!funcSuccess) break;
 				firstAdd = 0;
         	        }
 			else if(orNext){
-				appendNewWordChain(wordP, wordList);
+				funcSuccess = appendNewWordChain(wordP, wordList);
+				if(!funcSuccess) break;
 				orNext = 0;
 			}
 			// if not the previous two cases, just append the word to 
@@ -216,9 +230,11 @@ int main(int argc, char* argv[]){
 		PrintQueryResult(curDocs, argv[2]);
 		free(wordList);		// clean up for next query
 	}
-	DeleteHashTable(invertedIndex); 	// final clean up
+	cleanup:
+		if(invertedIndex) DeleteHashTable(invertedIndex); 	// final clean up
+		if(!status){ 
+			fprintf(stderr, ANSI_COLOR_RED "Failed inverted index building."  ANSI_COLOR_RESET "\n");
+			return 0;
+		}
 	return 1;
 }
-
-
-

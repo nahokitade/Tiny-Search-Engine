@@ -1,0 +1,31 @@
+README for query
+
+Author: Naho Kitade
+
+query is a part 3 of the Tiny Search Engine project. The query will take the outputs from indexer and crawler to process a query from the user using OR and AND operators. This is the user interface part of the TSE. 
+
+Building:
+query can be built using the Makefile included in the submission. Cammand make will automatically update and make the query executable.
+The Makefile in the test directory will make all unit tests.
+
+Command Input
+
+./query [INDEXER OUTPUT FILE] [CRAWLER OUTPUT FILE DIRECTORY]
+
+Example command input: 
+
+./query ./index.dat ./WebPageDir
+
+[INDEXER OUTPUT FILE] ./index.dat 
+file that is the output of indexer
+
+[CRAWLER OUTPUT FILE DIRECTORY] ./WebPageDir
+Directory that contains the output from crawler
+
+Assumptions:
+1) There is enough memory to run query (ie space for all the memory allocations of data structures and words stored during execution.)
+2) Query will fail with a return of 0 if there is not enough space to build the inverted index.
+3) Query will print results in color according to their rank.
+4) The caller has the write and read permission for the files inputted to query.
+5) The crawler directory passed to the indexer will in fact contain the files outputted by crawler.
+6) The first line of the crawler output has the URL.

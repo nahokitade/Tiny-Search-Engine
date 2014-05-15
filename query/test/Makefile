@@ -18,6 +18,7 @@ UTILLIB=$(UTILDIR)libtseutil.a
 UTILC=$(UTILDIR)hashtable.c $(UTILDIR)web.c $(UTILDIR)file.c
 UTILH=$(UTILC:.c=.h)
 
+test: MergeSortTest queryProcessTest SinLLTest
 
 MergeSortTest: $(MSTSOURCES) $(UTILLIB)
 	$(CC) $(CFLAGS) -o MergeSortTest $(MSTCFILES) -I$(UTILDIR) -I$(CODEDIR) -L$(UTILDIR) $(UTILFLAG)

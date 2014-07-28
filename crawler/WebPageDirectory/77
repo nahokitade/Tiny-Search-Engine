@@ -1,0 +1,733 @@
+https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute
+1
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>How to contribute - MediaWiki</title>
+<meta name="generator" content="MediaWiki 1.24wmf15" />
+<link rel="alternate" href="android-app://org.wikipedia/http/m.mediawiki.org/wiki/How_to_contribute" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/mediawiki.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/mediawiki.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="MediaWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//www.mediawiki.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="MediaWiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://www.mediawiki.org/wiki/How_to_contribute" />
+<link rel="stylesheet" href="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.Edittools%2CWmfProjectStatusHelper%2CcollapsibleTables%2Csite%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mediawikiwiki:resourceloader:filter:minify-css:7:7bd1359907426500f5c6b3d58173fbf3 */</style>
+<script src="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"How_to_contribute","wgTitle":"How to contribute","wgCurRevisionId":1067316,"wgRevisionId":1067316,"wgArticleId":29506,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["MediaWiki Development","MediaWiki.org website","New contributors"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"How_to_contribute","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.24wmf15/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"0":1,"6":0,"8":0,"14":1,"1":true,"2":true,"3":true,"4":true,"5":true,"7":true,"15":true,"9":true,"10":true,"11":true,"12":true,"13":true,"16":true,"100":true,"101":true,"102":true,"103":true,"104":true,"105":true,"106":true,"107":true,"108":true,"109":true,"110":true,"111":true,"2600":false,"828":true,"829":true,"1198":true,"1199":true}},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikimedia","wgTranslatePageTranslation":"source"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"lqtnotifytalk":false,"lqtdisplaydepth":5,"lqtdisplaycount":25,"lqtcustomsignatures":true,"lqt-watch-threads":true,"multimediaviewer-enable":true,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":1,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"wikilove-enabled":1,"mathJax":false,"translate":0,"translate-editlangs":"default","translate-recent-groups":"","translate-sandbox":"","translationnotifications-lang-1":"","translationnotifications-lang-2":"","translationnotifications-lang-3":"","echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-user-rights":true,"echo-subscriptions-web-user-rights":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,
+"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":true,"searchNs13":false,"searchNs14":
+false,"searchNs15":false,"searchNs90":false,"searchNs91":false,"searchNs92":false,"searchNs93":false,"searchNs100":true,"searchNs101":false,"searchNs102":true,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs106":false,"searchNs107":false,"searchNs828":false,"searchNs829":false,"searchNs1198":false,"searchNs1199":false,"searchNs2500":false,"searchNs2501":false,"searchNs2600":false,"gadget-site":1,"gadget-collapsibleTables":1,"gadget-Edittools":1,"gadget-WmfProjectStatusHelper":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: mediawikiwiki:resourceloader:filter:minify-js:7:1b2c79ffd606b83bc845e33d323f3a74 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.translate","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.gadget.site","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.24wmf15/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-How_to_contribute skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cp\u003E\u003C/p\u003E\n\u003C/div\u003E");</script></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">How to contribute</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From MediaWiki.org</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-pt-translate-header noprint nomobile"><a href="/w/index.php?title=Special:Translate&amp;group=page-How+to+contribute&amp;language=en&amp;action=page&amp;filter=" title="Special:Translate">Translate this page</a></div><hr /><div class="mw-pt-languages noprint" lang="en" dir="ltr" xml:lang="en">
+<div class="mw-pt-languages-label">Other languages:</div>
+<div class="mw-pt-languages-list autonym"><a href="/wiki/How_to_contribute/am" title="አስተዋጽዖ ለማድረግ (71% translated)" class="mw-pt-progress mw-pt-progress--high">አማርኛ</a>&#160;• ‎<a href="/wiki/How_to_contribute/ar" title="كيف تساهم (58% translated)" class="mw-pt-progress mw-pt-progress--med">العربية</a>&#160;• ‎<a href="/wiki/How_to_contribute/ast" title="Cómo collaborar (79% translated)" class="mw-pt-progress mw-pt-progress--high">asturianu</a>&#160;• ‎<a href="/wiki/How_to_contribute/az" title="Necə dəstək olmaq olar (50% translated)" class="mw-pt-progress mw-pt-progress--med">azərbaycanca</a>&#160;• ‎<a href="/wiki/How_to_contribute/be-tarask" title="Як зрабіць свой унёсак (100% translated)" class="mw-pt-progress mw-pt-progress--complete">беларуская (тарашкевіца)‎</a>&#160;• ‎<a href="/wiki/How_to_contribute/bg" title="How to contribute/bg (46% translated)" class="mw-pt-progress mw-pt-progress--med">български</a>&#160;• ‎<a href="/wiki/How_to_contribute/bn" title="কিভাবে অবদান রাখবেন (29% translated)" class="mw-pt-progress mw-pt-progress--low">বাংলা</a>&#160;• ‎<a href="/wiki/How_to_contribute/bs" title="Kako doprinijeti (50% translated)" class="mw-pt-progress mw-pt-progress--med">bosanski</a>&#160;• ‎<a href="/wiki/How_to_contribute/ca" title="Com podeu contribuir (100% translated)" class="mw-pt-progress mw-pt-progress--complete">català</a>&#160;• ‎<a href="/wiki/How_to_contribute/cs" title="Jak přispět (100% translated)" class="mw-pt-progress mw-pt-progress--complete">čeština</a>&#160;• ‎<a href="/wiki/How_to_contribute/da" title="Hvordan kan jeg bidrage? (83% translated)" class="mw-pt-progress mw-pt-progress--complete">dansk</a>&#160;• ‎<a href="/wiki/How_to_contribute/de" title="Wie du mithelfen kannst (83% translated)" class="mw-pt-progress mw-pt-progress--complete">Deutsch</a>&#160;• ‎<a href="/wiki/How_to_contribute/diq" title="Seni iştirak keno (29% translated)" class="mw-pt-progress mw-pt-progress--low">Zazaki</a>&#160;• ‎<a href="/wiki/How_to_contribute/el" title="How to contribute/el (58% translated)" class="mw-pt-progress mw-pt-progress--med">Ελληνικά</a>&#160;• ‎<span class="mw-pt-languages-ui mw-pt-languages-selected">English</span>&#160;• ‎<a href="/wiki/How_to_contribute/en-gb" title="How to contribute/en-gb (8% translated)" class="mw-pt-progress mw-pt-progress--stub">British English</a>&#160;• ‎<a href="/wiki/How_to_contribute/eo" title="Kiel kontribui (58% translated)" class="mw-pt-progress mw-pt-progress--med">Esperanto</a>&#160;• ‎<a href="/wiki/How_to_contribute/es" title="Cómo contribuir (92% translated)" class="mw-pt-progress mw-pt-progress--complete">español</a>&#160;• ‎<a href="/wiki/How_to_contribute/fa" title="چگونه مشارکت کنیم (46% translated)" class="mw-pt-progress mw-pt-progress--med">فارسی</a>&#160;• ‎<a href="/wiki/How_to_contribute/fi" title="Miten voit osallistua (71% translated)" class="mw-pt-progress mw-pt-progress--high">suomi</a>&#160;• ‎<a href="/wiki/How_to_contribute/fr" title="Comment contribuer (88% translated)" class="mw-pt-progress mw-pt-progress--complete">français</a>&#160;• ‎<a href="/wiki/How_to_contribute/gl" title="Como contribuír (88% translated)" class="mw-pt-progress mw-pt-progress--complete">galego</a>&#160;• ‎<a href="/wiki/How_to_contribute/he" title="איך לתרום (79% translated)" class="mw-pt-progress mw-pt-progress--high">עברית</a>&#160;• ‎<a href="/wiki/How_to_contribute/hi" title="योगदान कैसे दें (50% translated)" class="mw-pt-progress mw-pt-progress--med">हिन्दी</a>&#160;• ‎<a href="/wiki/How_to_contribute/hr" title="Kako doprinositi (54% translated)" class="mw-pt-progress mw-pt-progress--med">hrvatski</a>&#160;• ‎<a href="/wiki/How_to_contribute/hu" title="Hogyan segíthetsz? (58% translated)" class="mw-pt-progress mw-pt-progress--med">magyar</a>&#160;• ‎<a href="/wiki/How_to_contribute/id" title="Bagaimana cara berkontribusi (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Bahasa Indonesia</a>&#160;• ‎<a href="/wiki/How_to_contribute/it" title="Come contribuire (83% translated)" class="mw-pt-progress mw-pt-progress--complete">italiano</a>&#160;• ‎<a href="/wiki/How_to_contribute/ja" title="貢献する方法 (88% translated)" class="mw-pt-progress mw-pt-progress--complete">日本語</a>&#160;• ‎<a href="/wiki/How_to_contribute/km" title="How to contribute/km (29% translated)" class="mw-pt-progress mw-pt-progress--low">ភាសាខ្មែរ</a>&#160;• ‎<a href="/wiki/How_to_contribute/kn" title="ನೆರವಾಗುವ ವಿಧಾನ (46% translated)" class="mw-pt-progress mw-pt-progress--med">ಕನ್ನಡ</a>&#160;• ‎<a href="/wiki/How_to_contribute/ko" title="기여하는 방법 (83% translated)" class="mw-pt-progress mw-pt-progress--complete">한국어</a>&#160;• ‎<a href="/wiki/How_to_contribute/ksh" title="Wie kann esch jät beidraare? (50% translated)" class="mw-pt-progress mw-pt-progress--med">Ripoarisch</a>&#160;• ‎<a href="/wiki/How_to_contribute/lb" title="Wéi Dir hëllefe kënnt (54% translated)" class="mw-pt-progress mw-pt-progress--med">Lëtzebuergesch</a>&#160;• ‎<a href="/wiki/How_to_contribute/lt" title="How to contribute/lt (25% translated)" class="mw-pt-progress mw-pt-progress--low">lietuvių</a>&#160;• ‎<a href="/wiki/How_to_contribute/mk" title="Како да учествувате (12% translated)" class="mw-pt-progress mw-pt-progress--stub">македонски</a>&#160;• ‎<a href="/wiki/How_to_contribute/ml" title="എപ്രകാരം സംഭാവന ചെയ്യാം (88% translated)" class="mw-pt-progress mw-pt-progress--complete">മലയാളം</a>&#160;• ‎<a href="/wiki/How_to_contribute/mr" title="योगदान कसे करावे (79% translated)" class="mw-pt-progress mw-pt-progress--high">मराठी</a>&#160;• ‎<a href="/wiki/How_to_contribute/ms" title="Bagaimana untuk menyumbang (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Bahasa Melayu</a>&#160;• ‎<a href="/wiki/How_to_contribute/nap" title="Comme aiutà (12% translated)" class="mw-pt-progress mw-pt-progress--stub">Napulitano</a>&#160;• ‎<a href="/wiki/How_to_contribute/nb" title="Hvordan bidra (88% translated)" class="mw-pt-progress mw-pt-progress--complete">norsk bokmål</a>&#160;• ‎<a href="/wiki/How_to_contribute/nl" title="Hoe je een bijdrage kan leveren (83% translated)" class="mw-pt-progress mw-pt-progress--complete">Nederlands</a>&#160;• ‎<a href="/wiki/How_to_contribute/nn" title="Korleis bidra (46% translated)" class="mw-pt-progress mw-pt-progress--med">norsk nynorsk</a>&#160;• ‎<a href="/wiki/How_to_contribute/oc" title="Cossí contribuir (4% translated)" class="mw-pt-progress mw-pt-progress--stub">occitan</a>&#160;• ‎<a href="/wiki/How_to_contribute/or" title="କିପରି ଅବଦାନ କରିବେ (46% translated)" class="mw-pt-progress mw-pt-progress--med">ଓଡ଼ିଆ</a>&#160;• ‎<a href="/wiki/How_to_contribute/pl" title="Jak pomóc? (79% translated)" class="mw-pt-progress mw-pt-progress--high">polski</a>&#160;• ‎<a href="/wiki/How_to_contribute/pt" title="Como contribuir (83% translated)" class="mw-pt-progress mw-pt-progress--complete">português</a>&#160;• ‎<a href="/wiki/How_to_contribute/pt-br" title="Como contribuir (83% translated)" class="mw-pt-progress mw-pt-progress--complete">português do Brasil</a>&#160;• ‎<a href="/wiki/How_to_contribute/ro" title="Cum să contribuiţi (62% translated)" class="mw-pt-progress mw-pt-progress--high">română</a>&#160;• ‎<a href="/wiki/How_to_contribute/ru" title="Как сделать свой вклад (83% translated)" class="mw-pt-progress mw-pt-progress--complete">русский</a>&#160;• ‎<a href="/wiki/How_to_contribute/sco" title="Hou tae contreebute (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Scots</a>&#160;• ‎<a href="/wiki/How_to_contribute/si" title="කොහොමද දායකත්වය ලබාදෙන්නේ (50% translated)" class="mw-pt-progress mw-pt-progress--med">සිංහල</a>&#160;• ‎<a href="/wiki/How_to_contribute/sq" title="Si të kontribuosh (83% translated)" class="mw-pt-progress mw-pt-progress--complete">shqip</a>&#160;• ‎<a href="/wiki/How_to_contribute/su" title="Cara nyumbang (29% translated)" class="mw-pt-progress mw-pt-progress--low">Basa Sunda</a>&#160;• ‎<a href="/wiki/How_to_contribute/sv" title="Hur man bidrar (79% translated)" class="mw-pt-progress mw-pt-progress--high">svenska</a>&#160;• ‎<a href="/wiki/How_to_contribute/ta" title="பங்களிப்பது எப்படி (42% translated)" class="mw-pt-progress mw-pt-progress--med">தமிழ்</a>&#160;• ‎<a href="/wiki/How_to_contribute/th" title="วิธีช่วยบริจาค (8% translated)" class="mw-pt-progress mw-pt-progress--stub">ไทย</a>&#160;• ‎<a href="/wiki/How_to_contribute/tr" title="Nasıl katkıda bulunabilirsiniz? (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Türkçe</a>&#160;• ‎<a href="/wiki/How_to_contribute/ug" title="قانداق تۆھپە قوشىمەن (58% translated)" class="mw-pt-progress mw-pt-progress--med">ئۇيغۇرچە / Uyghurche</a>&#160;• ‎<a href="/wiki/How_to_contribute/ug-arab" title="قانداق تۆھپە قوشىمەن (17% translated)" class="mw-pt-progress mw-pt-progress--stub">ئۇيغۇرچە</a>&#160;• ‎<a href="/wiki/How_to_contribute/uk" title="Як зробити свій внесок (83% translated)" class="mw-pt-progress mw-pt-progress--complete">українська</a>&#160;• ‎<a href="/wiki/How_to_contribute/vi" title="Đóng góp như thế nào (46% translated)" class="mw-pt-progress mw-pt-progress--med">Tiếng Việt</a>&#160;• ‎<a href="/wiki/How_to_contribute/yi" title="וויאזוי בייצושטייערן (62% translated)" class="mw-pt-progress mw-pt-progress--high">ייִדיש</a>&#160;• ‎<a href="/wiki/How_to_contribute/zh" title="如何貢獻 (83% translated)" class="mw-pt-progress mw-pt-progress--complete">中文</a></div>
+</div>
+<div style="clear:both;padding:1em;background:#FAFAFA;" class="plainlinks">
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 0;border-top:.5em solid #d33682;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech" class="extiw" title="m:Special:MyLanguage/Tech"><span style="color:#d33682">Tech Forum</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #6C71C4;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News" class="extiw" title="m:Special:MyLanguage/Tech/News"><span style="color:#6C71C4">Tech News</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #268BD2;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors"><span style="color:#268BD2">Ambassadors</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #2AA198;padding:1em;font-weight:bold"><a href="/wiki/Special:MyLanguage/Wikimedia_Engineering" title="Special:MyLanguage/Wikimedia Engineering"><span style="color:#2AA198">Wikimedia Engineering</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;background:#EFEFEF;border-top:.5em solid #B58900;padding:1em;font-weight:bold"><a href="/wiki/Special:MyLanguage/How_to_contribute" title="Special:MyLanguage/How to contribute"><span style="color:#B58900">MediaWiki</span></a></div>
+<div style="clear:both;font-size:1.2em;background:#EFEFEF;border-bottom:1px solid #B58900;padding:1em">
+<div style="font-size:1.5em;line-height:1.5;font-weight:bold">Get involved</div>
+<div style="font-size:1.2em;line-height:1.2">Learn how <i>you</i> can contribute to MediaWiki and the free culture community.</div>
+</div>
+</div>
+<div style="clear:both;margin:2px auto;max-width:70em" id="topics">
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page"><img alt="Plug-in Noun project 4032.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/60px-Plug-in_Noun_project_4032.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/90px-Plug-in_Noun_project_4032.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/120px-Plug-in_Noun_project_4032.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page">Web API</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">The content of all <a href="//wikimediafoundation.org/wiki/Special:MyLanguage/Our_projects" class="extiw" title="foundation:Special:MyLanguage/Our projects">Wikimedia projects</a> is released under free licenses. Write code to access, remix and grow this immense pool of free knowledge using the robust <a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page">Web API</a>, available on all MediaWiki wikis. Other <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Research:Data" class="extiw" title="m:Special:MyLanguage/Research:Data">open data sources</a>, including <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Data_dumps" class="extiw" title="m:Special:MyLanguage/Data dumps">XML and SQL dumps</a>, are also available.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Developer_hub" title="Special:MyLanguage/Developer hub"><img alt="Source code project 1171.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/60px-Source_code_project_1171.svg.png" width="60" height="26" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/90px-Source_code_project_1171.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/120px-Source_code_project_1171.svg.png 2x" data-file-width="100" data-file-height="44" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Developer_hub" title="Special:MyLanguage/Developer hub">Development</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Patches welcome! You can <a href="/wiki/Special:MyLanguage/How_to_become_a_MediaWiki_hacker" title="Special:MyLanguage/How to become a MediaWiki hacker">improve MediaWiki core</a> and its <a href="/wiki/Special:MyLanguage/Manual:Developing_extensions" title="Special:MyLanguage/Manual:Developing extensions">extensions</a>, <a href="/wiki/Special:MyLanguage/Wikimedia_Mobile_engineering" title="Special:MyLanguage/Wikimedia Mobile engineering">mobile applications</a> and <a href="/wiki/Special:MyLanguage/Gadget_kitchen" title="Special:MyLanguage/Gadget kitchen">user customizations</a>. Choose a coding project, <a href="/wiki/Special:MyLanguage/Mentorship_programs/Possible_projects" title="Special:MyLanguage/Mentorship programs/Possible projects">big</a> or <a href="/wiki/Annoying_little_bugs" title="Annoying little bugs">small</a>! The main languages in use are PHP, JavaScript, HTML and CSS, as well as Lua for some extensions.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/QA" title="QA"><img alt="Hammer - Noun project 1306.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/60px-Hammer_-_Noun_project_1306.svg.png" width="60" height="56" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/90px-Hammer_-_Noun_project_1306.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/120px-Hammer_-_Noun_project_1306.svg.png 2x" data-file-width="17" data-file-height="16" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/QA" title="Special:MyLanguage/QA">Testing</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;"><a href="/wiki/Special:MyLanguage/How_to_report_a_bug" title="Special:MyLanguage/How to report a bug">Report your first bug</a>! Also help improve the quality of our projects through manual testing, automated <a href="/wiki/Special:MyLanguage/Browser_testing" title="Special:MyLanguage/Browser testing">browser testing</a>, <a href="/wiki/Special:MyLanguage/continuous_integration" title="Special:MyLanguage/continuous integration">continuous integration</a> and <a href="/wiki/Special:MyLanguage/Bug_management" title="Special:MyLanguage/Bug management">bug management</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" title="m:Special:MyLanguage/Tech/Ambassadors"><img alt="Aiga mail inverted nobg.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/60px-Aiga_mail_inverted_nobg.svg.png" width="60" height="43" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/90px-Aiga_mail_inverted_nobg.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/120px-Aiga_mail_inverted_nobg.svg.png 2x" data-file-width="76" data-file-height="54" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors">Ambassadors</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">As a <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors">Tech ambassador</a>, <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech" class="extiw" title="m:Special:MyLanguage/Tech">help other Wikimedians</a> with technical issues, relay <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News" class="extiw" title="m:Special:MyLanguage/Tech/News">Tech news</a> to inform users about what is going to impact them, and join the <a href="https://lists.wikimedia.org/mailman/listinfo/wikitech-ambassadors" class="extiw" title="mail:wikitech-ambassadors">ambassadors list</a> to act as a bridge between developers and your local wiki.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Documentation" title="Special:MyLanguage/Documentation"><img alt="Book Noun project 7656.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/60px-Book_Noun_project_7656.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/90px-Book_Noun_project_7656.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/120px-Book_Noun_project_7656.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Documentation" title="Special:MyLanguage/Documentation">Documentation</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">English writers can improve the <a href="/wiki/Special:MyLanguage/Help:Contents" title="Special:MyLanguage/Help:Contents">MediaWiki documentation</a>, other <a href="/wiki/Special:MyLanguage/Project:PD_help" title="Special:MyLanguage/Project:PD help">essential support pages</a> and, in fact, <a href="/wiki/Special:MyLanguage/Project:Tasks" title="Special:MyLanguage/Project:Tasks">any page</a> of this website.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Localization" title="Special:MyLanguage/Localization"><img alt="Translation - Noun project 987.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/60px-Translation_-_Noun_project_987.svg.png" width="60" height="45" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/90px-Translation_-_Noun_project_987.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/120px-Translation_-_Noun_project_987.svg.png 2x" data-file-width="100" data-file-height="75" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Localization" title="Special:MyLanguage/Localization">Translation</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">If you are fluent in a language other than English you can join the effort by <a href="/wiki/Special:LanguageStats" title="Special:LanguageStats">translating this website</a> and the <a href="/wiki/Special:MyLanguage/Localisation#Translation_resources" title="Special:MyLanguage/Localisation">MediaWiki software</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Project:Support_desk" title="Project:Support desk"><img alt="Question Noun project 2185.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/60px-Question_Noun_project_2185.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/90px-Question_Noun_project_2185.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/120px-Question_Noun_project_2185.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Project:Support_desk" title="Project:Support desk">Support</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Help users and developers looking for answers at the <a href="/wiki/Special:MyLanguage/Project:Support_desk" title="Special:MyLanguage/Project:Support desk">support desk</a> or the MediaWiki <a href="/wiki/Special:MyLanguage/Communication" title="Special:MyLanguage/Communication">communication</a> and <a href="/wiki/Special:MyLanguage/Social_media" title="Special:MyLanguage/Social media">social media</a> channels.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Product_development" title="Special:MyLanguage/Product development"><img alt="Noun project 9866.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/60px-Noun_project_9866.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/90px-Noun_project_9866.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/120px-Noun_project_9866.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Product_development" title="Special:MyLanguage/Product development">Product development</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">What do users need? What features should we develop? What bugs should we prioritize? Help planning the right tasks with designers and developers.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Design" title="Special:MyLanguage/Design"><img alt="Vitruvian Man Noun project 6674.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/60px-Vitruvian_Man_Noun_project_6674.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/90px-Vitruvian_Man_Noun_project_6674.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/120px-Vitruvian_Man_Noun_project_6674.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Design" title="Special:MyLanguage/Design">Design</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Help apply the <a href="/wiki/Special:MyLanguage/Wikimedia_Foundation_Design" title="Special:MyLanguage/Wikimedia Foundation Design">Wikimedia design principles</a> in projects looking for <a href="/wiki/Special:MyLanguage/User_experience_review_queue" title="Special:MyLanguage/User experience review queue">UX feedback</a>, <a href="/wiki/Special:MyLanguage/Micro_Design_Improvements" title="Special:MyLanguage/Micro Design Improvements">small improvements</a>, <a href="/wiki/Special:MyLanguage/Translation_UX" title="Special:MyLanguage/Translation UX">multilingual</a> and <a href="/wiki/Special:MyLanguage/Mobile_design" title="Special:MyLanguage/Mobile design">mobile</a> interfaces.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication#com-landing"><img alt="Community Noun project 2280.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/60px-Community_Noun_project_2280.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/90px-Community_Noun_project_2280.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/120px-Community_Noun_project_2280.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication">Meet up</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Meet the community in <a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication">cyberspace</a> or <a href="/wiki/Special:MyLanguage/Project:Calendar" title="Special:MyLanguage/Project:Calendar">in person</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="margin:2px 0;text-align:right"><a href="/wiki/Special:MyLanguage/Project:Visual_identity" title="Special:MyLanguage/Project:Visual identity">Icons credits</a></div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1085
+CPU time usage: 0.940 seconds
+Real time usage: 1.131 seconds
+Preprocessor visited node count: 606/1000000
+Preprocessor generated node count: 2222/1500000
+Post‐expand include size: 14703/2048000 bytes
+Template argument size: 5189/2048000 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 2/500
+Lua time usage: 0.007/10.000 seconds
+Lua memory usage: 533 KB/50 MB
+-->
+
+<!-- Saved in parser cache with key mediawikiwiki:pcache:idhash:29506-0!*!0!*!en!4!* and timestamp 20140727025501 and revision id 1067316
+ -->
+<noscript><img src="//www.mediawiki.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.mediawiki.org/w/index.php?title=How_to_contribute&amp;oldid=1067316">http://www.mediawiki.org/w/index.php?title=How_to_contribute&amp;oldid=1067316</a>"					</div>
+													<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:MediaWiki_Development" title="Category:MediaWiki Development">MediaWiki Development</a></li><li><a href="/wiki/Category:MediaWiki.org_website" title="Category:MediaWiki.org website">MediaWiki.org website</a></li><li><a href="/wiki/Category:New_contributors" title="Category:New contributors">New contributors</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="#" class="uls-trigger autonym">English</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=How+to+contribute&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=How+to+contribute" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/How_to_contribute"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:How_to_contribute"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span
+							style="display: block;" 							>Variants</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/How_to_contribute" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/w/index.php?title=How_to_contribute&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=How_to_contribute&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search MediaWiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png);" href="/wiki/MediaWiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="/wiki/MediaWiki" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-mw-download"><a href="/wiki/Download">Get MediaWiki</a></li>
+													<li id="n-mw-extensions"><a href="/wiki/Category:Extensions">Get extensions</a></li>
+													<li id="n-blog-text"><a href="//blog.wikimedia.org/c/technology/">Tech blog</a></li>
+													<li id="n-mw-contribute"><a href="/wiki/Special:MyLanguage/How_to_contribute">Contribute</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-support' aria-labelledby='p-support-label'>
+			<h3 id='p-support-label'>Support</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out">User help</a></li>
+													<li id="n-mw-faq"><a href="/wiki/Manual:FAQ">FAQ</a></li>
+													<li id="n-mw-manual"><a href="/wiki/Manual:Contents">Technical manual</a></li>
+													<li id="n-mw-supportdesk"><a href="/wiki/Project:Support_desk">Support desk</a></li>
+													<li id="n-mw-communication"><a href="/wiki/Special:MyLanguage/Communication">Communication</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-development' aria-labelledby='p-development-label'>
+			<h3 id='p-development-label'>Development</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mw-bugtracker"><a href="/wiki/Bugzilla">Bug tracker</a></li>
+													<li id="n-mw-repo-browse"><a href="https://git.wikimedia.org/">Browse repository</a></li>
+													<li id="n-phpdoc"><a href="//doc.wikimedia.org/mediawiki-core/master/php/html/">Code docs</a></li>
+													<li id="n-mw-bugs-patches"><a href="https://bugzilla.wikimedia.org/buglist.cgi?bug_status=PATCH_TO_REVIEW&amp;order=bug_severity%2Cchangeddate&amp;query_format=advanced">Bugs with patch</a></li>
+													<li id="n-svn-statistics"><a href="/wiki/Development_statistics">Statistics</a></li>
+													<li id="n-mw-wikimedia-engineering"><a href="/wiki/Special:MyLanguage/Wikimedia_Engineering">Wikimedia engineering</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-MediaWiki.org' aria-labelledby='p-MediaWiki.org-label'>
+			<h3 id='p-MediaWiki.org-label'>MediaWiki.org</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-cat-browser"><a href="/wiki/Category:Top_level">Browse categories</a></li>
+													<li id="n-portal"><a href="/wiki/Project:Help" title="About the project, what you can do, where to find things">Community portal</a></li>
+													<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+													<li id="n-mw-discussion"><a href="/wiki/Project:Current_issues">Current issues</a></li>
+													<li id="n-mw-sandbox"><a href="/wiki/Project:Sandbox">Sandbox</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+													<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=How+to+contribute">Create a book</a></li>
+													<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=How+to+contribute&amp;oldid=1067316&amp;writer=rl">Download as PDF</a></li>
+													<li id="t-print"><a href="/w/index.php?title=How_to_contribute&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/How_to_contribute" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/How_to_contribute" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-permalink"><a href="/w/index.php?title=How_to_contribute&amp;oldid=1067316" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="/w/index.php?title=How_to_contribute&amp;action=info">Page information</a></li>
+						<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=How_to_contribute&amp;id=1067316" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 14 July 2014, at 12:17.</li>
+											<li id="footer-info-copyright">Text is available under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike License</a>;
+additional terms may apply.
+See <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Project:About" title="Project:About">About MediaWiki.org</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Project:General_disclaimer" title="Project:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//m.mediawiki.org/wiki/How_to_contribute" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.24wmf15/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.translate.pagetranslation.uls","mediawiki.action.view.postEdit","mobile.desktop","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.collapsibleTables","ext.gadget.Edittools","ext.gadget.WmfProjectStatusHelper","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.pt"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":149,"wgHostname":"mw1150"});
+}</script>
+	</body>
+</html>
+	https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute
+1
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>How to contribute - MediaWiki</title>
+<meta name="generator" content="MediaWiki 1.24wmf15" />
+<link rel="alternate" href="android-app://org.wikipedia/http/m.mediawiki.org/wiki/How_to_contribute" />
+<link rel="apple-touch-icon" href="//bits.wikimedia.org/apple-touch/mediawiki.png" />
+<link rel="shortcut icon" href="//bits.wikimedia.org/favicon/mediawiki.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="MediaWiki (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="//www.mediawiki.org/w/api.php?action=rsd" />
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/" />
+<link rel="alternate" type="application/atom+xml" title="MediaWiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom" />
+<link rel="canonical" href="http://www.mediawiki.org/wiki/How_to_contribute" />
+<link rel="stylesheet" href="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=ext.gadget.Edittools%2CWmfProjectStatusHelper%2CcollapsibleTables%2Csite%7Cext.uls.nojs%7Cext.visualEditor.viewPageTarget.noscript%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<link rel="stylesheet" href="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=vector&amp;*" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: mediawikiwiki:resourceloader:filter:minify-css:7:7bd1359907426500f5c6b3d58173fbf3 */</style>
+<script src="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"How_to_contribute","wgTitle":"How to contribute","wgCurRevisionId":1067316,"wgRevisionId":1067316,"wgArticleId":29506,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["MediaWiki Development","MediaWiki.org website","New contributors"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"How_to_contribute","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["autoconfirmed"],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"preview":false,"previewDialog":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgVisualEditor":{"isPageWatched":false,"magnifyClipIconURL":"//bits.wikimedia.org/static-1.24wmf15/skins/common/images/magnify-clip.png","pageLanguageCode":"en","pageLanguageDir":"ltr","svgMaxSize":2048,"namespacesWithSubpages":{"0":1,"6":0,"8":0,"14":1,"1":true,"2":true,"3":true,"4":true,"5":true,"7":true,"15":true,"9":true,"10":true,"11":true,"12":true,"13":true,"16":true,"100":true,"101":true,"102":true,"103":true,"104":true,"105":true,"106":true,"107":true,"108":true,"109":true,"110":true,"111":true,"2600":false,"828":true,"829":true,"1198":true,"1199":true}},"wikilove-recipient":"","wikilove-anon":0,"wgGuidedTourHelpGuiderUrl":"Help:Guided tours/guider","wgULSAcceptLanguageList":[],"wgULSCurrentAutonym":"English","wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgNoticeProject":"wikimedia","wgTranslatePageTranslation":"source"});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":0,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":false,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":4,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,
+"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"lqtnotifytalk":false,"lqtdisplaydepth":5,"lqtdisplaycount":25,"lqtcustomsignatures":true,"lqt-watch-threads":true,"multimediaviewer-enable":true,"visualeditor-enable":1,"visualeditor-betatempdisable":0,"visualeditor-enable-experimental":1,"visualeditor-enable-language":0,"visualeditor-hidebetawelcome":0,"wikilove-enabled":1,"mathJax":false,"translate":0,"translate-editlangs":"default","translate-recent-groups":"","translate-sandbox":"","translationnotifications-lang-1":"","translationnotifications-lang-2":"","translationnotifications-lang-3":"","echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"html","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-user-rights":true,"echo-subscriptions-web-user-rights":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,
+"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"echo-subscriptions-web-flow-discussion":true,"echo-subscriptions-email-flow-discussion":false,"uls-preferences":"","language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":true,"searchNs13":false,"searchNs14":
+false,"searchNs15":false,"searchNs90":false,"searchNs91":false,"searchNs92":false,"searchNs93":false,"searchNs100":true,"searchNs101":false,"searchNs102":true,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs106":false,"searchNs107":false,"searchNs828":false,"searchNs829":false,"searchNs1198":false,"searchNs1199":false,"searchNs2500":false,"searchNs2501":false,"searchNs2600":false,"gadget-site":1,"gadget-collapsibleTables":1,"gadget-Edittools":1,"gadget-WmfProjectStatusHelper":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});},{},{});
+/* cache key: mediawikiwiki:resourceloader:filter:minify-js:7:1b2c79ffd606b83bc845e33d323f3a74 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.translate","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","ext.gadget.site","ext.centralauth.centralautologin","mmv.head","ext.visualEditor.viewPageTarget.init","ext.uls.init","ext.uls.interface","ext.centralNotice.bannerController","skins.vector.js"]);
+}</script>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/static-1.24wmf15/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-How_to_contribute skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --><script>document.write("\u003Cdiv id=\"localNotice\" lang=\"en\" dir=\"ltr\"\u003E\u003Cp\u003E\u003C/p\u003E\n\u003C/div\u003E");</script></div>
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">How to contribute</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From MediaWiki.org</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div class="mw-pt-translate-header noprint nomobile"><a href="/w/index.php?title=Special:Translate&amp;group=page-How+to+contribute&amp;language=en&amp;action=page&amp;filter=" title="Special:Translate">Translate this page</a></div><hr /><div class="mw-pt-languages noprint" lang="en" dir="ltr" xml:lang="en">
+<div class="mw-pt-languages-label">Other languages:</div>
+<div class="mw-pt-languages-list autonym"><a href="/wiki/How_to_contribute/am" title="አስተዋጽዖ ለማድረግ (71% translated)" class="mw-pt-progress mw-pt-progress--high">አማርኛ</a>&#160;• ‎<a href="/wiki/How_to_contribute/ar" title="كيف تساهم (58% translated)" class="mw-pt-progress mw-pt-progress--med">العربية</a>&#160;• ‎<a href="/wiki/How_to_contribute/ast" title="Cómo collaborar (79% translated)" class="mw-pt-progress mw-pt-progress--high">asturianu</a>&#160;• ‎<a href="/wiki/How_to_contribute/az" title="Necə dəstək olmaq olar (50% translated)" class="mw-pt-progress mw-pt-progress--med">azərbaycanca</a>&#160;• ‎<a href="/wiki/How_to_contribute/be-tarask" title="Як зрабіць свой унёсак (100% translated)" class="mw-pt-progress mw-pt-progress--complete">беларуская (тарашкевіца)‎</a>&#160;• ‎<a href="/wiki/How_to_contribute/bg" title="How to contribute/bg (46% translated)" class="mw-pt-progress mw-pt-progress--med">български</a>&#160;• ‎<a href="/wiki/How_to_contribute/bn" title="কিভাবে অবদান রাখবেন (29% translated)" class="mw-pt-progress mw-pt-progress--low">বাংলা</a>&#160;• ‎<a href="/wiki/How_to_contribute/bs" title="Kako doprinijeti (50% translated)" class="mw-pt-progress mw-pt-progress--med">bosanski</a>&#160;• ‎<a href="/wiki/How_to_contribute/ca" title="Com podeu contribuir (100% translated)" class="mw-pt-progress mw-pt-progress--complete">català</a>&#160;• ‎<a href="/wiki/How_to_contribute/cs" title="Jak přispět (100% translated)" class="mw-pt-progress mw-pt-progress--complete">čeština</a>&#160;• ‎<a href="/wiki/How_to_contribute/da" title="Hvordan kan jeg bidrage? (83% translated)" class="mw-pt-progress mw-pt-progress--complete">dansk</a>&#160;• ‎<a href="/wiki/How_to_contribute/de" title="Wie du mithelfen kannst (83% translated)" class="mw-pt-progress mw-pt-progress--complete">Deutsch</a>&#160;• ‎<a href="/wiki/How_to_contribute/diq" title="Seni iştirak keno (29% translated)" class="mw-pt-progress mw-pt-progress--low">Zazaki</a>&#160;• ‎<a href="/wiki/How_to_contribute/el" title="How to contribute/el (58% translated)" class="mw-pt-progress mw-pt-progress--med">Ελληνικά</a>&#160;• ‎<span class="mw-pt-languages-ui mw-pt-languages-selected">English</span>&#160;• ‎<a href="/wiki/How_to_contribute/en-gb" title="How to contribute/en-gb (8% translated)" class="mw-pt-progress mw-pt-progress--stub">British English</a>&#160;• ‎<a href="/wiki/How_to_contribute/eo" title="Kiel kontribui (58% translated)" class="mw-pt-progress mw-pt-progress--med">Esperanto</a>&#160;• ‎<a href="/wiki/How_to_contribute/es" title="Cómo contribuir (92% translated)" class="mw-pt-progress mw-pt-progress--complete">español</a>&#160;• ‎<a href="/wiki/How_to_contribute/fa" title="چگونه مشارکت کنیم (46% translated)" class="mw-pt-progress mw-pt-progress--med">فارسی</a>&#160;• ‎<a href="/wiki/How_to_contribute/fi" title="Miten voit osallistua (71% translated)" class="mw-pt-progress mw-pt-progress--high">suomi</a>&#160;• ‎<a href="/wiki/How_to_contribute/fr" title="Comment contribuer (88% translated)" class="mw-pt-progress mw-pt-progress--complete">français</a>&#160;• ‎<a href="/wiki/How_to_contribute/gl" title="Como contribuír (88% translated)" class="mw-pt-progress mw-pt-progress--complete">galego</a>&#160;• ‎<a href="/wiki/How_to_contribute/he" title="איך לתרום (79% translated)" class="mw-pt-progress mw-pt-progress--high">עברית</a>&#160;• ‎<a href="/wiki/How_to_contribute/hi" title="योगदान कैसे दें (50% translated)" class="mw-pt-progress mw-pt-progress--med">हिन्दी</a>&#160;• ‎<a href="/wiki/How_to_contribute/hr" title="Kako doprinositi (54% translated)" class="mw-pt-progress mw-pt-progress--med">hrvatski</a>&#160;• ‎<a href="/wiki/How_to_contribute/hu" title="Hogyan segíthetsz? (58% translated)" class="mw-pt-progress mw-pt-progress--med">magyar</a>&#160;• ‎<a href="/wiki/How_to_contribute/id" title="Bagaimana cara berkontribusi (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Bahasa Indonesia</a>&#160;• ‎<a href="/wiki/How_to_contribute/it" title="Come contribuire (83% translated)" class="mw-pt-progress mw-pt-progress--complete">italiano</a>&#160;• ‎<a href="/wiki/How_to_contribute/ja" title="貢献する方法 (88% translated)" class="mw-pt-progress mw-pt-progress--complete">日本語</a>&#160;• ‎<a href="/wiki/How_to_contribute/km" title="How to contribute/km (29% translated)" class="mw-pt-progress mw-pt-progress--low">ភាសាខ្មែរ</a>&#160;• ‎<a href="/wiki/How_to_contribute/kn" title="ನೆರವಾಗುವ ವಿಧಾನ (46% translated)" class="mw-pt-progress mw-pt-progress--med">ಕನ್ನಡ</a>&#160;• ‎<a href="/wiki/How_to_contribute/ko" title="기여하는 방법 (83% translated)" class="mw-pt-progress mw-pt-progress--complete">한국어</a>&#160;• ‎<a href="/wiki/How_to_contribute/ksh" title="Wie kann esch jät beidraare? (50% translated)" class="mw-pt-progress mw-pt-progress--med">Ripoarisch</a>&#160;• ‎<a href="/wiki/How_to_contribute/lb" title="Wéi Dir hëllefe kënnt (54% translated)" class="mw-pt-progress mw-pt-progress--med">Lëtzebuergesch</a>&#160;• ‎<a href="/wiki/How_to_contribute/lt" title="How to contribute/lt (25% translated)" class="mw-pt-progress mw-pt-progress--low">lietuvių</a>&#160;• ‎<a href="/wiki/How_to_contribute/mk" title="Како да учествувате (12% translated)" class="mw-pt-progress mw-pt-progress--stub">македонски</a>&#160;• ‎<a href="/wiki/How_to_contribute/ml" title="എപ്രകാരം സംഭാവന ചെയ്യാം (88% translated)" class="mw-pt-progress mw-pt-progress--complete">മലയാളം</a>&#160;• ‎<a href="/wiki/How_to_contribute/mr" title="योगदान कसे करावे (79% translated)" class="mw-pt-progress mw-pt-progress--high">मराठी</a>&#160;• ‎<a href="/wiki/How_to_contribute/ms" title="Bagaimana untuk menyumbang (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Bahasa Melayu</a>&#160;• ‎<a href="/wiki/How_to_contribute/nap" title="Comme aiutà (12% translated)" class="mw-pt-progress mw-pt-progress--stub">Napulitano</a>&#160;• ‎<a href="/wiki/How_to_contribute/nb" title="Hvordan bidra (88% translated)" class="mw-pt-progress mw-pt-progress--complete">norsk bokmål</a>&#160;• ‎<a href="/wiki/How_to_contribute/nl" title="Hoe je een bijdrage kan leveren (83% translated)" class="mw-pt-progress mw-pt-progress--complete">Nederlands</a>&#160;• ‎<a href="/wiki/How_to_contribute/nn" title="Korleis bidra (46% translated)" class="mw-pt-progress mw-pt-progress--med">norsk nynorsk</a>&#160;• ‎<a href="/wiki/How_to_contribute/oc" title="Cossí contribuir (4% translated)" class="mw-pt-progress mw-pt-progress--stub">occitan</a>&#160;• ‎<a href="/wiki/How_to_contribute/or" title="କିପରି ଅବଦାନ କରିବେ (46% translated)" class="mw-pt-progress mw-pt-progress--med">ଓଡ଼ିଆ</a>&#160;• ‎<a href="/wiki/How_to_contribute/pl" title="Jak pomóc? (79% translated)" class="mw-pt-progress mw-pt-progress--high">polski</a>&#160;• ‎<a href="/wiki/How_to_contribute/pt" title="Como contribuir (83% translated)" class="mw-pt-progress mw-pt-progress--complete">português</a>&#160;• ‎<a href="/wiki/How_to_contribute/pt-br" title="Como contribuir (83% translated)" class="mw-pt-progress mw-pt-progress--complete">português do Brasil</a>&#160;• ‎<a href="/wiki/How_to_contribute/ro" title="Cum să contribuiţi (62% translated)" class="mw-pt-progress mw-pt-progress--high">română</a>&#160;• ‎<a href="/wiki/How_to_contribute/ru" title="Как сделать свой вклад (83% translated)" class="mw-pt-progress mw-pt-progress--complete">русский</a>&#160;• ‎<a href="/wiki/How_to_contribute/sco" title="Hou tae contreebute (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Scots</a>&#160;• ‎<a href="/wiki/How_to_contribute/si" title="කොහොමද දායකත්වය ලබාදෙන්නේ (50% translated)" class="mw-pt-progress mw-pt-progress--med">සිංහල</a>&#160;• ‎<a href="/wiki/How_to_contribute/sq" title="Si të kontribuosh (83% translated)" class="mw-pt-progress mw-pt-progress--complete">shqip</a>&#160;• ‎<a href="/wiki/How_to_contribute/su" title="Cara nyumbang (29% translated)" class="mw-pt-progress mw-pt-progress--low">Basa Sunda</a>&#160;• ‎<a href="/wiki/How_to_contribute/sv" title="Hur man bidrar (79% translated)" class="mw-pt-progress mw-pt-progress--high">svenska</a>&#160;• ‎<a href="/wiki/How_to_contribute/ta" title="பங்களிப்பது எப்படி (42% translated)" class="mw-pt-progress mw-pt-progress--med">தமிழ்</a>&#160;• ‎<a href="/wiki/How_to_contribute/th" title="วิธีช่วยบริจาค (8% translated)" class="mw-pt-progress mw-pt-progress--stub">ไทย</a>&#160;• ‎<a href="/wiki/How_to_contribute/tr" title="Nasıl katkıda bulunabilirsiniz? (88% translated)" class="mw-pt-progress mw-pt-progress--complete">Türkçe</a>&#160;• ‎<a href="/wiki/How_to_contribute/ug" title="قانداق تۆھپە قوشىمەن (58% translated)" class="mw-pt-progress mw-pt-progress--med">ئۇيغۇرچە / Uyghurche</a>&#160;• ‎<a href="/wiki/How_to_contribute/ug-arab" title="قانداق تۆھپە قوشىمەن (17% translated)" class="mw-pt-progress mw-pt-progress--stub">ئۇيغۇرچە</a>&#160;• ‎<a href="/wiki/How_to_contribute/uk" title="Як зробити свій внесок (83% translated)" class="mw-pt-progress mw-pt-progress--complete">українська</a>&#160;• ‎<a href="/wiki/How_to_contribute/vi" title="Đóng góp như thế nào (46% translated)" class="mw-pt-progress mw-pt-progress--med">Tiếng Việt</a>&#160;• ‎<a href="/wiki/How_to_contribute/yi" title="וויאזוי בייצושטייערן (62% translated)" class="mw-pt-progress mw-pt-progress--high">ייִדיש</a>&#160;• ‎<a href="/wiki/How_to_contribute/zh" title="如何貢獻 (83% translated)" class="mw-pt-progress mw-pt-progress--complete">中文</a></div>
+</div>
+<div style="clear:both;padding:1em;background:#FAFAFA;" class="plainlinks">
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 0;border-top:.5em solid #d33682;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech" class="extiw" title="m:Special:MyLanguage/Tech"><span style="color:#d33682">Tech Forum</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #6C71C4;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News" class="extiw" title="m:Special:MyLanguage/Tech/News"><span style="color:#6C71C4">Tech News</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #268BD2;padding:1em;font-weight:bold"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors"><span style="color:#268BD2">Ambassadors</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;border-top:.5em solid #2AA198;padding:1em;font-weight:bold"><a href="/wiki/Special:MyLanguage/Wikimedia_Engineering" title="Special:MyLanguage/Wikimedia Engineering"><span style="color:#2AA198">Wikimedia Engineering</span></a></div>
+<div style="float:left;font-size:1.5em;margin:0 .2em 0 .2em;background:#EFEFEF;border-top:.5em solid #B58900;padding:1em;font-weight:bold"><a href="/wiki/Special:MyLanguage/How_to_contribute" title="Special:MyLanguage/How to contribute"><span style="color:#B58900">MediaWiki</span></a></div>
+<div style="clear:both;font-size:1.2em;background:#EFEFEF;border-bottom:1px solid #B58900;padding:1em">
+<div style="font-size:1.5em;line-height:1.5;font-weight:bold">Get involved</div>
+<div style="font-size:1.2em;line-height:1.2">Learn how <i>you</i> can contribute to MediaWiki and the free culture community.</div>
+</div>
+</div>
+<div style="clear:both;margin:2px auto;max-width:70em" id="topics">
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page"><img alt="Plug-in Noun project 4032.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/60px-Plug-in_Noun_project_4032.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/90px-Plug-in_Noun_project_4032.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/59/Plug-in_Noun_project_4032.svg/120px-Plug-in_Noun_project_4032.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page">Web API</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">The content of all <a href="//wikimediafoundation.org/wiki/Special:MyLanguage/Our_projects" class="extiw" title="foundation:Special:MyLanguage/Our projects">Wikimedia projects</a> is released under free licenses. Write code to access, remix and grow this immense pool of free knowledge using the robust <a href="/wiki/Special:MyLanguage/API:Main_page" title="Special:MyLanguage/API:Main page">Web API</a>, available on all MediaWiki wikis. Other <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Research:Data" class="extiw" title="m:Special:MyLanguage/Research:Data">open data sources</a>, including <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Data_dumps" class="extiw" title="m:Special:MyLanguage/Data dumps">XML and SQL dumps</a>, are also available.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Developer_hub" title="Special:MyLanguage/Developer hub"><img alt="Source code project 1171.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/60px-Source_code_project_1171.svg.png" width="60" height="26" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/90px-Source_code_project_1171.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/be/Source_code_project_1171.svg/120px-Source_code_project_1171.svg.png 2x" data-file-width="100" data-file-height="44" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Developer_hub" title="Special:MyLanguage/Developer hub">Development</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Patches welcome! You can <a href="/wiki/Special:MyLanguage/How_to_become_a_MediaWiki_hacker" title="Special:MyLanguage/How to become a MediaWiki hacker">improve MediaWiki core</a> and its <a href="/wiki/Special:MyLanguage/Manual:Developing_extensions" title="Special:MyLanguage/Manual:Developing extensions">extensions</a>, <a href="/wiki/Special:MyLanguage/Wikimedia_Mobile_engineering" title="Special:MyLanguage/Wikimedia Mobile engineering">mobile applications</a> and <a href="/wiki/Special:MyLanguage/Gadget_kitchen" title="Special:MyLanguage/Gadget kitchen">user customizations</a>. Choose a coding project, <a href="/wiki/Special:MyLanguage/Mentorship_programs/Possible_projects" title="Special:MyLanguage/Mentorship programs/Possible projects">big</a> or <a href="/wiki/Annoying_little_bugs" title="Annoying little bugs">small</a>! The main languages in use are PHP, JavaScript, HTML and CSS, as well as Lua for some extensions.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/QA" title="QA"><img alt="Hammer - Noun project 1306.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/60px-Hammer_-_Noun_project_1306.svg.png" width="60" height="56" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/90px-Hammer_-_Noun_project_1306.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/16/Hammer_-_Noun_project_1306.svg/120px-Hammer_-_Noun_project_1306.svg.png 2x" data-file-width="17" data-file-height="16" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/QA" title="Special:MyLanguage/QA">Testing</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;"><a href="/wiki/Special:MyLanguage/How_to_report_a_bug" title="Special:MyLanguage/How to report a bug">Report your first bug</a>! Also help improve the quality of our projects through manual testing, automated <a href="/wiki/Special:MyLanguage/Browser_testing" title="Special:MyLanguage/Browser testing">browser testing</a>, <a href="/wiki/Special:MyLanguage/continuous_integration" title="Special:MyLanguage/continuous integration">continuous integration</a> and <a href="/wiki/Special:MyLanguage/Bug_management" title="Special:MyLanguage/Bug management">bug management</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" title="m:Special:MyLanguage/Tech/Ambassadors"><img alt="Aiga mail inverted nobg.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/60px-Aiga_mail_inverted_nobg.svg.png" width="60" height="43" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/90px-Aiga_mail_inverted_nobg.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aiga_mail_inverted_nobg.svg/120px-Aiga_mail_inverted_nobg.svg.png 2x" data-file-width="76" data-file-height="54" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors">Ambassadors</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">As a <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/Ambassadors" class="extiw" title="m:Special:MyLanguage/Tech/Ambassadors">Tech ambassador</a>, <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech" class="extiw" title="m:Special:MyLanguage/Tech">help other Wikimedians</a> with technical issues, relay <a href="//meta.wikimedia.org/wiki/Special:MyLanguage/Tech/News" class="extiw" title="m:Special:MyLanguage/Tech/News">Tech news</a> to inform users about what is going to impact them, and join the <a href="https://lists.wikimedia.org/mailman/listinfo/wikitech-ambassadors" class="extiw" title="mail:wikitech-ambassadors">ambassadors list</a> to act as a bridge between developers and your local wiki.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Documentation" title="Special:MyLanguage/Documentation"><img alt="Book Noun project 7656.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/60px-Book_Noun_project_7656.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/90px-Book_Noun_project_7656.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Book_Noun_project_7656.svg/120px-Book_Noun_project_7656.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Documentation" title="Special:MyLanguage/Documentation">Documentation</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">English writers can improve the <a href="/wiki/Special:MyLanguage/Help:Contents" title="Special:MyLanguage/Help:Contents">MediaWiki documentation</a>, other <a href="/wiki/Special:MyLanguage/Project:PD_help" title="Special:MyLanguage/Project:PD help">essential support pages</a> and, in fact, <a href="/wiki/Special:MyLanguage/Project:Tasks" title="Special:MyLanguage/Project:Tasks">any page</a> of this website.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Localization" title="Special:MyLanguage/Localization"><img alt="Translation - Noun project 987.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/60px-Translation_-_Noun_project_987.svg.png" width="60" height="45" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/90px-Translation_-_Noun_project_987.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/02/Translation_-_Noun_project_987.svg/120px-Translation_-_Noun_project_987.svg.png 2x" data-file-width="100" data-file-height="75" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Localization" title="Special:MyLanguage/Localization">Translation</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">If you are fluent in a language other than English you can join the effort by <a href="/wiki/Special:LanguageStats" title="Special:LanguageStats">translating this website</a> and the <a href="/wiki/Special:MyLanguage/Localisation#Translation_resources" title="Special:MyLanguage/Localisation">MediaWiki software</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Project:Support_desk" title="Project:Support desk"><img alt="Question Noun project 2185.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/60px-Question_Noun_project_2185.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/90px-Question_Noun_project_2185.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/54/Question_Noun_project_2185.svg/120px-Question_Noun_project_2185.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Project:Support_desk" title="Project:Support desk">Support</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Help users and developers looking for answers at the <a href="/wiki/Special:MyLanguage/Project:Support_desk" title="Special:MyLanguage/Project:Support desk">support desk</a> or the MediaWiki <a href="/wiki/Special:MyLanguage/Communication" title="Special:MyLanguage/Communication">communication</a> and <a href="/wiki/Special:MyLanguage/Social_media" title="Special:MyLanguage/Social media">social media</a> channels.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Product_development" title="Special:MyLanguage/Product development"><img alt="Noun project 9866.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/60px-Noun_project_9866.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/90px-Noun_project_9866.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/44/Noun_project_9866.svg/120px-Noun_project_9866.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Product_development" title="Special:MyLanguage/Product development">Product development</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">What do users need? What features should we develop? What bugs should we prioritize? Help planning the right tasks with designers and developers.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Design" title="Special:MyLanguage/Design"><img alt="Vitruvian Man Noun project 6674.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/60px-Vitruvian_Man_Noun_project_6674.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/90px-Vitruvian_Man_Noun_project_6674.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vitruvian_Man_Noun_project_6674.svg/120px-Vitruvian_Man_Noun_project_6674.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Design" title="Special:MyLanguage/Design">Design</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Help apply the <a href="/wiki/Special:MyLanguage/Wikimedia_Foundation_Design" title="Special:MyLanguage/Wikimedia Foundation Design">Wikimedia design principles</a> in projects looking for <a href="/wiki/Special:MyLanguage/User_experience_review_queue" title="Special:MyLanguage/User experience review queue">UX feedback</a>, <a href="/wiki/Special:MyLanguage/Micro_Design_Improvements" title="Special:MyLanguage/Micro Design Improvements">small improvements</a>, <a href="/wiki/Special:MyLanguage/Translation_UX" title="Special:MyLanguage/Translation UX">multilingual</a> and <a href="/wiki/Special:MyLanguage/Mobile_design" title="Special:MyLanguage/Mobile design">mobile</a> interfaces.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+<div style="margin:0 auto; padding:10px 10px 40px;">
+<div style="margin:15px 0; float:left; display: inline-block;padding-right: 12px;"><a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication#com-landing"><img alt="Community Noun project 2280.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/60px-Community_Noun_project_2280.svg.png" width="60" height="60" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/90px-Community_Noun_project_2280.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Community_Noun_project_2280.svg/120px-Community_Noun_project_2280.svg.png 2x" data-file-width="100" data-file-height="100" /></a></div>
+<div style="float:left; font-size:1.8em; line-height: 1.3em; margin:21px 21px 21px 10px; width:20%;" class="mobile-float-reset"><a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication">Meet up</a></div>
+<div style="overflow:hidden;" class="mobile-float-reset">
+<div style="margin:15px 0 0 40px;">Meet the community in <a href="/wiki/Special:MyLanguage/Communication#com-landing" title="Special:MyLanguage/Communication">cyberspace</a> or <a href="/wiki/Special:MyLanguage/Project:Calendar" title="Special:MyLanguage/Project:Calendar">in person</a>.</div>
+</div>
+</div>
+<div style="border-bottom:1px solid #AAA;">
+<div style="clear:both;"></div>
+</div>
+</div>
+<div style="margin:2px 0;text-align:right"><a href="/wiki/Special:MyLanguage/Project:Visual_identity" title="Special:MyLanguage/Project:Visual identity">Icons credits</a></div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1085
+CPU time usage: 0.940 seconds
+Real time usage: 1.131 seconds
+Preprocessor visited node count: 606/1000000
+Preprocessor generated node count: 2222/1500000
+Post‐expand include size: 14703/2048000 bytes
+Template argument size: 5189/2048000 bytes
+Highest expansion depth: 11/40
+Expensive parser function count: 2/500
+Lua time usage: 0.007/10.000 seconds
+Lua memory usage: 533 KB/50 MB
+-->
+
+<!-- Saved in parser cache with key mediawikiwiki:pcache:idhash:29506-0!*!0!*!en!4!* and timestamp 20140727025501 and revision id 1067316
+ -->
+<noscript><img src="//www.mediawiki.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="http://www.mediawiki.org/w/index.php?title=How_to_contribute&amp;oldid=1067316">http://www.mediawiki.org/w/index.php?title=How_to_contribute&amp;oldid=1067316</a>"					</div>
+													<div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:MediaWiki_Development" title="Category:MediaWiki Development">MediaWiki Development</a></li><li><a href="/wiki/Category:MediaWiki.org_website" title="Category:MediaWiki.org website">MediaWiki.org website</a></li><li><a href="/wiki/Category:New_contributors" title="Category:New contributors">New contributors</a></li></ul></div></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-uls" class="active"><a href="#" class="uls-trigger autonym">English</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=How+to+contribute&amp;type=signup">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=How+to+contribute" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/How_to_contribute"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:How_to_contribute"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span
+							style="display: block;" 							>Variants</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/How_to_contribute" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="/w/index.php?title=How_to_contribute&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=How_to_contribute&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search MediaWiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(//upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png);" href="/wiki/MediaWiki"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="/wiki/MediaWiki" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-mw-download"><a href="/wiki/Download">Get MediaWiki</a></li>
+													<li id="n-mw-extensions"><a href="/wiki/Category:Extensions">Get extensions</a></li>
+													<li id="n-blog-text"><a href="//blog.wikimedia.org/c/technology/">Tech blog</a></li>
+													<li id="n-mw-contribute"><a href="/wiki/Special:MyLanguage/How_to_contribute">Contribute</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-support' aria-labelledby='p-support-label'>
+			<h3 id='p-support-label'>Support</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-help"><a href="/wiki/Help:Contents" title="The place to find out">User help</a></li>
+													<li id="n-mw-faq"><a href="/wiki/Manual:FAQ">FAQ</a></li>
+													<li id="n-mw-manual"><a href="/wiki/Manual:Contents">Technical manual</a></li>
+													<li id="n-mw-supportdesk"><a href="/wiki/Project:Support_desk">Support desk</a></li>
+													<li id="n-mw-communication"><a href="/wiki/Special:MyLanguage/Communication">Communication</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-development' aria-labelledby='p-development-label'>
+			<h3 id='p-development-label'>Development</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mw-bugtracker"><a href="/wiki/Bugzilla">Bug tracker</a></li>
+													<li id="n-mw-repo-browse"><a href="https://git.wikimedia.org/">Browse repository</a></li>
+													<li id="n-phpdoc"><a href="//doc.wikimedia.org/mediawiki-core/master/php/html/">Code docs</a></li>
+													<li id="n-mw-bugs-patches"><a href="https://bugzilla.wikimedia.org/buglist.cgi?bug_status=PATCH_TO_REVIEW&amp;order=bug_severity%2Cchangeddate&amp;query_format=advanced">Bugs with patch</a></li>
+													<li id="n-svn-statistics"><a href="/wiki/Development_statistics">Statistics</a></li>
+													<li id="n-mw-wikimedia-engineering"><a href="/wiki/Special:MyLanguage/Wikimedia_Engineering">Wikimedia engineering</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-MediaWiki.org' aria-labelledby='p-MediaWiki.org-label'>
+			<h3 id='p-MediaWiki.org-label'>MediaWiki.org</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-cat-browser"><a href="/wiki/Category:Top_level">Browse categories</a></li>
+													<li id="n-portal"><a href="/wiki/Project:Help" title="About the project, what you can do, where to find things">Community portal</a></li>
+													<li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+													<li id="n-mw-discussion"><a href="/wiki/Project:Current_issues">Current issues</a></li>
+													<li id="n-mw-sandbox"><a href="/wiki/Project:Sandbox">Sandbox</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+													<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=How+to+contribute">Create a book</a></li>
+													<li id="coll-download-as-rl"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=How+to+contribute&amp;oldid=1067316&amp;writer=rl">Download as PDF</a></li>
+													<li id="t-print"><a href="/w/index.php?title=How_to_contribute&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/How_to_contribute" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/How_to_contribute" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-permalink"><a href="/w/index.php?title=How_to_contribute&amp;oldid=1067316" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="/w/index.php?title=How_to_contribute&amp;action=info">Page information</a></li>
+						<li id="t-cite"><a href="/w/index.php?title=Special:Cite&amp;page=How_to_contribute&amp;id=1067316" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 14 July 2014, at 12:17.</li>
+											<li id="footer-info-copyright">Text is available under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike License</a>;
+additional terms may apply.
+See <a href="https://wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> for details.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="//wikimediafoundation.org/wiki/Privacy_policy" title="wikimedia:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Project:About" title="Project:About">About MediaWiki.org</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Project:General_disclaimer" title="Project:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-mobileview"><a href="//m.mediawiki.org/wiki/How_to_contribute" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="//wikimediafoundation.org/"><img src="//bits.wikimedia.org/images/wikimedia-button.png" width="88" height="31" alt="Wikimedia Foundation"/></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="//www.mediawiki.org/"><img src="//bits.wikimedia.org/static-1.24wmf15/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["ext.translate.pagetranslation.uls","mediawiki.action.view.postEdit","mobile.desktop","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.collapsibleTables","ext.gadget.Edittools","ext.gadget.WmfProjectStatusHelper","mmv.bootstrap.autostart","ext.eventLogging.subscriber","ext.navigationTiming","schema.UniversalLanguageSelector","ext.uls.eventlogger","ext.uls.pt"],null,true);
+}</script>
+<script src="//bits.wikimedia.org/www.mediawiki.org/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":149,"wgHostname":"mw1150"});
+}</script>
+	</body>
+</html>
+	

@@ -1,0 +1,710 @@
+http://www.math.uwaterloo.ca/tsp/index.html
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+<meta name="Keywords" content="Traveling Salesman Problem">
+
+<SCRIPT LANGUAGE="JavaScript" SRC="index.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="topic.js"></SCRIPT>
+
+<HEAD> 
+<TITLE> Traveling Salesman Problem</TITLE>
+<link rel="icon" type="image/png" href="./img/tspicon1.png">
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+   qs_menu_set_bling_html(
+   '<center> ' + 
+       '<img height=89px border=0px src=' + qs_path + '/img/usa_maze_tiny.jpg alt="USA">' + 
+   '</center>'); 
+
+qs_doc_start('Home', undefined, false); // don't do <HEAD> section
+qs_doc_headline();
+qs_body_start(false);
+html(); 
+</SCRIPT>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+<img src="./img/tsp_top.gif" alt="Traveling Salesman Problem" width="512" height="32" border="0">
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+
+<p>
+The Traveling Salesman Problem is one of the most intensively studied problems in computational mathematics.  These pages are devoted to the history, applications, and current research of this challenge of finding the shortest route visiting each member of a collection of locations and returning to your starting point.
+</p> 
+
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+
+<p>
+
+<table width=600px border="0">
+<tbody>
+
+<tr height=4px bgcolor='#f8f2f6'>
+   <td width=20px></td>
+   <td width=30px></td>
+   <td width=10px></td>
+   <td width=20px></td>
+   <td width=20px></td>
+   <td width=202px></td>
+</tr>
+
+<tr>
+
+<td><img src="img/trans.gif" width=20px></td>
+
+<td>
+<div class="fb-like" data-href="http://www.facebook.com/PursuitOfTheTravelingSalesman" data-send="false" data-layout="box_count" data-width="30" data-show-faces="false"></div>
+</td>
+
+
+<td><img src="img/trans.gif" width=10px></td>
+
+<td>
+<center>
+<a href="http://press.princeton.edu/titles/9531.html"><img src="./img/pup_300.gif" alt="In Pursuit of the Traveling Salesman" width="196" height="300" border="2"></a>
+</center>
+</td>
+
+<td><img src="img/trans.gif" width=20px></td>
+
+<td>
+<center>
+<a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8"><img src="./img/ipad3_300.gif" alt="In Pursuit of the Traveling Salesman" width="223" height="300" border="2"></a>
+</center>
+</tr>
+
+<tr>
+<td><img src="img/trans.gif" width=20px></td>
+<td><img src="img/trans.gif" width=30px></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>
+<center>
+TSP Book<br>
+<a href="http://www.amazon.com/Pursuit-Traveling-Salesman-Mathematics-Computation/dp/0691152705/ref=sr_1_1?ie=UTF8&s=books&qid=1305555583&sr=8-1">$20.71 at Amazon.com</a><br>
+<a href="http://press.princeton.edu/chapters/s9531.pdf">Chapter 1 as pdf file</a><br>
+<a href="http://www.facebook.com/pages/In-Pursuit-of-the-Traveling-Salesman-by-William-J-Cook/129837760426640?sk=app_4949752878">Facebook Page</a>
+</center>
+</td>
+<td><img src="img/trans.gif" width=20px></td>
+<td>
+<center>
+TSP iPhone/iPad App<br>
+<a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8">iTunes Preview</a><br>
+<a href="./iphone/index.html">App Support Page</a><br>
+<a href="http://wordplay.blogs.nytimes.com/2012/02/13/numberplay-is-human-intuition-essential-to-unraveling-puzzles/">NY Times Article</a>
+</center>
+</tr>
+
+</tbody>
+</table>
+</p>
+
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+
+<br><br>
+
+
+<center>
+<table border="0">
+<tbody>
+
+<tr>
+<td><a href="./data/usa/index.html">United States TSP</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>$500 Prize for best tour through 115,475 US cities.</td>
+</tr>
+<tr>
+<td><a href="http://www.scientificamerican.com/article.cfm?id=case-traveling-salesman-unsolvable-limits-computation">Scientific American</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Short piece on Yogi Berra and the TSP</td>
+</tr>
+<tr>
+<td><a href="http://www.travellingsalesmanmovie.com/">Travelling Salesman</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Thriller movie centered around a solution of the TSP<br><td>
+</tr>
+<tr>
+<td><a href="./colbert.jpg">Stephen Colbert</a></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>49,512-city tour of Colbert Nation via the <a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8">iPhone App</a>.<br>
+</tr>
+<tr>
+<td><a href="./data/ml/monalisa.html">Mona Lisa TSP</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>$1,000 Prize for a 100,000-city challenge problem.</td>
+</tr>
+<tr>
+<td><a href="./maps/index.html">Google Maps</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Plot an optimal TSP tour with a Google interface.</td>
+</tr>
+<tr>
+<td><a href="./pla85900/index.html">pla85900</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Solution of a 85,900-city TSP.</td>
+</tr>
+<tr>
+<td><a href="./iowa/index.html">Iowa Tour</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Optimal route for a 99-county campaign tour.</td>
+</tr>
+</tbody>
+</table>
+</center>
+
+<p>
+
+<center>
+<!-- tsp topics in two columns -->
+<table width=100% border="0" cellpadding="0" cellspacing="0">
+<tbody>
+    <tr height=10px> <td><img src=img/trans.gif /></td></tr>
+    <!--begin topics table: 2 columns -->
+    <table border="0" width="700px" cellspacing="0" cellpadding="0">
+        <tbody><!-- white structure/spacer line -->
+        <tr height=4px bgcolor='#f8f2f6'>
+            <td width=348px></td>
+            <td width=4px></td>
+            <td width=348px></td>
+        </tr>
+
+        <tr width=650px>
+            <td width=323px  valign=top><!-- begin TSP Book -->
+                <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP Book', 'book/index.html', './book/img/cover_small.gif', 'TSP Book')); 
+                html();</script>
+                <i>The Traveling Salesman Problem: A Computational Study</i> by Applegate, Bixby, Chvatal, and Cook.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end TSP Book -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif"> </td> </img>
+            </td>
+
+            <td width=323px valign=top><!-- begin Lower Bounds -->
+                <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Lower Bounds', 'methods/opt/opt.htm', './methods/opt/moatcut.gif', 'Lower Bounds')); 
+                html();</script>
+                Description of the techniques we use to compute lower bounds on the lengths of all TSP tours.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Lower Bounds -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Sweden TSP -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Sweden TSP', 'sweden/index.html', 
+                   'img/sw_relief_small.jpg', 'Solution of Sweden TSP')); 
+                html();</script>
+                Optimal solution for visiting all 24,978 cities in Sweden.  Tour has length approximately 72,500 kilometers.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Sweden TSP -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+            <td width=323px valign=top><!-- begin Car 54 -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Car 54', 'gallery/igraphics/car54.html', 
+                   'img/car54_small_smooth.jpg', 'Car 54 Procter&Gamble Competition Poster')); 
+                html();</script>
+                The TSP was featured in a contest run by Proctor and Gamble in 1962.  The challenge problem had 33 cities.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Car 54 -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Concorde Windows -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Concorde for Windows', 'concorde/index.html', './img/att532bord.jpg', 'Concorde for Windows')); 
+                html();</script>
+                A graphical user interface available for Concorde on Windows' platforms.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Concorde Windows -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+               <img src="img/trans.gif" />
+            </td>
+
+            <td width=323px valign=top><!-- begin Genome -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Genome', 'apps/genome.html', './apps/gene.gif', 'Genome Mapping')); 
+                html();</script>
+                The Concorde TSP solver is used in a genome sequencing package from the National Institutes of Health.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Genome -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin National -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('National TSPs', './world/countries.html', './data/img/allnat_cut.gif', 'National TSPs')); 
+                html();</script>
+                A collection of 25 TSP challenge problems consisting of cities in Argentina through Zimbabwe.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end National -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+
+            <td width=323px valign=top><!-- begin TSP History -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP History', 'history/index.html', 
+                   './history/img/icosian.jpg', 'TSP History')); 
+                html();</script>
+                Pages describing some of the history of the TSP as a mathematical and computational challenge.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end TSP History -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Games -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP Game', './games/index.html', './games/onePlayer.jpg', 'TSP Game')); 
+                html();</script>
+                A flash game to find the optimal tour through a randomly generated set of city locations.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Games -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+            <td width=323px valign=top><!-- begin World TSP -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('World TSP', 'world/index.html', 
+                   './data/img/world0.small.gif', 'World TSP')); 
+                html();</script>
+                A challenge problem consisting of the locations of 1,904,711 cities throughout the world.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end World TSP -->
+            </td>
+        </tr><!-- spacer row -->
+        <tr height=12px>
+            <td > <img src=img/trans.gif /> </td>
+            <td bgcolor='#f8f2f6' > <img src=img/trans.gif /> </td>
+            <td > <img src=img/trans.gif /> </td>
+        </tr>
+    </tbody>
+</table><!--end topics table-->
+</center>
+
+<p>
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+<p>
+
+<p>
+The work described here is supported by the <a href="http://www.onr.navy.mil/sci_tech/">Office of Naval Research</a> (N00014-09-1-0048) grant.
+A good source for computational research on the traveling salesman problem and general optimization is the journal <a href="http://mpc.zib.de/index.html">Mathematical Programming Computation.</a>
+See the pages <a href="http://math.uwaterloo.ca/math/research">Research in the Faculty of Mathematics</a> for an overview of work at the University of Waterloo.
+<p>
+Contact: <a href="http://www.math.uwaterloo.ca/~bico/">William Cook</a> (bico@uwaterloo.ca)
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_finish("September 2013");
+html(); 
+</SCRIPT>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5802910-2");
+pageTracker._trackPageview();
+</script>
+</body>
+
+
+</html> 
+http://www.math.uwaterloo.ca/tsp/index.html
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+<meta name="Keywords" content="Traveling Salesman Problem">
+
+<SCRIPT LANGUAGE="JavaScript" SRC="index.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" SRC="topic.js"></SCRIPT>
+
+<HEAD> 
+<TITLE> Traveling Salesman Problem</TITLE>
+<link rel="icon" type="image/png" href="./img/tspicon1.png">
+</HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+   qs_menu_set_bling_html(
+   '<center> ' + 
+       '<img height=89px border=0px src=' + qs_path + '/img/usa_maze_tiny.jpg alt="USA">' + 
+   '</center>'); 
+
+qs_doc_start('Home', undefined, false); // don't do <HEAD> section
+qs_doc_headline();
+qs_body_start(false);
+html(); 
+</SCRIPT>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+<img src="./img/tsp_top.gif" alt="Traveling Salesman Problem" width="512" height="32" border="0">
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+
+<p>
+The Traveling Salesman Problem is one of the most intensively studied problems in computational mathematics.  These pages are devoted to the history, applications, and current research of this challenge of finding the shortest route visiting each member of a collection of locations and returning to your starting point.
+</p> 
+
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+
+<p>
+
+<table width=600px border="0">
+<tbody>
+
+<tr height=4px bgcolor='#f8f2f6'>
+   <td width=20px></td>
+   <td width=30px></td>
+   <td width=10px></td>
+   <td width=20px></td>
+   <td width=20px></td>
+   <td width=202px></td>
+</tr>
+
+<tr>
+
+<td><img src="img/trans.gif" width=20px></td>
+
+<td>
+<div class="fb-like" data-href="http://www.facebook.com/PursuitOfTheTravelingSalesman" data-send="false" data-layout="box_count" data-width="30" data-show-faces="false"></div>
+</td>
+
+
+<td><img src="img/trans.gif" width=10px></td>
+
+<td>
+<center>
+<a href="http://press.princeton.edu/titles/9531.html"><img src="./img/pup_300.gif" alt="In Pursuit of the Traveling Salesman" width="196" height="300" border="2"></a>
+</center>
+</td>
+
+<td><img src="img/trans.gif" width=20px></td>
+
+<td>
+<center>
+<a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8"><img src="./img/ipad3_300.gif" alt="In Pursuit of the Traveling Salesman" width="223" height="300" border="2"></a>
+</center>
+</tr>
+
+<tr>
+<td><img src="img/trans.gif" width=20px></td>
+<td><img src="img/trans.gif" width=30px></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>
+<center>
+TSP Book<br>
+<a href="http://www.amazon.com/Pursuit-Traveling-Salesman-Mathematics-Computation/dp/0691152705/ref=sr_1_1?ie=UTF8&s=books&qid=1305555583&sr=8-1">$20.71 at Amazon.com</a><br>
+<a href="http://press.princeton.edu/chapters/s9531.pdf">Chapter 1 as pdf file</a><br>
+<a href="http://www.facebook.com/pages/In-Pursuit-of-the-Traveling-Salesman-by-William-J-Cook/129837760426640?sk=app_4949752878">Facebook Page</a>
+</center>
+</td>
+<td><img src="img/trans.gif" width=20px></td>
+<td>
+<center>
+TSP iPhone/iPad App<br>
+<a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8">iTunes Preview</a><br>
+<a href="./iphone/index.html">App Support Page</a><br>
+<a href="http://wordplay.blogs.nytimes.com/2012/02/13/numberplay-is-human-intuition-essential-to-unraveling-puzzles/">NY Times Article</a>
+</center>
+</tr>
+
+</tbody>
+</table>
+</p>
+
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+
+<br><br>
+
+
+<center>
+<table border="0">
+<tbody>
+
+<tr>
+<td><a href="./data/usa/index.html">United States TSP</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>$500 Prize for best tour through 115,475 US cities.</td>
+</tr>
+<tr>
+<td><a href="http://www.scientificamerican.com/article.cfm?id=case-traveling-salesman-unsolvable-limits-computation">Scientific American</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Short piece on Yogi Berra and the TSP</td>
+</tr>
+<tr>
+<td><a href="http://www.travellingsalesmanmovie.com/">Travelling Salesman</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Thriller movie centered around a solution of the TSP<br><td>
+</tr>
+<tr>
+<td><a href="./colbert.jpg">Stephen Colbert</a></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>49,512-city tour of Colbert Nation via the <a href="http://itunes.apple.com/us/app/concorde-tsp/id498366515?mt=8">iPhone App</a>.<br>
+</tr>
+<tr>
+<td><a href="./data/ml/monalisa.html">Mona Lisa TSP</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>$1,000 Prize for a 100,000-city challenge problem.</td>
+</tr>
+<tr>
+<td><a href="./maps/index.html">Google Maps</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Plot an optimal TSP tour with a Google interface.</td>
+</tr>
+<tr>
+<td><a href="./pla85900/index.html">pla85900</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Solution of a 85,900-city TSP.</td>
+</tr>
+<tr>
+<td><a href="./iowa/index.html">Iowa Tour</a><br></td>
+<td><img src="img/trans.gif" width=10px></td>
+<td>Optimal route for a 99-county campaign tour.</td>
+</tr>
+</tbody>
+</table>
+</center>
+
+<p>
+
+<center>
+<!-- tsp topics in two columns -->
+<table width=100% border="0" cellpadding="0" cellspacing="0">
+<tbody>
+    <tr height=10px> <td><img src=img/trans.gif /></td></tr>
+    <!--begin topics table: 2 columns -->
+    <table border="0" width="700px" cellspacing="0" cellpadding="0">
+        <tbody><!-- white structure/spacer line -->
+        <tr height=4px bgcolor='#f8f2f6'>
+            <td width=348px></td>
+            <td width=4px></td>
+            <td width=348px></td>
+        </tr>
+
+        <tr width=650px>
+            <td width=323px  valign=top><!-- begin TSP Book -->
+                <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP Book', 'book/index.html', './book/img/cover_small.gif', 'TSP Book')); 
+                html();</script>
+                <i>The Traveling Salesman Problem: A Computational Study</i> by Applegate, Bixby, Chvatal, and Cook.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end TSP Book -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif"> </td> </img>
+            </td>
+
+            <td width=323px valign=top><!-- begin Lower Bounds -->
+                <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Lower Bounds', 'methods/opt/opt.htm', './methods/opt/moatcut.gif', 'Lower Bounds')); 
+                html();</script>
+                Description of the techniques we use to compute lower bounds on the lengths of all TSP tours.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Lower Bounds -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Sweden TSP -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Sweden TSP', 'sweden/index.html', 
+                   'img/sw_relief_small.jpg', 'Solution of Sweden TSP')); 
+                html();</script>
+                Optimal solution for visiting all 24,978 cities in Sweden.  Tour has length approximately 72,500 kilometers.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Sweden TSP -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+            <td width=323px valign=top><!-- begin Car 54 -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Car 54', 'gallery/igraphics/car54.html', 
+                   'img/car54_small_smooth.jpg', 'Car 54 Procter&Gamble Competition Poster')); 
+                html();</script>
+                The TSP was featured in a contest run by Proctor and Gamble in 1962.  The challenge problem had 33 cities.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Car 54 -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Concorde Windows -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Concorde for Windows', 'concorde/index.html', './img/att532bord.jpg', 'Concorde for Windows')); 
+                html();</script>
+                A graphical user interface available for Concorde on Windows' platforms.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Concorde Windows -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+               <img src="img/trans.gif" />
+            </td>
+
+            <td width=323px valign=top><!-- begin Genome -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('Genome', 'apps/genome.html', './apps/gene.gif', 'Genome Mapping')); 
+                html();</script>
+                The Concorde TSP solver is used in a genome sequencing package from the National Institutes of Health.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Genome -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin National -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('National TSPs', './world/countries.html', './data/img/allnat_cut.gif', 'National TSPs')); 
+                html();</script>
+                A collection of 25 TSP challenge problems consisting of cities in Argentina through Zimbabwe.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end National -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+
+            <td width=323px valign=top><!-- begin TSP History -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP History', 'history/index.html', 
+                   './history/img/icosian.jpg', 'TSP History')); 
+                html();</script>
+                Pages describing some of the history of the TSP as a mathematical and computational challenge.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end TSP History -->
+            </td>
+        </tr>
+                                        
+        <!-- spacer rows -->
+        <tr>
+            <td width=323px  valign=top><!-- begin Games -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('TSP Game', './games/index.html', './games/onePlayer.jpg', 'TSP Game')); 
+                html();</script>
+                A flash game to find the optimal tour through a randomly generated set of city locations.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end Games -->
+            </td><!-- spacer col -->
+            <td width=4px bgcolor='#f8f2f6'>
+                <img src="img/trans.gif" />
+            </td>
+            <td width=323px valign=top><!-- begin World TSP -->
+            <img src="./img/trans.gif" ALT="" width=100% height = 10>
+            <img src="./img/qspagecolor.jpg" ALT="" width=100% height = 10>
+                <script language="JavaScript">
+                wd(tsp_topic_start('World TSP', 'world/index.html', 
+                   './data/img/world0.small.gif', 'World TSP')); 
+                html();</script>
+                A challenge problem consisting of the locations of 1,904,711 cities throughout the world.
+                <script language="JavaScript">wd(tsp_topic_stop());
+                html();</script><!-- end World TSP -->
+            </td>
+        </tr><!-- spacer row -->
+        <tr height=12px>
+            <td > <img src=img/trans.gif /> </td>
+            <td bgcolor='#f8f2f6' > <img src=img/trans.gif /> </td>
+            <td > <img src=img/trans.gif /> </td>
+        </tr>
+    </tbody>
+</table><!--end topics table-->
+</center>
+
+<p>
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+<p>
+
+<p>
+The work described here is supported by the <a href="http://www.onr.navy.mil/sci_tech/">Office of Naval Research</a> (N00014-09-1-0048) grant.
+A good source for computational research on the traveling salesman problem and general optimization is the journal <a href="http://mpc.zib.de/index.html">Mathematical Programming Computation.</a>
+See the pages <a href="http://math.uwaterloo.ca/math/research">Research in the Faculty of Mathematics</a> for an overview of work at the University of Waterloo.
+<p>
+Contact: <a href="http://www.math.uwaterloo.ca/~bico/">William Cook</a> (bico@uwaterloo.ca)
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_finish("September 2013");
+html(); 
+</SCRIPT>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5802910-2");
+pageTracker._trackPageview();
+</script>
+</body>
+
+
+</html> 

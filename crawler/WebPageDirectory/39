@@ -1,0 +1,686 @@
+http://openopt.org/TSP
+1
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="MediaWiki 1.13.3" />
+		<meta name="keywords" content="TSP,BPP,Dmitrey,FuturePlans,KSP,MCP,MILP,PyPy,Python,STAB,StochasticProgramming" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="OpenOpt (en)" />
+		<link rel="alternate" type="application/rss+xml" title="OpenOpt RSS Feed" href="http://openopt.org/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="OpenOpt Atom Feed" href="http://openopt.org/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>TSP - OpenOpt</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/skins/common/shared.css?164";
+			@import "/skins/monobook/main.css?164";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?164" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?164";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?164";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?164";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?164";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?164"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "";
+var wgScript = "/index.php";
+var wgVariantArticlePath = false;
+var wgActionPaths = [];
+var wgServer = "http://openopt.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "TSP";
+var wgTitle = "TSP";
+var wgAction = "view";
+var wgArticleId = "361";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "4627";
+var wgVersion = "1.13.3";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?164"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/skins/common/ajax.js?164"></script>
+<link rel="stylesheet" type="text/css" href="/extensions/TwitterFBLike/TwitterFBLike.css"/>		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000&useskin=monobook";
+/*]]>*/</style>
+	</head>
+<body class="mediawiki ns-0 ltr page-TSP">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+		<div id="siteNotice"><p>
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
+
+</p>
+<center>
+<table class="wikitable" border="0" cellpadding="1">
+<tr>
+<td align="left"><br />
+<!-- Site Meter -->
+
+<script src="http://sm5.sitemeter.com/js/counter.js?site=sm5OpenOpt" type="text/javascript"></script><noscript><a href="http://sm5.sitemeter.com/stats.asp?site=sm5OpenOpt" target="_top"><img border="0" alt="                             " src="http://sm5.sitemeter.com/meter.asp?site=sm5OpenOpt"/></a></noscript>
+
+</td><td><a iconlink href='/Welcome'><img alt="Home" src="/images/thumb/9/9a/Home.png/54px-Home.png" width="54" height="59" border="0" /></a>
+</td><td><a iconlink href='/Install'><img alt="Install" src="/images/thumb/b/be/Install.png/66px-Install.png" width="66" height="66" border="0" /></a>
+</td><td><a iconlink href='/Doc'><img alt="Documentation" src="/images/thumb/1/12/Doc.jpeg/64px-Doc.jpeg" width="64" height="64" border="0" /></a>
+</td><td><a iconlink href='/Problems'><img class='iconimg' style="vertical-align: middle;" src='/images/a/ac/Tree.png' alt="Problems Tree" title="Problems Tree" /></a>
+</td><td><a iconlink href='/Applications'><img alt="Applications" src="/images/thumb/4/46/Applications.jpg/97px-Applications.jpg" width="97" height="88" border="0" /></a>
+</td><td><a class="plainlinks iconlink" href='http://forum.openopt.org'><img alt="Forum" src="/images/c/cd/Forum.gif" width="50" height="56" border="0" /></a>
+</td><td align="right">
+<table class="wikitable" border="0" cellpadding="1">
+
+<!-- GoStats JavaScript Based Code -->
+<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+<script type="text/javascript">_gos='monster.gostats.com';_goa=428316;
+_got=2;_goi=2;_gol='web stat';_GoStatsRun();</script>
+<noscript><a target="_blank" title="web stat" 
+href="http://gostats.com"><img alt="web stat" 
+src="http://monster.gostats.com/bin/count/a_428316/t_2/i_2/counter.png" 
+style="border-width:0" /></a></noscript>
+<!-- End GoStats JavaScript Based Code -->
+
+
+<tr>
+<td>
+<p>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone align = "right" href="http://openopt.org"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</p>
+</td></tr></table>
+</td><td>
+<table class="wikitable" cellpadding="0" style="border:1px solid lime;width:100%">
+<tr>
+<td align="center" colspan="2"><b><a href="http://hi-tech.org.ua" class="external text" title="http://hi-tech.org.ua" rel="nofollow"><font color="blue" size="3">Increase your income <br />via IT outsourcing!</font></a></b>
+</td></tr>
+<tr>
+<td><a class="plainlinks iconlink" href='http://openopt.org/Image:m.jpg'><img alt="Ukrainian HI-TECH Initiative" src="/images/thumb/f/fb/m.jpg/70px-m.jpg" width="70" height="44" border="0" /></a>
+</td><td><a class="plainlinks iconlink" href='http://hi-tech.org.ua/'><img class='iconimg' style="vertical-align: middle;" src='/images/4/49/UHTI.gif' alt="Ukrainian HI-TECH Initiative" title="Ukrainian HI-TECH Initiative" /></a>
+</td></tr></table>
+</td></tr></table>
+</center>
+</div>		<h1 class="firstHeading">TSP</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From OpenOpt</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<script language="JavaScript">
+
+function getStyleObject(objectId) {
+    // checkW3C DOM, then MSIE 4, then NN 4.
+    //
+    if(document.getElementById) {
+      if (document.getElementById(objectId)) {
+	     return document.getElementById(objectId).style;
+      }
+    } else if (document.all) {
+      if (document.all(objectId)) {
+	     return document.all(objectId).style;
+      }
+    } else if (document.layers) { 
+      if (document.layers[objectId]) { 
+	     return document.layers[objectId];
+      }
+    } else {
+	   return false;
+    }
+}
+
+function toggleObjectVisibility(objectId) {
+    // first get the object's stylesheet
+    var styleObject = getStyleObject(objectId);
+
+    // then if we find a stylesheet, set its visibility
+    // as requested
+    //
+    if (styleObject) {
+        if (styleObject.visibility == 'hidden') {
+            styleObject.visibility = 'visible';
+            styleObject.position = 'relative';
+        } else {
+            styleObject.visibility = 'hidden';
+            styleObject.position = 'absolute';
+        }
+        return true;
+    } else {
+        return false;
+    }
+}
+</script>
+<style type="text/css"><!--
+div.spoiler {border: solid blue 2px; background-color: #adff2f; padding:3px;}
+a.spoilerLink {background-color:#adff2f; color:black; font-weight:bold; padding:4px 4px 2px 4px; border:solid black 1px;}
+--></style>
+<font size="4"><div align="center"><span style="background:Aquamarine"><b> <strong class="selflink">Traveling salesman problem (TSP)</strong> </b></span></div></font>
+<p><br />
+</p>
+<dl><dd><big>Find a hamiltonian cycle of graph with optimal cost</big> 
+</dd></dl>
+<hr />
+<p>(requires v. &gt;= 0.42) OpenOpt TSP examples:
+</p>
+<ul><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_1.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_1.py" rel="nofollow">(simplest) example 1</a> (undirected, unconstrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_2.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_2.py" rel="nofollow">example 2</a> (directed, constrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" rel="nofollow">example 3</a> (directed, multigraph, constrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" rel="nofollow">example 4</a> (directed, multigraph, constrained, nonlinear, multiobjective)
+</li></ul>
+<hr />
+<p>We use input argument of type <a href="http://networkx.lanl.gov" class="external text" title="http://networkx.lanl.gov" rel="nofollow">networkx</a> graph. <a href="http://networkx.lanl.gov" class="external text" title="http://networkx.lanl.gov" rel="nofollow">networkx</a> is de-facto standard of graph operations in <a href="/Python" title="Python">Python</a> with same permissive <a href="/license" title="license">license (BSD)</a>. However, we could also provide direct assignment (via lists of vertex and edges) if you have problems with networkx dependense, e.g. due to rare platform / OS.
+</p><p>Our API includes:
+</p>
+<ul><li> Limitations on time, cputime, "enough" value (you should pass them to p.solve() function; works for <a href="/interalg" title="interalg">interalg</a> and <a href="/cplex" title="cplex">cplex</a> only, because glpk and lpSolve has no OpenOpt iterfcn connected yet)
+</li><li> <a href="http://openopt.org/OOFrameworkDoc#Solving" class="external text" title="http://openopt.org/OOFrameworkDoc#Solving" rel="nofollow">basic GUI features</a> (run/pause, "enough") 
+</li><li> Some useful optional arguments like <b>returnToStart</b> (default: True), <b>goal</b> (default: min)
+</li></ul>
+<p>Available solvers:
+</p>
+<ul><li> <a href="/MILP" title="MILP">MILP</a> solvers ("just works" MTZ)
+</li><li> sa (simulated annealing, code by John Montgomery) - taken from <a href="http://www.psychicorigami.com/2007/06/28/tackling-the-travelling-salesman-problem-simmulated-annealing/" class="external text" title="http://www.psychicorigami.com/2007/06/28/tackling-the-travelling-salesman-problem-simmulated-annealing/" rel="nofollow">here</a>
+</li><li> <a href="/interalg" title="interalg">interalg</a> - pro: BSD license; cons: Python code with some slow parts (probably will be enhanced by <a href="/PyPy" title="PyPy">PyPy</a>); focused for non-linear problems and thus <a href="/MILP" title="MILP">MILP</a> solvers work better
+</li></ul>
+<hr />
+<p><a href="/FuturePlans" title="FuturePlans">Future plans</a> include:
+</p>
+<ul><li> several agents
+</li><li> add constraints and possibility to handle general objective function to sa
+</li><li> involve parallel computations for sa
+</li><li> TSP-like problems
+</li><li> connect to our <a href="/StochasticProgramming" title="StochasticProgramming">stochastic programming addon</a> (commercial, although) to solve stochastic TSP
+</li><li> I (<a href="/Dmitrey" title="Dmitrey">Dmitrey</a>) wrote some code modification to sa that reduces time per iter by factor 2.0...2.3, however, it works for undirected graphs only, for directed graphs some modifications are required; the code hasn't been committed yet
+</li><li> I have some ideas that could have more efficient convergence than simulated annealing, at least for metric TSP, but it requires much time to implement
+</li></ul>
+<a name="See_also"></a><h2> <span class="mw-headline">See also </span></h2>
+<ul><li> OpenOpt TSP class <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/kernel/TSP.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/kernel/TSP.py" rel="nofollow">code</a> (requires some cleanup although, also, some OpenOpt kernel hacks beyond standard kernel-solver API are temporary used)
+</li><li> <a href="/STAB" title="STAB">STAB</a> - maximum graph stability set
+</li><li> <a href="/MCP" title="MCP">MCP</a> - maximum clique problem
+</li><li> <a href="/KSP" title="KSP">KSP</a> - knapsack problem
+</li><li> <a href="/BPP" title="BPP">BPP</a> - bin packing problem
+</li><li> <a href="/MILP" title="MILP">MILP</a> - mixed-integer linear problem
+</li><li> <a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem" class="external text" title="http://en.wikipedia.org/wiki/Travelling_salesman_problem" rel="nofollow">TSP wikipedia page</a>
+</li></ul>
+<table class="wikitable" cellpadding="3" style="border:1px solid lime;" align="right">
+<tr>
+<td><i>Made by <a href="/Dmitrey" title="Dmitrey">Dmitrey</a></i>
+</td></tr></table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 21/1000000
+Post-expand include size: 671/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb:pcache:idhash:361-0!1!0!!en!2!edit=0 and timestamp 20140727174749 -->
+<div class="printfooter">
+Retrieved from "<a href="http://openopt.org/TSP">http://openopt.org/TSP</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/TSP" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:TSP&amp;action=edit" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=TSP&amp;action=edit" title="This page is protected.&#10;You can view its source. [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=TSP&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://trac.openopt.org/openopt/chrome/common/openoptlogo.gif);" href="/Welcome" title="Free numerical optimization framework. Visit the Main Page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-Latest_OOSuite_.3Cfont_color.3Dblue.3E.3Cb.3E0.54.3Cbr.3E.3C.2Fb.3E.3C.2Ffont.3E.3Cp_style.3D.22margin-left:7px.22.3Efrom_.3Cfont_color.3Dblue.3E.3Cb.3E2014-03-15.3C.2Fb.3E.3C.2Ffont.3E.3C.2Fp.3E'>
+		<h5>Latest OOSuite <font color=blue><b>0.54<br></b></font><p style="margin-left:7px">from <font color=blue><b>2014-03-15</b></font></p></h5>
+		<div class='pBody'>
+<ul><li> <a href="/Changelog" title="Changelog">Change Log</a>
+</li><li> <a href="/FuturePlans" title="FuturePlans">Future plans</a>
+</li><li> <a href="/Bugs" title="Bugs">Known Bugs</a>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Next_release:.3Cfont_color.3Dblue_size.3D2.3E.3Cp_style.3D.22margin-left:32px.22.3E.3Cb.3E_2014-06-15.3C.2Fb.3E.3C.2Fp.3E.3C.2Ffont.3EDevelopment'>
+		<h5>Next release:<font color=blue size=2><p style="margin-left:32px"><b> 2014-06-15</b></p></font>Development</h5>
+		<div class='pBody'>
+<ul><li><a href="http://forum.openopt.org/viewforum.php?id=22" class="external text" title="http://forum.openopt.org/viewforum.php?id=22" rel="nofollow">Feature requests</a>
+</li><li><a href="http://forum.openopt.org/viewforum.php?id=19" class="external text" title="http://forum.openopt.org/viewforum.php?id=19" rel="nofollow">Newsline</a>
+<ul><li><a href="https://twitter.com/#!/Dmitrey15" class="external text" title="https://twitter.com/#!/Dmitrey15" rel="nofollow">Twitter</a>
+</li><li><a href="http://www.facebook.com/profile.php?id=1046335595" class="external text" title="http://www.facebook.com/profile.php?id=1046335595" rel="nofollow">Facebook</a>
+</li></ul>
+</li><li><a href="http://trac.openopt.org/openopt/timeline" class="external text" title="http://trac.openopt.org/openopt/timeline" rel="nofollow">Trac timeline</a>
+</li><li><a href="http://forum.openopt.org/viewforum.php?id=12" class="external text" title="http://forum.openopt.org/viewforum.php?id=12" rel="nofollow">Support &amp; bug reports</a>
+</li><li><a href="/Dmitrey" title="Dmitrey">Made By</a>
+<ul><li> <a href="/Dmitrey#Contacts" title="Dmitrey">Contacts</a>
+</li></ul>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Misc'>
+		<h5>Misc</h5>
+		<div class='pBody'>
+<ul><li> <a href="/Foreword" title="Foreword">Our foreword</a>
+</li><li> <a href="/About" title="About"> About project</a>
+</li><li> <a href="http://sage.openopt.org/welcome" class="external text" title="http://sage.openopt.org/welcome" rel="nofollow">Try online</a>
+</li><li> <a href="/Other_languages" title="Other languages">MATLAB, Excel, C<br /> R/S+, .NET etc</a>
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages" rel="nofollow">Browse source</a>
+</li><li> <a href="/links" title="links">Links</a>
+</li><li> <a href="/Appeal" title="Appeal">Appeal</a>
+</li><li> <a href="/Donate" title="Donate">Donate</a>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-.3Cimg_alt.3D.22.22_src.3D.22.2Fimages.2Fthumb.2F8.2F86.2Fbasket.jpg.2F135px-basket.jpg.22_width.3D.22135.22_height.3D.22163.22_border.3D.220.22_.2F.3E'>
+		<h5><img alt="" src="/images/thumb/8/86/basket.jpg/135px-basket.jpg" width="135" height="163" border="0" /></h5>
+		<div class='pBody'>
+		</div>
+	</div>
+        <div class="portlet" id="p-tb">
+        	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><h4 style="text-align: center; color: gray"><font size="2" face="Times">
+		<i>Free Python-written numerical optimization software suite. Visitors since 2007/10/24: </i></font>
+		<a href="http://my.statcounter.com/project/standard/stats.php?project_id=3034605&amp;guest=1" target="_blank">
+		<img border="0" alt="counter" src="http://c34.statcounter.com/3034605/0/d1e3cb13/0/"/></a></h4></div>
+			<ul id="f-list">
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.295 secs. --></body></html>
+http://openopt.org/TSP
+1
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="generator" content="MediaWiki 1.13.3" />
+		<meta name="keywords" content="TSP,BPP,Dmitrey,FuturePlans,KSP,MCP,MILP,PyPy,Python,STAB,StochasticProgramming" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="OpenOpt (en)" />
+		<link rel="alternate" type="application/rss+xml" title="OpenOpt RSS Feed" href="http://openopt.org/index.php?title=Special:RecentChanges&amp;feed=rss" />
+		<link rel="alternate" type="application/atom+xml" title="OpenOpt Atom Feed" href="http://openopt.org/index.php?title=Special:RecentChanges&amp;feed=atom" />
+		<title>TSP - OpenOpt</title>
+		<style type="text/css" media="screen, projection">/*<![CDATA[*/
+			@import "/skins/common/shared.css?164";
+			@import "/skins/monobook/main.css?164";
+		/*]]>*/</style>
+		<link rel="stylesheet" type="text/css" media="print" href="/skins/common/commonPrint.css?164" />
+		<!--[if lt IE 5.5000]><style type="text/css">@import "/skins/monobook/IE50Fixes.css?164";</style><![endif]-->
+		<!--[if IE 5.5000]><style type="text/css">@import "/skins/monobook/IE55Fixes.css?164";</style><![endif]-->
+		<!--[if IE 6]><style type="text/css">@import "/skins/monobook/IE60Fixes.css?164";</style><![endif]-->
+		<!--[if IE 7]><style type="text/css">@import "/skins/monobook/IE70Fixes.css?164";</style><![endif]-->
+		<!--[if lt IE 7]><script type="text/javascript" src="/skins/common/IEFixes.js?164"></script>
+		<meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+		
+		<script type= "text/javascript">/*<![CDATA[*/
+var skin = "monobook";
+var stylepath = "/skins";
+var wgArticlePath = "/$1";
+var wgScriptPath = "";
+var wgScript = "/index.php";
+var wgVariantArticlePath = false;
+var wgActionPaths = [];
+var wgServer = "http://openopt.org";
+var wgCanonicalNamespace = "";
+var wgCanonicalSpecialPageName = false;
+var wgNamespaceNumber = 0;
+var wgPageName = "TSP";
+var wgTitle = "TSP";
+var wgAction = "view";
+var wgArticleId = "361";
+var wgIsArticle = true;
+var wgUserName = null;
+var wgUserGroups = null;
+var wgUserLanguage = "en";
+var wgContentLanguage = "en";
+var wgBreakFrames = false;
+var wgCurRevisionId = "4627";
+var wgVersion = "1.13.3";
+var wgEnableAPI = true;
+var wgEnableWriteAPI = false;
+var wgRestrictionEdit = [];
+var wgRestrictionMove = [];
+/*]]>*/</script>
+                
+		<script type="text/javascript" src="/skins/common/wikibits.js?164"><!-- wikibits js --></script>
+		<!-- Head Scripts -->
+		<script type="text/javascript" src="/skins/common/ajax.js?164"></script>
+<link rel="stylesheet" type="text/css" href="/extensions/TwitterFBLike/TwitterFBLike.css"/>		<script type="text/javascript" src="/index.php?title=-&amp;action=raw&amp;gen=js&amp;useskin=monobook"><!-- site js --></script>
+		<style type="text/css">/*<![CDATA[*/
+@import "/index.php?title=MediaWiki:Common.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=MediaWiki:Monobook.css&usemsgcache=yes&action=raw&ctype=text/css&smaxage=18000";
+@import "/index.php?title=-&action=raw&gen=css&maxage=18000&useskin=monobook";
+/*]]>*/</style>
+	</head>
+<body class="mediawiki ns-0 ltr page-TSP">
+	<div id="globalWrapper">
+		<div id="column-content">
+	<div id="content">
+		<a name="top" id="top"></a>
+		<div id="siteNotice"><p>
+<script type="text/javascript">
+/* <![CDATA[ */
+    (function() {
+        var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
+        t.parentNode.insertBefore(s, t);
+    })();
+/* ]]> */</script>
+
+</p>
+<center>
+<table class="wikitable" border="0" cellpadding="1">
+<tr>
+<td align="left"><br />
+<!-- Site Meter -->
+
+<script src="http://sm5.sitemeter.com/js/counter.js?site=sm5OpenOpt" type="text/javascript"></script><noscript><a href="http://sm5.sitemeter.com/stats.asp?site=sm5OpenOpt" target="_top"><img border="0" alt="                             " src="http://sm5.sitemeter.com/meter.asp?site=sm5OpenOpt"/></a></noscript>
+
+</td><td><a iconlink href='/Welcome'><img alt="Home" src="/images/thumb/9/9a/Home.png/54px-Home.png" width="54" height="59" border="0" /></a>
+</td><td><a iconlink href='/Install'><img alt="Install" src="/images/thumb/b/be/Install.png/66px-Install.png" width="66" height="66" border="0" /></a>
+</td><td><a iconlink href='/Doc'><img alt="Documentation" src="/images/thumb/1/12/Doc.jpeg/64px-Doc.jpeg" width="64" height="64" border="0" /></a>
+</td><td><a iconlink href='/Problems'><img class='iconimg' style="vertical-align: middle;" src='/images/a/ac/Tree.png' alt="Problems Tree" title="Problems Tree" /></a>
+</td><td><a iconlink href='/Applications'><img alt="Applications" src="/images/thumb/4/46/Applications.jpg/97px-Applications.jpg" width="97" height="88" border="0" /></a>
+</td><td><a class="plainlinks iconlink" href='http://forum.openopt.org'><img alt="Forum" src="/images/c/cd/Forum.gif" width="50" height="56" border="0" /></a>
+</td><td align="right">
+<table class="wikitable" border="0" cellpadding="1">
+
+<!-- GoStats JavaScript Based Code -->
+<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+<script type="text/javascript">_gos='monster.gostats.com';_goa=428316;
+_got=2;_goi=2;_gol='web stat';_GoStatsRun();</script>
+<noscript><a target="_blank" title="web stat" 
+href="http://gostats.com"><img alt="web stat" 
+src="http://monster.gostats.com/bin/count/a_428316/t_2/i_2/counter.png" 
+style="border-width:0" /></a></noscript>
+<!-- End GoStats JavaScript Based Code -->
+
+
+<tr>
+<td>
+<p>
+<!-- Place this tag where you want the +1 button to render -->
+<g:plusone align = "right" href="http://openopt.org"></g:plusone>
+
+<!-- Place this render call where appropriate -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+</p>
+</td></tr></table>
+</td><td>
+<table class="wikitable" cellpadding="0" style="border:1px solid lime;width:100%">
+<tr>
+<td align="center" colspan="2"><b><a href="http://hi-tech.org.ua" class="external text" title="http://hi-tech.org.ua" rel="nofollow"><font color="blue" size="3">Increase your income <br />via IT outsourcing!</font></a></b>
+</td></tr>
+<tr>
+<td><a class="plainlinks iconlink" href='http://openopt.org/Image:m.jpg'><img alt="Ukrainian HI-TECH Initiative" src="/images/thumb/f/fb/m.jpg/70px-m.jpg" width="70" height="44" border="0" /></a>
+</td><td><a class="plainlinks iconlink" href='http://hi-tech.org.ua/'><img class='iconimg' style="vertical-align: middle;" src='/images/4/49/UHTI.gif' alt="Ukrainian HI-TECH Initiative" title="Ukrainian HI-TECH Initiative" /></a>
+</td></tr></table>
+</td></tr></table>
+</center>
+</div>		<h1 class="firstHeading">TSP</h1>
+		<div id="bodyContent">
+			<h3 id="siteSub">From OpenOpt</h3>
+			<div id="contentSub"></div>
+									<div id="jump-to-nav">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>			<!-- start content -->
+			<script language="JavaScript">
+
+function getStyleObject(objectId) {
+    // checkW3C DOM, then MSIE 4, then NN 4.
+    //
+    if(document.getElementById) {
+      if (document.getElementById(objectId)) {
+	     return document.getElementById(objectId).style;
+      }
+    } else if (document.all) {
+      if (document.all(objectId)) {
+	     return document.all(objectId).style;
+      }
+    } else if (document.layers) { 
+      if (document.layers[objectId]) { 
+	     return document.layers[objectId];
+      }
+    } else {
+	   return false;
+    }
+}
+
+function toggleObjectVisibility(objectId) {
+    // first get the object's stylesheet
+    var styleObject = getStyleObject(objectId);
+
+    // then if we find a stylesheet, set its visibility
+    // as requested
+    //
+    if (styleObject) {
+        if (styleObject.visibility == 'hidden') {
+            styleObject.visibility = 'visible';
+            styleObject.position = 'relative';
+        } else {
+            styleObject.visibility = 'hidden';
+            styleObject.position = 'absolute';
+        }
+        return true;
+    } else {
+        return false;
+    }
+}
+</script>
+<style type="text/css"><!--
+div.spoiler {border: solid blue 2px; background-color: #adff2f; padding:3px;}
+a.spoilerLink {background-color:#adff2f; color:black; font-weight:bold; padding:4px 4px 2px 4px; border:solid black 1px;}
+--></style>
+<font size="4"><div align="center"><span style="background:Aquamarine"><b> <strong class="selflink">Traveling salesman problem (TSP)</strong> </b></span></div></font>
+<p><br />
+</p>
+<dl><dd><big>Find a hamiltonian cycle of graph with optimal cost</big> 
+</dd></dl>
+<hr />
+<p>(requires v. &gt;= 0.42) OpenOpt TSP examples:
+</p>
+<ul><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_1.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_1.py" rel="nofollow">(simplest) example 1</a> (undirected, unconstrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_2.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_2.py" rel="nofollow">example 2</a> (directed, constrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" rel="nofollow">example 3</a> (directed, multigraph, constrained)
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/examples/tsp_3.py" rel="nofollow">example 4</a> (directed, multigraph, constrained, nonlinear, multiobjective)
+</li></ul>
+<hr />
+<p>We use input argument of type <a href="http://networkx.lanl.gov" class="external text" title="http://networkx.lanl.gov" rel="nofollow">networkx</a> graph. <a href="http://networkx.lanl.gov" class="external text" title="http://networkx.lanl.gov" rel="nofollow">networkx</a> is de-facto standard of graph operations in <a href="/Python" title="Python">Python</a> with same permissive <a href="/license" title="license">license (BSD)</a>. However, we could also provide direct assignment (via lists of vertex and edges) if you have problems with networkx dependense, e.g. due to rare platform / OS.
+</p><p>Our API includes:
+</p>
+<ul><li> Limitations on time, cputime, "enough" value (you should pass them to p.solve() function; works for <a href="/interalg" title="interalg">interalg</a> and <a href="/cplex" title="cplex">cplex</a> only, because glpk and lpSolve has no OpenOpt iterfcn connected yet)
+</li><li> <a href="http://openopt.org/OOFrameworkDoc#Solving" class="external text" title="http://openopt.org/OOFrameworkDoc#Solving" rel="nofollow">basic GUI features</a> (run/pause, "enough") 
+</li><li> Some useful optional arguments like <b>returnToStart</b> (default: True), <b>goal</b> (default: min)
+</li></ul>
+<p>Available solvers:
+</p>
+<ul><li> <a href="/MILP" title="MILP">MILP</a> solvers ("just works" MTZ)
+</li><li> sa (simulated annealing, code by John Montgomery) - taken from <a href="http://www.psychicorigami.com/2007/06/28/tackling-the-travelling-salesman-problem-simmulated-annealing/" class="external text" title="http://www.psychicorigami.com/2007/06/28/tackling-the-travelling-salesman-problem-simmulated-annealing/" rel="nofollow">here</a>
+</li><li> <a href="/interalg" title="interalg">interalg</a> - pro: BSD license; cons: Python code with some slow parts (probably will be enhanced by <a href="/PyPy" title="PyPy">PyPy</a>); focused for non-linear problems and thus <a href="/MILP" title="MILP">MILP</a> solvers work better
+</li></ul>
+<hr />
+<p><a href="/FuturePlans" title="FuturePlans">Future plans</a> include:
+</p>
+<ul><li> several agents
+</li><li> add constraints and possibility to handle general objective function to sa
+</li><li> involve parallel computations for sa
+</li><li> TSP-like problems
+</li><li> connect to our <a href="/StochasticProgramming" title="StochasticProgramming">stochastic programming addon</a> (commercial, although) to solve stochastic TSP
+</li><li> I (<a href="/Dmitrey" title="Dmitrey">Dmitrey</a>) wrote some code modification to sa that reduces time per iter by factor 2.0...2.3, however, it works for undirected graphs only, for directed graphs some modifications are required; the code hasn't been committed yet
+</li><li> I have some ideas that could have more efficient convergence than simulated annealing, at least for metric TSP, but it requires much time to implement
+</li></ul>
+<a name="See_also"></a><h2> <span class="mw-headline">See also </span></h2>
+<ul><li> OpenOpt TSP class <a href="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/kernel/TSP.py" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages/OpenOpt/openopt/kernel/TSP.py" rel="nofollow">code</a> (requires some cleanup although, also, some OpenOpt kernel hacks beyond standard kernel-solver API are temporary used)
+</li><li> <a href="/STAB" title="STAB">STAB</a> - maximum graph stability set
+</li><li> <a href="/MCP" title="MCP">MCP</a> - maximum clique problem
+</li><li> <a href="/KSP" title="KSP">KSP</a> - knapsack problem
+</li><li> <a href="/BPP" title="BPP">BPP</a> - bin packing problem
+</li><li> <a href="/MILP" title="MILP">MILP</a> - mixed-integer linear problem
+</li><li> <a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem" class="external text" title="http://en.wikipedia.org/wiki/Travelling_salesman_problem" rel="nofollow">TSP wikipedia page</a>
+</li></ul>
+<table class="wikitable" cellpadding="3" style="border:1px solid lime;" align="right">
+<tr>
+<td><i>Made by <a href="/Dmitrey" title="Dmitrey">Dmitrey</a></i>
+</td></tr></table>
+
+<!-- 
+NewPP limit report
+Preprocessor node count: 21/1000000
+Post-expand include size: 671/2097152 bytes
+Template argument size: 0/2097152 bytes
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key wikidb:pcache:idhash:361-0!1!0!!en!2!edit=0 and timestamp 20140727174749 -->
+<div class="printfooter">
+Retrieved from "<a href="http://openopt.org/TSP">http://openopt.org/TSP</a>"</div>
+						<!-- end content -->
+			<div class="visualClear"></div>
+		</div>
+	</div>
+		</div>
+		<div id="column-one">
+	<div id="p-cactions" class="portlet">
+		<h5>Views</h5>
+		<div class="pBody">
+			<ul>
+	
+				 <li id="ca-nstab-main" class="selected"><a href="/TSP" title="View the content page [c]" accesskey="c">Page</a></li>
+				 <li id="ca-talk" class="new"><a href="/index.php?title=Talk:TSP&amp;action=edit" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				 <li id="ca-viewsource"><a href="/index.php?title=TSP&amp;action=edit" title="This page is protected.&#10;You can view its source. [e]" accesskey="e">View source</a></li>
+				 <li id="ca-history"><a href="/index.php?title=TSP&amp;action=history" title="Past versions of this page. [h]" accesskey="h">History</a></li>			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal">
+		<h5>Personal tools</h5>
+		<div class="pBody">
+			<ul>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo">
+		<a style="background-image: url(http://trac.openopt.org/openopt/chrome/common/openoptlogo.gif);" href="/Welcome" title="Free numerical optimization framework. Visit the Main Page [z]" accesskey="z"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+	<div class='generated-sidebar portlet' id='p-Latest_OOSuite_.3Cfont_color.3Dblue.3E.3Cb.3E0.54.3Cbr.3E.3C.2Fb.3E.3C.2Ffont.3E.3Cp_style.3D.22margin-left:7px.22.3Efrom_.3Cfont_color.3Dblue.3E.3Cb.3E2014-03-15.3C.2Fb.3E.3C.2Ffont.3E.3C.2Fp.3E'>
+		<h5>Latest OOSuite <font color=blue><b>0.54<br></b></font><p style="margin-left:7px">from <font color=blue><b>2014-03-15</b></font></p></h5>
+		<div class='pBody'>
+<ul><li> <a href="/Changelog" title="Changelog">Change Log</a>
+</li><li> <a href="/FuturePlans" title="FuturePlans">Future plans</a>
+</li><li> <a href="/Bugs" title="Bugs">Known Bugs</a>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Next_release:.3Cfont_color.3Dblue_size.3D2.3E.3Cp_style.3D.22margin-left:32px.22.3E.3Cb.3E_2014-06-15.3C.2Fb.3E.3C.2Fp.3E.3C.2Ffont.3EDevelopment'>
+		<h5>Next release:<font color=blue size=2><p style="margin-left:32px"><b> 2014-06-15</b></p></font>Development</h5>
+		<div class='pBody'>
+<ul><li><a href="http://forum.openopt.org/viewforum.php?id=22" class="external text" title="http://forum.openopt.org/viewforum.php?id=22" rel="nofollow">Feature requests</a>
+</li><li><a href="http://forum.openopt.org/viewforum.php?id=19" class="external text" title="http://forum.openopt.org/viewforum.php?id=19" rel="nofollow">Newsline</a>
+<ul><li><a href="https://twitter.com/#!/Dmitrey15" class="external text" title="https://twitter.com/#!/Dmitrey15" rel="nofollow">Twitter</a>
+</li><li><a href="http://www.facebook.com/profile.php?id=1046335595" class="external text" title="http://www.facebook.com/profile.php?id=1046335595" rel="nofollow">Facebook</a>
+</li></ul>
+</li><li><a href="http://trac.openopt.org/openopt/timeline" class="external text" title="http://trac.openopt.org/openopt/timeline" rel="nofollow">Trac timeline</a>
+</li><li><a href="http://forum.openopt.org/viewforum.php?id=12" class="external text" title="http://forum.openopt.org/viewforum.php?id=12" rel="nofollow">Support &amp; bug reports</a>
+</li><li><a href="/Dmitrey" title="Dmitrey">Made By</a>
+<ul><li> <a href="/Dmitrey#Contacts" title="Dmitrey">Contacts</a>
+</li></ul>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-Misc'>
+		<h5>Misc</h5>
+		<div class='pBody'>
+<ul><li> <a href="/Foreword" title="Foreword">Our foreword</a>
+</li><li> <a href="/About" title="About"> About project</a>
+</li><li> <a href="http://sage.openopt.org/welcome" class="external text" title="http://sage.openopt.org/welcome" rel="nofollow">Try online</a>
+</li><li> <a href="/Other_languages" title="Other languages">MATLAB, Excel, C<br /> R/S+, .NET etc</a>
+</li><li> <a href="http://trac.openopt.org/openopt/browser/PythonPackages" class="external text" title="http://trac.openopt.org/openopt/browser/PythonPackages" rel="nofollow">Browse source</a>
+</li><li> <a href="/links" title="links">Links</a>
+</li><li> <a href="/Appeal" title="Appeal">Appeal</a>
+</li><li> <a href="/Donate" title="Donate">Donate</a>
+</li></ul>
+		</div>
+	</div>
+	<div class='generated-sidebar portlet' id='p-.3Cimg_alt.3D.22.22_src.3D.22.2Fimages.2Fthumb.2F8.2F86.2Fbasket.jpg.2F135px-basket.jpg.22_width.3D.22135.22_height.3D.22163.22_border.3D.220.22_.2F.3E'>
+		<h5><img alt="" src="/images/thumb/8/86/basket.jpg/135px-basket.jpg" width="135" height="163" border="0" /></h5>
+		<div class='pBody'>
+		</div>
+	</div>
+        <div class="portlet" id="p-tb">
+        	</div>
+		</div><!-- end of the left (by default at least) column -->
+			<div class="visualClear"></div>
+			<div id="footer">
+				<div id="f-poweredbyico"><h4 style="text-align: center; color: gray"><font size="2" face="Times">
+		<i>Free Python-written numerical optimization software suite. Visitors since 2007/10/24: </i></font>
+		<a href="http://my.statcounter.com/project/standard/stats.php?project_id=3034605&amp;guest=1" target="_blank">
+		<img border="0" alt="counter" src="http://c34.statcounter.com/3034605/0/d1e3cb13/0/"/></a></h4></div>
+			<ul id="f-list">
+			</ul>
+		</div>
+</div>
+
+		<script type="text/javascript">if (window.runOnloadHook) runOnloadHook();</script>
+<!-- Served in 0.288 secs. --></body></html>

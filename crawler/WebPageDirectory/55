@@ -1,0 +1,920 @@
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.89.9953
+1
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+      
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://www.w3.org/2005/11/profile http://a9.com/-/spec/opensearch/1.1/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+    <title>CiteSeerX &mdash; Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem</title>
+  
+  
+    <meta name="description" content="CiteSeerX - Document Details (Isaac Councill, Lee Giles, Pradeep Teregowda): Several variants and generalizations of the Or-opt heuristic for the Symmetric Traveling Salesman Problem are developed and compared on random and planar instances. Some of the proposed algorithms are shown to significantly improve upon the standard 2-opt and Or-opt heuristics. Key words: symmetric traveling salesman problem, local search heuristics." />
+  
+  
+    <meta name="keywords" content="CiteSeerX, Gilbert Babin, Stéphanie Deneault, Gilbert Laporte" />
+  
+    
+    <meta name="citation_title" content="Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem" />
+  
+  
+    <meta name="citation_authors" content="Gilbert Babin, Stéphanie Deneault, Gilbert Laporte" />
+  
+  
+    <meta name="citation_year" content="2005" />
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" />
+  
+  <link rel="search" title="CiteSeerX" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_general.xml;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" />
+  <link rel="search" title="CiteSeerX Author" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_author.xml;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" />
+  <link rel="search" title="CiteSeerX Title" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_title.xml;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" />
+    
+    
+	<link rel="alternate" type="application/atom+xml" title="CiteSeerX Search Results - Atom" href="/search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?" />
+	<link rel="alternate" type="application/rss+xml" title="CiteSeerX Search Results - RSS" href="/search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?" />
+
+	
+	<link type="text/css" rel="stylesheet" href="/css/main.css;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" />
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+  <script type="text/javascript" src="/js/jquery-ui-1.8.custom.min.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/jquery.idTabs.min.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/metacart.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/topnav.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/citeseerx.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/correctionutils.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	<script type="text/javascript" src="/js/checkboxes.js;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2"></script>
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+  	
+
+
+
+<div id="topnav">
+  
+  <ul id="search_nav">
+    
+      <li class="active"><a href="#search_docs">Documents</a></li>
+      <li><a href="/#search_auth">Authors</a></li>
+      <li><a href="/#search_tables">Tables</a></li>
+
+    
+    
+  </ul>
+  
+  
+  
+    
+    
+    
+    <ul id="toptools">
+  		
+        <li><a href="/myciteseer/login;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2">Log in</a></li>
+        <li><a href="/mcsutils/newAccount;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2">Sign up</a></li>
+      
+        <li><a href="/metacart;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2">MetaCart</a></li>
+    </ul>
+  
+</div>
+
+	  <div id="header">
+			<h1 id="title"><a href="/;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" title="CiteSeerX"><img src="/images/csx_logo.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="CiteSeerX logo" /></a></h1>
+		</div>
+
+<div id="main">
+<div id="search">
+  
+    <div id="search_docs">
+      <form method="get" action="/search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" enctype="application/x-www-form-urlencoded">
+        <label>Documents:</label>
+        <input class="s_field" type="text" name="q" value="" />
+		<input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+		<div class="opts">
+          <a href="/advanced_search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations
+        </div>
+        <input type="hidden" name="sort" value="rlv" />
+        <input type="hidden" name="t" value="doc" />
+      </form>
+    </div>
+		  
+	<div id="search_auth">
+	  <form method="get" action="/search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" enctype="application/x-www-form-urlencoded">
+	    <label>Authors:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <div class="opts">
+          <a href="/advanced_search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations |
+          <input class="c_box" type="checkbox" name="uauth" value="1" checked="checked" /> Disambiguate
+        </div>
+        <input type="hidden" name="sort" value="ndocs" />
+        <input type="hidden" name="t" value="auth" />
+	   </form>
+	  </div>		  
+    <div id="search_tables">
+      <form method="get" action="/search;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" enctype="application/x-www-form-urlencoded">
+        <label>Tables:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <input type="hidden" name="t" value="table" />
+        <input type="hidden" name="sort" value="rlv" />
+     </form>
+    </div>
+
+
+  
+  
+</div>
+    <div id="viewHeader" class="viewDoc">
+      <h2>Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem  (2005) </h2>
+      
+       <div id="downloads">
+	
+		
+        		<h3>Cached</h3>
+        		<ul id="clinks">
+        		
+				
+          			
+          			
+            				<li><a href="/viewdoc/download;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;rep=rep1&amp;type=pdf" title="View or Download this document as PDF">
+						<img src="/images/pdf_icon.gif;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Download as a PDF"/> 
+					</a></li>
+          			
+          			
+        		
+	        	</ul>
+		
+		
+	
+	
+		<h3>Download Links</h3>
+        	<ul id="dlinks">
+        	
+          		<li>
+                	<a href="http://tim.hec.ca/babin/pub/Babi05a.pdf" title="http://tim.hec.ca/babin/pub/Babi05a.pdf" escapeXml="true">
+          		[tim.hec.ca]
+			</a>
+          		</li>
+        	
+	
+        <br/>
+	
+        </ul>
+      </div>
+      <div id="docTools">
+        <ul class="button_nav">
+          <li><a style="cursor: pointer;" onclick="addToCartProxy(5031793)">Save to List</a>
+          <span id="cmsg_5031793" class="cartmsg"></span></li>
+          <li><a class="remove"  href="/myciteseer/action/addPaperCollection;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953" title="Add this document to your collection (Account required)">Add to Collection</a></li>
+          <li><a class="remove" href="/correct;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953" title="Submit corrections for this document (Account required)">Correct Errors</a></li>
+          <li><a class="remove" href="/myciteseer/action/editMonitors;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953" title="Monitor changes to this document (Account required)">Monitor Changes</a></li>
+        </ul>
+      </div>
+            <div id="docInfo">
+      <div id="docAuthors">
+        by 
+          
+            
+              
+              
+                Gilbert Babin
+              
+              ,
+            
+              
+              
+                Stéphanie Deneault
+              
+              ,
+            
+              
+              
+                Gilbert Laporte
+              
+              
+            
+          
+        </div>
+      <div id="docOther">
+        <table>
+          
+          
+            <tr id="docCites"><td class="title">Citations:</td><td><a href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953" title="number of citations">3 - 0 self</a>
+            </td></tr>
+          
+        </table>
+      </div>
+    </div>
+      
+      <div class="clear"></div>
+    </div>
+
+    
+
+
+    <div id="docMenu" class="submenu">
+    <ul>
+      <li  class="active" ><a href="/viewdoc/summary;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953">Summary</a></li>
+      <li  ><a href="/viewdoc/similar;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;type=ab" title="Documents that cite the same works">Active Bibliography</a></li>
+      <li  ><a href="/viewdoc/similar;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;type=cc" title="Documents cited by the same works">Co-citation</a></li>
+      <li ><a href="/viewdoc/similar;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;type=sc" title="Documents in the Same Cluster">Clustered Documents</a></li>
+      <li ><a href="/viewdoc/versions;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953">Version History</a></li>
+      <!--<li><a  href="/viewdoc/clustered;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953">Clustered Documents</a></li>-->
+    </ul>
+    </div>
+
+
+
+
+
+
+  <div id="viewContent" class="sidebar">
+    <div id="viewContent-inner">
+      <div id="viewSidebar">
+        
+          
+          
+          
+        		
+        
+        
+        
+          <div id="bibtex" class="block">
+            <h3>BibTeX</h3>
+            <p>@MISC{Babin05improvementsto,<br/>&nbsp;&nbsp;&nbsp;&nbsp;author = {Gilbert Babin and Stéphanie Deneault and Gilbert Laporte},<br/>&nbsp;&nbsp;&nbsp;&nbsp;title = {Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem},<br/>&nbsp;&nbsp;&nbsp;&nbsp;year = {2005}<br/>}<br/></p>
+          </div> <!-- End content box -->
+        
+        
+        <div id="bookmark" class="block">
+          <h3>Bookmark</h3>
+          <table border="0" cellspacing="0" cellpadding="5">
+            <tr>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=citeulike" title="CiteULike"><img src="/images/citeulike.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="citeulike"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;site=connotea" title="Connotea"><img src="/images/connotea.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Connotea"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;site=bibsonomy&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem" title="BibSonomy"><img src="/images/bibsonomy.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Bibsonomy"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=delicious" title="del.icio.us"><img src="/images/delicious.gif;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Del.icio.us"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=digg" title="Digg it"><img src="/images/digg.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Digg"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=reddit" title="Reddit"><img src="/images/reddit.gif;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="Reddit"/></a></td>
+              </tr>
+	      <tr>
+		<td colspan="6">
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+			var doi;
+			doi="10.1.1.89.9953";
+			new TWTR.Widget({
+  			version: 2,
+  			type: 'search',
+  			search: 'citeseerx+'+doi,
+  			interval: 30000,
+  			title: 'CiteSeerX',
+  			subject: doi,
+  			width: 255,
+  			height: 30,
+  			theme: {
+    			shell: {
+      			background: '#E6E6E6',
+      			color: '#000000'
+    			},
+    			tweets: {
+      				background: '#ffffff',
+      				color: '#444444',
+      				links: '#1985b5'
+    			}
+  		},
+  		features: {
+    		scrollbar: false,
+    		loop: true,
+    		live: true,
+    		behavior: 'default'
+ 		 }
+		}).render().start();
+		</script>	
+		</td>
+	      </tr>
+          </table>
+        </div>
+        
+          <div id="OpenURL" class="block">
+            <h3>OpenURL</h3>
+            <span class="Z3988" title="url_ver=Z39.88-2004&amp;url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&amp;ctx_ver=Z39.88-2004&amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.89.9953&amp;rft.atitle=Improvements+to+the+Or-opt+Heuristic+for+the+Symmetric+Traveling+Salesman+Problem&amp;rft.date=2005&amp;rft.genre=unknown&amp;rft.aulast=Babin&amp;rft.aufirst=+Gilbert&amp;rft.au=Babin%2C+Gilbert&amp;rft.au=Deneault%2C+St%C3%A9phanie&amp;rft.au=Laporte%2C+Gilbert">&nbsp;</span>
+          </div>
+        
+      </div> 
+    <div id="abstract">
+      <h3>Abstract</h3>
+      <p>Several variants and generalizations of the Or-opt heuristic for the Symmetric Traveling Salesman Problem are developed and compared on random and planar instances. Some of the proposed algorithms are shown to significantly improve upon the standard 2-opt and Or-opt heuristics. Key words: symmetric traveling salesman problem, local search heuristics.</p>
+    </div>
+    <div id="citations">
+      <h3>Citations</h3>
+      
+      
+        <table class="refs" border="0" cellspacing="5" cellpadding="5">
+          
+            <tr><td class="title">322</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=17678">An Effective Heuristic Algorithm for the Traveling Salesman Problem</a>
+                - Lin, Kernighan
+                 - 1973
+              </td></tr>
+            
+            <tr><td class="title">270</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=75898">The traveling salesman problem: A case study in local optimization. Local search in combinatorial optimization</a>
+                - Johnson, McGeoch
+                 - 1997
+              </td></tr>
+            
+            <tr><td class="title">250</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=74165">Computer solutions of the traveling salesman problem</a>
+                - Lin
+                 - 1965
+              </td></tr>
+            
+            <tr><td class="title">129</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=77449">Fast algorithms for geometric traveling salesman problems</a>
+                - Bentley
+                 - 1992
+              </td></tr>
+            
+            <tr><td class="title">120</td>
+              <td><a href="/viewdoc/summary;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=82134">An effective implementation of the linkernighan traveling salesman heuristic</a>
+                
+                - Helsgaun
+                 - 2000
+              </td></tr>
+            
+            <tr><td class="title">54</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=74166">Travelling Salesman-Type Combinatorial Problems and Their Relation to the Logistics of Blood-Banking</a>
+                - Or
+                 - 1976
+              </td></tr>
+            
+            <tr><td class="title">53</td>
+              <td><a href="/viewdoc/summary;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=155070">Experimental analysis of heuristics for the STSP</a>
+                
+                - Johnson, McGeoch
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">49</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=274436">100 Statistical Tests</a>
+                - Kanji
+                 - 1999
+              </td></tr>
+            
+            <tr><td class="title">37</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=773484">Solution of a large scale traveling salesman problem</a>
+                - Dantzig, Fulkerson, et al.
+                 - 1954
+              </td></tr>
+            
+            <tr><td class="title">36</td>
+              <td><a href="/viewdoc/summary;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=164617">Implementing the DantzigFulkerson-Johnson Algorithm for Large Traveling</a>
+                
+                - Applegate, Bixby, et al.
+                 - 2003
+              </td></tr>
+            
+            <tr><td class="title">26</td>
+              <td><a href="/viewdoc/summary;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=280468">Experimental analysis of heuristics for the ATSP</a>
+                
+                - Johnson, Gutin, et al.
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">24</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=620379">Empirical analysis of heuristics</a>
+                - Golden, Stewart
+                 - 1985
+              </td></tr>
+            
+            <tr><td class="title">10</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=620381">Classical heuristics for the capacitated VRP</a>
+                - Laporte, Semet
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">1</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=5031794">A method for solving large scale symmetric traveling salesman problems to optimality, Operations Research</a>
+                - Croes
+                 - 1958
+              </td></tr>
+            
+            <tr><td class="title">1</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2?cid=5031795">First vs best improvement: An empirical study</a>
+                - Hansen, Mladenović
+                
+              </td></tr>
+            
+        </table>
+      
+    </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+
+  <div id="footer">
+  	<div id="sponsors">
+  		<a href="http://www.nsf.gov"><img src="/images/nsf_logo.png;jsessionid=E82B00CBAF5B0F85DDBA5906C086BBC2" alt="The National Science Foundation"/></a>
+  	</div>
+    <ul class="links">
+      <li><a href="http://csxstatic.ist.psu.edu/about" target="_blank">About CiteSeerX</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/submit" target="_blank">Submit Documents</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/privacy" target="_blank">Privacy Policy</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/help" target="_blank">Help</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/about/data" target="_blank">Data</a></li>      
+      <li><a href="http://sourceforge.net/projects/citeseerx/" target="_blank">Source</a></li>      
+      <li><a href="http://csxstatic.ist.psu.edu/contact" target="_blank">Contact Us</a></li>
+    </ul>
+  	<p class="info">Developed at and hosted by <a href="http://ist.psu.edu">The College of Information Sciences and Technology</a></p>
+  	<p>&copy; 2007-2014 <a href="http://www.psu.edu">The Pennsylvania State University</a></p>
+  </div>
+</div> 
+
+</body>
+</html>
+
+http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.89.9953
+1
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+      
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://www.w3.org/2005/11/profile http://a9.com/-/spec/opensearch/1.1/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+    <title>CiteSeerX &mdash; Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem</title>
+  
+  
+    <meta name="description" content="CiteSeerX - Document Details (Isaac Councill, Lee Giles, Pradeep Teregowda): Several variants and generalizations of the Or-opt heuristic for the Symmetric Traveling Salesman Problem are developed and compared on random and planar instances. Some of the proposed algorithms are shown to significantly improve upon the standard 2-opt and Or-opt heuristics. Key words: symmetric traveling salesman problem, local search heuristics." />
+  
+  
+    <meta name="keywords" content="CiteSeerX, Gilbert Babin, Stéphanie Deneault, Gilbert Laporte" />
+  
+    
+    <meta name="citation_title" content="Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem" />
+  
+  
+    <meta name="citation_authors" content="Gilbert Babin, Stéphanie Deneault, Gilbert Laporte" />
+  
+  
+    <meta name="citation_year" content="2005" />
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" />
+  
+  <link rel="search" title="CiteSeerX" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_general.xml;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" />
+  <link rel="search" title="CiteSeerX Author" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_author.xml;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" />
+  <link rel="search" title="CiteSeerX Title" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_title.xml;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" />
+    
+    
+	<link rel="alternate" type="application/atom+xml" title="CiteSeerX Search Results - Atom" href="/search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?" />
+	<link rel="alternate" type="application/rss+xml" title="CiteSeerX Search Results - RSS" href="/search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?" />
+
+	
+	<link type="text/css" rel="stylesheet" href="/css/main.css;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" />
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+  <script type="text/javascript" src="/js/jquery-ui-1.8.custom.min.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/jquery.idTabs.min.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/metacart.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/topnav.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/citeseerx.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/correctionutils.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	<script type="text/javascript" src="/js/checkboxes.js;jsessionid=F55ACDF166E2A39383A12D44957DFE6D"></script>
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+  	
+
+
+
+<div id="topnav">
+  
+  <ul id="search_nav">
+    
+      <li class="active"><a href="#search_docs">Documents</a></li>
+      <li><a href="/#search_auth">Authors</a></li>
+      <li><a href="/#search_tables">Tables</a></li>
+
+    
+    
+  </ul>
+  
+  
+  
+    
+    
+    
+    <ul id="toptools">
+  		
+        <li><a href="/myciteseer/login;jsessionid=F55ACDF166E2A39383A12D44957DFE6D">Log in</a></li>
+        <li><a href="/mcsutils/newAccount;jsessionid=F55ACDF166E2A39383A12D44957DFE6D">Sign up</a></li>
+      
+        <li><a href="/metacart;jsessionid=F55ACDF166E2A39383A12D44957DFE6D">MetaCart</a></li>
+    </ul>
+  
+</div>
+
+	  <div id="header">
+			<h1 id="title"><a href="/;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" title="CiteSeerX"><img src="/images/csx_logo.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="CiteSeerX logo" /></a></h1>
+		</div>
+
+<div id="main">
+<div id="search">
+  
+    <div id="search_docs">
+      <form method="get" action="/search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" enctype="application/x-www-form-urlencoded">
+        <label>Documents:</label>
+        <input class="s_field" type="text" name="q" value="" />
+		<input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+		<div class="opts">
+          <a href="/advanced_search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations
+        </div>
+        <input type="hidden" name="sort" value="rlv" />
+        <input type="hidden" name="t" value="doc" />
+      </form>
+    </div>
+		  
+	<div id="search_auth">
+	  <form method="get" action="/search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" enctype="application/x-www-form-urlencoded">
+	    <label>Authors:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <div class="opts">
+          <a href="/advanced_search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations |
+          <input class="c_box" type="checkbox" name="uauth" value="1" checked="checked" /> Disambiguate
+        </div>
+        <input type="hidden" name="sort" value="ndocs" />
+        <input type="hidden" name="t" value="auth" />
+	   </form>
+	  </div>		  
+    <div id="search_tables">
+      <form method="get" action="/search;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" enctype="application/x-www-form-urlencoded">
+        <label>Tables:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <input type="hidden" name="t" value="table" />
+        <input type="hidden" name="sort" value="rlv" />
+     </form>
+    </div>
+
+
+  
+  
+</div>
+    <div id="viewHeader" class="viewDoc">
+      <h2>Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem  (2005) </h2>
+      
+       <div id="downloads">
+	
+		
+        		<h3>Cached</h3>
+        		<ul id="clinks">
+        		
+				
+          			
+          			
+            				<li><a href="/viewdoc/download;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;rep=rep1&amp;type=pdf" title="View or Download this document as PDF">
+						<img src="/images/pdf_icon.gif;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Download as a PDF"/> 
+					</a></li>
+          			
+          			
+        		
+	        	</ul>
+		
+		
+	
+	
+		<h3>Download Links</h3>
+        	<ul id="dlinks">
+        	
+          		<li>
+                	<a href="http://tim.hec.ca/babin/pub/Babi05a.pdf" title="http://tim.hec.ca/babin/pub/Babi05a.pdf" escapeXml="true">
+          		[tim.hec.ca]
+			</a>
+          		</li>
+        	
+	
+        <br/>
+	
+        </ul>
+      </div>
+      <div id="docTools">
+        <ul class="button_nav">
+          <li><a style="cursor: pointer;" onclick="addToCartProxy(5031793)">Save to List</a>
+          <span id="cmsg_5031793" class="cartmsg"></span></li>
+          <li><a class="remove"  href="/myciteseer/action/addPaperCollection;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953" title="Add this document to your collection (Account required)">Add to Collection</a></li>
+          <li><a class="remove" href="/correct;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953" title="Submit corrections for this document (Account required)">Correct Errors</a></li>
+          <li><a class="remove" href="/myciteseer/action/editMonitors;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953" title="Monitor changes to this document (Account required)">Monitor Changes</a></li>
+        </ul>
+      </div>
+            <div id="docInfo">
+      <div id="docAuthors">
+        by 
+          
+            
+              
+              
+                Gilbert Babin
+              
+              ,
+            
+              
+              
+                Stéphanie Deneault
+              
+              ,
+            
+              
+              
+                Gilbert Laporte
+              
+              
+            
+          
+        </div>
+      <div id="docOther">
+        <table>
+          
+          
+            <tr id="docCites"><td class="title">Citations:</td><td><a href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953" title="number of citations">3 - 0 self</a>
+            </td></tr>
+          
+        </table>
+      </div>
+    </div>
+      
+      <div class="clear"></div>
+    </div>
+
+    
+
+
+    <div id="docMenu" class="submenu">
+    <ul>
+      <li  class="active" ><a href="/viewdoc/summary;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953">Summary</a></li>
+      <li  ><a href="/viewdoc/similar;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;type=ab" title="Documents that cite the same works">Active Bibliography</a></li>
+      <li  ><a href="/viewdoc/similar;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;type=cc" title="Documents cited by the same works">Co-citation</a></li>
+      <li ><a href="/viewdoc/similar;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;type=sc" title="Documents in the Same Cluster">Clustered Documents</a></li>
+      <li ><a href="/viewdoc/versions;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953">Version History</a></li>
+      <!--<li><a  href="/viewdoc/clustered;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953">Clustered Documents</a></li>-->
+    </ul>
+    </div>
+
+
+
+
+
+
+  <div id="viewContent" class="sidebar">
+    <div id="viewContent-inner">
+      <div id="viewSidebar">
+        
+          
+          
+          
+        		
+        
+        
+        
+          <div id="bibtex" class="block">
+            <h3>BibTeX</h3>
+            <p>@MISC{Babin05improvementsto,<br/>&nbsp;&nbsp;&nbsp;&nbsp;author = {Gilbert Babin and Stéphanie Deneault and Gilbert Laporte},<br/>&nbsp;&nbsp;&nbsp;&nbsp;title = {Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem},<br/>&nbsp;&nbsp;&nbsp;&nbsp;year = {2005}<br/>}<br/></p>
+          </div> <!-- End content box -->
+        
+        
+        <div id="bookmark" class="block">
+          <h3>Bookmark</h3>
+          <table border="0" cellspacing="0" cellpadding="5">
+            <tr>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=citeulike" title="CiteULike"><img src="/images/citeulike.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="citeulike"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;site=connotea" title="Connotea"><img src="/images/connotea.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Connotea"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;site=bibsonomy&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem" title="BibSonomy"><img src="/images/bibsonomy.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Bibsonomy"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=delicious" title="del.icio.us"><img src="/images/delicious.gif;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Del.icio.us"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=digg" title="Digg it"><img src="/images/digg.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Digg"/></a></td>
+              <td><a href="/viewdoc/bookmark;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?doi=10.1.1.89.9953&amp;title=Improvements to the Or-opt Heuristic for the Symmetric Traveling Salesman Problem&amp;site=reddit" title="Reddit"><img src="/images/reddit.gif;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="Reddit"/></a></td>
+              </tr>
+	      <tr>
+		<td colspan="6">
+		<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+		<script>
+			var doi;
+			doi="10.1.1.89.9953";
+			new TWTR.Widget({
+  			version: 2,
+  			type: 'search',
+  			search: 'citeseerx+'+doi,
+  			interval: 30000,
+  			title: 'CiteSeerX',
+  			subject: doi,
+  			width: 255,
+  			height: 30,
+  			theme: {
+    			shell: {
+      			background: '#E6E6E6',
+      			color: '#000000'
+    			},
+    			tweets: {
+      				background: '#ffffff',
+      				color: '#444444',
+      				links: '#1985b5'
+    			}
+  		},
+  		features: {
+    		scrollbar: false,
+    		loop: true,
+    		live: true,
+    		behavior: 'default'
+ 		 }
+		}).render().start();
+		</script>	
+		</td>
+	      </tr>
+          </table>
+        </div>
+        
+          <div id="OpenURL" class="block">
+            <h3>OpenURL</h3>
+            <span class="Z3988" title="url_ver=Z39.88-2004&amp;url_ctx_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Actx&amp;ctx_ver=Z39.88-2004&amp;ctx_enc=info%3Aofi%2Fenc%3AUTF-8&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft_id=http%3A%2F%2Fciteseerx.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.89.9953&amp;rft.atitle=Improvements+to+the+Or-opt+Heuristic+for+the+Symmetric+Traveling+Salesman+Problem&amp;rft.date=2005&amp;rft.genre=unknown&amp;rft.aulast=Babin&amp;rft.aufirst=+Gilbert&amp;rft.au=Babin%2C+Gilbert&amp;rft.au=Deneault%2C+St%C3%A9phanie&amp;rft.au=Laporte%2C+Gilbert">&nbsp;</span>
+          </div>
+        
+      </div> 
+    <div id="abstract">
+      <h3>Abstract</h3>
+      <p>Several variants and generalizations of the Or-opt heuristic for the Symmetric Traveling Salesman Problem are developed and compared on random and planar instances. Some of the proposed algorithms are shown to significantly improve upon the standard 2-opt and Or-opt heuristics. Key words: symmetric traveling salesman problem, local search heuristics.</p>
+    </div>
+    <div id="citations">
+      <h3>Citations</h3>
+      
+      
+        <table class="refs" border="0" cellspacing="5" cellpadding="5">
+          
+            <tr><td class="title">322</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=17678">An Effective Heuristic Algorithm for the Traveling Salesman Problem</a>
+                - Lin, Kernighan
+                 - 1973
+              </td></tr>
+            
+            <tr><td class="title">270</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=75898">The traveling salesman problem: A case study in local optimization. Local search in combinatorial optimization</a>
+                - Johnson, McGeoch
+                 - 1997
+              </td></tr>
+            
+            <tr><td class="title">250</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=74165">Computer solutions of the traveling salesman problem</a>
+                - Lin
+                 - 1965
+              </td></tr>
+            
+            <tr><td class="title">129</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=77449">Fast algorithms for geometric traveling salesman problems</a>
+                - Bentley
+                 - 1992
+              </td></tr>
+            
+            <tr><td class="title">120</td>
+              <td><a href="/viewdoc/summary;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=82134">An effective implementation of the linkernighan traveling salesman heuristic</a>
+                
+                - Helsgaun
+                 - 2000
+              </td></tr>
+            
+            <tr><td class="title">54</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=74166">Travelling Salesman-Type Combinatorial Problems and Their Relation to the Logistics of Blood-Banking</a>
+                - Or
+                 - 1976
+              </td></tr>
+            
+            <tr><td class="title">53</td>
+              <td><a href="/viewdoc/summary;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=155070">Experimental analysis of heuristics for the STSP</a>
+                
+                - Johnson, McGeoch
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">49</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=274436">100 Statistical Tests</a>
+                - Kanji
+                 - 1999
+              </td></tr>
+            
+            <tr><td class="title">37</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=773484">Solution of a large scale traveling salesman problem</a>
+                - Dantzig, Fulkerson, et al.
+                 - 1954
+              </td></tr>
+            
+            <tr><td class="title">36</td>
+              <td><a href="/viewdoc/summary;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=164617">Implementing the DantzigFulkerson-Johnson Algorithm for Large Traveling</a>
+                
+                - Applegate, Bixby, et al.
+                 - 2003
+              </td></tr>
+            
+            <tr><td class="title">26</td>
+              <td><a href="/viewdoc/summary;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=280468">Experimental analysis of heuristics for the ATSP</a>
+                
+                - Johnson, Gutin, et al.
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">24</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=620379">Empirical analysis of heuristics</a>
+                - Golden, Stewart
+                 - 1985
+              </td></tr>
+            
+            <tr><td class="title">10</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=620381">Classical heuristics for the capacitated VRP</a>
+                - Laporte, Semet
+                 - 2002
+              </td></tr>
+            
+            <tr><td class="title">1</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=5031794">A method for solving large scale symmetric traveling salesman problems to optimality, Operations Research</a>
+                - Croes
+                 - 1958
+              </td></tr>
+            
+            <tr><td class="title">1</td>
+              <td>
+                <a class="citation_only" href="/showciting;jsessionid=F55ACDF166E2A39383A12D44957DFE6D?cid=5031795">First vs best improvement: An empirical study</a>
+                - Hansen, Mladenović
+                
+              </td></tr>
+            
+        </table>
+      
+    </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+
+
+  <div id="footer">
+  	<div id="sponsors">
+  		<a href="http://www.nsf.gov"><img src="/images/nsf_logo.png;jsessionid=F55ACDF166E2A39383A12D44957DFE6D" alt="The National Science Foundation"/></a>
+  	</div>
+    <ul class="links">
+      <li><a href="http://csxstatic.ist.psu.edu/about" target="_blank">About CiteSeerX</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/submit" target="_blank">Submit Documents</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/privacy" target="_blank">Privacy Policy</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/help" target="_blank">Help</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/about/data" target="_blank">Data</a></li>      
+      <li><a href="http://sourceforge.net/projects/citeseerx/" target="_blank">Source</a></li>      
+      <li><a href="http://csxstatic.ist.psu.edu/contact" target="_blank">Contact Us</a></li>
+    </ul>
+  	<p class="info">Developed at and hosted by <a href="http://ist.psu.edu">The College of Information Sciences and Technology</a></p>
+  	<p>&copy; 2007-2014 <a href="http://www.psu.edu">The Pennsylvania State University</a></p>
+  </div>
+</div> 
+
+</body>
+</html>
+

@@ -1,0 +1,1894 @@
+https://www.multiroute.de/?locale=en
+1
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+<meta charset='UTF-8'>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='de' name='DC.language'>
+<meta content='/browserconfig.xml' name='msapplication-config'>
+<title>MultiRoute - Free multiple stops route planning, route optimization and tour planning e.g. for couriers or salesmen</title>
+<meta content='The free multiple stops route planning, route optimization and tour planning e.g. for couriers or salesmen - Geomarketing based on Bing Maps or Google Maps.' name='description'>
+<meta content='MultiRoute, multiple stops, fastest route, shortest path, tour planner, route planning, route optimization, optimize routes, tour planning, planning routes, optimization, tour optimization, travelling salesman, Google Maps, Bing Maps, free, couriers, courier services, field service, field sales staff' name='keywords'>
+<meta content='gb consite GmbH / original design by Andreas Viklund - http://andreasviklund.com/' name='author'>
+<meta content='index,follow' name='robots'>
+<meta content='DE-BY' name='geo.region'>
+<meta content='Mittenheimer Straße 58, 85764 Oberschleißheim, Deutschland' name='geo.placename'>
+<meta content='48.2601665;11.5574324' name='geo.position'>
+<meta content='48.2601665,11.5574324' name='ICBM'>
+
+<link href="/assets/application-dc26ee85d333890a7f0ec7853ee11320.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/application-print-7df01488bf2f34929b5e82065ffe891b.css" media="print" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<link href="/assets/ie-1b13569e9620782f423d4cd3ce931750.css" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script charset="UTF-8" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;mkt=en-GB&amp;s=1" type="text/javascript"></script>
+<!--[if lt IE 8]>
+<script src="/assets/json2-e3356f5fe96541c3f696e0595dc35252.js" type="text/javascript"></script>
+<![endif]-->
+<script src="/assets/application-97929474e8a3f62a81802fbc34366f1e.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="thEFfVdfX1RcqmF55GdX1GaERlCA3k8nKYVY+UBO0nU=" name="csrf-token" />
+<script>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6211403-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+
+</head>
+<body>
+<script>
+  //<![CDATA[
+    var maximum_waypoints = 7;
+  //]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    var texte = {
+        min_wegpunkte : 'The minimum number of waypoints is 2'
+        , max_limit_waypoints_reached : '<p> A tour optimization with a maximum of7 stops is available free of charge and without registration <br/> Optimized tours with8 and more stops are charged at the following rates (purchase credits for the following periods of use, within the period of use the use is unlimited with any number of stops and as many tour optimizations as possible): <br/><div id=\"product_list\"><table class=\"list width100\"><colgroup><col width=\"130px\"><col width=\"120px\"><col width=\"130px\"><col width=\"*px\"><\/colgroup><tr><th>useful life<\/th><th>expires<\/th><th class=\"right\">Price<br/>(incl. 19.0 %VAT)<\/th><th class=\"center\">now<\/th><\/tr><tr class=\"even\"><td>60 minutes<\/td><td>28.07.2014 17:41<\/td><td class=\"right\">1,99 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"odd\"><td>24 hours<\/td><td>29.07.2014 16:41<\/td><td class=\"right\">4,99 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"even\"><td>1 month<\/td><td>28.08.2014 16:41<\/td><td class=\"right\">49,00 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"odd\"><td>1 year<\/td><td>28.07.2015 16:41<\/td><td class=\"right\">299,00 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"even\"><td>web service<\/td><td>1 year<\/td><td class=\"right\">from 892,50 €<\/td><td><a href=\"http://www.standortanalyse.biz/de/imp.html\" class=\"button order c\">on request<\/a><\/td><\/tr><\/table><\/div><br/>You must login / register first: <a href=\"/login\" class=\"button\" data-remote=\"true\">Login<\/a><\/p>'
+        , no_results_geocoding : 'No results for &quot;%s0&quot;.'
+        , address_skipped : 'Address skipped &quot;%s0&quot;.'
+        , error_while_getting_route : 'Failed to route the request. Please refresh the page and try again.'
+        , calc_az : 'Calculating optimal route'
+        , calc_aza : 'Calculating optimal round trip'
+        , stop : 'pause'
+        , stop_at : 'break at'
+        , of : 'of'
+        , reverse_geocode : 'Reverse geocode'
+        , geocode_address : 'Geocoding %s0'
+        , searchresult_not_unique : 'Multiple results for &quot;%s0&quot;. Select Item!'
+        , cancel_address : 'skip adress'
+        , get_final_route : 'Fetch the final route'
+        , calc_optimal_route : 'Calculating optimal route'
+        , get_route_part : 'Fetch partial route %s0 of %s1'
+        , wp_not_routable : 'For the stop %s0 (%s1) no route could be calculated. <br/><br/>Please change either the position by (slightly) moving the stop icon on the map to another section or road or delete this stop.                                                     <br/><br/><br/><br/><a href=\"/goto_step/1\" onclick=\"$(\'#close_icon\').trigger(\'click\');\" class=\"button icon arrowleft\" data-remote=\"true\">Back to the address input<\/a>'
+        , wp_testpairs : '<div> An error occurred when calculating the route <br/> connection between the stops %s0 and %s1 will be checked <\/div>.'
+        , alert_popup_title : 'note'
+        , addresspunkt_uebernehmen : 'Add address point?'
+        , addresspunkt_verschieben : 'Move address point?'
+        , addresspunkt_uebernehmen_ja : 'Yes'
+        , addresspunkt_uebernehmen_nein : 'No'
+        , tsptw_berechne : 'Calculating optimal route with time intervals'
+        , tsptw_berechne_restzeit : 'Maximum remaining time ca.'
+        , tsptw_sekunden : 'seconds'
+        , timeframe_first_missing: 'Please enter a departure time for the first waypoint (consider the date).'
+        , klick_in_karte: 'Clicked in map'
+        , trafficinfo: 'Traffic information'
+        , load_warten: 'Please wait'
+        , upload_header_lines: 'Addresses start at row'
+        , feldzuordnung: 'Field mapping'
+        , feldzuordnung_fehler_keine_kombi: 'No minimum valid assignment combination found. The following minimum combinations are valid:<\/br>Street and Locality | Street and Postcode | Street and Postcode Locality | Street Housenumber and Postcode | Street Housenumber and Postcode Locality | Latitude and Longitude.'
+        , feldzuordnung_fehler_mehrfach_zuordnung: 'At least one column was assigned several times.'
+        , feldzuordnung_start_geocoding: 'Start'
+        , upload_counted_rows: 'Lines'
+        , upload_can_not_open_file: 'File cannot be opend'
+    };
+  //]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    var resourcen = {
+          setup_travelling_salesman : '/setup_travelling_salesman'
+        , add_locations : '/add_locations'
+        , order_locations : '/order_locations'
+        , remove_location : '/remove_location'
+        , update_location : '/update_location'
+        , agb_path : '/allgemeine_geschaeftsbedingungen'
+        , datenschutz_path : '/datenschutz'
+        , widerrufsbelehrung_path : '/widerrufsbelehrung'
+        , add_pin_to_tour : '/add_pin_to_tour'
+        , open_click_dialog : '/open_click_dialog'
+        , edit_pin : '/edit_pin'
+        , edit_save_pin : '/edit_save_pin'
+        , tour_planning : '/tour_planning'
+        , tsptw_calc : '/tsptw_calc'
+        , show_tour : '/show_tour/'
+        , save_upload_defaults : '/save_upload_defaults'
+    };
+    var images = {
+        standard_icon: { url: '/assets/map/pin_orange-7cdaa0c4fc27a4630f1c2d2a3697f4a6.png', width: 35, height: 43, dx:17.5, dy:43}
+      , start_icon: { url: '/assets/map/green_flag-e1860b2138b35272d28f440ede3edac7.png', width: 35, height: 43, dx:6, dy:41}
+      , stop_icon: { url: '/assets/map/break_flag-3030cd3b76cd49d279de2e12ed35104d.png', width: 35, height: 43}
+      , destination_icon: { url: '/assets/map/checkered_flag-d26fa8fed2689096616d699067bb1098.png', width: 35, height: 43, dx:3, dy:42}
+      , pin_colors_as_images_list : {"red":"/assets/map/pin_red-6c311a6e2fd2b2576da21d801cb2fad0.png","red_checked":"/assets/map/pin_red_checked-0579a368c9c6a601b3aac4d2d0cbbce8.png","black":"/assets/map/pin_black-1c523221c60a303489e2d1b9562978fc.png","black_checked":"/assets/map/pin_black_checked-41fd26148f7f43d3041f86bcb29768d5.png","blue":"/assets/map/pin_blue-6a799ddcd6a930ae3136f3c670e73118.png","blue_checked":"/assets/map/pin_blue_checked-f6730d095e7f1ab27998966f688a40b6.png","green":"/assets/map/pin_green-718c403f27eb5a70603640091bce8335.png","green_checked":"/assets/map/pin_green_checked-62da621414b21a8ffd4c7ecfce7e5e69.png","grey":"/assets/map/pin_grey-b8424085e5360d9af64965cbaa1fae2b.png","grey_checked":"/assets/map/pin_grey_checked-b8b6473ee877fefa2bfaa254f1414c1b.png","orange":"/assets/map/pin_orange-7cdaa0c4fc27a4630f1c2d2a3697f4a6.png","orange_checked":"/assets/map/pin_orange_checked-ba1ef6a60a8d07926957d87b08c0fecb.png","purple":"/assets/map/pin_purple-31b60144bc782069419ef33857c42e42.png","purple_checked":"/assets/map/pin_purple_checked-0c0dbafea874159ec04e63cdda74beb8.png","yellow":"/assets/map/pin_yellow-d4aae78ff17250812d3cf44068ad65e3.png","yellow_checked":"/assets/map/pin_yellow_checked-408a4078aaa5aad56aa4effcbf6ba9d5.png"}
+          
+    };
+  //]]>
+</script>
+
+
+<div id='alert_screen'></div>
+<div class='data_boxed' id='alert_popup'>
+<h3>
+<span id='alert_popup_title'>note</span>
+<img alt="Close" class="right" id="close_icon" src="/assets/icons/close-f12bdd1eecedd19f93142b18c13ce07a.png" />
+</h3>
+<div class='inner'>
+<p id='alert_message'></p>
+</div>
+<script>
+  //<![CDATA[
+    $('#close_icon').click(
+      function () {
+        $('#alert_popup').hide();
+        $('#alert_screen').hide();
+      }
+    );
+  //]]>
+</script>
+
+</div>
+<div id='tsm-container'>
+<div class='noprint' id='header'>
+<div id='logo'>
+<iframe allowTransparency='true' frameborder='0' scrolling='no' src='//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FOnlineTourenplaner&amp;amp;send=false&amp;amp;layout=standard&amp;amp;width=850&amp;amp;show_faces=false&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;action=recommend&amp;amp;height=24' style='border:none; overflow:hidden; width:850px; height:24px;'></iframe>
+<a href='http://www.standortanalyse.biz/de/standortanalyse-tourenplaner.html'>
+<div class='logo_images header_logopart logo_en'></div>
+<div class='logo_images header_counterpart'></div>
+<div class='reset'></div>
+</a>
+</div>
+
+</div>
+<div class='spacer'></div>
+<div class='noprint' id='menu'>
+<div class='data_boxed' id='user_menu'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#user_menu_content'>
+<a onclick='h3inject(this);'>
+Menu
+</a>
+</div>
+<div class='slide_title eject' hidethis='#user_menu_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+Menu
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#user_menu_content'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#user_menu_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='user_menu_content'>
+<ul class='menu_links'>
+<li><a href="/profil" data-remote="true"><img alt="Profile" src="/assets/icons/my_profile-b2c6ff2c5abe3155416634a387d6ba5e.png" title="Profile" /><br />Profile</a></li>
+<li><a href="/account" data-remote="true"><img alt="My account" src="/assets/icons/my_account-1c90e9406dfd764022420a128b3c8b2f.png" title="My account" /><br />My account</a></li>
+<li><a href="/tours" data-remote="true"><img alt="My tours" src="/assets/icons/my_tours-47dd9ec513113ba208f00caf82abb33f.png" title="My tours" /><br />My tours</a></li>
+</ul>
+<div id='user_status'>
+You are not logged in:
+<a href="/profil" data-remote="true">Login here</a>
+<div id='languages'>&nbsp;<span class="disabled language"><a href="/?locale=de"><img alt="De" src="/assets/flags/de-e941764eb3dfa3fcec5fe2ddc31b6b23.png" title="deutsch" /></a></span>&nbsp;<span class="disabled language"><a href="/?locale=fr"><img alt="Fr" src="/assets/flags/fr-54f913146705986ae1062fc37f42be78.png" title="français" /></a></span></div>
+</div>
+</div>
+<div class='spacer'></div>
+</div>
+
+</div>
+<div class='spacer'></div>
+<div class='noprint' id='flash'>
+<noscript>
+<div class='alert'>
+<p>
+You use either a browser without JavaScript or you have enabled NoScript or another script blocker  <br/><br/> However, both the BING map and MultiRoute are implemented in JavaScript.
+</p>
+<p>
+Please get either a modern browser or enable Java Script for:
+<ul>
+<li>
+*.multiroute.de
+</li>
+<li>
+*.virtualearth.net
+</li>
+</ul>
+</p>
+</div>
+</noscript>
+<div class='spacer'></div>
+</div>
+
+<div class='spacer'></div>
+<div id='top'></div>
+<div class='noprint' id='help_box'>
+<div class='data_boxed'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#help_content'>
+<a onclick='h3inject(this);'>
+Help (show/hide)
+</a>
+</div>
+<div class='slide_title eject' hidethis='#help_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+Help (show/hide)
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#help_content'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#help_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='help_content'>
+<p>gb consite MultiRoute is a geo-service for multiple stops route planning, route optimization, tour planning and tour optimization and is a part of our range of Google Maps and BING Maps based geo online services. MultiRoute uses the <a href="http://www.microsoft.com/maps/developers/web.aspx" target="_blank"> BING Maps API</a> and the on OpenStreetMap based <a href="https://github.com/DennisOSRM/Project-OSRM/wiki/Server-api" target="_blank">OSRM API</a>.
+   <br/><br/>
+   This service is targeted with its web interface as "software as a service" (SAAS) to all couriers, courier services, sales representatives, agents, flyer distributor, supplier, delivery personnel, service technicians, maintenance workers and other types of "salesmen" who need a ready to use, fast, flexible and cost effective service, that puts almost unlimited number of destination addresses in an optimized order, and who are not willing to invest in an expensive desktop software or do not have the possibility to get a company solution or a similar disposition solution.
+   <br/><br/>
+   MultiRoute uses the addresses you entered solely for the optimization of your trips and routes. Only you can export the destination addresses to your navigation device. Storing or processing of addresses by the operator of the m platform or other institutions will not take place in any case.
+   <br/>
+   For more information on the methodology and operation of MultiRoute <a href="http://www.standortanalyse.biz/de/routenoptimierung-tourenplaner-methodik.html" target="_blank"> click here </a>.
+   <br/><br/>
+   For tours with up to 7 stops, MultiRoute is free and can be used even without registration / application. <br/>
+   If you want to optimize a tour with more than 7 stops, you must register and then acquire a package for the temporary use within a certain time period (hour, day, month, year) via online payment with PayPal. During the booked period you can use MultiRoute as often and intensely as desired . </p>
+
+    <h3>Step 1: Enter address </h3>
+    <p> MultiRoute processes as many stops as you wish by<p>
+    <ul>
+      <li><b>click on the map</b> (the mouse cross marks the exact location of your stop), or </li>
+      <li><b>Excel spreadsheet upload</b> (.xlsx, .ods, .xls) including description, color, stay time, time windows, and five additional fields for notes etc. or </li>
+      <li><b>address list entry</b> with the right input field (simply copy the address into the clipboard for example from Word, Excel, or other text files. A stop per line, notation as above) </li>
+    </ul>
+    <p>and geocodes them. You will then see the stops on the map and in the list of stops. <br/> <br/>
+    When uploading an Excel spreadsheet you optionally can provide your addresses directly with description, color, length of stay, time slots and five additional fields for comments, etc.<br/>
+    When first reading an Excel spreadsheet just assign which field contains the respective information. This field mapping will be automatically saved for all future uploads with your user profile. <br/> 
+    When reading an address list with the input field on the right, select the option "addresses with description" to process additional information. Just add  the customer number or customer name before the actual address and then separate this description with following characters from the actual address: <span class="cr">TAB</span> (tab) <span class="cr">|</span> (vertical bar or pipe), <span class="cr">; </span> (semicolon) or <span class="cr">, </span> (comma). <br/>
+    If in the geocoding some addresses are not located correctly, it may be helpful to select the country in which the stops are located (checkbox "stops predominantly in...").
+   <br/> <br/>
+You can also move the points on the map (with drag & drop) or clear them (with a click), which also works in the list. <br/> The first stop in your list (green flag) is always the beginning of your tour and at the same time in case of a circular route the destination (checkered flag). In the case of an oneway tour, the last stop on the list is the destination of your trip (checkered flag).
+<br/> <br/>
+Examples of address inputs:
+    <ul>
+      <li> gb consite GmbH, Mittenheimer Straße 58, 85764 Oberschleißheim (address with description, activate option!)</li>
+      <li> Mittenheimer Straße 58, 85764 Oberschleißheim </li>
+      <li> Mittenheimer Straße 58, 85764 </li>
+      <li> gb consite GmbH | Mittenheimer Straße 58, Oberschleissheim (address with description, activate option!)</li>
+      <li> 85764 Oberschleißheim </li>
+      <li> 85764 </li>
+      <li> Oberschleißheim </li>
+      <li> 48.260146,11.557453 (coordinate in decimal, the point as the the decimal delimiter and the comma as the field delimiter) </li>
+      <li> gb consite GmbH 48.260146,11.557453;(address with description, activate option!)  </li>
+    </ul>
+Possible individual colors for address points:
+    <ul>
+      <li> red </li>
+      <li> black </li>
+      <li> blue </li>
+      <li> green </li>
+      <li> grey, gray </li>
+      <li> orange </li>
+      <li> purple </li>
+      <li> yellow </li>
+    </ul>
+</p>
+    <h3> Step 2: Route Optimization </h3>
+<p> MultiRoute can display now the tour in the given order ("just draw tour") or calculate the optimized route either as a oneway track or circular route, regardless of the input sequence. For this purpose, you now have several options available: </p>
+    <ul>
+      <li> optimization to minimum time </li>
+      <li> optimization to minimum distance </li>
+      <li> minimize toll </li>
+      <li> avoid motorway </li>
+    </ul>
+    <p>
+      After the optimization you will now get the stops in the correct sequence and the coordinates, distances and driving times from stop to stop. Of course, tour and stops are displayed on the map and you will receive a summary of the length of the total distance and the total travel time. <br/>
+Now, if you move or delete the stops in the results, you can then start optimizing again or view the tour without optimization (button "redraw tour graph"). </p>
+    <h3> Step 3: Scheduling </h3>
+    <p> In addition to the optimization you have the possibility to obtain arrival and departure times or break times for your optimized route . <br/>
+    Click on the "scheduling" button. In the result, you can now additionally specify a duration of stay for each stop  (e.g. the duration of an customer meeting). You can also specify the desired arrival or departure time, and schedule regular breaks after a certain number of intermediate destinations. <br/>
+    All of the scheduling options are considered in the summary of the entire tour.
+</p>
+    <h3>Step 4: Print & Export</h3>
+<p> Finally, the result can be printed or exported in a variety of formats - including the ones of the leading navigation device manufacturer (e.g. TomTom, Garmin, Navigon) <br/>.
+  For example you can load the stops in the optimized sequence into your navigation device, then drive by them one by one. <br/>
+    Please note that some additional software is needed to transfer the export files to the navigation device (e. g. Garmin BaseCamp or MapSource, TomTom Home).
+    <br/> 
+    As an additional output option you can export your planning file to a calendar like Microsoft Outlook, and the printing on paper is also available. </p>
+    <h3> Features for registered users </h3>
+    <p>
+    Registered users with a valid package tours can
+    calculate any number of stops (free of charge: up to 7 stops). The tours can be saved and loaded in the tour management for a new calculation. <br/>
+    The prices of the packages can be found in the price list ("My Account"). Other premium features (upload addresses, consideration of opening times, daily budget, etc.) are planned. </p>
+    <h3> Where is the advantage?</h3>
+    <p>
+    gb consite MultiRoute is based on BING Maps (Google Maps is also possible) and therefore provides an unattainable price advantage over existing solutions that integrate their own map data. Furthermore, the latest map data is updated as the basis for routing, geocoding and visualization four times a year at no additional cost. <br/>
+    The web interface of MultiRoute works without installation on any computer with an Internet connection, and mobile devices are also supported. </P>
+    <h3> More geo-services by gb consite GmbH </h3>
+    <p>
+    In addition to the "MultiRoute", we offer since May 2009 our award-winning geo-tool "Online Site Check" or our "White Spot Analysis", which produce a variety of different well-founded site analysis and soon also the geographical distribution controlling system "online market information" (previously available only as a customer solution), which helps in the evaluation of regional sales performance.
+    It is planned to expand the product range of Google Maps and Bing Maps-based geo-services continuously and, as in the "MultiRoute"
+       and the "Online Site Check" also to offer more partially free services (free preview of the catchment area).
+    </p>
+</div>
+<div class='spacer'></div>
+</div>
+
+
+</div>
+<div class='spacer'></div>
+<div id='data'><script>
+  //<![CDATA[
+    var bing_routes = "https://dev.virtualearth.net/REST/v1/Routes/Driving?c=de-DE&output=json&jsonp=?&du=km";
+  //]]>
+</script>
+<div class='data_map'>
+<h3>
+<span id="map_tourname">Map </span>
+<img alt="" height="16" id="mapsize_750" src="/assets/icons/map_add-31e0c9c76c23e5a0d5146a7bf7a3381f.png" style="cursor:pointer;margin-left:5px;margin-right:-1px;" width="16" />
+<img alt="" height="16" id="mapsize_500" src="/assets/icons/map_edit-f85a5016a290c0d82596ead0041d649d.png" style="cursor:pointer;;margin-left:5px;" width="16" />
+<img alt="" height="16" id="mapsize_250" src="/assets/icons/map_delete-a77f3c3c125b0817085648f284c98938.png" style="cursor:pointer;;margin-left:5px;" width="16" />
+</h3>
+<div class='map'>
+<div class='maphidden' id='loading'>
+<img alt="Gbc_loading" src="/assets/gbc_loading-2787e05820af312ac65ac181589c0815.jpg" />
+<div id='status_message'>
+Karte wird geladen, bitte warten…
+</div>
+<img alt="Pleasewait" src="/assets/pleasewait-bdc5c071af23e9fd5b23c6be1b8e0669.gif" />
+</div>
+<div class='mapvisible' id='gmap'>
+<div class='map' id='Tourenplaner'></div>
+</div>
+</div>
+</div>
+
+<div id='function_area'>
+<div class='data_boxed' id='data-entry'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#step1'>
+<a onclick='h3inject(this);'>
+Step 1: Enter address
+</a>
+</div>
+<div class='slide_title eject' hidethis='#step1' style='display: none;'>
+<a onclick='h3eject(this);'>
+Step 1: Enter address
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#step1'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#step1' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='step1'>
+<div class='noprint' id='location_setup'>
+<div id='delimiter_opt'>
+<label for='target_country' id='target_country_label'>Most stops in...</label>
+<select class='target_country' id='target_country'>
+<option value='-'>several countries</option>
+<option value='vi'>Virgin Islands, U.S.</option>
+<option value='ad'>Andorra</option>
+<option value='ar'>Argentina</option>
+<option value='au'>Australia</option>
+<option value='bs'>Bahamas</option>
+<option value='bh'>Bahrain</option>
+<option value='be'>Belgium</option>
+<option value='bw'>Botswana</option>
+<option value='br'>Brazil</option>
+<option value='bg'>Bulgaria</option>
+<option value='dk'>Denmark</option>
+<option value='de'>Germany</option>
+<option value='ee'>Estonia</option>
+<option value='fi'>Finland</option>
+<option value='fr'>France</option>
+<option value='gf'>French Guiana</option>
+<option value='gi'>Gibraltar</option>
+<option value='gr'>Greece</option>
+<option value='gb'>United Kingdom</option>
+<option value='gp'>Guadeloupe</option>
+<option value='hk'>Hong Kong</option>
+<option value='in'>India</option>
+<option value='id'>Indonesia</option>
+<option value='im'>Isle of Man</option>
+<option value='ie'>Ireland</option>
+<option value='it'>Italy</option>
+<option value='jp'>Japan</option>
+<option value='jo'>Jordan</option>
+<option value='ky'>Cayman Islands</option>
+<option value='ca'>Canada</option>
+<option value='qa'>Qatar</option>
+<option value='co'>Colombia</option>
+<option value='hr'>Croatia</option>
+<option value='kw'>Kuwait</option>
+<option value='ls'>Lesotho</option>
+<option value='lv'>Latvia</option>
+<option value='li'>Liechtenstein</option>
+<option value='lt'>Lithuania</option>
+<option value='lu'>Luxembourg</option>
+<option value='mo'>Macao</option>
+<option value='my'>Malaysia</option>
+<option value='mt'>Malta</option>
+<option value='mq'>Martinique</option>
+<option value='mx'>Mexico</option>
+<option value='mc'>Monaco</option>
+<option value='na'>Namibia</option>
+<option value='nz'>New Zealand</option>
+<option value='nl'>Netherlands</option>
+<option value='no'>Norway</option>
+<option value='om'>Oman</option>
+<option value='at'>Austria</option>
+<option value='pl'>Poland</option>
+<option value='pt'>Portugal</option>
+<option value='pr'>Puerto Rico</option>
+<option value='tw'>Taiwan, Province of China</option>
+<option value='re'>Réunion</option>
+<option value='ro'>Romania</option>
+<option value='ru'>Russian Federation</option>
+<option value='sm'>San Marino</option>
+<option value='sa'>Saudi Arabia</option>
+<option value='se'>Sweden</option>
+<option value='ch'>Switzerland</option>
+<option value='sg'>Singapore</option>
+<option value='sk'>Slovakia</option>
+<option value='si'>Slowenia</option>
+<option value='es'>Spain</option>
+<option value='za'>South Afrika</option>
+<option value='sz'>Swaziland</option>
+<option value='th'>Thailand</option>
+<option value='cz'>Czech Republic</option>
+<option value='tr'>Turkey</option>
+<option value='hu'>Hungary</option>
+<option value='va'>Vatican City</option>
+<option value='ve'>Venezuela</option>
+<option value='ae'>United Arab Emirates</option>
+<option value='us'>United States</option>
+</select>
+
+<div class='reset'></div>
+</div>
+</div>
+<table class='width100' id='data-input'>
+<colgroup>
+<col class='address-input'>
+<col class='address-or'>
+<col class='address-input'>
+</colgroup>
+<tr>
+<th>
+<h4>Upload Excel sheet (.xlsx, .ods, .xls) with stops</h4>
+</th>
+<th>
+<div class='center'>or</div>
+</th>
+<th>
+<h4>Add address(es)</h4>
+</th>
+</tr>
+<tr>
+<td id='upload'>
+<form accept-charset="UTF-8" action="/upload" enctype="multipart/form-data" id="upload_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="thEFfVdfX1RcqmF55GdX1GaERlCA3k8nKYVY+UBO0nU=" /></div>
+<input accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.oasis.opendocument.spreadsheet, application/vnd.ms-excel" id="file" name="file" type="file" />
+</form>
+
+</td>
+<td></td>
+<td id='enterAddressList'>
+<div id='bulkLoader'>
+<form accept-charset="UTF-8" action="/save_bulk_load" data-remote="true" id="bulkLoader_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="thEFfVdfX1RcqmF55GdX1GaERlCA3k8nKYVY+UBO0nU=" /></div>
+<textarea cols="55" id="BulkLoaderList" name="BulkLoaderList" placeholder="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. " rows="10" title="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. ">
+</textarea>
+</form>
+
+</div>
+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>
+<div class='nowrap' id='descriptioncheckbox'>
+<input class="desc_options" id="tsp_first_col_is_desc" name="tsp_first_col_is_desc" type="checkbox" />
+<label class="desc_options" for="tsp_first_col_is_desc">addresses with a description (e.g. customer number, company name) </label>
+</div>
+<div class='nowrap display_none' id='markercolorscheckbox'>
+<input class="markercolors_options" id="tsp_markercolors" name="tsp_markercolors" type="checkbox" />
+<label class="markercolors_options" for="tsp_markercolors">colored address points</label>
+</div>
+<div class='nowrap display_none' id='servicetimecheckbox'>
+<input class="servicetimes_options" id="tsp_servicetimes" name="tsp_servicetimes" type="checkbox" />
+<label class="servicetimes_options" for="tsp_servicetimes">addresses with duration (in minutes)</label>
+</div>
+<div class='display_none' id='delimiter_dsc'>
+<div id='dsc_opt_columns'>
+Add description before address, separated by a delimiter.
+</div>
+<div id='dsc_delimiters'>
+allowed delimiters: <span class="cr">TAB</span> , <span class="cr">|</span> , <span class="cr">;</span> or <span class="cr">,</span>.
+</div>
+<div id='dsc_opt_example'>
+<span id='description_opt_example_exp'>
+example:
+</span>
+<span class='display_none' id='description_opt_example_desc'>
+<i> John Smith, </i>
+</span>
+<span class='display_none' id='description_opt_example_color'>
+<i> blue, </i>
+</span>
+<span class='display_none' id='description_opt_example_service_times'>
+<i> 30, </i>
+</span>
+<span id='description_opt_example_addr'>
+<i> Mittenheimer Str 58, 85674 Oberschleißheim </i>
+</span>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="button" id="uploadLoader" onclick="$(&#x27;#upload_form&#x27;).submit();" type="button" value="Upload Excel sheet" />
+</td>
+<td></td>
+<td>
+<input class="button" id="workBulkLoader" onclick="$(&#x27;#bulkLoader_form&#x27;).submit();" title="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. " type="button" value="Add address(es)" />
+
+</td>
+</tr>
+</table>
+<hr>
+<div id='waypoints_table'>
+<div id='tsp_times'>
+<div class='tsp-summary'>
+range:
+0,0
+<span id='tsp_out_dist'></span>
+km, approx. travel time
+00:00
+<span id='tsp_out_dur'></span>
+<span id='tsp_total_time'></span>
+total time:
+00:00
+</div>
+</div>
+
+</div>
+<script>
+  //<![CDATA[
+    try {travelling_geocoding.makeTableSortable();} catch(e) {}
+  //]]>
+</script>
+
+</div>
+<div id='upload_select_fields' style='display:none'>
+<select class='upload_select_fields'>
+<option value='-'>-</option>
+<option value='str'>Street</option>
+<option value='hnr'>Housenumber</option>
+<option value='str_hnr'>Street Housenumber</option>
+<option value='plz'>Postcode</option>
+<option value='ort'>Locality</option>
+<option value='plz_ort'>Postcode Locality</option>
+<option value='staat'>Country</option>
+<option value='desc'>Description</option>
+<option value='color'>Color</option>
+<option value='duration'>Duration of stay (minutes)</option>
+<option value='timeframe_start'>Time slot start</option>
+<option value='timeframe_end'>Time slot end</option>
+<option value='latitude'>Latitude</option>
+<option value='longitude'>Longitude</option>
+<option value='zusatz1'>Addition 1</option>
+<option value='zusatz2'>Addition 2</option>
+<option value='zusatz3'>Addition 3</option>
+<option value='zusatz4'>Addition 4</option>
+<option value='zusatz5'>Addition 5</option>
+</select>
+
+</div>
+</div>
+<script>
+  //<![CDATA[
+    function update_example_rows(){
+      var offset = parseInt($('#header_lines').val()) || 0;
+      var example_count = Math.min(6, travelling_geocoding.uploaded_data.length - offset) + offset;
+      var cols = travelling_geocoding.uploaded_data[0].length;
+      var out = '';
+      for (var i = offset; i < example_count; i++){
+        out += '<tr>';
+        for (var y = 0; y < cols; y++){
+          if (travelling_geocoding.uploaded_data[i][y] == null){
+            out += '<td>-</td>';
+          } else {
+            out += '<td>' + travelling_geocoding.uploaded_data[i][y] + '</td>';
+          }
+        }
+        out += '</tr>';
+      };
+      $('.upload_table table tbody tr').remove();
+      $('.upload_table table tbody').append(out);
+      $('.upload_table table tbody tr td').css("vertical-align", "top");
+      $('.upload_table table tbody tr:odd').css("background-color", "rgb(250, 250, 250)");
+    };
+    
+    
+    function zuordnung_isvalid(zuordnung){
+      var min_required_combi = [
+        ['latitude', 'longitude'],
+        ['str', 'ort'],
+        ['str', 'plz'],
+        ['str', 'plz_ort'],
+        ['str_hnr', 'ort'],
+        ['str_hnr', 'plz'],
+        ['str_hnr', 'plz_ort']
+      ];
+      var valid = 'invalid_combi';
+      // check, ob gültige kombinationen ausgewählt wurden
+      $.each(min_required_combi, function(i, v){
+        var c1 = 0;
+        var c2 = v.length;
+        $.each(zuordnung, function(i_i, v_v){
+          if ($.inArray(v_v[1], v) > -1){
+            c1++;
+          };
+        });
+        if (c1 == c2){
+          valid = v;
+          return false; // means break :-(
+        };
+      });
+      // check, ob ein feld mehrfach ausgewählt wurde
+      var test_array = [];
+      $.each(zuordnung, function(i,e){ 
+        if($.inArray(e[1], test_array) === -1) test_array.push(e[1]) ;
+      });
+      if (test_array.length != zuordnung.length){
+        valid = 'multiple';
+      }
+      return valid;
+    };
+    
+    jQuery.fn.center = function () {
+      this.css("position","absolute");
+      this.css("top", ( jQuery(window).height() - this.height() ) / 2+jQuery(window).scrollTop() + "px");
+      this.css("left", ( jQuery(window).width() - this.width() ) / 2+jQuery(window).scrollLeft() + "px");
+      return this;
+    };
+    
+    $('#close_icon').click(
+      function () {
+        // change other exit too - search for dfe6iWTjxOgeY
+        $('#alert_popup')
+        .removeClass('alert_popup_select_fields')
+        .css("position", "")
+        .css("top", "")
+        .css("left", "")
+        .hide();
+        $('#alert_screen').hide();
+      }
+    );
+    
+    $(document).ready(function() {
+    
+      $('#alert_popup').off('click', '#upload_start_geocode').on('click', '#upload_start_geocode', function(e){
+        var offset = parseInt($('#header_lines').val()) || 0;
+        var zuordnung = [];
+        $('#alert_message .upload_table .upload_select_fields').each(function(i){
+          if ($(this).val() != '-'){
+            zuordnung.push([$(this).attr('data-id'), $(this).val()]);
+          }
+        });
+        var selected_zuordnung = zuordnung_isvalid(zuordnung);
+        switch (selected_zuordnung){
+          case 'invalid_combi':
+            $('#upload_error').html(texte.feldzuordnung_fehler_keine_kombi);
+          break;
+          case 'multiple':
+            $('#upload_error').html(texte.feldzuordnung_fehler_mehrfach_zuordnung);
+          break;
+          default:
+            // change other exit too - search for dfe6iWTjxOgeY
+            $('#alert_popup').removeClass('alert_popup_select_fields').css("position", "").css("top", "").css("left", "");
+            $('#upload_error').empty();
+            travelling_geocoding.work_from_import(zuordnung, offset, selected_zuordnung);
+        };
+      });
+    
+      var iscountryCodeClicked = false;
+    
+      $('select.target_country').click(function() {
+        $.cookie("gbc_usercountry", $('select.target_country').val());
+        iscountryCodeClicked = true;
+      });
+    
+      if ($.cookie("gbc_usercountry") == null) {
+        $.getJSON('//api.wipmania.com/jsonp?callback=?', '', function(json) {
+          if (!iscountryCodeClicked) {
+            var countryCode = json.address.country_code.toLowerCase();
+            $('select.target_country option[value=' + countryCode + ']').attr('selected', 'selected');
+            $.cookie("gbc_usercountry", countryCode);
+          }
+        });
+      } else {
+        var countryCode = $.cookie("gbc_usercountry");
+        $('select.target_country option[value=' + countryCode + ']').attr('selected', 'selected');
+      }
+      
+      $('#upload_form').ajaxForm({
+        beforeSend: function() {
+        },
+        uploadProgress: function(event, position, total, percentComplete) {
+        },
+        success: function(text) {
+          var data = null;
+          if (typeof text === "object") {data = text;}
+          else {
+            // IE 9.0 und niedriger
+            try {
+              data = $.parseJSON(text);
+            }
+            catch (e) {
+              data = {errormessage : texte.upload_can_not_open_file};
+            }
+          }
+    
+          if (data && data.errormessage){
+            showAlert(data.errormessage);
+          } else {
+            travelling_geocoding.uploaded_data = data.values;
+            var cols = data.values[0].length;
+            var out = '<label for="header_lines">' + texte.upload_header_lines + '</label>&nbsp;<input id="header_lines" max="99" min="0" name="header_lines" type="number"><br /><br />';
+            out += '<div class="upload_table"><table style="width:100%;"><thead><tr>';
+            for (var i = 0; i < cols; i++){
+              out += '<td>' + $('#upload_select_fields').html() + '</td>';
+            }
+            out += '</tr></thead><tbody>';
+            out += '</tbody></table></div>';
+            out += '<div id="upload_error"></div>';
+            out += '<div class="upload_start_geocode_div"><button class="button" id="upload_start_geocode">' + texte.feldzuordnung_start_geocoding + '</button></div>';
+            $('#alert_message').html(out);
+            
+            var offset = parseInt(data.upload_offset) || 0;
+            $('#header_lines').val(offset);
+            update_example_rows();
+            
+            $('#alert_popup_title').html(texte.feldzuordnung + ' "' + data.file + '" (' + data.values.length + ' ' + texte.upload_counted_rows + ')');
+            $('#alert_popup')
+            .addClass('alert_popup_select_fields')
+            .show()
+            .center();
+            
+            $('#header_lines').off('change').on('change', function(){
+              update_example_rows();
+            });
+            
+            $('.upload_select_fields').each(function(i){
+              $(this).attr('data-id', i);
+            });
+            if (data.zuordnungen){
+              $.each(data.zuordnungen, function (i, v){
+                $('.upload_select_fields').eq(v[0]).val(v[1]);
+              });
+            };
+            $('.upload_select_fields').on('change', function(e){
+              $('#upload_error').empty();
+            });
+            $('#alert_screen').show();
+          }
+        },
+        complete: function(xhr) {
+        }
+      });
+      if ($('#tsp_first_col_is_desc').is(':checked')) {
+        $('#delimiter_dsc').show();
+      }
+    });
+  //]]>
+</script>
+
+</div>
+<div id='javascript_vars'>
+<script>
+  //<![CDATA[
+    var session_waypoints = false;
+    var session_roundtrip = false;
+    var session_route = false;
+    var session_step = "step_1";
+    var map_click_disable = false;
+  //]]>
+</script>
+
+<script>
+  //<![CDATA[
+    var dictionary = {};
+    dictionary["hours"] = "hours";
+    dictionary["minutes"] = "minutes";
+    
+    dictionary["btn_ready"] = "Done";
+    dictionary["btn_cancel"] = "Cancel";
+    dictionary["btn_column_default"] = "For all stops";
+  //]]>
+</script>
+
+</div>
+
+<div id='uploaded_addresses'>
+
+</div>
+</div>
+<div class='spacer'></div>
+<div id='footer'><p>
+<span>
+Copyright &copy; 2008-2014
+<a href="http://www.standortanalyse.biz/" target="homepage">gb consite GmbH.</a>
+</span>
+<span class='noprint'>
+Design inspired by
+<a href='http://andreasviklund.com' target='designer'>Andreas Viklund</a>
+</span>
+<br class='noprint'>
+<span class='noprint'>
+<a href="http://www.standortanalyse.biz/de/imp.html" target="impressum">imprint</a>
+&bull;
+<a href="#" id="load_html_agb">general terms and conditions of service</a>
+&bull;
+<a href="#" id="load_html_wider">revocation rights information</a>
+&bull;
+<a href="#" id="load_html_daten">data privacy statement</a>
+</span>
+<br class='noprint'>
+<span class='noprint' id='svnversion'>
+960
+</span>
+</p>
+</div>
+<div class='spacer'></div>
+<div class='data_boxed' id='login_form'>
+<h3>
+Login
+<img alt="Close" id="close_login" src="/assets/icons/close-f12bdd1eecedd19f93142b18c13ce07a.png" />
+</h3>
+<div class='inner'>
+<div class='paragraph'>
+In order to buy credits for MultiRoute, you need a user account.
+<div class='buttonhull'>
+<a href="/registration" class="button" data-remote="true">Register</a>
+</div>
+</div>
+<div class='paragraph'>
+<form accept-charset="UTF-8" action="/login" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="thEFfVdfX1RcqmF55GdX1GaERlCA3k8nKYVY+UBO0nU=" /></div>
+<div class='paragraph'>You already have a user account for MultiRoute? Log in here. </div>
+<div class='form_item'>
+<label for="login">Email</label>
+<br>
+<div class='item'><input id="login" name="login" size="35" type="text" /></div>
+</div>
+<div class='spacer'></div>
+<div class='form_item'>
+<label for="password">Password</label>
+<br>
+<div class='item'><input autocomplete="off" id="password" name="password" size="35" type="password" /></div>
+</div>
+<div class='spacer'></div>
+<br>
+<div class='form_item'>
+<div class='buttonhull line_center'>
+<input class="button" name="commit" type="submit" value="Log in" />
+&nbsp;
+<a href="/forgot_password" data-remote="true">Forgot password?</a>
+</div>
+</div>
+<div class='spacer'></div>
+</form>
+
+</div>
+</div>
+</div>
+<script>
+  //<![CDATA[
+    $('#close_login').click(function(){
+        $('#login_form, #alert_screen').hide();
+    });
+  //]]>
+</script>
+
+<div id='save_tour' style='display:none;'></div>
+</div>
+</body>
+</html>
+https://www.multiroute.de/?locale=en
+1
+<!DOCTYPE html>
+<html lang='de'>
+<head>
+<meta charset='UTF-8'>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='de' name='DC.language'>
+<meta content='/browserconfig.xml' name='msapplication-config'>
+<title>MultiRoute - Free multiple stops route planning, route optimization and tour planning e.g. for couriers or salesmen</title>
+<meta content='The free multiple stops route planning, route optimization and tour planning e.g. for couriers or salesmen - Geomarketing based on Bing Maps or Google Maps.' name='description'>
+<meta content='MultiRoute, multiple stops, fastest route, shortest path, tour planner, route planning, route optimization, optimize routes, tour planning, planning routes, optimization, tour optimization, travelling salesman, Google Maps, Bing Maps, free, couriers, courier services, field service, field sales staff' name='keywords'>
+<meta content='gb consite GmbH / original design by Andreas Viklund - http://andreasviklund.com/' name='author'>
+<meta content='index,follow' name='robots'>
+<meta content='DE-BY' name='geo.region'>
+<meta content='Mittenheimer Straße 58, 85764 Oberschleißheim, Deutschland' name='geo.placename'>
+<meta content='48.2601665;11.5574324' name='geo.position'>
+<meta content='48.2601665,11.5574324' name='ICBM'>
+
+<link href="/assets/application-dc26ee85d333890a7f0ec7853ee11320.css" media="all" rel="stylesheet" type="text/css" />
+<link href="/assets/application-print-7df01488bf2f34929b5e82065ffe891b.css" media="print" rel="stylesheet" type="text/css" />
+<!--[if IE]>
+<link href="/assets/ie-1b13569e9620782f423d4cd3ce931750.css" media="all" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script charset="UTF-8" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&amp;mkt=en-GB&amp;s=1" type="text/javascript"></script>
+<!--[if lt IE 8]>
+<script src="/assets/json2-e3356f5fe96541c3f696e0595dc35252.js" type="text/javascript"></script>
+<![endif]-->
+<script src="/assets/application-97929474e8a3f62a81802fbc34366f1e.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="y+0OdDaX0wO4OeIJqAfMQkYZVWrcVsx09sRzsQ62bfc=" name="csrf-token" />
+<script>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6211403-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+
+</head>
+<body>
+<script>
+  //<![CDATA[
+    var maximum_waypoints = 7;
+  //]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    var texte = {
+        min_wegpunkte : 'The minimum number of waypoints is 2'
+        , max_limit_waypoints_reached : '<p> A tour optimization with a maximum of7 stops is available free of charge and without registration <br/> Optimized tours with8 and more stops are charged at the following rates (purchase credits for the following periods of use, within the period of use the use is unlimited with any number of stops and as many tour optimizations as possible): <br/><div id=\"product_list\"><table class=\"list width100\"><colgroup><col width=\"130px\"><col width=\"120px\"><col width=\"130px\"><col width=\"*px\"><\/colgroup><tr><th>useful life<\/th><th>expires<\/th><th class=\"right\">Price<br/>(incl. 19.0 %VAT)<\/th><th class=\"center\">now<\/th><\/tr><tr class=\"even\"><td>60 minutes<\/td><td>28.07.2014 17:45<\/td><td class=\"right\">1,99 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"odd\"><td>24 hours<\/td><td>29.07.2014 16:45<\/td><td class=\"right\">4,99 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"even\"><td>1 month<\/td><td>28.08.2014 16:45<\/td><td class=\"right\">49,00 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"odd\"><td>1 year<\/td><td>28.07.2015 16:45<\/td><td class=\"right\">299,00 €<\/td><td><a href=\"/login\" class=\"button order c\" data-remote=\"true\">buy<\/a><\/td><\/tr><tr class=\"even\"><td>web service<\/td><td>1 year<\/td><td class=\"right\">from 892,50 €<\/td><td><a href=\"http://www.standortanalyse.biz/de/imp.html\" class=\"button order c\">on request<\/a><\/td><\/tr><\/table><\/div><br/>You must login / register first: <a href=\"/login\" class=\"button\" data-remote=\"true\">Login<\/a><\/p>'
+        , no_results_geocoding : 'No results for &quot;%s0&quot;.'
+        , address_skipped : 'Address skipped &quot;%s0&quot;.'
+        , error_while_getting_route : 'Failed to route the request. Please refresh the page and try again.'
+        , calc_az : 'Calculating optimal route'
+        , calc_aza : 'Calculating optimal round trip'
+        , stop : 'pause'
+        , stop_at : 'break at'
+        , of : 'of'
+        , reverse_geocode : 'Reverse geocode'
+        , geocode_address : 'Geocoding %s0'
+        , searchresult_not_unique : 'Multiple results for &quot;%s0&quot;. Select Item!'
+        , cancel_address : 'skip adress'
+        , get_final_route : 'Fetch the final route'
+        , calc_optimal_route : 'Calculating optimal route'
+        , get_route_part : 'Fetch partial route %s0 of %s1'
+        , wp_not_routable : 'For the stop %s0 (%s1) no route could be calculated. <br/><br/>Please change either the position by (slightly) moving the stop icon on the map to another section or road or delete this stop.                                                     <br/><br/><br/><br/><a href=\"/goto_step/1\" onclick=\"$(\'#close_icon\').trigger(\'click\');\" class=\"button icon arrowleft\" data-remote=\"true\">Back to the address input<\/a>'
+        , wp_testpairs : '<div> An error occurred when calculating the route <br/> connection between the stops %s0 and %s1 will be checked <\/div>.'
+        , alert_popup_title : 'note'
+        , addresspunkt_uebernehmen : 'Add address point?'
+        , addresspunkt_verschieben : 'Move address point?'
+        , addresspunkt_uebernehmen_ja : 'Yes'
+        , addresspunkt_uebernehmen_nein : 'No'
+        , tsptw_berechne : 'Calculating optimal route with time intervals'
+        , tsptw_berechne_restzeit : 'Maximum remaining time ca.'
+        , tsptw_sekunden : 'seconds'
+        , timeframe_first_missing: 'Please enter a departure time for the first waypoint (consider the date).'
+        , klick_in_karte: 'Clicked in map'
+        , trafficinfo: 'Traffic information'
+        , load_warten: 'Please wait'
+        , upload_header_lines: 'Addresses start at row'
+        , feldzuordnung: 'Field mapping'
+        , feldzuordnung_fehler_keine_kombi: 'No minimum valid assignment combination found. The following minimum combinations are valid:<\/br>Street and Locality | Street and Postcode | Street and Postcode Locality | Street Housenumber and Postcode | Street Housenumber and Postcode Locality | Latitude and Longitude.'
+        , feldzuordnung_fehler_mehrfach_zuordnung: 'At least one column was assigned several times.'
+        , feldzuordnung_start_geocoding: 'Start'
+        , upload_counted_rows: 'Lines'
+        , upload_can_not_open_file: 'File cannot be opend'
+    };
+  //]]>
+</script>
+
+
+<script>
+  //<![CDATA[
+    var resourcen = {
+          setup_travelling_salesman : '/setup_travelling_salesman'
+        , add_locations : '/add_locations'
+        , order_locations : '/order_locations'
+        , remove_location : '/remove_location'
+        , update_location : '/update_location'
+        , agb_path : '/allgemeine_geschaeftsbedingungen'
+        , datenschutz_path : '/datenschutz'
+        , widerrufsbelehrung_path : '/widerrufsbelehrung'
+        , add_pin_to_tour : '/add_pin_to_tour'
+        , open_click_dialog : '/open_click_dialog'
+        , edit_pin : '/edit_pin'
+        , edit_save_pin : '/edit_save_pin'
+        , tour_planning : '/tour_planning'
+        , tsptw_calc : '/tsptw_calc'
+        , show_tour : '/show_tour/'
+        , save_upload_defaults : '/save_upload_defaults'
+    };
+    var images = {
+        standard_icon: { url: '/assets/map/pin_orange-7cdaa0c4fc27a4630f1c2d2a3697f4a6.png', width: 35, height: 43, dx:17.5, dy:43}
+      , start_icon: { url: '/assets/map/green_flag-e1860b2138b35272d28f440ede3edac7.png', width: 35, height: 43, dx:6, dy:41}
+      , stop_icon: { url: '/assets/map/break_flag-3030cd3b76cd49d279de2e12ed35104d.png', width: 35, height: 43}
+      , destination_icon: { url: '/assets/map/checkered_flag-d26fa8fed2689096616d699067bb1098.png', width: 35, height: 43, dx:3, dy:42}
+      , pin_colors_as_images_list : {"red":"/assets/map/pin_red-6c311a6e2fd2b2576da21d801cb2fad0.png","red_checked":"/assets/map/pin_red_checked-0579a368c9c6a601b3aac4d2d0cbbce8.png","black":"/assets/map/pin_black-1c523221c60a303489e2d1b9562978fc.png","black_checked":"/assets/map/pin_black_checked-41fd26148f7f43d3041f86bcb29768d5.png","blue":"/assets/map/pin_blue-6a799ddcd6a930ae3136f3c670e73118.png","blue_checked":"/assets/map/pin_blue_checked-f6730d095e7f1ab27998966f688a40b6.png","green":"/assets/map/pin_green-718c403f27eb5a70603640091bce8335.png","green_checked":"/assets/map/pin_green_checked-62da621414b21a8ffd4c7ecfce7e5e69.png","grey":"/assets/map/pin_grey-b8424085e5360d9af64965cbaa1fae2b.png","grey_checked":"/assets/map/pin_grey_checked-b8b6473ee877fefa2bfaa254f1414c1b.png","orange":"/assets/map/pin_orange-7cdaa0c4fc27a4630f1c2d2a3697f4a6.png","orange_checked":"/assets/map/pin_orange_checked-ba1ef6a60a8d07926957d87b08c0fecb.png","purple":"/assets/map/pin_purple-31b60144bc782069419ef33857c42e42.png","purple_checked":"/assets/map/pin_purple_checked-0c0dbafea874159ec04e63cdda74beb8.png","yellow":"/assets/map/pin_yellow-d4aae78ff17250812d3cf44068ad65e3.png","yellow_checked":"/assets/map/pin_yellow_checked-408a4078aaa5aad56aa4effcbf6ba9d5.png"}
+          
+    };
+  //]]>
+</script>
+
+
+<div id='alert_screen'></div>
+<div class='data_boxed' id='alert_popup'>
+<h3>
+<span id='alert_popup_title'>note</span>
+<img alt="Close" class="right" id="close_icon" src="/assets/icons/close-f12bdd1eecedd19f93142b18c13ce07a.png" />
+</h3>
+<div class='inner'>
+<p id='alert_message'></p>
+</div>
+<script>
+  //<![CDATA[
+    $('#close_icon').click(
+      function () {
+        $('#alert_popup').hide();
+        $('#alert_screen').hide();
+      }
+    );
+  //]]>
+</script>
+
+</div>
+<div id='tsm-container'>
+<div class='noprint' id='header'>
+<div id='logo'>
+<iframe allowTransparency='true' frameborder='0' scrolling='no' src='//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FOnlineTourenplaner&amp;amp;send=false&amp;amp;layout=standard&amp;amp;width=850&amp;amp;show_faces=false&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;action=recommend&amp;amp;height=24' style='border:none; overflow:hidden; width:850px; height:24px;'></iframe>
+<a href='http://www.standortanalyse.biz/de/standortanalyse-tourenplaner.html'>
+<div class='logo_images header_logopart logo_en'></div>
+<div class='logo_images header_counterpart'></div>
+<div class='reset'></div>
+</a>
+</div>
+
+</div>
+<div class='spacer'></div>
+<div class='noprint' id='menu'>
+<div class='data_boxed' id='user_menu'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#user_menu_content'>
+<a onclick='h3inject(this);'>
+Menu
+</a>
+</div>
+<div class='slide_title eject' hidethis='#user_menu_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+Menu
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#user_menu_content'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#user_menu_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='user_menu_content'>
+<ul class='menu_links'>
+<li><a href="/profil" data-remote="true"><img alt="Profile" src="/assets/icons/my_profile-b2c6ff2c5abe3155416634a387d6ba5e.png" title="Profile" /><br />Profile</a></li>
+<li><a href="/account" data-remote="true"><img alt="My account" src="/assets/icons/my_account-1c90e9406dfd764022420a128b3c8b2f.png" title="My account" /><br />My account</a></li>
+<li><a href="/tours" data-remote="true"><img alt="My tours" src="/assets/icons/my_tours-47dd9ec513113ba208f00caf82abb33f.png" title="My tours" /><br />My tours</a></li>
+</ul>
+<div id='user_status'>
+You are not logged in:
+<a href="/profil" data-remote="true">Login here</a>
+<div id='languages'>&nbsp;<span class="disabled language"><a href="/?locale=de"><img alt="De" src="/assets/flags/de-e941764eb3dfa3fcec5fe2ddc31b6b23.png" title="deutsch" /></a></span>&nbsp;<span class="disabled language"><a href="/?locale=fr"><img alt="Fr" src="/assets/flags/fr-54f913146705986ae1062fc37f42be78.png" title="français" /></a></span></div>
+</div>
+</div>
+<div class='spacer'></div>
+</div>
+
+</div>
+<div class='spacer'></div>
+<div class='noprint' id='flash'>
+<noscript>
+<div class='alert'>
+<p>
+You use either a browser without JavaScript or you have enabled NoScript or another script blocker  <br/><br/> However, both the BING map and MultiRoute are implemented in JavaScript.
+</p>
+<p>
+Please get either a modern browser or enable Java Script for:
+<ul>
+<li>
+*.multiroute.de
+</li>
+<li>
+*.virtualearth.net
+</li>
+</ul>
+</p>
+</div>
+</noscript>
+<div class='spacer'></div>
+</div>
+
+<div class='spacer'></div>
+<div id='top'></div>
+<div class='noprint' id='help_box'>
+<div class='data_boxed'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#help_content'>
+<a onclick='h3inject(this);'>
+Help (show/hide)
+</a>
+</div>
+<div class='slide_title eject' hidethis='#help_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+Help (show/hide)
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#help_content'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#help_content' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='help_content'>
+<p>gb consite MultiRoute is a geo-service for multiple stops route planning, route optimization, tour planning and tour optimization and is a part of our range of Google Maps and BING Maps based geo online services. MultiRoute uses the <a href="http://www.microsoft.com/maps/developers/web.aspx" target="_blank"> BING Maps API</a> and the on OpenStreetMap based <a href="https://github.com/DennisOSRM/Project-OSRM/wiki/Server-api" target="_blank">OSRM API</a>.
+   <br/><br/>
+   This service is targeted with its web interface as "software as a service" (SAAS) to all couriers, courier services, sales representatives, agents, flyer distributor, supplier, delivery personnel, service technicians, maintenance workers and other types of "salesmen" who need a ready to use, fast, flexible and cost effective service, that puts almost unlimited number of destination addresses in an optimized order, and who are not willing to invest in an expensive desktop software or do not have the possibility to get a company solution or a similar disposition solution.
+   <br/><br/>
+   MultiRoute uses the addresses you entered solely for the optimization of your trips and routes. Only you can export the destination addresses to your navigation device. Storing or processing of addresses by the operator of the m platform or other institutions will not take place in any case.
+   <br/>
+   For more information on the methodology and operation of MultiRoute <a href="http://www.standortanalyse.biz/de/routenoptimierung-tourenplaner-methodik.html" target="_blank"> click here </a>.
+   <br/><br/>
+   For tours with up to 7 stops, MultiRoute is free and can be used even without registration / application. <br/>
+   If you want to optimize a tour with more than 7 stops, you must register and then acquire a package for the temporary use within a certain time period (hour, day, month, year) via online payment with PayPal. During the booked period you can use MultiRoute as often and intensely as desired . </p>
+
+    <h3>Step 1: Enter address </h3>
+    <p> MultiRoute processes as many stops as you wish by<p>
+    <ul>
+      <li><b>click on the map</b> (the mouse cross marks the exact location of your stop), or </li>
+      <li><b>Excel spreadsheet upload</b> (.xlsx, .ods, .xls) including description, color, stay time, time windows, and five additional fields for notes etc. or </li>
+      <li><b>address list entry</b> with the right input field (simply copy the address into the clipboard for example from Word, Excel, or other text files. A stop per line, notation as above) </li>
+    </ul>
+    <p>and geocodes them. You will then see the stops on the map and in the list of stops. <br/> <br/>
+    When uploading an Excel spreadsheet you optionally can provide your addresses directly with description, color, length of stay, time slots and five additional fields for comments, etc.<br/>
+    When first reading an Excel spreadsheet just assign which field contains the respective information. This field mapping will be automatically saved for all future uploads with your user profile. <br/> 
+    When reading an address list with the input field on the right, select the option "addresses with description" to process additional information. Just add  the customer number or customer name before the actual address and then separate this description with following characters from the actual address: <span class="cr">TAB</span> (tab) <span class="cr">|</span> (vertical bar or pipe), <span class="cr">; </span> (semicolon) or <span class="cr">, </span> (comma). <br/>
+    If in the geocoding some addresses are not located correctly, it may be helpful to select the country in which the stops are located (checkbox "stops predominantly in...").
+   <br/> <br/>
+You can also move the points on the map (with drag & drop) or clear them (with a click), which also works in the list. <br/> The first stop in your list (green flag) is always the beginning of your tour and at the same time in case of a circular route the destination (checkered flag). In the case of an oneway tour, the last stop on the list is the destination of your trip (checkered flag).
+<br/> <br/>
+Examples of address inputs:
+    <ul>
+      <li> gb consite GmbH, Mittenheimer Straße 58, 85764 Oberschleißheim (address with description, activate option!)</li>
+      <li> Mittenheimer Straße 58, 85764 Oberschleißheim </li>
+      <li> Mittenheimer Straße 58, 85764 </li>
+      <li> gb consite GmbH | Mittenheimer Straße 58, Oberschleissheim (address with description, activate option!)</li>
+      <li> 85764 Oberschleißheim </li>
+      <li> 85764 </li>
+      <li> Oberschleißheim </li>
+      <li> 48.260146,11.557453 (coordinate in decimal, the point as the the decimal delimiter and the comma as the field delimiter) </li>
+      <li> gb consite GmbH 48.260146,11.557453;(address with description, activate option!)  </li>
+    </ul>
+Possible individual colors for address points:
+    <ul>
+      <li> red </li>
+      <li> black </li>
+      <li> blue </li>
+      <li> green </li>
+      <li> grey, gray </li>
+      <li> orange </li>
+      <li> purple </li>
+      <li> yellow </li>
+    </ul>
+</p>
+    <h3> Step 2: Route Optimization </h3>
+<p> MultiRoute can display now the tour in the given order ("just draw tour") or calculate the optimized route either as a oneway track or circular route, regardless of the input sequence. For this purpose, you now have several options available: </p>
+    <ul>
+      <li> optimization to minimum time </li>
+      <li> optimization to minimum distance </li>
+      <li> minimize toll </li>
+      <li> avoid motorway </li>
+    </ul>
+    <p>
+      After the optimization you will now get the stops in the correct sequence and the coordinates, distances and driving times from stop to stop. Of course, tour and stops are displayed on the map and you will receive a summary of the length of the total distance and the total travel time. <br/>
+Now, if you move or delete the stops in the results, you can then start optimizing again or view the tour without optimization (button "redraw tour graph"). </p>
+    <h3> Step 3: Scheduling </h3>
+    <p> In addition to the optimization you have the possibility to obtain arrival and departure times or break times for your optimized route . <br/>
+    Click on the "scheduling" button. In the result, you can now additionally specify a duration of stay for each stop  (e.g. the duration of an customer meeting). You can also specify the desired arrival or departure time, and schedule regular breaks after a certain number of intermediate destinations. <br/>
+    All of the scheduling options are considered in the summary of the entire tour.
+</p>
+    <h3>Step 4: Print & Export</h3>
+<p> Finally, the result can be printed or exported in a variety of formats - including the ones of the leading navigation device manufacturer (e.g. TomTom, Garmin, Navigon) <br/>.
+  For example you can load the stops in the optimized sequence into your navigation device, then drive by them one by one. <br/>
+    Please note that some additional software is needed to transfer the export files to the navigation device (e. g. Garmin BaseCamp or MapSource, TomTom Home).
+    <br/> 
+    As an additional output option you can export your planning file to a calendar like Microsoft Outlook, and the printing on paper is also available. </p>
+    <h3> Features for registered users </h3>
+    <p>
+    Registered users with a valid package tours can
+    calculate any number of stops (free of charge: up to 7 stops). The tours can be saved and loaded in the tour management for a new calculation. <br/>
+    The prices of the packages can be found in the price list ("My Account"). Other premium features (upload addresses, consideration of opening times, daily budget, etc.) are planned. </p>
+    <h3> Where is the advantage?</h3>
+    <p>
+    gb consite MultiRoute is based on BING Maps (Google Maps is also possible) and therefore provides an unattainable price advantage over existing solutions that integrate their own map data. Furthermore, the latest map data is updated as the basis for routing, geocoding and visualization four times a year at no additional cost. <br/>
+    The web interface of MultiRoute works without installation on any computer with an Internet connection, and mobile devices are also supported. </P>
+    <h3> More geo-services by gb consite GmbH </h3>
+    <p>
+    In addition to the "MultiRoute", we offer since May 2009 our award-winning geo-tool "Online Site Check" or our "White Spot Analysis", which produce a variety of different well-founded site analysis and soon also the geographical distribution controlling system "online market information" (previously available only as a customer solution), which helps in the evaluation of regional sales performance.
+    It is planned to expand the product range of Google Maps and Bing Maps-based geo-services continuously and, as in the "MultiRoute"
+       and the "Online Site Check" also to offer more partially free services (free preview of the catchment area).
+    </p>
+</div>
+<div class='spacer'></div>
+</div>
+
+
+</div>
+<div class='spacer'></div>
+<div id='data'><script>
+  //<![CDATA[
+    var bing_routes = "https://dev.virtualearth.net/REST/v1/Routes/Driving?c=de-DE&output=json&jsonp=?&du=km";
+  //]]>
+</script>
+<div class='data_map'>
+<h3>
+<span id="map_tourname">Map </span>
+<img alt="" height="16" id="mapsize_750" src="/assets/icons/map_add-31e0c9c76c23e5a0d5146a7bf7a3381f.png" style="cursor:pointer;margin-left:5px;margin-right:-1px;" width="16" />
+<img alt="" height="16" id="mapsize_500" src="/assets/icons/map_edit-f85a5016a290c0d82596ead0041d649d.png" style="cursor:pointer;;margin-left:5px;" width="16" />
+<img alt="" height="16" id="mapsize_250" src="/assets/icons/map_delete-a77f3c3c125b0817085648f284c98938.png" style="cursor:pointer;;margin-left:5px;" width="16" />
+</h3>
+<div class='map'>
+<div class='maphidden' id='loading'>
+<img alt="Gbc_loading" src="/assets/gbc_loading-2787e05820af312ac65ac181589c0815.jpg" />
+<div id='status_message'>
+Karte wird geladen, bitte warten…
+</div>
+<img alt="Pleasewait" src="/assets/pleasewait-bdc5c071af23e9fd5b23c6be1b8e0669.gif" />
+</div>
+<div class='mapvisible' id='gmap'>
+<div class='map' id='Tourenplaner'></div>
+</div>
+</div>
+</div>
+
+<div id='function_area'>
+<div class='data_boxed' id='data-entry'>
+
+<h3 class='noprint'>
+<div class='slide_title inject' hidethis='#step1'>
+<a onclick='h3inject(this);'>
+Step 1: Enter address
+</a>
+</div>
+<div class='slide_title eject' hidethis='#step1' style='display: none;'>
+<a onclick='h3eject(this);'>
+Step 1: Enter address
+</a>
+</div>
+</h3>
+<div class='roll_buttons noprint'>
+<div class='slide_buttons inject' hidethis='#step1'>
+<a onclick='h3inject(this);'>
+<img alt="Control_inject" class="icon" height="16" src="/assets/icons/control_inject-d50decfe84bd05777a14fade594d233e.png" title="hide" width="16" />
+</a>
+</div>
+<div class='slide_buttons eject' hidethis='#step1' style='display: none;'>
+<a onclick='h3eject(this);'>
+<img alt="Control_eject" class="icon" height="16" src="/assets/icons/control_eject-082239cd76518076dfd082760e0aadc5.png" title="show" width="16" />
+</a>
+</div>
+</div>
+
+<div id='step1'>
+<div class='noprint' id='location_setup'>
+<div id='delimiter_opt'>
+<label for='target_country' id='target_country_label'>Most stops in...</label>
+<select class='target_country' id='target_country'>
+<option value='-'>several countries</option>
+<option value='vi'>Virgin Islands, U.S.</option>
+<option value='ad'>Andorra</option>
+<option value='ar'>Argentina</option>
+<option value='au'>Australia</option>
+<option value='bs'>Bahamas</option>
+<option value='bh'>Bahrain</option>
+<option value='be'>Belgium</option>
+<option value='bw'>Botswana</option>
+<option value='br'>Brazil</option>
+<option value='bg'>Bulgaria</option>
+<option value='dk'>Denmark</option>
+<option value='de'>Germany</option>
+<option value='ee'>Estonia</option>
+<option value='fi'>Finland</option>
+<option value='fr'>France</option>
+<option value='gf'>French Guiana</option>
+<option value='gi'>Gibraltar</option>
+<option value='gr'>Greece</option>
+<option value='gb'>United Kingdom</option>
+<option value='gp'>Guadeloupe</option>
+<option value='hk'>Hong Kong</option>
+<option value='in'>India</option>
+<option value='id'>Indonesia</option>
+<option value='im'>Isle of Man</option>
+<option value='ie'>Ireland</option>
+<option value='it'>Italy</option>
+<option value='jp'>Japan</option>
+<option value='jo'>Jordan</option>
+<option value='ky'>Cayman Islands</option>
+<option value='ca'>Canada</option>
+<option value='qa'>Qatar</option>
+<option value='co'>Colombia</option>
+<option value='hr'>Croatia</option>
+<option value='kw'>Kuwait</option>
+<option value='ls'>Lesotho</option>
+<option value='lv'>Latvia</option>
+<option value='li'>Liechtenstein</option>
+<option value='lt'>Lithuania</option>
+<option value='lu'>Luxembourg</option>
+<option value='mo'>Macao</option>
+<option value='my'>Malaysia</option>
+<option value='mt'>Malta</option>
+<option value='mq'>Martinique</option>
+<option value='mx'>Mexico</option>
+<option value='mc'>Monaco</option>
+<option value='na'>Namibia</option>
+<option value='nz'>New Zealand</option>
+<option value='nl'>Netherlands</option>
+<option value='no'>Norway</option>
+<option value='om'>Oman</option>
+<option value='at'>Austria</option>
+<option value='pl'>Poland</option>
+<option value='pt'>Portugal</option>
+<option value='pr'>Puerto Rico</option>
+<option value='tw'>Taiwan, Province of China</option>
+<option value='re'>Réunion</option>
+<option value='ro'>Romania</option>
+<option value='ru'>Russian Federation</option>
+<option value='sm'>San Marino</option>
+<option value='sa'>Saudi Arabia</option>
+<option value='se'>Sweden</option>
+<option value='ch'>Switzerland</option>
+<option value='sg'>Singapore</option>
+<option value='sk'>Slovakia</option>
+<option value='si'>Slowenia</option>
+<option value='es'>Spain</option>
+<option value='za'>South Afrika</option>
+<option value='sz'>Swaziland</option>
+<option value='th'>Thailand</option>
+<option value='cz'>Czech Republic</option>
+<option value='tr'>Turkey</option>
+<option value='hu'>Hungary</option>
+<option value='va'>Vatican City</option>
+<option value='ve'>Venezuela</option>
+<option value='ae'>United Arab Emirates</option>
+<option value='us'>United States</option>
+</select>
+
+<div class='reset'></div>
+</div>
+</div>
+<table class='width100' id='data-input'>
+<colgroup>
+<col class='address-input'>
+<col class='address-or'>
+<col class='address-input'>
+</colgroup>
+<tr>
+<th>
+<h4>Upload Excel sheet (.xlsx, .ods, .xls) with stops</h4>
+</th>
+<th>
+<div class='center'>or</div>
+</th>
+<th>
+<h4>Add address(es)</h4>
+</th>
+</tr>
+<tr>
+<td id='upload'>
+<form accept-charset="UTF-8" action="/upload" enctype="multipart/form-data" id="upload_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="y+0OdDaX0wO4OeIJqAfMQkYZVWrcVsx09sRzsQ62bfc=" /></div>
+<input accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.oasis.opendocument.spreadsheet, application/vnd.ms-excel" id="file" name="file" type="file" />
+</form>
+
+</td>
+<td></td>
+<td id='enterAddressList'>
+<div id='bulkLoader'>
+<form accept-charset="UTF-8" action="/save_bulk_load" data-remote="true" id="bulkLoader_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="y+0OdDaX0wO4OeIJqAfMQkYZVWrcVsx09sRzsQ62bfc=" /></div>
+<textarea cols="55" id="BulkLoaderList" name="BulkLoaderList" placeholder="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. " rows="10" title="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. ">
+</textarea>
+</form>
+
+</div>
+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>
+<div class='nowrap' id='descriptioncheckbox'>
+<input class="desc_options" id="tsp_first_col_is_desc" name="tsp_first_col_is_desc" type="checkbox" />
+<label class="desc_options" for="tsp_first_col_is_desc">addresses with a description (e.g. customer number, company name) </label>
+</div>
+<div class='nowrap display_none' id='markercolorscheckbox'>
+<input class="markercolors_options" id="tsp_markercolors" name="tsp_markercolors" type="checkbox" />
+<label class="markercolors_options" for="tsp_markercolors">colored address points</label>
+</div>
+<div class='nowrap display_none' id='servicetimecheckbox'>
+<input class="servicetimes_options" id="tsp_servicetimes" name="tsp_servicetimes" type="checkbox" />
+<label class="servicetimes_options" for="tsp_servicetimes">addresses with duration (in minutes)</label>
+</div>
+<div class='display_none' id='delimiter_dsc'>
+<div id='dsc_opt_columns'>
+Add description before address, separated by a delimiter.
+</div>
+<div id='dsc_delimiters'>
+allowed delimiters: <span class="cr">TAB</span> , <span class="cr">|</span> , <span class="cr">;</span> or <span class="cr">,</span>.
+</div>
+<div id='dsc_opt_example'>
+<span id='description_opt_example_exp'>
+example:
+</span>
+<span class='display_none' id='description_opt_example_desc'>
+<i> John Smith, </i>
+</span>
+<span class='display_none' id='description_opt_example_color'>
+<i> blue, </i>
+</span>
+<span class='display_none' id='description_opt_example_service_times'>
+<i> 30, </i>
+</span>
+<span id='description_opt_example_addr'>
+<i> Mittenheimer Str 58, 85674 Oberschleißheim </i>
+</span>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<input class="button" id="uploadLoader" onclick="$(&#x27;#upload_form&#x27;).submit();" type="button" value="Upload Excel sheet" />
+</td>
+<td></td>
+<td>
+<input class="button" id="workBulkLoader" onclick="$(&#x27;#bulkLoader_form&#x27;).submit();" title="a destination (address or coordinates) per line. Simply type in or insert from Excel, text file, etc. via the clipboard ([Ctrl] - [V]) into this field. " type="button" value="Add address(es)" />
+
+</td>
+</tr>
+</table>
+<hr>
+<div id='waypoints_table'>
+<div id='tsp_times'>
+<div class='tsp-summary'>
+range:
+0,0
+<span id='tsp_out_dist'></span>
+km, approx. travel time
+00:00
+<span id='tsp_out_dur'></span>
+<span id='tsp_total_time'></span>
+total time:
+00:00
+</div>
+</div>
+
+</div>
+<script>
+  //<![CDATA[
+    try {travelling_geocoding.makeTableSortable();} catch(e) {}
+  //]]>
+</script>
+
+</div>
+<div id='upload_select_fields' style='display:none'>
+<select class='upload_select_fields'>
+<option value='-'>-</option>
+<option value='str'>Street</option>
+<option value='hnr'>Housenumber</option>
+<option value='str_hnr'>Street Housenumber</option>
+<option value='plz'>Postcode</option>
+<option value='ort'>Locality</option>
+<option value='plz_ort'>Postcode Locality</option>
+<option value='staat'>Country</option>
+<option value='desc'>Description</option>
+<option value='color'>Color</option>
+<option value='duration'>Duration of stay (minutes)</option>
+<option value='timeframe_start'>Time slot start</option>
+<option value='timeframe_end'>Time slot end</option>
+<option value='latitude'>Latitude</option>
+<option value='longitude'>Longitude</option>
+<option value='zusatz1'>Addition 1</option>
+<option value='zusatz2'>Addition 2</option>
+<option value='zusatz3'>Addition 3</option>
+<option value='zusatz4'>Addition 4</option>
+<option value='zusatz5'>Addition 5</option>
+</select>
+
+</div>
+</div>
+<script>
+  //<![CDATA[
+    function update_example_rows(){
+      var offset = parseInt($('#header_lines').val()) || 0;
+      var example_count = Math.min(6, travelling_geocoding.uploaded_data.length - offset) + offset;
+      var cols = travelling_geocoding.uploaded_data[0].length;
+      var out = '';
+      for (var i = offset; i < example_count; i++){
+        out += '<tr>';
+        for (var y = 0; y < cols; y++){
+          if (travelling_geocoding.uploaded_data[i][y] == null){
+            out += '<td>-</td>';
+          } else {
+            out += '<td>' + travelling_geocoding.uploaded_data[i][y] + '</td>';
+          }
+        }
+        out += '</tr>';
+      };
+      $('.upload_table table tbody tr').remove();
+      $('.upload_table table tbody').append(out);
+      $('.upload_table table tbody tr td').css("vertical-align", "top");
+      $('.upload_table table tbody tr:odd').css("background-color", "rgb(250, 250, 250)");
+    };
+    
+    
+    function zuordnung_isvalid(zuordnung){
+      var min_required_combi = [
+        ['latitude', 'longitude'],
+        ['str', 'ort'],
+        ['str', 'plz'],
+        ['str', 'plz_ort'],
+        ['str_hnr', 'ort'],
+        ['str_hnr', 'plz'],
+        ['str_hnr', 'plz_ort']
+      ];
+      var valid = 'invalid_combi';
+      // check, ob gültige kombinationen ausgewählt wurden
+      $.each(min_required_combi, function(i, v){
+        var c1 = 0;
+        var c2 = v.length;
+        $.each(zuordnung, function(i_i, v_v){
+          if ($.inArray(v_v[1], v) > -1){
+            c1++;
+          };
+        });
+        if (c1 == c2){
+          valid = v;
+          return false; // means break :-(
+        };
+      });
+      // check, ob ein feld mehrfach ausgewählt wurde
+      var test_array = [];
+      $.each(zuordnung, function(i,e){ 
+        if($.inArray(e[1], test_array) === -1) test_array.push(e[1]) ;
+      });
+      if (test_array.length != zuordnung.length){
+        valid = 'multiple';
+      }
+      return valid;
+    };
+    
+    jQuery.fn.center = function () {
+      this.css("position","absolute");
+      this.css("top", ( jQuery(window).height() - this.height() ) / 2+jQuery(window).scrollTop() + "px");
+      this.css("left", ( jQuery(window).width() - this.width() ) / 2+jQuery(window).scrollLeft() + "px");
+      return this;
+    };
+    
+    $('#close_icon').click(
+      function () {
+        // change other exit too - search for dfe6iWTjxOgeY
+        $('#alert_popup')
+        .removeClass('alert_popup_select_fields')
+        .css("position", "")
+        .css("top", "")
+        .css("left", "")
+        .hide();
+        $('#alert_screen').hide();
+      }
+    );
+    
+    $(document).ready(function() {
+    
+      $('#alert_popup').off('click', '#upload_start_geocode').on('click', '#upload_start_geocode', function(e){
+        var offset = parseInt($('#header_lines').val()) || 0;
+        var zuordnung = [];
+        $('#alert_message .upload_table .upload_select_fields').each(function(i){
+          if ($(this).val() != '-'){
+            zuordnung.push([$(this).attr('data-id'), $(this).val()]);
+          }
+        });
+        var selected_zuordnung = zuordnung_isvalid(zuordnung);
+        switch (selected_zuordnung){
+          case 'invalid_combi':
+            $('#upload_error').html(texte.feldzuordnung_fehler_keine_kombi);
+          break;
+          case 'multiple':
+            $('#upload_error').html(texte.feldzuordnung_fehler_mehrfach_zuordnung);
+          break;
+          default:
+            // change other exit too - search for dfe6iWTjxOgeY
+            $('#alert_popup').removeClass('alert_popup_select_fields').css("position", "").css("top", "").css("left", "");
+            $('#upload_error').empty();
+            travelling_geocoding.work_from_import(zuordnung, offset, selected_zuordnung);
+        };
+      });
+    
+      var iscountryCodeClicked = false;
+    
+      $('select.target_country').click(function() {
+        $.cookie("gbc_usercountry", $('select.target_country').val());
+        iscountryCodeClicked = true;
+      });
+    
+      if ($.cookie("gbc_usercountry") == null) {
+        $.getJSON('//api.wipmania.com/jsonp?callback=?', '', function(json) {
+          if (!iscountryCodeClicked) {
+            var countryCode = json.address.country_code.toLowerCase();
+            $('select.target_country option[value=' + countryCode + ']').attr('selected', 'selected');
+            $.cookie("gbc_usercountry", countryCode);
+          }
+        });
+      } else {
+        var countryCode = $.cookie("gbc_usercountry");
+        $('select.target_country option[value=' + countryCode + ']').attr('selected', 'selected');
+      }
+      
+      $('#upload_form').ajaxForm({
+        beforeSend: function() {
+        },
+        uploadProgress: function(event, position, total, percentComplete) {
+        },
+        success: function(text) {
+          var data = null;
+          if (typeof text === "object") {data = text;}
+          else {
+            // IE 9.0 und niedriger
+            try {
+              data = $.parseJSON(text);
+            }
+            catch (e) {
+              data = {errormessage : texte.upload_can_not_open_file};
+            }
+          }
+    
+          if (data && data.errormessage){
+            showAlert(data.errormessage);
+          } else {
+            travelling_geocoding.uploaded_data = data.values;
+            var cols = data.values[0].length;
+            var out = '<label for="header_lines">' + texte.upload_header_lines + '</label>&nbsp;<input id="header_lines" max="99" min="0" name="header_lines" type="number"><br /><br />';
+            out += '<div class="upload_table"><table style="width:100%;"><thead><tr>';
+            for (var i = 0; i < cols; i++){
+              out += '<td>' + $('#upload_select_fields').html() + '</td>';
+            }
+            out += '</tr></thead><tbody>';
+            out += '</tbody></table></div>';
+            out += '<div id="upload_error"></div>';
+            out += '<div class="upload_start_geocode_div"><button class="button" id="upload_start_geocode">' + texte.feldzuordnung_start_geocoding + '</button></div>';
+            $('#alert_message').html(out);
+            
+            var offset = parseInt(data.upload_offset) || 0;
+            $('#header_lines').val(offset);
+            update_example_rows();
+            
+            $('#alert_popup_title').html(texte.feldzuordnung + ' "' + data.file + '" (' + data.values.length + ' ' + texte.upload_counted_rows + ')');
+            $('#alert_popup')
+            .addClass('alert_popup_select_fields')
+            .show()
+            .center();
+            
+            $('#header_lines').off('change').on('change', function(){
+              update_example_rows();
+            });
+            
+            $('.upload_select_fields').each(function(i){
+              $(this).attr('data-id', i);
+            });
+            if (data.zuordnungen){
+              $.each(data.zuordnungen, function (i, v){
+                $('.upload_select_fields').eq(v[0]).val(v[1]);
+              });
+            };
+            $('.upload_select_fields').on('change', function(e){
+              $('#upload_error').empty();
+            });
+            $('#alert_screen').show();
+          }
+        },
+        complete: function(xhr) {
+        }
+      });
+      if ($('#tsp_first_col_is_desc').is(':checked')) {
+        $('#delimiter_dsc').show();
+      }
+    });
+  //]]>
+</script>
+
+</div>
+<div id='javascript_vars'>
+<script>
+  //<![CDATA[
+    var session_waypoints = false;
+    var session_roundtrip = false;
+    var session_route = false;
+    var session_step = "step_1";
+    var map_click_disable = false;
+  //]]>
+</script>
+
+<script>
+  //<![CDATA[
+    var dictionary = {};
+    dictionary["hours"] = "hours";
+    dictionary["minutes"] = "minutes";
+    
+    dictionary["btn_ready"] = "Done";
+    dictionary["btn_cancel"] = "Cancel";
+    dictionary["btn_column_default"] = "For all stops";
+  //]]>
+</script>
+
+</div>
+
+<div id='uploaded_addresses'>
+
+</div>
+</div>
+<div class='spacer'></div>
+<div id='footer'><p>
+<span>
+Copyright &copy; 2008-2014
+<a href="http://www.standortanalyse.biz/" target="homepage">gb consite GmbH.</a>
+</span>
+<span class='noprint'>
+Design inspired by
+<a href='http://andreasviklund.com' target='designer'>Andreas Viklund</a>
+</span>
+<br class='noprint'>
+<span class='noprint'>
+<a href="http://www.standortanalyse.biz/de/imp.html" target="impressum">imprint</a>
+&bull;
+<a href="#" id="load_html_agb">general terms and conditions of service</a>
+&bull;
+<a href="#" id="load_html_wider">revocation rights information</a>
+&bull;
+<a href="#" id="load_html_daten">data privacy statement</a>
+</span>
+<br class='noprint'>
+<span class='noprint' id='svnversion'>
+960
+</span>
+</p>
+</div>
+<div class='spacer'></div>
+<div class='data_boxed' id='login_form'>
+<h3>
+Login
+<img alt="Close" id="close_login" src="/assets/icons/close-f12bdd1eecedd19f93142b18c13ce07a.png" />
+</h3>
+<div class='inner'>
+<div class='paragraph'>
+In order to buy credits for MultiRoute, you need a user account.
+<div class='buttonhull'>
+<a href="/registration" class="button" data-remote="true">Register</a>
+</div>
+</div>
+<div class='paragraph'>
+<form accept-charset="UTF-8" action="/login" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="y+0OdDaX0wO4OeIJqAfMQkYZVWrcVsx09sRzsQ62bfc=" /></div>
+<div class='paragraph'>You already have a user account for MultiRoute? Log in here. </div>
+<div class='form_item'>
+<label for="login">Email</label>
+<br>
+<div class='item'><input id="login" name="login" size="35" type="text" /></div>
+</div>
+<div class='spacer'></div>
+<div class='form_item'>
+<label for="password">Password</label>
+<br>
+<div class='item'><input autocomplete="off" id="password" name="password" size="35" type="password" /></div>
+</div>
+<div class='spacer'></div>
+<br>
+<div class='form_item'>
+<div class='buttonhull line_center'>
+<input class="button" name="commit" type="submit" value="Log in" />
+&nbsp;
+<a href="/forgot_password" data-remote="true">Forgot password?</a>
+</div>
+</div>
+<div class='spacer'></div>
+</form>
+
+</div>
+</div>
+</div>
+<script>
+  //<![CDATA[
+    $('#close_login').click(function(){
+        $('#login_form, #alert_screen').hide();
+    });
+  //]]>
+</script>
+
+<div id='save_tour' style='display:none;'></div>
+</div>
+</body>
+</html>

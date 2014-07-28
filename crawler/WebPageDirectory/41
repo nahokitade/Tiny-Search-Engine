@@ -1,0 +1,888 @@
+http://tspsg.info/
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tspsg.info/en/blogapi/rsd" />
+<link rel="alternate" type="application/rss+xml" title="TSPSG RSS" href="http://tspsg.info/en/rss.xml" />
+<link rel="shortcut icon" href="/files/favicon.ico" type="image/x-icon" />
+<meta name="keywords" content="tspsg,tsp solver and generator,travelling salesman problem,tsp,branch and bound method" />
+<meta name="description" content="TSPSG is intended to generate and solve Travelling Salesman Problem (TSP) tasks. It uses Branch and Bound method for solving." />
+<meta name="copyright" content="Copyright © 2010 Oleksii &quot;Lёppa&quot; Serdiuk" />
+<link rel="canonical" href="http://tspsg.info/en" />
+<meta name="revisit-after" content="1 day" />
+    <title>TSPSG | TSP Solver and Generator</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/files/css/css_970caa298d6c774a10b6c307c48e6d70.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/files/css/css_ccab660506768ab36924cd13ce35b9b5.css" />
+    <script type="text/javascript" src="/files/js/js_176518e4e65e5c7663b290b5dd73703a.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "spamspan": { "m": "spamspan", "u": "u", "d": "d", "h": "h", "t": "t" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-403979-11";window.google_analytics_domain_name = ".tspsg.info";
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/en" title="TSPSG TSP Solver and Generator"><img src="/files/logo.png" alt="TSPSG TSP Solver and Generator" id="logo" /><span>TSPSG</span> TSP Solver and Generator</a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-319 first"><a href="/en/about" title="About">About</a></li>
+<li class="menu-316"><a href="/en/news" title="">News</a></li>
+<li class="menu-905"><a href="/en/download" title="">Download</a></li>
+<li class="menu-691"><a href="http://bugs.tspsg.info/" title="">Issue Tracker</a></li>
+<li class="menu-400 last"><a href="/en/source-code" title="">Source Code</a></li>
+</ul>                          <ul class="links secondary-links"><li class="menu-396 first"><a href="http://sourceforge.net/projects/tspsg/" title="">SourceForge.net</a></li>
+<li class="menu-398"><a href="http://www.ohloh.net/p/tspsg" title="">Ohloh</a></li>
+<li class="menu-399 last"><a href="http://freshmeat.net/projects/tspsg" title="">freshmeat.net</a></li>
+</ul>        
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-CRZ-NXCR46xYEOtcPIVjWQoTtnc5IddImVgLRhdYeGk" value="form-CRZ-NXCR46xYEOtcPIVjWQoTtnc5IddImVgLRhdYeGk"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-menu-menu-mainmenu" class="clear-block block block-menu">
+
+  <h2>Main Menu</h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="/en/about" title="">About TSPSG</a></li>
+<li class="leaf"><a href="/en/news" title="">News</a></li>
+<li class="leaf"><a href="/en/images/screenshots" title="">Screenshots</a></li>
+<li class="expanded"><a href="/en/download" title="">Download</a><ul class="menu"><li class="leaf first last"><a href="/en/source-code" title="">Source Code</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/releases" title="">Release History</a></li>
+<li class="expanded"><a href="/en/support" title="Support">Support</a><ul class="menu"><li class="leaf first"><a href="http://bugs.tspsg.info/" title="">Issue Tracker</a></li>
+<li class="leaf last"><a href="http://tspsg.info/docs/" title="">Source Documentation</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/credits" title="Credits">Credits</a></li>
+<li class="leaf last"><a href="/en/contact" title="">Contact</a></li>
+</ul></div>
+</div>
+<div id="block-locale-0" class="clear-block block block-locale">
+
+  <h2>Languages</h2>
+
+  <div class="content"><ul><li class="en first active"><a href="/en" class="language-link active"><img src="/sites/all/modules/languageicons/flags/en.png" alt="English" title="English"  class="language-icon" width="16" height="12" /> English</a></li>
+<li class="uk"><a href="/uk" class="language-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="ru last"><a href="/ru" class="language-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+</div>
+<div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><center>
+<a href="http://www.softpedia.com/progClean/TSP-Solver-and-Generator-Clean-217978.html"><img src="/files/softpedia_free_award_f.gif" width="170" height="116" alt="100% FREE award granted by Softpedia" title="100% FREE award granted by Softpedia" /></a>
+<a href="http://www.softworld.com/windows/science-education/math-scientific-tools/tsp-solver-and-generator/virus-report/"><img src="/files/softworld_virus_clean.png" width="150" height="100" alt="&quot;SoftWorld.com 100% CLEAN&quot; AWARD" title="&quot;SoftWorld.com 100% CLEAN&quot; AWARD" /></a>
+<!-- a href="http://qt.nokia.com/qt-in-use/ambassadors/project?id=a0F20000006KW1cEAG"><img src="/files/qt_ambassador_logo.png" alt="Member of Qt Ambassador Program" title="Member of Qt Ambassador Program" width="75" height="100" /></a -->
+<br />
+<a href="http://sourceforge.net/projects/tspsg/"><img src="https://sourceforge.net/sflogo.php?group_id=207706&type=9" width="80" height="15" alt="Get TSPSG: TSP Solver and Generator at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+<script type="text/javascript" src="https://www.openhub.net/p/80658/widgets/project_thin_badge.js"></script>
+<a href="http://www.startssl.com/"><img src="https://www.startssl.com/img/startcom_secured_lock_80x15.png" border="0" alt="Secured By StartCom" title="Secured By StartCom"></a>
+<a href="https://www.drupal.org/"><img src="/misc/powered-gray-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a>
+</center></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+                                                                                          <div class="clear-block">
+            <div id="node-1" class="node sticky">
+
+
+  <h2><a href="/en/about" title="About TSPSG">About TSPSG</a></h2>
+
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-25" style="width: 100px;"><a href="/en/about"><img src="http://tspsg.info/files/images/solution-v0.1.3.thumbnail.png" alt="Main Window (Solution Tab), v0.1 beta 1" title="Main Window (Solution Tab), v0.1 beta 1"  class="image image-thumbnail " width="100" height="86" /></a></div>
+<!-- google_ad_section_start --><p>This software is intended to generate and solve <strong>Travelling Salesman Problem</strong> (TSP) tasks. It uses <strong>Branch and Bound</strong> method for solving. An input is a number of cities and a matrix of city-to-city travel prices. The matrix can be populated with random values in a given range (useful for generating tasks). The result is an optimal route, its price, step-by-step matrices of solving and solving graph. The task can be saved in internal binary format and opened later. The result can be printed or saved as PDF, HTML, or ODF.</p>
+<p>TSPSG may be useful for teachers to generate test tasks or just for regular users to solve TSPs. Also, it may be used as an example of using Branch and Bound method to solve a particular task.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="node_read_more first"><a href="/en/about" title="Read the rest of About TSPSG.">Read more</a></li>
+<li class="statistics_counter"><span>35758 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/about" title="Про TSPSG" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/about" title="Про TSPSG" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-41" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2">TSPSG v0.1 beta 2</a></h2>
+
+      <span class="submitted">Tue, 19/04/2011 - 21:11 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The second beta of <strong>TSP Solver and Generator</strong> is out! This beta mainly features bugfixes but has some new features, too. One of them is <em>the support for embedding solution graph into HTML when saving a solution</em> (using <a href="http://en.wikipedia.org/wiki/Data_URI_scheme" title="http://en.wikipedia.org/wiki/Data_URI_scheme">data URI scheme</a>, not supported by IE 7 and earlier, supported by all other major browsers). Also, see <a href="http://bugs.tspsg.info/ticket/5">Ticket&nbsp;#5</a> and <a href="http://bugs.tspsg.info/ticket/8">Ticket&nbsp;#8</a> for the description of other new features.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/41#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-beta-2" title="Read the rest of TSPSG v0.1 beta 2.">Read more</a></li>
+<li class="statistics_counter"><span>14780 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="webfm_attachments last"><a href="/en/releases/tspsg-v0.1-beta-2#attachments" title="Read full article to view attachments.">1 attachment</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-34" class="node">
+
+
+  <h2><a href="/en/news/some-symbian-love" title="Some Symbian love">Some Symbian love</a></h2>
+
+      <span class="submitted">Sat, 12/03/2011 - 21:39 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-32" style="width: 100px;"><a href="/en/news/some-symbian-love"><img src="http://tspsg.info/files/images/task-symbian3-v0.1.3.thumbnail.png" alt="Task Tab (Symbian^3), v0.1 beta 1" title="Task Tab (Symbian^3), v0.1 beta 1"  class="image image-thumbnail " width="100" height="178" /></a></div>
+<!-- google_ad_section_start --><p>As you may already know, recently <a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="/en/news/tspsg-was-accepted-to-qt-ambassador-program">TSPSG was accepted to Qt Ambassador Program</a>. As part of this program I&#039;ve been sent some merchandise that included a <strong>Nokia C7-00</strong> device powered by <strong>Symbian^3</strong>. This gave me the ability to test TSPSG on a real Symbian device.</p>
+<p>As a result of this, I&#039;ve made a Symbian build of <a href="/en/releases/tspsg-v0.1-beta-1" title="/en/releases/tspsg-v0.1-beta-1">TSPSG v0.1 beta 1 release</a> source code, found some slight (mostly UI) problems, fixed them and submitted the result to <a href="http://store.ovi.com/" title="http://store.ovi.com/"><strong>Nokia OVI Store</strong></a> for <strong>Symbian^1</strong> (a.k.a <strong>S60 5th Edition</strong>) and <strong>Symbian^3</strong> devices. Several days ago <strong>Symbian^3</strong> version has passed the QA and is now available for download from the store. <del><strong>Symbian^1</strong> is yet in the process.</del> <strong>Update:</strong> <strong>Symbian^1</strong> version is now live, too.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/34#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/news/some-symbian-love" title="Read the rest of Some Symbian love.">Read more</a></li>
+<li class="statistics_counter"><span>9924 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D1%82%D1%80%D0%BE%D1%85%D0%B8-%D1%83%D0%B2%D0%B0%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-symbian" title="Трохи уваги для Symbian" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/news/%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-symbian" title="Немного внимания для Symbian" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="webfm_attachments last"><a href="/en/news/some-symbian-love#attachments" title="Read full article to view attachments.">1 attachment</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-28" class="node">
+
+
+  <h2><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="TSPSG was accepted to Qt Ambassador Program">TSPSG was accepted to Qt Ambassador Program</a></h2>
+
+      <span class="submitted">Wed, 16/02/2011 - 09:13 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-31" style="width: 75px;"><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program"><img src="http://tspsg.info/files/images/qt_ambassador_logo.png" alt="Qt Ambassador Logo" title="Qt Ambassador Logo"  class="image image-thumbnail " width="75" height="100" /></a></div>
+<!-- google_ad_section_start --><p>Great news, everyone!</p>
+<p>At the beginning of this year I have applied with TSPSG to <a href="http://qt.nokia.com/qt-in-use/ambassadors/qtambassador/" title="http://qt.nokia.com/qt-in-use/ambassadors/qtambassador/">Qt Ambassador Program</a>. Recently, my application was accepted and now TSPSG is featured in <a href="http://qt.nokia.com/qt-in-use/ambassadors/showcase" title="http://qt.nokia.com/qt-in-use/ambassadors/showcase">Qt Ambassador Showcase</a>. You can find it here: <a href="" title="">http://qt.nokia.com/qt-in-use/ambassadors/project?id=a0F20000006KW1cEAG</a>.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/28#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="Read the rest of TSPSG was accepted to Qt Ambassador Program.">Read more</a></li>
+<li class="statistics_counter"><span>10027 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/tspsg-%D0%B1%D1%83%D0%BB%D0%BE-%D0%BF%D1%80%D0%B8%D0%B9%D0%BD%D1%8F%D1%82%D0%BE-%D0%B4%D0%BE-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8-qt-ambassador" title="TSPSG було прийнято до програми Qt Ambassador" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/tspsg-%D0%B1%D1%8B%D0%BB-%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%83-qt-ambassador" title="TSPSG был принят в программу Qt Ambassador" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-21" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-beta-1" title="TSPSG v0.1 beta 1 released">TSPSG v0.1 beta 1 released</a></h2>
+
+      <span class="submitted">Mon, 18/10/2010 - 01:00 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The first beta of <strong>TSP Solver and Generator</strong> has been released during this weekend. Feel free to download its source and binary builds from the <a href="https://sourceforge.net/projects/tspsg/files/0.1.3.145-beta1/" title="https://sourceforge.net/projects/tspsg/files/0.1.3.145-beta1/">project&#039;s SourceForge.net Files section</a>. The binary builds are available for <strong>Windows</strong>, <strong>Windows Mobile</strong> and <strong>FreeBSD</strong> (expeimental).</p>
+<p>The main new feature of this release is the <em>solution graph generation</em>. Also, it features <em>toolbar customization</em> (only on desktop platforms), <em>drag-an-drop</em>, <em>support for switching between available Qt styles</em>, an <em>improved solution output generation algorithm</em>, and some other improvements and bugfixes. See the attached <a href="/files/ChangeLog-0.1.3.txt" title="/files/ChangeLog-0.1.3.txt">ChangeLog</a> for more details.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/21#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-beta-1" title="Read the rest of TSPSG v0.1 beta 1 released.">Read more</a></li>
+<li class="statistics_counter"><span>7912 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/releases/tspsg-v0.1-beta-1" title="Випущено TSPSG v0.1 beta 1" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/releases/tspsg-v0.1-beta-1" title="Выпущен TSPSG v0.1 beta 1" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="upload_attachments last"><a href="/en/releases/tspsg-v0.1-beta-1#attachments" title="Read full article to view attachments.">2 attachments</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-16" class="node">
+
+
+  <h2><a href="/en/news/issue-tracker-launch" title="Issue Tracker launch">Issue Tracker launch</a></h2>
+
+      <span class="submitted">Tue, 12/10/2010 - 21:58 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The official <strong>TSPSG</strong> issue tracker has been launched today. You can always find it by this link: <a href="http://tspsg.info/goto/bugtracker" title="http://tspsg.info/goto/bugtracker">http://tspsg.info/goto/bugtracker</a>.</p>
+<p>Also, this means that the <em>beta</em> release is coming soon. So keep tuned...</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/16#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="statistics_counter"><span>6450 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%81%D0%B0%D0%B9%D1%82%D1%83-%D0%BF%D0%BE-%D0%B2%D1%96%D0%B4%D1%81%D1%82%D0%B5%D0%B6%D0%B5%D0%BD%D0%BD%D1%8E-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC" title="Запуск сайту по відстеженню проблем" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC" title="Запуск сайта по отслеживанию проблем" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-6" class="node">
+
+
+  <h2><a href="/en/news/welcome-to-tspsg-website" title="Welcome to TSPSG website!">Welcome to TSPSG website!</a></h2>
+
+      <span class="submitted">Sat, 07/08/2010 - 22:11 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The official TSPSG website has been launched today.</p>
+<p>There isn&#039;t much information here at this moment, but this site will be the main source for TSPSG news and support.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/6#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="statistics_counter"><span>8727 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D0%BB%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D1%83-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82-tspsg" title="Ласкаво прошу на сайт TSPSG!" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/%D0%B4%D0%BE%D0%B1%D1%80%D0%BE-%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82-tspsg" title="Добро пожаловать на сайт TSPSG!" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-5" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-alpha-2" title="TSPSG v0.1 alpha 2 is out!">TSPSG v0.1 alpha 2 is out!</a></h2>
+
+      <span class="submitted">Fri, 09/04/2010 - 01:04 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p><a href="https://sourceforge.net/projects/tspsg/files/0.1.2.100-alpha2/" title="https://sourceforge.net/projects/tspsg/files/0.1.2.100-alpha2/">The second alpha of TSPSG is here</a>. You can download the binary builds for <strong>Windows</strong>, <strong>Windows Mobile</strong> and <strong>Symbian</strong> or compile it form the source code yourself right now.</p>
+<p>The new version features symmetric mode, improved solution algorithm, support for tasks with up to 50 cities, printing of solution results and many more. Just read the attached ChangeLog.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/5#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-alpha-2" title="Read the rest of TSPSG v0.1 alpha 2 is out!.">Read more</a></li>
+<li class="statistics_counter"><span>8539 reads</span></li>
+<li class="upload_attachments last"><a href="/en/releases/tspsg-v0.1-alpha-2#attachments" title="Read full article to view attachments.">2 attachments</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-4" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-alpha-1" title="TSPSG v0.1 alpha 1 is here">TSPSG v0.1 alpha 1 is here</a></h2>
+
+      <span class="submitted">Sat, 01/08/2009 - 19:55 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>This build is alpha and is intended only to see what&#039;s going on and test TSPSG. It does contain bugs. No bug tracker or feature request facilities will be available until the first beta.</p>
+<p>For those who are still interested: <a href="https://sourceforge.net/projects/tspsg/files/0.1.1.42-alpha1/" title="https://sourceforge.net/projects/tspsg/files/0.1.1.42-alpha1/">download TSPSG v0.1 alpha 1</a>. Only <strong>Windows</strong> and <strong>Windows Mobile</strong> binary builds are available at this moment. <strong>Linux</strong>, <strong>FreeBSD</strong> and other supported platforms users have to download source, unpack, run qmake then make from the unpacked directory (note, that you will need <strong>Qt 4.5</strong> or later to build this release of TSPSG).</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/4#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-alpha-1" title="Read the rest of TSPSG v0.1 alpha 1 is here.">Read more</a></li>
+<li class="statistics_counter last"><span>8333 reads</span></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="block--1" class="block">
+
+  <div class="content">
+    <div style='text-align:center'><div class='adsense' >
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0532891311345945"
+     data-ad-slot="8858218223"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>  </div>
+</div>
+          </div>
+          <a href="http://tspsg.info/en/rss.xml" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="TSPSG RSS" width="16" height="16" /></a>          <div id="footer">Copyright &copy; 2010-2013 <a href="http://oleksii.name/">Oleksii Serdiuk</a><br />
+Hosted by <a href="http://l-homes.org/">l-homes.org</a><div id="block-mobile_tools-mobile_tools_message" class="clear-block block block-mobile_tools">
+
+
+  <div class="content"><a href="/en/mt/mobile/node">View mobile site</a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-block-2" class="clear-block block block-block">
+
+  <h2>Random Screenshot</h2>
+
+  <div class="content"><center><a href="/en/images/screenshots/task-tab-%28linux-version%29-v0.1-beta-2"><img src="http://tspsg.info/files/images/task-linux-v0.1.4.thumbnail.png" alt="Task Tab (Linux Version), v0.1 beta 2" title="Task Tab (Linux Version), v0.1 beta 2"  class="image image-thumbnail " width="100" height="88" /></a></center></div>
+</div>
+<div id="block--0" class="block">
+
+  <div class="content">
+    <div style='text-align:center'><div class='adsense' style='display:inline-block;width:200px;height:200px;'>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0532891311345945";
+/* 200x200 */
+google_ad_slot = "2495768624";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></div>  </div>
+</div>
+<div id="block-aggregator-category-1" class="clear-block block block-aggregator">
+
+  <h2>GitHub and Issue Tracker feeds</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="https://github.com/leppa/tspsg/commit/4b975848ad4d1abaabf482115d3a3f15c9bbb13d">Added build status from Travis CI and BuildHive.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/2aeaea9572d8a3ca8a6fe1b3a479b1980c2266eb">Added formatting to README, INSTALL and ChangeLog files.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/50b202f04de774aad15c1fc9b51579590f311b6d">Converted README, INSTALL and ChangeLog files into Markdown format.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/fb0c1d86f41602644dd2ce0b842b016ec2032a83">Added copyright boilerplates to BB10ProxyStyle files.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/280cfd6faa8a53cf4e43e4680af36c609f8c4832">Cleared DOT_FONTNAME value in Doxyfile accroding to doxygen warning.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/af4b6d89e34d8d821c98438cc718b2369d9e8650">Added Travis CI configuration.</a>
+</li>
+<li class="last"><a href="https://github.com/leppa/tspsg/commit/78c56dd1839f92b6ccda1bd06151434af247be37">Fixed linking error that happened on some Linux distributions.</a>
+</li>
+</ul></div><div class="more-link"><a href="/en/aggregator/categories/1" title="View this category&#039;s recent news.">more</a></div></div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-403979-11"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_setDomainName", ".tspsg.info"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+  </body>
+</html>
+http://tspsg.info/
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://tspsg.info/en/blogapi/rsd" />
+<link rel="alternate" type="application/rss+xml" title="TSPSG RSS" href="http://tspsg.info/en/rss.xml" />
+<link rel="shortcut icon" href="/files/favicon.ico" type="image/x-icon" />
+<meta name="keywords" content="tspsg,tsp solver and generator,travelling salesman problem,tsp,branch and bound method" />
+<meta name="description" content="TSPSG is intended to generate and solve Travelling Salesman Problem (TSP) tasks. It uses Branch and Bound method for solving." />
+<meta name="copyright" content="Copyright © 2010 Oleksii &quot;Lёppa&quot; Serdiuk" />
+<link rel="canonical" href="http://tspsg.info/en" />
+<meta name="revisit-after" content="1 day" />
+    <title>TSPSG | TSP Solver and Generator</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/files/css/css_970caa298d6c774a10b6c307c48e6d70.css" />
+<link type="text/css" rel="stylesheet" media="print" href="/files/css/css_ccab660506768ab36924cd13ce35b9b5.css" />
+    <script type="text/javascript" src="/files/js/js_176518e4e65e5c7663b290b5dd73703a.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "spamspan": { "m": "spamspan", "u": "u", "d": "d", "h": "h", "t": "t" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.google_analytics_uacct = "UA-403979-11";window.google_analytics_domain_name = ".tspsg.info";
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/themes/garland/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/en" title="TSPSG TSP Solver and Generator"><img src="/files/logo.png" alt="TSPSG TSP Solver and Generator" id="logo" /><span>TSPSG</span> TSP Solver and Generator</a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-319 first"><a href="/en/about" title="About">About</a></li>
+<li class="menu-316"><a href="/en/news" title="">News</a></li>
+<li class="menu-905"><a href="/en/download" title="">Download</a></li>
+<li class="menu-691"><a href="http://bugs.tspsg.info/" title="">Issue Tracker</a></li>
+<li class="menu-400 last"><a href="/en/source-code" title="">Source Code</a></li>
+</ul>                          <ul class="links secondary-links"><li class="menu-396 first"><a href="http://sourceforge.net/projects/tspsg/" title="">SourceForge.net</a></li>
+<li class="menu-398"><a href="http://www.ohloh.net/p/tspsg" title="">Ohloh</a></li>
+<li class="menu-399 last"><a href="http://freshmeat.net/projects/tspsg" title="">freshmeat.net</a></li>
+</ul>        
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-LHEBCrP_Tn0INzAZg01J7eIcS_qpPMTyxMw8Vt5jgig" value="form-LHEBCrP_Tn0INzAZg01J7eIcS_qpPMTyxMw8Vt5jgig"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-menu-menu-mainmenu" class="clear-block block block-menu">
+
+  <h2>Main Menu</h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="/en/about" title="">About TSPSG</a></li>
+<li class="leaf"><a href="/en/news" title="">News</a></li>
+<li class="leaf"><a href="/en/images/screenshots" title="">Screenshots</a></li>
+<li class="expanded"><a href="/en/download" title="">Download</a><ul class="menu"><li class="leaf first last"><a href="/en/source-code" title="">Source Code</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/releases" title="">Release History</a></li>
+<li class="expanded"><a href="/en/support" title="Support">Support</a><ul class="menu"><li class="leaf first"><a href="http://bugs.tspsg.info/" title="">Issue Tracker</a></li>
+<li class="leaf last"><a href="http://tspsg.info/docs/" title="">Source Documentation</a></li>
+</ul></li>
+<li class="leaf"><a href="/en/credits" title="Credits">Credits</a></li>
+<li class="leaf last"><a href="/en/contact" title="">Contact</a></li>
+</ul></div>
+</div>
+<div id="block-locale-0" class="clear-block block block-locale">
+
+  <h2>Languages</h2>
+
+  <div class="content"><ul><li class="en first active"><a href="/en" class="language-link active"><img src="/sites/all/modules/languageicons/flags/en.png" alt="English" title="English"  class="language-icon" width="16" height="12" /> English</a></li>
+<li class="uk"><a href="/uk" class="language-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="ru last"><a href="/ru" class="language-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+</div>
+<div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><center>
+<a href="http://www.softpedia.com/progClean/TSP-Solver-and-Generator-Clean-217978.html"><img src="/files/softpedia_free_award_f.gif" width="170" height="116" alt="100% FREE award granted by Softpedia" title="100% FREE award granted by Softpedia" /></a>
+<a href="http://www.softworld.com/windows/science-education/math-scientific-tools/tsp-solver-and-generator/virus-report/"><img src="/files/softworld_virus_clean.png" width="150" height="100" alt="&quot;SoftWorld.com 100% CLEAN&quot; AWARD" title="&quot;SoftWorld.com 100% CLEAN&quot; AWARD" /></a>
+<!-- a href="http://qt.nokia.com/qt-in-use/ambassadors/project?id=a0F20000006KW1cEAG"><img src="/files/qt_ambassador_logo.png" alt="Member of Qt Ambassador Program" title="Member of Qt Ambassador Program" width="75" height="100" /></a -->
+<br />
+<a href="http://sourceforge.net/projects/tspsg/"><img src="https://sourceforge.net/sflogo.php?group_id=207706&type=9" width="80" height="15" alt="Get TSPSG: TSP Solver and Generator at SourceForge.net. Fast, secure and Free Open Source software downloads" /></a>
+<script type="text/javascript" src="https://www.openhub.net/p/80658/widgets/project_thin_badge.js"></script>
+<a href="http://www.startssl.com/"><img src="https://www.startssl.com/img/startcom_secured_lock_80x15.png" border="0" alt="Secured By StartCom" title="Secured By StartCom"></a>
+<a href="https://www.drupal.org/"><img src="/misc/powered-gray-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a>
+</center></div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+                                                                                          <div class="clear-block">
+            <div id="node-1" class="node sticky">
+
+
+  <h2><a href="/en/about" title="About TSPSG">About TSPSG</a></h2>
+
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-25" style="width: 100px;"><a href="/en/about"><img src="http://tspsg.info/files/images/solution-v0.1.3.thumbnail.png" alt="Main Window (Solution Tab), v0.1 beta 1" title="Main Window (Solution Tab), v0.1 beta 1"  class="image image-thumbnail " width="100" height="86" /></a></div>
+<!-- google_ad_section_start --><p>This software is intended to generate and solve <strong>Travelling Salesman Problem</strong> (TSP) tasks. It uses <strong>Branch and Bound</strong> method for solving. An input is a number of cities and a matrix of city-to-city travel prices. The matrix can be populated with random values in a given range (useful for generating tasks). The result is an optimal route, its price, step-by-step matrices of solving and solving graph. The task can be saved in internal binary format and opened later. The result can be printed or saved as PDF, HTML, or ODF.</p>
+<p>TSPSG may be useful for teachers to generate test tasks or just for regular users to solve TSPs. Also, it may be used as an example of using Branch and Bound method to solve a particular task.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="node_read_more first"><a href="/en/about" title="Read the rest of About TSPSG.">Read more</a></li>
+<li class="statistics_counter"><span>35758 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/about" title="Про TSPSG" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/about" title="Про TSPSG" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-41" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2">TSPSG v0.1 beta 2</a></h2>
+
+      <span class="submitted">Tue, 19/04/2011 - 21:11 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The second beta of <strong>TSP Solver and Generator</strong> is out! This beta mainly features bugfixes but has some new features, too. One of them is <em>the support for embedding solution graph into HTML when saving a solution</em> (using <a href="http://en.wikipedia.org/wiki/Data_URI_scheme" title="http://en.wikipedia.org/wiki/Data_URI_scheme">data URI scheme</a>, not supported by IE 7 and earlier, supported by all other major browsers). Also, see <a href="http://bugs.tspsg.info/ticket/5">Ticket&nbsp;#5</a> and <a href="http://bugs.tspsg.info/ticket/8">Ticket&nbsp;#8</a> for the description of other new features.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/41#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-beta-2" title="Read the rest of TSPSG v0.1 beta 2.">Read more</a></li>
+<li class="statistics_counter"><span>14780 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/releases/tspsg-v0.1-beta-2" title="TSPSG v0.1 beta 2" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="webfm_attachments last"><a href="/en/releases/tspsg-v0.1-beta-2#attachments" title="Read full article to view attachments.">1 attachment</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-34" class="node">
+
+
+  <h2><a href="/en/news/some-symbian-love" title="Some Symbian love">Some Symbian love</a></h2>
+
+      <span class="submitted">Sat, 12/03/2011 - 21:39 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-32" style="width: 100px;"><a href="/en/news/some-symbian-love"><img src="http://tspsg.info/files/images/task-symbian3-v0.1.3.thumbnail.png" alt="Task Tab (Symbian^3), v0.1 beta 1" title="Task Tab (Symbian^3), v0.1 beta 1"  class="image image-thumbnail " width="100" height="178" /></a></div>
+<!-- google_ad_section_start --><p>As you may already know, recently <a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="/en/news/tspsg-was-accepted-to-qt-ambassador-program">TSPSG was accepted to Qt Ambassador Program</a>. As part of this program I&#039;ve been sent some merchandise that included a <strong>Nokia C7-00</strong> device powered by <strong>Symbian^3</strong>. This gave me the ability to test TSPSG on a real Symbian device.</p>
+<p>As a result of this, I&#039;ve made a Symbian build of <a href="/en/releases/tspsg-v0.1-beta-1" title="/en/releases/tspsg-v0.1-beta-1">TSPSG v0.1 beta 1 release</a> source code, found some slight (mostly UI) problems, fixed them and submitted the result to <a href="http://store.ovi.com/" title="http://store.ovi.com/"><strong>Nokia OVI Store</strong></a> for <strong>Symbian^1</strong> (a.k.a <strong>S60 5th Edition</strong>) and <strong>Symbian^3</strong> devices. Several days ago <strong>Symbian^3</strong> version has passed the QA and is now available for download from the store. <del><strong>Symbian^1</strong> is yet in the process.</del> <strong>Update:</strong> <strong>Symbian^1</strong> version is now live, too.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/34#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/news/some-symbian-love" title="Read the rest of Some Symbian love.">Read more</a></li>
+<li class="statistics_counter"><span>9924 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D1%82%D1%80%D0%BE%D1%85%D0%B8-%D1%83%D0%B2%D0%B0%D0%B3%D0%B8-%D0%B4%D0%BB%D1%8F-symbian" title="Трохи уваги для Symbian" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/news/%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE-%D0%B2%D0%BD%D0%B8%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B4%D0%BB%D1%8F-symbian" title="Немного внимания для Symbian" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="webfm_attachments last"><a href="/en/news/some-symbian-love#attachments" title="Read full article to view attachments.">1 attachment</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-28" class="node">
+
+
+  <h2><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="TSPSG was accepted to Qt Ambassador Program">TSPSG was accepted to Qt Ambassador Program</a></h2>
+
+      <span class="submitted">Wed, 16/02/2011 - 09:13 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <div class="image-attach-teaser image-attach-node-31" style="width: 75px;"><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program"><img src="http://tspsg.info/files/images/qt_ambassador_logo.png" alt="Qt Ambassador Logo" title="Qt Ambassador Logo"  class="image image-thumbnail " width="75" height="100" /></a></div>
+<!-- google_ad_section_start --><p>Great news, everyone!</p>
+<p>At the beginning of this year I have applied with TSPSG to <a href="http://qt.nokia.com/qt-in-use/ambassadors/qtambassador/" title="http://qt.nokia.com/qt-in-use/ambassadors/qtambassador/">Qt Ambassador Program</a>. Recently, my application was accepted and now TSPSG is featured in <a href="http://qt.nokia.com/qt-in-use/ambassadors/showcase" title="http://qt.nokia.com/qt-in-use/ambassadors/showcase">Qt Ambassador Showcase</a>. You can find it here: <a href="" title="">http://qt.nokia.com/qt-in-use/ambassadors/project?id=a0F20000006KW1cEAG</a>.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/28#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/news/tspsg-was-accepted-to-qt-ambassador-program" title="Read the rest of TSPSG was accepted to Qt Ambassador Program.">Read more</a></li>
+<li class="statistics_counter"><span>10027 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/tspsg-%D0%B1%D1%83%D0%BB%D0%BE-%D0%BF%D1%80%D0%B8%D0%B9%D0%BD%D1%8F%D1%82%D0%BE-%D0%B4%D0%BE-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8-qt-ambassador" title="TSPSG було прийнято до програми Qt Ambassador" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/tspsg-%D0%B1%D1%8B%D0%BB-%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82-%D0%B2-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%83-qt-ambassador" title="TSPSG был принят в программу Qt Ambassador" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-21" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-beta-1" title="TSPSG v0.1 beta 1 released">TSPSG v0.1 beta 1 released</a></h2>
+
+      <span class="submitted">Mon, 18/10/2010 - 01:00 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The first beta of <strong>TSP Solver and Generator</strong> has been released during this weekend. Feel free to download its source and binary builds from the <a href="https://sourceforge.net/projects/tspsg/files/0.1.3.145-beta1/" title="https://sourceforge.net/projects/tspsg/files/0.1.3.145-beta1/">project&#039;s SourceForge.net Files section</a>. The binary builds are available for <strong>Windows</strong>, <strong>Windows Mobile</strong> and <strong>FreeBSD</strong> (expeimental).</p>
+<p>The main new feature of this release is the <em>solution graph generation</em>. Also, it features <em>toolbar customization</em> (only on desktop platforms), <em>drag-an-drop</em>, <em>support for switching between available Qt styles</em>, an <em>improved solution output generation algorithm</em>, and some other improvements and bugfixes. See the attached <a href="/files/ChangeLog-0.1.3.txt" title="/files/ChangeLog-0.1.3.txt">ChangeLog</a> for more details.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/21#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-beta-1" title="Read the rest of TSPSG v0.1 beta 1 released.">Read more</a></li>
+<li class="statistics_counter"><span>7912 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/releases/tspsg-v0.1-beta-1" title="Випущено TSPSG v0.1 beta 1" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru"><a href="/ru/releases/tspsg-v0.1-beta-1" title="Выпущен TSPSG v0.1 beta 1" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+<li class="upload_attachments last"><a href="/en/releases/tspsg-v0.1-beta-1#attachments" title="Read full article to view attachments.">2 attachments</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-16" class="node">
+
+
+  <h2><a href="/en/news/issue-tracker-launch" title="Issue Tracker launch">Issue Tracker launch</a></h2>
+
+      <span class="submitted">Tue, 12/10/2010 - 21:58 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The official <strong>TSPSG</strong> issue tracker has been launched today. You can always find it by this link: <a href="http://tspsg.info/goto/bugtracker" title="http://tspsg.info/goto/bugtracker">http://tspsg.info/goto/bugtracker</a>.</p>
+<p>Also, this means that the <em>beta</em> release is coming soon. So keep tuned...</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/16#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="statistics_counter"><span>6450 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%81%D0%B0%D0%B9%D1%82%D1%83-%D0%BF%D0%BE-%D0%B2%D1%96%D0%B4%D1%81%D1%82%D0%B5%D0%B6%D0%B5%D0%BD%D0%BD%D1%8E-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC" title="Запуск сайту по відстеженню проблем" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%81%D0%B0%D0%B9%D1%82%D0%B0-%D0%BF%D0%BE-%D0%BE%D1%82%D1%81%D0%BB%D0%B5%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC" title="Запуск сайта по отслеживанию проблем" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-6" class="node">
+
+
+  <h2><a href="/en/news/welcome-to-tspsg-website" title="Welcome to TSPSG website!">Welcome to TSPSG website!</a></h2>
+
+      <span class="submitted">Sat, 07/08/2010 - 22:11 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>The official TSPSG website has been launched today.</p>
+<p>There isn&#039;t much information here at this moment, but this site will be the main source for TSPSG news and support.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first last"><a href="/en/news" rel="tag" title="">News</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/6#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="statistics_counter"><span>8727 reads</span></li>
+<li class="node_translation_uk"><a href="/uk/news/%D0%BB%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D1%83-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82-tspsg" title="Ласкаво прошу на сайт TSPSG!" class="translation-link"><img src="/sites/all/modules/languageicons/flags/uk.png" alt="Українська" title="Українська"  class="language-icon" width="16" height="12" /> Українська</a></li>
+<li class="node_translation_ru last"><a href="/ru/news/%D0%B4%D0%BE%D0%B1%D1%80%D0%BE-%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D1%81%D0%B0%D0%B9%D1%82-tspsg" title="Добро пожаловать на сайт TSPSG!" class="translation-link"><img src="/sites/all/modules/languageicons/flags/ru.png" alt="Русский" title="Русский"  class="language-icon" width="16" height="12" /> Русский</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-5" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-alpha-2" title="TSPSG v0.1 alpha 2 is out!">TSPSG v0.1 alpha 2 is out!</a></h2>
+
+      <span class="submitted">Fri, 09/04/2010 - 01:04 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p><a href="https://sourceforge.net/projects/tspsg/files/0.1.2.100-alpha2/" title="https://sourceforge.net/projects/tspsg/files/0.1.2.100-alpha2/">The second alpha of TSPSG is here</a>. You can download the binary builds for <strong>Windows</strong>, <strong>Windows Mobile</strong> and <strong>Symbian</strong> or compile it form the source code yourself right now.</p>
+<p>The new version features symmetric mode, improved solution algorithm, support for tasks with up to 50 cities, printing of solution results and many more. Just read the attached ChangeLog.</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/5#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-alpha-2" title="Read the rest of TSPSG v0.1 alpha 2 is out!.">Read more</a></li>
+<li class="statistics_counter"><span>8539 reads</span></li>
+<li class="upload_attachments last"><a href="/en/releases/tspsg-v0.1-alpha-2#attachments" title="Read full article to view attachments.">2 attachments</a></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="node-4" class="node">
+
+
+  <h2><a href="/en/releases/tspsg-v0.1-alpha-1" title="TSPSG v0.1 alpha 1 is here">TSPSG v0.1 alpha 1 is here</a></h2>
+
+      <span class="submitted">Sat, 01/08/2009 - 19:55 — <a href="http://tspsg.info/en/users/leppa" title="View user profile.">Oleksii Serdiuk</a></span>
+  
+  <div class="content clear-block">
+    <!-- google_ad_section_start --><p>This build is alpha and is intended only to see what&#039;s going on and test TSPSG. It does contain bugs. No bug tracker or feature request facilities will be available until the first beta.</p>
+<p>For those who are still interested: <a href="https://sourceforge.net/projects/tspsg/files/0.1.1.42-alpha1/" title="https://sourceforge.net/projects/tspsg/files/0.1.1.42-alpha1/">download TSPSG v0.1 alpha 1</a>. Only <strong>Windows</strong> and <strong>Windows Mobile</strong> binary builds are available at this moment. <strong>Linux</strong>, <strong>FreeBSD</strong> and other supported platforms users have to download source, unpack, run qmake then make from the unpacked directory (note, that you will need <strong>Qt 4.5</strong> or later to build this release of TSPSG).</p>
+<!-- google_ad_section_end -->  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+          <div class="terms"><ul class="links inline"><li class="taxonomy_term_1 first"><a href="/en/news" rel="tag" title="">News</a></li>
+<li class="taxonomy_term_2 last"><a href="/en/releases" rel="tag" title="">Releases</a></li>
+</ul></div>
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_add first"><a href="/en/comment/reply/4#comment-form" title="Add a new comment to this page.">Add new comment</a></li>
+<li class="node_read_more"><a href="/en/releases/tspsg-v0.1-alpha-1" title="Read the rest of TSPSG v0.1 alpha 1 is here.">Read more</a></li>
+<li class="statistics_counter last"><span>8333 reads</span></li>
+</ul></div>
+      </div>
+
+</div>
+<div id="block--1" class="block">
+
+  <div class="content">
+    <div style='text-align:center'><div class='adsense' >
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0532891311345945"
+     data-ad-slot="8858218223"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>  </div>
+</div>
+          </div>
+          <a href="http://tspsg.info/en/rss.xml" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="TSPSG RSS" width="16" height="16" /></a>          <div id="footer">Copyright &copy; 2010-2013 <a href="http://oleksii.name/">Oleksii Serdiuk</a><br />
+Hosted by <a href="http://l-homes.org/">l-homes.org</a><div id="block-mobile_tools-mobile_tools_message" class="clear-block block block-mobile_tools">
+
+
+  <div class="content"><a href="/en/mt/mobile/node">View mobile site</a></div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-block-2" class="clear-block block block-block">
+
+  <h2>Random Screenshot</h2>
+
+  <div class="content"><center><a href="/en/images/screenshots/solution-tab-%28symbian3%29-v0.1-beta-1"><img src="http://tspsg.info/files/images/solution-symbian3-v0.1.3.thumbnail.png" alt="Solution Tab (Symbian^3), v0.1 beta 1" title="Solution Tab (Symbian^3), v0.1 beta 1"  class="image image-thumbnail " width="100" height="178" /></a></center></div>
+</div>
+<div id="block--0" class="block">
+
+  <div class="content">
+    <div style='text-align:center'><div class='adsense' style='display:inline-block;width:200px;height:200px;'>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0532891311345945";
+/* 200x200 */
+google_ad_slot = "2495768624";
+google_ad_width = 200;
+google_ad_height = 200;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div></div>  </div>
+</div>
+<div id="block-aggregator-category-1" class="clear-block block block-aggregator">
+
+  <h2>GitHub and Issue Tracker feeds</h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first"><a href="https://github.com/leppa/tspsg/commit/4b975848ad4d1abaabf482115d3a3f15c9bbb13d">Added build status from Travis CI and BuildHive.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/2aeaea9572d8a3ca8a6fe1b3a479b1980c2266eb">Added formatting to README, INSTALL and ChangeLog files.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/50b202f04de774aad15c1fc9b51579590f311b6d">Converted README, INSTALL and ChangeLog files into Markdown format.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/fb0c1d86f41602644dd2ce0b842b016ec2032a83">Added copyright boilerplates to BB10ProxyStyle files.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/280cfd6faa8a53cf4e43e4680af36c609f8c4832">Cleared DOT_FONTNAME value in Doxyfile accroding to doxygen warning.</a>
+</li>
+<li><a href="https://github.com/leppa/tspsg/commit/af4b6d89e34d8d821c98438cc718b2369d9e8650">Added Travis CI configuration.</a>
+</li>
+<li class="last"><a href="https://github.com/leppa/tspsg/commit/78c56dd1839f92b6ccda1bd06151434af247be37">Fixed linking error that happened on some Linux distributions.</a>
+</li>
+</ul></div><div class="more-link"><a href="/en/aggregator/categories/1" title="View this category&#039;s recent news.">more</a></div></div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-403979-11"]);_gaq.push(["_gat._anonymizeIp"]);_gaq.push(["_setDomainName", ".tspsg.info"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if (typeof addthis != "undefined") {addthis.init();}
+//--><!]]>
+</script>
+  </body>
+</html>

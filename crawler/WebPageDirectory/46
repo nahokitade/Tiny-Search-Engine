@@ -1,0 +1,204 @@
+http://www.math.uwaterloo.ca/tsp/sweden/
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<SCRIPT LANGUAGE="JavaScript" SRC="index.js">
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_start('Sweden Home');
+qs_doc_headline();
+qs_body_start(false);
+html(); 
+</SCRIPT>
+
+<img src="./img/sweden_tour_head.gif" alt="" width="274" height="23" border="0">
+<br>
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+
+<table CELLSPACING="0" CELLPADDING="0">
+<tr>
+<td>
+<img src="./img/sw_maze_tiny2.gif" alt="Tiny Tour" width="126" height="258" border="2">
+<br>
+
+</td>
+<td WIDTH="25">
+<img SRC="./img/trans.gif" ALT="" WIDTH="25" HEIGHT="1"></td>
+<td>
+In May 2004, the traveling salesman problem of visiting all 24,978 cities in Sweden was solved: a tour of length 855,597 <a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a> units (approximately 72,500 kilometers) was found and it was proven that no shorter tour exists.
+At the time of the computation, this was the largest solved TSP instance, surpassing the previous record of <a href="../d15sol/index.html">15,112 cities</a> through Germany set in April 2001.
+The current record an <a href="../pla85900/index.html">85,900-city tour</a> that arose in a chip-design application. 
+
+
+<br>
+
+<p>
+<ul>
+<li>
+<a href="./cities/cities.htm">The 24,978 cities</a>
+</li>
+<li>
+<a href="./tours/tours.htm">Pictures of the Sweden Tour</a>
+</li>
+<li>
+<a href="./heur/heur.htm">How was the tour found?</a>
+</li>
+<li>
+<a href="./compute/compute.htm">Details of the computation</a>
+</li>
+<li>
+<a href="./data/data.htm">Data sets for Sweden TSP and tour</a>
+</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+
+<p>
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+<p>
+
+Research Team<br>
+<ul>
+<li>
+<a href="http://www.research.att.com/info/david">David Applegate</a>, AT&T Labs - Research
+</li>
+<li>
+<a href="http://www.caam.rice.edu/~bixby/default.htm">Robert Bixby</a>, ILOG and Rice University
+</li>
+<li>
+<a href="http://www.cs.rutgers.edu/~chvatal/">Va&#154ek Chv&#225tal</a>, Rutgers University
+</li>
+<li>
+<a href="http://www.math.uwaterloo.ca/~bico/">William Cook</a>, University of Waterloo
+</li>
+<li>
+<a href="http://www.dat.ruc.dk/~keld/">Keld Helsgaun</a>, Roskilde University
+</li>
+</ul>
+
+
+Support for this research was provided by the following grants<br>
+<ul>
+<li>
+<a href="http://www.onr.navy.mil/sci_tech/">Office of Naval Research</a>
+Grant N00014-03-1-0040, "Experimental Modules for Combinatorial Optimization and Mixed-Integer Programming"
+</li>
+<li>
+<a href="http://www.nsf.gov">National Science Foundation</a>, Grant DMI-0245609, "Local Cuts in Discrete Optimization and Mixed-Integer Programming"
+</li>
+</ul>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_finish("April 2010", 0);
+html(); 
+</SCRIPT>
+</html> 
+http://www.math.uwaterloo.ca/tsp/sweden/
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<SCRIPT LANGUAGE="JavaScript" SRC="index.js">
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_start('Sweden Home');
+qs_doc_headline();
+qs_body_start(false);
+html(); 
+</SCRIPT>
+
+<img src="./img/sweden_tour_head.gif" alt="" width="274" height="23" border="0">
+<br>
+<img src="./img/trans.gif"  ALT="" width="100%" height="10">
+
+<table CELLSPACING="0" CELLPADDING="0">
+<tr>
+<td>
+<img src="./img/sw_maze_tiny2.gif" alt="Tiny Tour" width="126" height="258" border="2">
+<br>
+
+</td>
+<td WIDTH="25">
+<img SRC="./img/trans.gif" ALT="" WIDTH="25" HEIGHT="1"></td>
+<td>
+In May 2004, the traveling salesman problem of visiting all 24,978 cities in Sweden was solved: a tour of length 855,597 <a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a> units (approximately 72,500 kilometers) was found and it was proven that no shorter tour exists.
+At the time of the computation, this was the largest solved TSP instance, surpassing the previous record of <a href="../d15sol/index.html">15,112 cities</a> through Germany set in April 2001.
+The current record an <a href="../pla85900/index.html">85,900-city tour</a> that arose in a chip-design application. 
+
+
+<br>
+
+<p>
+<ul>
+<li>
+<a href="./cities/cities.htm">The 24,978 cities</a>
+</li>
+<li>
+<a href="./tours/tours.htm">Pictures of the Sweden Tour</a>
+</li>
+<li>
+<a href="./heur/heur.htm">How was the tour found?</a>
+</li>
+<li>
+<a href="./compute/compute.htm">Details of the computation</a>
+</li>
+<li>
+<a href="./data/data.htm">Data sets for Sweden TSP and tour</a>
+</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+
+<p>
+<img src="./img/qspagecolor.jpg" ALT="" width=100% height = 2>
+<p>
+
+Research Team<br>
+<ul>
+<li>
+<a href="http://www.research.att.com/info/david">David Applegate</a>, AT&T Labs - Research
+</li>
+<li>
+<a href="http://www.caam.rice.edu/~bixby/default.htm">Robert Bixby</a>, ILOG and Rice University
+</li>
+<li>
+<a href="http://www.cs.rutgers.edu/~chvatal/">Va&#154ek Chv&#225tal</a>, Rutgers University
+</li>
+<li>
+<a href="http://www.math.uwaterloo.ca/~bico/">William Cook</a>, University of Waterloo
+</li>
+<li>
+<a href="http://www.dat.ruc.dk/~keld/">Keld Helsgaun</a>, Roskilde University
+</li>
+</ul>
+
+
+Support for this research was provided by the following grants<br>
+<ul>
+<li>
+<a href="http://www.onr.navy.mil/sci_tech/">Office of Naval Research</a>
+Grant N00014-03-1-0040, "Experimental Modules for Combinatorial Optimization and Mixed-Integer Programming"
+</li>
+<li>
+<a href="http://www.nsf.gov">National Science Foundation</a>, Grant DMI-0245609, "Local Cuts in Discrete Optimization and Mixed-Integer Programming"
+</li>
+</ul>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+qs_doc_finish("April 2010", 0);
+html(); 
+</SCRIPT>
+</html> 

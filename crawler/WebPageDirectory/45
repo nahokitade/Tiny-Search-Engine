@@ -1,0 +1,388 @@
+http://www.math.uwaterloo.ca/tsp/world/
+1
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux 2.2.19-6.2.1alsa i686) [Netscape]">
+   <meta name="Keywords" content="traveling salesman problem, travelling salesman problem, TSP">
+   <title>World Traveling Salesman Problem</title>
+
+<script language="JavaScript">
+<!--
+
+function getimage(arg) {
+    if (document.images) {
+        rimg = new Image();
+        rimg.src = arg;
+        return rimg;
+    }
+}
+
+function preloader() {
+    if (document.images) {
+        homeon = getimage("../resources/homeblack.gif");
+        historyon = getimage("../resources/historyblack.gif");
+        galleryon = getimage("../resources/galleryblack.gif");
+        applon = getimage("../resources/applblack.gif");
+        methodson = getimage("../resources/methodsblack.gif");
+    }
+}
+
+if (document.images) {
+    homeoff = getimage("../resources/homewhite.gif");
+    historyoff = getimage("../resources/historywhite.gif");
+    galleryoff = getimage("../resources/gallerywhite.gif");
+    apploff = getimage("../resources/applwhite.gif");
+    methodsoff = getimage("../resources/methodswhite.gif");
+}
+
+function changeImages() {    /* from webdesign.about.com */
+    if (document.images) {
+        for (var i=0; i<changeImages.arguments.length; i+=2) {
+            document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+        }
+    }
+}
+
+
+// -->
+</script>
+
+
+</head>
+
+<body text="#000000" bgcolor="#ffffff"
+background="../resources/bh_bg.gif" link="#993333" vlink="#333399" alink="#cc3333" leftmargin=0 topmargin=0 marginheight=0 marginwidth=0 onload="preloader()">
+
+<table COLS=4 WIDTH=725 BGCOLOR="#d60c0c" CELLSPACING="0" CELLPADDING="0" BORDER=0>
+<tr>
+<td width="15" border=0 align=left><font color="#d60c0c">....</font></td>
+<td ALIGN=LEFT VALIGN=center height=32 border=0><img SRC="../resources/stsp.gif" ALT="Solving TSPs" BORDER=0 height=23 width=148></td>
+<td ALIGN=right VALIGN=center height=32 border=0>
+<table cols=5 nosave cellpadding=10>
+<td ALIGN=center VALIGN=center border=0 width=46>
+<a href="../index.html" onmouseover="changeImages('homeg', 'homeon')" onmouseout="changeImages('homeg', 'homeoff')"><img name="homeg" src="../resources/homewhite.gif" alt="" border=0 height=13 width=46></a></td>
+<td ALIGN=center VALIGN=center width=58>
+<a href="../histmain.html" onmouseover="changeImages('historyg', 'historyon')" onmouseout="changeImages('historyg', 'historyoff')"><img name="historyg" src="../resources/historywhite.gif" alt="" border=0 height=16 width=58></a></td>
+<td ALIGN=center VALIGN=center width=55>
+<a href="../gallery/index.html" onmouseover="changeImages('galleryg', 'galleryon')" onmouseout="changeImages ('galleryg', 'galleryoff')"><img name="galleryg" src="../resources/gallerywhite.gif" alt="" border=0 height=16 width=55></a></td>
+<td ALIGN=center VALIGN=center width=101>
+<a href="../apps/index.html" onmouseover="changeImages('applg', 'applon')" onmouseout="changeImages('applg', 'apploff')"><img name="applg" src="../resources/applwhite.gif" alt="" border=0 height=16 width=101></a></td>
+<td ALIGN=center VALIGN=center width=73>
+<a href="../methods.html" onmouseover="changeImages('methodsg', 'methodson')" onmouseout="changeImages('methodsg', 'methodsoff')"><img name="methodsg" src="../resources/methodswhite.gif" alt="" border=0 height=13 width=73></a></td></table></td>
+<td width="15" border=0 align=left><font color="#d60c0c">....</font></td>
+</tr></table>
+
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+
+<!-- Using the Yale Text Style:  info.med.yale.edu/caim/manual/ -->
+
+<TD WIDTH="15">
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="15" HEIGHT="1"></TD>
+
+<TD WIDTH="125" VALIGN="TOP">
+<FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="125" HEIGHT="1"><BR>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="70"><BR>
+<font color="#999999">World TSP</font><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="2"><BR>
+<a href="./countries.html">National TSPs</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="2"><BR>
+<a href="../vlsi/index.html">VLSI TSPs</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="24"><BR>
+<a href="http://www.cia.gov/cia/publications/factbook/index.html">CIA Factbook</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="3"><BR>
+<a href="http://164.214.2.59/gns/html/">GEOnet Server</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="3"><BR>
+<a href="http://geonames.usgs.gov/">GNIS Data</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="20"><BR>
+<!-- http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-earth.html -->
+<IMG SRC="earth2.gif" ALT="Earth" WIDTH="80" HEIGHT="80"><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="24"><BR>
+
+<B>TSP Links</B><br>
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="5"><IMG SRC="./resources/pixel.gif" ALT="" WIDTH="5" HEIGHT="1" VSPACE="3"></TD>
+<TD WIDTH="120"><FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="1" VSPACE="2"><BR>
+<a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a><BR>
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="1" VSPACE="2"><BR>
+<a href="../index.html">Home page</a><br>
+</FONT></TD></TR></TABLE>
+</FONT>
+
+
+</TD>
+
+<TD WIDTH="25">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="25" HEIGHT="1"></TD>
+
+<TD WIDTH="560" VALIGN="TOP">
+<FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+<IMG SRC="worldtop.gif" ALT="World TSP" WIDTH="118" HEIGHT="18"><br>
+
+<p>
+<center><table cellspacing="10" cellpadding="10" border=0><tr bgcolor="#ffffff"><td width=300>
+We now have <a href="./pictures.html">Pictures of the World TSP Tour</a>.
+<br>
+</td>
+</tr></table></center>
+</p>
+
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD>
+<IMG SRC="images/world0.small.gif" ALT="World Tour" WIDTH="174" HEIGHT="173" BORDER="2"><br>
+</TD>
+<TD WIDTH="25">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="25" HEIGHT="1"></TD>
+<TD>
+To provide a large-scale traveling salesman problem challenge, we put together data from the <a href="http://164.214.2.59/gns/html/">National Imagery and Mapping Agency</a> database of geographic feature names and data from the <a href="http://geonames.usgs.gov/">Geographic Names Information System (GNIS)</a>, to create a <b>1,904,711-city</b> instance of locations throughout the world.
+From the data bases, we selected all locations that were registered as populated cities or towns, and also included several research bases in Antarctica.<br><br>
+</TD>
+</TR>
+</TABLE>
+</p>
+
+
+
+Each of the cities is specified by its <a href="http://www-istp.gsfc.nasa.gov/stargaze/Slatlong.htm">latitude and longitude</a>, given in decimal form (rather than minutes and seconds).
+The cost of travel between cities is specified by an approximation to the <a href=http://forum.swarthmore.edu/dr.math/problems/longandlat.html>great circle distance</a> on the Earth (treating the Earth as a ball).
+This cost function is a variation of the <a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a> GEO-norm, adjusted to handle decimal degrees and scaled to provide the distance in meters rather than in kilometers.
+We call this cost function the GEOM-norm; a fragment of C-code to compute the travel costs can be found <a href="geom.html">here</a>.<br><br>
+
+The best reported tour for the World TSP was found by by <a href="http://www.dat.ruc.dk/~keld/">Keld Helsgaun</a> using a variant of his <a href="http://www.dat.ruc.dk/~keld/research/LKH/">LKH</a> heuristic algorithm.
+The tour of length <b>7,515,772,212</b> was found on May 24, 2013, improving Helsgaun's previous records of 7,515,778,188 (October 25, 2011), 7,515,786,987 (April 4, 2011), 7,515,796,609 (May 4, 2010), 7,515,877,991 (May 12, 2009), 7,515,947,511 (November 27, 2008), and 7,517,285,610 (September 16, 2003).
+An earlier record tour of length 7,518,425,642 was found by Hung Dinh Nguyen, Ikuo Yoshihara, Kunihito Yamamori, and Moritoshi Yasunaga (June 2, 2003), using a combination of iterated Lin-Kernighan and a parallel hybrid genetic algorithm.
+<br><br>
+
+The current best lower bound on the length of a tour for the World TSP is <b>7,512,218,268</b>.
+This bound was established by the Concorde TSP code (June 5, 2007), using CPLEX as a linear-programming solver.
+The bound shows that Keld Helsgaun's tour has length at most <b>0.0474%</b> greater than the length of an optimal tour.<br><br>
+
+We will be most happy to report any improved tour or improved lower bound that you may find.<br>
+
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+
+<a href="world.tsp.gz">Data</a>&nbsp (Gzipped TSPLIB Format, world.tsp.gz, 11.5 mbytes)
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+<IMG SRC="worldsmall.gif" ALT="World TSP" WIDTH="486" HEIGHT="234" BORDER="2"><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+
+<p>
+<img src="../resources/blackpixel.gif" ALT="" width=100% height = 1>
+<p>
+
+<a href="../index.html">Back to TSP home</a>.
+<br><br>Last Updated:&nbsp; September 11, 2013
+<br>Contact:&nbsp; bico@uwaterloo.ca&nbsp;
+
+</font></td></tr></table>
+
+<br>
+
+</body>
+</html>
+http://www.math.uwaterloo.ca/tsp/world/
+1
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.77 [en] (X11; U; Linux 2.2.19-6.2.1alsa i686) [Netscape]">
+   <meta name="Keywords" content="traveling salesman problem, travelling salesman problem, TSP">
+   <title>World Traveling Salesman Problem</title>
+
+<script language="JavaScript">
+<!--
+
+function getimage(arg) {
+    if (document.images) {
+        rimg = new Image();
+        rimg.src = arg;
+        return rimg;
+    }
+}
+
+function preloader() {
+    if (document.images) {
+        homeon = getimage("../resources/homeblack.gif");
+        historyon = getimage("../resources/historyblack.gif");
+        galleryon = getimage("../resources/galleryblack.gif");
+        applon = getimage("../resources/applblack.gif");
+        methodson = getimage("../resources/methodsblack.gif");
+    }
+}
+
+if (document.images) {
+    homeoff = getimage("../resources/homewhite.gif");
+    historyoff = getimage("../resources/historywhite.gif");
+    galleryoff = getimage("../resources/gallerywhite.gif");
+    apploff = getimage("../resources/applwhite.gif");
+    methodsoff = getimage("../resources/methodswhite.gif");
+}
+
+function changeImages() {    /* from webdesign.about.com */
+    if (document.images) {
+        for (var i=0; i<changeImages.arguments.length; i+=2) {
+            document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+        }
+    }
+}
+
+
+// -->
+</script>
+
+
+</head>
+
+<body text="#000000" bgcolor="#ffffff"
+background="../resources/bh_bg.gif" link="#993333" vlink="#333399" alink="#cc3333" leftmargin=0 topmargin=0 marginheight=0 marginwidth=0 onload="preloader()">
+
+<table COLS=4 WIDTH=725 BGCOLOR="#d60c0c" CELLSPACING="0" CELLPADDING="0" BORDER=0>
+<tr>
+<td width="15" border=0 align=left><font color="#d60c0c">....</font></td>
+<td ALIGN=LEFT VALIGN=center height=32 border=0><img SRC="../resources/stsp.gif" ALT="Solving TSPs" BORDER=0 height=23 width=148></td>
+<td ALIGN=right VALIGN=center height=32 border=0>
+<table cols=5 nosave cellpadding=10>
+<td ALIGN=center VALIGN=center border=0 width=46>
+<a href="../index.html" onmouseover="changeImages('homeg', 'homeon')" onmouseout="changeImages('homeg', 'homeoff')"><img name="homeg" src="../resources/homewhite.gif" alt="" border=0 height=13 width=46></a></td>
+<td ALIGN=center VALIGN=center width=58>
+<a href="../histmain.html" onmouseover="changeImages('historyg', 'historyon')" onmouseout="changeImages('historyg', 'historyoff')"><img name="historyg" src="../resources/historywhite.gif" alt="" border=0 height=16 width=58></a></td>
+<td ALIGN=center VALIGN=center width=55>
+<a href="../gallery/index.html" onmouseover="changeImages('galleryg', 'galleryon')" onmouseout="changeImages ('galleryg', 'galleryoff')"><img name="galleryg" src="../resources/gallerywhite.gif" alt="" border=0 height=16 width=55></a></td>
+<td ALIGN=center VALIGN=center width=101>
+<a href="../apps/index.html" onmouseover="changeImages('applg', 'applon')" onmouseout="changeImages('applg', 'apploff')"><img name="applg" src="../resources/applwhite.gif" alt="" border=0 height=16 width=101></a></td>
+<td ALIGN=center VALIGN=center width=73>
+<a href="../methods.html" onmouseover="changeImages('methodsg', 'methodson')" onmouseout="changeImages('methodsg', 'methodsoff')"><img name="methodsg" src="../resources/methodswhite.gif" alt="" border=0 height=13 width=73></a></td></table></td>
+<td width="15" border=0 align=left><font color="#d60c0c">....</font></td>
+</tr></table>
+
+
+
+<TABLE BORDER="0" CELLSPACING="0" CELLPADDING="0">
+<TR>
+
+<!-- Using the Yale Text Style:  info.med.yale.edu/caim/manual/ -->
+
+<TD WIDTH="15">
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="15" HEIGHT="1"></TD>
+
+<TD WIDTH="125" VALIGN="TOP">
+<FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="125" HEIGHT="1"><BR>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="70"><BR>
+<font color="#999999">World TSP</font><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="2"><BR>
+<a href="./countries.html">National TSPs</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="2"><BR>
+<a href="../vlsi/index.html">VLSI TSPs</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="24"><BR>
+<a href="http://www.cia.gov/cia/publications/factbook/index.html">CIA Factbook</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="3"><BR>
+<a href="http://164.214.2.59/gns/html/">GEOnet Server</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="3"><BR>
+<a href="http://geonames.usgs.gov/">GNIS Data</a><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="20"><BR>
+<!-- http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-earth.html -->
+<IMG SRC="earth2.gif" ALT="Earth" WIDTH="80" HEIGHT="80"><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="24"><BR>
+
+<B>TSP Links</B><br>
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD WIDTH="5"><IMG SRC="./resources/pixel.gif" ALT="" WIDTH="5" HEIGHT="1" VSPACE="3"></TD>
+<TD WIDTH="120"><FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="1" VSPACE="2"><BR>
+<a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a><BR>
+<IMG SRC="./resources/pixel.gif" ALT="" WIDTH="1" HEIGHT="1" VSPACE="2"><BR>
+<a href="../index.html">Home page</a><br>
+</FONT></TD></TR></TABLE>
+</FONT>
+
+
+</TD>
+
+<TD WIDTH="25">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="25" HEIGHT="1"></TD>
+
+<TD WIDTH="560" VALIGN="TOP">
+<FONT FACE="TIMES NEW ROMAN, TIMES ROMAN, TIMES, SERIF">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+<IMG SRC="worldtop.gif" ALT="World TSP" WIDTH="118" HEIGHT="18"><br>
+
+<p>
+<center><table cellspacing="10" cellpadding="10" border=0><tr bgcolor="#ffffff"><td width=300>
+We now have <a href="./pictures.html">Pictures of the World TSP Tour</a>.
+<br>
+</td>
+</tr></table></center>
+</p>
+
+<TABLE CELLSPACING="0" CELLPADDING="0">
+<TR>
+<TD>
+<IMG SRC="images/world0.small.gif" ALT="World Tour" WIDTH="174" HEIGHT="173" BORDER="2"><br>
+</TD>
+<TD WIDTH="25">
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="25" HEIGHT="1"></TD>
+<TD>
+To provide a large-scale traveling salesman problem challenge, we put together data from the <a href="http://164.214.2.59/gns/html/">National Imagery and Mapping Agency</a> database of geographic feature names and data from the <a href="http://geonames.usgs.gov/">Geographic Names Information System (GNIS)</a>, to create a <b>1,904,711-city</b> instance of locations throughout the world.
+From the data bases, we selected all locations that were registered as populated cities or towns, and also included several research bases in Antarctica.<br><br>
+</TD>
+</TR>
+</TABLE>
+</p>
+
+
+
+Each of the cities is specified by its <a href="http://www-istp.gsfc.nasa.gov/stargaze/Slatlong.htm">latitude and longitude</a>, given in decimal form (rather than minutes and seconds).
+The cost of travel between cities is specified by an approximation to the <a href=http://forum.swarthmore.edu/dr.math/problems/longandlat.html>great circle distance</a> on the Earth (treating the Earth as a ball).
+This cost function is a variation of the <a href="http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/">TSPLIB</a> GEO-norm, adjusted to handle decimal degrees and scaled to provide the distance in meters rather than in kilometers.
+We call this cost function the GEOM-norm; a fragment of C-code to compute the travel costs can be found <a href="geom.html">here</a>.<br><br>
+
+The best reported tour for the World TSP was found by by <a href="http://www.dat.ruc.dk/~keld/">Keld Helsgaun</a> using a variant of his <a href="http://www.dat.ruc.dk/~keld/research/LKH/">LKH</a> heuristic algorithm.
+The tour of length <b>7,515,772,212</b> was found on May 24, 2013, improving Helsgaun's previous records of 7,515,778,188 (October 25, 2011), 7,515,786,987 (April 4, 2011), 7,515,796,609 (May 4, 2010), 7,515,877,991 (May 12, 2009), 7,515,947,511 (November 27, 2008), and 7,517,285,610 (September 16, 2003).
+An earlier record tour of length 7,518,425,642 was found by Hung Dinh Nguyen, Ikuo Yoshihara, Kunihito Yamamori, and Moritoshi Yasunaga (June 2, 2003), using a combination of iterated Lin-Kernighan and a parallel hybrid genetic algorithm.
+<br><br>
+
+The current best lower bound on the length of a tour for the World TSP is <b>7,512,218,268</b>.
+This bound was established by the Concorde TSP code (June 5, 2007), using CPLEX as a linear-programming solver.
+The bound shows that Keld Helsgaun's tour has length at most <b>0.0474%</b> greater than the length of an optimal tour.<br><br>
+
+We will be most happy to report any improved tour or improved lower bound that you may find.<br>
+
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+
+<a href="world.tsp.gz">Data</a>&nbsp (Gzipped TSPLIB Format, world.tsp.gz, 11.5 mbytes)
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+<IMG SRC="worldsmall.gif" ALT="World TSP" WIDTH="486" HEIGHT="234" BORDER="2"><br>
+<IMG SRC="../resources/pixel.gif" ALT="" WIDTH="560" HEIGHT="1" VSPACE="10"><BR>
+
+
+<p>
+<img src="../resources/blackpixel.gif" ALT="" width=100% height = 1>
+<p>
+
+<a href="../index.html">Back to TSP home</a>.
+<br><br>Last Updated:&nbsp; September 11, 2013
+<br>Contact:&nbsp; bico@uwaterloo.ca&nbsp;
+
+</font></td></tr></table>
+
+<br>
+
+</body>
+</html>

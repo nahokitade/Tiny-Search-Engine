@@ -1,0 +1,374 @@
+http://citeseer.ist.psu.edu/622594.html
+1
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+      
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://www.w3.org/2005/11/profile http://a9.com/-/spec/opensearch/1.1/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+    <title>CiteSeerX</title>
+  
+  
+  
+    
+  
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico;jsessionid=17A598B6E512F3996B956A0CE971E6E5" />
+  
+  <link rel="search" title="CiteSeerX" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_general.xml;jsessionid=17A598B6E512F3996B956A0CE971E6E5" />
+  <link rel="search" title="CiteSeerX Author" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_author.xml;jsessionid=17A598B6E512F3996B956A0CE971E6E5" />
+  <link rel="search" title="CiteSeerX Title" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_title.xml;jsessionid=17A598B6E512F3996B956A0CE971E6E5" />
+    
+    
+	<link rel="alternate" type="application/atom+xml" title="CiteSeerX Search Results - Atom" href="/search;jsessionid=17A598B6E512F3996B956A0CE971E6E5?" />
+	<link rel="alternate" type="application/rss+xml" title="CiteSeerX Search Results - RSS" href="/search;jsessionid=17A598B6E512F3996B956A0CE971E6E5?" />
+
+	
+	<link type="text/css" rel="stylesheet" href="/css/main.css;jsessionid=17A598B6E512F3996B956A0CE971E6E5" />
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+  <script type="text/javascript" src="/js/jquery-ui-1.8.custom.min.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/jquery.idTabs.min.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/metacart.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/topnav.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/citeseerx.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/correctionutils.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	<script type="text/javascript" src="/js/checkboxes.js;jsessionid=17A598B6E512F3996B956A0CE971E6E5"></script>
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+  	
+
+
+
+<div id="topnav">
+  
+  <ul id="search_nav">
+    
+      <li class="active"><a href="#search_docs">Documents</a></li>
+      <li><a href="/#search_auth">Authors</a></li>
+      <li><a href="/#search_tables">Tables</a></li>
+
+    
+    
+  </ul>
+  
+  
+  
+    
+    
+    
+    <ul id="toptools">
+  		
+        <li><a href="/myciteseer/login;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Log in</a></li>
+        <li><a href="/mcsutils/newAccount;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Sign up</a></li>
+      
+        <li><a href="/metacart;jsessionid=17A598B6E512F3996B956A0CE971E6E5">MetaCart</a></li>
+    </ul>
+  
+</div>
+
+	  <div id="header">
+			<h1 id="title"><a href="/;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="CiteSeerX"><img src="/images/csx_logo.png;jsessionid=17A598B6E512F3996B956A0CE971E6E5" alt="CiteSeerX logo" /></a></h1>
+		</div>
+
+<div id="main" style="border-top: none;">
+<div id="search">
+  
+    <div id="search_docs">
+      <form method="get" action="/search;jsessionid=17A598B6E512F3996B956A0CE971E6E5" enctype="application/x-www-form-urlencoded">
+        <label>Documents:</label>
+        <input class="s_field" type="text" name="q" value="" />
+		<input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+		<div class="opts">
+          <a href="/advanced_search;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations
+        </div>
+        <input type="hidden" name="sort" value="rlv" />
+        <input type="hidden" name="t" value="doc" />
+      </form>
+    </div>
+		  
+	<div id="search_auth">
+	  <form method="get" action="/search;jsessionid=17A598B6E512F3996B956A0CE971E6E5" enctype="application/x-www-form-urlencoded">
+	    <label>Authors:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <div class="opts">
+          <a href="/advanced_search;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations |
+          <input class="c_box" type="checkbox" name="uauth" value="1" checked="checked" /> Disambiguate
+        </div>
+        <input type="hidden" name="sort" value="ndocs" />
+        <input type="hidden" name="t" value="auth" />
+	   </form>
+	  </div>		  
+    <div id="search_tables">
+      <form method="get" action="/search;jsessionid=17A598B6E512F3996B956A0CE971E6E5" enctype="application/x-www-form-urlencoded">
+        <label>Tables:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <input type="hidden" name="t" value="table" />
+        <input type="hidden" name="sort" value="rlv" />
+     </form>
+    </div>
+
+
+  
+  
+</div>
+  <div id="mycsxMenu" class="submenu">
+    <ul>
+      <li><a id="home" href="/myciteseer/action/accountHome;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Account Home</a></li>
+      <li><a id="profile" href="/myciteseer/action/editAccount;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Profile</a></li>
+      <li><a id="collections"href="/myciteseer/action/viewCollections;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="">Collections</a></li>
+      <li><a id="tags" href="/myciteseer/action/viewTags;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="">Tags</a></li>
+      <li><a id="monitoring" href="/myciteseer/action/viewMonitors;jsessionid=17A598B6E512F3996B956A0CE971E6E5" title="">Monitoring</a></li>
+      
+        <li><a id="submissions" href="/myciteseer/action/viewSubmissions;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Submissions</a></li>
+      
+        
+      
+     </ul>
+   </div>
+<div id="content">
+<div id="loginContent">
+  <h2>Login</h2>
+  <p>Not Registered? <a href="/mcsutils/newAccount;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Create an account</a>.</p>
+  
+  <div id="loginForm">
+    <form method="post" action="/j_spring_security_check;jsessionid=17A598B6E512F3996B956A0CE971E6E5" id="loginform" class="labelsRightAligned">
+      <div id="userId">
+        <label class="title">Username</label>
+        <input type="text" id="j_username" name="j_username" class="loginField"  />
+      </div>
+      <div id="password">
+        <label class="title">Password</label>
+        <input type="password" id="j_password" name="j_password" class="loginField" />
+      </div>
+      <div id="login-action">
+        <a href="/forgotaccount;jsessionid=17A598B6E512F3996B956A0CE971E6E5">Forgot your username or password?</a> <input type="submit" class="button" id="login-button" name="tfa_submitAction" value="Log In" alt="Log In" />
+			</div>
+    </form>
+  </div> 
+  </div> 
+</div> 
+<div class="clear"></div>
+</div>
+  <div id="footer">
+  	<div id="sponsors">
+  		<a href="http://www.nsf.gov"><img src="/images/nsf_logo.png;jsessionid=17A598B6E512F3996B956A0CE971E6E5" alt="The National Science Foundation"/></a>
+  	</div>
+    <ul class="links">
+      <li><a href="http://csxstatic.ist.psu.edu/about" target="_blank">About CiteSeerX</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/submit" target="_blank">Submit Documents</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/privacy" target="_blank">Privacy Policy</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/help" target="_blank">Help</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/about/data" target="_blank">Data</a></li>      
+      <li><a href="http://sourceforge.net/projects/citeseerx/" target="_blank">Source</a></li>      
+      <li><a href="http://csxstatic.ist.psu.edu/contact" target="_blank">Contact Us</a></li>
+    </ul>
+  	<p class="info">Developed at and hosted by <a href="http://ist.psu.edu">The College of Information Sciences and Technology</a></p>
+  	<p>&copy; 2007-2014 <a href="http://www.psu.edu">The Pennsylvania State University</a></p>
+  </div>
+</div> 
+
+</body>
+</html>
+http://citeseer.ist.psu.edu/622594.html
+1
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+      
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://www.w3.org/2005/11/profile http://a9.com/-/spec/opensearch/1.1/">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   
+    <title>CiteSeerX</title>
+  
+  
+  
+    
+  
+  
+  
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico;jsessionid=424758DE6A45F2CB576652AACC603124" />
+  
+  <link rel="search" title="CiteSeerX" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_general.xml;jsessionid=424758DE6A45F2CB576652AACC603124" />
+  <link rel="search" title="CiteSeerX Author" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_author.xml;jsessionid=424758DE6A45F2CB576652AACC603124" />
+  <link rel="search" title="CiteSeerX Title" type="application/opensearchdescription+xml" href="/search_plugins/citeseerx_title.xml;jsessionid=424758DE6A45F2CB576652AACC603124" />
+    
+    
+	<link rel="alternate" type="application/atom+xml" title="CiteSeerX Search Results - Atom" href="/search;jsessionid=424758DE6A45F2CB576652AACC603124?" />
+	<link rel="alternate" type="application/rss+xml" title="CiteSeerX Search Results - RSS" href="/search;jsessionid=424758DE6A45F2CB576652AACC603124?" />
+
+	
+	<link type="text/css" rel="stylesheet" href="/css/main.css;jsessionid=424758DE6A45F2CB576652AACC603124" />
+	<script type="text/javascript" src="/js/jquery-1.4.2.min.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+  <script type="text/javascript" src="/js/jquery-ui-1.8.custom.min.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/jquery.idTabs.min.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/metacart.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/topnav.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/citeseerx.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/correctionutils.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	<script type="text/javascript" src="/js/checkboxes.js;jsessionid=424758DE6A45F2CB576652AACC603124"></script>
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+  	
+
+
+
+<div id="topnav">
+  
+  <ul id="search_nav">
+    
+      <li class="active"><a href="#search_docs">Documents</a></li>
+      <li><a href="/#search_auth">Authors</a></li>
+      <li><a href="/#search_tables">Tables</a></li>
+
+    
+    
+  </ul>
+  
+  
+  
+    
+    
+    
+    <ul id="toptools">
+  		
+        <li><a href="/myciteseer/login;jsessionid=424758DE6A45F2CB576652AACC603124">Log in</a></li>
+        <li><a href="/mcsutils/newAccount;jsessionid=424758DE6A45F2CB576652AACC603124">Sign up</a></li>
+      
+        <li><a href="/metacart;jsessionid=424758DE6A45F2CB576652AACC603124">MetaCart</a></li>
+    </ul>
+  
+</div>
+
+	  <div id="header">
+			<h1 id="title"><a href="/;jsessionid=424758DE6A45F2CB576652AACC603124" title="CiteSeerX"><img src="/images/csx_logo.png;jsessionid=424758DE6A45F2CB576652AACC603124" alt="CiteSeerX logo" /></a></h1>
+		</div>
+
+<div id="main" style="border-top: none;">
+<div id="search">
+  
+    <div id="search_docs">
+      <form method="get" action="/search;jsessionid=424758DE6A45F2CB576652AACC603124" enctype="application/x-www-form-urlencoded">
+        <label>Documents:</label>
+        <input class="s_field" type="text" name="q" value="" />
+		<input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+		<div class="opts">
+          <a href="/advanced_search;jsessionid=424758DE6A45F2CB576652AACC603124" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations
+        </div>
+        <input type="hidden" name="sort" value="rlv" />
+        <input type="hidden" name="t" value="doc" />
+      </form>
+    </div>
+		  
+	<div id="search_auth">
+	  <form method="get" action="/search;jsessionid=424758DE6A45F2CB576652AACC603124" enctype="application/x-www-form-urlencoded">
+	    <label>Authors:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <div class="opts">
+          <a href="/advanced_search;jsessionid=424758DE6A45F2CB576652AACC603124" title="Search full text, title, abstract, date, author name, author affiliation, etc.">Advanced Search</a>
+          <input class="c_box" type="checkbox" name="ic" value="1"  /> Include Citations |
+          <input class="c_box" type="checkbox" name="uauth" value="1" checked="checked" /> Disambiguate
+        </div>
+        <input type="hidden" name="sort" value="ndocs" />
+        <input type="hidden" name="t" value="auth" />
+	   </form>
+	  </div>		  
+    <div id="search_tables">
+      <form method="get" action="/search;jsessionid=424758DE6A45F2CB576652AACC603124" enctype="application/x-www-form-urlencoded">
+        <label>Tables:</label>
+        <input class="s_field" type="text" name="q" value="" />
+        <input class="s_button" type="submit" name="submit" value="Search" alt="Search" />
+        <input type="hidden" name="t" value="table" />
+        <input type="hidden" name="sort" value="rlv" />
+     </form>
+    </div>
+
+
+  
+  
+</div>
+  <div id="mycsxMenu" class="submenu">
+    <ul>
+      <li><a id="home" href="/myciteseer/action/accountHome;jsessionid=424758DE6A45F2CB576652AACC603124">Account Home</a></li>
+      <li><a id="profile" href="/myciteseer/action/editAccount;jsessionid=424758DE6A45F2CB576652AACC603124">Profile</a></li>
+      <li><a id="collections"href="/myciteseer/action/viewCollections;jsessionid=424758DE6A45F2CB576652AACC603124" title="">Collections</a></li>
+      <li><a id="tags" href="/myciteseer/action/viewTags;jsessionid=424758DE6A45F2CB576652AACC603124" title="">Tags</a></li>
+      <li><a id="monitoring" href="/myciteseer/action/viewMonitors;jsessionid=424758DE6A45F2CB576652AACC603124" title="">Monitoring</a></li>
+      
+        <li><a id="submissions" href="/myciteseer/action/viewSubmissions;jsessionid=424758DE6A45F2CB576652AACC603124">Submissions</a></li>
+      
+        
+      
+     </ul>
+   </div>
+<div id="content">
+<div id="loginContent">
+  <h2>Login</h2>
+  <p>Not Registered? <a href="/mcsutils/newAccount;jsessionid=424758DE6A45F2CB576652AACC603124">Create an account</a>.</p>
+  
+  <div id="loginForm">
+    <form method="post" action="/j_spring_security_check;jsessionid=424758DE6A45F2CB576652AACC603124" id="loginform" class="labelsRightAligned">
+      <div id="userId">
+        <label class="title">Username</label>
+        <input type="text" id="j_username" name="j_username" class="loginField"  />
+      </div>
+      <div id="password">
+        <label class="title">Password</label>
+        <input type="password" id="j_password" name="j_password" class="loginField" />
+      </div>
+      <div id="login-action">
+        <a href="/forgotaccount;jsessionid=424758DE6A45F2CB576652AACC603124">Forgot your username or password?</a> <input type="submit" class="button" id="login-button" name="tfa_submitAction" value="Log In" alt="Log In" />
+			</div>
+    </form>
+  </div> 
+  </div> 
+</div> 
+<div class="clear"></div>
+</div>
+  <div id="footer">
+  	<div id="sponsors">
+  		<a href="http://www.nsf.gov"><img src="/images/nsf_logo.png;jsessionid=424758DE6A45F2CB576652AACC603124" alt="The National Science Foundation"/></a>
+  	</div>
+    <ul class="links">
+      <li><a href="http://csxstatic.ist.psu.edu/about" target="_blank">About CiteSeerX</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/submit" target="_blank">Submit Documents</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/privacy" target="_blank">Privacy Policy</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/help" target="_blank">Help</a></li>
+      <li><a href="http://csxstatic.ist.psu.edu/about/data" target="_blank">Data</a></li>      
+      <li><a href="http://sourceforge.net/projects/citeseerx/" target="_blank">Source</a></li>      
+      <li><a href="http://csxstatic.ist.psu.edu/contact" target="_blank">Contact Us</a></li>
+    </ul>
+  	<p class="info">Developed at and hosted by <a href="http://ist.psu.edu">The College of Information Sciences and Technology</a></p>
+  	<p>&copy; 2007-2014 <a href="http://www.psu.edu">The Pennsylvania State University</a></p>
+  </div>
+</div> 
+
+</body>
+</html>

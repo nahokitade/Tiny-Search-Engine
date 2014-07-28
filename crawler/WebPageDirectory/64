@@ -1,0 +1,1283 @@
+http://www.ibm.com/developerworks/cloud/library/cl-optimizepythoncloud1/index.html
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+	
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Linear optimization in Python, Part 1: Solve complex problems in the cloud with Pyomo</title>
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/"/>
+<link rel="SHORTCUT ICON" href="//www.ibm.com/favicon.ico"/>
+<meta name="DC.Rights" content="© Copyright IBM Corporation 2013"/>
+<meta name="Keywords" content="python, pyomo, operations research, optimization,cloud,cloud             computing,noah gift, tttosca"/>
+<meta name="DC.Date" scheme="iso8601" content="2013-02-05"/>
+<meta name="Source"  content="v17 delivery:developerWorks"/>
+<meta name="Security" content="Public"/>
+<meta name="Abstract" content="Explore ways to model optimization applications in Python using Python Optimization Modeling Objects (Pyomo), an open source tool. You can use Pyomo to define symbolic problems, create concrete problem instances, and solve these instances with standard solvers. This article series shows how to leverage Pyomo's ability to integrate with Python to model optimization applications. This first article covers the basics. Part 2 shows how to add more tools and build a scalable architecture."/>
+<meta name="Description" content="Explore ways to model optimization applications in Python using Python Optimization Modeling Objects (Pyomo), an open source tool. You can use Pyomo to define symbolic problems, create concrete problem instances, and solve these instances with standard solvers. This article series shows how to leverage Pyomo's ability to integrate with Python to model optimization applications. This first article covers the basics. Part 2 shows how to add more tools and build a scalable architecture."/>
+<meta name="IBM.Effective" scheme="W3CDTF" content="2013-02-05"/>
+<meta name="Owner" content="developerWorks Content/Raleigh/IBM"/>
+<meta name="DC.Language" scheme="rfc1766" content="en"/>
+<meta name="IBM.SpecialPurpose" content="SP001"/>
+<meta name="IBM.Country" content="ZZ"/>
+<meta name="Robots" content="index,follow"/>
+<meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT316" />
+<meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="SWU00" />
+<meta name="dW.ContentArea" content="47,7" />
+<meta name="dW.Topic" content="953,214,183,534,998,46" />
+<!-- META_INCLUDE -->
+<meta scheme="IBM_WTMCategory" name="IBM.WTMCategory" content="SOFDCCLDZZ" />
+
+<!-- SITE MON : START (DO NOT DELETE) -->
+<!-- developerWorks monitoring token -->
+<!-- SITE MON : END (DO NOT DELETE) -->
+<!-- HEADER_SCRIPTS_AND_CSS_INCLUDE -->
+<link href="//1.www.s81c.com/common/v17/css/www.css" rel="stylesheet" title="www"  type="text/css"/>
+<!-- Masthead/footer -->
+<link href="//dw1.s81c.com/developerworks/css/dw-mf/v17/dw-mfN2014-05.css" rel="stylesheet" title="www" type="text/css"/>
+<link href="//dw1.s81c.com/developerworks/css/v17/dw-article-6.css" rel="stylesheet" title="www" type="text/css"/>
+<link href="//dw1.s81c.com/developerworks/css/v17/dw-common-features.css" rel="stylesheet" title="www" type="text/css"/>
+<script type="text/javascript" src="//1.www.s81c.com/common/js/dojo/www.js">//</script>
+<script type="text/javascript" src="//dw1.s81c.com/developerworks/js/v17/dw-www.js">//</script>
+
+<script type="text/javascript">
+//  ibmweb.config.set({ sbs: { enabled: false }});
+</script>
+
+<!-- A/B/Exp -->
+            <div style="float:right;clear:none;margin:0 0 6px 16px; display:none;" id="dwc-exp-b">
+                <a href="http://www.softlayer.com/info/free-cloud/dwfreetrial?cmp=xlink&cpb=dwsoft&ct=dwtry&cr=dwrefer&ccy=zz&cm=s"><img width="224" height="194" alt="Cloud server hosting trial. Try SoftLayer. Free cloud server hosting for one month." src="//dw1.s81c.com/developerworks/i/f-trysoftlayer-224x194.png"/></a>
+            </div>
+        <script type="text/javascript">
+            dojo.addOnLoad(function(){
+                var artTop = dojo.query("div.ibm-col-1-1")[0];
+                var artChildren = dojo.query(artTop).children();
+                var edgy = false;
+                if (dojo.hasClass(artChildren[0], "ibm-inset")) edgy = true;
+                if ((artChildren[0].nodeName == "H2") && (dojo.hasClass(artChildren[1], "ibm-inset"))) edgy = true;                
+                if (dojo.hasClass(artChildren[0], "codesection")) edgy = true; 
+                if ((artChildren[0].nodeName == "H5") && (dojo.hasClass(artChildren[1], "codesection"))) edgy = true;
+                if ((artChildren[0].nodeName == "H5") && (artChildren[1].width >= 701)) edgy = true;
+                if (artChildren[1].width >= 701) edgy = true;
+                if (dojo.hasClass(artChildren[0], "ibm-data-table")) edgy = true; 
+                if ((artChildren[0].nodeName == "H5") && (dojo.hasClass(artChildren[1], "ibm-data-table"))) edgy = true;
+                if (!(edgy)) {
+                        var adModule = dojo.query("#dwc-exp-b")[0];
+                        dojo.place(adModule, artTop, 0);
+                        dojo.style(adModule, "display", "block");
+                }
+            });
+        </script>
+
+
+
+<!-- LEADSPACE_STYLES -->
+
+<!-- canonical url generation -->
+	<link rel="canonical" href="http://www.ibm.com/developerworks/cloud/library/cl-optimizepythoncloud1/index.html"/>
+
+
+</head>
+
+<body id="ibm-com">
+
+	<div id="ibm-top" class="ibm-landing-page">
+
+<!-- MASTHEAD_BEGIN -->
+<div id="ibm-masthead">
+
+    <!-- TOP ROW -->    
+	<div id="dw-masthead-top-row">
+		<ul id="ibm-mast-options-dw" role="toolbar">
+			<li role="presentation" id="dw-mast-top-4">
+				<a href="http://www.ibm.com/developerworks/"><img src="//dw1.s81c.com/developerworks/i/mf/dwn-dw-badge.png" width="43" height="22" alt="dW" aria-label="dW" /></a>
+			</li>
+			<li role="presentation" id="dw-mast-top-0">
+				<div><a class="dw-mf-noscript" href="#" title="Sign in (or register) requires JavaScript" role="button" tabindex="0">Sign in (or register)</a></div>
+			</li>
+			<li role="presentation" id="dw-mast-top-1">
+				<div><a href="#SELECTLANG" role="button">English</a></div>
+			</li>
+			<li role="presentation" id="dw-mast-top-3">
+				<a href="http://www.ibm.com" role="button">IBM</a>
+			</li>
+			<li role="presentation" id="dw-mast-top-2" class="dw-mf-hide">
+				<a href="#">[userid]</a>
+			</li>
+		</ul>
+	</div>
+
+    <!-- TOP ROW SLIDER -->
+	<div id="ibm-my-menu-dw" style="display:none">
+        <!-- Sign-in -->
+		<div id="signin_div" class="dw-mast-columns" role="group">
+			<div class="dw-mast-col-1-1">
+				<div id="dw-mast-sso">
+					<div id="signin_error_mf" class="no-display"></div>
+					<div id="dw-mast-sso-form">
+						<form id="sForm_mf" action="" method="post" name="sForm_name_mf" onsubmit="return false;">
+							<div id="dw-mast-sso-id" class="dw-mast-sso-id-en">
+								<label for="ibmid_mf">IBM ID:</label>
+								<input id="ibmid_mf" value="" name="ibmid_name_mf" maxlength="100" onkeypress="dwsi.siInst.handleEP(event,this.form,'mf');" type="text" />
+							</div>
+							<div id="dw-mast-sso-pw" class="dw-mast-sso-pw-en">
+								<label for="pw_mf">Password:</label>
+								<input id="pw_mf" value="" name="pw_name_mf" maxlength="100" onkeypress="dwsi.siInst.handleEP(event,this.form,'mf');" type="password" />
+							</div>
+							<div id="dw-mast-sso-target" class="dw-mast-sso-target-en">
+								<p class="dw-mf-perm-box">
+									<input id="perm_mf" name="perm_name_mf" type="checkbox"><label for="perm_mf"> Keep me signed in.</label></input>
+								</p>
+							</div>					
+							<div id="dw-mast-sso-terms">
+								<p class="dw-mast-sso-terms-en">By clicking <strong>Submit</strong>, you agree to the <a href="https://www.ibm.com/developerworks/community/terms/">developerWorks terms of use</a>.</p>
+							</div>
+							<div>
+								<input class="dw-mf-submit-btn" name="ibm_submit_name_mf" value="Submit" onclick="dwsi.siInst.signin('mf');return false;" type="submit" />
+							</div>
+						</form>
+					</div>
+					<div id="dw-mast-sso-update">
+						<div id="dw-mast-sso-update-id">
+							<ul>
+								<li><a href="#" onclick="(function () {window.location='/developerworks/dwwi/DWAuthRouter?m=reg&amp;lang=en&amp;d='+encodeURIComponent(location.href);})();">Need an IBM ID?</a></li>
+								<li><a href="/developerworks/dwwi/jsp/WSHelp.jsp?lang=en_US">Forgot your IBM ID?</a></li>
+							</ul>
+						</div>
+						<div id="dw-mast-sso-update-pw">
+							<ul class="dw-mf-pwupdate">
+								<li><a href="#" onclick="(function () {window.location='https://www.ibm.com/account/profile?page=forgot&amp;lang=en_US&amp;appname=ibm&amp;required=null&amp;d='+encodeURIComponent(dwsi.siInst.getAuthUrl())+'%3Fm%3Dloginpage%26lang%3Den_US%26d%3D'+encodeURIComponent(location.href);})();">Forgot your password?</a></li>
+								<li><a href="#" onclick="(function () {window.location='https://www.ibm.com/account/profile?page=chpw&amp;lang=en_US&amp;appname=ibm&amp;required=null&amp;d='+encodeURIComponent(location.href);})();">Change your password</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="dw-mast-sso-text">
+						<p>The first time you sign into developerWorks, a profile is created for you.  <strong>Information in your profile (your name, country/region, and company name) is displayed to the public and will accompany any content you post, unless you opt to hide your company name</strong>.  You may update your IBM account at any time.</p>
+						<p class="dw-mf-secure">All information submitted is secure.</p>
+					</div>
+				</div>
+				<div id="dw-mast-dname" class="dw-mf-hide">
+					<p>The first time you sign in to developerWorks, a profile is created for you, so you need to choose a display name.  Your display name accompanies the content you post on developerworks.</p><p><strong>Please choose a display name between 3-31 characters</strong>.  Your display name must be unique in the developerWorks community and should not be your email address for privacy reasons.</p>
+					<div id="signin_dname_error_mf" class="no-display"></div>
+					<div id="dw-mast-dname-form">
+						<form id="dForm_mf" action="" method="post" name="dForm_name_mf" onsubmit="return false;">
+							<div id="dw-mast-dname-mf">
+								<label for="dname_mf">Display name:</label>
+								<input id="dname_mf" name="dname_name_mf" maxlength="31" size="25" value="" onkeypress="dwsi.siInst.handleEP(event,this.form,'mf');" type="text" />
+							</div>
+							<div id="dw-mast-dname-terms">
+								<p>By clicking <strong>Submit</strong>, you agree to the <a href="https://www.ibm.com/developerworks/community/terms/">developerWorks terms of use</a>.</p>
+							</div>
+							<div>
+								<input class="dw-mf-submit-btn" name="dname_submit_name_mf" value="Submit" onclick="dwsi.siInst.signin('mf');return false;" type="submit" />
+							</div>
+						</form>								
+					</div>
+					<div id="dw-mast-dname-secure">
+						<p class="dw-mf-secure">All information submitted is secure.</p>
+					</div>
+				</div>
+				<div id="dw-mast-auth" class="dw-mf-hide">
+					<div>
+						<h2>developerWorks Community:</h2>
+						<ul>
+							<li><a id="dw-mast-top-0-0" href="/developerworks/community/homepage/web/updates/?lang=en">My home</a></li>
+							<li><a href="/developerworks/community/profiles/html/myProfileView.do?lang=en">My profile</a></li>
+							<li><a href="/developerworks/community/groups/service/html/mycommunities?lang=en">My communities</a></li>
+							<li><a href="/developerworks/community/news">Settings</a></li>
+						</ul>     
+					</div>
+					<div class="dw-mast-more">
+						<ul class="ibm-link-list">
+							<li><a class="dw-more-link" href="#" onclick="dwsi.siInst.signOut(); return false;"><strong>Sign out</strong></a></li>
+						</ul>
+					</div>
+				</div>								
+			</div>		
+		</div>
+        <!-- Language selector --> 
+		<div id="lang_div" class="dw-mast-columns" role="group">
+			<div class="dw-mast-col-2-1">
+				<h2>Select a language:</h2>
+				<ul>
+					<li><a id="dw-mast-top-1-0" href="http://www.ibm.com/developerworks/">English</a></li>
+					<li><a href="http://www.ibm.com/developerworks/cn/" lang="zh">中文</a></li>
+					<li><a href="http://www.ibm.com/developerworks/jp/" lang="ja">日本語</a></li>
+					<li><a href="http://www.ibm.com/developerworks/ru/" lang="ru">Русский</a></li>
+				</ul>
+			</div>
+			<div class="dw-mast-col-2-2">
+				<ul>
+					<li><a href="http://www.ibm.com/developerworks/br/" lang="pt">Português (Brasil)</a></li>
+					<li><a href="http://www.ibm.com/developerworks/ssa/" lang="es">Español</a></li>
+					<li><a href="http://www.ibm.com/developerworks/vn/" lang="vi">Việt</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="empty_div" class="dw-mast-columns" role="group"><!-- Authenticated --></div>		
+		<!-- IBM -->
+		<div id="ibmhome_div" class="dw-mast-columns" role="group">
+			<div class="dw-mast-col-2-1">
+				<ul>
+					<li><a id="dw-mast-top-3-0" href="http://www.ibm.com/">IBM home</a></li>
+					<li><a href="http://www.ibm.com/solutions/">Industries &amp; solutions</a></li>
+					<li><a href="http://www.ibm.com/technologyservices/">Services</a></li>
+					<li><a href="http://www.ibm.com/products/">Products</a></li>
+					<li><a href="http://www.ibm.com/support/">Support &amp; downloads</a></li>
+				</ul>
+			</div>
+			<div class="dw-mast-col-2-2 dw-mast-ibm">
+				<ul>
+					<li><a href="http://www.ibm.com/support/publications/us/library/index.shtml">Product information</a></li>
+					<li><a href="http://www.ibm.com/redbooks/">Redbooks</a></li>
+					<li><a href="http://www.ibm.com/software/">Software</a></li>
+					<li><a href="http://www.ibm.com/software/sw-services/">Software services</a></li>
+				</ul>
+			</div>	
+		</div>		
+	</div>
+		
+    <!-- BOTTOM ROW -->
+	<div id="ibm-universal-nav-dw" aria-label="Site map">
+		<ul id="ibm-unav-links-dw">
+			<li id="ibm-unav-home-dwlogo">
+				<a href="http://www.ibm.com/developerworks/"><img src="//dw1.s81c.com/developerworks/i/mf/dwn-dw-wordmark.png" width="225" height="28" alt="developerWorks®" /></a>
+			</li>
+		</ul>
+		<ul id="ibm-menu-links-dw" role="toolbar" aria-label="Site map">
+			<li id="dw-mast-nav-0" role="presentation"><a href="http://www.ibm.com/developerworks/topics/" tabindex="0">Technical topics</a></li>
+			<li id="dw-mast-nav-1" role="presentation"><a href="http://www.ibm.com/developerworks/downloads/">Evaluation software</a></li>
+			<li id="dw-mast-nav-2" role="presentation"><a href="http://www.ibm.com/developerworks/community/index.html">Community</a></li>
+			<li id="dw-mast-nav-3" role="presentation"><a href="http://www.ibm.com/developerworks/events/">Events</a></li>
+		</ul>
+		<form id="ibm-search-form" action="//www.ibm.com/search/csass/search/" method="get" name="form1" aria-label="IBM developerWorks Search" role="search">
+			<p>
+				<label for="q"><span class="ibm-access">Search developerWorks</span></label>
+				<input id="q" type="text" name="q" value="Search developerWorks" maxlength="100" />
+				<input type="hidden" name="sn" value="dw" />
+				<input type="hidden" name="lang" value="en" />
+				<input type="hidden" name="cc" value="US" />
+				<input type="hidden" name="en" value="utf" />
+				<input type="hidden" name="hpp" value="20" />
+				<input type="hidden" name="dws" value="dw" />
+				<input id="ibm-search" class="ibm-btn-search" type="submit" value="Submit" />
+			</p>
+		</form>
+	</div>	
+  
+</div>
+<div id="fdiv" class="ibm-access"></div><!-- MASTHEAD_END -->
+	    
+<!-- LAYOUT -->
+<!-- LEADSPACE_BEGIN --> 
+<div id="ibm-leadspace-head">
+	<!-- LEADSPACE_BODY_BEGIN --> 
+	<div id="ibm-leadspace-body">
+		<!-- Navigation_Trail_BEGIN -->
+      <ul id="ibm-navigation-trail"><li><a href="http://www.ibm.com/developerworks/">developerWorks</a></li><li><a href="http://www.ibm.com/developerworks/topics/">Technical topics</a></li><li><a href="http://www.ibm.com/developerworks/cloud/">Cloud computing</a></li><li><a href="http://www.ibm.com/developerworks/cloud/library/">Technical library</a></li></ul>
+		<!-- END_Navigation_Trail -->
+			<!-- Title_Subtitle -->
+			<h1>Linear optimization in Python, Part 1: Solve complex problems in the cloud with Pyomo</h1><p><em><span>Write a script to solve a modeling problem</span></em></p>
+	</div>
+	<!-- LEADSPACE_BODY_END --> 
+	<!-- SUMMARY_BEGIN -->
+	<div id="dw-summary-area" class="dw-summary-columns">
+		<div class="ibm-col-6-4">
+		<p><p>Explore ways to model optimization applications in Python using 
+Python Optimization Modeling Objects (Pyomo), an open source tool. You can use Pyomo to
+define symbolic problems, create concrete problem instances, and solve these instances
+with standard solvers. This article series shows how to leverage Pyomo's ability to
+integrate with Python to model optimization applications. This first article covers the
+basics. Part 2 shows how to add more tools and build a scalable architecture.</p></p>
+		<p class="ibm-no-print ibm-ind-link">
+<a class="ibm-forward-link" href="http://www.ibm.com/developerworks/cloud/library/?series_title_by=Linear+optimization+in+Python">View more content in this series</a> <span class="dw-summary-bar">|</span>
+			<a class="ibm-pdf-link" href="cl-optimizepythoncloud1-pdf.pdf">PDF</a> (281 KB) <span class="dw-summary-bar">|</span>
+			<span id="nCmts"></span>
+		</p>
+		</div>
+		<div class="ibm-col-6-2 dw-toc-margin">
+			<p class="dw-summary-author"><a href="#authorN10029" class="ibm-popup-link" onclick="ibmweb.overlay.show('authorN10029',this);return false;">Noah Gift </a> (<a href="mailto:noah.gift@giftcs.com?subject=Solve complex problems in the cloud with Pyomo">noah.gift@giftcs.com</a>), Founder, CTO, Giftcs</p>
+<div id="authorN10029" class="ibm-common-overlay"><div class="ibm-head"><p><a href="#close" class="ibm-common-overlay-close">Close [x]</a></p></div><div class="ibm-body"><div class="ibm-main"><div class="ibm-title"><!--this is where the h2 usually
+                                    goes--></div><div class="ibm-container ibm-alternate"><div class="ibm-container-body">
+<p><!--.-->
+<img class="dw-summary-bio-image-x64" alt="Noah Gift" align="" name="Noah Gift" src="/developerworks/i/p-nogift.jpg" valign="top" width="64" />Noah Gift is an experienced technical leader and software developer at <a href="http://www.attinteractive.com/">AT&amp;amp;T Interactive</a>. He solves interesting problems in a variety of languages including Python/Iron Python, Erlang, F#, C#, and JavaScript. (He's also worked at Caltech, Disney Feature Animation, Sony Imageworks, and Weta Digital.) A member of the Python Software Foundation, he is also an author of many developerWorks articles and the co-author of <a href="http://oreilly.com/catalog/9780596515829">Python For Unix and Linux System Administration</a>. He earned a BS in Nutritional Science from Cal Poly San Luis Obispo, an MS in Computer Information Systems from CSULA, and is an MBA Candidate at UC Davis specializing in business analytics, finance, and entrepreneurship. In his spare time, he composes for the piano and runs in marathons. Find him at his <a href="http://noahgift.com/">web site</a>, on <a href="http://twitter.com/noahgift">Twitter</a>, or for <a href="http://www.giftcs.com/">consulting</a>.</p><br /><br /></div></div></div></div><div class="ibm-footer"><!----></div></div>
+			<p class="dw-summary-date">05 February 2013</p>
+			
+				<p>Also available in&nbsp;<a href="http://www.ibm.com/developerworks/cn/cloud/library/cl-optimizepythoncloud1/">Chinese</a></p>
+
+			<div aria-hidden="true" class="ibm-container" id="dw-toc"><div class="ibm-container-body"><ul class="ibm-twisty"><li><a href="#toggle" class="ibm-twisty-trigger"><img src="//www.ibm.com/i/c.gif" alt="-"/></a><span class="ibm-twisty-head">Table of contents</span><div class="ibm-twisty-body"><ul style="font-size:0.8em" class="ibm-link-list">
+<li><a class="ibm-anchor-down-em-link" href="#introduction">Introduction</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#installing pyomo">Getting started</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#strategies">Modeling strategies</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#example">Pyomo application example: Wyndor</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#heuristic">Heuristic optimization: The greedy randomized traveling salesman </a></li>
+<li><a class="ibm-anchor-down-em-link" href="#Conclusion">Conclusion</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#resources">Resources</a></li>
+<li><a class="ibm-anchor-down-em-link" href="#icomments">Comments</a></li></ul></div></li></ul></div></div>
+		</div>
+	</div>
+	<!-- SUMMARY_END -->
+</div>
+<!-- LEADSPACE_END -->
+
+<div id="ibm-pcon">
+
+<!-- BEGIN_IBM-CONTENT -->
+<div id="ibm-content">
+
+<!-- BEGIN_IBM-CONTENT-BODY -->
+<div id="ibm-content-body">
+
+<!-- BEGIN_IBM-CONTENT-MAIN -->
+<div id="ibm-content-main">
+
+<!-- 1_1_COLUMN_BEGIN -->
+<div class="ibm-columns">
+<div class="ibm-col-1-1">
+
+<h2 id="introduction">Introduction</h2><p>Modeling is a powerful way to solve complex problems. According to the book
+    <em>Modeling Languages in Mathematical Optimization</em> (see <a href="#resources">Resources</a>), models are used to:</p><ul class="ibm-bullet-list"><li>Explain phenomena</li><li>Make predictions</li><li>Assess key factors</li><li>Identify extreme </li><li>Analyze trade-offs</li></ul><p>
+In business, spreadsheet software like Microsoft&#174; Excel is often the first choice
+    for modeling problems. Now, spreadsheets are often very intuitive, but they can be
+    limited in what they can ultimately do for large-scale problems. If you're a
+    developer, you might find it more expedient simply to write a script to solve a modeling problem, because then you can easily integrate the script into other systems. This article introduces the basics of linear optimization in Python using the Pyomo library. </p><p>You might be familiar with algebraic modeling languages such as AMPL, AIMMS, and GAMS. The advantage of using Pyomo is that its modeling objects are embedded within a high-level programming language with a rich set of supporting libraries. 
+Another key advantage to doing scientific or mathematical computing in Python is that the
+language can easily translate algebraic notation into an expression in code. In addition,
+there are many mature libraries you can leverage. An example is NumPy (see <a href="#resources">Resources</a>), a library that provides additional data structures
+    such as a multi-dimensional array. The NumPy library is used in a code example later
+    in the article because it answers the requirement for a multi-dimensional data structure.
+</p><h2 id="installing pyomo">Getting started</h2><p>To start, install Pyomo. Pyomo is a central component of Coopr, a collection of Python software packages. Download the <a href="https://software.sandia.gov/trac/coopr/downloader">
+  coopr_install script</a>, which creates a Python virtual environment when you run it with the Python interpreter.</p><p>To create a relative directory named "coopr":</p><div class="codesection"><pre class="displaycode">noahs-MacBook-Air% python coopr_install</pre></div><p>
+  Use the following command to start Pyomo, which puts the relative directory and its executables in your path:</p><div class="codesection"><pre class="displaycode">noahs-MacBook-Air% source coopr/bin/activate</pre></div><p>Use the Pyomo <code>"--help </code> command to 
+ get help for using pyomo:   </p><div class="codesection"><pre class="displaycode">(coopr)noahs-MacBook-Air% pyomo --help</pre></div><p>You need a compiler to use both the Virtual Python Environment builder (virtualenv) and Pyomo. On OS X, use the XCode Developer Tools command-line tools. On Linux, use the GNU Compiler Collection (GCC). Once this virtual environment is initialized, you can solve problems with Pyomo in one of two ways:</p><ul class="ibm-bullet-list"><li>Use the Pyomo command-line tool:
+<div class="codesection"><pre class="displaycode">(coopr)noahs-MacBook-Air% pyomo my_problem.py --solver=glpk</pre></div></li><li>Or, embed the initialization inside your script and run it via the Python interpreter:
+<h5 id="listing1">Listing 1. Invoking Pyomo inside a script</h5><div class="codesection"><pre class="displaycode">#This is an optional code path that allows the script to be run outside of
+#pyomo command-line.  For example:  python wyndor.py
+if __name__ == '__main__':
+   
+    #This replicates what the pyomo command-line tools does
+    from coopr.opt import SolverFactory
+    opt = SolverFactory("glpk")
+    instance = model.create()
+    results = opt.solve(instance)
+    #sends results to stdout
+    results.write()</pre></div></li></ul><p>
+Pyomo assumes you have at least one solver installed. The GNU Linear Programming Kit (glpk) is the default. Refer to the installation instructions for the solver you want to use. Then make sure Pyomo is able to find this solver on its path.
+</p><h2 id="strategies">Modeling strategies</h2><p>
+    There are two ways to create a data model with Pyomo: Abstract and concrete. The key difference is whether to separate the model and the data. </p><ul class="ibm-bullet-list"><li>In an abstract model, you separate the model and the data. </li><li>In a concrete model, you define the data inside the model itself. For example, in
+        a Pyomo script that uses a concrete model, everything is defined inside a single script file. For simpler problems, especially teaching problems, this can be an efficient approach. On the other hand, larger problems often have larger data sets, which makes it impractical to embed the data in the same script as the code needed to work on the data.</li></ul><p>
+    At a high level, a Pyomo model consists of variables, objectives, and constraints. </p><ul class="ibm-bullet-list"><li>Variables are values that are calculated during the optimization.</li><li>Objective are Python functions that take data and variables, and is either maximized or minimized.</li><li>Constraints are a way of defining an expression that limits the values a variable can assume.</li></ul><p>When creating a Pyomo model, you need to undertand the Python method of notating algebraic expressions. Here is a quick summary that compares expressions between a spreadsheet, algebra, and Python:   </p><h5 id="fig1">Figure 1. Table of notation comparisons</h5><img alt="Table of notation comparisons" src="figure1.jpg" width="520" /><h2 id="example">Pyomo application example: Wyndor</h2><p>
+To illustrate a simple linear optimization problem using Pyomo, let's take a product-mix
+problem from the book <em>Introduction to Management Science</em> (see <a href="#resources">Resources</a>). The Wyndor factory produces doors and windows. Each of three plants with different available hours can produce either doors or windows. To determine how to maximize the profit available in the limited amount of hours of production, write the following script. It has three main sections: model, objective, and constraint. </p><ul class="ibm-bullet-list"><li>The model &#8212; it's a concrete model &#8212; instantiates the data of the problem, such as the hours available from plants. </li><li>The objective (which can be either to maximize or minimize) is to maximize profit.</li><li>The constraint uses a CapacityRule function, written using a Python idiom called <em>list comprehension</em>.</li></ul><p>Here's the script for the Wyndor optimization problem:</p><h5 id="listing2">Listing 2. Wyndor Pyomo basic example</h5><div class="codesection"><pre class="displaycode">"""Wyndor model from Hillier and Hillier *Introduction to Management Science*
+
+One way to do it...
+Original Author dlw
+Modified ndg 
+
+To run this you need pyomo and the glpk solver installed, and need to be
+inside of the virtual environment.
+When these dependencies are installed you can solve this way (glpk is default):
+    
+    pyomo wyndor.py
+
+"""
+
+#Explicit importing makes it more clear what a user needs to define
+#versus what is included within the pyomo library
+from coopr.pyomo import (ConcreteModel, Objective, Var, NonNegativeReals,
+                              maximize, Constraint)
+
+Products = ['Doors', 'Windows']
+ProfitRate = {'Doors':300, 'Windows':500}
+Plants = ['Door Fab', 'Window Fab', 'Assembly']
+HoursAvailable = {'Door Fab':4, 'Window Fab':12, 'Assembly':18}
+HoursPerUnit = {('Doors','Door Fab'):1, ('Windows', 'Window Fab'):2,
+                ('Doors','Assembly'):3, ('Windows', 'Assembly'):2,
+                ('Windows', 'Door Fab'):0, ('Doors', 'Window Fab'):0}
+
+#Concrete Model
+model = ConcreteModel()
+#Decision Variables
+model.WeeklyProd = Var(Products, within=NonNegativeReals)
+
+#Objective
+model.obj = Objective(expr=
+            sum(ProfitRate[i] * model.WeeklyProd[i] for i in Products),
+            sense = maximize)
+
+def CapacityRule(model, p):
+    """User Defined Capacity Rule
+    
+    Accepts a pyomo Concrete Model as the first positional argument,
+    and and a plant index as a second positional argument
+    """
+    
+    return sum(HoursPerUnit[i,p] * model.WeeklyProd[i] for i in Products) 
+	  &lt;= HoursAvailable[p]
+
+This statement is what Pyomo needs to generate one constraint for each plant
+model.Capacity = Constraint(Plants, rule = CapacityRule)
+
+#This is an optional code path that allows the script to be run outside of
+#pyomo command-line.  For example:  python wyndor.py
+if __name__ == '__main__':
+   
+    #This replicates what the pyomo command-line tools does
+    from coopr.opt import SolverFactory
+    opt = SolverFactory("glpk")
+    instance = model.create()
+    results = opt.solve(instance)
+    #sends results to stdout
+    results.write()</pre></div><p>Let's run the script:</p><div class="codesection"><pre class="displaycode">(coopr)noahs-MacBook-Air% pyomo wyndor.py</pre></div><p>Pyomo returns the following output, which shows one feasible solution that achieves a $3,600 profit: </p><h5 id="listing3">Listing 3. One feasible solution with $3,600 profit</h5><div class="codesection"><pre class="displaycode">    (coopr)noahs-MacBook-Air% pyomo wyndor.py  
+[    0.00] Setting up Pyomo environment
+[    0.00] Applying Pyomo preprocessing actions
+[    0.00] Creating model
+[    0.00] Applying solver
+[    0.01] Processing results
+    Number of solutions: 1
+    Solution Information
+      Gap: 0.0
+      Status: feasible
+      Function Value: 3600.0
+    Solver results file: results.json
+[    0.02] Applying Pyomo postprocessing actions
+[    0.02] Pyomo Finished</pre></div><p>Let's find out which ratio of products you should produce. To do that, 
+<code>cat</code> the output file results.json. The results show this:</p><div class="codesection"><pre class="displaycode">"Variable": {
+                "WeeklyProd[Doors]": {
+                    "Id": 0, 
+                    "Value": 2.0
+                }, 
+                "WeeklyProd[Windows]": {
+                    "Id": 1, 
+                    "Value": 6.0</pre></div><p>From this output, you see that producing six windows and two doors gives you a profit maximization of $3,600. </p><p>Another way you can solve the script is to use Python because of the conditional
+    statement added. This invokes Pyomo inside of the script, instead of using Pyomo to invoke the script.</p><h2 id="heuristic">Heuristic optimization: The greedy randomized traveling salesman </h2><p>The book <em>In Pursuit of the Traveling Salesman: Mathematics at the Limits of
+    Computation</em> by Bill Cook contains a great example of a problem that doesn't always scale well as a linear program. It's the Traveling Salesman Problem, or TSP: Given a list of cities, find the shortest possible route that visits each city exactly once and returns to the original city. The worst-case running time that solves the traveling salesman problem increases exponentially with the number of cities.
+</p><p>Figure 2 is a graph that simulates the amount of time necessary to solve for every possible route, assuming it takes a few seconds to solve for a couple of cities. As you can see, it rapidly becomes impossible to solve the problem in your lifetime. </p><h5 id="fig2">Figure 2. Traveling salesman exponential time to solve</h5><img alt="Traveling salesman exponential time to solve" src="figure2.jpg" width="560" /><p>You need another strategy to find a <em>good</em> result. Often a <em>good</em>, but
+    not a guaranteed optimal, solution is achieved by running simulations and then taking the best results of those simulations. An example of this approach is shown in the Python code below. Randomly select a starting city, and then <em>greedily</em> select the next city with the shortest distance. This simulation can then be run N, or multiple times, and the shortest path among the simulations will be run.</p><h5 id="listing4">Listing 4. Greedy shortest-distance selections </h5><div class="codesection"><pre class="displaycode">noahs-MacBook-Air% python tsp_greedy_random_start.py 20 
+Running simulation 20 times
+Shortest Distance: 128
+Optimal Route: [
+ ('PCG', 'GPS', 1), 
+ ('GPS', 'URS', 1),
+ ('URS', 'WFC', 0),
+ ('WFC', 'MCK', 2), 
+ ('MCK', 'SFO', 16), 
+ ('SFO', 'ORCL', 20), 
+ ('ORCL', 'HPQ', 12), 
+ ('HPQ', 'GOOG', 6), 
+ ('GOOG', 'AAPL', 11), 
+ ('AAPL', 'INTC', 8), 
+ ('INTC', 'CSCO', 6), 
+ ('CSCO', 'EBAY', 0), 
+ ('EBAY', 'SWY', 32), 
+ ('SWY', 'CVX', 13)
+]</pre></div><h5 id="listing5">Listing 5. TSP greedy random start</h5><div class="codesection"><pre class="displaycode">#!/usr/bin/env python
+"""
+Traveling salesman solution with random start and greedy path selection
+You can select how many iterations to run by doing the following:
+
+python tsp_greedy_random_start.py 20 #runs 20 times
+
+
+"""
+
+import sys
+from random import choice
+import numpy as np
+from routes import values
+
+dt = np.dtype([('city_start', 'S10'), ('city_end', 'S10'), ('distance', int)])
+data_set = np.array(values,dtype=dt)
+
+def all_cities(mdarray):
+    """Takes a multi-dimensional array in this format and finds unique cities
+    
+    array([["A", "A"],
+    ["A", "B"]])
+    
+    """
+    cities = {}
+    city_set = set(data_set['city_end'])
+    for city in city_set:
+        cities[city] = ""
+    return cities
+    
+def randomize_city_start(all_cities):
+    """Returns a randomized city to start trip"""
+    
+    return choice(all_cities)
+
+def get_shortest_route(routes):
+    """Sort the list by distance and return shortest distance route"""
+
+    route = sorted(routes, key=lambda dist: dist[2]).pop(0)
+    return route
+
+def greedy_path():
+    """Select the next path to travel based on the shortest, nearest path"""
+
+    itinerary = []
+    cities = all_cities(data_set)
+    starting_city = randomize_city_start(cities.keys())
+    #print "starting_city: %s" % starting_city
+    cities_visited = {}
+    #we want to iterate through all cities once
+    count = 1
+    while True:
+        possible_routes = []
+        distance = [] 
+        #print "starting city: %s" % starting_city
+        for path in data_set:
+            if starting_city in path['city_start']:
+                #we can't go to cities we have already visited
+                if path['city_end'] in cities_visited:
+                    continue
+                else:
+                    #print "path: ", path
+                    possible_routes.append(path)
+        
+        if not possible_routes:
+            break
+        #append this to itinerary
+        route = get_shortest_route(possible_routes)
+        #print "Route(%s): %s " % (count, route)
+        count += 1
+        itinerary.append(route)
+        #add this city to the visited city list
+        cities_visited[route[0]] = count
+        #print "cities_visited: %s " % cities_visited
+        #reset the starting_city to the next city
+        starting_city = route[1]
+        #print "itinerary: %s" % itinerary
+    
+    return itinerary
+
+def get_total_distance(complete_itinerary):
+    
+    distance = sum(z for x,y,z in complete_itinerary)
+    return distance
+
+def lowest_simulation(num):
+    
+    routes = {}
+    for i in range(num):
+        itinerary = greedy_path()
+        distance = get_total_distance(itinerary)
+        routes[distance] = itinerary
+    shortest_distance = min(routes.keys())
+    route = routes[shortest_distance]
+    return shortest_distance, route
+
+def main():
+    """runs everything"""
+    
+    if len(sys.argv) == 2:
+        iterations = int(sys.argv[1])
+        print "Running simulation %s times" % iterations
+        distance, route = lowest_simulation(iterations)
+        print "Shortest Distance: %s" % distance
+        print "Optimal Route: %s" % route
+    else:
+        #print "All Routes: %s" % data_set
+        itinerary = greedy_path()
+        print "itinerary: %s" % itinerary
+        print "Distance: %s" % get_total_distance(itinerary)
+    
+
+if __name__ == '__main__':
+   main()</pre></div><p>
+The TSP script uses a NumPy multi-dimensional array as the source of data. If you want to
+run this example, you need to install NumPy (see <a href="#resources">Resources</a>). The array is defined in a file called routes.py.  Here is what those routes look like.
+</p><h5 id="listing6">Listing 6. NumPy multi-dimensional array containing city-to-city routes</h5><div class="codesection"><pre class="displaycode">values = [
+("AAPL", "CSCO", 14),
+("AAPL", "CVX", 44),
+("AAPL", "EBAY", 14),
+("AAPL", "GOOG", 14),
+("AAPL", "GPS", 59),
+("AAPL", "HPQ", 14),
+("AAPL", "INTC", 8),
+("AAPL", "MCK", 60),
+("AAPL", "ORCL", 26),
+("AAPL", "PCG", 59),
+("AAPL", "SFO", 46),
+("AAPL", "SWY", 37),
+("AAPL", "URS", 60),
+("AAPL", "WFC", 60),
+
+("CSCO","AAPL" ,14),
+("CSCO", "CVX", 43),
+("CSCO", "EBAY",0),
+("CSCO", "GOOG",21),
+("CSCO", "GPS",67),
+("CSCO", "HPQ",26),
+("CSCO", "INTC",6),
+("CSCO", "MCK",68),
+("CSCO", "ORCL",37),
+("CSCO", "PCG",68),
+("CSCO", "SFO",57),
+("CSCO", "SWY",32),
+("CSCO", "URS",68),
+("CSCO", "WFC",68),
+
+("CVX","AAPL" ,44),
+("CVX", "CSCO",43),
+("CVX", "EBAY",43),
+("CVX", "GOOG",36),
+("CVX", "GPS",43),
+("CVX", "HPQ",40),
+("CVX", "INTC",41),
+("CVX", "MCK",46),
+("CVX", "ORCL",39),
+("CVX", "PCG",44),
+("CVX", "SFO",45),
+("CVX", "SWY",13),
+("CVX", "URS",44),
+("CVX", "WFC",44),
+
+("EBAY","AAPL" ,14),
+("EBAY", "CSCO",0),
+("EBAY", "CVX",43),
+("EBAY", "GOOG",21),
+("EBAY", "GPS",67),
+("EBAY", "HPQ",26),
+("EBAY", "INTC",6),
+("EBAY", "MCK",68),
+("EBAY", "ORCL",37),
+("EBAY", "PCG",68),
+("EBAY", "SFO",57),
+("EBAY", "SWY",32),
+("EBAY", "URS",68),
+("EBAY", "WFC",68),
+
+("GOOG","AAPL",11),
+("GOOG", "CSCO",21),
+("GOOG", "CVX",36),
+("GOOG", "EBAY",21),
+("GOOG", "GPS",48),
+("GOOG", "HPQ",6),
+("GOOG", "INTC",15),
+("GOOG", "MCK",49),
+("GOOG", "ORCL",16),
+("GOOG", "PCG",48),
+("GOOG", "SFO",36),
+("GOOG", "SWY",32),
+("GOOG", "URS",49),
+("GOOG", "WFC",49),
+
+("GPS","AAPL" ,59),
+("GPS", "CSCO",67),
+("GPS", "CVX",43),
+("GPS", "EBAY",67),
+("GPS", "GOOG",48),
+("GPS", "HPQ",45),
+("GPS", "INTC",62),
+("GPS", "MCK",03),
+("GPS", "ORCL",34),
+("GPS", "PCG",01),
+("GPS", "SFO",18),
+("GPS", "SWY",53),
+("GPS", "URS",01),
+("GPS", "WFC",01),
+
+("HPQ","AAPL" ,14),
+("HPQ", "CSCO",26),
+("HPQ", "CVX",40),
+("HPQ", "EBAY",26),
+("HPQ", "GOOG",6),
+("HPQ", "GPS",45),
+("HPQ", "INTC",20),
+("HPQ", "MCK",46),
+("HPQ", "ORCL",12),
+("HPQ", "PCG",46),
+("HPQ", "SFO",32),
+("HPQ", "SWY",37),
+("HPQ", "URS",46),
+("HPQ", "WFC",46),
+
+("INTC","AAPL",8),
+("INTC","CSCO",6),
+("INTC", "CVX",41),
+("INTC", "EBAY",6),
+("INTC", "GOOG",15),
+("INTC", "GPS",62),
+("INTC", "HPQ",20),
+("INTC", "MCK",63),
+("INTC", "ORCL",31),
+("INTC", "PCG",62),
+("INTC", "SFO",51),
+("INTC", "SWY",32),
+("INTC", "URS",63),
+("INTC", "WFC",63),
+
+("MCK", "AAPL",60),
+("MCK", "CSCO",68),
+("MCK", "CVX",46),
+("MCK", "EBAY",68),
+("MCK", "GOOG",49),
+("MCK", "GPS",03),
+("MCK", "HPQ",46),
+("MCK", "INTC",63),
+("MCK", "ORCL",34),
+("MCK", "PCG",3),
+("MCK", "SFO",16),
+("MCK", "SWY",56),
+("MCK", "URS",3),
+("MCK", "WFC",2),
+
+("ORCL", "AAPL",22),
+("ORCL", "CSCO",37),
+("ORCL", "CVX",39),
+("ORCL", "EBAY",37),
+("ORCL", "GOOG",16),
+("ORCL", "GPS",34),
+("ORCL", "HPQ",12),
+("ORCL", "INTC",31),
+("ORCL", "MCK",34),
+("ORCL", "PCG",35),
+("ORCL", "SFO",20),
+("ORCL", "SWY",40),
+("ORCL", "URS",35),
+("ORCL", "WFC",35),
+
+("PCG", "AAPL",59),
+("PCG", "CSCO",68),
+("PCG", "CVX",44),
+("PCG", "EBAY",68),
+("PCG", "GOOG",48),
+("PCG", "GPS",01),
+("PCG", "HPQ",46),
+("PCG", "INTC",62),
+("PCG", "MCK",03),
+("PCG", "ORCL",35),
+("PCG", "SFO",18),
+("PCG", "SWY",54),
+("PCG", "URS",01),
+("PCG", "WFC",01),
+
+("SFO", "AAPL",46),
+("SFO", "CSCO",57),
+("SFO", "CVX",45),
+("SFO", "EBAY",57),
+("SFO", "GOOG",36),
+("SFO", "GPS",18),
+("SFO", "HPQ",32),
+("SFO", "INTC",51),
+("SFO", "MCK",16),
+("SFO", "ORCL",20),
+("SFO", "PCG",18),
+("SFO", "SWY",52),
+("SFO", "URS",18),
+("SFO", "WFC",18),
+
+("SWY", "AAPL",37),
+("SWY", "CSCO",32),
+("SWY", "CVX",13),
+("SWY", "EBAY",32),
+("SWY", "GOOG",32),
+("SWY", "GPS",53),
+("SWY", "HPQ",37),
+("SWY", "INTC",32),
+("SWY", "MCK",56),
+("SWY", "ORCL",40),
+("SWY", "PCG",54),
+("SWY", "SFO",52),
+("SWY", "URS",54),
+("SWY", "WFC",54),
+
+("URS", "AAPL",60),
+("URS", "CSCO",68),
+("URS", "CVX",44),
+("URS", "EBAY",68),
+("URS", "GOOG",49),
+("URS", "GPS",01),
+("URS", "HPQ",46),
+("URS", "INTC",63),
+("URS", "MCK",03),
+("URS", "ORCL",35),
+("URS", "PCG",01),
+("URS", "SFO",18),
+("URS", "SWY",54),
+("URS", "WFC",0),
+
+("WFC", "AAPL",60),
+("WFC", "CSCO",68),
+("WFC", "CVX",44),
+("WFC", "EBAY",68),
+("WFC", "GOOG",49),
+("WFC", "GPS",01),
+("WFC", "HPQ",46),
+("WFC", "INTC",63),
+("WFC", "MCK",02),
+("WFC", "ORCL",35),
+("WFC", "PCG",01),
+("WFC", "SFO",18),
+("WFC", "SWY",54),
+("WFC", "URS",0),
+
+]</pre></div><h2 id="Conclusion">Conclusion</h2><p>
+In this article, I covered the basics of doing optimization with Pyomo and Python. This should be enough to get you started on your own. In the next two articles in this series, I walk through some more detailed examples and cover some pragmatic aspects of building larger programs and dealing with scaling issues.  
+</p><h3 id="ack">Acknowledgements</h3><p>Special thanks to Dr. David L. Woodruff for reviewing this article.</p><!--CMA ID: true--><!--Site ID: 1--><!--XSLT stylesheet used to transform this file:
+        dw-document-html-7.0.xsl-->
+
+
+</div>
+</div>
+<!-- 1_1_COLUMN_END -->
+
+<!-- SPLIT_COLUMNS_BEGIN -->
+<div class="ibm-columns">
+
+<!-- 6_4_COLUMN_BEGIN -->
+<div class="ibm-col-6-4">
+
+<h2 id="resources" class="ibm-rule">Resources</h2><h3 class="dw-resources-category-heading">Learn</h3><ul class="ibm-bullet-list"><li>These two books are a highly recommended source of information on optimization:
+            <ul><li><a href="http://www.springer.com/mathematics/book/978-1-4614-3225-8"><em>Pyomo – Optimization Modeling in Python</em></a>, by W. E. Hart et al.
+            </li><li><a href="http://highered.mcgraw-hill.com/sites/007809660x/information_center_view0/"><em>Introduction to Management Science: A Modeling and Case Studies Approach with Spreadsheets</em></a>, by David Anderson et al.
+            </li></ul></li><li>Join the discussion at the <a href="http://pypi.python.org/pypi/coopr.pyomo/3.3.2">Pyomo mailing list.</a></li><li>Learn more about modeling and solving real world optimization problems in the book <a href="http://www.amazon.com/Modeling-Languages-Mathematical-Optimization-Applied/dp/1402075472"><em>Modeling Languages in Mathematical Optimization</em></a>, edited by Joseph Kallrath.
+            </li><li>In the book <a href="http://www.amazon.com/Pursuit-Traveling-Salesman-Mathematics-Computation/dp/0691152705"><em>In Pursuit of the Traveling Salesman: Mathematics at the Limits of Computation</em></a>, the author William J. Cook explores the various algorithms and branches of mathematics used to solve the traveling salesman problem, including the branch of mathematics known as linear programming.  
+            </li><li>Study some <a href="http://faculty.gsm.ucdavis.edu/~dlw/">notation examples from Dr. David L. Woodruff</a>.
+            </li><li>Learn more about cloud computing technologies at <a href="https://www.ibm.com/developerworks/cloud/">cloud at developerWorks</a>.
+</li><li>Access <a href="http://www-935.ibm.com/services/us/en/cloud-enterprise/">IBM SmartCloud Enterprise</a>.
+</li><li>Follow <a href="http://www.twitter.com/developerworks/">developerWorks on Twitter</a>.</li><li>Watch <a href="http://www.ibm.com/developerworks/demos/">developerWorks demos</a> ranging from product installation and setup demos for beginners, to advanced functionality for experienced developers. </li></ul><h3 class="dw-resources-category-heading">Get products and technologies</h3><ul class="ibm-bullet-list"><li>Pyomo is a central component of Coopr, a collection of Python software packages. Download the <a href="https://software.sandia.gov/trac/coopr/downloader">Pyomo installer</a>.
+            </li><li>Download <a href="http://pypi.python.org/pypi/virtualenv/">the Virtual Python Environment builder (virtualenv)</a>.
+            </li><li>Read about and download <a href="http://www.numpy.org/">NumPy</a>, the fundamental package for scientific computing with Python.
+            </li><li>Download the <a href="http://www.gnu.org/software/glpk/">GLPK (GNU Linear Programming Kit) package</a>, used to solve large-scale linear programming (LP), mixed integer programming (MIP), and other related problems. 
+            </li><li><a href="http://www.ibm.com/developerworks/downloads/">Evaluate IBM products</a> in the way that suits you best: Download a product trial, try a product online, use a product in a cloud environment, or spend a few hours in the <a href="http://www.ibm.com/developerworks/downloads/soasandbox/index.html">SOA Sandbox</a> learning how to implement Service Oriented Architecture efficiently.
+</li></ul><h3 class="dw-resources-category-heading">Discuss</h3><ul class="ibm-bullet-list"><li>Get involved in the <a href="http://www.ibm.com/developerworks/community/">developerWorks community</a>. Connect with other developerWorks users while exploring the developer-driven blogs, forums, groups, and wikis. </li></ul>
+
+<!-- INLINE_COMMENTS_BEGIN -->
+<h2 id="icomments" class="ibm-alternate-rule ibm-no-print">Comments</h2>
+    
+<div class="ibm-no-print" id="dw-icomments-container">	
+	<div id="threadShow"></div>
+</div>
+<!-- Sign in OVERLAY STARTS HERE -->
+    
+<!-- Sign in OVERLAY STARTS HERE -->
+<div class="ibm-common-overlay" id="signin_overlay">
+<div class="ibm-head">
+<p><a class="ibm-common-overlay-close" href="#" onclick="dwsi.siInst.clearForm();">Close [x]</a></p>
+</div>
+<div class="ibm-body">
+<div class="ibm-main">
+ <div class="ibm-title">
+<h2>developerWorks: Sign in</h2>
+<div id="ibm-overlay-error-signin" class="no-display"></div>
+</div>
+<div class="ibm-container ibm-alternate ibm-buttons-last">
+<div class="ibm-container-body">
+<p class="ibm-overlay-intro">Required fields are indicated with an asterisk (<span class="ibm-required">*</span>).</p> 
+<form class="ibm-column-form" id="sFormId" action="" method="post" name="sForm" onsubmit="return false;">
+<p><label for="ibmid">IBM ID:<span class="ibm-required">*</span></label><span><input name="ibm-id" id="ibmid" size="25" value="" class="required" type="text" onkeypress="dwsi.siInst.handleEP(event,this.form);" /><br /><a onclick="window.location='/developerworks/dwwi/DWAuthRouter?m=reg&amp;d='+encodeURIComponent(location.protocol + '//' + location.hostname + location.pathname + '#icomments'); return false;" href="#" class="ibm-forward-link">Need an IBM ID?</a> <br /><a class="ibm-forward-link" href="/developerworks/dwwi/jsp/WSHelp.jsp?lang=en_US">Forgot your IBM ID?</a></span>   
+</p> 
+<p><label for="password">Password:<span class="ibm-required">*</span></label><span><input name="password" id="password" size="25" value="" class="required" type="password" onkeypress="dwsi.siInst.handleEP(event,this.form);" /><br /><a class="ibm-forward-link" href="#" onclick="(function () {window.location='https://www.ibm.com/account/profile?page=forgot&amp;lang=en_US&amp;appname=ibm&amp;required=null&amp;d='+encodeURIComponent(dwsi.siInst.getAuthUrl())+'%3Fm%3Dloginpage%26lang%3Den_US%26d%3D'+encodeURIComponent(location.href);})();">Forgot your password?</a><br /><a class="ibm-forward-link" href="#" onclick="(function () {window.location='https://www.ibm.com/account/profile?page=chpw&amp;lang=en_US&amp;appname=ibm&amp;required=null&amp;d='+encodeURIComponent(location.href);})();">Change your password</a></span></p> 
+<p class="dw-perm-box">
+	<span><input id="perm" type="checkbox" name="perm_name"/><label for="perm"> Keep me signed in.</label></span>
+</p>
+<p>By clicking <strong>Submit</strong>, you agree to the <a href="https://www.ibm.com/developerworks/community/terms/">developerWorks terms of use</a>.</p>
+<div class="ibm-buttons-row">
+   <p><input class="ibm-btn-arrow-pri" name="ibm-submit" value="Submit" onclick="dwsi.siInst.signin();return false;" type="submit" /><span class="ibm-sep">&nbsp;</span>
+<input value="Cancel" type="button" name="ibm-cancel" class="ibm-btn-cancel-sec" onclick="dwsi.siInst.clearForm();ibmweb.overlay.hide('signin_overlay');return false;"/></p>
+</div>
+</form>
+<div class="ibm-overlay-rule"><hr /></div>
+<p>The first time you sign into developerWorks, a profile is created for you.  <strong>Information in your profile (your name, country/region, and company name) is displayed to the public and will accompany any content you post, unless you opt to hide your company name</strong>.  You may update your IBM account at any time.</p>
+<div><p class="dw-c-overlay-secure">All information submitted is secure.</p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ibm-footer"></div>
+</div>
+<!-- Display name OVERLAY STARTS HERE -->
+<div class="ibm-common-overlay" id="displayname_overlay">
+<div class="ibm-head">
+<p><a class="ibm-common-overlay-close" href="#" onclick="dwsi.siInst.clearForm();">Close [x]</a></p>
+</div>
+<div class="ibm-body">
+<div class="ibm-main">
+<div class="ibm-title">
+<h2>Choose your display name</h2><br /><br />
+<div id="ibm-overlay-error-dname" class="no-display"></div>
+</div>
+<div class="ibm-container ibm-alternate ibm-buttons-last">
+<div class="ibm-container-body">
+<p class="ibm-overlay-intro">The first time you sign in to developerWorks, a profile is created for you, so you need to choose a display name.  Your display name accompanies the content you post on developerWorks.</p>
+<p><strong>Please choose a display name between 3-31 characters</strong>. Your display name must be unique in the developerWorks community and should not be your email address for privacy reasons.</p>
+<p class="ibm-overlay-intro">Required fields are indicated with an asterisk (<span class="ibm-required">*</span>).</p> 
+<form id="dFormId" method="post" action="" name="dForm" onsubmit="return false;" class="ibm-column-form">
+<p><label for="displayname">Display name:<span class="ibm-required">*</span></label><span><input name="displayname" id="displayname" size="25" value="" type="text" onkeypress="dwsi.siInst.handleEP(event,this.form);" /></span><span class="ibm-form-note">(Must be between 3 &ndash; 31 characters.)</span>
+</p>
+<p>By clicking <strong>Submit</strong>, you agree to the <a href="https://www.ibm.com/developerworks/community/terms/">developerWorks terms of use</a>.</p>
+<div class="ibm-buttons-row">
+   <p><input class="ibm-btn-arrow-pri" name="ibm-submit" value="Submit" onclick="dwsi.siInst.signin();return false;" type="submit" /><span class="ibm-sep">&nbsp;</span>
+<input value="Cancel" type="button" name="ibm-cancel" class="ibm-btn-cancel-sec" onclick="dwsi.siInst.clearForm();ibmweb.overlay.hide('displayname_overlay');return false;" /></p>
+</div>
+</form>
+<div class="ibm-overlay-rule"><hr /></div>
+<div><p class="dw-c-overlay-secure">All information submitted is secure.</p></div>
+</div>
+</div>
+</div>
+</div>
+<div class="ibm-footer"></div>
+</div>
+
+
+<!-- INLINE_COMMENTS_END -->
+
+</div>
+<!-- 6_4_COLUMN_END -->
+
+<!-- 6_2_COLUMN_BEGIN -->
+<div class="ibm-col-6-2">
+
+<!-- Next_Steps -->
+<!-- Dig_Deeper -->
+
+<!-- DIG_DEEPER_START -->
+<h2 class="ibm-rule">Dig deeper into Cloud computing on developerWorks</h2>
+<ul class="ibm-link-list">
+	<li class="ibm-first"><a href="http://www.ibm.com/developerworks/cloud/" class="ibm-forward-link">Overview</a></li>
+	<li><a href="http://www.ibm.com/developerworks/cloud/about.html" class="ibm-forward-link">New to cloud computing</a></li>
+	<!-- <li><a href="http://www.ibm.com/developerworks/cloud/devtest.html" class="ibm-forward-link">Products and solutions</a></li> -->
+	<li><a href="http://www.ibm.com/developerworks/cloud/library/" class="ibm-forward-link">Technical library (articles and more)</a></li>
+	<li><a href="https://www.ibm.com/developerworks/community/forums/html/search?scope=forum&component=&query=cloud%20computing" class="ibm-forward-link">Forums</a></li>
+	<li><a href="https://www.ibm.com/developerworks/community/blogs/home/tags/cloud%20computing?lang=en" class="ibm-forward-link">Blogs</a></li>
+	<li><a href="https://www.ibm.com/developerworks/community/groups/service/html/allcommunities?tag=cloud%20computing#tag%3Dcloud-computing%26sortKey%3Dupdate_date%26sortOrder%3Ddesc%26page%3D0%26numItems%3D10%26timeStamp%3D1374173038192" class="ibm-forward-link">Communities</a></li>
+</ul>
+<!-- DIG_DEEPER_END -->
+<!-- Promotion_Module -->
+    
+<!-- PROMOTION_MODULE_START -->
+<div class="ibm-alternate-rule"><hr /></div>
+<ul class="ibm-portrait-module-list">
+
+<li><img height="60" width="60" src="//dw1.s81c.com/developerworks/i/sm-f-bluemixdev60.png" alt=""/>
+<h3><a class="ibm-feature-link" href="https://www.ibmdw.net/bluemix/">Bluemix Developers Community</a></h3>
+<p>Get samples, articles, product docs, and community resources to help build, deploy, and manage your cloud apps.</p>
+</li>  
+
+<li><img height="60" width="60" src="//www.ibm.com/developerworks/i/sm-f-nl-cloud60.png" alt=""/>
+<h3><a class="ibm-feature-link" href="http://paper.li/IBMdWCloud/1374166921">Cloud digest</a></h3>
+<p>Complete cloud software, infrastructure, and platform knowledge.</p></li>
+<li><img height="60" width="60" src="//www.ibm.com/developerworks/i/sm-f-jazzhub2.png" alt=""/>
+<h3><a class="ibm-feature-link" href="https://hub.jazz.net?utm_source=developerWorks&utm_medium=ad&utm_campaign=dW+tiny+ad">DevOps Services</a></h3>
+<p>Software development in the cloud.  Register today to create a project.</p></li>
+<li><img height="60" width="60" src="//www.ibm.com/developerworks//i/sm-f-softlayertrial60.png" alt=""/>
+<h3><a class="ibm-feature-link" href="http://www.softlayer.com/info/free-cloud/dwfreetrial?cmp=xlink&cpb=dwsoft&ct=dwtry&cr=dwrefer&ccy=zz&cm=s">Try SoftLayer Cloud</a></h3>
+<p>Deploy public cloud instances in as few as 5 minutes. Try the SoftLayer public cloud instance for one month.</p></li>
+</ul>
+<!-- PROMOTION_MODULE_END -->
+</div>
+<!-- 6_2_COLUMN_END -->
+
+</div>
+<!-- SPLIT_COLUMNS_END -->
+
+<!-- BOTTOM_BACK_TO_TOP -->
+<div class="ibm-columns">
+<div class="ibm-col-1-1">
+	<div class="ibm-alternate-rule"><hr/></div><p class="ibm-ind-link ibm-back-to-top"><a href="#ibm-content" class="ibm-anchor-up-link">Back to top</a></p>
+</div>
+</div>
+
+<!-- Rating_Meta_BEGIN -->
+<!--Rating_Meta_BEGIN--><div class="metavalue">static.content.url=http://www.ibm.com/developerworks/js/artrating/</div><div class="metavalue">SITE_ID=1</div><div class="metavalue">Zone=Cloud computing, Open source</div><div class="metavalue">ArticleID=857492</div><div class="metavalue">ArticleTitle=Linear optimization in Python, Part 1: Solve complex problems in the cloud with Pyomo</div><div class="metavalue">publish-date=02052013</div><script language="javascript" type="text/javascript">document.write('<div class="metavalue">url='+location.href.replace(/</g,  '%3C')+'</div>');</script><!--Rating_Meta_END-->
+<!-- Rating_Meta_END -->
+
+</div>
+<!-- END_IBM_CONTENT_MAIN -->
+
+</div>
+<!-- END_IBM_CONTENT_BODY -->
+
+</div>
+<!-- END_IBM_CONTENT -->
+
+</div>
+<!-- END_IBM_PCON -->
+<!-- FOOTER_BEGIN -->
+<div id="ibm-footer"><!-- IBM footer container; disabled --></div>
+
+<div id="ibm-footer-module-dwwrapper" role="contentinfo" aria-label="developerWorks Footer">
+
+<div id="ibm-footer-module-dw">
+	<div class="dw-footer-columns">
+		<div class="dw-footer-col-5-1">
+			<ul>
+				<li><a href="http://www.ibm.com/developerworks/aboutdw/">About</a></li>
+				<li><a href="https://www.ibm.com/developerworks/feedback">Help</a></li>
+				<li><a href="http://www.ibm.com/developerworks/aboutdw/contacts.html">Contact us</a></li>
+				<li><a href="https://www.ibm.com/developerworks/ideas">Submit content</a></li>
+			</ul>
+		</div>
+		<div class="dw-footer-col-5-2">
+			<ul>
+				<li><a href="http://www.ibm.com/developerworks/feeds/">Feeds</a></li>
+				<li><a href="http://www.ibm.com/developerworks/newsletter/">Newsletters</a></li>
+				<li><a class="ibm-twitter-link" href="http://twitter.com/developerWorks" target="_blank">Follow</a></li>
+				<li><a class="ibm-facebook-link" href="http://www.facebook.com/developerworks" target="_blank">Like</a></li>
+			</ul>
+		</div>
+		<div class="dw-footer-col-5-3">
+			<ul>
+				<li><a href="https://www.ibm.com/developerworks/community/report/">Report abuse</a></li>
+				<li><a href="https://www.ibm.com/developerworks/community/terms/use/">Terms of use</a></li>
+				<li><a href="https://www.ibm.com/developerworks/community/terms/thirdparty/">Third party notice</a></li>
+				<li><a href="http://www.ibm.com/privacy/">IBM privacy</a></li>
+				<li><a href="http://www.ibm.com/accessibility/">IBM accessibility</a></li>
+			</ul>
+		</div>
+		<div class="dw-footer-col-5-4">
+			<ul>
+				<li><a href="http://www.ibm.com/developerworks/university/academicinitiative/">Faculty</a></li>
+				<li><a href="http://www.ibm.com/developerworks/university/students/">Students</a></li>
+				<li><a href="http://www.ibm.com/isv/">Business Partners</a></li>
+			</ul>
+		</div>
+		<div class="dw-footer-col-5-5">
+			<img src="//dw1.s81c.com/developerworks/i/mf/dwn-ibm-logo-v17.png" alt="IBM®" width="223" height="46"/>
+			<img class="dw-preload" src="//1.www.s81c.com/i/v17/icons/ibm_sprite_social_blue_ON.png" alt="" width="1" height="1"/>
+			<img class="dw-preload" src="//dw1.s81c.com/developerworks/i/mf/arrow-down-active.gif" alt="" width="1" height="1"/>			
+		</div>
+	</div>
+	<!-- Language selector no-script -->
+	<noscript>
+	<div id="dw-footer-selectlang">
+		<h2><a name="SELECTLANG">Select a language:</a></h2>
+		<ul>
+			<li><a href="http://www.ibm.com/developerworks/">English</a></li>
+			<li><a href="http://www.ibm.com/developerworks/cn/" lang="zh">中文</a></li>
+			<li><a href="http://www.ibm.com/developerworks/jp/" lang="ja">日本語</a></li>
+			<li><a href="http://www.ibm.com/developerworks/ru/" lang="ru">Русский</a></li>
+			<li><a href="http://www.ibm.com/developerworks/br/" lang="pt">Português (Brasil)</a></li>
+			<li><a href="http://www.ibm.com/developerworks/ssa/" lang="es">Español</a></li>
+			<li><a href="http://www.ibm.com/developerworks/vn/" lang="vi">Việt</a></li>
+		</ul>
+	</div>
+	</noscript>
+</div>
+
+</div><!-- FOOTER_END -->
+
+<!-- END_IBM-TOP -->
+</div>
+
+<!-- SCRIPTS_INCLUDE_BEGIN -->
+<script type="text/javascript" src="/developerworks/js/v17/dw-comments.js">//</script>
+<script type="text/javascript" language="JavaScript">
+		dojo.ready(function(){
+		rBHash = null;
+		rBHash = new Object();
+		rBHash['viperLang'] = 'en';
+		rBHash['urlLang'] = 'en';
+		
+		dwsi.siInst = new dwweb.dynnav.dwsi();
+		dwsi.siInst.initSI();		
+
+		// construct the comment widget
+		dwc && new dwc.comments('threadShow','95%',5,'nCmts','icomments');
+		});
+</script>
+
+<script type="text/javascript" src="/developerworks/js/v17/dw-event-tagging.js">//</script>
+<!-- BEGIN: Use this section to set page specific variables for the Unica Page Tag -->
+<script language="JavaScript">var NTPT_PGEXTRA="ibmSkillLevel=2&ibmCmaId=857492&ibmContentAreas=cloud,opensource";</script>
+<!--END --><!-- SCRIPTS_INCLUDE_END -->
+
+<div id="ibm-metrics">
+<script src="//dw1.s81c.com/common/stats/stats.js" type="text/javascript">//</script>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://www.ibm.com/developerworks/cloud/library/cl-optimizepythoncloud1/index.html
+1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-ZZ" xml:lang="en-ZZ">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<link rel="SHORTCUT ICON" href="http://www.ibm.com/favicon.ico" />
+<meta name="DC.Rights" content="© Copyright IBM Corp. 2011" />
+<meta name="Keywords" content="The page you requested cannot be displayed (HTTP response code 503)" />
+<meta name="DC.Date" scheme="iso8601" content="2011-11-23" />
+<meta name="Source" content="v17 Template Generator, Template 17.02" />
+<meta name="Security" content="Public" />
+<meta name="Abstract" content="The page you requested cannot be displayed (HTTP response code 503)" />
+<meta name="IBM.Effective" scheme="W3CDTF" content="2011-11-23" />
+<meta name="DC.Subject" scheme="IBM_SubjectTaxonomy" content="ZZ999" />
+<meta name="Owner" content="Corporate Webmaster/New York/IBM" />
+<meta name="DC.Language" scheme="rfc1766" content="en-ZZ"/>
+<meta name="IBM.Country" content="ZZ" />
+<meta name="Robots" content="noindex,follow" />
+<meta name="DC.Type" scheme="IBM_ContentClassTaxonomy" content="CT030" />
+<meta name="Description" content="The page you requested cannot be displayed (HTTP response code 503)" />
+
+<title>IBM notice: The page you requested cannot be displayed</title>
+<link href="//1.www.s81c.com/common/v17/css/www.css" rel="stylesheet" title="www" type="text/css" />
+<script type="text/javascript" src="//1.www.s81c.com/common/js/dojo/www.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+var ibmCommonErrorpagesStatus = '503';
+var ibmCommonErrorpagesDesc = 'Service Unavailable';
+//]]>
+</script>
+<script type="text/javascript" src="//1.www.s81c.com/common/errorpages/detect.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+ibmCommonErrorpagesScript('errorhead.js');
+//]]>
+</script>
+</head>
+<body id="ibm-com">
+<script type="text/javascript">
+//<![CDATA[
+ibmCommonErrorpagesScript('errorbody.js');
+//]]>
+</script><noscript>
+<div id="ibm-top"><!-- MASTHEAD_BEGIN -->
+<div class="ibm-access"><a href="#ibm-content">Skip to main content</a></div>
+<div id="ibm-masthead">
+<div id="ibm-mast-options">
+<ul>
+<li id="ibm-geo">
+<a href="http://www.ibm.com/planetwide/select/selector.html"><span class="ibm-access">Select a country/region: </span>Worldwide</a>
+</li>
+</ul>
+</div>
+<div id="ibm-universal-nav">
+<ul id="ibm-unav-links">
+<li id="ibm-home"><a href="http://www.ibm.com/">IBM®</a></li>
+</ul>
+<ul id="ibm-menu-links">
+<li><a href="http://www.ibm.com/sitemap/">Site map</a></li>
+</ul>
+<div id="ibm-search-module">
+<form id="ibm-search-form" action="http://www.ibm.com/Search/" method="get">
+<p><label for="q"><span class="ibm-access">Search</span></label> <input
+type="text" maxlength="100" value="" name="q" id="q" /> <input
+type="hidden" value="17" name="v" /> <input type="hidden" value="utf"
+name="en" /> <input type="hidden" value="en" name="lang" /> <input
+type="hidden" value="zz" name="cc" /> <input type="submit"
+id="ibm-search" class="ibm-btn-search" value="Submit" /></p>
+</form>
+</div>
+</div>
+</div>
+<!-- MASTHEAD_END -->
+
+<div id="ibm-pcon"><!-- CONTENT_BEGIN -->
+<div id="ibm-content">
+<div id="ibm-leadspace-head" class="ibm-alternate">
+<div id="ibm-leadspace-body">
+<h1>Our apologies…</h1>
+<p><em>The page you requested cannot be displayed</em></p>
+</div>
+</div>
+<!-- CONTENT_BODY -->
+<div id="ibm-content-body">
+<div id="ibm-content-main"><!-- LEADSPACE_BEGIN --> <!-- LEADSPACE_END -->
+<div class="ibm-container">
+<h2>Suggested actions</h2>
+<div class="ibm-container-body">
+<ul class="ibm-bullet-list ibm-no-links">
+<li>If you typed the address, please make sure that the spelling is correct.<br />Note: Most addresses are case sensitive.</li>
+<li>For information on IBM offerings, start from the <a href="http://www.ibm.com/">IBM homepage</a>.</li>
+<li>For information on printing systems, start from the <a href="http://www.infoprintsolutionscompany.com/">Infoprint Solutions Company homepage</a>.*</li>
+<li><a href="http://www.ibm.com/search/help/">Search the IBM Web site</a>.</li>
+</ul>
+</div>
+</div>
+<div class="ibm-container">
+<h2>Get assistance</h2>
+<div class="ibm-container-body">
+<p>This option lets you send an information request and tell us about a broken link. You will receive an e-mail from us to help you find what you need.</p>
+<form name="ibmContact" id="ibmContact"
+action="https://www.ibm.com/scripts/contact/contact/error"
+method="post" onSubmit="ibmCommonErrorpagesSet(this);return true">
+<input type="hidden" name="comment" value="An error was encountered while accessing an IBM Web site" />
+<input type="hidden" name="referer" />
+<input type="hidden" name="version" value="error" />
+<p><input class="ibm-btn-arrow-pri" name="ibm-continue" type="submit" value="Continue" /></p>
+</form>
+</div>
+</div>
+<p>503 Service Unavailable</p>
+<div class="ibm-container ibm-footnote">
+<div class="ibm-container-body">
+<p class="ibm-item-note"><sup>*</sup> Links notated by a grey asterisk (*) will take you to web sites for the following companies that sell former IBM products. Printing systems are now products of <a href="http://www.infoprintsolutionscompany.com/">InfoPrint Solutions Company</a>. ThinkPad® notebooks, ThinkCentre™ desktops and other PC products are now products of <a href="http://www.ibm.com/ibm/us/en/pcannouncement/">Lenovo</a>.</p>
+</div>
+</div>
+</div>
+<!-- FEATURES_BEGIN -->
+<div id="ibm-content-sidebar">
+<div id="ibm-contact-module"><!--IBM Contact Module--></div>
+<div id="ibm-merchandising-module"><!--IBM Web Merchandising Module-->
+</div>
+<div class="ibm-container">
+<h2 class="ibm-first">Self-help resources</h2>
+<div class="ibm-container-body">
+<ul class="ibm-link-list">
+<li class="ibm-first"><a class="ibm-forward-link" href="http://www.ibm.com/easyaccess/help/">Locate your IBM Easy Access site</a></li>
+<li><a class="ibm-forward-link" href="http://www.ibm.com/support/">Support &amp; downloads</a></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- FEATURES_END --> <!-- CONTENT_BODY_END --></div>
+</div>
+<!-- CONTENT_END --> <!-- NAVIGATION_BEGIN -->
+<div id="ibm-navigation">
+<h2 class="ibm-access">Content navigation</h2>
+<ul id="ibm-primary-links">
+<li id="ibm-overview"><a href="http://www.ibm.com/contact/">Contact IBM</a></li>
+</ul>
+
+<div id="ibm-secondary-navigation"><!-- SECONDARY NAVIGATION SECTION -->
+</div>
+
+</div>
+<!-- NAVIGATION_END --></div>
+<div id="ibm-related-content"></div>
+
+<!-- FOOTER_BEGIN -->
+<div id="ibm-footer-module"></div>
+<div id="ibm-footer">
+<h2 class="ibm-access">Footer links</h2>
+<ul>
+<li><a href="http://www.ibm.com/contact/">Contact</a></li>
+<li><a href="http://www.ibm.com/privacy/">Privacy</a></li>
+<li><a href="http://www.ibm.com/legal/">Terms of use</a></li>
+</ul>
+</div>
+<!-- FOOTER_END --></div>
+</noscript>
+<div id="ibm-metrics"><script src="//www.ibm.com/common/stats/stats.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
